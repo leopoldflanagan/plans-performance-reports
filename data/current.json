@@ -8,10 +8,10 @@
   "start": "2026-09-28",
   "end": "2026-10-25",
   "prev": "",
-  "prev_closed": null,
-  "closed": 304,
+  "prev_closed": 189,
+  "closed": 306,
   "discarded": 0,
-  "resolved": 304,
+  "resolved": 306,
   "unplanned": 0,
   "unp_pct": 0.0,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    137
+    139
    ],
    [
     "TechDebt",
@@ -38,7 +38,7 @@
   "day": 12,
   "days": 28,
   "status": "risk",
-  "headline": "304 items closed in the first 12 days. Cycle time median 11.7d and average 20.3d, both past the healthy band.",
+  "headline": "306 items closed in the first 12 days, a pace of about 714 for the month against 189 last month. Cycle time median 11.7d and average 20.3d, both past the healthy band.",
   "notes": [
    "cycle time median 11.7d and average 20.3d, both past the healthy band"
   ]
@@ -136,8 +136,8 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   325,
-   7,
+   326,
+   8,
    196,
    196,
    18,
@@ -195,7 +195,7 @@
   },
   "LL-Sprint 24-26": {
    "done": [
-    7,
+    8,
     0
    ],
    "open": [
@@ -396,8 +396,8 @@
     "To Do": 48,
     "Done": 169,
     "In Progress": 3,
-    "Closed": 74,
-    "Backlog": 13,
+    "Closed": 75,
+    "Backlog": 12,
     "In Stage": 11,
     "Ready Prod": 3,
     "In Development": 11,
@@ -413,13 +413,17 @@
   },
   "LL-Sprint 24-26": {
    "tis": {
+    "Backlog": {
+     "n": 115,
+     "med": 13.58
+    },
     "To Do": {
      "n": 119,
      "med": 13.58
     },
-    "Backlog": {
-     "n": 114,
-     "med": 13.58
+    "Closed": {
+     "n": 1,
+     "med": 13.47
     },
     "In Progress": {
      "n": 14,
@@ -463,8 +467,9 @@
     }
    },
    "dist": {
-    "To Do": 117,
     "Backlog": 114,
+    "To Do": 117,
+    "Closed": 1,
     "In Progress": 14,
     "Done": 24,
     "In Stage": 28,
@@ -479,7 +484,7 @@
    "stalled": 325,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 325
+   "items": 326
   }
  },
  "GHOST": {
@@ -523,7 +528,7 @@
  },
  "CAP": {
   "9.09": [
-   304,
+   306,
    263,
    771,
    22
@@ -535,8 +540,8 @@
    "avg": 20.31,
    "n": 223,
    "mx": 148.81,
-   "nodev": 81,
-   "base": 304
+   "nodev": 83,
+   "base": 306
   }
  },
  "complete": false,

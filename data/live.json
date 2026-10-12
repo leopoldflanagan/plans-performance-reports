@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T18:47:20Z",
+ "generated": "2026-10-12T19:05:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 34,
+    "n": 33,
     "points": 55,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -51,12 +51,22 @@
   ]
  },
  "projection": {
-  "too_early": true,
-  "why": "not enough closed sprints to compare against yet"
+  "too_early": false,
+  "day": 12,
+  "days": 12,
+  "n": 13,
+  "done_now": 167,
+  "committed": 351,
+  "lo": 167,
+  "mid": 167,
+  "hi": 167,
+  "pct": 48,
+  "verdict": "well short of the commitment",
+  "share_mid": 1.0
  },
  "admin": {
   "scope": {
-   "ready": 79,
+   "ready": 78,
    "sprint": 94,
    "sprint_name": "Plans-Sprint 23-26"
   },
@@ -64,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 13,
+    "n": 12,
     "items": [
-     {
-      "key": "PLANS-24414",
-      "summary": "Production - OneSmile Plan - WA Annual/WA 2 Yr. Plan"
-     },
      {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
@@ -97,6 +103,10 @@
      {
       "key": "PLANS-11252",
       "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
+     },
+     {
+      "key": "PLANS-11249",
+      "summary": "Blocked DYN 265 > WFPLNS > Discount Plan 2 Individuals> CRM email child turning "
      }
     ]
    },
@@ -114,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 52,
+    "n": 51,
     "items": [
-     {
-      "key": "PLANS-24414",
-      "summary": "Production - OneSmile Plan - WA Annual/WA 2 Yr. Plan"
-     },
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
@@ -147,6 +153,10 @@
      {
       "key": "PLANS-23969",
       "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
+     },
+     {
+      "key": "PLANS-23967",
+      "summary": "[4.3.W1] Publish retry-payment-failed, retry-succeeded and retry-exhausted event"
      }
     ]
    },
@@ -235,12 +245,8 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 54,
+    "n": 53,
     "items": [
-     {
-      "key": "PLANS-24414",
-      "summary": "Production - OneSmile Plan - WA Annual/WA 2 Yr. Plan"
-     },
      {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
@@ -268,19 +274,23 @@
      {
       "key": "PLANS-23964",
       "summary": "[4.1.W1] Extend the auto-renewal Slack post and admin email with retry states, n"
+     },
+     {
+      "key": "PLANS-23962",
+      "summary": "[3.4.W1] Take-payment accepts a balance payment from any plan that is not disabl"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 167 of 173 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 167,
+    "why": "missing on 166 of 172 items. This reads as a field the team does not use rather than 166 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 166,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 171 of 173 items. This reads as a field the team does not use rather than 171 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 171,
+    "why": "missing on 170 of 172 items. This reads as a field the team does not use rather than 170 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 170,
     "items": []
    },
    {
@@ -454,7 +464,7 @@
   "end": "2026-10-25",
   "day": 15,
   "days": 28,
-  "closed": 304,
+  "closed": 306,
   "points": 771,
   "unplanned": null,
   "unplanned_pct": null,
@@ -486,7 +496,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 27,
+    "open": 26,
     "med_age": 7.2,
     "max_age": 32.7,
     "worst_key": "PLANS-22675",
@@ -494,7 +504,7 @@
     "worst_who": "unassigned",
     "over": 14,
     "clear_med": 1.1,
-    "clear_n": 216
+    "clear_n": 217
    },
    {
     "status": "In Development",
@@ -506,12 +516,12 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 609
+    "clear_n": 610
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 21.4,
+    "med_age": 21.5,
     "max_age": 40.0,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -522,7 +532,7 @@
    },
    {
     "status": "PR Created",
-    "open": 21,
+    "open": 22,
     "med_age": 3.5,
     "max_age": 26.2,
     "worst_key": "PLANS-22703",
@@ -535,8 +545,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 39.2,
-    "max_age": 39.2,
+    "med_age": 39.3,
+    "max_age": 39.3,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -595,7 +605,7 @@
   ],
   "parked": {
    "On Hold": 5,
-   "Backlog": 208
+   "Backlog": 206
   },
   "open_total": 133,
   "stale": 32,
