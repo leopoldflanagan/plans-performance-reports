@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T20:39:46Z",
+ "generated": "2026-10-12T21:05:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -452,8 +452,8 @@
   "end": "2026-10-25",
   "day": 15,
   "days": 28,
-  "closed": 306,
-  "points": 772,
+  "closed": 307,
+  "points": 774,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -472,12 +472,12 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 55,
+    "open": 54,
     "med_age": 3.9,
     "max_age": 4.0,
-    "worst_key": "PLANS-23691",
-    "worst_sum": "[2.2.W2] Carry the not-for-sale flag through TemplateHelper (both repos) and PlanOptionSer",
-    "worst_who": "Daryl Myrick",
+    "worst_key": "PLANS-24033",
+    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.6,
     "clear_n": 389
@@ -485,14 +485,14 @@
    {
     "status": "Ready for Development",
     "open": 26,
-    "med_age": 7.2,
+    "med_age": 7.3,
     "max_age": 32.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 14,
     "clear_med": 1.1,
-    "clear_n": 216
+    "clear_n": 214
    },
    {
     "status": "In Development",
@@ -504,7 +504,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 612
+    "clear_n": 610
    },
    {
     "status": "WAITING REVIEW",
@@ -528,7 +528,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 627
+    "clear_n": 626
    },
    {
     "status": "Identified",
@@ -546,25 +546,25 @@
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.2,
-    "max_age": 3.2,
+    "max_age": 3.3,
     "worst_key": "PLANS-24278",
     "worst_sum": "Open network issue (stage & prod)",
     "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 595
+    "clear_n": 594
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "In PreProd",
+    "open": 3,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24368",
+    "worst_sum": "One Smile - WA Change in Benefits on Front Page",
+    "worst_who": "Daryl Myrick",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 44
+    "clear_med": 0.1,
+    "clear_n": 8
    },
    {
     "status": "Ready for Stage",
@@ -579,23 +579,23 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 5,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24368",
-    "worst_sum": "One Smile - WA Change in Benefits on Front Page",
-    "worst_who": "Daryl Myrick",
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 8
+    "clear_med": 3.0,
+    "clear_n": 43
    }
   ],
   "parked": {
-   "Backlog": 206,
-   "On Hold": 5
+   "On Hold": 5,
+   "Backlog": 207
   },
-  "open_total": 134,
+  "open_total": 131,
   "stale": 32,
   "worst": "In Stage"
  }
