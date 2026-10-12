@@ -1,0 +1,42 @@
+{
+  "_": "The words Plans uses for the measurement. The method is in the scripts; this is the vocabulary. A value left out is reported as unavailable, with its reason, never defaulted to another team's.",
+
+  "team": "PLANS",
+  "label": "Plans",
+  "project": "PLANS",
+  "board": 15,
+
+  "_pods": "Plans is the only team at Wellfit with two pods on one board, and board 15 also carries EDW's, Platform's and QA's sprints. A sprint belongs to a pod by how it is named, because nothing else in Jira separates them. Plans has used six naming schemes since 2024, so its pod lists the ones that are still worth reading; the longest match wins, which is why 'Plan-' cannot swallow 'Plans-'.",
+  "pods": [
+    { "key": "PLANS", "name": "Plans",           "sprint_prefix": ["Plans", "Plan-", "R8.26"] },
+    { "key": "LL",    "name": "Launch Loyalty",  "sprint_prefix": ["LL"] }
+  ],
+
+  "counts": {
+    "_": "Features and bugs. Sub-tasks are excluded, as on every other team -- in the 9.08 window that is 574 sub-tasks against 416 stories and bugs, so this is a real choice and not a formality.",
+    "exclude_types": ["Sub-task", "Epic"],
+    "done_statuses": ["Closed", "Ready Prod"],
+    "delivered_resolution": "Done"
+  },
+
+  "flow": {
+    "_": "Plans runs a full QA and staging pipeline, which EDW and DS do not. That is where its step breakdown earns its keep.",
+    "ready_status": "Ready for Development",
+    "terminal_statuses": ["Closed", "Ready Prod", "Will Not Implement", "Deferred"],
+    "parked_statuses": ["Backlog", "On Hold", "Deferred"],
+    "queue_out_statuses": ["Backlog"],
+    "stalled_days": 3,
+    "sprint_label_prefixes": ["Plans-Sprint ", "LL-Sprint "]
+  },
+
+  "reactive": {
+    "_": "Plans applies no reactive label at all: zero uses in the 9.08 window. Left empty on purpose, so the report says the question was never asked rather than publishing 0%.",
+    "labels": [],
+    "types": []
+  },
+
+  "pages": {
+    "_": "Plans has no capacity page and no sign-off register yet. Those panels report as unavailable until the pages exist and their ids are added here.",
+    "schedule": "2842362029"
+  }
+}

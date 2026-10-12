@@ -1,0 +1,127 @@
+name: Refresh live data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'      # GitHub's own timer: best effort, often late
+  repository_dispatch:
+    types: [refresh]            # what cron-job.org triggers, every 15 minutes
+  workflow_dispatch:            # the "Run workflow" button, for testing
+    inputs:
+      selfcheck:
+        description: 'Recompute one frozen sprint and print the delta (e.g. EDW-Sprint 20-26)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: true
+
+env:
+  # Not secret, so they live here instead of in repository variables.
+  # The DS repo uses the same file with these three lines changed.
+  JIRA_BASE:   https://wellfit.atlassian.net
+  TEAM_KEY:    PLANS
+  BOARD_ID:    "15"          # "Plans Team Scrum Board". It also carries Launch
+                             #   Loyalty's sprints, EDW's, Platform's and QA's --
+                             #   which pod a sprint belongs to is decided in
+                             #   config/team.json, by how the sprint is named.
+  PROJECT_KEY: PLANS
+  SCHEDULE_PAGE: "2842362029"   # Release Schedule 2026, WF Releases space
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Pull from Jira and rebuild the pages
+        env:
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
+          SELFCHECK:  ${{ github.event.inputs.selfcheck }}
+        run: |
+          # two seconds here beats a six-minute round trip through CI for a typo
+          python3 -m py_compile scripts/fetch_jira.py scripts/build_reports.py || {
+            echo "### Refresh - the scripts do not compile" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            python3 -m py_compile scripts/fetch_jira.py scripts/build_reports.py 2>&1 \
+              | tail -n 20 >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          }
+          # The team's vocabulary, validated without touching Jira. A missing or
+          # contradictory value fails here in two seconds instead of after a
+          # six-minute run that publishes another team's words as this team's.
+          python3 scripts/teamconfig.py . || {
+            echo "### Refresh - the team configuration is not usable" >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          }
+          {
+            echo "--- config check -------------------------------------"
+            echo "  JIRA_BASE   $JIRA_BASE"
+            echo "  board $BOARD_ID / project $PROJECT_KEY / team $TEAM_KEY"
+            echo "  JIRA_EMAIL  ${#JIRA_EMAIL} characters, after the @: ${JIRA_EMAIL#*@}"
+            echo "  JIRA_TOKEN  ${#JIRA_TOKEN} characters"
+            echo "------------------------------------------------------"
+            if [ -z "$JIRA_EMAIL" ] || [ -z "$JIRA_TOKEN" ]; then
+              echo "CONFIG ERROR: a secret arrived empty."
+              echo "Settings -> Secrets and variables -> Actions -> tab 'Secrets'."
+              echo "The names must be exactly JIRA_EMAIL and JIRA_TOKEN."
+            fi
+          } | tee /tmp/run.log
+          set +e
+          python3 scripts/fetch_jira.py \
+            --team "$TEAM_KEY" --board "$BOARD_ID" --project "$PROJECT_KEY" \
+            --out data/live.json --month-out data/current.json \
+            ${SELFCHECK:+--selfcheck "$SELFCHECK"} 2>&1 | tee -a /tmp/run.log
+          code=${PIPESTATUS[0]}
+          if [ "$code" = "0" ] && [ -z "$SELFCHECK" ]; then
+            python3 scripts/build_reports.py --all 2>&1 | tee -a /tmp/run.log
+            code=${PIPESTATUS[0]}
+            # The close happens after the pages are written, so the run that
+            # closes a release renders it from the figure it is about to replace.
+            # Build once more and this same run publishes the final one.
+            if [ "$code" = "0" ] && grep -q "into frozen.json" /tmp/run.log; then
+              python3 scripts/build_reports.py --all 2>&1 | tee -a /tmp/run.log
+              code=${PIPESTATUS[0]}
+            fi
+          fi
+          {
+            echo "### Refresh - exit code $code"
+            echo ''
+            echo '```'
+            tail -n 60 /tmp/run.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit $code
+
+      - name: Commit only what actually changed
+        run: |
+          git config user.name  "live-data bot"
+          git config user.email "actions@github.com"
+          # anything other than data/live.json is a real change
+          other=$(git status --porcelain -- . ':(exclude)data/live.json' | wc -l)
+          if [ "$other" -gt 0 ]; then
+            git add -A
+            git commit -m "reports: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+            exit 0
+          fi
+          # only live.json moved: skip when it is just the timestamp line
+          if git diff --quiet -- data/live.json; then
+            echo "no change"; exit 0
+          fi
+          if [ "$(git diff -- data/live.json | grep -c '^[+-][^+-]')" -le 2 ]; then
+            echo "only the timestamp moved - skipping commit"
+            git checkout -- data/live.json; exit 0
+          fi
+          git add data/live.json
+          git commit -m "live data: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
