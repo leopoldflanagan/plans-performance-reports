@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T19:05:59Z",
+ "generated": "2026-10-12T19:37:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,12 +12,12 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 3,
-   "points": 13
+   "items": 5,
+   "points": 18
   },
   "misfiled": {
    "items": 31,
-   "points": 126
+   "points": 128
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -27,13 +27,13 @@
    {
     "rule": "Groomed but still in Backlog",
     "n": 31,
-    "points": 126,
+    "points": 128,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 33,
-    "points": 55,
+    "n": 30,
+    "points": 49,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -54,19 +54,19 @@
   "too_early": false,
   "day": 12,
   "days": 12,
-  "n": 13,
-  "done_now": 167,
+  "n": 17,
+  "done_now": 168,
   "committed": 351,
-  "lo": 167,
-  "mid": 167,
-  "hi": 167,
+  "lo": 168,
+  "mid": 168,
+  "hi": 168,
   "pct": 48,
   "verdict": "well short of the commitment",
   "share_mid": 1.0
  },
  "admin": {
   "scope": {
-   "ready": 78,
+   "ready": 77,
    "sprint": 94,
    "sprint_name": "Plans-Sprint 23-26"
   },
@@ -74,7 +74,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 12,
+    "n": 11,
     "items": [
      {
       "key": "PLANS-24101",
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 48,
     "items": [
      {
       "key": "PLANS-24273",
@@ -228,24 +228,13 @@
       "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
      }
     ]
-   },
-   {
-    "rule": "Still in Backlog inside the sprint",
-    "why": "in the sprint but never pulled into the flow.",
-    "n": 1,
-    "items": [
-     {
-      "key": "PLANS-24267",
-      "summary": "Prod/DCA/Logo missing in member agreement in PMP"
-     }
-    ]
    }
   ],
   "debt": [
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 53,
+    "n": 47,
     "items": [
      {
       "key": "PLANS-24101",
@@ -260,43 +249,43 @@
       "summary": "Member Portal -  Inconsistent Font Sizes/Styles/ link colors in Legal Consent Se"
      },
      {
-      "key": "PLANS-23969",
-      "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
+      "key": "PLANS-22184",
+      "summary": "CRM -  V3 Member Portal \\ CRM \\ Responsible Party \\ Welcome Email Sent Twice and"
      },
      {
-      "key": "PLANS-23967",
-      "summary": "[4.3.W1] Publish retry-payment-failed, retry-succeeded and retry-exhausted event"
+      "key": "PLANS-15952",
+      "summary": "[4.7] Daily ledger reconciliation report and imbalance alert"
      },
      {
-      "key": "PLANS-23965",
-      "summary": "[4.2.W1] Log member activity on the Retry Scheduled and Self-Cured branches"
+      "key": "PLANS-15950",
+      "summary": "[4.6] Fix per-plan balance bug in PlanLedgerManager"
      },
      {
-      "key": "PLANS-23964",
-      "summary": "[4.1.W1] Extend the auto-renewal Slack post and admin email with retry states, n"
+      "key": "PLANS-15948",
+      "summary": "[4.5] Add filtered composite indexes for state service performance"
      },
      {
-      "key": "PLANS-23962",
-      "summary": "[3.4.W1] Take-payment accepts a balance payment from any plan that is not disabl"
+      "key": "PLANS-15946",
+      "summary": "[4.4] Establish ReferenceId convention for FIFO payment application"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 166 of 172 items. This reads as a field the team does not use rather than 166 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 166,
+    "why": "missing on 165 of 171 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 165,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 170 of 172 items. This reads as a field the team does not use rather than 170 oversights. Worth deciding: adopt it or stop asking for it.",
+    "why": "missing on 170 of 171 items. This reads as a field the team does not use rather than 170 oversights. Worth deciding: adopt it or stop asking for it.",
     "n": 170,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 24,
+    "n": 23,
     "items": [
      {
       "key": "PLANS-22675",
@@ -309,10 +298,6 @@
      {
       "key": "PLANS-21585",
       "summary": "One Smile - Incorrect email behavior for Individual Plus and OneSmile Dental Pla"
-     },
-     {
-      "key": "PLANS-21154",
-      "summary": "All Portals - Plan Details - Custom Logo Not Visible in Plan Detail Document (le"
      },
      {
       "key": "PLANS-18564",
@@ -329,6 +314,10 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
+     },
+     {
+      "key": "PLANS-14582",
+      "summary": "Update UI for CSP"
      }
     ]
    }
@@ -366,20 +355,20 @@
   "start": "2026-09-29",
   "end": "2026-10-11",
   "goal": "",
-  "items": 347,
+  "items": 349,
   "items_done": 60,
   "committed": 351,
-  "final": 457,
-  "completed": 167,
-  "scope_change": 30,
+  "final": 459,
+  "completed": 168,
+  "scope_change": 31,
   "vs_commitment": 48,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 17,
-   "open_pts": 75.0,
-   "out_items": 33,
-   "out_pts": 128.0,
-   "done_pts": 254.0
+   "open_items": 16,
+   "open_pts": 74.0,
+   "out_items": 36,
+   "out_pts": 130.0,
+   "done_pts": 255.0
   },
   "recv": {
    "items": 3,
@@ -390,10 +379,10 @@
   "spill_rate": 44,
   "dist": {
    "To Do": 48,
+   "In PreProd": 1,
    "Done": 169,
    "In Progress": 3,
    "Closed": 70,
-   "Backlog": 1,
    "In Stage": 11,
    "Ready Prod": 3,
    "In Development": 3,
@@ -425,12 +414,12 @@
    385.0,
    387.0,
    427.0,
-   447.0,
-   449.0,
-   455.0,
-   457.0,
-   457.0,
-   457.0
+   448.0,
+   450.0,
+   456.0,
+   458.0,
+   458.0,
+   458.0
   ],
   "ghost": [
    327.0,
@@ -465,7 +454,7 @@
   "day": 15,
   "days": 28,
   "closed": 306,
-  "points": 771,
+  "points": 772,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -484,8 +473,8 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 55,
-    "med_age": 3.8,
+    "open": 58,
+    "med_age": 3.9,
     "max_age": 3.9,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -504,7 +493,7 @@
     "worst_who": "unassigned",
     "over": 14,
     "clear_med": 1.1,
-    "clear_n": 217
+    "clear_n": 216
    },
    {
     "status": "In Development",
@@ -521,7 +510,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 21.5,
+    "med_age": 21.6,
     "max_age": 40.0,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -532,7 +521,7 @@
    },
    {
     "status": "PR Created",
-    "open": 22,
+    "open": 21,
     "med_age": 3.5,
     "max_age": 26.2,
     "worst_key": "PLANS-22703",
@@ -540,7 +529,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 624
+    "clear_n": 626
    },
    {
     "status": "Identified",
@@ -556,7 +545,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 5,
+    "open": 4,
     "med_age": 0.1,
     "max_age": 3.2,
     "worst_key": "PLANS-24278",
@@ -564,31 +553,7 @@
     "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 590
-   },
-   {
-    "status": "In QA",
-    "open": 1,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24289",
-    "worst_sum": "PLANS-24289: PRODUCTION: Smile Health: Purchase flow: If you select the back button when y",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 43
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 7
+    "clear_n": 593
    },
    {
     "status": "Ready for Stage",
@@ -601,13 +566,37 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 44
+   },
+   {
+    "status": "In PreProd",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24384",
+    "worst_sum": "PreProd-PMP-Logo Missing form Membership Agreement for One SMile",
+    "worst_who": "Dima Shtympel",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 7
    }
   ],
   "parked": {
-   "On Hold": 5,
-   "Backlog": 206
+   "Backlog": 206,
+   "On Hold": 5
   },
-  "open_total": 133,
+  "open_total": 134,
   "stale": 32,
   "worst": "In Stage"
  }
