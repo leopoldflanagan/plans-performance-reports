@@ -51,18 +51,18 @@
    "Oct 12",
    588,
    124,
-   485,
+   487,
    658,
    472,
-   36,
+   35,
    [
-    438.0,
-    419.0,
-    392.0,
-    379.0,
-    371.0,
-    367.0,
-    367.0,
+    440.0,
+    421.0,
+    394.0,
+    381.0,
+    373.0,
+    369.0,
+    369.0,
     361.0,
     333.0,
     313.0,
@@ -73,13 +73,13 @@
     186.0
    ],
    [
-    450.0,
-    485.0,
-    507.0,
-    510.0,
-    518.0,
-    525.0,
-    525.0,
+    452.0,
+    487.0,
+    509.0,
+    512.0,
+    520.0,
+    527.0,
+    527.0,
     538.0,
     553.0,
     568.0,
@@ -200,12 +200,12 @@
     9
    ],
    "open": [
-    165,
-    182
+    166,
+    184
    ],
    "out": [
-    1,
-    2
+    0,
+    0
    ],
    "in": [
     5,
@@ -218,7 +218,7 @@
  "SPLIT": {
   "LL-Sprint 23-26": {
    "react": 0,
-   "plan": 79,
+   "plan": 78,
    "pct": 0
   },
   "Plans-Sprint 23-26": {
@@ -236,7 +236,7 @@
      "med": 13.94
     },
     "Backlog": {
-     "n": 171,
+     "n": 170,
      "med": 13.96
     },
     "In Progress": {
@@ -313,14 +313,13 @@
     "In Progress": 14,
     "To Do": 98,
     "Backlog": 112,
-    "In Development": 3,
+    "In Development": 4,
     "Ready Prod": 11,
     "Closed": 115,
     "PR Merged": 2,
     "Ready for Development": 10,
     "Will Not Implement": 2,
     "WAITING REVIEW": 3,
-    "In PreProd": 1,
     "In Stage": 21,
     "On Hold": 4,
     "PR Created": 3
@@ -443,8 +442,8 @@
      "med": 13.58
     },
     "In Development": {
-     "n": 6,
-     "med": 13.39
+     "n": 7,
+     "med": 13.35
     },
     "PR Created": {
      "n": 6,
@@ -485,12 +484,11 @@
     "Done": 30,
     "Closed": 1,
     "In Progress": 13,
-    "In Development": 4,
+    "In Development": 5,
     "Ready Prod": 4,
     "PR Merged": 2,
     "Ready for Development": 10,
     "WAITING REVIEW": 3,
-    "In PreProd": 1,
     "In Stage": 26,
     "On Hold": 4,
     "PR Created": 2,
@@ -504,13 +502,13 @@
  },
  "GHOST": {
   "LL-Sprint 23-26": [
-   438.0,
-   419.0,
-   392.0,
-   379.0,
-   371.0,
-   367.0,
-   367.0,
+   440.0,
+   421.0,
+   394.0,
+   381.0,
+   373.0,
+   369.0,
+   369.0,
    361.0,
    333.0,
    313.0,

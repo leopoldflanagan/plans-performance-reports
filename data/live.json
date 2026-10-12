@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T22:06:29Z",
+ "generated": "2026-10-12T22:38:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -496,8 +496,8 @@
    },
    {
     "status": "In Development",
-    "open": 19,
-    "med_age": 7.4,
+    "open": 20,
+    "med_age": 7.3,
     "max_age": 17.3,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -556,7 +556,7 @@
    },
    {
     "status": "In PreProd",
-    "open": 2,
+    "open": 1,
     "med_age": 0.1,
     "max_age": 0.1,
     "worst_key": "PLANS-24368",
@@ -564,19 +564,7 @@
     "worst_who": "Daryl Myrick",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 8
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 9
    },
    {
     "status": "In QA",
@@ -589,6 +577,18 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 43
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
