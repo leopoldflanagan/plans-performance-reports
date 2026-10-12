@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T20:06:37Z",
+ "generated": "2026-10-12T20:39:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -355,7 +355,7 @@
   "start": "2026-09-29",
   "end": "2026-10-11",
   "goal": "",
-  "items": 349,
+  "items": 350,
   "items_done": 60,
   "committed": 351,
   "final": 459,
@@ -364,10 +364,10 @@
   "vs_commitment": 48,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 16,
-   "open_pts": 74.0,
-   "out_items": 36,
-   "out_pts": 130.0,
+   "open_items": 17,
+   "open_pts": 75.0,
+   "out_items": 35,
+   "out_pts": 129.0,
    "done_pts": 255.0
   },
   "recv": {
@@ -378,14 +378,13 @@
   },
   "spill_rate": 44,
   "dist": {
-   "To Do": 48,
-   "In PreProd": 1,
-   "Done": 169,
-   "In Progress": 3,
+   "In Progress": 4,
+   "To Do": 20,
+   "In Development": 4,
+   "Done": 197,
    "Closed": 70,
    "In Stage": 11,
    "Ready Prod": 3,
-   "In Development": 3,
    "Will Not Implement": 4,
    "On Hold": 2
   },
@@ -475,10 +474,10 @@
     "status": "In Stage",
     "open": 55,
     "med_age": 3.9,
-    "max_age": 3.9,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 4.0,
+    "worst_key": "PLANS-23691",
+    "worst_sum": "[2.2.W2] Carry the not-for-sale flag through TemplateHelper (both repos) and PlanOptionSer",
+    "worst_who": "Daryl Myrick",
     "over": 0,
     "clear_med": 3.6,
     "clear_n": 389
@@ -487,7 +486,7 @@
     "status": "Ready for Development",
     "open": 26,
     "med_age": 7.2,
-    "max_age": 32.7,
+    "max_age": 32.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -497,21 +496,21 @@
    },
    {
     "status": "In Development",
-    "open": 19,
-    "med_age": 7.4,
-    "max_age": 17.2,
+    "open": 18,
+    "med_age": 9.9,
+    "max_age": 17.3,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 610
+    "clear_n": 612
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 21.6,
-    "max_age": 40.0,
+    "max_age": 40.1,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -521,9 +520,9 @@
    },
    {
     "status": "PR Created",
-    "open": 20,
+    "open": 22,
     "med_age": 3.5,
-    "max_age": 26.2,
+    "max_age": 26.3,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -546,7 +545,7 @@
    {
     "status": "PR Merged",
     "open": 3,
-    "med_age": 0.1,
+    "med_age": 0.2,
     "max_age": 3.2,
     "worst_key": "PLANS-24278",
     "worst_sum": "Open network issue (stage & prod)",
@@ -554,18 +553,6 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 595
-   },
-   {
-    "status": "In PreProd",
-    "open": 6,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24384",
-    "worst_sum": "PreProd-PMP-Logo Missing form Membership Agreement for One SMile",
-    "worst_who": "Dima Shtympel",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 7
    },
    {
     "status": "In QA",
@@ -590,6 +577,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 5,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24368",
+    "worst_sum": "One Smile - WA Change in Benefits on Front Page",
+    "worst_who": "Daryl Myrick",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 8
    }
   ],
   "parked": {
