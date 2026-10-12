@@ -3127,8 +3127,8 @@
    "closed": 109,
    "discarded": 2,
    "resolved": 111,
-   "unplanned": 0,
-   "unp_pct": 0.0,
+   "unplanned": null,
+   "unp_pct": null,
    "types": [
     [
      "Bug",
@@ -3217,8 +3217,8 @@
    "closed": 120,
    "discarded": 1,
    "resolved": 121,
-   "unplanned": 0,
-   "unp_pct": 0.0,
+   "unplanned": null,
+   "unp_pct": null,
    "types": [
     [
      "Bug",
@@ -3269,8 +3269,8 @@
    "closed": 276,
    "discarded": 19,
    "resolved": 295,
-   "unplanned": 0,
-   "unp_pct": 0.0,
+   "unplanned": null,
+   "unp_pct": null,
    "types": [
     [
      "Story",
@@ -3319,8 +3319,8 @@
    "closed": 231,
    "discarded": 0,
    "resolved": 231,
-   "unplanned": 0,
-   "unp_pct": 0.0,
+   "unplanned": null,
+   "unp_pct": null,
    "types": [
     [
      "Story",
@@ -3369,8 +3369,8 @@
    "closed": 252,
    "discarded": 1,
    "resolved": 253,
-   "unplanned": 0,
-   "unp_pct": 0.0,
+   "unplanned": null,
+   "unp_pct": null,
    "types": [
     [
      "Story",
