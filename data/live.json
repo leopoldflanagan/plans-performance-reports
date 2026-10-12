@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T21:05:34Z",
+ "generated": "2026-10-12T21:36:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 30,
-    "points": 49,
+    "n": 31,
+    "points": 54,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -378,10 +378,10 @@
   },
   "spill_rate": 44,
   "dist": {
-   "In Progress": 4,
-   "To Do": 20,
+   "In Progress": 5,
+   "To Do": 9,
    "In Development": 4,
-   "Done": 197,
+   "Done": 207,
    "Closed": 70,
    "In Stage": 11,
    "Ready Prod": 3,
@@ -472,15 +472,15 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 54,
+    "open": 53,
     "med_age": 3.9,
     "max_age": 4.0,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 0,
-    "clear_med": 3.6,
-    "clear_n": 389
+    "clear_med": 3.4,
+    "clear_n": 393
    },
    {
     "status": "Ready for Development",
@@ -496,20 +496,20 @@
    },
    {
     "status": "In Development",
-    "open": 18,
-    "med_age": 9.9,
+    "open": 19,
+    "med_age": 7.4,
     "max_age": 17.3,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 610
+    "clear_n": 612
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 21.6,
+    "med_age": 21.7,
     "max_age": 40.1,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -528,13 +528,13 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 626
+    "clear_n": 628
    },
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 39.3,
-    "max_age": 39.3,
+    "med_age": 39.4,
+    "max_age": 39.4,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -552,13 +552,13 @@
     "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 594
+    "clear_n": 596
    },
    {
     "status": "In PreProd",
-    "open": 3,
-    "med_age": 0.0,
-    "max_age": 0.0,
+    "open": 2,
+    "med_age": 0.1,
+    "max_age": 0.1,
     "worst_key": "PLANS-24368",
     "worst_sum": "One Smile - WA Change in Benefits on Front Page",
     "worst_who": "Daryl Myrick",
@@ -593,9 +593,9 @@
   ],
   "parked": {
    "On Hold": 5,
-   "Backlog": 207
+   "Backlog": 206
   },
-  "open_total": 131,
+  "open_total": 130,
   "stale": 32,
   "worst": "In Stage"
  }
