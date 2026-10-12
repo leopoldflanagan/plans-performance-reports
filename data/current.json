@@ -309,10 +309,10 @@
     }
    },
    "dist": {
-    "Done": 189,
-    "In Progress": 14,
+    "Done": 190,
     "To Do": 98,
     "Backlog": 112,
+    "In Progress": 13,
     "In Development": 4,
     "Ready Prod": 11,
     "Closed": 115,
@@ -426,7 +426,7 @@
      "med": 13.58
     },
     "Done": {
-     "n": 30,
+     "n": 31,
      "med": 13.58
     },
     "Closed": {
@@ -481,9 +481,9 @@
    "dist": {
     "Backlog": 117,
     "To Do": 115,
-    "Done": 30,
+    "Done": 31,
     "Closed": 1,
-    "In Progress": 13,
+    "In Progress": 12,
     "In Development": 5,
     "Ready Prod": 4,
     "PR Merged": 2,

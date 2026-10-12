@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T22:38:18Z",
+ "generated": "2026-10-12T23:05:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -474,10 +474,10 @@
     "status": "In Stage",
     "open": 51,
     "med_age": 4.0,
-    "max_age": 4.0,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 4.1,
+    "worst_key": "PLANS-23691",
+    "worst_sum": "[2.2.W2] Carry the not-for-sale flag through TemplateHelper (both repos) and PlanOptionSer",
+    "worst_who": "Daryl Myrick",
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 395
@@ -486,7 +486,7 @@
     "status": "Ready for Development",
     "open": 26,
     "med_age": 7.3,
-    "max_age": 32.8,
+    "max_age": 32.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -498,19 +498,19 @@
     "status": "In Development",
     "open": 20,
     "med_age": 7.3,
-    "max_age": 17.3,
+    "max_age": 17.4,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 612
+    "clear_n": 613
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 21.7,
-    "max_age": 40.1,
+    "max_age": 40.2,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -520,9 +520,9 @@
    },
    {
     "status": "PR Created",
-    "open": 22,
+    "open": 23,
     "med_age": 3.6,
-    "max_age": 26.3,
+    "max_age": 26.4,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -545,7 +545,7 @@
    {
     "status": "PR Merged",
     "open": 3,
-    "med_age": 0.2,
+    "med_age": 0.3,
     "max_age": 3.3,
     "worst_key": "PLANS-24278",
     "worst_sum": "Open network issue (stage & prod)",
@@ -553,18 +553,6 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 596
-   },
-   {
-    "status": "In PreProd",
-    "open": 1,
-    "med_age": 0.1,
-    "max_age": 0.1,
-    "worst_key": "PLANS-24368",
-    "worst_sum": "One Smile - WA Change in Benefits on Front Page",
-    "worst_who": "Daryl Myrick",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 9
    },
    {
     "status": "In QA",
@@ -589,6 +577,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 10
    }
   ],
   "parked": {
