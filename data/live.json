@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T06:59:58Z",
+ "generated": "2026-10-13T07:34:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -509,7 +509,7 @@
    {
     "status": "PR Created",
     "open": 23,
-    "med_age": 3.9,
+    "med_age": 4.0,
     "max_age": 26.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -521,7 +521,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 22.0,
+    "med_age": 22.1,
     "max_age": 40.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -555,18 +555,6 @@
     "clear_n": 595
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -589,6 +577,18 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 43
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
