@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T18:44:18Z",
+ "generated": "2026-10-13T19:05:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 33,
-    "points": 54,
+    "n": 32,
+    "points": 52,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 80,
+   "ready": 79,
    "sprint": 178,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 50,
     "items": [
-     {
-      "key": "PLANS-24421",
-      "summary": "STAGE - Plan Details -Downloading PDF -  Getting a 400 error for below mentioned"
-     },
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-23969",
       "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
+     },
+     {
+      "key": "PLANS-23967",
+      "summary": "[4.3.W1] Publish retry-payment-failed, retry-succeeded and retry-exhausted event"
      }
     ]
    },
@@ -244,10 +244,6 @@
     "n": 24,
     "items": [
      {
-      "key": "PLANS-24421",
-      "summary": "STAGE - Plan Details -Downloading PDF -  Getting a 400 error for below mentioned"
-     },
-     {
       "key": "PLANS-23969",
       "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
      },
@@ -274,6 +270,10 @@
      {
       "key": "PLANS-15940",
       "summary": "[4.1] Add GetPlanLedgerState method to PlanLedgerManager"
+     },
+     {
+      "key": "PLANS-15928",
+      "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
      }
     ]
    },
@@ -321,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 162,
+    "n": 161,
     "items": [
      {
       "key": "PLANS-24101",
@@ -468,13 +468,13 @@
    "Done": 34,
    "To Do": 118,
    "Backlog": 113,
-   "In Stage": 30,
+   "In Stage": 31,
    "Closed": 5,
-   "Ready for Development": 11,
    "PR Created": 5,
    "In Progress": 11,
    "In Development": 2,
    "Ready Prod": 6,
+   "Ready for Development": 10,
    "WAITING REVIEW": 3,
    "On Hold": 3,
    "Will Not Implement": 1
@@ -531,7 +531,7 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 58,
+    "open": 59,
     "med_age": 4.8,
     "max_age": 4.9,
     "worst_key": "PLANS-24033",
@@ -543,32 +543,20 @@
    },
    {
     "status": "Ready for Development",
-    "open": 28,
-    "med_age": 7.6,
+    "open": 27,
+    "med_age": 8.2,
     "max_age": 33.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 17,
     "clear_med": 1.1,
-    "clear_n": 216
-   },
-   {
-    "status": "PR Created",
-    "open": 25,
-    "med_age": 4.3,
-    "max_age": 27.2,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 4,
-    "clear_med": 0.0,
-    "clear_n": 624
+    "clear_n": 217
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 22.4,
+    "med_age": 22.5,
     "max_age": 41.0,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -580,8 +568,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 40.2,
-    "max_age": 40.2,
+    "med_age": 40.3,
+    "max_age": 40.3,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -590,8 +578,20 @@
     "clear_n": 2
    },
    {
+    "status": "PR Created",
+    "open": 27,
+    "med_age": 1.4,
+    "max_age": 27.2,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 4,
+    "clear_med": 0.0,
+    "clear_n": 625
+   },
+   {
     "status": "In Development",
-    "open": 29,
+    "open": 28,
     "med_age": 0.9,
     "max_age": 18.2,
     "worst_key": "PLANS-22998",
@@ -599,19 +599,19 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 607
+    "clear_n": 610
    },
    {
     "status": "PR Merged",
     "open": 2,
     "med_age": 0.2,
-    "max_age": 0.4,
+    "max_age": 0.5,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 595
+    "clear_n": 596
    },
    {
     "status": "In PreProd",
@@ -651,10 +651,10 @@
    }
   ],
   "parked": {
-   "Backlog": 194,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 193
   },
-  "open_total": 149,
+  "open_total": 150,
   "stale": 36,
   "worst": "In Stage"
  }
