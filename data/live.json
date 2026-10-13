@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T21:33:57Z",
+ "generated": "2026-10-13T22:05:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -532,7 +532,7 @@
    {
     "status": "In Stage",
     "open": 59,
-    "med_age": 4.9,
+    "med_age": 5.0,
     "max_age": 5.0,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -556,7 +556,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 22.6,
+    "med_age": 22.7,
     "max_age": 41.1,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -568,7 +568,7 @@
    {
     "status": "PR Created",
     "open": 27,
-    "med_age": 1.5,
+    "med_age": 1.6,
     "max_age": 27.3,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -604,7 +604,7 @@
    {
     "status": "PR Merged",
     "open": 3,
-    "med_age": 0.1,
+    "med_age": 0.2,
     "max_age": 0.6,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
@@ -616,26 +616,14 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.2,
-    "max_age": 0.2,
+    "med_age": 0.3,
+    "max_age": 0.3,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 9
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -648,11 +636,23 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 43
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 195
+   "Backlog": 195,
+   "On Hold": 4
   },
   "open_total": 149,
   "stale": 36,
