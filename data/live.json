@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T04:46:49Z",
+ "generated": "2026-10-13T05:08:31Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -507,6 +507,18 @@
     "clear_n": 609
    },
    {
+    "status": "PR Created",
+    "open": 23,
+    "med_age": 3.9,
+    "max_age": 26.6,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 3,
+    "clear_med": 0.0,
+    "clear_n": 626
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 21.9,
@@ -517,18 +529,6 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 18
-   },
-   {
-    "status": "PR Created",
-    "open": 23,
-    "med_age": 3.8,
-    "max_age": 26.6,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 3,
-    "clear_med": 0.0,
-    "clear_n": 626
    },
    {
     "status": "Identified",
@@ -555,18 +555,6 @@
     "clear_n": 594
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 43
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -577,6 +565,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 43
    },
    {
     "status": "In PreProd",
