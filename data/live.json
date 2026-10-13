@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T17:38:26Z",
+ "generated": "2026-10-13T18:08:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -531,21 +531,21 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 59,
+    "open": 58,
     "med_age": 4.8,
-    "max_age": 4.8,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 4.9,
+    "worst_key": "PLANS-22208",
+    "worst_sum": "Story 1.2: Compute and display the missing-contact flag in the CSP member list (four searc",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 382
+    "clear_n": 383
    },
    {
     "status": "Ready for Development",
     "open": 29,
     "med_age": 7.1,
-    "max_age": 33.6,
+    "max_age": 33.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -569,7 +569,7 @@
     "status": "PR Created",
     "open": 26,
     "med_age": 2.8,
-    "max_age": 27.1,
+    "max_age": 27.2,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -592,8 +592,8 @@
    {
     "status": "In Development",
     "open": 29,
-    "med_age": 0.8,
-    "max_age": 18.1,
+    "med_age": 0.9,
+    "max_age": 18.2,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -615,7 +615,7 @@
    },
    {
     "status": "In PreProd",
-    "open": 1,
+    "open": 2,
     "med_age": 0.1,
     "max_age": 0.1,
     "worst_key": "PLANS-24447",
