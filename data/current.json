@@ -163,19 +163,19 @@
    "Plans-Sprint 24-26",
    "Oct 13",
    "Oct 26",
-   168,
+   169,
    2,
-   241,
-   241,
+   243,
+   243,
    5,
    0,
    [
     233.0,
-    236.0
+    238.0
    ],
    [
     235.0,
-    241.0
+    243.0
    ]
   ]
  ],
@@ -246,8 +246,8 @@
     3
    ],
    "open": [
-    59,
-    233
+    60,
+    235
    ],
    "out": [
     1,
@@ -450,14 +450,15 @@
     "To Do": 7,
     "In Progress": 5,
     "Done": 209,
-    "In Development": 11,
+    "In Development": 8,
     "Closed": 77,
     "Ready Prod": 3,
     "In Stage": 13,
     "Will Not Implement": 9,
     "On Hold": 2,
     "Backlog": 11,
-    "Ready for Development": 3
+    "Ready for Development": 3,
+    "PR Created": 3
    },
    "stalled": 161,
    "worst": 10.53,
@@ -553,29 +554,29 @@
   },
   "Plans-Sprint 24-26": {
    "tis": {
+    "Backlog": {
+     "n": 16,
+     "med": 12.49
+    },
     "To Do": {
      "n": 66,
      "med": 12.68
     },
     "In Progress": {
      "n": 18,
-     "med": 12.63
+     "med": 12.52
     },
     "Done": {
-     "n": 40,
+     "n": 41,
      "med": 12.68
-    },
-    "Backlog": {
-     "n": 15,
-     "med": 12.66
     },
     "In Development": {
      "n": 27,
      "med": 12.68
     },
     "PR Created": {
-     "n": 6,
-     "med": 0.01
+     "n": 9,
+     "med": 12.34
     },
     "PR Merged": {
      "n": 6,
@@ -611,24 +612,24 @@
     }
    },
    "dist": {
-    "In Progress": 11,
+    "Backlog": 9,
+    "In Progress": 10,
     "To Do": 55,
-    "Done": 40,
-    "Backlog": 8,
+    "Done": 41,
     "In PreProd": 1,
-    "In Development": 23,
+    "In Development": 20,
     "Ready Prod": 1,
     "Ready for Development": 10,
     "In Stage": 13,
-    "PR Created": 2,
+    "PR Created": 5,
     "PR Merged": 1,
     "On Hold": 2,
     "Closed": 1
    },
-   "stalled": 166,
+   "stalled": 167,
    "worst": 12.68,
    "worstSt": "To Do",
-   "items": 168
+   "items": 169
   }
  },
  "GHOST": {
@@ -674,7 +675,7 @@
   ],
   "Plans-Sprint 24-26": [
    233.0,
-   236.0
+   238.0
   ]
  },
  "CAP": {
