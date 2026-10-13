@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T08:13:41Z",
+ "generated": "2026-10-13T08:50:48Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -474,7 +474,7 @@
     "status": "In Stage",
     "open": 52,
     "med_age": 4.4,
-    "max_age": 4.4,
+    "max_age": 4.5,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -486,7 +486,7 @@
     "status": "Ready for Development",
     "open": 27,
     "med_age": 7.7,
-    "max_age": 33.2,
+    "max_age": 33.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -497,8 +497,8 @@
    {
     "status": "In Development",
     "open": 20,
-    "med_age": 7.7,
-    "max_age": 17.7,
+    "med_age": 7.8,
+    "max_age": 17.8,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -507,28 +507,28 @@
     "clear_n": 609
    },
    {
-    "status": "PR Created",
-    "open": 23,
-    "med_age": 4.0,
-    "max_age": 26.7,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 3,
-    "clear_med": 0.0,
-    "clear_n": 626
-   },
-   {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 22.1,
-    "max_age": 40.5,
+    "max_age": 40.6,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 18
+   },
+   {
+    "status": "PR Created",
+    "open": 22,
+    "med_age": 4.0,
+    "max_age": 26.8,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 4,
+    "clear_med": 0.0,
+    "clear_n": 627
    },
    {
     "status": "Identified",
@@ -544,9 +544,9 @@
    },
    {
     "status": "PR Merged",
-    "open": 2,
-    "med_age": 0.6,
-    "max_age": 0.6,
+    "open": 3,
+    "med_age": 0.7,
+    "max_age": 0.7,
     "worst_key": "PLANS-24083",
     "worst_sum": "Provider Portal \\ Age restriction row is missing for Dependents",
     "worst_who": "David Jones",
@@ -555,7 +555,7 @@
     "clear_n": 595
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -563,8 +563,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 43
+    "clear_med": 0.1,
+    "clear_n": 9
    },
    {
     "status": "Ready for Stage",
@@ -579,7 +579,7 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -587,16 +587,16 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 9
+    "clear_med": 3.0,
+    "clear_n": 43
    }
   ],
   "parked": {
-   "On Hold": 5,
-   "Backlog": 206
+   "Backlog": 206,
+   "On Hold": 5
   },
   "open_total": 129,
-  "stale": 32,
+  "stale": 33,
   "worst": "In Stage"
  }
 }
