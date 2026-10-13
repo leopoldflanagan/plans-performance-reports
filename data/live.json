@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T10:08:09Z",
+ "generated": "2026-10-13T10:40:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -496,19 +496,19 @@
    },
    {
     "status": "In Development",
-    "open": 21,
-    "med_age": 7.6,
+    "open": 20,
+    "med_age": 7.8,
     "max_age": 17.8,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 604
+    "clear_n": 605
    },
    {
     "status": "PR Created",
-    "open": 25,
+    "open": 24,
     "med_age": 4.0,
     "max_age": 26.8,
     "worst_key": "PLANS-22703",
@@ -516,7 +516,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 619
+    "clear_n": 622
    },
    {
     "status": "WAITING REVIEW",
@@ -544,15 +544,27 @@
    },
    {
     "status": "PR Merged",
-    "open": 3,
-    "med_age": 0.7,
+    "open": 4,
+    "med_age": 0.4,
     "max_age": 0.7,
     "worst_key": "PLANS-24083",
     "worst_sum": "Provider Portal \\ Age restriction row is missing for Dependents",
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 588
+    "clear_n": 590
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 9
    },
    {
     "status": "Ready for Stage",
@@ -577,25 +589,13 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 43
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 9
    }
   ],
   "parked": {
-   "On Hold": 5,
+   "On Hold": 6,
    "Backlog": 211
   },
-  "open_total": 132,
+  "open_total": 131,
   "stale": 33,
   "worst": "In Stage"
  }
