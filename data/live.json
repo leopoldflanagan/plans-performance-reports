@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T01:59:30Z",
+ "generated": "2026-10-13T02:40:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -507,6 +507,18 @@
     "clear_n": 612
    },
    {
+    "status": "PR Created",
+    "open": 23,
+    "med_age": 3.8,
+    "max_age": 26.5,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 3,
+    "clear_med": 0.0,
+    "clear_n": 629
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 21.8,
@@ -519,22 +531,10 @@
     "clear_n": 18
    },
    {
-    "status": "PR Created",
-    "open": 23,
-    "med_age": 3.7,
-    "max_age": 26.5,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 3,
-    "clear_med": 0.0,
-    "clear_n": 629
-   },
-   {
     "status": "Identified",
     "open": 1,
-    "med_age": 39.5,
-    "max_age": 39.5,
+    "med_age": 39.6,
+    "max_age": 39.6,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -555,18 +555,6 @@
     "clear_n": 597
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 9
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -577,6 +565,18 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 43
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 9
    },
    {
     "status": "Ready for Stage",
