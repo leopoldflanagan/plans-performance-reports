@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T05:41:52Z",
+ "generated": "2026-10-13T06:12:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -474,10 +474,10 @@
     "status": "In Stage",
     "open": 51,
     "med_age": 4.3,
-    "max_age": 4.3,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 4.4,
+    "worst_key": "PLANS-22208",
+    "worst_sum": "Story 1.2: Compute and display the missing-contact flag in the CSP member list (four searc",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 3.5,
     "clear_n": 392
@@ -486,7 +486,7 @@
     "status": "Ready for Development",
     "open": 26,
     "med_age": 7.6,
-    "max_age": 33.1,
+    "max_age": 33.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -498,7 +498,7 @@
     "status": "In Development",
     "open": 19,
     "med_age": 7.8,
-    "max_age": 17.6,
+    "max_age": 17.7,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -510,7 +510,7 @@
     "status": "PR Created",
     "open": 23,
     "med_age": 3.9,
-    "max_age": 26.6,
+    "max_age": 26.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -522,7 +522,7 @@
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 21.9,
-    "max_age": 40.4,
+    "max_age": 40.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -545,7 +545,7 @@
    {
     "status": "PR Merged",
     "open": 3,
-    "med_age": 0.5,
+    "med_age": 0.6,
     "max_age": 3.6,
     "worst_key": "PLANS-24278",
     "worst_sum": "Open network issue (stage & prod)",
@@ -553,6 +553,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 594
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 43
    },
    {
     "status": "In PreProd",
@@ -577,23 +589,11 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 43
    }
   ],
   "parked": {
-   "Backlog": 208,
-   "On Hold": 5
+   "On Hold": 5,
+   "Backlog": 208
   },
   "open_total": 127,
   "stale": 32,
