@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T23:37:52Z",
+ "generated": "2026-10-13T00:18:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -450,7 +450,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 15,
+  "day": 16,
   "days": 28,
   "closed": 309,
   "points": 778,
@@ -472,7 +472,7 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 51,
+    "open": 52,
     "med_age": 4.0,
     "max_age": 4.1,
     "worst_key": "PLANS-24033",
@@ -496,20 +496,20 @@
    },
    {
     "status": "In Development",
-    "open": 20,
-    "med_age": 7.3,
+    "open": 18,
+    "med_age": 9.9,
     "max_age": 17.4,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 613
+    "clear_n": 615
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 21.7,
+    "med_age": 21.8,
     "max_age": 40.2,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -520,7 +520,7 @@
    },
    {
     "status": "PR Created",
-    "open": 22,
+    "open": 23,
     "med_age": 3.7,
     "max_age": 26.4,
     "worst_key": "PLANS-22703",
@@ -528,13 +528,13 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 630
+    "clear_n": 631
    },
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 39.4,
-    "max_age": 39.4,
+    "med_age": 39.5,
+    "max_age": 39.5,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -552,10 +552,10 @@
     "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 597
+    "clear_n": 598
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -563,8 +563,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 10
+    "clear_med": 3.0,
+    "clear_n": 43
    },
    {
     "status": "Ready for Stage",
@@ -579,7 +579,7 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -587,13 +587,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 43
+    "clear_med": 0.1,
+    "clear_n": 10
    }
   ],
   "parked": {
-   "On Hold": 5,
-   "Backlog": 206
+   "Backlog": 206,
+   "On Hold": 5
   },
   "open_total": 128,
   "stale": 32,

@@ -35,10 +35,10 @@
   ],
   "unp_items": [],
   "open": true,
-  "day": 12,
+  "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "309 items closed in the first 12 days, a pace of about 721 for the month against 189 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "309 items closed in the first 13 days, a pace of about 666 for the month against 189 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 11.3d and average 20.1d, both past the healthy band"
@@ -313,10 +313,10 @@
     "To Do": 98,
     "Backlog": 112,
     "In Progress": 13,
-    "In Development": 4,
+    "In Development": 3,
     "Ready Prod": 11,
     "Closed": 115,
-    "PR Merged": 2,
+    "PR Merged": 3,
     "Ready for Development": 10,
     "Will Not Implement": 2,
     "WAITING REVIEW": 3,
@@ -434,8 +434,8 @@
      "med": 13.47
     },
     "PR Merged": {
-     "n": 8,
-     "med": 0.08
+     "n": 9,
+     "med": 0.13
     },
     "In Stage": {
      "n": 32,
@@ -443,10 +443,10 @@
     },
     "In Development": {
      "n": 7,
-     "med": 13.35
+     "med": 0.19
     },
     "PR Created": {
-     "n": 6,
+     "n": 8,
      "med": 0.09
     },
     "In QA": {
@@ -484,14 +484,14 @@
     "Done": 31,
     "Closed": 1,
     "In Progress": 12,
-    "In Development": 5,
+    "In Development": 3,
     "Ready Prod": 4,
-    "PR Merged": 2,
+    "PR Merged": 3,
     "Ready for Development": 10,
     "WAITING REVIEW": 3,
     "In Stage": 26,
     "On Hold": 4,
-    "PR Created": 2,
+    "PR Created": 3,
     "Will Not Implement": 1
    },
    "stalled": 327,
