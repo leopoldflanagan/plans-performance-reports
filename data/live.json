@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T17:06:10Z",
+ "generated": "2026-10-13T17:38:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 35,
+    "n": 34,
     "points": 56,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,20 +66,16 @@
  },
  "admin": {
   "scope": {
-   "ready": 82,
-   "sprint": 177,
+   "ready": 81,
+   "sprint": 178,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 100,
+    "n": 99,
     "items": [
-     {
-      "key": "PLANS-24449",
-      "summary": "BLOCKER - STAGE - PDF will not open"
-     },
      {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-11252",
       "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
+     },
+     {
+      "key": "PLANS-11249",
+      "summary": "Blocked DYN 265 > WFPLNS > Discount Plan 2 Individuals> CRM email child turning "
      }
     ]
    },
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 53,
+    "n": 52,
     "items": [
-     {
-      "key": "PLANS-24449",
-      "summary": "BLOCKER - STAGE - PDF will not open"
-     },
      {
       "key": "PLANS-24445",
       "summary": "Prod/Digital Smiles and One Smile/Plan Details PDF/Incorrect Legal language in t"
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24067",
       "summary": "Single Location Practice's are not honoring the no need for zip code entry for S"
+     },
+     {
+      "key": "PLANS-24004",
+      "summary": "Member Portal -  Inconsistent Font Sizes/Styles/ link colors in Legal Consent Se"
      }
     ]
    },
@@ -321,12 +321,8 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 162,
+    "n": 161,
     "items": [
-     {
-      "key": "PLANS-24449",
-      "summary": "BLOCKER - STAGE - PDF will not open"
-     },
      {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
@@ -354,6 +350,10 @@
      {
       "key": "PLANS-15948",
       "summary": "[4.5] Add filtered composite indexes for state service performance"
+     },
+     {
+      "key": "PLANS-15946",
+      "summary": "[4.4] Establish ReferenceId convention for FIFO payment application"
      }
     ]
    },
@@ -442,17 +442,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 340,
+  "items": 341,
   "items_done": 17,
   "committed": 215,
-  "final": 216,
+  "final": 217,
   "completed": 34,
-  "scope_change": 0,
+  "scope_change": 1,
   "vs_commitment": 16,
   "time_elapsed": 8,
   "spill": {
-   "open_items": 164,
-   "open_pts": 192.0,
+   "open_items": 165,
+   "open_pts": 193.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 17.0
@@ -467,6 +467,7 @@
   "dist": {
    "To Do": 118,
    "Backlog": 113,
+   "In Stage": 30,
    "Ready for Development": 12,
    "Closed": 4,
    "Done": 33,
@@ -474,7 +475,6 @@
    "In Progress": 11,
    "In Development": 2,
    "Ready Prod": 6,
-   "In Stage": 29,
    "WAITING REVIEW": 3,
    "On Hold": 3,
    "Will Not Implement": 1
@@ -482,17 +482,17 @@
   "burn": [
    0.0,
    181.0,
-   182.0
+   183.0
   ],
   "scope": [
    0.0,
    215.0,
-   216.0
+   217.0
   ],
   "ghost": [
    0.0,
    181.0,
-   182.0
+   183.0
   ],
   "days": 14,
   "day": 2
@@ -531,8 +531,8 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 58,
-    "med_age": 4.7,
+    "open": 59,
+    "med_age": 4.8,
     "max_age": 4.8,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -543,15 +543,15 @@
    },
    {
     "status": "Ready for Development",
-    "open": 30,
+    "open": 29,
     "med_age": 7.1,
     "max_age": 33.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 16,
+    "over": 17,
     "clear_med": 1.1,
-    "clear_n": 214
+    "clear_n": 215
    },
    {
     "status": "WAITING REVIEW",
@@ -575,7 +575,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 621
+    "clear_n": 622
    },
    {
     "status": "Identified",
@@ -599,7 +599,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 605
+    "clear_n": 606
    },
    {
     "status": "PR Merged",
@@ -611,7 +611,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 593
+    "clear_n": 594
    },
    {
     "status": "In PreProd",
@@ -651,11 +651,11 @@
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 194
+   "Backlog": 194,
+   "On Hold": 4
   },
   "open_total": 150,
-  "stale": 35,
+  "stale": 36,
   "worst": "In Stage"
  }
 }

@@ -142,28 +142,28 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   340,
+   341,
    17,
    215,
-   216,
+   217,
    34,
-   0,
+   1,
    [
     0.0,
     181.0,
-    182.0
+    183.0
    ],
    [
     0.0,
     215.0,
-    216.0
+    217.0
    ]
   ],
   [
    "Plans-Sprint 24-26",
    "Oct 13",
    "Oct 26",
-   162,
+   164,
    1,
    241,
    241,
@@ -226,8 +226,8 @@
     17
    ],
    "open": [
-    164,
-    192
+    165,
+    193
    ],
    "out": [
     0,
@@ -274,7 +274,7 @@
   },
   "LL-Sprint 24-26": {
    "react": 0,
-   "plan": 1,
+   "plan": 2,
    "pct": 0
   },
   "Plans-Sprint 24-26": null
@@ -475,7 +475,23 @@
      "med": 13.58
     },
     "Ready for Development": {
+     "n": 15,
+     "med": 13.58
+    },
+    "In Development": {
+     "n": 12,
+     "med": 0.03
+    },
+    "PR Created": {
+     "n": 15,
+     "med": 0.07
+    },
+    "PR Merged": {
      "n": 14,
+     "med": 0.01
+    },
+    "In Stage": {
+     "n": 38,
      "med": 13.58
     },
     "Closed": {
@@ -488,22 +504,6 @@
     },
     "Done": {
      "n": 34,
-     "med": 13.58
-    },
-    "In Development": {
-     "n": 11,
-     "med": 0.04
-    },
-    "PR Created": {
-     "n": 14,
-     "med": 0.09
-    },
-    "PR Merged": {
-     "n": 13,
-     "med": 0.01
-    },
-    "In Stage": {
-     "n": 37,
      "med": 13.58
     },
     "In QA": {
@@ -534,6 +534,7 @@
    "dist": {
     "To Do": 118,
     "Backlog": 113,
+    "In Stage": 30,
     "Ready for Development": 12,
     "Closed": 4,
     "Done": 33,
@@ -541,20 +542,19 @@
     "In Progress": 11,
     "In Development": 2,
     "Ready Prod": 6,
-    "In Stage": 29,
     "WAITING REVIEW": 3,
     "On Hold": 3,
     "Will Not Implement": 1
    },
-   "stalled": 329,
+   "stalled": 330,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 340
+   "items": 341
   },
   "Plans-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 60,
+     "n": 62,
      "med": 12.68
     },
     "In Progress": {
@@ -607,8 +607,8 @@
     }
    },
    "dist": {
+    "To Do": 54,
     "In Progress": 16,
-    "To Do": 52,
     "Backlog": 8,
     "In PreProd": 1,
     "In Development": 23,
@@ -619,10 +619,10 @@
     "On Hold": 2,
     "Closed": 1
    },
-   "stalled": 161,
+   "stalled": 163,
    "worst": 12.68,
    "worstSt": "To Do",
-   "items": 162
+   "items": 164
   }
  },
  "GHOST": {
@@ -664,7 +664,7 @@
   "LL-Sprint 24-26": [
    0.0,
    181.0,
-   182.0
+   183.0
   ],
   "Plans-Sprint 24-26": [
    233.0,
