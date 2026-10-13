@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T23:05:24Z",
+ "generated": "2026-10-13T23:33:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -510,8 +510,8 @@
   "end": "2026-10-25",
   "day": 16,
   "days": 28,
-  "closed": 319,
-  "points": 788,
+  "closed": 321,
+  "points": 792,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -531,20 +531,20 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 59,
+    "open": 57,
     "med_age": 5.0,
     "max_age": 5.1,
-    "worst_key": "PLANS-23691",
-    "worst_sum": "[2.2.W2] Carry the not-for-sale flag through TemplateHelper (both repos) and PlanOptionSer",
-    "worst_who": "Daryl Myrick",
+    "worst_key": "PLANS-24033",
+    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 378
+    "clear_n": 380
    },
    {
     "status": "Ready for Development",
     "open": 25,
-    "med_age": 8.3,
+    "med_age": 8.4,
     "max_age": 33.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -575,7 +575,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 617
+    "clear_n": 619
    },
    {
     "status": "Identified",
@@ -599,7 +599,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 605
+    "clear_n": 606
    },
    {
     "status": "PR Merged",
@@ -611,7 +611,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 587
+    "clear_n": 589
    },
    {
     "status": "In PreProd",
@@ -626,6 +626,18 @@
     "clear_n": 9
    },
    {
+    "status": "In QA",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24471",
+    "worst_sum": "Enhance CSHTML Rendering",
+    "worst_who": "Chris Rubio",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 43
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -636,25 +648,13 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 43
    }
   ],
   "parked": {
    "Backlog": 196,
    "On Hold": 4
   },
-  "open_total": 148,
+  "open_total": 147,
   "stale": 33,
   "worst": "In Stage"
  }
