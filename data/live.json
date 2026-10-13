@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T04:12:09Z",
+ "generated": "2026-10-13T04:46:49Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -507,6 +507,18 @@
     "clear_n": 609
    },
    {
+    "status": "WAITING REVIEW",
+    "open": 4,
+    "med_age": 21.9,
+    "max_age": 40.4,
+    "worst_key": "PLANS-22301",
+    "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
+    "worst_who": "unassigned",
+    "over": 2,
+    "clear_med": 0.1,
+    "clear_n": 18
+   },
+   {
     "status": "PR Created",
     "open": 23,
     "med_age": 3.8,
@@ -519,22 +531,10 @@
     "clear_n": 626
    },
    {
-    "status": "WAITING REVIEW",
-    "open": 4,
-    "med_age": 21.8,
-    "max_age": 40.4,
-    "worst_key": "PLANS-22301",
-    "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
-    "worst_who": "unassigned",
-    "over": 2,
-    "clear_med": 0.1,
-    "clear_n": 18
-   },
-   {
     "status": "Identified",
     "open": 1,
-    "med_age": 39.6,
-    "max_age": 39.6,
+    "med_age": 39.7,
+    "max_age": 39.7,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -553,18 +553,6 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 594
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 9
    },
    {
     "status": "In QA",
@@ -589,6 +577,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 9
    }
   ],
   "parked": {
