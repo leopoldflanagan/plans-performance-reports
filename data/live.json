@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T20:38:43Z",
+ "generated": "2026-10-13T21:05:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -510,7 +510,7 @@
   "end": "2026-10-25",
   "day": 16,
   "days": 28,
-  "closed": 318,
+  "closed": 319,
   "points": 788,
   "unplanned": null,
   "unplanned_pct": null,
@@ -534,8 +534,8 @@
     "open": 59,
     "med_age": 4.9,
     "max_age": 5.0,
-    "worst_key": "PLANS-23221",
-    "worst_sum": "[1.3.W2] CSP Marketing Details editor - \"Member Saves\" and \"Dollar values\" toggles per cov",
+    "worst_key": "PLANS-24033",
+    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.5,
@@ -544,7 +544,7 @@
    {
     "status": "Ready for Development",
     "open": 27,
-    "med_age": 8.2,
+    "med_age": 8.3,
     "max_age": 33.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -575,7 +575,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 619
+    "clear_n": 620
    },
    {
     "status": "Identified",
@@ -591,7 +591,7 @@
    },
    {
     "status": "In Development",
-    "open": 28,
+    "open": 27,
     "med_age": 1.0,
     "max_age": 18.3,
     "worst_key": "PLANS-22998",
@@ -599,12 +599,12 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 606
+    "clear_n": 607
    },
    {
     "status": "PR Merged",
-    "open": 2,
-    "med_age": 0.3,
+    "open": 3,
+    "med_age": 0.1,
     "max_age": 0.5,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
@@ -651,7 +651,7 @@
    }
   ],
   "parked": {
-   "Backlog": 195,
+   "Backlog": 194,
    "On Hold": 4
   },
   "open_total": 149,
