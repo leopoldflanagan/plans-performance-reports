@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T12:10:44Z",
+ "generated": "2026-10-13T12:53:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -472,8 +472,8 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 53,
-    "med_age": 4.5,
+    "open": 54,
+    "med_age": 4.6,
     "max_age": 4.6,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -496,27 +496,27 @@
    },
    {
     "status": "In Development",
-    "open": 20,
-    "med_age": 7.8,
+    "open": 19,
+    "med_age": 8.1,
     "max_age": 17.9,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 606
+    "clear_n": 607
    },
    {
     "status": "PR Created",
     "open": 25,
-    "med_age": 4.0,
+    "med_age": 4.1,
     "max_age": 26.9,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 622
+    "clear_n": 623
    },
    {
     "status": "WAITING REVIEW",
@@ -552,19 +552,7 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 590
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 591
    },
    {
     "status": "In QA",
@@ -589,11 +577,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 9
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 212
+   "Backlog": 212,
+   "On Hold": 4
   },
   "open_total": 133,
   "stale": 33,
