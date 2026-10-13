@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T03:50:16Z",
+ "generated": "2026-10-13T04:12:09Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -475,8 +475,8 @@
     "open": 51,
     "med_age": 4.2,
     "max_age": 4.3,
-    "worst_key": "PLANS-23221",
-    "worst_sum": "[1.3.W2] CSP Marketing Details editor - \"Member Saves\" and \"Dollar values\" toggles per cov",
+    "worst_key": "PLANS-24033",
+    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.5,
@@ -485,7 +485,7 @@
    {
     "status": "Ready for Development",
     "open": 26,
-    "med_age": 7.5,
+    "med_age": 7.6,
     "max_age": 33.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -546,25 +546,13 @@
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.5,
-    "max_age": 3.5,
+    "max_age": 3.6,
     "worst_key": "PLANS-24278",
     "worst_sum": "Open network issue (stage & prod)",
     "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 594
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 43
    },
    {
     "status": "In PreProd",
@@ -577,6 +565,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 9
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 43
    },
    {
     "status": "Ready for Stage",
