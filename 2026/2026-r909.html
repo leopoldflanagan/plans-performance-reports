@@ -1113,16 +1113,16 @@
    <div class="scrumgrid">
      <div class="sh"><div class="k">Committed at start</div><div class="v">241</div><div class="n">story points in scope on day 1</div></div>
      <div class="sh"><div class="k">Added during sprint</div><div class="v">+0</div><div class="n">final scope 241 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">2</div><div class="n">1 of 159 items · still open 239 pts</div></div>
+     <div class="sh"><div class="k">Completed</div><div class="v">2</div><div class="n">1 of 162 items · still open 239 pts</div></div>
      <div class="sh"><div class="k">vs commitment</div><div class="v">1%</div><div class="n">completed against day-1 scope</div></div>
    </div>
    <div class="chartbox" style="height:310px"><canvas id="bd23"></canvas></div>
    
    
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">100%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 239 of 239 pts</span></div><div class="sn">61 items — 61 still open at close. The dotted line on the burndown is where the sprint would have stood if none of it had been taken out.</div></div>
+   <div class="spill"><div class="sk">Spillover</div><div class="sv">100%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 239 of 239 pts</span></div><div class="sn">61 items — 1 removed before the sprint closed · 60 still open at close. The dotted line on the burndown is where the sprint would have stood if none of it had been taken out.</div></div>
    <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
    <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>158 items</b> spent more than 5 days without moving; the worst sat <b>12.7 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
+   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>161 items</b> spent more than 5 days without moving; the worst sat <b>12.7 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
    
  </div>
  
@@ -1475,10 +1475,10 @@ new Chart(document.getElementById('bd21'),{type:'line',
   {label:'Ideal from day-1 commitment',data:[337.0, 314.5, 292.1, 269.6, 247.1, 224.7, 202.2, 179.7, 157.3, 134.8, 112.3, 89.9, 67.4, 44.9, 22.5, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
 new Chart(document.getElementById('bd22'),{type:'line',
- data:{labels:["d0", "d1"],datasets:[
-  {label:'Total scope',data:[0.0, 215.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[0.0, 181.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[0.0, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
+ data:{labels:["d0", "d1", "d2"],datasets:[
+  {label:'Total scope',data:[0.0, 215.0, 215.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
+  {label:'Work still open',data:[0.0, 181.0, 181.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
+  {label:'Ideal from day-1 commitment',data:[0.0, 0.0, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
 new Chart(document.getElementById('bd23'),{type:'line',
  data:{labels:["d0", "d1"],datasets:[

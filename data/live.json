@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T15:39:32Z",
+ "generated": "2026-10-13T16:07:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 15
   },
   "misfiled": {
-   "items": 31,
-   "points": 129
+   "items": 30,
+   "points": 126
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,14 +26,14 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 31,
-    "points": 129,
+    "n": 30,
+    "points": 126,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 37,
-    "points": 68,
+    "n": 35,
+    "points": 60,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 84,
+   "ready": 82,
    "sprint": 176,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 55,
+    "n": 53,
     "items": [
      {
       "key": "PLANS-24449",
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 27,
+    "n": 25,
     "items": [
      {
       "key": "PLANS-24421",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 246 of 248 items. This reads as a field the team does not use rather than 246 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 246,
+    "why": "missing on 244 of 246 items. This reads as a field the team does not use rather than 244 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 244,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 246 of 248 items. This reads as a field the team does not use rather than 246 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 246,
+    "why": "missing on 244 of 246 items. This reads as a field the team does not use rather than 244 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 244,
     "items": []
    },
    {
@@ -481,14 +481,17 @@
   },
   "burn": [
    0.0,
+   181.0,
    181.0
   ],
   "scope": [
    0.0,
+   215.0,
    215.0
   ],
   "ghost": [
    0.0,
+   181.0,
    181.0
   ],
   "days": 14,
@@ -531,24 +534,24 @@
     "open": 57,
     "med_age": 4.7,
     "max_age": 4.8,
-    "worst_key": "PLANS-22208",
-    "worst_sum": "Story 1.2: Compute and display the missing-contact flag in the CSP member list (four searc",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-24033",
+    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
-    "clear_med": 3.4,
-    "clear_n": 381
+    "clear_med": 3.3,
+    "clear_n": 382
    },
    {
     "status": "Ready for Development",
-    "open": 33,
-    "med_age": 6.9,
+    "open": 31,
+    "med_age": 7.0,
     "max_age": 33.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 16,
     "clear_med": 1.1,
-    "clear_n": 211
+    "clear_n": 213
    },
    {
     "status": "PR Created",
@@ -560,13 +563,13 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 619
+    "clear_n": 621
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 22.3,
-    "max_age": 40.8,
+    "max_age": 40.9,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -588,27 +591,27 @@
    },
    {
     "status": "In Development",
-    "open": 28,
+    "open": 29,
     "med_age": 0.8,
-    "max_age": 18.0,
+    "max_age": 18.1,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 602
+    "clear_n": 604
    },
    {
     "status": "PR Merged",
-    "open": 1,
-    "med_age": 0.3,
+    "open": 2,
+    "med_age": 0.1,
     "max_age": 0.3,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 591
+    "clear_n": 592
    },
    {
     "status": "In QA",
@@ -623,18 +626,6 @@
     "clear_n": 43
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 9
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -645,13 +636,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24447",
+    "worst_sum": "Regression testing- phase 2",
+    "worst_who": "Vivienne Chawande",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 9
    }
   ],
   "parked": {
-   "Backlog": 195,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 194
   },
-  "open_total": 149,
+  "open_total": 150,
   "stale": 35,
   "worst": "In Stage"
  }
