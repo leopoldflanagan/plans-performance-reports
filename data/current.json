@@ -9,9 +9,9 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 189,
-  "closed": 309,
+  "closed": 310,
   "discarded": 0,
-  "resolved": 309,
+  "resolved": 310,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    142
+    143
    ],
    [
     "TechDebt",
@@ -38,7 +38,7 @@
   "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "309 items closed in the first 13 days, a pace of about 666 for the month against 189 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "310 items closed in the first 13 days, a pace of about 668 for the month against 189 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 11.3d and average 20.1d, both past the healthy band"
@@ -138,14 +138,14 @@
    "Oct 12",
    "Oct 26",
    333,
-   13,
+   14,
    211,
    211,
-   28,
+   30,
    0,
    [
     0.0,
-    183.0
+    181.0
    ],
    [
     0.0,
@@ -196,12 +196,12 @@
   },
   "LL-Sprint 24-26": {
    "done": [
-    13,
-    11
+    14,
+    13
    ],
    "open": [
-    165,
-    193
+    164,
+    191
    ],
    "out": [
     0,
@@ -421,6 +421,10 @@
      "n": 122,
      "med": 13.58
     },
+    "Closed": {
+     "n": 2,
+     "med": 13.09
+    },
     "In Progress": {
      "n": 21,
      "med": 13.58
@@ -428,10 +432,6 @@
     "Done": {
      "n": 33,
      "med": 13.58
-    },
-    "Closed": {
-     "n": 1,
-     "med": 13.47
     },
     "Ready for Development": {
      "n": 12,
@@ -479,10 +479,10 @@
     }
    },
    "dist": {
-    "Backlog": 115,
+    "Backlog": 114,
     "To Do": 114,
+    "Closed": 2,
     "Done": 32,
-    "Closed": 1,
     "PR Created": 5,
     "In Progress": 12,
     "In Development": 2,
@@ -494,7 +494,7 @@
     "Will Not Implement": 1,
     "PR Merged": 1
    },
-   "stalled": 326,
+   "stalled": 325,
    "worst": 13.58,
    "worstSt": "To Do",
    "items": 333
@@ -536,14 +536,14 @@
   ],
   "LL-Sprint 24-26": [
    0.0,
-   183.0
+   181.0
   ]
  },
  "CAP": {
   "9.09": [
-   309,
-   267,
-   778,
+   310,
+   268,
+   780,
    22
   ]
  },
@@ -553,8 +553,8 @@
    "avg": 20.08,
    "n": 226,
    "mx": 148.81,
-   "nodev": 83,
-   "base": 309
+   "nodev": 84,
+   "base": 310
   }
  },
  "complete": false,
