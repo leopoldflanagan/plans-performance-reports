@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T11:38:53Z",
+ "generated": "2026-10-13T12:10:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -480,7 +480,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 385
+    "clear_n": 384
    },
    {
     "status": "Ready for Development",
@@ -504,7 +504,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 607
+    "clear_n": 606
    },
    {
     "status": "PR Created",
@@ -516,7 +516,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 623
+    "clear_n": 622
    },
    {
     "status": "WAITING REVIEW",
@@ -533,8 +533,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 39.9,
-    "max_age": 39.9,
+    "med_age": 40.0,
+    "max_age": 40.0,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -552,7 +552,7 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 591
+    "clear_n": 590
    },
    {
     "status": "Ready for Stage",
@@ -567,18 +567,6 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 9
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -589,11 +577,23 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 43
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 9
    }
   ],
   "parked": {
    "On Hold": 4,
-   "Backlog": 211
+   "Backlog": 212
   },
   "open_total": 133,
   "stale": 33,
