@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T08:50:48Z",
+ "generated": "2026-10-13T09:11:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -485,7 +485,7 @@
    {
     "status": "Ready for Development",
     "open": 27,
-    "med_age": 7.7,
+    "med_age": 7.8,
     "max_age": 33.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -496,8 +496,8 @@
    },
    {
     "status": "In Development",
-    "open": 20,
-    "med_age": 7.8,
+    "open": 22,
+    "med_age": 7.6,
     "max_age": 17.8,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -555,18 +555,6 @@
     "clear_n": 595
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 9
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -577,6 +565,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 9
    },
    {
     "status": "In QA",
@@ -592,10 +592,10 @@
    }
   ],
   "parked": {
-   "Backlog": 206,
-   "On Hold": 5
+   "On Hold": 5,
+   "Backlog": 204
   },
-  "open_total": 129,
+  "open_total": 131,
   "stale": 33,
   "worst": "In Stage"
  }
