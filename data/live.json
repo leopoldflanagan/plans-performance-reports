@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T14:42:43Z",
+ "generated": "2026-10-13T15:07:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 31,
-    "points": 51,
+    "n": 32,
+    "points": 53,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -56,25 +56,25 @@
   "days": 14,
   "n": 17,
   "done_now": 32,
-  "committed": 211,
+  "committed": 215,
   "lo": 106,
   "mid": 121,
   "hi": 348,
-  "pct": 57,
+  "pct": 56,
   "verdict": "well short of the commitment",
   "share_mid": 0.265
  },
  "admin": {
   "scope": {
-   "ready": 78,
-   "sprint": 175,
+   "ready": 79,
+   "sprint": 176,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 101,
+    "n": 99,
     "items": [
      {
       "key": "PLANS-24101",
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 49,
+    "n": 50,
     "items": [
+     {
+      "key": "PLANS-24445",
+      "summary": "Prod/Digital Smiles and One Smile/Plan Details PDF/Incorrect Legal language in t"
+     },
      {
       "key": "PLANS-24421",
       "summary": "STAGE - Plan Details -Downloading PDF -  Getting a 400 error for below mentioned"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24004",
       "summary": "Member Portal -  Inconsistent Font Sizes/Styles/ link colors in Legal Consent Se"
-     },
-     {
-      "key": "PLANS-23969",
-      "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
      }
     ]
    },
@@ -202,8 +202,16 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 80,
+    "n": 82,
     "items": [
+     {
+      "key": "PLANS-24445",
+      "summary": "Prod/Digital Smiles and One Smile/Plan Details PDF/Incorrect Legal language in t"
+     },
+     {
+      "key": "PLANS-24442",
+      "summary": "PMP  - When a plan is renewed and then refunded/disabled, the plan status is inc"
+     },
      {
       "key": "PLANS-24425",
       "summary": "OneSmile/Plan Details PDF/Provider link is incorrect"
@@ -227,14 +235,6 @@
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
-     },
-     {
-      "key": "PLANS-24072",
-      "summary": "Member Portal \\ Treatment Summaries are not available for adult dependent   "
-     },
-     {
-      "key": "PLANS-22024",
-      "summary": "Dashboard - Refunding a plan incorrectly increases the Goal Reached (%) value on"
      }
     ]
    },
@@ -324,6 +324,10 @@
     "n": 160,
     "items": [
      {
+      "key": "PLANS-24445",
+      "summary": "Prod/Digital Smiles and One Smile/Plan Details PDF/Incorrect Legal language in t"
+     },
+     {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
      },
@@ -350,23 +354,19 @@
      {
       "key": "PLANS-15948",
       "summary": "[4.5] Add filtered composite indexes for state service performance"
-     },
-     {
-      "key": "PLANS-15946",
-      "summary": "[4.4] Establish ReferenceId convention for FIFO payment application"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 240 of 242 items. This reads as a field the team does not use rather than 240 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 240,
+    "why": "missing on 241 of 243 items. This reads as a field the team does not use rather than 241 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 241,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 240 of 242 items. This reads as a field the team does not use rather than 240 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 240,
+    "why": "missing on 241 of 243 items. This reads as a field the team does not use rather than 241 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 241,
     "items": []
    },
    {
@@ -442,17 +442,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 336,
+  "items": 337,
   "items_done": 15,
-  "committed": 211,
-  "final": 211,
+  "committed": 215,
+  "final": 215,
   "completed": 32,
   "scope_change": 0,
   "vs_commitment": 15,
   "time_elapsed": 7,
   "spill": {
-   "open_items": 164,
-   "open_pts": 189.0,
+   "open_items": 165,
+   "open_pts": 193.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 15.0
@@ -465,9 +465,9 @@
   },
   "spill_rate": null,
   "dist": {
+   "Ready for Development": 12,
    "To Do": 116,
    "Backlog": 114,
-   "Ready for Development": 11,
    "Closed": 2,
    "Done": 33,
    "PR Created": 5,
@@ -482,15 +482,15 @@
   },
   "burn": [
    0.0,
-   179.0
+   183.0
   ],
   "scope": [
    0.0,
-   211.0
+   215.0
   ],
   "ghost": [
    0.0,
-   179.0
+   183.0
   ],
   "days": 14,
   "day": 2
@@ -508,7 +508,7 @@
   "end": "2026-10-25",
   "day": 16,
   "days": 28,
-  "closed": 312,
+  "closed": 313,
   "points": 784,
   "unplanned": null,
   "unplanned_pct": null,
@@ -529,20 +529,20 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 53,
-    "med_age": 4.6,
+    "open": 54,
+    "med_age": 4.7,
     "max_age": 4.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 385
+    "clear_n": 382
    },
    {
     "status": "Ready for Development",
-    "open": 27,
-    "med_age": 8.0,
+    "open": 28,
+    "med_age": 7.5,
     "max_age": 33.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -552,28 +552,16 @@
     "clear_n": 209
    },
    {
-    "status": "In Development",
-    "open": 26,
-    "med_age": 5.5,
-    "max_age": 18.0,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 12,
-    "clear_med": 0.0,
-    "clear_n": 606
-   },
-   {
     "status": "PR Created",
     "open": 25,
-    "med_age": 4.1,
+    "med_age": 4.2,
     "max_age": 27.0,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 622
+    "clear_n": 620
    },
    {
     "status": "WAITING REVIEW",
@@ -586,6 +574,18 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 15
+   },
+   {
+    "status": "In Development",
+    "open": 26,
+    "med_age": 3.4,
+    "max_age": 18.0,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 12,
+    "clear_med": 0.0,
+    "clear_n": 603
    },
    {
     "status": "Identified",
@@ -609,19 +609,7 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 591
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 9
+    "clear_n": 589
    },
    {
     "status": "In QA",
@@ -646,13 +634,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 9
    }
   ],
   "parked": {
    "Backlog": 204,
    "On Hold": 4
   },
-  "open_total": 140,
+  "open_total": 142,
   "stale": 35,
   "worst": "In Stage"
  }
