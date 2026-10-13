@@ -9,9 +9,9 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 189,
-  "closed": 311,
+  "closed": 312,
   "discarded": 0,
-  "resolved": 311,
+  "resolved": 312,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    144
+    145
    ],
    [
     "TechDebt",
@@ -38,10 +38,10 @@
   "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "311 items closed in the first 13 days, a pace of about 670 for the month against 189 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "312 items closed in the first 13 days, a pace of about 672 for the month against 189 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 11.4d and average 20.1d, both past the healthy band"
+   "cycle time median 11.3d and average 20.0d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -402,8 +402,8 @@
     "In Stage": 10,
     "Will Not Implement": 9,
     "On Hold": 2,
-    "Backlog": 13,
-    "Ready for Development": 3,
+    "Ready for Development": 4,
+    "Backlog": 12,
     "PR Merged": 1
    },
    "stalled": 210,
@@ -421,6 +421,10 @@
      "n": 122,
      "med": 13.58
     },
+    "Ready for Development": {
+     "n": 13,
+     "med": 13.58
+    },
     "Closed": {
      "n": 2,
      "med": 13.09
@@ -431,10 +435,6 @@
     },
     "Done": {
      "n": 34,
-     "med": 13.58
-    },
-    "Ready for Development": {
-     "n": 12,
      "med": 13.58
     },
     "In Development": {
@@ -479,8 +479,9 @@
     }
    },
    "dist": {
-    "Backlog": 114,
+    "Backlog": 113,
     "To Do": 114,
+    "Ready for Development": 11,
     "Closed": 2,
     "Done": 33,
     "PR Created": 5,
@@ -488,7 +489,6 @@
     "In Development": 2,
     "Ready Prod": 6,
     "In Stage": 28,
-    "Ready for Development": 10,
     "WAITING REVIEW": 3,
     "On Hold": 3,
     "Will Not Implement": 1,
@@ -541,20 +541,20 @@
  },
  "CAP": {
   "9.09": [
-   311,
-   269,
-   782,
+   312,
+   270,
+   784,
    22
   ]
  },
  "CYC": {
   "9.09": {
-   "med": 11.37,
-   "avg": 20.05,
-   "n": 227,
+   "med": 11.31,
+   "avg": 19.96,
+   "n": 228,
    "mx": 148.81,
    "nodev": 84,
-   "base": 311
+   "base": 312
   }
  },
  "complete": false,
