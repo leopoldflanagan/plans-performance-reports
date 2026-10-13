@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T01:18:28Z",
+ "generated": "2026-10-13T01:59:30Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -472,45 +472,45 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 52,
+    "open": 51,
     "med_age": 4.1,
     "max_age": 4.2,
-    "worst_key": "PLANS-22208",
-    "worst_sum": "Story 1.2: Compute and display the missing-contact flag in the CSP member list (four searc",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-24033",
+    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 396
+    "clear_n": 395
    },
    {
     "status": "Ready for Development",
     "open": 26,
-    "med_age": 7.4,
+    "med_age": 7.5,
     "max_age": 33.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 14,
     "clear_med": 1.1,
-    "clear_n": 214
+    "clear_n": 212
    },
    {
     "status": "In Development",
-    "open": 18,
-    "med_age": 10.1,
+    "open": 19,
+    "med_age": 7.6,
     "max_age": 17.5,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 615
+    "clear_n": 612
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 21.8,
-    "max_age": 40.2,
+    "max_age": 40.3,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -528,7 +528,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 631
+    "clear_n": 629
    },
    {
     "status": "Identified",
@@ -546,16 +546,16 @@
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.4,
-    "max_age": 3.4,
+    "max_age": 3.5,
     "worst_key": "PLANS-24278",
     "worst_sum": "Open network issue (stage & prod)",
     "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 599
+    "clear_n": 597
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -563,20 +563,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 1,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24109",
-    "worst_sum": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
     "clear_med": 0.1,
-    "clear_n": 10
+    "clear_n": 9
    },
    {
     "status": "In QA",
@@ -589,13 +577,25 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 43
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 5,
-   "Backlog": 206
+   "Backlog": 207,
+   "On Hold": 5
   },
-  "open_total": 128,
+  "open_total": 127,
   "stale": 32,
   "worst": "In Stage"
  }

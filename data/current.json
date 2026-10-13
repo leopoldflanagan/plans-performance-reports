@@ -138,14 +138,14 @@
    "Oct 12",
    "Oct 26",
    333,
-   12,
+   13,
    200,
    200,
-   26,
+   28,
    0,
    [
     0.0,
-    174.0
+    172.0
    ],
    [
     0.0,
@@ -196,16 +196,16 @@
   },
   "LL-Sprint 24-26": {
    "done": [
-    12,
-    9
+    13,
+    11
    ],
    "open": [
     165,
     182
    ],
    "out": [
-    1,
-    2
+    0,
+    0
    ],
    "in": [
     5,
@@ -248,8 +248,8 @@
      "med": 3.02
     },
     "Ready for Development": {
-     "n": 41,
-     "med": 0.74
+     "n": 40,
+     "med": 0.72
     },
     "In Development": {
      "n": 59,
@@ -314,13 +314,12 @@
     "Backlog": 112,
     "In Progress": 13,
     "In Development": 3,
-    "Ready Prod": 11,
+    "Ready Prod": 12,
     "Closed": 115,
     "PR Merged": 2,
     "Ready for Development": 10,
     "Will Not Implement": 2,
     "WAITING REVIEW": 3,
-    "In PreProd": 1,
     "In Stage": 21,
     "On Hold": 4,
     "PR Created": 3
@@ -423,11 +422,11 @@
      "med": 13.58
     },
     "In Progress": {
-     "n": 20,
+     "n": 21,
      "med": 13.58
     },
     "Done": {
-     "n": 32,
+     "n": 33,
      "med": 13.58
     },
     "Closed": {
@@ -456,10 +455,10 @@
     },
     "In PreProd": {
      "n": 5,
-     "med": 0.06
+     "med": 0.05
     },
     "Ready Prod": {
-     "n": 4,
+     "n": 5,
      "med": 13.37
     },
     "Ready for Development": {
@@ -486,17 +485,16 @@
     "Closed": 1,
     "In Progress": 12,
     "In Development": 3,
-    "Ready Prod": 4,
+    "Ready Prod": 5,
     "PR Merged": 2,
     "Ready for Development": 10,
     "WAITING REVIEW": 3,
-    "In PreProd": 1,
     "In Stage": 26,
     "On Hold": 4,
     "PR Created": 3,
     "Will Not Implement": 1
    },
-   "stalled": 327,
+   "stalled": 326,
    "worst": 13.58,
    "worstSt": "To Do",
    "items": 333
@@ -538,7 +536,7 @@
   ],
   "LL-Sprint 24-26": [
    0.0,
-   174.0
+   172.0
   ]
  },
  "CAP": {
