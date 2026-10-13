@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T06:12:44Z",
+ "generated": "2026-10-13T06:59:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 32,
+    "n": 33,
     "points": 57,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 77,
+   "ready": 78,
    "sprint": 94,
    "sprint_name": "Plans-Sprint 23-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 11,
+    "n": 12,
     "items": [
+     {
+      "key": "PLANS-24380",
+      "summary": "PMP - One Smile - Minor UI -  Plan cards are not aligned"
+     },
      {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-11252",
       "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
-     },
-     {
-      "key": "PLANS-11249",
-      "summary": "Blocked DYN 265 > WFPLNS > Discount Plan 2 Individuals> CRM email child turning "
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 48,
+    "n": 49,
     "items": [
+     {
+      "key": "PLANS-24380",
+      "summary": "PMP - One Smile - Minor UI -  Plan cards are not aligned"
+     },
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-23969",
       "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
-     },
-     {
-      "key": "PLANS-23967",
-      "summary": "[4.3.W1] Publish retry-payment-failed, retry-succeeded and retry-exhausted event"
      }
     ]
    },
@@ -272,14 +272,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 165 of 171 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 165,
+    "why": "missing on 166 of 172 items. This reads as a field the team does not use rather than 166 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 166,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 170 of 171 items. This reads as a field the team does not use rather than 170 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 170,
+    "why": "missing on 171 of 172 items. This reads as a field the team does not use rather than 171 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 171,
     "items": []
    },
    {
@@ -472,20 +472,20 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 51,
+    "open": 52,
     "med_age": 4.3,
     "max_age": 4.4,
-    "worst_key": "PLANS-22208",
-    "worst_sum": "Story 1.2: Compute and display the missing-contact flag in the CSP member list (four searc",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-24033",
+    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.5,
     "clear_n": 392
    },
    {
     "status": "Ready for Development",
-    "open": 26,
-    "med_age": 7.6,
+    "open": 27,
+    "med_age": 7.7,
     "max_age": 33.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -496,8 +496,8 @@
    },
    {
     "status": "In Development",
-    "open": 19,
-    "med_age": 7.8,
+    "open": 20,
+    "med_age": 7.7,
     "max_age": 17.7,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -521,7 +521,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 21.9,
+    "med_age": 22.0,
     "max_age": 40.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -533,8 +533,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 39.7,
-    "max_age": 39.7,
+    "med_age": 39.8,
+    "max_age": 39.8,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -544,18 +544,18 @@
    },
    {
     "status": "PR Merged",
-    "open": 3,
+    "open": 2,
     "med_age": 0.6,
-    "max_age": 3.6,
-    "worst_key": "PLANS-24278",
-    "worst_sum": "Open network issue (stage & prod)",
-    "worst_who": "Petro Yarish",
+    "max_age": 0.6,
+    "worst_key": "PLANS-24083",
+    "worst_sum": "Provider Portal \\ Age restriction row is missing for Dependents",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 594
+    "clear_n": 595
    },
    {
-    "status": "In QA",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -563,8 +563,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 43
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -579,7 +579,7 @@
     "clear_n": 9
    },
    {
-    "status": "Ready for Stage",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -587,15 +587,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 3.0,
+    "clear_n": 43
    }
   ],
   "parked": {
-   "On Hold": 5,
-   "Backlog": 208
+   "Backlog": 206,
+   "On Hold": 5
   },
-  "open_total": 127,
+  "open_total": 129,
   "stale": 32,
   "worst": "In Stage"
  }
