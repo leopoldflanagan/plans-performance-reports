@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T14:08:50Z",
+ "generated": "2026-10-13T14:42:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 30,
-    "points": 49,
+    "n": 31,
+    "points": 51,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -52,29 +52,29 @@
  },
  "projection": {
   "too_early": false,
-  "day": 12,
-  "days": 12,
+  "day": 2,
+  "days": 14,
   "n": 17,
-  "done_now": 168,
-  "committed": 351,
-  "lo": 168,
-  "mid": 168,
-  "hi": 168,
-  "pct": 48,
+  "done_now": 32,
+  "committed": 211,
+  "lo": 106,
+  "mid": 121,
+  "hi": 348,
+  "pct": 57,
   "verdict": "well short of the commitment",
-  "share_mid": 1.0
+  "share_mid": 0.265
  },
  "admin": {
   "scope": {
-   "ready": 77,
-   "sprint": 94,
-   "sprint_name": "Plans-Sprint 23-26"
+   "ready": 78,
+   "sprint": 175,
+   "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 11,
+    "n": 101,
     "items": [
      {
       "key": "PLANS-24101",
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 48,
+    "n": 49,
     "items": [
+     {
+      "key": "PLANS-24421",
+      "summary": "STAGE - Plan Details -Downloading PDF -  Getting a 400 error for below mentioned"
+     },
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
@@ -153,48 +157,96 @@
      {
       "key": "PLANS-23969",
       "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
-     },
-     {
-      "key": "PLANS-23967",
-      "summary": "[4.3.W1] Publish retry-payment-failed, retry-succeeded and retry-exhausted event"
      }
     ]
    },
    {
     "rule": "AdHoc without the unplanned label",
     "why": "the guide does not allow it. Unlabelled reactive work is why the reactive share cannot be measured.",
-    "n": 1,
+    "n": 19,
     "items": [
      {
-      "key": "PLANS-22655",
-      "summary": "PMP - Plan for additional member is not renewed"
+      "key": "PLANS-14727",
+      "summary": "Investigate how we will store the data to be dynamically generated"
+     },
+     {
+      "key": "PLANS-14725",
+      "summary": "Investigate the types of admin fees we will support (Dev Only)"
+     },
+     {
+      "key": "PLANS-14721",
+      "summary": "PM Hours Tracking  Treatment Summaries and Non-Integrated Practices"
+     },
+     {
+      "key": "PLANS-14719",
+      "summary": "Investigate as to how we can have Plan Details more of a dynamic build"
+     },
+     {
+      "key": "PLANS-14713",
+      "summary": "Investigate back end changes required for quarterly, semi-annual & 2 year plans"
+     },
+     {
+      "key": "PLANS-14706",
+      "summary": "PM Hours Tracking  Promo Code Creation & Ability to Use"
+     },
+     {
+      "key": "PLANS-14702",
+      "summary": "PM Hours Tracking  CSP - Plan Management - Sales Details"
+     },
+     {
+      "key": "PLANS-14698",
+      "summary": "PM Hours Tracking  Generate a Plan Purchase Site for Customer"
      }
     ]
    },
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 3,
+    "n": 80,
     "items": [
      {
-      "key": "PLANS-24144",
-      "summary": "Giftcore/Promo code Giftcore is not applied to autorenewal "
+      "key": "PLANS-24425",
+      "summary": "OneSmile/Plan Details PDF/Provider link is incorrect"
      },
      {
-      "key": "PLANS-24129",
-      "summary": "Giftcore/ Promo code Giftcore is not auto applied to a manual renewal in Member "
+      "key": "PLANS-24408",
+      "summary": "PMP - Additional benefit card - org logo is missing "
      },
      {
-      "key": "PLANS-23849",
-      "summary": "Member portal - broken -  primary member's plan is not available in the list of "
+      "key": "PLANS-24405",
+      "summary": "Prod - Logo not visible in Membership agreement / Membership cards."
+     },
+     {
+      "key": "PLANS-24399",
+      "summary": "STAGE/Prod - Plan Details -  Auto renewal text is not matching with CSP configur"
+     },
+     {
+      "key": "PLANS-24275",
+      "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
+     },
+     {
+      "key": "PLANS-24273",
+      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
+     },
+     {
+      "key": "PLANS-24072",
+      "summary": "Member Portal \\ Treatment Summaries are not available for adult dependent   "
+     },
+     {
+      "key": "PLANS-22024",
+      "summary": "Dashboard - Refunding a plan incorrectly increases the Goal Reached (%) value on"
      }
     ]
    },
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 35,
+    "n": 24,
     "items": [
+     {
+      "key": "PLANS-24421",
+      "summary": "STAGE - Plan Details -Downloading PDF -  Getting a 400 error for below mentioned"
+     },
      {
       "key": "PLANS-23969",
       "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
@@ -222,10 +274,45 @@
      {
       "key": "PLANS-15940",
       "summary": "[4.1] Add GetPlanLedgerState method to PlanLedgerManager"
+     }
+    ]
+   },
+   {
+    "rule": "Still in Backlog inside the sprint",
+    "why": "in the sprint but never pulled into the flow.",
+    "n": 113,
+    "items": [
+     {
+      "key": "PLANS-24442",
+      "summary": "PMP  - When a plan is renewed and then refunded/disabled, the plan status is inc"
      },
      {
-      "key": "PLANS-15928",
-      "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
+      "key": "PLANS-24425",
+      "summary": "OneSmile/Plan Details PDF/Provider link is incorrect"
+     },
+     {
+      "key": "PLANS-24416",
+      "summary": "Prod - PMP - One Smile - Incorrect URL in membership card "
+     },
+     {
+      "key": "PLANS-24408",
+      "summary": "PMP - Additional benefit card - org logo is missing "
+     },
+     {
+      "key": "PLANS-24399",
+      "summary": "STAGE/Prod - Plan Details -  Auto renewal text is not matching with CSP configur"
+     },
+     {
+      "key": "PLANS-24275",
+      "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
+     },
+     {
+      "key": "PLANS-24267",
+      "summary": "Prod/DCA/Logo missing in member agreement in PMP"
+     },
+     {
+      "key": "PLANS-24072",
+      "summary": "Member Portal \\ Treatment Summaries are not available for adult dependent   "
      }
     ]
    }
@@ -234,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 47,
+    "n": 160,
     "items": [
      {
       "key": "PLANS-24101",
@@ -272,20 +359,20 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 165 of 171 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 165,
+    "why": "missing on 240 of 242 items. This reads as a field the team does not use rather than 240 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 240,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 170 of 171 items. This reads as a field the team does not use rather than 170 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 170,
+    "why": "missing on 240 of 242 items. This reads as a field the team does not use rather than 240 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 240,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 23,
+    "n": 130,
     "items": [
      {
       "key": "PLANS-22675",
@@ -350,94 +437,63 @@
   ]
  },
  "sprint": {
-  "name": "Plans-Sprint 23-26",
+  "name": "LL-Sprint 24-26",
   "state": "active",
-  "start": "2026-09-29",
-  "end": "2026-10-11",
+  "start": "2026-10-12",
+  "end": "2026-10-26",
   "goal": "",
-  "items": 350,
-  "items_done": 60,
-  "committed": 351,
-  "final": 461,
-  "completed": 168,
-  "scope_change": 31,
-  "vs_commitment": 48,
-  "time_elapsed": 100,
+  "items": 336,
+  "items_done": 15,
+  "committed": 211,
+  "final": 211,
+  "completed": 32,
+  "scope_change": 0,
+  "vs_commitment": 15,
+  "time_elapsed": 7,
   "spill": {
-   "open_items": 16,
-   "open_pts": 73.0,
-   "out_items": 35,
-   "out_pts": 131.0,
-   "done_pts": 257.0
+   "open_items": 164,
+   "open_pts": 189.0,
+   "out_items": 0,
+   "out_pts": 0,
+   "done_pts": 15.0
   },
   "recv": {
-   "items": 3,
-   "pts": 10,
-   "pct": 3,
-   "from": "LL-Sprint 23-26"
+   "items": 5,
+   "pts": 3,
+   "pct": 1,
+   "from": "Plans-Sprint 23-26"
   },
-  "spill_rate": 44,
+  "spill_rate": null,
   "dist": {
-   "In Progress": 4,
-   "To Do": 9,
-   "Done": 208,
-   "In Development": 4,
-   "Closed": 71,
-   "Ready Prod": 3,
-   "In Stage": 10,
-   "Will Not Implement": 4,
-   "On Hold": 2
+   "To Do": 116,
+   "Backlog": 114,
+   "Ready for Development": 11,
+   "Closed": 2,
+   "Done": 33,
+   "PR Created": 5,
+   "In Progress": 11,
+   "In Development": 2,
+   "Ready Prod": 6,
+   "In Stage": 28,
+   "WAITING REVIEW": 3,
+   "On Hold": 3,
+   "Will Not Implement": 1,
+   "PR Merged": 1
   },
   "burn": [
-   327.0,
-   321.0,
-   292.0,
-   293.0,
-   289.0,
-   294.0,
-   296.0,
-   320.0,
-   323.0,
-   307.0,
-   312.0,
-   290.0,
-   290.0,
-   290.0
+   0.0,
+   179.0
   ],
   "scope": [
-   337.0,
-   351.0,
-   353.0,
-   374.0,
-   380.0,
-   385.0,
-   387.0,
-   427.0,
-   448.0,
-   450.0,
-   456.0,
-   458.0,
-   458.0,
-   458.0
+   0.0,
+   211.0
   ],
   "ghost": [
-   327.0,
-   321.0,
-   292.0,
-   293.0,
-   289.0,
-   294.0,
-   296.0,
-   320.0,
-   323.0,
-   307.0,
-   312.0,
-   290.0,
-   290.0,
-   290.0
+   0.0,
+   179.0
   ],
-  "days": 12,
-  "day": 12
+  "days": 14,
+  "day": 2
  },
  "next": {
   "name": "LL-Sprint 25-26",
@@ -461,10 +517,11 @@
   "sprints": [
    "LL-Sprint 23-26",
    "Plans-Sprint 23-26",
-   "LL-Sprint 24-26"
+   "LL-Sprint 24-26",
+   "Plans-Sprint 24-26"
   ],
-  "n_sprints": 3,
-  "sprints_done": 1
+  "n_sprints": 4,
+  "sprints_done": 2
  },
  "aging": {
   "window_days": 90,
@@ -484,20 +541,20 @@
    },
    {
     "status": "Ready for Development",
-    "open": 26,
+    "open": 27,
     "med_age": 8.0,
     "max_age": 33.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 14,
+    "over": 16,
     "clear_med": 1.1,
     "clear_n": 209
    },
    {
     "status": "In Development",
-    "open": 19,
-    "med_age": 8.1,
+    "open": 26,
+    "med_age": 5.5,
     "max_age": 18.0,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -592,11 +649,11 @@
    }
   ],
   "parked": {
-   "Backlog": 212,
+   "Backlog": 204,
    "On Hold": 4
   },
-  "open_total": 132,
-  "stale": 33,
+  "open_total": 140,
+  "stale": 35,
   "worst": "In Stage"
  }
 }

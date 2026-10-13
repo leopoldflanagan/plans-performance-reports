@@ -3412,12 +3412,13 @@
    "sprints": [
     "LL-Sprint 23-26",
     "Plans-Sprint 23-26",
-    "LL-Sprint 24-26"
+    "LL-Sprint 24-26",
+    "Plans-Sprint 24-26"
    ],
    "weeks": 4,
    "closed": null,
    "per_sprint": null,
-   "n_sprints": 3
+   "n_sprints": 4
   },
   "9.10": {
    "slug": "2026-r910",
