@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T09:43:49Z",
+ "generated": "2026-10-13T10:08:09Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 32,
-    "points": 57,
+    "n": 30,
+    "points": 49,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -473,14 +473,14 @@
    {
     "status": "In Stage",
     "open": 52,
-    "med_age": 4.4,
+    "med_age": 4.5,
     "max_age": 4.5,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 0,
-    "clear_med": 3.5,
-    "clear_n": 392
+    "clear_med": 3.3,
+    "clear_n": 385
    },
    {
     "status": "Ready for Development",
@@ -492,11 +492,11 @@
     "worst_who": "unassigned",
     "over": 14,
     "clear_med": 1.1,
-    "clear_n": 212
+    "clear_n": 209
    },
    {
     "status": "In Development",
-    "open": 23,
+    "open": 21,
     "med_age": 7.6,
     "max_age": 17.8,
     "worst_key": "PLANS-22998",
@@ -504,11 +504,11 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 610
+    "clear_n": 604
    },
    {
     "status": "PR Created",
-    "open": 23,
+    "open": 25,
     "med_age": 4.0,
     "max_age": 26.8,
     "worst_key": "PLANS-22703",
@@ -516,7 +516,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 627
+    "clear_n": 619
    },
    {
     "status": "WAITING REVIEW",
@@ -528,7 +528,7 @@
     "worst_who": "unassigned",
     "over": 2,
     "clear_med": 0.1,
-    "clear_n": 18
+    "clear_n": 15
    },
    {
     "status": "Identified",
@@ -552,7 +552,7 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 595
+    "clear_n": 588
    },
    {
     "status": "Ready for Stage",
@@ -593,7 +593,7 @@
   ],
   "parked": {
    "On Hold": 5,
-   "Backlog": 203
+   "Backlog": 211
   },
   "open_total": 132,
   "stale": 33,
