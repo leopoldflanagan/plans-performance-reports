@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T00:18:29Z",
+ "generated": "2026-10-13T01:18:28Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -473,20 +473,20 @@
    {
     "status": "In Stage",
     "open": 52,
-    "med_age": 4.0,
-    "max_age": 4.1,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
-    "worst_who": "Valentyna Tenus",
+    "med_age": 4.1,
+    "max_age": 4.2,
+    "worst_key": "PLANS-22208",
+    "worst_sum": "Story 1.2: Compute and display the missing-contact flag in the CSP member list (four searc",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 395
+    "clear_n": 396
    },
    {
     "status": "Ready for Development",
     "open": 26,
     "med_age": 7.4,
-    "max_age": 32.9,
+    "max_age": 33.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -497,8 +497,8 @@
    {
     "status": "In Development",
     "open": 18,
-    "med_age": 9.9,
-    "max_age": 17.4,
+    "med_age": 10.1,
+    "max_age": 17.5,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -522,7 +522,7 @@
     "status": "PR Created",
     "open": 23,
     "med_age": 3.7,
-    "max_age": 26.4,
+    "max_age": 26.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -544,27 +544,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 4,
-    "med_age": 0.3,
+    "open": 3,
+    "med_age": 0.4,
     "max_age": 3.4,
     "worst_key": "PLANS-24278",
     "worst_sum": "Open network issue (stage & prod)",
     "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 598
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 43
+    "clear_n": 599
    },
    {
     "status": "Ready for Stage",
@@ -580,6 +568,18 @@
    },
    {
     "status": "In PreProd",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24109",
+    "worst_sum": "PLANS-24109: Digital Smiles & Digital Smiles Senior 55+ (stage): Bugs",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 10
+   },
+   {
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -587,13 +587,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 10
+    "clear_med": 3.0,
+    "clear_n": 43
    }
   ],
   "parked": {
-   "Backlog": 206,
-   "On Hold": 5
+   "On Hold": 5,
+   "Backlog": 206
   },
   "open_total": 128,
   "stale": 32,

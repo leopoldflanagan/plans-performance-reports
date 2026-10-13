@@ -200,12 +200,12 @@
     9
    ],
    "open": [
-    166,
-    184
+    165,
+    182
    ],
    "out": [
-    0,
-    0
+    1,
+    2
    ],
    "in": [
     5,
@@ -309,17 +309,18 @@
     }
    },
    "dist": {
-    "Done": 190,
-    "To Do": 98,
+    "Done": 191,
+    "To Do": 97,
     "Backlog": 112,
     "In Progress": 13,
     "In Development": 3,
     "Ready Prod": 11,
     "Closed": 115,
-    "PR Merged": 3,
+    "PR Merged": 2,
     "Ready for Development": 10,
     "Will Not Implement": 2,
     "WAITING REVIEW": 3,
+    "In PreProd": 1,
     "In Stage": 21,
     "On Hold": 4,
     "PR Created": 3
@@ -422,11 +423,11 @@
      "med": 13.58
     },
     "In Progress": {
-     "n": 19,
+     "n": 20,
      "med": 13.58
     },
     "Done": {
-     "n": 31,
+     "n": 32,
      "med": 13.58
     },
     "Closed": {
@@ -435,10 +436,10 @@
     },
     "PR Merged": {
      "n": 9,
-     "med": 0.13
+     "med": 0.03
     },
     "In Stage": {
-     "n": 32,
+     "n": 33,
      "med": 13.58
     },
     "In Development": {
@@ -454,8 +455,8 @@
      "med": 0.04
     },
     "In PreProd": {
-     "n": 4,
-     "med": 0.05
+     "n": 5,
+     "med": 0.06
     },
     "Ready Prod": {
      "n": 4,
@@ -480,15 +481,16 @@
    },
    "dist": {
     "Backlog": 117,
-    "To Do": 115,
-    "Done": 31,
+    "To Do": 114,
+    "Done": 32,
     "Closed": 1,
     "In Progress": 12,
     "In Development": 3,
     "Ready Prod": 4,
-    "PR Merged": 3,
+    "PR Merged": 2,
     "Ready for Development": 10,
     "WAITING REVIEW": 3,
+    "In PreProd": 1,
     "In Stage": 26,
     "On Hold": 4,
     "PR Created": 3,
