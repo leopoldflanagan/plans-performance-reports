@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T21:05:34Z",
+ "generated": "2026-10-13T21:33:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 5,
-   "points": 15
+   "items": 4,
+   "points": 12
   },
   "misfiled": {
    "items": 30,
@@ -66,15 +66,15 @@
  },
  "admin": {
   "scope": {
-   "ready": 79,
-   "sprint": 178,
+   "ready": 78,
+   "sprint": 179,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 99,
+    "n": 100,
     "items": [
      {
       "key": "PLANS-24101",
@@ -202,8 +202,12 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 82,
+    "n": 83,
     "items": [
+     {
+      "key": "PLANS-24468",
+      "summary": "PMP - Plan selection- when the organization sells only one plan, only the covera"
+     },
      {
       "key": "PLANS-24458",
       "summary": "One Smile \u2013 Marketing Settings \u2013 Incorrect Plan Name Displayed in Annual Plan Be"
@@ -231,17 +235,13 @@
      {
       "key": "PLANS-24275",
       "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
-     },
-     {
-      "key": "PLANS-24273",
-      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
      }
     ]
    },
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 24,
+    "n": 23,
     "items": [
      {
       "key": "PLANS-23969",
@@ -260,10 +260,6 @@
       "summary": "[4.1.W1] Extend the auto-renewal Slack post and admin email with retry states, n"
      },
      {
-      "key": "PLANS-23960",
-      "summary": "[3.3.W2] Circuit-breaker exhaustion schedules a card plan for the next night ins"
-     },
-     {
       "key": "PLANS-23913",
       "summary": "ACH -  Emails are not working (Declines, Returns)"
      },
@@ -274,14 +270,22 @@
      {
       "key": "PLANS-15928",
       "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
+     },
+     {
+      "key": "PLANS-24421",
+      "summary": "STAGE - Plan Details -Downloading PDF -  Getting a 400 error for below mentioned"
      }
     ]
    },
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 112,
+    "n": 113,
     "items": [
+     {
+      "key": "PLANS-24468",
+      "summary": "PMP - Plan selection- when the organization sells only one plan, only the covera"
+     },
      {
       "key": "PLANS-24458",
       "summary": "One Smile \u2013 Marketing Settings \u2013 Incorrect Plan Name Displayed in Annual Plan Be"
@@ -309,10 +313,6 @@
      {
       "key": "PLANS-24072",
       "summary": "Member Portal \\ Treatment Summaries are not available for adult dependent   "
-     },
-     {
-      "key": "PLANS-23852",
-      "summary": "PLANS-23852: Member Portal: Find A Dentist: Accessibility Screen Reader does not"
      }
     ]
    }
@@ -321,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 161,
+    "n": 162,
     "items": [
      {
       "key": "PLANS-24101",
@@ -442,7 +442,7 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 342,
+  "items": 343,
   "items_done": 18,
   "committed": 215,
   "final": 217,
@@ -451,7 +451,7 @@
   "vs_commitment": 17,
   "time_elapsed": 9,
   "spill": {
-   "open_items": 164,
+   "open_items": 165,
    "open_pts": 191.0,
    "out_items": 0,
    "out_pts": 0,
@@ -465,9 +465,9 @@
   },
   "spill_rate": null,
   "dist": {
+   "Backlog": 114,
    "Done": 34,
    "To Do": 118,
-   "Backlog": 113,
    "In Stage": 31,
    "Closed": 5,
    "PR Created": 5,
@@ -543,7 +543,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 27,
+    "open": 26,
     "med_age": 8.3,
     "max_age": 33.8,
     "worst_key": "PLANS-22675",
@@ -575,13 +575,13 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 620
+    "clear_n": 619
    },
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 40.3,
-    "max_age": 40.3,
+    "med_age": 40.4,
+    "max_age": 40.4,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -591,27 +591,27 @@
    },
    {
     "status": "In Development",
-    "open": 27,
-    "med_age": 1.0,
+    "open": 28,
+    "med_age": 1.1,
     "max_age": 18.3,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 607
+    "clear_n": 606
    },
    {
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.1,
-    "max_age": 0.5,
+    "max_age": 0.6,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 590
+    "clear_n": 589
    },
    {
     "status": "In PreProd",
@@ -651,8 +651,8 @@
    }
   ],
   "parked": {
-   "Backlog": 194,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 195
   },
   "open_total": 149,
   "stale": 36,
