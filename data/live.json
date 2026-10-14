@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T11:37:30Z",
+ "generated": "2026-10-14T12:09:42Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 37,
   "scope_change": 4,
   "vs_commitment": 17,
-  "time_elapsed": 13,
+  "time_elapsed": 14,
   "spill": {
    "open_items": 167,
    "open_pts": 196.0,
@@ -540,7 +540,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 380
+    "clear_n": 381
    },
    {
     "status": "Ready for Development",
@@ -576,13 +576,13 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 622
+    "clear_n": 623
    },
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 40.9,
-    "max_age": 40.9,
+    "med_age": 41.0,
+    "max_age": 41.0,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -600,25 +600,25 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 10,
     "clear_med": 0.0,
-    "clear_n": 606
+    "clear_n": 607
    },
    {
     "status": "PR Merged",
     "open": 9,
     "med_age": 0.2,
-    "max_age": 1.1,
+    "max_age": 1.2,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 586
+    "clear_n": 587
    },
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.8,
-    "max_age": 0.8,
+    "med_age": 0.9,
+    "max_age": 0.9,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
@@ -652,8 +652,8 @@
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 193
+   "Backlog": 193,
+   "On Hold": 4
   },
   "open_total": 150,
   "stale": 34,
