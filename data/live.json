@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T15:06:59Z",
+ "generated": "2026-10-14T15:39:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 33,
-    "points": 49,
+    "n": 32,
+    "points": 47,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 78,
+   "ready": 77,
    "sprint": 184,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 50,
     "items": [
      {
       "key": "PLANS-24478",
@@ -143,10 +143,6 @@
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
      },
      {
-      "key": "PLANS-24103",
-      "summary": "CSP - Office assigned from PMP, the office assignment is not reflected in CSP > "
-     },
-     {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
      },
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24004",
       "summary": "Member Portal -  Inconsistent Font Sizes/Styles/ link colors in Legal Consent Se"
+     },
+     {
+      "key": "PLANS-23969",
+      "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
      }
     ]
    },
@@ -284,7 +284,7 @@
     "items": [
      {
       "key": "PLANS-24480",
-      "summary": "PMP - DCA - membership card print - logo should  be corrected."
+      "summary": "PMP - DCA - membership card/plan details  print - logo should  be corrected."
      },
      {
       "key": "PLANS-24468",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 249,
+    "why": "missing on 248 of 250 items. This reads as a field the team does not use rather than 248 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 248,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 249,
+    "why": "missing on 248 of 250 items. This reads as a field the team does not use rather than 248 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 248,
     "items": []
    },
    {
@@ -449,7 +449,7 @@
   "completed": 42,
   "scope_change": 5,
   "vs_commitment": 20,
-  "time_elapsed": 14,
+  "time_elapsed": 15,
   "spill": {
    "open_items": 167,
    "open_pts": 194.0,
@@ -468,13 +468,13 @@
    "To Do": 119,
    "Backlog": 115,
    "Ready for Development": 11,
-   "PR Created": 3,
+   "In Development": 3,
+   "PR Created": 2,
    "Done": 37,
    "Closed": 6,
    "Ready Prod": 9,
    "PR Merged": 5,
    "In Progress": 12,
-   "In Development": 2,
    "In Stage": 28,
    "WAITING REVIEW": 2,
    "On Hold": 3,
@@ -511,8 +511,8 @@
   "end": "2026-10-25",
   "day": 17,
   "days": 28,
-  "closed": 330,
-  "points": 819,
+  "closed": 335,
+  "points": 853,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -532,39 +532,39 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 50,
-    "med_age": 5.7,
+    "open": 43,
+    "med_age": 5.3,
     "max_age": 5.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 387
+    "clear_med": 3.6,
+    "clear_n": 391
    },
    {
     "status": "Ready for Development",
-    "open": 25,
-    "med_age": 9.0,
-    "max_age": 34.5,
+    "open": 24,
+    "med_age": 8.6,
+    "max_age": 34.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 16,
-    "clear_med": 1.0,
-    "clear_n": 221
+    "over": 15,
+    "clear_med": 1.1,
+    "clear_n": 222
    },
    {
     "status": "PR Created",
-    "open": 26,
-    "med_age": 3.8,
-    "max_age": 28.0,
+    "open": 25,
+    "med_age": 5.2,
+    "max_age": 28.1,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 623
+    "clear_n": 614
    },
    {
     "status": "WAITING REVIEW",
@@ -592,15 +592,15 @@
    },
    {
     "status": "In Development",
-    "open": 27,
-    "med_age": 1.0,
+    "open": 28,
+    "med_age": 1.1,
     "max_age": 19.0,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 10,
     "clear_med": 0.0,
-    "clear_n": 604
+    "clear_n": 598
    },
    {
     "status": "PR Merged",
@@ -612,7 +612,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 588
+    "clear_n": 581
    },
    {
     "status": "In PreProd",
@@ -636,7 +636,7 @@
     "worst_who": "Chris Rubio",
     "over": 0,
     "clear_med": 3.0,
-    "clear_n": 43
+    "clear_n": 42
    },
    {
     "status": "Ready for Stage",
@@ -652,11 +652,11 @@
    }
   ],
   "parked": {
-   "Backlog": 189,
-   "On Hold": 5
+   "Backlog": 191,
+   "On Hold": 6
   },
-  "open_total": 145,
-  "stale": 34,
+  "open_total": 137,
+  "stale": 33,
   "worst": "In Stage"
  }
 }
