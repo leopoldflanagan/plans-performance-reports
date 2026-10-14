@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T16:39:05Z",
+ "generated": "2026-10-14T17:05:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,13 +55,13 @@
   "day": 3,
   "days": 14,
   "n": 17,
-  "done_now": 42,
+  "done_now": 47,
   "committed": 215,
-  "lo": 120,
-  "mid": 154,
-  "hi": 284,
-  "pct": 72,
-  "verdict": "well short of the commitment",
+  "lo": 134,
+  "mid": 172,
+  "hi": 317,
+  "pct": 80,
+  "verdict": "a little short of the commitment",
   "share_mid": 0.273
  },
  "admin": {
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 23,
+    "n": 21,
     "items": [
      {
       "key": "PLANS-23969",
@@ -442,20 +442,20 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 358,
-  "items_done": 21,
+  "items": 359,
+  "items_done": 22,
   "committed": 215,
   "final": 227,
-  "completed": 42,
+  "completed": 47,
   "scope_change": 6,
-  "vs_commitment": 20,
+  "vs_commitment": 22,
   "time_elapsed": 15,
   "spill": {
-   "open_items": 169,
-   "open_pts": 195.0,
-   "out_items": 0,
-   "out_pts": 0,
-   "done_pts": 30.0
+   "open_items": 167,
+   "open_pts": 189.0,
+   "out_items": 1,
+   "out_pts": 1.0,
+   "done_pts": 35.0
   },
   "recv": {
    "items": 5,
@@ -468,15 +468,14 @@
    "In Progress": 13,
    "To Do": 121,
    "Backlog": 116,
-   "In Development": 4,
-   "In Stage": 33,
-   "Done": 37,
+   "WAITING REVIEW": 3,
+   "In Stage": 34,
+   "In Development": 3,
+   "Done": 38,
    "Closed": 6,
-   "Ready Prod": 9,
+   "Ready Prod": 10,
    "Ready for Development": 10,
-   "WAITING REVIEW": 2,
    "PR Created": 1,
-   "PR Merged": 2,
    "On Hold": 3,
    "Will Not Implement": 1
   },
@@ -484,7 +483,7 @@
    0.0,
    186.0,
    184.0,
-   185.0
+   180.0
   ],
   "scope": [
    0.0,
@@ -496,7 +495,7 @@
    0.0,
    186.0,
    184.0,
-   185.0
+   180.0
   ],
   "days": 14,
   "day": 3
@@ -514,8 +513,8 @@
   "end": "2026-10-25",
   "day": 17,
   "days": 28,
-  "closed": 335,
-  "points": 853,
+  "closed": 336,
+  "points": 858,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -534,18 +533,6 @@
   "stale_days": 7,
   "rows": [
    {
-    "status": "In Stage",
-    "open": 50,
-    "med_age": 5.3,
-    "max_age": 5.8,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
-    "worst_who": "Valentyna Tenus",
-    "over": 0,
-    "clear_med": 3.6,
-    "clear_n": 390
-   },
-   {
     "status": "Ready for Development",
     "open": 22,
     "med_age": 10.6,
@@ -558,28 +545,28 @@
     "clear_n": 225
    },
    {
+    "status": "In Stage",
+    "open": 52,
+    "med_age": 3.7,
+    "max_age": 5.8,
+    "worst_key": "PLANS-24033",
+    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
+    "worst_who": "Valentyna Tenus",
+    "over": 0,
+    "clear_med": 3.6,
+    "clear_n": 392
+   },
+   {
     "status": "PR Created",
     "open": 23,
-    "med_age": 5.3,
+    "med_age": 5.4,
     "max_age": 28.1,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 616
-   },
-   {
-    "status": "WAITING REVIEW",
-    "open": 4,
-    "med_age": 23.4,
-    "max_age": 41.9,
-    "worst_key": "PLANS-22301",
-    "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
-    "worst_who": "unassigned",
-    "over": 2,
-    "clear_med": 0.1,
-    "clear_n": 12
+    "clear_n": 613
    },
    {
     "status": "Identified",
@@ -594,8 +581,20 @@
     "clear_n": 2
    },
    {
+    "status": "WAITING REVIEW",
+    "open": 5,
+    "med_age": 6.0,
+    "max_age": 41.9,
+    "worst_key": "PLANS-22301",
+    "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
+    "worst_who": "unassigned",
+    "over": 2,
+    "clear_med": 0.1,
+    "clear_n": 12
+   },
+   {
     "status": "In Development",
-    "open": 29,
+    "open": 27,
     "med_age": 1.1,
     "max_age": 19.1,
     "worst_key": "PLANS-22998",
@@ -606,28 +605,40 @@
     "clear_n": 597
    },
    {
-    "status": "PR Merged",
-    "open": 7,
-    "med_age": 0.3,
-    "max_age": 0.9,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 587
-   },
-   {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 1.0,
-    "max_age": 1.0,
+    "med_age": 1.1,
+    "max_age": 1.1,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 11
+   },
+   {
+    "status": "PR Merged",
+    "open": 3,
+    "med_age": 0.2,
+    "max_age": 1.0,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 590
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 41
    },
    {
     "status": "Ready for Stage",
@@ -640,26 +651,14 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 42
    }
   ],
   "parked": {
-   "Backlog": 191,
+   "Backlog": 193,
    "On Hold": 6
   },
-  "open_total": 137,
+  "open_total": 134,
   "stale": 33,
-  "worst": "In Stage"
+  "worst": "Ready for Development"
  }
 }
