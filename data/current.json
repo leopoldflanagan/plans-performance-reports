@@ -9,9 +9,9 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 252,
-  "closed": 346,
+  "closed": 348,
   "discarded": 0,
-  "resolved": 346,
+  "resolved": 348,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    163
+    165
    ],
    [
     "TechDebt",
@@ -39,7 +39,7 @@
   "day": 14,
   "days": 28,
   "status": "risk",
-  "headline": "346 items closed in the first 14 days, a pace of about 692 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "348 items closed in the first 14 days, a pace of about 696 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 11.2d and average 18.9d, both past the healthy band"
@@ -230,8 +230,8 @@
     46
    ],
    "open": [
-    167,
-    194
+    168,
+    195
    ],
    "out": [
     0,
@@ -376,9 +376,9 @@
     "Closed": 115,
     "In Stage": 23,
     "Backlog": 110,
-    "Ready for Development": 10,
+    "Ready for Development": 11,
     "Will Not Implement": 2,
-    "WAITING REVIEW": 2,
+    "WAITING REVIEW": 1,
     "PR Created": 2,
     "On Hold": 3
    },
@@ -492,8 +492,8 @@
      "med": 13.58
     },
     "Ready for Development": {
-     "n": 21,
-     "med": 11.45
+     "n": 22,
+     "med": 11.39
     },
     "WAITING REVIEW": {
      "n": 7,
@@ -543,14 +543,14 @@
    "dist": {
     "Done": 44,
     "To Do": 130,
-    "Ready for Development": 12,
+    "Ready for Development": 13,
     "Backlog": 113,
     "Ready Prod": 15,
     "Closed": 9,
     "In Progress": 11,
     "In Development": 2,
     "In Stage": 36,
-    "WAITING REVIEW": 2,
+    "WAITING REVIEW": 1,
     "PR Created": 1,
     "On Hold": 3,
     "Will Not Implement": 1
@@ -695,7 +695,7 @@
  },
  "CAP": {
   "9.09": [
-   346,
+   348,
    295,
    872,
    22
@@ -707,8 +707,8 @@
    "avg": 18.92,
    "n": 249,
    "mx": 148.81,
-   "nodev": 97,
-   "base": 346
+   "nodev": 99,
+   "base": 348
   }
  },
  "complete": false,
