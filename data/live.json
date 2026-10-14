@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T07:40:02Z",
+ "generated": "2026-10-14T08:08:23Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -568,7 +568,7 @@
    },
    {
     "status": "PR Created",
-    "open": 30,
+    "open": 28,
     "med_age": 2.0,
     "max_age": 27.7,
     "worst_key": "PLANS-22703",
@@ -576,7 +576,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 620
+    "clear_n": 622
    },
    {
     "status": "Identified",
@@ -604,8 +604,8 @@
    },
    {
     "status": "PR Merged",
-    "open": 4,
-    "med_age": 0.5,
+    "open": 6,
+    "med_age": 0.2,
     "max_age": 1.0,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
@@ -629,8 +629,8 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 0.3,
-    "max_age": 0.3,
+    "med_age": 0.4,
+    "max_age": 0.4,
     "worst_key": "PLANS-24471",
     "worst_sum": "Enhance CSHTML Rendering",
     "worst_who": "Chris Rubio",
@@ -652,8 +652,8 @@
    }
   ],
   "parked": {
-   "Backlog": 193,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 193
   },
   "open_total": 150,
   "stale": 33,
