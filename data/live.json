@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T03:07:26Z",
+ "generated": "2026-10-14T03:40:11Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -533,10 +533,10 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 5.2,
-    "max_age": 5.2,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 5.3,
+    "worst_key": "PLANS-22208",
+    "worst_sum": "Story 1.2: Compute and display the missing-contact flag in the CSP member list (four searc",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 381
@@ -545,7 +545,7 @@
     "status": "Ready for Development",
     "open": 26,
     "med_age": 8.5,
-    "max_age": 34.0,
+    "max_age": 34.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -569,7 +569,7 @@
     "status": "PR Created",
     "open": 30,
     "med_age": 1.8,
-    "max_age": 27.5,
+    "max_age": 27.6,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -651,8 +651,8 @@
    }
   ],
   "parked": {
-   "Backlog": 196,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 196
   },
   "open_total": 147,
   "stale": 33,
