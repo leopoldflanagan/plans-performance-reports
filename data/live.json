@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T12:45:02Z",
+ "generated": "2026-10-14T13:05:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -532,7 +532,7 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 54,
+    "open": 55,
     "med_age": 5.6,
     "max_age": 5.6,
     "worst_key": "PLANS-24033",
@@ -576,7 +576,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 623
+    "clear_n": 624
    },
    {
     "status": "Identified",
@@ -600,7 +600,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 10,
     "clear_med": 0.0,
-    "clear_n": 607
+    "clear_n": 608
    },
    {
     "status": "PR Merged",
@@ -612,7 +612,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 587
+    "clear_n": 588
    },
    {
     "status": "In PreProd",
@@ -652,10 +652,10 @@
    }
   ],
   "parked": {
-   "Backlog": 192,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 191
   },
-  "open_total": 150,
+  "open_total": 151,
   "stale": 34,
   "worst": "In Stage"
  }
