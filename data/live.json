@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T08:08:23Z",
+ "generated": "2026-10-14T08:42:48Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -202,12 +202,8 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 84,
+    "n": 83,
     "items": [
-     {
-      "key": "PLANS-24476",
-      "summary": "PRODUCTION - True North"
-     },
      {
       "key": "PLANS-24468",
       "summary": "PMP - Plan selection- when the organization sells only one plan, only the covera"
@@ -235,6 +231,10 @@
      {
       "key": "PLANS-24399",
       "summary": "STAGE/Prod - Plan Details -  Auto renewal text is not matching with CSP configur"
+     },
+     {
+      "key": "PLANS-24275",
+      "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
      }
     ]
    },
@@ -466,17 +466,17 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 11,
-   "In Development": 4,
+   "In Development": 3,
+   "PR Created": 4,
    "Backlog": 114,
    "Done": 34,
    "To Do": 118,
    "Closed": 6,
    "In Stage": 30,
-   "PR Created": 4,
    "In Progress": 11,
    "Ready Prod": 6,
    "WAITING REVIEW": 3,
-   "PR Merged": 1,
+   "PR Merged": 2,
    "On Hold": 3,
    "Will Not Implement": 1
   },
@@ -534,9 +534,9 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 5.4,
-    "max_age": 5.4,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
+    "max_age": 5.5,
+    "worst_key": "PLANS-23876",
+    "worst_sum": "Fee Schedule per-coverage-level SavingsValueSuffix dropdown (mirrors CDPS Story 1.3 Amendm",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
@@ -546,7 +546,7 @@
     "status": "Ready for Development",
     "open": 27,
     "med_age": 8.7,
-    "max_age": 34.2,
+    "max_age": 34.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -558,7 +558,7 @@
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 23.1,
-    "max_age": 41.5,
+    "max_age": 41.6,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -570,13 +570,13 @@
     "status": "PR Created",
     "open": 28,
     "med_age": 2.0,
-    "max_age": 27.7,
+    "max_age": 27.8,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 622
+    "clear_n": 623
    },
    {
     "status": "Identified",
@@ -592,27 +592,15 @@
    },
    {
     "status": "In Development",
-    "open": 26,
-    "med_age": 0.7,
-    "max_age": 18.7,
+    "open": 25,
+    "med_age": 0.8,
+    "max_age": 18.8,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 607
-   },
-   {
-    "status": "PR Merged",
-    "open": 6,
-    "med_age": 0.2,
-    "max_age": 1.0,
-    "worst_key": "PLANS-24288",
-    "worst_sum": "PRODUCTION - Theme Bug",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 589
+    "clear_n": 608
    },
    {
     "status": "In PreProd",
@@ -649,6 +637,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "PR Merged",
+    "open": 7,
+    "med_age": 0.0,
+    "max_age": 1.0,
+    "worst_key": "PLANS-24288",
+    "worst_sum": "PRODUCTION - Theme Bug",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 589
    }
   ],
   "parked": {
