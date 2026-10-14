@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T18:08:10Z",
+ "generated": "2026-10-14T18:42:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -280,12 +280,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 116,
+    "n": 115,
     "items": [
-     {
-      "key": "PLANS-24499",
-      "summary": "Production - True North - Practices not showing on Website"
-     },
      {
       "key": "PLANS-24485",
       "summary": "Marketing Settings - Legacy ONLY - CDPS \"Show Header as\" setting is not inherite"
@@ -313,6 +309,10 @@
      {
       "key": "PLANS-24408",
       "summary": "PMP - Additional benefit card - org logo is missing "
+     },
+     {
+      "key": "PLANS-24399",
+      "summary": "STAGE/Prod - Plan Details -  Auto renewal text is not matching with CSP configur"
      }
     ]
    }
@@ -442,19 +442,19 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 360,
+  "items": 361,
   "items_done": 23,
   "committed": 215,
   "final": 228,
   "completed": 49,
   "scope_change": 6,
   "vs_commitment": 23,
-  "time_elapsed": 15,
+  "time_elapsed": 16,
   "spill": {
-   "open_items": 166,
-   "open_pts": 185.0,
-   "out_items": 2,
-   "out_pts": 4.0,
+   "open_items": 165,
+   "open_pts": 184.0,
+   "out_items": 3,
+   "out_pts": 5.0,
    "done_pts": 37.0
   },
   "recv": {
@@ -465,11 +465,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 117,
+   "To Do": 122,
+   "WAITING REVIEW": 5,
    "Done": 39,
    "In Progress": 12,
-   "To Do": 121,
-   "WAITING REVIEW": 4,
+   "Backlog": 116,
    "In Development": 3,
    "Ready Prod": 11,
    "Closed": 6,
@@ -536,7 +536,7 @@
     "status": "In Stage",
     "open": 50,
     "med_age": 5.3,
-    "max_age": 5.8,
+    "max_age": 5.9,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -569,6 +569,18 @@
     "clear_n": 613
    },
    {
+    "status": "WAITING REVIEW",
+    "open": 7,
+    "med_age": 6.0,
+    "max_age": 42.0,
+    "worst_key": "PLANS-22301",
+    "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
+    "worst_who": "unassigned",
+    "over": 2,
+    "clear_med": 0.1,
+    "clear_n": 12
+   },
+   {
     "status": "Identified",
     "open": 1,
     "med_age": 41.2,
@@ -579,18 +591,6 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 2
-   },
-   {
-    "status": "WAITING REVIEW",
-    "open": 6,
-    "med_age": 6.0,
-    "max_age": 41.9,
-    "worst_key": "PLANS-22301",
-    "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
-    "worst_who": "unassigned",
-    "over": 2,
-    "clear_med": 0.1,
-    "clear_n": 12
    },
    {
     "status": "In Development",
@@ -629,18 +629,6 @@
     "clear_n": 591
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 41
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -651,13 +639,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 41
    }
   ],
   "parked": {
-   "Backlog": 194,
+   "Backlog": 193,
    "On Hold": 6
   },
-  "open_total": 132,
+  "open_total": 133,
   "stale": 32,
   "worst": "In Stage"
  }
