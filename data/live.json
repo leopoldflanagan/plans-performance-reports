@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T17:37:39Z",
+ "generated": "2026-10-14T18:08:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 30,
-    "points": 46,
+    "n": 29,
+    "points": 45,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 75,
+   "ready": 74,
    "sprint": 187,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 48,
+    "n": 47,
     "items": [
      {
       "key": "PLANS-24475",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 250 of 252 items. This reads as a field the team does not use rather than 250 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 250,
+    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 249,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 250 of 252 items. This reads as a field the team does not use rather than 250 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 250,
+    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 249,
     "items": []
    },
    {
@@ -451,10 +451,10 @@
   "vs_commitment": 23,
   "time_elapsed": 15,
   "spill": {
-   "open_items": 167,
-   "open_pts": 188.0,
-   "out_items": 1,
-   "out_pts": 1.0,
+   "open_items": 166,
+   "open_pts": 185.0,
+   "out_items": 2,
+   "out_pts": 4.0,
    "done_pts": 37.0
   },
   "recv": {
@@ -466,12 +466,12 @@
   "spill_rate": null,
   "dist": {
    "Backlog": 117,
-   "In Progress": 13,
+   "Done": 39,
+   "In Progress": 12,
    "To Do": 121,
-   "WAITING REVIEW": 3,
-   "In Development": 4,
+   "WAITING REVIEW": 4,
+   "In Development": 3,
    "Ready Prod": 11,
-   "Done": 38,
    "Closed": 6,
    "In Stage": 32,
    "Ready for Development": 10,
@@ -513,8 +513,8 @@
   "end": "2026-10-25",
   "day": 17,
   "days": 28,
-  "closed": 337,
-  "points": 860,
+  "closed": 338,
+  "points": 861,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -548,19 +548,19 @@
     "status": "Ready for Development",
     "open": 22,
     "med_age": 10.6,
-    "max_age": 34.6,
+    "max_age": 34.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 15,
     "clear_med": 1.0,
-    "clear_n": 225
+    "clear_n": 226
    },
    {
     "status": "PR Created",
     "open": 23,
     "med_age": 5.4,
-    "max_age": 28.1,
+    "max_age": 28.2,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -582,7 +582,7 @@
    },
    {
     "status": "WAITING REVIEW",
-    "open": 5,
+    "open": 6,
     "med_age": 6.0,
     "max_age": 41.9,
     "worst_key": "PLANS-22301",
@@ -594,15 +594,15 @@
    },
    {
     "status": "In Development",
-    "open": 27,
-    "med_age": 1.1,
-    "max_age": 19.1,
+    "open": 26,
+    "med_age": 1.2,
+    "max_age": 19.2,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 597
+    "clear_n": 598
    },
    {
     "status": "In PreProd",
@@ -654,8 +654,8 @@
    }
   ],
   "parked": {
-   "On Hold": 6,
-   "Backlog": 194
+   "Backlog": 194,
+   "On Hold": 6
   },
   "open_total": 132,
   "stale": 32,
