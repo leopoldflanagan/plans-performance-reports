@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T02:07:42Z",
+ "generated": "2026-10-14T02:41:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 36,
   "scope_change": 1,
   "vs_commitment": 17,
-  "time_elapsed": 10,
+  "time_elapsed": 11,
   "spill": {
    "open_items": 165,
    "open_pts": 191.0,
@@ -568,7 +568,7 @@
    {
     "status": "PR Created",
     "open": 30,
-    "med_age": 1.7,
+    "med_age": 1.8,
     "max_age": 27.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -604,8 +604,8 @@
    {
     "status": "PR Merged",
     "open": 3,
-    "med_age": 0.3,
-    "max_age": 0.7,
+    "med_age": 0.4,
+    "max_age": 0.8,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
     "worst_who": "Denys  Kernychnyi",
@@ -616,8 +616,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.4,
-    "max_age": 0.4,
+    "med_age": 0.5,
+    "max_age": 0.5,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
@@ -651,8 +651,8 @@
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 196
+   "Backlog": 196,
+   "On Hold": 4
   },
   "open_total": 147,
   "stale": 33,
