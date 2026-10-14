@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T23:05:42Z",
+ "generated": "2026-10-14T23:32:50Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -536,7 +536,7 @@
     "status": "In Stage",
     "open": 47,
     "med_age": 5.6,
-    "max_age": 6.0,
+    "max_age": 6.1,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
