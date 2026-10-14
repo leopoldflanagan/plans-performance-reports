@@ -230,12 +230,12 @@
     45
    ],
    "open": [
-    169,
-    194
+    170,
+    195
    ],
    "out": [
-    1,
-    1
+    0,
+    0
    ],
    "in": [
     5,
@@ -492,12 +492,12 @@
      "med": 13.58
     },
     "Ready for Development": {
-     "n": 20,
-     "med": 12.51
+     "n": 21,
+     "med": 11.45
     },
     "WAITING REVIEW": {
      "n": 7,
-     "med": 1.95
+     "med": 0.15
     },
     "In Development": {
      "n": 28,
@@ -543,14 +543,14 @@
    "dist": {
     "Done": 44,
     "To Do": 130,
-    "WAITING REVIEW": 3,
+    "Ready for Development": 12,
     "Backlog": 116,
-    "Ready for Development": 11,
     "Ready Prod": 15,
     "Closed": 6,
     "In Progress": 11,
     "In Development": 2,
     "In Stage": 36,
+    "WAITING REVIEW": 2,
     "PR Created": 1,
     "On Hold": 3,
     "Will Not Implement": 1
