@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T19:05:33Z",
+ "generated": "2026-10-14T19:35:50Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 3,
-   "points": 10
+   "items": 2,
+   "points": 8
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 29,
-    "points": 45,
+    "n": 30,
+    "points": 46,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -56,11 +56,11 @@
   "days": 14,
   "n": 17,
   "done_now": 52,
-  "committed": 215,
+  "committed": 218,
   "lo": 148,
   "mid": 191,
   "hi": 351,
-  "pct": 89,
+  "pct": 88,
   "verdict": "a little short of the commitment",
   "share_mid": 0.273
  },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 47,
+    "n": 48,
     "items": [
+     {
+      "key": "PLANS-24478",
+      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price"
+     },
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-23967",
       "summary": "[4.3.W1] Publish retry-payment-failed, retry-succeeded and retry-exhausted event"
-     },
-     {
-      "key": "PLANS-23965",
-      "summary": "[4.2.W1] Log member activity on the Retry Scheduled and Self-Cured branches"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 249,
+    "why": "missing on 248 of 250 items. This reads as a field the team does not use rather than 248 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 248,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 249,
+    "why": "missing on 248 of 250 items. This reads as a field the team does not use rather than 248 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 248,
     "items": []
    },
    {
@@ -442,19 +442,19 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 361,
+  "items": 362,
   "items_done": 24,
-  "committed": 215,
+  "committed": 218,
   "final": 228,
   "completed": 52,
-  "scope_change": 6,
+  "scope_change": 5,
   "vs_commitment": 24,
   "time_elapsed": 16,
   "spill": {
-   "open_items": 166,
-   "open_pts": 187.0,
-   "out_items": 2,
-   "out_pts": 2.0,
+   "open_items": 167,
+   "open_pts": 188.0,
+   "out_items": 1,
+   "out_pts": 1.0,
    "done_pts": 37.0
   },
   "recv": {
@@ -465,35 +465,35 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 122,
-   "WAITING REVIEW": 4,
+   "To Do": 123,
+   "WAITING REVIEW": 3,
    "Done": 39,
    "In Progress": 12,
    "Backlog": 116,
+   "Ready for Development": 11,
    "In Stage": 33,
    "In Development": 3,
    "Ready Prod": 11,
    "Closed": 6,
-   "Ready for Development": 10,
    "PR Created": 1,
    "On Hold": 3,
    "Will Not Implement": 1
   },
   "burn": [
-   0.0,
-   186.0,
+   3.0,
+   189.0,
    184.0,
    176.0
   ],
   "scope": [
-   0.0,
-   215.0,
+   3.0,
+   218.0,
    226.0,
    228.0
   ],
   "ghost": [
-   0.0,
-   186.0,
+   3.0,
+   189.0,
    184.0,
    176.0
   ],
@@ -513,8 +513,8 @@
   "end": "2026-10-25",
   "day": 17,
   "days": 28,
-  "closed": 339,
-  "points": 864,
+  "closed": 340,
+  "points": 867,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -542,7 +542,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 397
+    "clear_n": 398
    },
    {
     "status": "Ready for Development",
@@ -554,19 +554,19 @@
     "worst_who": "unassigned",
     "over": 15,
     "clear_med": 1.0,
-    "clear_n": 226
+    "clear_n": 227
    },
    {
     "status": "PR Created",
     "open": 23,
-    "med_age": 5.4,
+    "med_age": 5.5,
     "max_age": 28.2,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 616
+    "clear_n": 618
    },
    {
     "status": "Identified",
@@ -581,18 +581,6 @@
     "clear_n": 2
    },
    {
-    "status": "WAITING REVIEW",
-    "open": 6,
-    "med_age": 6.0,
-    "max_age": 42.0,
-    "worst_key": "PLANS-22301",
-    "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
-    "worst_who": "unassigned",
-    "over": 2,
-    "clear_med": 0.0,
-    "clear_n": 14
-   },
-   {
     "status": "In Development",
     "open": 26,
     "med_age": 1.2,
@@ -602,31 +590,43 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 602
+    "clear_n": 604
+   },
+   {
+    "status": "WAITING REVIEW",
+    "open": 5,
+    "med_age": 6.1,
+    "max_age": 42.0,
+    "worst_key": "PLANS-22301",
+    "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
+    "worst_who": "unassigned",
+    "over": 2,
+    "clear_med": 0.0,
+    "clear_n": 15
    },
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 1.1,
-    "max_age": 1.1,
+    "med_age": 1.2,
+    "max_age": 1.2,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 11
+    "clear_n": 12
    },
    {
     "status": "PR Merged",
     "open": 3,
-    "med_age": 0.2,
-    "max_age": 1.0,
+    "med_age": 0.3,
+    "max_age": 1.1,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 594
+    "clear_n": 596
    },
    {
     "status": "Ready for Stage",
@@ -657,7 +657,7 @@
    "On Hold": 6,
    "Backlog": 193
   },
-  "open_total": 133,
+  "open_total": 132,
   "stale": 32,
   "worst": "In Stage"
  }
