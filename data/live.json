@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T13:05:46Z",
+ "generated": "2026-10-14T14:06:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -33,7 +33,7 @@
    {
     "rule": "Idea/Draft sitting in Ready for Development",
     "n": 33,
-    "points": 51,
+    "points": 49,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,13 +55,13 @@
   "day": 3,
   "days": 14,
   "n": 17,
-  "done_now": 40,
+  "done_now": 47,
   "committed": 215,
-  "lo": 114,
-  "mid": 147,
-  "hi": 270,
-  "pct": 68,
-  "verdict": "well short of the commitment",
+  "lo": 134,
+  "mid": 172,
+  "hi": 317,
+  "pct": 80,
+  "verdict": "a little short of the commitment",
   "share_mid": 0.273
  },
  "admin": {
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 101,
+    "n": 102,
     "items": [
+     {
+      "key": "PLANS-24478",
+      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price"
+     },
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-11253",
       "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
-     },
-     {
-      "key": "PLANS-11252",
-      "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
      }
     ]
    },
@@ -127,6 +127,10 @@
     "n": 51,
     "items": [
      {
+      "key": "PLANS-24478",
+      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price"
+     },
+     {
       "key": "PLANS-24476",
       "summary": "PRODUCTION - True North"
      },
@@ -137,10 +141,6 @@
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
-     },
-     {
-      "key": "PLANS-24112",
-      "summary": "The STAGE SGDP portal is displaying Kids Plans instead of\u00a0 SGDP coverage levels."
      },
      {
       "key": "PLANS-24103",
@@ -321,8 +321,12 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 164,
+    "n": 165,
     "items": [
+     {
+      "key": "PLANS-24478",
+      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price"
+     },
      {
       "key": "PLANS-24476",
       "summary": "PRODUCTION - True North"
@@ -350,10 +354,6 @@
      {
       "key": "PLANS-15952",
       "summary": "[4.7] Daily ledger reconciliation report and imbalance alert"
-     },
-     {
-      "key": "PLANS-15950",
-      "summary": "[4.6] Fix per-plan balance bug in PlanLedgerManager"
      }
     ]
    },
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 346,
-  "items_done": 20,
+  "items_done": 22,
   "committed": 215,
   "final": 223,
-  "completed": 40,
+  "completed": 47,
   "scope_change": 4,
-  "vs_commitment": 19,
+  "vs_commitment": 22,
   "time_elapsed": 14,
   "spill": {
-   "open_items": 166,
-   "open_pts": 193.0,
+   "open_items": 164,
+   "open_pts": 186.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 23.0
+   "done_pts": 30.0
   },
   "recv": {
    "items": 5,
@@ -469,13 +469,13 @@
    "In Development": 3,
    "PR Created": 2,
    "Backlog": 114,
-   "Done": 35,
-   "To Do": 116,
+   "Done": 37,
+   "To Do": 114,
    "Closed": 6,
-   "In Stage": 29,
+   "Ready Prod": 9,
    "PR Merged": 4,
    "In Progress": 12,
-   "Ready Prod": 7,
+   "In Stage": 27,
    "WAITING REVIEW": 3,
    "On Hold": 3,
    "Will Not Implement": 1
@@ -483,7 +483,7 @@
   "burn": [
    0.0,
    181.0,
-   183.0
+   176.0
   ],
   "scope": [
    0.0,
@@ -493,7 +493,7 @@
   "ghost": [
    0.0,
    181.0,
-   183.0
+   176.0
   ],
   "days": 14,
   "day": 3
@@ -511,8 +511,8 @@
   "end": "2026-10-25",
   "day": 17,
   "days": 28,
-  "closed": 323,
-  "points": 796,
+  "closed": 325,
+  "points": 803,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -532,33 +532,45 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 55,
+    "open": 51,
     "med_age": 5.6,
-    "max_age": 5.6,
+    "max_age": 5.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 382
+    "clear_n": 384
    },
    {
     "status": "Ready for Development",
     "open": 25,
-    "med_age": 8.9,
-    "max_age": 34.4,
+    "med_age": 9.0,
+    "max_age": 34.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 17,
+    "over": 16,
     "clear_med": 1.0,
-    "clear_n": 220
+    "clear_n": 221
+   },
+   {
+    "status": "PR Created",
+    "open": 26,
+    "med_age": 3.6,
+    "max_age": 28.0,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 5,
+    "clear_med": 0.0,
+    "clear_n": 623
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 23.2,
-    "max_age": 41.7,
+    "max_age": 41.8,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -567,22 +579,10 @@
     "clear_n": 12
    },
    {
-    "status": "PR Created",
-    "open": 28,
-    "med_age": 2.2,
-    "max_age": 27.9,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 4,
-    "clear_med": 0.0,
-    "clear_n": 624
-   },
-   {
     "status": "Identified",
     "open": 1,
-    "med_age": 41.0,
-    "max_age": 41.0,
+    "med_age": 41.1,
+    "max_age": 41.1,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -592,19 +592,19 @@
    },
    {
     "status": "In Development",
-    "open": 27,
-    "med_age": 0.9,
-    "max_age": 18.9,
+    "open": 28,
+    "med_age": 1.0,
+    "max_age": 19.0,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 10,
     "clear_med": 0.0,
-    "clear_n": 608
+    "clear_n": 605
    },
    {
     "status": "PR Merged",
-    "open": 9,
+    "open": 12,
     "med_age": 0.2,
     "max_age": 1.2,
     "worst_key": "PLANS-24288",
@@ -612,7 +612,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 588
+    "clear_n": 584
    },
    {
     "status": "In PreProd",
@@ -652,10 +652,10 @@
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 191
+   "Backlog": 191,
+   "On Hold": 4
   },
-  "open_total": 151,
+  "open_total": 149,
   "stale": 34,
   "worst": "In Stage"
  }
