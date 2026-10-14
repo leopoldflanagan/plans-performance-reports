@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T14:37:53Z",
+ "generated": "2026-10-14T15:06:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,26 +55,26 @@
   "day": 3,
   "days": 14,
   "n": 17,
-  "done_now": 47,
+  "done_now": 42,
   "committed": 215,
-  "lo": 134,
-  "mid": 172,
-  "hi": 317,
-  "pct": 80,
-  "verdict": "a little short of the commitment",
+  "lo": 120,
+  "mid": 154,
+  "hi": 284,
+  "pct": 72,
+  "verdict": "well short of the commitment",
   "share_mid": 0.273
  },
  "admin": {
   "scope": {
    "ready": 78,
-   "sprint": 182,
+   "sprint": 184,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 102,
+    "n": 103,
     "items": [
      {
       "key": "PLANS-24478",
@@ -280,8 +280,12 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 113,
+    "n": 114,
     "items": [
+     {
+      "key": "PLANS-24480",
+      "summary": "PMP - DCA - membership card print - logo should  be corrected."
+     },
      {
       "key": "PLANS-24468",
       "summary": "PMP - Plan selection- when the organization sells only one plan, only the covera"
@@ -309,10 +313,6 @@
      {
       "key": "PLANS-24275",
       "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
-     },
-     {
-      "key": "PLANS-24072",
-      "summary": "Member Portal \\ Treatment Summaries are not available for adult dependent   "
      }
     ]
    }
@@ -321,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 165,
+    "n": 166,
     "items": [
      {
       "key": "PLANS-24478",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 247 of 249 items. This reads as a field the team does not use rather than 247 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 247,
+    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 249,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 247 of 249 items. This reads as a field the team does not use rather than 247 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 247,
+    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 249,
     "items": []
    },
    {
@@ -442,17 +442,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 346,
-  "items_done": 22,
+  "items": 353,
+  "items_done": 21,
   "committed": 215,
-  "final": 223,
-  "completed": 47,
-  "scope_change": 4,
-  "vs_commitment": 22,
+  "final": 226,
+  "completed": 42,
+  "scope_change": 5,
+  "vs_commitment": 20,
   "time_elapsed": 14,
   "spill": {
-   "open_items": 164,
-   "open_pts": 186.0,
+   "open_items": 167,
+   "open_pts": 194.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 30.0
@@ -465,35 +465,35 @@
   },
   "spill_rate": null,
   "dist": {
+   "To Do": 119,
+   "Backlog": 115,
    "Ready for Development": 11,
-   "In Development": 3,
-   "PR Created": 2,
-   "Backlog": 114,
+   "PR Created": 3,
    "Done": 37,
-   "To Do": 114,
    "Closed": 6,
    "Ready Prod": 9,
-   "PR Merged": 4,
+   "PR Merged": 5,
    "In Progress": 12,
-   "In Stage": 27,
-   "WAITING REVIEW": 3,
+   "In Development": 2,
+   "In Stage": 28,
+   "WAITING REVIEW": 2,
    "On Hold": 3,
    "Will Not Implement": 1
   },
   "burn": [
    0.0,
-   181.0,
-   176.0
+   186.0,
+   184.0
   ],
   "scope": [
    0.0,
    215.0,
-   223.0
+   226.0
   ],
   "ghost": [
    0.0,
-   181.0,
-   176.0
+   186.0,
+   184.0
   ],
   "days": 14,
   "day": 3
@@ -511,8 +511,8 @@
   "end": "2026-10-25",
   "day": 17,
   "days": 28,
-  "closed": 327,
-  "points": 803,
+  "closed": 330,
+  "points": 819,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -532,15 +532,15 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 52,
-    "med_age": 5.6,
+    "open": 50,
+    "med_age": 5.7,
     "max_age": 5.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 384
+    "clear_n": 387
    },
    {
     "status": "Ready for Development",
@@ -557,14 +557,14 @@
    {
     "status": "PR Created",
     "open": 26,
-    "med_age": 3.6,
+    "med_age": 3.8,
     "max_age": 28.0,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 624
+    "clear_n": 623
    },
    {
     "status": "WAITING REVIEW",
@@ -592,7 +592,7 @@
    },
    {
     "status": "In Development",
-    "open": 28,
+    "open": 27,
     "med_age": 1.0,
     "max_age": 19.0,
     "worst_key": "PLANS-22998",
@@ -600,19 +600,19 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 10,
     "clear_med": 0.0,
-    "clear_n": 606
+    "clear_n": 604
    },
    {
     "status": "PR Merged",
-    "open": 12,
-    "med_age": 0.2,
-    "max_age": 1.3,
-    "worst_key": "PLANS-24288",
-    "worst_sum": "PRODUCTION - Theme Bug",
-    "worst_who": "Denys  Kernychnyi",
+    "open": 10,
+    "med_age": 0.3,
+    "max_age": 0.9,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 585
+    "clear_n": 588
    },
    {
     "status": "In PreProd",
@@ -623,14 +623,14 @@
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 9
+    "clear_med": 0.1,
+    "clear_n": 11
    },
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 0.6,
-    "max_age": 0.6,
+    "med_age": 0.7,
+    "max_age": 0.7,
     "worst_key": "PLANS-24471",
     "worst_sum": "Enhance CSHTML Rendering",
     "worst_who": "Chris Rubio",
@@ -652,10 +652,10 @@
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 188
+   "Backlog": 189,
+   "On Hold": 5
   },
-  "open_total": 150,
+  "open_total": 145,
   "stale": 34,
   "worst": "In Stage"
  }
