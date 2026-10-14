@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T10:06:41Z",
+ "generated": "2026-10-14T10:37:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -629,8 +629,8 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 0.4,
-    "max_age": 0.4,
+    "med_age": 0.5,
+    "max_age": 0.5,
     "worst_key": "PLANS-24471",
     "worst_sum": "Enhance CSHTML Rendering",
     "worst_who": "Chris Rubio",
@@ -652,8 +652,8 @@
    }
   ],
   "parked": {
-   "Backlog": 194,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 194
   },
   "open_total": 149,
   "stale": 33,
