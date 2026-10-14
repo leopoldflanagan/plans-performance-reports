@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T06:50:58Z",
+ "generated": "2026-10-14T07:10:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -556,7 +556,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 22.9,
+    "med_age": 23.0,
     "max_age": 41.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -567,7 +567,7 @@
    },
    {
     "status": "PR Created",
-    "open": 30,
+    "open": 31,
     "med_age": 1.9,
     "max_age": 27.7,
     "worst_key": "PLANS-22703",
@@ -580,8 +580,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 40.7,
-    "max_age": 40.7,
+    "med_age": 40.8,
+    "max_age": 40.8,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -591,7 +591,7 @@
    },
    {
     "status": "In Development",
-    "open": 27,
+    "open": 26,
     "med_age": 0.7,
     "max_age": 18.7,
     "worst_key": "PLANS-22998",
@@ -599,13 +599,13 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 606
+    "clear_n": 607
    },
    {
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.5,
-    "max_age": 0.9,
+    "max_age": 1.0,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
     "worst_who": "Denys  Kernychnyi",
