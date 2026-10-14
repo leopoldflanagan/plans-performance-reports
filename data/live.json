@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T07:10:54Z",
+ "generated": "2026-10-14T07:40:02Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -472,10 +472,11 @@
    "To Do": 118,
    "Closed": 6,
    "In Stage": 30,
-   "PR Created": 5,
+   "PR Created": 4,
    "In Progress": 11,
    "Ready Prod": 6,
    "WAITING REVIEW": 3,
+   "PR Merged": 1,
    "On Hold": 3,
    "Will Not Implement": 1
   },
@@ -532,7 +533,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 5.3,
+    "med_age": 5.4,
     "max_age": 5.4,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -556,7 +557,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 23.0,
+    "med_age": 23.1,
     "max_age": 41.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -567,15 +568,15 @@
    },
    {
     "status": "PR Created",
-    "open": 31,
-    "med_age": 1.9,
+    "open": 30,
+    "med_age": 2.0,
     "max_age": 27.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 619
+    "clear_n": 620
    },
    {
     "status": "Identified",
@@ -603,7 +604,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 3,
+    "open": 4,
     "med_age": 0.5,
     "max_age": 1.0,
     "worst_key": "PLANS-24288",
@@ -616,8 +617,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.6,
-    "max_age": 0.6,
+    "med_age": 0.7,
+    "max_age": 0.7,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
@@ -651,8 +652,8 @@
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 193
+   "Backlog": 193,
+   "On Hold": 4
   },
   "open_total": 150,
   "stale": 33,
