@@ -565,8 +565,8 @@
      "med": 12.64
     },
     "PR Created": {
-     "n": 11,
-     "med": 0.01
+     "n": 12,
+     "med": 5.91
     },
     "PR Merged": {
      "n": 8,
@@ -620,10 +620,10 @@
     "To Do": 51,
     "Done": 43,
     "In PreProd": 1,
-    "In Development": 22,
+    "In Development": 21,
     "Ready Prod": 3,
     "Ready for Development": 8,
-    "PR Created": 5,
+    "PR Created": 6,
     "PR Merged": 1,
     "In Stage": 11,
     "On Hold": 2,
