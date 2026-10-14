@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T09:38:29Z",
+ "generated": "2026-10-14T10:06:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 4,
-   "points": 12
+   "items": 3,
+   "points": 10
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 34,
-    "points": 53,
+    "n": 33,
+    "points": 51,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 80,
+   "ready": 78,
    "sprint": 182,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 52,
+    "n": 51,
     "items": [
      {
       "key": "PLANS-24476",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 249,
+    "why": "missing on 247 of 249 items. This reads as a field the team does not use rather than 247 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 247,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 249 of 251 items. This reads as a field the team does not use rather than 249 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 249,
+    "why": "missing on 247 of 249 items. This reads as a field the team does not use rather than 247 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 247,
     "items": []
    },
    {
@@ -467,16 +467,16 @@
   "dist": {
    "Ready for Development": 11,
    "In Development": 3,
-   "PR Created": 4,
+   "PR Created": 2,
    "Backlog": 114,
    "Done": 34,
    "To Do": 118,
    "Closed": 6,
    "In Stage": 30,
+   "PR Merged": 4,
    "In Progress": 11,
    "Ready Prod": 6,
    "WAITING REVIEW": 3,
-   "PR Merged": 2,
    "On Hold": 3,
    "Will Not Implement": 1
   },
@@ -533,7 +533,7 @@
    {
     "status": "In Stage",
     "open": 55,
-    "med_age": 5.4,
+    "med_age": 5.5,
     "max_age": 5.5,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -544,15 +544,15 @@
    },
    {
     "status": "Ready for Development",
-    "open": 27,
+    "open": 25,
     "med_age": 8.8,
     "max_age": 34.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 17,
-    "clear_med": 1.1,
-    "clear_n": 218
+    "clear_med": 1.0,
+    "clear_n": 220
    },
    {
     "status": "WAITING REVIEW",
@@ -568,15 +568,15 @@
    },
    {
     "status": "PR Created",
-    "open": 28,
-    "med_age": 2.0,
+    "open": 26,
+    "med_age": 3.5,
     "max_age": 27.8,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 620
+    "clear_n": 622
    },
    {
     "status": "Identified",
@@ -592,7 +592,7 @@
    },
    {
     "status": "In Development",
-    "open": 25,
+    "open": 27,
     "med_age": 0.8,
     "max_age": 18.8,
     "worst_key": "PLANS-22998",
@@ -604,7 +604,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 7,
+    "open": 9,
     "med_age": 0.1,
     "max_age": 1.1,
     "worst_key": "PLANS-24288",
@@ -617,8 +617,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.7,
-    "max_age": 0.7,
+    "med_age": 0.8,
+    "max_age": 0.8,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
@@ -652,8 +652,8 @@
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 194
+   "Backlog": 194,
+   "On Hold": 4
   },
   "open_total": 149,
   "stale": 33,
