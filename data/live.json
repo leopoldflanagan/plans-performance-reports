@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T10:37:36Z",
+ "generated": "2026-10-14T11:06:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -534,10 +534,10 @@
     "status": "In Stage",
     "open": 55,
     "med_age": 5.5,
-    "max_age": 5.5,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 5.6,
+    "worst_key": "PLANS-23691",
+    "worst_sum": "[2.2.W2] Carry the not-for-sale flag through TemplateHelper (both repos) and PlanOptionSer",
+    "worst_who": "Daryl Myrick",
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 380
@@ -546,7 +546,7 @@
     "status": "Ready for Development",
     "open": 25,
     "med_age": 8.8,
-    "max_age": 34.3,
+    "max_age": 34.4,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -558,7 +558,7 @@
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 23.2,
-    "max_age": 41.6,
+    "max_age": 41.7,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -568,9 +568,9 @@
    },
    {
     "status": "PR Created",
-    "open": 26,
-    "med_age": 3.5,
-    "max_age": 27.8,
+    "open": 27,
+    "med_age": 2.1,
+    "max_age": 27.9,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -593,14 +593,14 @@
    {
     "status": "In Development",
     "open": 27,
-    "med_age": 0.8,
-    "max_age": 18.8,
+    "med_age": 0.9,
+    "max_age": 18.9,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 604
+    "clear_n": 605
    },
    {
     "status": "PR Merged",
@@ -652,10 +652,10 @@
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 194
+   "Backlog": 193,
+   "On Hold": 4
   },
-  "open_total": 149,
+  "open_total": 150,
   "stale": 33,
   "worst": "In Stage"
  }
