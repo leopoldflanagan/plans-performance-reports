@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T23:33:10Z",
+ "generated": "2026-10-14T00:15:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 2,
+  "day": 3,
   "days": 14,
   "n": 17,
   "done_now": 36,
   "committed": 215,
-  "lo": 119,
-  "mid": 136,
-  "hi": 391,
-  "pct": 63,
+  "lo": 103,
+  "mid": 132,
+  "hi": 243,
+  "pct": 61,
   "verdict": "well short of the commitment",
-  "share_mid": 0.265
+  "share_mid": 0.273
  },
  "admin": {
   "scope": {
@@ -495,7 +495,7 @@
    181.0
   ],
   "days": 14,
-  "day": 2
+  "day": 3
  },
  "next": {
   "name": "LL-Sprint 25-26",
@@ -508,7 +508,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 16,
+  "day": 17,
   "days": 28,
   "closed": 321,
   "points": 792,
@@ -556,7 +556,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 22.7,
+    "med_age": 22.8,
     "max_age": 41.2,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -580,8 +580,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 40.4,
-    "max_age": 40.4,
+    "med_age": 40.5,
+    "max_age": 40.5,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -605,7 +605,7 @@
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.2,
-    "max_age": 0.6,
+    "max_age": 0.7,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
     "worst_who": "Denys  Kernychnyi",
@@ -616,8 +616,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.3,
-    "max_age": 0.3,
+    "med_age": 0.4,
+    "max_age": 0.4,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
@@ -651,8 +651,8 @@
    }
   ],
   "parked": {
-   "Backlog": 196,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 196
   },
   "open_total": 147,
   "stale": 33,
