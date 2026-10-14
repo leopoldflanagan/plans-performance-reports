@@ -142,7 +142,7 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   353,
+   356,
    21,
    215,
    226,
@@ -151,11 +151,13 @@
    [
     0.0,
     186.0,
+    184.0,
     184.0
    ],
    [
     0.0,
     215.0,
+    226.0,
     226.0
    ]
   ],
@@ -163,21 +165,21 @@
    "Plans-Sprint 24-26",
    "Oct 13",
    "Oct 26",
-   171,
+   172,
    11,
    245,
-   245,
+   248,
    56,
-   0,
+   1,
    [
     233.0,
     236.0,
-    189.0
+    192.0
    ],
    [
     235.0,
     245.0,
-    245.0
+    248.0
    ]
   ]
  ],
@@ -228,7 +230,7 @@
     30
    ],
    "open": [
-    167,
+    168,
     194
    ],
    "out": [
@@ -248,8 +250,8 @@
     54
    ],
    "open": [
-    52,
-    186
+    53,
+    189
    ],
    "out": [
     1,
@@ -276,10 +278,14 @@
   },
   "LL-Sprint 24-26": {
    "react": 0,
-   "plan": 8,
+   "plan": 9,
    "pct": 0
   },
-  "Plans-Sprint 24-26": null
+  "Plans-Sprint 24-26": {
+   "react": 0,
+   "plan": 1,
+   "pct": 0
+  }
  },
  "TIS": {
   "LL-Sprint 23-26": {
@@ -364,17 +370,17 @@
    "dist": {
     "To Do": 95,
     "Done": 194,
-    "PR Merged": 3,
+    "In Stage": 25,
     "In Progress": 13,
     "In Development": 2,
     "Ready Prod": 15,
     "Closed": 115,
-    "In Stage": 23,
     "Backlog": 110,
     "Ready for Development": 10,
     "Will Not Implement": 2,
     "WAITING REVIEW": 2,
     "PR Created": 2,
+    "PR Merged": 1,
     "On Hold": 3
    },
    "stalled": 349,
@@ -471,11 +477,11 @@
   "LL-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 132,
+     "n": 134,
      "med": 13.58
     },
     "Backlog": {
-     "n": 123,
+     "n": 124,
      "med": 13.58
     },
     "Ready for Development": {
@@ -483,12 +489,20 @@
      "med": 13.58
     },
     "In Development": {
-     "n": 18,
-     "med": 0.03
+     "n": 19,
+     "med": 0.02
     },
     "PR Created": {
-     "n": 20,
+     "n": 21,
      "med": 0.02
+    },
+    "PR Merged": {
+     "n": 24,
+     "med": 0.02
+    },
+    "In Stage": {
+     "n": 45,
+     "med": 13.57
     },
     "In Progress": {
      "n": 25,
@@ -497,14 +511,6 @@
     "Done": {
      "n": 38,
      "med": 13.58
-    },
-    "PR Merged": {
-     "n": 22,
-     "med": 0.02
-    },
-    "In Stage": {
-     "n": 41,
-     "med": 13.57
     },
     "Closed": {
      "n": 6,
@@ -536,28 +542,32 @@
     }
    },
    "dist": {
-    "To Do": 119,
-    "Backlog": 115,
-    "Ready for Development": 11,
+    "To Do": 121,
+    "Backlog": 116,
+    "In Stage": 32,
     "In Development": 3,
-    "PR Created": 2,
+    "PR Merged": 3,
     "Done": 37,
     "Closed": 6,
     "Ready Prod": 9,
-    "PR Merged": 5,
     "In Progress": 12,
-    "In Stage": 28,
+    "Ready for Development": 10,
     "WAITING REVIEW": 2,
+    "PR Created": 1,
     "On Hold": 3,
     "Will Not Implement": 1
    },
-   "stalled": 337,
+   "stalled": 340,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 353
+   "items": 356
   },
   "Plans-Sprint 24-26": {
    "tis": {
+    "Ready for Development": {
+     "n": 17,
+     "med": 0.98
+    },
     "To Do": {
      "n": 67,
      "med": 12.68
@@ -584,14 +594,14 @@
     },
     "In QA": {
      "n": 2,
-     "med": 6.16
+     "med": 0.35
+    },
+    "In Stage": {
+     "n": 17,
+     "med": 1.03
     },
     "In Progress": {
      "n": 23,
-     "med": 1.02
-    },
-    "In Stage": {
-     "n": 16,
      "med": 1.02
     },
     "In PreProd": {
@@ -606,35 +616,30 @@
      "n": 4,
      "med": 11.67
     },
-    "Ready for Development": {
-     "n": 16,
-     "med": 0.88
-    },
     "On Hold": {
      "n": 4,
      "med": 12.17
     }
    },
    "dist": {
+    "Ready for Development": 7,
     "Done": 47,
     "Backlog": 8,
-    "In QA": 1,
+    "In Stage": 7,
     "In Progress": 10,
     "To Do": 50,
     "In PreProd": 1,
     "In Development": 22,
     "Closed": 4,
     "On Hold": 4,
-    "In Stage": 6,
     "Ready Prod": 7,
-    "Ready for Development": 6,
     "PR Created": 4,
     "PR Merged": 1
    },
-   "stalled": 160,
+   "stalled": 161,
    "worst": 12.68,
    "worstSt": "To Do",
-   "items": 171
+   "items": 172
   }
  },
  "GHOST": {
@@ -676,12 +681,13 @@
   "LL-Sprint 24-26": [
    0.0,
    186.0,
+   184.0,
    184.0
   ],
   "Plans-Sprint 24-26": [
    233.0,
    236.0,
-   189.0
+   192.0
   ]
  },
  "CAP": {
