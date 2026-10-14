@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T09:07:48Z",
+ "generated": "2026-10-14T09:38:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -532,7 +532,7 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 56,
+    "open": 55,
     "med_age": 5.4,
     "max_age": 5.5,
     "worst_key": "PLANS-24033",
@@ -540,7 +540,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 381
+    "clear_n": 380
    },
    {
     "status": "Ready for Development",
@@ -557,7 +557,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 23.1,
+    "med_age": 23.2,
     "max_age": 41.6,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -576,13 +576,13 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 624
+    "clear_n": 620
    },
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 40.8,
-    "max_age": 40.8,
+    "med_age": 40.9,
+    "max_age": 40.9,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -600,19 +600,19 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 608
+    "clear_n": 604
    },
    {
     "status": "PR Merged",
     "open": 7,
     "med_age": 0.1,
-    "max_age": 1.0,
+    "max_age": 1.1,
     "worst_key": "PLANS-24288",
     "worst_sum": "PRODUCTION - Theme Bug",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 590
+    "clear_n": 586
    },
    {
     "status": "In PreProd",
@@ -653,9 +653,9 @@
   ],
   "parked": {
    "On Hold": 4,
-   "Backlog": 193
+   "Backlog": 194
   },
-  "open_total": 150,
+  "open_total": 149,
   "stale": 33,
   "worst": "In Stage"
  }
