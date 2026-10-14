@@ -142,21 +142,21 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   343,
+   346,
    19,
    215,
-   217,
+   220,
    37,
-   1,
+   2,
    [
     0.0,
     181.0,
-    180.0
+    183.0
    ],
    [
     0.0,
     215.0,
-    217.0
+    220.0
    ]
   ],
   [
@@ -226,8 +226,8 @@
     20
    ],
    "open": [
-    164,
-    190
+    167,
+    193
    ],
    "out": [
     0,
@@ -274,7 +274,7 @@
   },
   "LL-Sprint 24-26": {
    "react": 0,
-   "plan": 3,
+   "plan": 6,
    "pct": 0
   },
   "Plans-Sprint 24-26": null
@@ -467,6 +467,10 @@
   },
   "LL-Sprint 24-26": {
    "tis": {
+    "Ready for Development": {
+     "n": 18,
+     "med": 13.58
+    },
     "Backlog": {
      "n": 122,
      "med": 13.58
@@ -481,10 +485,6 @@
     },
     "Done": {
      "n": 35,
-     "med": 13.58
-    },
-    "Ready for Development": {
-     "n": 15,
      "med": 13.58
     },
     "In Development": {
@@ -533,6 +533,7 @@
     }
    },
    "dist": {
+    "Ready for Development": 13,
     "Backlog": 114,
     "Done": 34,
     "To Do": 118,
@@ -542,15 +543,14 @@
     "In Progress": 11,
     "In Development": 2,
     "Ready Prod": 6,
-    "Ready for Development": 10,
     "WAITING REVIEW": 3,
     "On Hold": 3,
     "Will Not Implement": 1
    },
-   "stalled": 330,
+   "stalled": 333,
    "worst": 13.58,
-   "worstSt": "To Do",
-   "items": 343
+   "worstSt": "Ready for Development",
+   "items": 346
   },
   "Plans-Sprint 24-26": {
    "tis": {
@@ -672,7 +672,7 @@
   "LL-Sprint 24-26": [
    0.0,
    181.0,
-   180.0
+   183.0
   ],
   "Plans-Sprint 24-26": [
    233.0,
