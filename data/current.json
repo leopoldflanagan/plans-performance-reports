@@ -9,9 +9,9 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 252,
-  "closed": 321,
+  "closed": 322,
   "discarded": 0,
-  "resolved": 321,
+  "resolved": 322,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    152
+    153
    ],
    [
     "TechDebt",
@@ -39,10 +39,10 @@
   "day": 14,
   "days": 28,
   "status": "risk",
-  "headline": "321 items closed in the first 14 days, a pace of about 642 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "322 items closed in the first 14 days, a pace of about 644 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 11.2d and average 19.7d, both past the healthy band"
+   "cycle time median 11.2d and average 19.6d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -143,15 +143,15 @@
    "Oct 12",
    "Oct 26",
    343,
-   18,
+   19,
    215,
    217,
-   36,
+   37,
    1,
    [
     0.0,
     181.0,
-    181.0
+    180.0
    ],
    [
     0.0,
@@ -222,12 +222,12 @@
   },
   "LL-Sprint 24-26": {
    "done": [
-    18,
-    19
+    19,
+    20
    ],
    "open": [
-    165,
-    191
+    164,
+    190
    ],
    "out": [
     0,
@@ -503,13 +503,13 @@
      "n": 40,
      "med": 13.58
     },
+    "Closed": {
+     "n": 6,
+     "med": 12.6
+    },
     "In PreProd": {
      "n": 6,
      "med": 0.04
-    },
-    "Closed": {
-     "n": 5,
-     "med": 12.6
     },
     "In QA": {
      "n": 1,
@@ -536,8 +536,8 @@
     "Backlog": 114,
     "Done": 34,
     "To Do": 118,
-    "In Stage": 31,
-    "Closed": 5,
+    "Closed": 6,
+    "In Stage": 30,
     "PR Created": 5,
     "In Progress": 11,
     "In Development": 2,
@@ -547,7 +547,7 @@
     "On Hold": 3,
     "Will Not Implement": 1
    },
-   "stalled": 331,
+   "stalled": 330,
    "worst": 13.58,
    "worstSt": "To Do",
    "items": 343
@@ -672,7 +672,7 @@
   "LL-Sprint 24-26": [
    0.0,
    181.0,
-   181.0
+   180.0
   ],
   "Plans-Sprint 24-26": [
    233.0,
@@ -681,20 +681,20 @@
  },
  "CAP": {
   "9.09": [
-   321,
-   275,
-   792,
+   322,
+   276,
+   793,
    22
   ]
  },
  "CYC": {
   "9.09": {
    "med": 11.21,
-   "avg": 19.72,
-   "n": 231,
+   "avg": 19.63,
+   "n": 232,
    "mx": 148.81,
    "nodev": 90,
-   "base": 321
+   "base": 322
   }
  },
  "complete": false,
