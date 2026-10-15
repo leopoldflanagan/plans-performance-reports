@@ -167,23 +167,23 @@
    "Plans-Sprint 24-26",
    "Oct 13",
    "Oct 26",
-   196,
+   200,
    13,
    245,
-   260,
+   261,
    60,
-   6,
+   7,
    [
     233.0,
     236.0,
     196.0,
-    200.0
+    201.0
    ],
    [
     235.0,
     245.0,
     255.0,
-    260.0
+    261.0
    ]
   ]
  ],
@@ -254,8 +254,8 @@
     69
    ],
    "open": [
-    55,
-    185
+    56,
+    186
    ],
    "out": [
     2,
@@ -287,7 +287,7 @@
   },
   "Plans-Sprint 24-26": {
    "react": 0,
-   "plan": 8,
+   "plan": 9,
    "pct": 0
   }
  },
@@ -469,7 +469,7 @@
     "In Stage": 7,
     "On Hold": 3,
     "Backlog": 4,
-    "PR Created": 1,
+    "PR Merged": 1,
     "Ready for Development": 7,
     "In QA": 2
    },
@@ -573,44 +573,44 @@
   "Plans-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 84,
+     "n": 87,
      "med": 12.68
     },
     "In Progress": {
-     "n": 38,
-     "med": 1.55
+     "n": 39,
+     "med": 2.08
+    },
+    "Done": {
+     "n": 54,
+     "med": 12.68
     },
     "Backlog": {
      "n": 20,
      "med": 0.93
     },
     "Ready for Development": {
-     "n": 33,
-     "med": 1.03
+     "n": 34,
+     "med": 1.0
     },
     "In Development": {
-     "n": 41,
-     "med": 1.32
+     "n": 42,
+     "med": 1.12
     },
     "PR Created": {
-     "n": 25,
-     "med": 0.04
+     "n": 26,
+     "med": 0.03
     },
     "WAITING REVIEW": {
      "n": 1,
      "med": 11.18
     },
     "PR Merged": {
-     "n": 24,
+     "n": 26,
      "med": 0.02
     },
     "In Stage": {
-     "n": 24,
-     "med": 10.63
-    },
-    "Done": {
-     "n": 53,
-     "med": 12.68
+     "n": 25,
+     "med": 10.62
     },
     "In QA": {
      "n": 9,
@@ -638,26 +638,27 @@
     }
    },
    "dist": {
-    "In Progress": 18,
+    "In Progress": 19,
+    "To Do": 54,
+    "Done": 54,
     "Backlog": 1,
-    "PR Created": 2,
+    "PR Created": 1,
     "WAITING REVIEW": 1,
-    "To Do": 53,
-    "In Stage": 13,
-    "Done": 53,
+    "In Stage": 14,
     "Ready for Development": 15,
     "In PreProd": 1,
     "In Development": 14,
     "Closed": 6,
     "On Hold": 4,
+    "PR Merged": 1,
     "Ready Prod": 7,
     "Will Not Implement": 2,
     "In QA": 6
    },
-   "stalled": 181,
+   "stalled": 185,
    "worst": 12.68,
    "worstSt": "To Do",
-   "items": 196
+   "items": 200
   }
  },
  "GHOST": {
@@ -707,7 +708,7 @@
    233.0,
    236.0,
    196.0,
-   200.0
+   201.0
   ]
  },
  "CAP": {

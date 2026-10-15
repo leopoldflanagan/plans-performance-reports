@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T16:39:10Z",
+ "generated": "2026-10-15T17:05:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 52,
-    "points": 108,
+    "n": 49,
+    "points": 99,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 89,
+   "ready": 88,
    "sprint": 196,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 62,
+    "n": 61,
     "items": [
      {
       "key": "PLANS-24519",
@@ -321,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 182,
+    "n": 181,
     "items": [
      {
       "key": "PLANS-24519",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 267 of 271 items. This reads as a field the team does not use rather than 267 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 267,
+    "why": "missing on 266 of 270 items. This reads as a field the team does not use rather than 266 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 266,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 269 of 271 items. This reads as a field the team does not use rather than 269 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 269,
+    "why": "missing on 268 of 270 items. This reads as a field the team does not use rather than 268 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 268,
     "items": []
    },
    {
@@ -546,7 +546,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.2,
-    "clear_n": 399
+    "clear_n": 397
    },
    {
     "status": "Ready for Development",
@@ -563,19 +563,19 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 24.3,
+    "med_age": 24.4,
     "max_age": 42.9,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
-    "over": 2,
+    "over": 3,
     "clear_med": 0.1,
     "clear_n": 16
    },
    {
     "status": "PR Created",
-    "open": 21,
-    "med_age": 3.3,
+    "open": 19,
+    "med_age": 3.4,
     "max_age": 29.1,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -587,14 +587,14 @@
    {
     "status": "In Development",
     "open": 22,
-    "med_age": 2.0,
+    "med_age": 2.1,
     "max_age": 20.1,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 605
+    "clear_n": 603
    },
    {
     "status": "Identified",
@@ -609,22 +609,10 @@
     "clear_n": 2
    },
    {
-    "status": "PR Merged",
-    "open": 4,
-    "med_age": 0.6,
-    "max_age": 1.9,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 604
-   },
-   {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 2.0,
-    "max_age": 2.0,
+    "med_age": 2.1,
+    "max_age": 2.1,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
@@ -633,16 +621,16 @@
     "clear_n": 13
    },
    {
-    "status": "In QA",
-    "open": 6,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-23402",
-    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
-    "worst_who": "Sailaja Yanamandra",
+    "status": "PR Merged",
+    "open": 5,
+    "med_age": 0.1,
+    "max_age": 2.0,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 41
+    "clear_med": 0.1,
+    "clear_n": 603
    },
    {
     "status": "Ready for Stage",
@@ -655,14 +643,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 7,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24097",
+    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 41
    }
   ],
   "parked": {
    "On Hold": 3,
-   "Backlog": 171
+   "Backlog": 173
   },
   "open_total": 145,
-  "stale": 31,
+  "stale": 32,
   "worst": "In Stage"
  }
 }
