@@ -142,7 +142,7 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   379,
+   380,
    31,
    218,
    242,
@@ -234,7 +234,7 @@
     191
    ],
    "out": [
-    1,
+    2,
     1
    ],
    "in": [
@@ -278,7 +278,7 @@
   },
   "LL-Sprint 24-26": {
    "react": 0,
-   "plan": 16,
+   "plan": 17,
    "pct": 0
   },
   "Plans-Sprint 24-26": {
@@ -488,7 +488,7 @@
      "med": 13.58
     },
     "Backlog": {
-     "n": 126,
+     "n": 127,
      "med": 13.58
     },
     "Ready for Development": {
@@ -544,7 +544,7 @@
     "Done": 45,
     "To Do": 129,
     "Ready for Development": 13,
-    "Backlog": 113,
+    "Backlog": 114,
     "Ready Prod": 15,
     "Closed": 10,
     "In Progress": 11,
@@ -555,10 +555,10 @@
     "On Hold": 3,
     "Will Not Implement": 1
    },
-   "stalled": 353,
+   "stalled": 354,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 379
+   "items": 380
   },
   "Plans-Sprint 24-26": {
    "tis": {

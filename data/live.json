@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T01:42:35Z",
+ "generated": "2026-10-15T02:08:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 46,
-    "points": 91,
+    "n": 44,
+    "points": 84,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -442,7 +442,7 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 379,
+  "items": 380,
   "items_done": 31,
   "committed": 218,
   "final": 242,
@@ -453,7 +453,7 @@
   "spill": {
    "open_items": 166,
    "open_pts": 191.0,
-   "out_items": 1,
+   "out_items": 2,
    "out_pts": 1.0,
    "done_pts": 49.0
   },
@@ -542,7 +542,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.2,
-    "clear_n": 401
+    "clear_n": 397
    },
    {
     "status": "Ready for Development",
@@ -554,7 +554,7 @@
     "worst_who": "unassigned",
     "over": 15,
     "clear_med": 1.0,
-    "clear_n": 226
+    "clear_n": 225
    },
    {
     "status": "PR Created",
@@ -566,7 +566,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 616
+    "clear_n": 612
    },
    {
     "status": "WAITING REVIEW",
@@ -578,13 +578,13 @@
     "worst_who": "unassigned",
     "over": 2,
     "clear_med": 0.1,
-    "clear_n": 17
+    "clear_n": 16
    },
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 41.5,
-    "max_age": 41.5,
+    "med_age": 41.6,
+    "max_age": 41.6,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -602,7 +602,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 8,
     "clear_med": 0.0,
-    "clear_n": 602
+    "clear_n": 598
    },
    {
     "status": "PR Merged",
@@ -614,7 +614,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 594
+    "clear_n": 590
    },
    {
     "status": "In PreProd",
@@ -629,18 +629,6 @@
     "clear_n": 13
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 41
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -651,11 +639,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 41
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 188
+   "Backlog": 190,
+   "On Hold": 4
   },
   "open_total": 129,
   "stale": 32,
