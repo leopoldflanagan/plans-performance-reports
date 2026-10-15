@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T11:36:37Z",
+ "generated": "2026-10-15T12:09:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -570,7 +570,7 @@
    },
    {
     "status": "PR Created",
-    "open": 26,
+    "open": 25,
     "med_age": 3.1,
     "max_age": 28.9,
     "worst_key": "PLANS-22703",
@@ -578,7 +578,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 8,
     "clear_med": 0.0,
-    "clear_n": 615
+    "clear_n": 616
    },
    {
     "status": "In Development",
@@ -595,8 +595,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 41.9,
-    "max_age": 41.9,
+    "med_age": 42.0,
+    "max_age": 42.0,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -606,7 +606,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 3,
+    "open": 4,
     "med_age": 0.9,
     "max_age": 1.7,
     "worst_key": "PLANS-24431",
@@ -619,8 +619,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 1.8,
-    "max_age": 1.8,
+    "med_age": 1.9,
+    "max_age": 1.9,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
