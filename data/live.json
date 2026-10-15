@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T15:38:43Z",
+ "generated": "2026-10-15T16:06:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 8
   },
   "misfiled": {
-   "items": 30,
-   "points": 126
+   "items": 31,
+   "points": 129
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,14 +26,14 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 30,
-    "points": 126,
+    "n": 31,
+    "points": 129,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 53,
-    "points": 110,
+    "n": 52,
+    "points": 107,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 90,
-   "sprint": 192,
+   "sprint": 194,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 25,
+    "n": 26,
     "items": [
      {
       "key": "PLANS-23969",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 264 of 268 items. This reads as a field the team does not use rather than 264 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 264,
+    "why": "missing on 266 of 270 items. This reads as a field the team does not use rather than 266 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 266,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 266 of 268 items. This reads as a field the team does not use rather than 266 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 266,
+    "why": "missing on 268 of 270 items. This reads as a field the team does not use rather than 268 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 268,
     "items": []
    },
    {
@@ -442,17 +442,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 382,
+  "items": 389,
   "items_done": 33,
   "committed": 218,
-  "final": 244,
+  "final": 254,
   "completed": 64,
-  "scope_change": 12,
+  "scope_change": 17,
   "vs_commitment": 29,
   "time_elapsed": 22,
   "spill": {
-   "open_items": 165,
-   "open_pts": 190.0,
+   "open_items": 168,
+   "open_pts": 200.0,
    "out_items": 2,
    "out_pts": 1.0,
    "done_pts": 52.0
@@ -465,7 +465,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 129,
+   "To Do": 133,
    "In Progress": 12,
    "Done": 46,
    "In Development": 3,
@@ -473,9 +473,10 @@
    "Ready for Development": 14,
    "Ready Prod": 16,
    "Closed": 10,
-   "In Stage": 34,
+   "In Stage": 36,
    "WAITING REVIEW": 1,
    "PR Created": 1,
+   "IN-DEVELOPMENT": 1,
    "On Hold": 2,
    "Will Not Implement": 1
   },
@@ -483,19 +484,22 @@
    3.0,
    189.0,
    184.0,
-   180.0
+   180.0,
+   190.0
   ],
   "scope": [
    3.0,
    218.0,
    226.0,
-   244.0
+   244.0,
+   254.0
   ],
   "ghost": [
    3.0,
    189.0,
    184.0,
-   180.0
+   180.0,
+   190.0
   ],
   "days": 14,
   "day": 4
@@ -536,7 +540,7 @@
     "status": "In Stage",
     "open": 49,
     "med_age": 6.2,
-    "max_age": 6.7,
+    "max_age": 6.8,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -547,20 +551,20 @@
    {
     "status": "Ready for Development",
     "open": 38,
-    "med_age": 3.0,
+    "med_age": 3.1,
     "max_age": 35.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 16,
     "clear_med": 0.9,
-    "clear_n": 231
+    "clear_n": 232
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 24.3,
-    "max_age": 42.8,
+    "max_age": 42.9,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -570,21 +574,21 @@
    },
    {
     "status": "PR Created",
-    "open": 29,
-    "med_age": 3.2,
+    "open": 20,
+    "med_age": 3.3,
     "max_age": 29.1,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 7,
+    "over": 5,
     "clear_med": 0.0,
-    "clear_n": 618
+    "clear_n": 627
    },
    {
     "status": "In Development",
     "open": 22,
     "med_age": 2.0,
-    "max_age": 20.0,
+    "max_age": 20.1,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -605,18 +609,6 @@
     "clear_n": 2
    },
    {
-    "status": "PR Merged",
-    "open": 2,
-    "med_age": 1.5,
-    "max_age": 1.9,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 597
-   },
-   {
     "status": "In PreProd",
     "open": 1,
     "med_age": 2.0,
@@ -627,6 +619,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 13
+   },
+   {
+    "status": "PR Merged",
+    "open": 11,
+    "med_age": 0.0,
+    "max_age": 1.9,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 597
    },
    {
     "status": "In QA",
@@ -654,11 +658,11 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 171
+   "Backlog": 171,
+   "On Hold": 3
   },
   "open_total": 146,
-  "stale": 33,
+  "stale": 31,
   "worst": "In Stage"
  }
 }
