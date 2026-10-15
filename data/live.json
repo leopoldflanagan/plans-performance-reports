@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T14:06:51Z",
+ "generated": "2026-10-15T14:37:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 43,
-    "points": 79,
+    "n": 46,
+    "points": 76,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 80,
+   "ready": 84,
    "sprint": 192,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 107,
+    "n": 108,
     "items": [
+     {
+      "key": "PLANS-24521",
+      "summary": "Remove the 5 limit add for UCR codes"
+     },
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
@@ -83,6 +87,10 @@
      {
       "key": "PLANS-24518",
       "summary": "Configurations for Website not working"
+     },
+     {
+      "key": "PLANS-24480",
+      "summary": "PMP - DCA - membership card/plan details  print - logo should  be corrected."
      },
      {
       "key": "PLANS-24475",
@@ -97,16 +105,8 @@
       "summary": "Preprod - One Smile- Membership agreement - logo is not visible"
      },
      {
-      "key": "PLANS-24101",
-      "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
-     },
-     {
-      "key": "PLANS-24067",
-      "summary": "Single Location Practice's are not honoring the no need for zip code entry for S"
-     },
-     {
-      "key": "PLANS-14760",
-      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
+      "key": "PLANS-24416",
+      "summary": "Prod - PMP - One Smile - Incorrect URL in membership card "
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 54,
+    "n": 58,
     "items": [
+     {
+      "key": "PLANS-24521",
+      "summary": "Remove the 5 limit add for UCR codes"
+     },
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
@@ -133,6 +137,10 @@
      {
       "key": "PLANS-24518",
       "summary": "Configurations for Website not working"
+     },
+     {
+      "key": "PLANS-24480",
+      "summary": "PMP - DCA - membership card/plan details  print - logo should  be corrected."
      },
      {
       "key": "PLANS-24478",
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-24467",
       "summary": "Preprod - One Smile- Membership agreement - logo is not visible"
-     },
-     {
-      "key": "PLANS-24273",
-      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
-     },
-     {
-      "key": "PLANS-24113",
-      "summary": "CSP - Rank is not retained in the CSP > Plan Template UI after saving"
      }
     ]
    },
@@ -280,23 +280,15 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 112,
+    "n": 110,
     "items": [
      {
       "key": "PLANS-24485",
       "summary": "Marketing Settings - Legacy ONLY - CDPS \"Show Header as\" setting is not inherite"
      },
      {
-      "key": "PLANS-24480",
-      "summary": "PMP - DCA - membership card/plan details  print - logo should  be corrected."
-     },
-     {
       "key": "PLANS-24442",
       "summary": "PMP  - When a plan is renewed and then refunded/disabled, the plan status is inc"
-     },
-     {
-      "key": "PLANS-24416",
-      "summary": "Prod - PMP - One Smile - Incorrect URL in membership card "
      },
      {
       "key": "PLANS-24408",
@@ -313,6 +305,14 @@
      {
       "key": "PLANS-23852",
       "summary": "PLANS-23852: Member Portal: Find A Dentist: Accessibility Screen Reader does not"
+     },
+     {
+      "key": "PLANS-23551",
+      "summary": "Fix Pipeline to move images by folder not specific image"
+     },
+     {
+      "key": "PLANS-14945",
+      "summary": "PM Hours Tracking  KOS Dental Dreams Custom Website"
      }
     ]
    }
@@ -359,24 +359,28 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 257 of 260 items. This reads as a field the team does not use rather than 257 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 257,
+    "why": "missing on 259 of 262 items. This reads as a field the team does not use rather than 259 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 259,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 258 of 260 items. This reads as a field the team does not use rather than 258 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 258,
+    "why": "missing on 260 of 262 items. This reads as a field the team does not use rather than 260 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 260,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 131,
+    "n": 132,
     "items": [
      {
       "key": "PLANS-22675",
       "summary": "Unify Font's in the Plans Widget Checkout Screen"
+     },
+     {
+      "key": "PLANS-21665",
+      "summary": "PDS Team Plan - Plan details missing"
      },
      {
       "key": "PLANS-21609",
@@ -401,10 +405,6 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14582",
-      "summary": "Update UI for CSP"
      }
     ]
    }
@@ -449,7 +449,7 @@
   "completed": 61,
   "scope_change": 12,
   "vs_commitment": 28,
-  "time_elapsed": 21,
+  "time_elapsed": 22,
   "spill": {
    "open_items": 166,
    "open_pts": 193.0,
@@ -468,8 +468,8 @@
    "Done": 45,
    "To Do": 129,
    "In Development": 3,
-   "Backlog": 113,
-   "Ready for Development": 12,
+   "Backlog": 111,
+   "Ready for Development": 14,
    "Ready Prod": 15,
    "Closed": 10,
    "In Progress": 11,
@@ -546,20 +546,20 @@
    },
    {
     "status": "Ready for Development",
-    "open": 27,
-    "med_age": 8.9,
+    "open": 31,
+    "med_age": 7.0,
     "max_age": 35.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 15,
+    "over": 16,
     "clear_med": 0.9,
-    "clear_n": 229
+    "clear_n": 230
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 24.2,
+    "med_age": 24.3,
     "max_age": 42.8,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -570,7 +570,7 @@
    },
    {
     "status": "PR Created",
-    "open": 30,
+    "open": 28,
     "med_age": 3.2,
     "max_age": 29.0,
     "worst_key": "PLANS-22703",
@@ -578,7 +578,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 8,
     "clear_med": 0.0,
-    "clear_n": 616
+    "clear_n": 617
    },
    {
     "status": "In Development",
@@ -588,9 +588,9 @@
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
-    "over": 8,
+    "over": 7,
     "clear_med": 0.0,
-    "clear_n": 606
+    "clear_n": 604
    },
    {
     "status": "Identified",
@@ -606,8 +606,8 @@
    },
    {
     "status": "PR Merged",
-    "open": 4,
-    "med_age": 0.9,
+    "open": 6,
+    "med_age": 0.5,
     "max_age": 1.8,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -619,26 +619,14 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 1.9,
-    "max_age": 1.9,
+    "med_age": 2.0,
+    "max_age": 2.0,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 13
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 41
    },
    {
     "status": "Ready for Stage",
@@ -651,13 +639,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 41
    }
   ],
   "parked": {
-   "Backlog": 183,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 179
   },
-  "open_total": 135,
+  "open_total": 139,
   "stale": 34,
   "worst": "In Stage"
  }
