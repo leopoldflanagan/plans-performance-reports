@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T14:37:56Z",
+ "generated": "2026-10-15T15:06:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 46,
-    "points": 76,
+    "n": 54,
+    "points": 112,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,18 +55,18 @@
   "day": 4,
   "days": 14,
   "n": 17,
-  "done_now": 61,
+  "done_now": 64,
   "committed": 218,
-  "lo": 146,
-  "mid": 205,
-  "hi": 353,
-  "pct": 94,
-  "verdict": "a little short of the commitment",
+  "lo": 153,
+  "mid": 215,
+  "hi": 370,
+  "pct": 99,
+  "verdict": "on track for the commitment",
   "share_mid": 0.298
  },
  "admin": {
   "scope": {
-   "ready": 84,
+   "ready": 91,
    "sprint": 192,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 108,
+    "n": 107,
     "items": [
-     {
-      "key": "PLANS-24521",
-      "summary": "Remove the 5 limit add for UCR codes"
-     },
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24416",
       "summary": "Prod - PMP - One Smile - Incorrect URL in membership card "
+     },
+     {
+      "key": "PLANS-24101",
+      "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 58,
+    "n": 64,
     "items": [
      {
       "key": "PLANS-24521",
@@ -163,8 +163,12 @@
    {
     "rule": "AdHoc without the unplanned label",
     "why": "the guide does not allow it. Unlabelled reactive work is why the reactive share cannot be measured.",
-    "n": 19,
+    "n": 20,
     "items": [
+     {
+      "key": "PLANS-24472",
+      "summary": "CSP Modify Plan pages to use PlanAdministrator role instead of Admin role"
+     },
      {
       "key": "PLANS-14727",
       "summary": "Investigate how we will store the data to be dynamically generated"
@@ -192,10 +196,6 @@
      {
       "key": "PLANS-14702",
       "summary": "PM Hours Tracking  CSP - Plan Management - Sales Details"
-     },
-     {
-      "key": "PLANS-14698",
-      "summary": "PM Hours Tracking  Generate a Plan Purchase Site for Customer"
      }
     ]
    },
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 21,
+    "n": 25,
     "items": [
      {
       "key": "PLANS-23969",
@@ -264,16 +264,16 @@
       "summary": "ACH -  Emails are not working (Declines, Returns)"
      },
      {
-      "key": "PLANS-15940",
-      "summary": "[4.1] Add GetPlanLedgerState method to PlanLedgerManager"
+      "key": "PLANS-23419",
+      "summary": "[5.4.W1] Surface per-run new-member identification for the Dynamics welcome/COBR"
      },
      {
-      "key": "PLANS-15928",
-      "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
+      "key": "PLANS-23416",
+      "summary": "[5.3.W1] Alert operations on feed absence and job failure, and support safe re-r"
      },
      {
-      "key": "PLANS-24421",
-      "summary": "STAGE - Plan Details -Downloading PDF -  Getting a 400 error for below mentioned"
+      "key": "PLANS-23414",
+      "summary": "[5.2.W1] Write a per-run batch audit trail linking every change to its source"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 259 of 262 items. This reads as a field the team does not use rather than 259 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 259,
+    "why": "missing on 265 of 269 items. This reads as a field the team does not use rather than 265 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 265,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 260 of 262 items. This reads as a field the team does not use rather than 260 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 260,
+    "why": "missing on 267 of 269 items. This reads as a field the team does not use rather than 267 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 267,
     "items": []
    },
    {
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 380,
-  "items_done": 32,
+  "items_done": 33,
   "committed": 218,
   "final": 244,
-  "completed": 61,
+  "completed": 64,
   "scope_change": 12,
-  "vs_commitment": 28,
+  "vs_commitment": 29,
   "time_elapsed": 22,
   "spill": {
-   "open_items": 166,
-   "open_pts": 193.0,
+   "open_items": 165,
+   "open_pts": 190.0,
    "out_items": 2,
    "out_pts": 1.0,
-   "done_pts": 49.0
+   "done_pts": 52.0
   },
   "recv": {
    "items": 5,
@@ -465,15 +465,15 @@
   },
   "spill_rate": null,
   "dist": {
-   "Done": 45,
-   "To Do": 129,
+   "Done": 46,
+   "To Do": 128,
    "In Development": 3,
    "Backlog": 111,
    "Ready for Development": 14,
-   "Ready Prod": 15,
+   "Ready Prod": 16,
    "Closed": 10,
    "In Progress": 11,
-   "In Stage": 35,
+   "In Stage": 34,
    "WAITING REVIEW": 1,
    "PR Created": 1,
    "On Hold": 2,
@@ -483,7 +483,7 @@
    3.0,
    189.0,
    184.0,
-   183.0
+   180.0
   ],
   "scope": [
    3.0,
@@ -495,7 +495,7 @@
    3.0,
    189.0,
    184.0,
-   183.0
+   180.0
   ],
   "days": 14,
   "day": 4
@@ -513,8 +513,8 @@
   "end": "2026-10-25",
   "day": 18,
   "days": 28,
-  "closed": 351,
-  "points": 876,
+  "closed": 353,
+  "points": 880,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -534,20 +534,20 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 46,
-    "med_age": 6.2,
+    "open": 45,
+    "med_age": 6.3,
     "max_age": 6.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.2,
-    "clear_n": 397
+    "clear_n": 398
    },
    {
     "status": "Ready for Development",
-    "open": 31,
-    "med_age": 7.0,
+    "open": 39,
+    "med_age": 3.0,
     "max_age": 35.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -576,9 +576,9 @@
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 8,
+    "over": 7,
     "clear_med": 0.0,
-    "clear_n": 617
+    "clear_n": 618
    },
    {
     "status": "In Development",
@@ -608,13 +608,13 @@
     "status": "PR Merged",
     "open": 6,
     "med_age": 0.5,
-    "max_age": 1.8,
+    "max_age": 1.9,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 592
+    "clear_n": 593
    },
    {
     "status": "In PreProd",
@@ -629,18 +629,6 @@
     "clear_n": 13
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -651,14 +639,26 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 41
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 179
+   "Backlog": 171,
+   "On Hold": 3
   },
-  "open_total": 139,
-  "stale": 34,
+  "open_total": 146,
+  "stale": 33,
   "worst": "In Stage"
  }
 }
