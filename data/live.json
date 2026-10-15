@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T22:35:08Z",
+ "generated": "2026-10-15T23:04:49Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -552,7 +552,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 42.1,
-    "max_age": 43.1,
+    "max_age": 43.2,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -564,7 +564,7 @@
     "status": "PR Created",
     "open": 21,
     "med_age": 3.6,
-    "max_age": 29.3,
+    "max_age": 29.4,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -576,7 +576,7 @@
     "status": "Ready for Development",
     "open": 45,
     "med_age": 1.0,
-    "max_age": 35.8,
+    "max_age": 35.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -599,8 +599,8 @@
    {
     "status": "In Development",
     "open": 20,
-    "med_age": 1.8,
-    "max_age": 20.3,
+    "med_age": 1.9,
+    "max_age": 20.4,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -625,24 +625,12 @@
     "open": 7,
     "med_age": 0.3,
     "max_age": 0.3,
-    "worst_key": "PLANS-23402",
-    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
-    "worst_who": "Sailaja Yanamandra",
+    "worst_key": "PLANS-24097",
+    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 42
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -655,11 +643,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 2
   },
   "open_total": 145,
   "stale": 47,
