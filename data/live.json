@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T04:06:53Z",
+ "generated": "2026-10-15T04:38:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -33,7 +33,7 @@
    {
     "rule": "Idea/Draft sitting in Ready for Development",
     "n": 44,
-    "points": 81,
+    "points": 76,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 81,
+   "ready": 82,
    "sprint": 192,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 106,
+    "n": 107,
     "items": [
+     {
+      "key": "PLANS-24519",
+      "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
      {
       "key": "PLANS-24518",
       "summary": "Configurations for Website not working"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
-     },
-     {
-      "key": "PLANS-14758",
-      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 55,
+    "n": 56,
     "items": [
+     {
+      "key": "PLANS-24519",
+      "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
      {
       "key": "PLANS-24518",
       "summary": "Configurations for Website not working"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
-     },
-     {
-      "key": "PLANS-24113",
-      "summary": "CSP - Rank is not retained in the CSP > Plan Template UI after saving"
      }
     ]
    },
@@ -321,8 +321,12 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 182,
+    "n": 183,
     "items": [
+     {
+      "key": "PLANS-24519",
+      "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
      {
       "key": "PLANS-24478",
       "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price - CONFIG ISS"
@@ -350,23 +354,19 @@
      {
       "key": "PLANS-24067",
       "summary": "Single Location Practice's are not honoring the no need for zip code entry for S"
-     },
-     {
-      "key": "PLANS-24004",
-      "summary": "Member Portal -  Inconsistent Font Sizes/Styles/ link colors in Legal Consent Se"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 257 of 260 items. This reads as a field the team does not use rather than 257 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 257,
+    "why": "missing on 258 of 261 items. This reads as a field the team does not use rather than 258 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 258,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 258 of 260 items. This reads as a field the team does not use rather than 258 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 258,
+    "why": "missing on 259 of 261 items. This reads as a field the team does not use rather than 259 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 259,
     "items": []
    },
    {
@@ -449,7 +449,7 @@
   "completed": 61,
   "scope_change": 11,
   "vs_commitment": 28,
-  "time_elapsed": 18,
+  "time_elapsed": 19,
   "spill": {
    "open_items": 166,
    "open_pts": 191.0,
@@ -546,7 +546,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 28,
+    "open": 29,
     "med_age": 8.4,
     "max_age": 35.1,
     "worst_key": "PLANS-22675",
@@ -583,8 +583,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 41.6,
-    "max_age": 41.6,
+    "med_age": 41.7,
+    "max_age": 41.7,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -655,9 +655,9 @@
   ],
   "parked": {
    "On Hold": 4,
-   "Backlog": 187
+   "Backlog": 186
   },
-  "open_total": 131,
+  "open_total": 132,
   "stale": 32,
   "worst": "In Stage"
  }
