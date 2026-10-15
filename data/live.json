@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T15:06:29Z",
+ "generated": "2026-10-15T15:38:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 54,
-    "points": 112,
+    "n": 53,
+    "points": 110,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 91,
+   "ready": 90,
    "sprint": 192,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 64,
+    "n": 63,
     "items": [
-     {
-      "key": "PLANS-24521",
-      "summary": "Remove the 5 limit add for UCR codes"
-     },
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24467",
       "summary": "Preprod - One Smile- Membership agreement - logo is not visible"
+     },
+     {
+      "key": "PLANS-24448",
+      "summary": "Regression testing- phase 3"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 265 of 269 items. This reads as a field the team does not use rather than 265 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 265,
+    "why": "missing on 264 of 268 items. This reads as a field the team does not use rather than 264 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 264,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 267 of 269 items. This reads as a field the team does not use rather than 267 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 267,
+    "why": "missing on 266 of 268 items. This reads as a field the team does not use rather than 266 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 266,
     "items": []
    },
    {
@@ -442,7 +442,7 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 380,
+  "items": 382,
   "items_done": 33,
   "committed": 218,
   "final": 244,
@@ -465,14 +465,14 @@
   },
   "spill_rate": null,
   "dist": {
+   "To Do": 129,
+   "In Progress": 12,
    "Done": 46,
-   "To Do": 128,
    "In Development": 3,
    "Backlog": 111,
    "Ready for Development": 14,
    "Ready Prod": 16,
    "Closed": 10,
-   "In Progress": 11,
    "In Stage": 34,
    "WAITING REVIEW": 1,
    "PR Created": 1,
@@ -534,8 +534,8 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 45,
-    "med_age": 6.3,
+    "open": 49,
+    "med_age": 6.2,
     "max_age": 6.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -546,15 +546,15 @@
    },
    {
     "status": "Ready for Development",
-    "open": 39,
+    "open": 38,
     "med_age": 3.0,
-    "max_age": 35.5,
+    "max_age": 35.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 16,
     "clear_med": 0.9,
-    "clear_n": 230
+    "clear_n": 231
    },
    {
     "status": "WAITING REVIEW",
@@ -570,9 +570,9 @@
    },
    {
     "status": "PR Created",
-    "open": 28,
+    "open": 29,
     "med_age": 3.2,
-    "max_age": 29.0,
+    "max_age": 29.1,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -590,7 +590,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 604
+    "clear_n": 605
    },
    {
     "status": "Identified",
@@ -606,15 +606,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 6,
-    "med_age": 0.5,
+    "open": 2,
+    "med_age": 1.5,
     "max_age": 1.9,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 593
+    "clear_n": 597
    },
    {
     "status": "In PreProd",
@@ -654,8 +654,8 @@
    }
   ],
   "parked": {
-   "Backlog": 171,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 171
   },
   "open_total": 146,
   "stale": 33,
