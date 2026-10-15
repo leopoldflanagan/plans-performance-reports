@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T07:40:08Z",
+ "generated": "2026-10-15T08:08:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -535,7 +535,7 @@
    {
     "status": "In Stage",
     "open": 46,
-    "med_age": 5.9,
+    "med_age": 6.0,
     "max_age": 6.4,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -558,8 +558,8 @@
    },
    {
     "status": "PR Created",
-    "open": 24,
-    "med_age": 6.0,
+    "open": 25,
+    "med_age": 5.9,
     "max_age": 28.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -582,7 +582,7 @@
    },
    {
     "status": "In Development",
-    "open": 26,
+    "open": 25,
     "med_age": 1.7,
     "max_age": 19.7,
     "worst_key": "PLANS-22998",
@@ -590,7 +590,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 8,
     "clear_med": 0.0,
-    "clear_n": 599
+    "clear_n": 600
    },
    {
     "status": "Identified",
@@ -629,18 +629,6 @@
     "clear_n": 13
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -651,11 +639,23 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 41
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 185
+   "Backlog": 185,
+   "On Hold": 4
   },
   "open_total": 133,
   "stale": 35,
