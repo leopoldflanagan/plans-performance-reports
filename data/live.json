@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T01:02:39Z",
+ "generated": "2026-10-15T01:42:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 61,
   "scope_change": 11,
   "vs_commitment": 28,
-  "time_elapsed": 17,
+  "time_elapsed": 18,
   "spill": {
    "open_items": 166,
    "open_pts": 191.0,
@@ -536,7 +536,7 @@
     "status": "In Stage",
     "open": 46,
     "med_age": 5.7,
-    "max_age": 6.1,
+    "max_age": 6.2,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -548,7 +548,7 @@
     "status": "Ready for Development",
     "open": 27,
     "med_age": 8.4,
-    "max_age": 34.9,
+    "max_age": 35.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -560,7 +560,7 @@
     "status": "PR Created",
     "open": 24,
     "med_age": 5.7,
-    "max_age": 28.4,
+    "max_age": 28.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -572,7 +572,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 41.2,
-    "max_age": 42.2,
+    "max_age": 42.3,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -595,8 +595,8 @@
    {
     "status": "In Development",
     "open": 24,
-    "med_age": 1.4,
-    "max_age": 19.4,
+    "med_age": 1.5,
+    "max_age": 19.5,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -629,18 +629,6 @@
     "clear_n": 13
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -651,6 +639,18 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 41
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
