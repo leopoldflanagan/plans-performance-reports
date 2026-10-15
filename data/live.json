@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T17:35:29Z",
+ "generated": "2026-10-15T18:07:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -552,7 +552,7 @@
     "status": "Ready for Development",
     "open": 38,
     "med_age": 3.1,
-    "max_age": 35.6,
+    "max_age": 35.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -576,7 +576,7 @@
     "status": "PR Created",
     "open": 19,
     "med_age": 3.4,
-    "max_age": 29.1,
+    "max_age": 29.2,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -587,8 +587,8 @@
    {
     "status": "In Development",
     "open": 22,
-    "med_age": 2.1,
-    "max_age": 20.1,
+    "med_age": 2.2,
+    "max_age": 20.2,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -625,9 +625,9 @@
     "open": 7,
     "med_age": 0.1,
     "max_age": 0.1,
-    "worst_key": "PLANS-23402",
-    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
-    "worst_who": "Sailaja Yanamandra",
+    "worst_key": "PLANS-24097",
+    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 41
@@ -658,8 +658,8 @@
    }
   ],
   "parked": {
-   "Backlog": 173,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 173
   },
   "open_total": 143,
   "stale": 32,
