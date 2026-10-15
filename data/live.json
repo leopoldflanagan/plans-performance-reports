@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T03:07:05Z",
+ "generated": "2026-10-15T03:40:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 43,
-    "points": 76,
+    "n": 44,
+    "points": 81,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -443,7 +443,7 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 380,
-  "items_done": 31,
+  "items_done": 32,
   "committed": 218,
   "final": 242,
   "completed": 61,
@@ -513,7 +513,7 @@
   "end": "2026-10-25",
   "day": 18,
   "days": 28,
-  "closed": 349,
+  "closed": 350,
   "points": 875,
   "unplanned": null,
   "unplanned_pct": null,
@@ -548,7 +548,7 @@
     "status": "Ready for Development",
     "open": 28,
     "med_age": 8.4,
-    "max_age": 35.0,
+    "max_age": 35.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -560,7 +560,7 @@
     "status": "PR Created",
     "open": 24,
     "med_age": 5.8,
-    "max_age": 28.5,
+    "max_age": 28.6,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -595,7 +595,7 @@
    {
     "status": "In Development",
     "open": 24,
-    "med_age": 1.5,
+    "med_age": 1.6,
     "max_age": 19.5,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -655,7 +655,7 @@
   ],
   "parked": {
    "On Hold": 4,
-   "Backlog": 188
+   "Backlog": 187
   },
   "open_total": 131,
   "stale": 32,

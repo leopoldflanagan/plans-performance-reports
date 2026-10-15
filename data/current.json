@@ -9,9 +9,9 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 252,
-  "closed": 349,
+  "closed": 350,
   "discarded": 0,
-  "resolved": 349,
+  "resolved": 350,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    166
+    167
    ],
    [
     "TechDebt",
@@ -39,7 +39,7 @@
   "day": 15,
   "days": 28,
   "status": "risk",
-  "headline": "349 items closed in the first 15 days, a pace of about 651 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "350 items closed in the first 15 days, a pace of about 653 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 11.1d and average 18.9d, both past the healthy band"
@@ -143,7 +143,7 @@
    "Oct 12",
    "Oct 26",
    380,
-   31,
+   32,
    218,
    242,
    61,
@@ -226,7 +226,7 @@
   },
   "LL-Sprint 24-26": {
    "done": [
-    31,
+    32,
     49
    ],
    "open": [
@@ -524,8 +524,8 @@
      "med": 11.69
     },
     "Closed": {
-     "n": 10,
-     "med": 12.3
+     "n": 11,
+     "med": 12.13
     },
     "In QA": {
      "n": 1,
@@ -544,9 +544,9 @@
     "Done": 45,
     "To Do": 129,
     "Ready for Development": 13,
-    "Backlog": 114,
+    "Backlog": 113,
     "Ready Prod": 15,
-    "Closed": 10,
+    "Closed": 11,
     "In Progress": 11,
     "In Development": 2,
     "In Stage": 35,
@@ -555,7 +555,7 @@
     "On Hold": 3,
     "Will Not Implement": 1
    },
-   "stalled": 354,
+   "stalled": 353,
    "worst": 13.58,
    "worstSt": "To Do",
    "items": 380
@@ -700,7 +700,7 @@
  },
  "CAP": {
   "9.09": [
-   349,
+   350,
    296,
    875,
    22
@@ -712,8 +712,8 @@
    "avg": 18.85,
    "n": 250,
    "mx": 148.81,
-   "nodev": 99,
-   "base": 349
+   "nodev": 100,
+   "base": 350
   }
  },
  "complete": false,
