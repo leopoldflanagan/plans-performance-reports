@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T05:37:58Z",
+ "generated": "2026-10-15T06:10:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -548,7 +548,7 @@
     "status": "Ready for Development",
     "open": 29,
     "med_age": 8.5,
-    "max_age": 35.1,
+    "max_age": 35.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -560,7 +560,7 @@
     "status": "PR Created",
     "open": 24,
     "med_age": 5.8,
-    "max_age": 28.6,
+    "max_age": 28.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -595,8 +595,8 @@
    {
     "status": "In Development",
     "open": 24,
-    "med_age": 1.6,
-    "max_age": 19.6,
+    "med_age": 1.7,
+    "max_age": 19.7,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -654,8 +654,8 @@
    }
   ],
   "parked": {
-   "Backlog": 186,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 186
   },
   "open_total": 132,
   "stale": 32,
