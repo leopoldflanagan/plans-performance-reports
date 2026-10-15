@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T17:05:51Z",
+ "generated": "2026-10-15T17:35:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 49,
-    "points": 99,
+    "n": 51,
+    "points": 107,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,12 +55,12 @@
   "day": 4,
   "days": 14,
   "n": 17,
-  "done_now": 64,
+  "done_now": 67,
   "committed": 218,
-  "lo": 153,
-  "mid": 215,
-  "hi": 370,
-  "pct": 99,
+  "lo": 160,
+  "mid": 225,
+  "hi": 388,
+  "pct": 103,
   "verdict": "on track for the commitment",
   "share_mid": 0.298
  },
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 393,
-  "items_done": 33,
+  "items_done": 34,
   "committed": 218,
   "final": 259,
-  "completed": 64,
+  "completed": 67,
   "scope_change": 19,
-  "vs_commitment": 29,
-  "time_elapsed": 22,
+  "vs_commitment": 31,
+  "time_elapsed": 23,
   "spill": {
-   "open_items": 170,
-   "open_pts": 205.0,
+   "open_items": 169,
+   "open_pts": 202.0,
    "out_items": 2,
    "out_pts": 1.0,
-   "done_pts": 52.0
+   "done_pts": 55.0
   },
   "recv": {
    "items": 5,
@@ -465,15 +465,15 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 134,
+   "To Do": 133,
+   "Done": 47,
    "In Progress": 13,
-   "Done": 46,
    "In Development": 3,
-   "In Stage": 38,
+   "Closed": 11,
    "Backlog": 111,
    "Ready for Development": 14,
    "Ready Prod": 16,
-   "Closed": 10,
+   "In Stage": 37,
    "WAITING REVIEW": 1,
    "PR Created": 1,
    "IN-DEVELOPMENT": 1,
@@ -485,7 +485,7 @@
    189.0,
    184.0,
    180.0,
-   195.0
+   192.0
   ],
   "scope": [
    3.0,
@@ -499,7 +499,7 @@
    189.0,
    184.0,
    180.0,
-   195.0
+   192.0
   ],
   "days": 14,
   "day": 4
@@ -517,8 +517,8 @@
   "end": "2026-10-25",
   "day": 18,
   "days": 28,
-  "closed": 354,
-  "points": 882,
+  "closed": 356,
+  "points": 887,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -538,7 +538,7 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 48,
+    "open": 46,
     "med_age": 6.3,
     "max_age": 6.8,
     "worst_key": "PLANS-24033",
@@ -546,7 +546,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 3.2,
-    "clear_n": 397
+    "clear_n": 399
    },
    {
     "status": "Ready for Development",
@@ -621,6 +621,18 @@
     "clear_n": 13
    },
    {
+    "status": "In QA",
+    "open": 7,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-23402",
+    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 41
+   },
+   {
     "status": "PR Merged",
     "open": 5,
     "med_age": 0.1,
@@ -643,25 +655,13 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 7,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 41
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 173
+   "Backlog": 173,
+   "On Hold": 3
   },
-  "open_total": 145,
+  "open_total": 143,
   "stale": 32,
   "worst": "In Stage"
  }
