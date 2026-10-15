@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T21:36:21Z",
+ "generated": "2026-10-15T22:06:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 57,
-    "points": 111,
+    "n": 62,
+    "points": 112,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,19 +66,31 @@
  },
  "admin": {
   "scope": {
-   "ready": 90,
-   "sprint": 196,
+   "ready": 95,
+   "sprint": 197,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 113,
+    "n": 117,
     "items": [
+     {
+      "key": "PLANS-24551",
+      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  3 "
+     },
+     {
+      "key": "PLANS-24546",
+      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
+     },
      {
       "key": "PLANS-24545",
       "summary": "Prod - One Smile - UI/UX  - Claude quality scrub - Issue list 1."
+     },
+     {
+      "key": "PLANS-24540",
+      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  2 "
      },
      {
       "key": "PLANS-24536",
@@ -93,20 +105,8 @@
       "summary": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed tog"
      },
      {
-      "key": "PLANS-24519",
-      "summary": "Production - Android User/Edge Search Browser for One Smile "
-     },
-     {
-      "key": "PLANS-24518",
-      "summary": "Configurations for Website not working"
-     },
-     {
-      "key": "PLANS-24516",
-      "summary": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be"
-     },
-     {
-      "key": "PLANS-24514",
-      "summary": " Fw: [EXTERNAL] Re: Payment"
+      "key": "PLANS-24532",
+      "summary": "Prod / STAGE - One Smile - Mobile - Membership agreement is  not Downloadable / "
      }
     ]
    },
@@ -124,11 +124,23 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 64,
+    "n": 69,
     "items": [
+     {
+      "key": "PLANS-24551",
+      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  3 "
+     },
+     {
+      "key": "PLANS-24546",
+      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
+     },
      {
       "key": "PLANS-24545",
       "summary": "Prod - One Smile - UI/UX  - Claude quality scrub - Issue list 1."
+     },
+     {
+      "key": "PLANS-24540",
+      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  2 "
      },
      {
       "key": "PLANS-24536",
@@ -143,20 +155,8 @@
       "summary": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed tog"
      },
      {
-      "key": "PLANS-24519",
-      "summary": "Production - Android User/Edge Search Browser for One Smile "
-     },
-     {
-      "key": "PLANS-24518",
-      "summary": "Configurations for Website not working"
-     },
-     {
-      "key": "PLANS-24516",
-      "summary": "WFP/Explore Savings is displayed in the Left Panel though it is configured to be"
-     },
-     {
-      "key": "PLANS-24514",
-      "summary": " Fw: [EXTERNAL] Re: Payment"
+      "key": "PLANS-24532",
+      "summary": "Prod / STAGE - One Smile - Mobile - Membership agreement is  not Downloadable / "
      }
     ]
    },
@@ -321,8 +321,16 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 184,
+    "n": 187,
     "items": [
+     {
+      "key": "PLANS-24551",
+      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  3 "
+     },
+     {
+      "key": "PLANS-24546",
+      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
+     },
      {
       "key": "PLANS-24536",
       "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
@@ -346,37 +354,33 @@
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
-     },
-     {
-      "key": "PLANS-24469",
-      "summary": " Duplicate Charge-Not Showing in CSP "
-     },
-     {
-      "key": "PLANS-24273",
-      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 268 of 272 items. This reads as a field the team does not use rather than 268 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 268,
+    "why": "missing on 274 of 278 items. This reads as a field the team does not use rather than 274 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 274,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 270 of 272 items. This reads as a field the team does not use rather than 270 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 270,
+    "why": "missing on 276 of 278 items. This reads as a field the team does not use rather than 276 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 276,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 130,
+    "n": 131,
     "items": [
      {
       "key": "PLANS-22675",
       "summary": "Unify Font's in the Plans Widget Checkout Screen"
+     },
+     {
+      "key": "PLANS-22023",
+      "summary": "Dashboard - 'Core plan'/ 'Plan sold' Count increased when Refund a plan"
      },
      {
       "key": "PLANS-21609",
@@ -401,10 +405,6 @@
      {
       "key": "PLANS-14582",
       "summary": "Update UI for CSP"
-     },
-     {
-      "key": "PLANS-14568",
-      "summary": "Integrating plans API into CSP (Dev Only)"
      }
     ]
    }
@@ -442,18 +442,18 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 393,
+  "items": 398,
   "items_done": 40,
   "committed": 218,
-  "final": 259,
+  "final": 260,
   "completed": 81,
   "scope_change": 19,
   "vs_commitment": 37,
   "time_elapsed": 24,
   "spill": {
-   "open_items": 161,
-   "open_pts": 185.0,
-   "out_items": 3,
+   "open_items": 162,
+   "open_pts": 186.0,
+   "out_items": 4,
    "out_pts": 1.0,
    "done_pts": 72.0
   },
@@ -466,9 +466,9 @@
   "spill_rate": null,
   "dist": {
    "In Progress": 14,
-   "Done": 52,
-   "To Do": 127,
-   "In Development": 3,
+   "Done": 53,
+   "To Do": 129,
+   "In Development": 4,
    "Closed": 21,
    "Backlog": 111,
    "Ready for Development": 14,
@@ -485,21 +485,21 @@
    189.0,
    184.0,
    180.0,
-   178.0
+   179.0
   ],
   "scope": [
    3.0,
    218.0,
    226.0,
    244.0,
-   259.0
+   260.0
   ],
   "ghost": [
    3.0,
    189.0,
    184.0,
    180.0,
-   178.0
+   179.0
   ],
   "days": 14,
   "day": 4
@@ -517,8 +517,8 @@
   "end": "2026-10-25",
   "day": 18,
   "days": 28,
-  "closed": 385,
-  "points": 946,
+  "closed": 387,
+  "points": 947,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -544,45 +544,45 @@
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 5,
-    "clear_med": 2.6,
-    "clear_n": 396
+    "over": 16,
+    "clear_med": 2.7,
+    "clear_n": 395
    },
    {
     "status": "WAITING REVIEW",
-    "open": 4,
-    "med_age": 24.6,
+    "open": 3,
+    "med_age": 42.1,
     "max_age": 43.1,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 18
+    "clear_n": 19
    },
    {
     "status": "PR Created",
     "open": 21,
-    "med_age": 3.5,
+    "med_age": 3.6,
     "max_age": 29.3,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 629
+    "clear_n": 627
    },
    {
-    "status": "In Development",
-    "open": 19,
-    "med_age": 2.3,
-    "max_age": 20.3,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 606
+    "status": "Ready for Development",
+    "open": 45,
+    "med_age": 1.0,
+    "max_age": 35.8,
+    "worst_key": "PLANS-22675",
+    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
+    "worst_who": "unassigned",
+    "over": 16,
+    "clear_med": 0.9,
+    "clear_n": 245
    },
    {
     "status": "Identified",
@@ -597,16 +597,28 @@
     "clear_n": 2
    },
    {
-    "status": "Ready for Development",
-    "open": 41,
-    "med_age": 1.0,
-    "max_age": 35.8,
-    "worst_key": "PLANS-22675",
-    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
-    "worst_who": "unassigned",
-    "over": 16,
-    "clear_med": 0.9,
-    "clear_n": 245
+    "status": "In Development",
+    "open": 20,
+    "med_age": 1.8,
+    "max_age": 20.3,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 7,
+    "clear_med": 0.0,
+    "clear_n": 604
+   },
+   {
+    "status": "PR Merged",
+    "open": 7,
+    "med_age": 0.3,
+    "max_age": 2.2,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 601
    },
    {
     "status": "In QA",
@@ -621,16 +633,16 @@
     "clear_n": 42
    },
    {
-    "status": "PR Merged",
-    "open": 7,
-    "med_age": 0.2,
-    "max_age": 2.1,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 603
+    "clear_med": 0.0,
+    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -643,26 +655,14 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 173
+   "Backlog": 169,
+   "On Hold": 2
   },
-  "open_total": 142,
-  "stale": 37,
+  "open_total": 146,
+  "stale": 48,
   "worst": "In Stage"
  }
 }
