@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T06:51:09Z",
+ "generated": "2026-10-15T07:11:00Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
-    "points": 76,
+    "n": 43,
+    "points": 75,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 82,
+   "ready": 81,
    "sprint": 192,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 56,
+    "n": 55,
     "items": [
      {
       "key": "PLANS-24519",
@@ -133,10 +133,6 @@
      {
       "key": "PLANS-24518",
       "summary": "Configurations for Website not working"
-     },
-     {
-      "key": "PLANS-24499",
-      "summary": "Configuration Changes - not taking in Prod."
      },
      {
       "key": "PLANS-24478",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
+     },
+     {
+      "key": "PLANS-24113",
+      "summary": "CSP - Rank is not retained in the CSP > Plan Template UI after saving"
      }
     ]
    },
@@ -445,14 +445,14 @@
   "items": 380,
   "items_done": 32,
   "committed": 218,
-  "final": 242,
+  "final": 244,
   "completed": 61,
-  "scope_change": 11,
+  "scope_change": 12,
   "vs_commitment": 28,
   "time_elapsed": 19,
   "spill": {
    "open_items": 166,
-   "open_pts": 191.0,
+   "open_pts": 193.0,
    "out_items": 2,
    "out_pts": 1.0,
    "done_pts": 49.0
@@ -467,12 +467,12 @@
   "dist": {
    "Done": 45,
    "To Do": 129,
-   "Ready for Development": 13,
+   "In Development": 3,
    "Backlog": 113,
+   "Ready for Development": 12,
    "Ready Prod": 15,
    "Closed": 10,
    "In Progress": 11,
-   "In Development": 2,
    "In Stage": 35,
    "WAITING REVIEW": 1,
    "PR Created": 1,
@@ -483,19 +483,19 @@
    3.0,
    189.0,
    184.0,
-   181.0
+   183.0
   ],
   "scope": [
    3.0,
    218.0,
    226.0,
-   242.0
+   244.0
   ],
   "ghost": [
    3.0,
    189.0,
    184.0,
-   181.0
+   183.0
   ],
   "days": 14,
   "day": 4
@@ -546,15 +546,15 @@
    },
    {
     "status": "Ready for Development",
-    "open": 29,
-    "med_age": 8.5,
+    "open": 28,
+    "med_age": 8.6,
     "max_age": 35.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 15,
     "clear_med": 1.0,
-    "clear_n": 226
+    "clear_n": 227
    },
    {
     "status": "PR Created",
@@ -581,20 +581,8 @@
     "clear_n": 16
    },
    {
-    "status": "Identified",
-    "open": 1,
-    "med_age": 41.7,
-    "max_age": 41.7,
-    "worst_key": "PLANS-22399",
-    "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
-    "worst_who": "unassigned",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 2
-   },
-   {
     "status": "In Development",
-    "open": 24,
+    "open": 26,
     "med_age": 1.7,
     "max_age": 19.7,
     "worst_key": "PLANS-22998",
@@ -603,6 +591,18 @@
     "over": 8,
     "clear_med": 0.0,
     "clear_n": 599
+   },
+   {
+    "status": "Identified",
+    "open": 1,
+    "med_age": 41.8,
+    "max_age": 41.8,
+    "worst_key": "PLANS-22399",
+    "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
+    "worst_who": "unassigned",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 2
    },
    {
     "status": "PR Merged",
@@ -655,9 +655,9 @@
   ],
   "parked": {
    "On Hold": 4,
-   "Backlog": 186
+   "Backlog": 185
   },
-  "open_total": 132,
+  "open_total": 133,
   "stale": 32,
   "worst": "In Stage"
  }

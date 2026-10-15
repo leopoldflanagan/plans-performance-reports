@@ -145,20 +145,20 @@
    380,
    32,
    218,
-   242,
+   244,
    61,
-   11,
+   12,
    [
     3.0,
     189.0,
     184.0,
-    181.0
+    183.0
    ],
    [
     3.0,
     218.0,
     226.0,
-    242.0
+    244.0
    ]
   ],
   [
@@ -231,7 +231,7 @@
    ],
    "open": [
     166,
-    191
+    193
    ],
    "out": [
     2,
@@ -493,14 +493,14 @@
     },
     "Ready for Development": {
      "n": 22,
-     "med": 11.39
+     "med": 11.37
     },
     "WAITING REVIEW": {
      "n": 7,
      "med": 0.15
     },
     "In Development": {
-     "n": 28,
+     "n": 29,
      "med": 0.01
     },
     "PR Created": {
@@ -543,12 +543,12 @@
    "dist": {
     "Done": 45,
     "To Do": 129,
-    "Ready for Development": 13,
+    "In Development": 3,
     "Backlog": 113,
+    "Ready for Development": 12,
     "Ready Prod": 15,
     "Closed": 11,
     "In Progress": 11,
-    "In Development": 2,
     "In Stage": 35,
     "WAITING REVIEW": 1,
     "PR Created": 1,
@@ -690,7 +690,7 @@
    3.0,
    189.0,
    184.0,
-   181.0
+   183.0
   ],
   "Plans-Sprint 24-26": [
    233.0,
