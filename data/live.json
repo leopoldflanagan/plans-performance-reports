@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T02:08:29Z",
+ "generated": "2026-10-15T02:42:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
-    "points": 84,
+    "n": 43,
+    "points": 81,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -547,14 +547,14 @@
    {
     "status": "Ready for Development",
     "open": 27,
-    "med_age": 8.4,
+    "med_age": 8.5,
     "max_age": 35.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 15,
     "clear_med": 1.0,
-    "clear_n": 225
+    "clear_n": 226
    },
    {
     "status": "PR Created",
@@ -566,12 +566,12 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 612
+    "clear_n": 613
    },
    {
     "status": "WAITING REVIEW",
-    "open": 3,
-    "med_age": 41.2,
+    "open": 4,
+    "med_age": 23.8,
     "max_age": 42.3,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -602,13 +602,13 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 8,
     "clear_med": 0.0,
-    "clear_n": 598
+    "clear_n": 599
    },
    {
     "status": "PR Merged",
     "open": 3,
-    "med_age": 0.5,
-    "max_age": 1.3,
+    "med_age": 0.6,
+    "max_age": 1.4,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -619,8 +619,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 1.4,
-    "max_age": 1.4,
+    "med_age": 1.5,
+    "max_age": 1.5,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
@@ -654,10 +654,10 @@
    }
   ],
   "parked": {
-   "Backlog": 190,
-   "On Hold": 4
+   "On Hold": 4,
+   "Backlog": 189
   },
-  "open_total": 129,
+  "open_total": 130,
   "stale": 32,
   "worst": "In Stage"
  }
