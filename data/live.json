@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T02:42:01Z",
+ "generated": "2026-10-15T03:07:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -33,7 +33,7 @@
    {
     "rule": "Idea/Draft sitting in Ready for Development",
     "n": 43,
-    "points": 81,
+    "points": 76,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 80,
+   "ready": 81,
    "sprint": 192,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 105,
+    "n": 106,
     "items": [
+     {
+      "key": "PLANS-24518",
+      "summary": "Configurations for Website not working"
+     },
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14538",
-      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 54,
+    "n": 55,
     "items": [
+     {
+      "key": "PLANS-24518",
+      "summary": "Configurations for Website not working"
+     },
      {
       "key": "PLANS-24499",
       "summary": "Configuration Changes - not taking in Prod."
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24113",
       "summary": "CSP - Rank is not retained in the CSP > Plan Template UI after saving"
-     },
-     {
-      "key": "PLANS-24101",
-      "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 256 of 259 items. This reads as a field the team does not use rather than 256 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 256,
+    "why": "missing on 257 of 260 items. This reads as a field the team does not use rather than 257 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 257,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 257 of 259 items. This reads as a field the team does not use rather than 257 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 257,
+    "why": "missing on 258 of 260 items. This reads as a field the team does not use rather than 258 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 258,
     "items": []
    },
    {
@@ -535,7 +535,7 @@
    {
     "status": "In Stage",
     "open": 46,
-    "med_age": 5.7,
+    "med_age": 5.8,
     "max_age": 6.2,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -546,8 +546,8 @@
    },
    {
     "status": "Ready for Development",
-    "open": 27,
-    "med_age": 8.5,
+    "open": 28,
+    "med_age": 8.4,
     "max_age": 35.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -559,7 +559,7 @@
    {
     "status": "PR Created",
     "open": 24,
-    "med_age": 5.7,
+    "med_age": 5.8,
     "max_age": 28.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -655,9 +655,9 @@
   ],
   "parked": {
    "On Hold": 4,
-   "Backlog": 189
+   "Backlog": 188
   },
-  "open_total": 130,
+  "open_total": 131,
   "stale": 32,
   "worst": "In Stage"
  }
