@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T07:11:00Z",
+ "generated": "2026-10-15T07:40:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 61,
   "scope_change": 12,
   "vs_commitment": 28,
-  "time_elapsed": 19,
+  "time_elapsed": 20,
   "spill": {
    "open_items": 166,
    "open_pts": 193.0,
@@ -559,19 +559,19 @@
    {
     "status": "PR Created",
     "open": 24,
-    "med_age": 5.8,
+    "med_age": 6.0,
     "max_age": 28.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 6,
+    "over": 9,
     "clear_med": 0.0,
     "clear_n": 613
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 23.9,
+    "med_age": 24.1,
     "max_age": 42.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -607,8 +607,8 @@
    {
     "status": "PR Merged",
     "open": 3,
-    "med_age": 0.7,
-    "max_age": 1.5,
+    "med_age": 0.8,
+    "max_age": 1.6,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -619,8 +619,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 1.6,
-    "max_age": 1.6,
+    "med_age": 1.7,
+    "max_age": 1.7,
     "worst_key": "PLANS-24447",
     "worst_sum": "Regression testing- phase 2",
     "worst_who": "Vivienne Chawande",
@@ -658,7 +658,7 @@
    "Backlog": 185
   },
   "open_total": 133,
-  "stale": 32,
+  "stale": 35,
   "worst": "In Stage"
  }
 }
