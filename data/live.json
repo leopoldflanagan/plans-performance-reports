@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T09:07:10Z",
+ "generated": "2026-10-15T09:38:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -547,7 +547,7 @@
    {
     "status": "Ready for Development",
     "open": 28,
-    "med_age": 8.6,
+    "med_age": 8.7,
     "max_age": 35.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -571,7 +571,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 24.1,
+    "med_age": 24.2,
     "max_age": 42.6,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -595,8 +595,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 41.8,
-    "max_age": 41.8,
+    "med_age": 41.9,
+    "max_age": 41.9,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
