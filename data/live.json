@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T19:33:19Z",
+ "generated": "2026-10-15T20:06:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -538,8 +538,8 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 43,
-    "med_age": 6.4,
+    "open": 44,
+    "med_age": 6.5,
     "max_age": 6.9,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -582,7 +582,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 631
+    "clear_n": 632
    },
    {
     "status": "Identified",
@@ -598,7 +598,7 @@
    },
    {
     "status": "In Development",
-    "open": 19,
+    "open": 18,
     "med_age": 2.2,
     "max_age": 20.2,
     "worst_key": "PLANS-22998",
@@ -606,7 +606,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 605
+    "clear_n": 606
    },
    {
     "status": "In PreProd",
@@ -621,6 +621,18 @@
     "clear_n": 26
    },
    {
+    "status": "In QA",
+    "open": 7,
+    "med_age": 0.2,
+    "max_age": 0.2,
+    "worst_key": "PLANS-23402",
+    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 42
+   },
+   {
     "status": "PR Merged",
     "open": 7,
     "med_age": 0.2,
@@ -630,19 +642,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 605
-   },
-   {
-    "status": "In QA",
-    "open": 7,
-    "med_age": 0.1,
-    "max_age": 0.1,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 42
+    "clear_n": 606
    },
    {
     "status": "Ready for Stage",

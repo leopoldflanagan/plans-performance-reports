@@ -601,11 +601,11 @@
      "med": 0.62
     },
     "PR Created": {
-     "n": 27,
+     "n": 28,
      "med": 0.01
     },
     "PR Merged": {
-     "n": 28,
+     "n": 29,
      "med": 0.02
     },
     "WAITING REVIEW": {
@@ -617,8 +617,8 @@
      "med": 11.07
     },
     "In Stage": {
-     "n": 25,
-     "med": 1.13
+     "n": 26,
+     "med": 1.66
     },
     "In QA": {
      "n": 9,
@@ -648,10 +648,10 @@
     "PR Merged": 3,
     "Closed": 10,
     "To Do": 49,
-    "In Stage": 11,
+    "In Stage": 12,
     "Ready for Development": 15,
     "In PreProd": 1,
-    "In Development": 13,
+    "In Development": 12,
     "On Hold": 4,
     "Ready Prod": 7,
     "Will Not Implement": 2,
