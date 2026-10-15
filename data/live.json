@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T10:06:20Z",
+ "generated": "2026-10-15T10:38:22Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -535,7 +535,7 @@
    {
     "status": "In Stage",
     "open": 46,
-    "med_age": 6.0,
+    "med_age": 6.1,
     "max_age": 6.5,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -547,7 +547,7 @@
    {
     "status": "Ready for Development",
     "open": 28,
-    "med_age": 8.7,
+    "med_age": 8.8,
     "max_age": 35.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -555,18 +555,6 @@
     "over": 15,
     "clear_med": 1.0,
     "clear_n": 228
-   },
-   {
-    "status": "PR Created",
-    "open": 25,
-    "med_age": 6.0,
-    "max_age": 28.8,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 9,
-    "clear_med": 0.0,
-    "clear_n": 614
    },
    {
     "status": "WAITING REVIEW",
@@ -581,6 +569,18 @@
     "clear_n": 16
    },
    {
+    "status": "PR Created",
+    "open": 26,
+    "med_age": 3.1,
+    "max_age": 28.8,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 8,
+    "clear_med": 0.0,
+    "clear_n": 615
+   },
+   {
     "status": "In Development",
     "open": 26,
     "med_age": 1.8,
@@ -590,7 +590,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 8,
     "clear_med": 0.0,
-    "clear_n": 600
+    "clear_n": 601
    },
    {
     "status": "Identified",
@@ -614,7 +614,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 591
+    "clear_n": 592
    },
    {
     "status": "In PreProd",
@@ -629,18 +629,6 @@
     "clear_n": 13
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -651,14 +639,26 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 41
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 184
+   "Backlog": 184,
+   "On Hold": 3
   },
-  "open_total": 134,
-  "stale": 35,
+  "open_total": 135,
+  "stale": 34,
   "worst": "In Stage"
  }
 }
