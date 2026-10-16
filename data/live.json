@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T12:09:16Z",
+ "generated": "2026-10-16T12:46:21Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -539,7 +539,7 @@
    {
     "status": "In Stage",
     "open": 41,
-    "med_age": 7.1,
+    "med_age": 7.2,
     "max_age": 7.6,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -551,7 +551,7 @@
    {
     "status": "PR Created",
     "open": 26,
-    "med_age": 4.0,
+    "med_age": 4.1,
     "max_age": 29.9,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -612,7 +612,7 @@
     "status": "PR Merged",
     "open": 9,
     "med_age": 0.8,
-    "max_age": 2.7,
+    "max_age": 2.8,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -623,26 +623,14 @@
    {
     "status": "In QA",
     "open": 7,
-    "med_age": 0.8,
-    "max_age": 0.8,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
+    "med_age": 0.9,
+    "max_age": 0.9,
+    "worst_key": "PLANS-23402",
+    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 42
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -655,11 +643,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 163,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 163
   },
   "open_total": 146,
   "stale": 59,
