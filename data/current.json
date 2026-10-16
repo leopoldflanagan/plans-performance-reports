@@ -585,8 +585,8 @@
      "med": 1.06
     },
     "Done": {
-     "n": 69,
-     "med": 12.4
+     "n": 74,
+     "med": 12.37
     },
     "Backlog": {
      "n": 28,
@@ -642,10 +642,10 @@
     }
    },
    "dist": {
-    "Done": 65,
+    "Done": 70,
     "Backlog": 8,
     "To Do": 53,
-    "In Progress": 21,
+    "In Progress": 16,
     "PR Merged": 3,
     "Closed": 12,
     "In Stage": 13,
