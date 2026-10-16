@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T07:38:53Z",
+ "generated": "2026-10-16T08:08:09Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -539,12 +539,12 @@
    {
     "status": "In Stage",
     "open": 41,
-    "med_age": 6.9,
+    "med_age": 7.0,
     "max_age": 7.4,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 15,
+    "over": 22,
     "clear_med": 2.7,
     "clear_n": 396
    },
@@ -623,26 +623,14 @@
    {
     "status": "In QA",
     "open": 7,
-    "med_age": 0.6,
-    "max_age": 0.6,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
+    "med_age": 0.7,
+    "max_age": 0.7,
+    "worst_key": "PLANS-23402",
+    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 42
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -655,14 +643,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 2
   },
   "open_total": 144,
-  "stale": 49,
+  "stale": 56,
   "worst": "In Stage"
  }
 }
