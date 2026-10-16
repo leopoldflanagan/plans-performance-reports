@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T09:06:43Z",
+ "generated": "2026-10-16T09:38:11Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 58,
+    "n": 57,
     "points": 112,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 91,
+   "ready": 90,
    "sprint": 197,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,7 +74,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 113,
+    "n": 112,
     "items": [
      {
       "key": "PLANS-24551",
@@ -97,16 +97,16 @@
       "summary": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed tog"
      },
      {
-      "key": "PLANS-24532",
-      "summary": "Prod / STAGE - One Smile - Mobile - Membership agreement is  not Downloadable / "
-     },
-     {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
      },
      {
       "key": "PLANS-24518",
       "summary": "Configurations for Website not working"
+     },
+     {
+      "key": "PLANS-24480",
+      "summary": "PMP - DCA - membership card/plan details  print - logo should  be corrected."
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 65,
+    "n": 64,
     "items": [
      {
       "key": "PLANS-24551",
@@ -147,16 +147,16 @@
       "summary": "Prod/Stage - One Smile - Mobile - CDPS and Benefit table , headers displayed tog"
      },
      {
-      "key": "PLANS-24532",
-      "summary": "Prod / STAGE - One Smile - Mobile - Membership agreement is  not Downloadable / "
-     },
-     {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
      },
      {
       "key": "PLANS-24518",
       "summary": "Configurations for Website not working"
+     },
+     {
+      "key": "PLANS-24480",
+      "summary": "PMP - DCA - membership card/plan details  print - logo should  be corrected."
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 271 of 274 items. This reads as a field the team does not use rather than 271 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 271,
+    "why": "missing on 270 of 273 items. This reads as a field the team does not use rather than 270 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 270,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 272 of 274 items. This reads as a field the team does not use rather than 272 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 272,
+    "why": "missing on 271 of 273 items. This reads as a field the team does not use rather than 271 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 271,
     "items": []
    },
    {
@@ -544,7 +544,7 @@
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 22,
+    "over": 24,
     "clear_med": 2.7,
     "clear_n": 396
    },
@@ -562,20 +562,20 @@
    },
    {
     "status": "Ready for Development",
-    "open": 41,
-    "med_age": 1.4,
+    "open": 40,
+    "med_age": 1.6,
     "max_age": 36.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 16,
     "clear_med": 0.8,
-    "clear_n": 249
+    "clear_n": 250
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 25.6,
+    "med_age": 25.7,
     "max_age": 43.6,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -587,8 +587,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 42.8,
-    "max_age": 42.8,
+    "med_age": 42.9,
+    "max_age": 42.9,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -598,15 +598,15 @@
    },
    {
     "status": "In Development",
-    "open": 21,
-    "med_age": 1.9,
+    "open": 22,
+    "med_age": 1.4,
     "max_age": 20.8,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 607
+    "clear_n": 608
    },
    {
     "status": "In QA",
@@ -662,7 +662,7 @@
    "On Hold": 2
   },
   "open_total": 144,
-  "stale": 56,
+  "stale": 58,
   "worst": "In Stage"
  }
 }
