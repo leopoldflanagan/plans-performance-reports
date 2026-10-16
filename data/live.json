@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T08:41:55Z",
+ "generated": "2026-10-16T09:06:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -445,14 +445,14 @@
   "items": 398,
   "items_done": 41,
   "committed": 218,
-  "final": 260,
+  "final": 262,
   "completed": 82,
-  "scope_change": 19,
+  "scope_change": 20,
   "vs_commitment": 38,
   "time_elapsed": 27,
   "spill": {
    "open_items": 161,
-   "open_pts": 185.0,
+   "open_pts": 187.0,
    "out_items": 4,
    "out_pts": 1.0,
    "done_pts": 73.0
@@ -468,12 +468,12 @@
    "In Progress": 15,
    "Done": 54,
    "To Do": 127,
-   "PR Created": 2,
+   "PR Created": 3,
    "Closed": 21,
    "Backlog": 111,
    "Ready for Development": 14,
    "Ready Prod": 14,
-   "In Development": 3,
+   "In Development": 2,
    "In Stage": 29,
    "WAITING REVIEW": 1,
    "In Testing": 1,
@@ -484,22 +484,22 @@
    3.0,
    189.0,
    184.0,
-   180.0,
-   178.0
+   182.0,
+   180.0
   ],
   "scope": [
    3.0,
    218.0,
    226.0,
-   244.0,
-   260.0
+   246.0,
+   262.0
   ],
   "ghost": [
    3.0,
    189.0,
    184.0,
-   180.0,
-   178.0
+   182.0,
+   180.0
   ],
   "days": 14,
   "day": 5
@@ -540,7 +540,7 @@
     "status": "In Stage",
     "open": 41,
     "med_age": 7.0,
-    "max_age": 7.4,
+    "max_age": 7.5,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -609,18 +609,6 @@
     "clear_n": 607
    },
    {
-    "status": "PR Merged",
-    "open": 7,
-    "med_age": 0.7,
-    "max_age": 2.6,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 601
-   },
-   {
     "status": "In QA",
     "open": 7,
     "med_age": 0.7,
@@ -631,6 +619,18 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 42
+   },
+   {
+    "status": "PR Merged",
+    "open": 7,
+    "med_age": 0.7,
+    "max_age": 2.6,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 601
    },
    {
     "status": "In PreProd",
@@ -658,8 +658,8 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 2
   },
   "open_total": 144,
   "stale": 56,
