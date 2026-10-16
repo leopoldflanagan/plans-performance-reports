@@ -485,8 +485,8 @@
      "med": 13.58
     },
     "In Progress": {
-     "n": 41,
-     "med": 0.07
+     "n": 42,
+     "med": 0.1
     },
     "Done": {
      "n": 56,
@@ -554,9 +554,9 @@
     }
    },
    "dist": {
-    "In Progress": 14,
+    "In Progress": 15,
     "Done": 54,
-    "To Do": 128,
+    "To Do": 127,
     "In Development": 4,
     "Closed": 22,
     "Backlog": 112,
