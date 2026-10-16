@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T20:37:16Z",
+ "generated": "2026-10-16T21:05:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -442,7 +442,7 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 406,
+  "items": 407,
   "items_done": 48,
   "committed": 219,
   "final": 286,
@@ -466,7 +466,7 @@
   "spill_rate": null,
   "dist": {
    "To Do": 124,
-   "Done": 60,
+   "Done": 61,
    "Ready Prod": 20,
    "PR Created": 3,
    "In Development": 5,
@@ -543,13 +543,13 @@
     "status": "In Stage",
     "open": 50,
     "med_age": 4.2,
-    "max_age": 7.9,
+    "max_age": 8.0,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 21,
     "clear_med": 2.7,
-    "clear_n": 395
+    "clear_n": 396
    },
    {
     "status": "PR Created",
@@ -561,7 +561,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 633
+    "clear_n": 634
    },
    {
     "status": "Ready for Development",
@@ -573,7 +573,7 @@
     "worst_who": "unassigned",
     "over": 16,
     "clear_med": 0.8,
-    "clear_n": 251
+    "clear_n": 252
    },
    {
     "status": "In Development",
@@ -585,7 +585,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 615
+    "clear_n": 616
    },
    {
     "status": "WAITING REVIEW",
@@ -621,7 +621,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 603
+    "clear_n": 604
    },
    {
     "status": "In QA",
@@ -661,8 +661,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 166
+   "Backlog": 165,
+   "On Hold": 3
   },
   "open_total": 141,
   "stale": 56,
