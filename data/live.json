@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T13:06:54Z",
+ "generated": "2026-10-16T13:37:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -540,7 +540,7 @@
     "status": "In Stage",
     "open": 41,
     "med_age": 7.2,
-    "max_age": 7.6,
+    "max_age": 7.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -550,9 +550,9 @@
    },
    {
     "status": "PR Created",
-    "open": 22,
+    "open": 23,
     "med_age": 4.2,
-    "max_age": 29.9,
+    "max_age": 30.0,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -563,8 +563,8 @@
    {
     "status": "Ready for Development",
     "open": 38,
-    "med_age": 2.0,
-    "max_age": 36.4,
+    "med_age": 2.1,
+    "max_age": 36.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -576,7 +576,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 25.8,
-    "max_age": 43.7,
+    "max_age": 43.8,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -600,17 +600,17 @@
     "status": "In Development",
     "open": 22,
     "med_age": 1.6,
-    "max_age": 20.9,
+    "max_age": 21.0,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 613
+    "clear_n": 614
    },
    {
     "status": "PR Merged",
-    "open": 13,
+    "open": 12,
     "med_age": 0.8,
     "max_age": 2.8,
     "worst_key": "PLANS-24431",
@@ -618,16 +618,16 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 602
+    "clear_n": 603
    },
    {
     "status": "In QA",
     "open": 7,
     "med_age": 0.9,
     "max_age": 0.9,
-    "worst_key": "PLANS-23402",
-    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
-    "worst_who": "Sailaja Yanamandra",
+    "worst_key": "PLANS-24097",
+    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 42
@@ -658,8 +658,8 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 163
+   "Backlog": 163,
+   "On Hold": 2
   },
   "open_total": 146,
   "stale": 59,
