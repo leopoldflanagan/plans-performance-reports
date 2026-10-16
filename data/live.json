@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T04:07:14Z",
+ "generated": "2026-10-16T04:39:19Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -599,8 +599,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 42.6,
-    "max_age": 42.6,
+    "med_age": 42.7,
+    "max_age": 42.7,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -658,8 +658,8 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 2
   },
   "open_total": 144,
   "stale": 46,
