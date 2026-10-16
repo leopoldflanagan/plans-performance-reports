@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T21:33:22Z",
+ "generated": "2026-10-16T22:05:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 4,
-   "points": 13
+   "items": 3,
+   "points": 8
   },
   "misfiled": {
    "items": 31,
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 87,
+   "ready": 86,
    "sprint": 200,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 273 of 277 items. This reads as a field the team does not use rather than 273 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 273,
+    "why": "missing on 272 of 276 items. This reads as a field the team does not use rather than 272 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 272,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 275 of 277 items. This reads as a field the team does not use rather than 275 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 275,
+    "why": "missing on 274 of 276 items. This reads as a field the team does not use rather than 274 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 274,
     "items": []
    },
    {
@@ -554,26 +554,26 @@
    {
     "status": "PR Created",
     "open": 23,
-    "med_age": 4.5,
+    "med_age": 4.6,
     "max_age": 30.3,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 634
+    "clear_n": 635
    },
    {
     "status": "Ready for Development",
-    "open": 37,
-    "med_age": 2.1,
+    "open": 36,
+    "med_age": 2.0,
     "max_age": 36.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 16,
+    "over": 15,
     "clear_med": 0.8,
-    "clear_n": 252
+    "clear_n": 253
    },
    {
     "status": "In Development",
@@ -585,7 +585,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 616
+    "clear_n": 617
    },
    {
     "status": "WAITING REVIEW",
@@ -615,18 +615,18 @@
     "status": "PR Merged",
     "open": 10,
     "med_age": 0.5,
-    "max_age": 3.1,
+    "max_age": 3.2,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 604
+    "clear_n": 605
    },
    {
     "status": "In QA",
-    "open": 1,
-    "med_age": 1.2,
+    "open": 2,
+    "med_age": 0.6,
     "max_age": 1.2,
     "worst_key": "PLANS-24097",
     "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
@@ -634,18 +634,6 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 48
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -658,6 +646,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
@@ -665,7 +665,7 @@
    "Backlog": 165
   },
   "open_total": 141,
-  "stale": 56,
+  "stale": 55,
   "worst": "In Stage"
  }
 }

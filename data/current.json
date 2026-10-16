@@ -169,7 +169,7 @@
    "Plans-Sprint 24-26",
    "Oct 13",
    "Oct 26",
-   228,
+   230,
    22,
    245,
    275,
@@ -474,8 +474,9 @@
     "In Stage": 7,
     "On Hold": 2,
     "Backlog": 4,
-    "Ready for Development": 7,
-    "In Development": 5
+    "Ready for Development": 6,
+    "In Development": 5,
+    "In QA": 1
    },
    "stalled": 165,
    "worst": 10.77,
@@ -581,12 +582,12 @@
   "Plans-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 105,
+     "n": 107,
      "med": 12.68
     },
     "In Progress": {
-     "n": 50,
-     "med": 1.02
+     "n": 52,
+     "med": 1.04
     },
     "Done": {
      "n": 78,
@@ -601,15 +602,15 @@
      "med": 0.88
     },
     "In Development": {
-     "n": 53,
+     "n": 54,
      "med": 0.34
     },
     "PR Created": {
-     "n": 41,
+     "n": 42,
      "med": 0.01
     },
     "PR Merged": {
-     "n": 35,
+     "n": 36,
      "med": 0.01
     },
     "WAITING REVIEW": {
@@ -625,7 +626,7 @@
      "med": 2.68
     },
     "In QA": {
-     "n": 9,
+     "n": 10,
      "med": 0.98
     },
     "In PreProd": {
@@ -646,10 +647,10 @@
     }
    },
    "dist": {
+    "In Progress": 17,
     "To Do": 55,
     "Done": 74,
-    "Ready for Development": 12,
-    "In Progress": 15,
+    "Ready for Development": 11,
     "Backlog": 8,
     "PR Merged": 2,
     "Closed": 12,
@@ -659,12 +660,13 @@
     "On Hold": 4,
     "In Development": 9,
     "Will Not Implement": 2,
+    "In QA": 1,
     "WAITING REVIEW": 1
    },
-   "stalled": 204,
+   "stalled": 206,
    "worst": 12.68,
    "worstSt": "To Do",
-   "items": 228
+   "items": 230
   }
  },
  "GHOST": {
