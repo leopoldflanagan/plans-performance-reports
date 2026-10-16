@@ -605,8 +605,8 @@
      "med": 0.56
     },
     "PR Created": {
-     "n": 37,
-     "med": 0.01
+     "n": 39,
+     "med": 0.02
     },
     "PR Merged": {
      "n": 34,
@@ -655,9 +655,9 @@
     "Closed": 12,
     "In Stage": 20,
     "Ready Prod": 8,
-    "PR Created": 4,
+    "PR Created": 6,
     "On Hold": 4,
-    "In Development": 10,
+    "In Development": 8,
     "Will Not Implement": 2,
     "WAITING REVIEW": 1
    },
