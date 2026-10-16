@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T05:06:14Z",
+ "generated": "2026-10-16T05:38:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 62,
+    "n": 61,
     "points": 112,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 95,
+   "ready": 94,
    "sprint": 197,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,7 +74,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 117,
+    "n": 116,
     "items": [
      {
       "key": "PLANS-24551",
@@ -87,10 +87,6 @@
      {
       "key": "PLANS-24545",
       "summary": "Prod - One Smile - UI/UX  - Claude quality scrub - Issue list 1."
-     },
-     {
-      "key": "PLANS-24540",
-      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  2 "
      },
      {
       "key": "PLANS-24536",
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24532",
       "summary": "Prod / STAGE - One Smile - Mobile - Membership agreement is  not Downloadable / "
+     },
+     {
+      "key": "PLANS-24519",
+      "summary": "Production - Android User/Edge Search Browser for One Smile "
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 69,
+    "n": 68,
     "items": [
      {
       "key": "PLANS-24551",
@@ -137,10 +137,6 @@
      {
       "key": "PLANS-24545",
       "summary": "Prod - One Smile - UI/UX  - Claude quality scrub - Issue list 1."
-     },
-     {
-      "key": "PLANS-24540",
-      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  2 "
      },
      {
       "key": "PLANS-24536",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24532",
       "summary": "Prod / STAGE - One Smile - Mobile - Membership agreement is  not Downloadable / "
+     },
+     {
+      "key": "PLANS-24519",
+      "summary": "Production - Android User/Edge Search Browser for One Smile "
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 274 of 278 items. This reads as a field the team does not use rather than 274 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 274,
+    "why": "missing on 273 of 277 items. This reads as a field the team does not use rather than 273 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 273,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 276 of 278 items. This reads as a field the team does not use rather than 276 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 276,
+    "why": "missing on 275 of 277 items. This reads as a field the team does not use rather than 275 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 275,
     "items": []
    },
    {
@@ -539,7 +539,7 @@
    {
     "status": "In Stage",
     "open": 41,
-    "med_age": 6.8,
+    "med_age": 6.9,
     "max_age": 7.3,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -562,7 +562,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 45,
+    "open": 44,
     "med_age": 1.3,
     "max_age": 36.1,
     "worst_key": "PLANS-22675",
@@ -570,7 +570,7 @@
     "worst_who": "unassigned",
     "over": 16,
     "clear_med": 0.9,
-    "clear_n": 245
+    "clear_n": 246
    },
    {
     "status": "WAITING REVIEW",
@@ -585,18 +585,6 @@
     "clear_n": 20
    },
    {
-    "status": "In Development",
-    "open": 19,
-    "med_age": 2.6,
-    "max_age": 20.6,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 605
-   },
-   {
     "status": "Identified",
     "open": 1,
     "med_age": 42.7,
@@ -607,6 +595,30 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 2
+   },
+   {
+    "status": "In Development",
+    "open": 20,
+    "med_age": 2.1,
+    "max_age": 20.6,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 7,
+    "clear_med": 0.0,
+    "clear_n": 605
+   },
+   {
+    "status": "In QA",
+    "open": 7,
+    "med_age": 0.6,
+    "max_age": 0.6,
+    "worst_key": "PLANS-23402",
+    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 42
    },
    {
     "status": "PR Merged",
@@ -621,16 +633,16 @@
     "clear_n": 601
    },
    {
-    "status": "In QA",
-    "open": 7,
-    "med_age": 0.5,
-    "max_age": 0.5,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 42
+    "clear_med": 0.0,
+    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -643,23 +655,11 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 165
   },
   "open_total": 144,
   "stale": 46,
