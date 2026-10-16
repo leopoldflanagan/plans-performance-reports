@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T19:34:30Z",
+ "generated": "2026-10-16T20:05:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -541,7 +541,7 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 51,
+    "open": 50,
     "med_age": 4.2,
     "max_age": 7.9,
     "worst_key": "PLANS-24033",
@@ -549,11 +549,11 @@
     "worst_who": "Valentyna Tenus",
     "over": 21,
     "clear_med": 2.7,
-    "clear_n": 394
+    "clear_n": 395
    },
    {
     "status": "PR Created",
-    "open": 24,
+    "open": 23,
     "med_age": 4.5,
     "max_age": 30.2,
     "worst_key": "PLANS-22703",
@@ -561,7 +561,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 632
+    "clear_n": 633
    },
    {
     "status": "Ready for Development",
@@ -613,8 +613,8 @@
    },
    {
     "status": "PR Merged",
-    "open": 9,
-    "med_age": 0.4,
+    "open": 10,
+    "med_age": 0.3,
     "max_age": 3.1,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -664,7 +664,7 @@
    "Backlog": 166,
    "On Hold": 3
   },
-  "open_total": 142,
+  "open_total": 141,
   "stale": 56,
   "worst": "In Stage"
  }
