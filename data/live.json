@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T20:05:35Z",
+ "generated": "2026-10-16T20:37:16Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -555,7 +555,7 @@
     "status": "PR Created",
     "open": 23,
     "med_age": 4.5,
-    "max_age": 30.2,
+    "max_age": 30.3,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -566,8 +566,8 @@
    {
     "status": "Ready for Development",
     "open": 37,
-    "med_age": 2.0,
-    "max_age": 36.7,
+    "med_age": 2.1,
+    "max_age": 36.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -578,8 +578,8 @@
    {
     "status": "In Development",
     "open": 17,
-    "med_age": 3.2,
-    "max_age": 21.2,
+    "med_age": 3.3,
+    "max_age": 21.3,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -591,7 +591,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 26.1,
-    "max_age": 44.0,
+    "max_age": 44.1,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -626,8 +626,8 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 1.1,
-    "max_age": 1.1,
+    "med_age": 1.2,
+    "max_age": 1.2,
     "worst_key": "PLANS-24097",
     "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
     "worst_who": "Denys  Kernychnyi",
@@ -661,8 +661,8 @@
    }
   ],
   "parked": {
-   "Backlog": 166,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 166
   },
   "open_total": 141,
   "stale": 56,
