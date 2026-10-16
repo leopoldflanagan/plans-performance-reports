@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T06:10:05Z",
+ "generated": "2026-10-16T06:51:20Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 82,
   "scope_change": 19,
   "vs_commitment": 38,
-  "time_elapsed": 26,
+  "time_elapsed": 27,
   "spill": {
    "open_items": 161,
    "open_pts": 185.0,
@@ -540,7 +540,7 @@
     "status": "In Stage",
     "open": 41,
     "med_age": 6.9,
-    "max_age": 7.3,
+    "max_age": 7.4,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -575,8 +575,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 25.4,
-    "max_age": 43.4,
+    "med_age": 25.5,
+    "max_age": 43.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -609,18 +609,6 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
-    "open": 7,
-    "med_age": 0.6,
-    "max_age": 0.6,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 42
-   },
-   {
     "status": "PR Merged",
     "open": 7,
     "med_age": 0.6,
@@ -633,16 +621,16 @@
     "clear_n": 601
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "In QA",
+    "open": 7,
+    "med_age": 0.6,
+    "max_age": 0.6,
+    "worst_key": "PLANS-24097",
+    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 3.0,
+    "clear_n": 42
    },
    {
     "status": "In PreProd",
@@ -655,11 +643,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 2
   },
   "open_total": 144,
   "stale": 48,
