@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T23:33:01Z",
+ "generated": "2026-10-16T00:14:09Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 4,
+  "day": 5,
   "days": 14,
   "n": 17,
   "done_now": 82,
   "committed": 218,
-  "lo": 196,
-  "mid": 276,
+  "lo": 182,
+  "mid": 271,
   "hi": 474,
-  "pct": 127,
+  "pct": 124,
   "verdict": "on track for the commitment",
-  "share_mid": 0.298
+  "share_mid": 0.303
  },
  "admin": {
   "scope": {
@@ -449,7 +449,7 @@
   "completed": 82,
   "scope_change": 19,
   "vs_commitment": 38,
-  "time_elapsed": 24,
+  "time_elapsed": 25,
   "spill": {
    "open_items": 161,
    "open_pts": 185.0,
@@ -502,7 +502,7 @@
    178.0
   ],
   "days": 14,
-  "day": 4
+  "day": 5
  },
  "next": {
   "name": "LL-Sprint 25-26",
@@ -515,7 +515,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 18,
+  "day": 19,
   "days": 28,
   "closed": 392,
   "points": 948,
@@ -551,7 +551,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 42.1,
+    "med_age": 42.2,
     "max_age": 43.2,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -575,7 +575,7 @@
    {
     "status": "Ready for Development",
     "open": 45,
-    "med_age": 1.0,
+    "med_age": 1.1,
     "max_age": 35.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -587,8 +587,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 42.4,
-    "max_age": 42.4,
+    "med_age": 42.5,
+    "max_age": 42.5,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -611,7 +611,7 @@
    {
     "status": "PR Merged",
     "open": 7,
-    "med_age": 0.3,
+    "med_age": 0.4,
     "max_age": 2.2,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -633,18 +633,6 @@
     "clear_n": 42
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -655,6 +643,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
