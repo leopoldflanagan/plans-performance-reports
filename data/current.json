@@ -9,9 +9,9 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 252,
-  "closed": 404,
+  "closed": 405,
   "discarded": 0,
-  "resolved": 404,
+  "resolved": 405,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Story",
-    199
+    200
    ],
    [
     "TechDebt",
@@ -39,7 +39,7 @@
   "day": 16,
   "days": 28,
   "status": "risk",
-  "headline": "404 items closed in the first 16 days, a pace of about 707 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "405 items closed in the first 16 days, a pace of about 709 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 10.4d and average 18.0d, both past the healthy band"
@@ -464,8 +464,8 @@
     }
    },
    "dist": {
-    "In Progress": 2,
-    "Done": 216,
+    "Done": 217,
+    "In Progress": 1,
     "To Do": 3,
     "PR Created": 1,
     "Closed": 81,
@@ -593,15 +593,15 @@
      "med": 12.68
     },
     "In Progress": {
-     "n": 48,
-     "med": 1.26
+     "n": 49,
+     "med": 1.47
     },
     "Done": {
-     "n": 74,
-     "med": 12.37
+     "n": 75,
+     "med": 12.34
     },
     "In Development": {
-     "n": 52,
+     "n": 53,
      "med": 0.34
     },
     "PR Created": {
@@ -646,10 +646,10 @@
     }
    },
    "dist": {
-    "Ready for Development": 13,
+    "Ready for Development": 12,
     "In Progress": 17,
-    "Done": 70,
-    "To Do": 53,
+    "Done": 71,
+    "To Do": 52,
     "Backlog": 8,
     "PR Merged": 2,
     "Closed": 12,
@@ -657,7 +657,7 @@
     "Ready Prod": 9,
     "PR Created": 6,
     "On Hold": 4,
-    "In Development": 8,
+    "In Development": 9,
     "Will Not Implement": 2,
     "WAITING REVIEW": 1
    },
@@ -721,7 +721,7 @@
  },
  "CAP": {
   "9.09": [
-   404,
+   405,
    339,
    972,
    23
@@ -733,8 +733,8 @@
    "avg": 18.04,
    "n": 292,
    "mx": 148.81,
-   "nodev": 112,
-   "base": 404
+   "nodev": 113,
+   "base": 405
   }
  },
  "complete": false,
