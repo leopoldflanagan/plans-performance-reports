@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T15:35:54Z",
+ "generated": "2026-10-16T16:06:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 55,
-    "points": 114,
+    "n": 54,
+    "points": 117,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -56,7 +56,7 @@
   "days": 14,
   "n": 17,
   "done_now": 95,
-  "committed": 220,
+  "committed": 219,
   "lo": 211,
   "mid": 314,
   "hi": 550,
@@ -66,31 +66,19 @@
  },
  "admin": {
   "scope": {
-   "ready": 88,
-   "sprint": 204,
+   "ready": 87,
+   "sprint": 199,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 106,
+    "n": 102,
     "items": [
-     {
-      "key": "PLANS-24551",
-      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  3 "
-     },
      {
       "key": "PLANS-24535",
       "summary": "PROD - DCA Website is down."
-     },
-     {
-      "key": "PLANS-24519",
-      "summary": "Production - Android User/Edge Search Browser for One Smile "
-     },
-     {
-      "key": "PLANS-24518",
-      "summary": "Configurations for Website not working"
      },
      {
       "key": "PLANS-24475",
@@ -107,6 +95,18 @@
      {
       "key": "PLANS-24416",
       "summary": "Prod - PMP - One Smile - Incorrect URL in membership card "
+     },
+     {
+      "key": "PLANS-24101",
+      "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
+     },
+     {
+      "key": "PLANS-14760",
+      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
+     },
+     {
+      "key": "PLANS-14758",
+      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
      }
     ]
    },
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 62,
+    "n": 61,
     "items": [
-     {
-      "key": "PLANS-24551",
-      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  3 "
-     },
      {
       "key": "PLANS-24546",
       "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
+     },
+     {
+      "key": "PLANS-24469",
+      "summary": " Duplicate Charge-Not Showing in CSP "
      }
     ]
    },
@@ -202,7 +202,7 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 82,
+    "n": 81,
     "items": [
      {
       "key": "PLANS-24485",
@@ -280,7 +280,7 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 109,
+    "n": 108,
     "items": [
      {
       "key": "PLANS-24485",
@@ -299,10 +299,6 @@
       "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
      },
      {
-      "key": "PLANS-24072",
-      "summary": "Member Portal \\ Treatment Summaries are not available for adult dependent   "
-     },
-     {
       "key": "PLANS-23852",
       "summary": "PLANS-23852: Member Portal: Find A Dentist: Accessibility Screen Reader does not"
      },
@@ -313,6 +309,10 @@
      {
       "key": "PLANS-14924",
       "summary": "PM Hours Tracking  Post MVP Bugs"
+     },
+     {
+      "key": "PLANS-14896",
+      "summary": "PM Hours Tracking  Member Portal Plans Item Tracking"
      }
     ]
    }
@@ -321,12 +321,8 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 186,
+    "n": 183,
     "items": [
-     {
-      "key": "PLANS-24551",
-      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  3 "
-     },
      {
       "key": "PLANS-24546",
       "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
@@ -354,19 +350,23 @@
      {
       "key": "PLANS-24469",
       "summary": " Duplicate Charge-Not Showing in CSP "
+     },
+     {
+      "key": "PLANS-24273",
+      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 275 of 279 items. This reads as a field the team does not use rather than 275 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 275,
+    "why": "missing on 272 of 276 items. This reads as a field the team does not use rather than 272 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 272,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 277 of 279 items. This reads as a field the team does not use rather than 277 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 277,
+    "why": "missing on 274 of 276 items. This reads as a field the team does not use rather than 274 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 274,
     "items": []
    },
    {
@@ -442,19 +442,19 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 407,
+  "items": 403,
   "items_done": 46,
-  "committed": 220,
+  "committed": 219,
   "final": 285,
   "completed": 95,
   "scope_change": 30,
   "vs_commitment": 43,
   "time_elapsed": 29,
   "spill": {
-   "open_items": 163,
-   "open_pts": 197.0,
-   "out_items": 4,
-   "out_pts": 1.0,
+   "open_items": 159,
+   "open_pts": 192.0,
+   "out_items": 8,
+   "out_pts": 7.0,
    "done_pts": 86.0
   },
   "recv": {
@@ -465,41 +465,43 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 125,
-   "PR Created": 4,
+   "To Do": 123,
+   "PR Created": 3,
    "In Development": 5,
-   "In Progress": 14,
+   "In Progress": 13,
    "Done": 59,
-   "PR Merged": 3,
+   "In Stage": 27,
    "Closed": 21,
-   "Backlog": 110,
-   "Ready for Development": 13,
+   "Backlog": 109,
+   "PR Merged": 3,
    "Ready Prod": 19,
-   "In Stage": 26,
-   "WAITING REVIEW": 1,
+   "Ready for Development": 10,
    "In Testing": 1,
    "On Hold": 2,
    "Will Not Implement": 1
   },
   "burn": [
    3.0,
-   191.0,
    190.0,
-   188.0,
+   189.0,
+   187.0,
+   190.0,
    190.0
   ],
   "scope": [
    3.0,
-   220.0,
-   232.0,
-   252.0,
+   219.0,
+   231.0,
+   251.0,
+   285.0,
    285.0
   ],
   "ghost": [
    3.0,
-   191.0,
    190.0,
-   188.0,
+   189.0,
+   187.0,
+   190.0,
    190.0
   ],
   "days": 14,
@@ -539,45 +541,45 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 40,
-    "med_age": 7.2,
-    "max_age": 7.7,
+    "open": 52,
+    "med_age": 4.0,
+    "max_age": 7.8,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 22,
     "clear_med": 2.7,
-    "clear_n": 398
-   },
-   {
-    "status": "PR Created",
-    "open": 22,
-    "med_age": 4.3,
-    "max_age": 30.0,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 9,
-    "clear_med": 0.0,
-    "clear_n": 635
+    "clear_n": 395
    },
    {
     "status": "Ready for Development",
-    "open": 38,
-    "med_age": 2.1,
+    "open": 37,
+    "med_age": 2.5,
     "max_age": 36.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 16,
     "clear_med": 0.8,
-    "clear_n": 251
+    "clear_n": 252
+   },
+   {
+    "status": "PR Created",
+    "open": 21,
+    "med_age": 4.3,
+    "max_age": 30.1,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 9,
+    "clear_med": 0.0,
+    "clear_n": 633
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 25.8,
-    "max_age": 43.8,
+    "med_age": 25.9,
+    "max_age": 43.9,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -600,38 +602,38 @@
    {
     "status": "In Development",
     "open": 19,
-    "med_age": 2.1,
-    "max_age": 21.0,
+    "med_age": 2.2,
+    "max_age": 21.1,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 616
+    "clear_n": 613
    },
    {
     "status": "PR Merged",
-    "open": 14,
-    "med_age": 0.6,
+    "open": 9,
+    "med_age": 0.2,
     "max_age": 2.9,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 602
+    "clear_n": 605
    },
    {
     "status": "In QA",
-    "open": 7,
+    "open": 1,
     "med_age": 1.0,
     "max_age": 1.0,
-    "worst_key": "PLANS-23402",
-    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
-    "worst_who": "Sailaja Yanamandra",
+    "worst_key": "PLANS-24097",
+    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 3.0,
-    "clear_n": 42
+    "clear_n": 48
    },
    {
     "status": "Ready for Stage",
@@ -660,9 +662,9 @@
   ],
   "parked": {
    "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 168
   },
-  "open_total": 143,
+  "open_total": 142,
   "stale": 57,
   "worst": "In Stage"
  }
