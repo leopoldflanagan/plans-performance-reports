@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T17:05:18Z",
+ "generated": "2026-10-16T17:33:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -520,7 +520,7 @@
   "end": "2026-10-25",
   "day": 19,
   "days": 28,
-  "closed": 399,
+  "closed": 400,
   "points": 964,
   "unplanned": null,
   "unplanned_pct": null,
@@ -661,8 +661,8 @@
    }
   ],
   "parked": {
-   "Backlog": 168,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 167
   },
   "open_total": 143,
   "stale": 57,
