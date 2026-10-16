@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T07:09:58Z",
+ "generated": "2026-10-16T07:38:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 61,
+    "n": 60,
     "points": 112,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 94,
+   "ready": 93,
    "sprint": 197,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,7 +74,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 116,
+    "n": 115,
     "items": [
      {
       "key": "PLANS-24551",
@@ -83,10 +83,6 @@
      {
       "key": "PLANS-24546",
       "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
-     },
-     {
-      "key": "PLANS-24545",
-      "summary": "Prod - One Smile - UI/UX  - Claude quality scrub - Issue list 1."
      },
      {
       "key": "PLANS-24536",
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
+     {
+      "key": "PLANS-24518",
+      "summary": "Configurations for Website not working"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 68,
+    "n": 67,
     "items": [
      {
       "key": "PLANS-24551",
@@ -133,10 +133,6 @@
      {
       "key": "PLANS-24546",
       "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
-     },
-     {
-      "key": "PLANS-24545",
-      "summary": "Prod - One Smile - UI/UX  - Claude quality scrub - Issue list 1."
      },
      {
       "key": "PLANS-24536",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
+     {
+      "key": "PLANS-24518",
+      "summary": "Configurations for Website not working"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 273 of 277 items. This reads as a field the team does not use rather than 273 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 273,
+    "why": "missing on 272 of 276 items. This reads as a field the team does not use rather than 272 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 272,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 275 of 277 items. This reads as a field the team does not use rather than 275 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 275,
+    "why": "missing on 274 of 276 items. This reads as a field the team does not use rather than 274 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 274,
     "items": []
    },
    {
@@ -551,31 +551,31 @@
    {
     "status": "PR Created",
     "open": 22,
-    "med_age": 3.9,
+    "med_age": 4.0,
     "max_age": 29.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 7,
+    "over": 8,
     "clear_med": 0.0,
     "clear_n": 627
    },
    {
     "status": "Ready for Development",
-    "open": 44,
+    "open": 43,
     "med_age": 1.4,
     "max_age": 36.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 16,
-    "clear_med": 0.9,
-    "clear_n": 246
+    "clear_med": 0.8,
+    "clear_n": 247
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 25.5,
+    "med_age": 25.6,
     "max_age": 43.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -583,18 +583,6 @@
     "over": 2,
     "clear_med": 0.0,
     "clear_n": 20
-   },
-   {
-    "status": "In Development",
-    "open": 20,
-    "med_age": 2.2,
-    "max_age": 20.7,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 605
    },
    {
     "status": "Identified",
@@ -609,6 +597,30 @@
     "clear_n": 2
    },
    {
+    "status": "In Development",
+    "open": 21,
+    "med_age": 1.8,
+    "max_age": 20.7,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 7,
+    "clear_med": 0.0,
+    "clear_n": 605
+   },
+   {
+    "status": "PR Merged",
+    "open": 7,
+    "med_age": 0.7,
+    "max_age": 2.6,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 601
+   },
+   {
     "status": "In QA",
     "open": 7,
     "med_age": 0.6,
@@ -619,18 +631,6 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 42
-   },
-   {
-    "status": "PR Merged",
-    "open": 7,
-    "med_age": 0.6,
-    "max_age": 2.5,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 601
    },
    {
     "status": "In PreProd",
@@ -658,11 +658,11 @@
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 165
   },
   "open_total": 144,
-  "stale": 48,
+  "stale": 49,
   "worst": "In Stage"
  }
 }
