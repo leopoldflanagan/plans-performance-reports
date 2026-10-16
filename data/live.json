@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T01:41:39Z",
+ "generated": "2026-10-16T02:08:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -599,26 +599,14 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 42.5,
-    "max_age": 42.5,
+    "med_age": 42.6,
+    "max_age": 42.6,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 2
-   },
-   {
-    "status": "PR Merged",
-    "open": 7,
-    "med_age": 0.4,
-    "max_age": 2.3,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 601
    },
    {
     "status": "In QA",
@@ -633,16 +621,16 @@
     "clear_n": 42
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "PR Merged",
+    "open": 7,
+    "med_age": 0.4,
+    "max_age": 2.3,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
+    "clear_med": 0.1,
+    "clear_n": 601
    },
    {
     "status": "Ready for Stage",
@@ -655,11 +643,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 165
   },
   "open_total": 144,
   "stale": 46,
