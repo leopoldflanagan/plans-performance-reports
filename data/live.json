@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T03:40:43Z",
+ "generated": "2026-10-16T04:07:14Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -540,7 +540,7 @@
     "status": "In Stage",
     "open": 41,
     "med_age": 6.8,
-    "max_age": 7.2,
+    "max_age": 7.3,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -575,8 +575,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 25.3,
-    "max_age": 43.3,
+    "med_age": 25.4,
+    "max_age": 43.4,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -588,7 +588,7 @@
     "status": "In Development",
     "open": 19,
     "med_age": 2.6,
-    "max_age": 20.5,
+    "max_age": 20.6,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -609,18 +609,6 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
-    "open": 7,
-    "med_age": 0.5,
-    "max_age": 0.5,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 42
-   },
-   {
     "status": "PR Merged",
     "open": 7,
     "med_age": 0.5,
@@ -631,6 +619,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 601
+   },
+   {
+    "status": "In QA",
+    "open": 7,
+    "med_age": 0.5,
+    "max_age": 0.5,
+    "worst_key": "PLANS-24097",
+    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 42
    },
    {
     "status": "Ready for Stage",
@@ -658,8 +658,8 @@
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 165
   },
   "open_total": 144,
   "stale": 46,
