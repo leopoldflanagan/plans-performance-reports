@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T22:05:40Z",
+ "generated": "2026-10-16T22:34:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 54,
-    "points": 115,
+    "n": 50,
+    "points": 99,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 86,
+   "ready": 82,
    "sprint": 200,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 61,
+    "n": 57,
     "items": [
      {
       "key": "PLANS-24566",
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 21,
+    "n": 17,
     "items": [
      {
       "key": "PLANS-23969",
@@ -252,28 +252,28 @@
       "summary": "ACH -  Emails are not working (Declines, Returns)"
      },
      {
-      "key": "PLANS-23419",
-      "summary": "[5.4.W1] Surface per-run new-member identification for the Dynamics welcome/COBR"
-     },
-     {
-      "key": "PLANS-23416",
-      "summary": "[5.3.W1] Alert operations on feed absence and job failure, and support safe re-r"
-     },
-     {
-      "key": "PLANS-23414",
-      "summary": "[5.2.W1] Write a per-run batch audit trail linking every change to its source"
-     },
-     {
-      "key": "PLANS-23412",
-      "summary": "[5.1.W1] Generate per-run confirmation and exception reports and email them to C"
-     },
-     {
       "key": "PLANS-23410",
       "summary": "[4.2.W1] Assert the file is genuinely CREG before applying"
      },
      {
       "key": "PLANS-23409",
       "summary": "[4.1.W1] Halt out-of-band files with an anomaly and row-count gate"
+     },
+     {
+      "key": "PLANS-15940",
+      "summary": "[4.1] Add GetPlanLedgerState method to PlanLedgerManager"
+     },
+     {
+      "key": "PLANS-15928",
+      "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
+     },
+     {
+      "key": "PLANS-23479",
+      "summary": "[5.3.W1] wellfit-plans-services-widget - render-order regression pinning on wf-f"
+     },
+     {
+      "key": "PLANS-23477",
+      "summary": "[5.2.W1] wellfit-plans-services-widget - wf-fee-schedule renders CategorySavings"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 272 of 276 items. This reads as a field the team does not use rather than 272 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 272,
+    "why": "missing on 268 of 272 items. This reads as a field the team does not use rather than 268 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 268,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 274 of 276 items. This reads as a field the team does not use rather than 274 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 274,
+    "why": "missing on 270 of 272 items. This reads as a field the team does not use rather than 270 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 270,
     "items": []
    },
    {
@@ -520,8 +520,8 @@
   "end": "2026-10-25",
   "day": 19,
   "days": 28,
-  "closed": 405,
-  "points": 972,
+  "closed": 406,
+  "points": 974,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -541,8 +541,8 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 50,
-    "med_age": 4.3,
+    "open": 56,
+    "med_age": 3.3,
     "max_age": 8.0,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -550,6 +550,18 @@
     "over": 21,
     "clear_med": 2.7,
     "clear_n": 396
+   },
+   {
+    "status": "Ready for Development",
+    "open": 32,
+    "med_age": 3.5,
+    "max_age": 36.8,
+    "worst_key": "PLANS-22675",
+    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
+    "worst_who": "unassigned",
+    "over": 15,
+    "clear_med": 0.8,
+    "clear_n": 257
    },
    {
     "status": "PR Created",
@@ -561,31 +573,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 635
-   },
-   {
-    "status": "Ready for Development",
-    "open": 36,
-    "med_age": 2.0,
-    "max_age": 36.8,
-    "worst_key": "PLANS-22675",
-    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
-    "worst_who": "unassigned",
-    "over": 15,
-    "clear_med": 0.8,
-    "clear_n": 253
-   },
-   {
-    "status": "In Development",
-    "open": 17,
-    "med_age": 3.3,
-    "max_age": 21.3,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 617
+    "clear_n": 636
    },
    {
     "status": "WAITING REVIEW",
@@ -612,28 +600,28 @@
     "clear_n": 2
    },
    {
+    "status": "In Development",
+    "open": 19,
+    "med_age": 1.1,
+    "max_age": 21.3,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 6,
+    "clear_med": 0.0,
+    "clear_n": 619
+   },
+   {
     "status": "PR Merged",
-    "open": 10,
-    "med_age": 0.5,
+    "open": 6,
+    "med_age": 0.3,
     "max_age": 3.2,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 605
-   },
-   {
-    "status": "In QA",
-    "open": 2,
-    "med_age": 0.6,
-    "max_age": 1.2,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 48
+    "clear_n": 610
    },
    {
     "status": "In PreProd",
@@ -658,14 +646,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-23307",
+    "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
+    "clear_med": 2.8,
+    "clear_n": 50
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 3
   },
-  "open_total": 141,
-  "stale": 55,
+  "open_total": 140,
+  "stale": 54,
   "worst": "In Stage"
  }
 }
