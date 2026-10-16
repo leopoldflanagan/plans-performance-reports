@@ -142,25 +142,25 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   398,
+   407,
    41,
    220,
-   267,
+   284,
    82,
-   21,
+   29,
    [
     3.0,
     191.0,
     189.0,
     187.0,
-    185.0
+    202.0
    ],
    [
     3.0,
     220.0,
     231.0,
     251.0,
-    267.0
+    284.0
    ]
   ],
   [
@@ -234,8 +234,8 @@
     73
    ],
    "open": [
-    161,
-    192
+    168,
+    209
    ],
    "out": [
     4,
@@ -282,7 +282,7 @@
   },
   "LL-Sprint 24-26": {
    "react": 0,
-   "plan": 24,
+   "plan": 31,
    "pct": 0
   },
   "Plans-Sprint 24-26": {
@@ -481,12 +481,20 @@
   "LL-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 159,
+     "n": 161,
      "med": 13.58
     },
+    "In Development": {
+     "n": 38,
+     "med": 0.02
+    },
+    "PR Created": {
+     "n": 35,
+     "med": 0.01
+    },
     "In Progress": {
-     "n": 42,
-     "med": 0.1
+     "n": 44,
+     "med": 0.14
     },
     "Done": {
      "n": 56,
@@ -504,24 +512,16 @@
      "n": 7,
      "med": 0.15
     },
-    "In Development": {
-     "n": 34,
-     "med": 0.01
-    },
-    "PR Created": {
-     "n": 33,
-     "med": 0.01
-    },
     "In Stage": {
-     "n": 66,
-     "med": 2.15
+     "n": 67,
+     "med": 2.27
     },
     "Closed": {
      "n": 22,
      "med": 10.82
     },
     "PR Merged": {
-     "n": 32,
+     "n": 33,
      "med": 0.0
     },
     "In PreProd": {
@@ -554,25 +554,26 @@
     }
    },
    "dist": {
-    "In Progress": 15,
-    "Done": 54,
     "To Do": 127,
-    "PR Created": 5,
+    "PR Created": 7,
+    "In Development": 5,
+    "In Progress": 17,
+    "Done": 54,
     "Closed": 22,
     "Backlog": 111,
     "Ready for Development": 13,
     "Ready Prod": 14,
-    "In Development": 2,
-    "In Stage": 29,
+    "PR Merged": 1,
+    "In Stage": 30,
     "WAITING REVIEW": 1,
     "In Testing": 1,
     "On Hold": 3,
     "Will Not Implement": 1
    },
-   "stalled": 361,
+   "stalled": 370,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 398
+   "items": 407
   },
   "Plans-Sprint 24-26": {
    "tis": {
@@ -705,7 +706,7 @@
    191.0,
    189.0,
    187.0,
-   185.0
+   202.0
   ],
   "Plans-Sprint 24-26": [
    233.0,

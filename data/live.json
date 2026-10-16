@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T13:37:54Z",
+ "generated": "2026-10-16T14:06:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 88,
-   "sprint": 197,
+   "sprint": 204,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 269 of 272 items. This reads as a field the team does not use rather than 269 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 269,
+    "why": "missing on 275 of 279 items. This reads as a field the team does not use rather than 275 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 275,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 270 of 272 items. This reads as a field the team does not use rather than 270 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 270,
+    "why": "missing on 277 of 279 items. This reads as a field the team does not use rather than 277 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 277,
     "items": []
    },
    {
@@ -442,17 +442,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 398,
+  "items": 407,
   "items_done": 41,
   "committed": 220,
-  "final": 267,
+  "final": 284,
   "completed": 82,
-  "scope_change": 21,
+  "scope_change": 29,
   "vs_commitment": 37,
   "time_elapsed": 29,
   "spill": {
-   "open_items": 161,
-   "open_pts": 192.0,
+   "open_items": 168,
+   "open_pts": 209.0,
    "out_items": 4,
    "out_pts": 1.0,
    "done_pts": 73.0
@@ -465,16 +465,17 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Progress": 15,
-   "Done": 54,
    "To Do": 127,
-   "PR Created": 5,
+   "PR Created": 7,
+   "In Development": 5,
+   "In Progress": 17,
+   "Done": 54,
    "Closed": 21,
    "Backlog": 110,
    "Ready for Development": 13,
    "Ready Prod": 14,
-   "In Development": 2,
-   "In Stage": 29,
+   "PR Merged": 1,
+   "In Stage": 30,
    "WAITING REVIEW": 1,
    "In Testing": 1,
    "On Hold": 2,
@@ -485,21 +486,21 @@
    191.0,
    189.0,
    187.0,
-   185.0
+   202.0
   ],
   "scope": [
    3.0,
    220.0,
    231.0,
    251.0,
-   267.0
+   284.0
   ],
   "ghost": [
    3.0,
    191.0,
    189.0,
    187.0,
-   185.0
+   202.0
   ],
   "days": 14,
   "day": 5
@@ -550,7 +551,7 @@
    },
    {
     "status": "PR Created",
-    "open": 23,
+    "open": 24,
     "med_age": 4.2,
     "max_age": 30.0,
     "worst_key": "PLANS-22703",
@@ -585,28 +586,28 @@
     "clear_n": 20
    },
    {
-    "status": "Identified",
-    "open": 1,
-    "med_age": 43.0,
-    "max_age": 43.0,
-    "worst_key": "PLANS-22399",
-    "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
-    "worst_who": "unassigned",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 2
-   },
-   {
     "status": "In Development",
-    "open": 22,
-    "med_age": 1.6,
+    "open": 21,
+    "med_age": 2.1,
     "max_age": 21.0,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 614
+    "clear_n": 615
+   },
+   {
+    "status": "Identified",
+    "open": 1,
+    "med_age": 43.1,
+    "max_age": 43.1,
+    "worst_key": "PLANS-22399",
+    "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
+    "worst_who": "unassigned",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 2
    },
    {
     "status": "PR Merged",
@@ -633,18 +634,6 @@
     "clear_n": 42
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -655,6 +644,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
