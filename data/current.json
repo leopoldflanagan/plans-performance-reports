@@ -506,11 +506,11 @@
     },
     "In Development": {
      "n": 33,
-     "med": 0.02
+     "med": 0.01
     },
     "PR Created": {
-     "n": 31,
-     "med": 0.0
+     "n": 32,
+     "med": 0.01
     },
     "In Stage": {
      "n": 66,
@@ -557,12 +557,12 @@
     "In Progress": 15,
     "Done": 54,
     "To Do": 127,
-    "PR Created": 3,
+    "PR Created": 4,
     "Closed": 22,
     "Backlog": 112,
-    "In Development": 3,
     "Ready for Development": 13,
     "Ready Prod": 14,
+    "In Development": 2,
     "In Stage": 29,
     "WAITING REVIEW": 1,
     "In Testing": 1,
