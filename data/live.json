@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T17:33:51Z",
+ "generated": "2026-10-16T18:07:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -555,7 +555,7 @@
     "status": "PR Created",
     "open": 23,
     "med_age": 4.4,
-    "max_age": 30.1,
+    "max_age": 30.2,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -566,8 +566,8 @@
    {
     "status": "Ready for Development",
     "open": 38,
-    "med_age": 2.2,
-    "max_age": 36.6,
+    "med_age": 2.3,
+    "max_age": 36.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -578,8 +578,8 @@
    {
     "status": "In Development",
     "open": 17,
-    "med_age": 3.1,
-    "max_age": 21.1,
+    "med_age": 3.2,
+    "max_age": 21.2,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -626,26 +626,14 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 1.0,
-    "max_age": 1.0,
+    "med_age": 1.1,
+    "max_age": 1.1,
     "worst_key": "PLANS-24097",
     "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 48
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -658,6 +646,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
