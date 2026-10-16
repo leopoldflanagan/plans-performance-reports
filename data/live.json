@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T12:46:21Z",
+ "generated": "2026-10-16T13:06:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 82,
   "scope_change": 21,
   "vs_commitment": 37,
-  "time_elapsed": 28,
+  "time_elapsed": 29,
   "spill": {
    "open_items": 161,
    "open_pts": 192.0,
@@ -550,15 +550,15 @@
    },
    {
     "status": "PR Created",
-    "open": 26,
-    "med_age": 4.1,
+    "open": 22,
+    "med_age": 4.2,
     "max_age": 29.9,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 630
+    "clear_n": 634
    },
    {
     "status": "Ready for Development",
@@ -610,7 +610,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 9,
+    "open": 13,
     "med_age": 0.8,
     "max_age": 2.8,
     "worst_key": "PLANS-24431",
