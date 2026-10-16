@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T00:14:09Z",
+ "generated": "2026-10-16T01:01:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -539,7 +539,7 @@
    {
     "status": "In Stage",
     "open": 41,
-    "med_age": 6.6,
+    "med_age": 6.7,
     "max_age": 7.1,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -562,8 +562,8 @@
    },
    {
     "status": "PR Created",
-    "open": 21,
-    "med_age": 3.6,
+    "open": 22,
+    "med_age": 3.7,
     "max_age": 29.4,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -585,6 +585,18 @@
     "clear_n": 245
    },
    {
+    "status": "In Development",
+    "open": 19,
+    "med_age": 2.4,
+    "max_age": 20.4,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 7,
+    "clear_med": 0.0,
+    "clear_n": 605
+   },
+   {
     "status": "Identified",
     "open": 1,
     "med_age": 42.5,
@@ -597,22 +609,10 @@
     "clear_n": 2
    },
    {
-    "status": "In Development",
-    "open": 20,
-    "med_age": 1.9,
-    "max_age": 20.4,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 604
-   },
-   {
     "status": "PR Merged",
     "open": 7,
     "med_age": 0.4,
-    "max_age": 2.2,
+    "max_age": 2.3,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -623,26 +623,14 @@
    {
     "status": "In QA",
     "open": 7,
-    "med_age": 0.3,
-    "max_age": 0.3,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
+    "med_age": 0.4,
+    "max_age": 0.4,
+    "worst_key": "PLANS-23402",
+    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 42
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -655,6 +643,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
