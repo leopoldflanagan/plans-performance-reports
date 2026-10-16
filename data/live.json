@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T14:06:44Z",
+ "generated": "2026-10-16T14:38:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 5,
   "days": 14,
   "n": 17,
-  "done_now": 82,
+  "done_now": 92,
   "committed": 220,
-  "lo": 182,
-  "mid": 271,
-  "hi": 474,
-  "pct": 123,
+  "lo": 204,
+  "mid": 304,
+  "hi": 532,
+  "pct": 138,
   "verdict": "on track for the commitment",
   "share_mid": 0.303
  },
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 24,
+    "n": 22,
     "items": [
      {
       "key": "PLANS-23969",
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 407,
-  "items_done": 41,
+  "items_done": 45,
   "committed": 220,
   "final": 284,
-  "completed": 82,
+  "completed": 92,
   "scope_change": 29,
-  "vs_commitment": 37,
+  "vs_commitment": 42,
   "time_elapsed": 29,
   "spill": {
-   "open_items": 168,
-   "open_pts": 209.0,
+   "open_items": 164,
+   "open_pts": 199.0,
    "out_items": 4,
    "out_pts": 1.0,
-   "done_pts": 73.0
+   "done_pts": 83.0
   },
   "recv": {
    "items": 5,
@@ -465,17 +465,17 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 127,
+   "To Do": 126,
    "PR Created": 7,
    "In Development": 5,
-   "In Progress": 17,
-   "Done": 54,
+   "In Progress": 14,
+   "Done": 58,
    "Closed": 21,
    "Backlog": 110,
    "Ready for Development": 13,
-   "Ready Prod": 14,
+   "Ready Prod": 18,
    "PR Merged": 1,
-   "In Stage": 30,
+   "In Stage": 26,
    "WAITING REVIEW": 1,
    "In Testing": 1,
    "On Hold": 2,
@@ -486,7 +486,7 @@
    191.0,
    189.0,
    187.0,
-   202.0
+   192.0
   ],
   "scope": [
    3.0,
@@ -500,7 +500,7 @@
    191.0,
    189.0,
    187.0,
-   202.0
+   192.0
   ],
   "days": 14,
   "day": 5
@@ -518,8 +518,8 @@
   "end": "2026-10-25",
   "day": 19,
   "days": 28,
-  "closed": 393,
-  "points": 950,
+  "closed": 397,
+  "points": 960,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -539,15 +539,15 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 41,
+    "open": 40,
     "med_age": 7.2,
     "max_age": 7.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 24,
+    "over": 23,
     "clear_med": 2.7,
-    "clear_n": 396
+    "clear_n": 397
    },
    {
     "status": "PR Created",
@@ -662,8 +662,8 @@
    "Backlog": 163,
    "On Hold": 2
   },
-  "open_total": 146,
-  "stale": 59,
+  "open_total": 145,
+  "stale": 58,
   "worst": "In Stage"
  }
 }
