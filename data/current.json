@@ -145,22 +145,22 @@
    407,
    46,
    220,
-   284,
+   285,
    95,
-   29,
+   30,
    [
     3.0,
     191.0,
-    189.0,
-    187.0,
-    189.0
+    190.0,
+    188.0,
+    190.0
    ],
    [
     3.0,
     220.0,
-    231.0,
-    251.0,
-    284.0
+    232.0,
+    252.0,
+    285.0
    ]
   ],
   [
@@ -237,7 +237,7 @@
    ],
    "open": [
     163,
-    196
+    197
    ],
    "out": [
     4,
@@ -383,10 +383,11 @@
     "Ready for Development": 11,
     "WAITING REVIEW": 1,
     "In Stage": 15,
-    "PR Created": 3,
+    "PR Merged": 2,
     "On Hold": 3,
     "In Development": 1,
-    "Will Not Implement": 1
+    "Will Not Implement": 1,
+    "PR Created": 1
    },
    "stalled": 353,
    "worst": 13.94,
@@ -516,12 +517,12 @@
      "med": 0.15
     },
     "PR Merged": {
-     "n": 34,
-     "med": 0.0
+     "n": 36,
+     "med": 0.01
     },
     "In Stage": {
-     "n": 67,
-     "med": 1.88
+     "n": 68,
+     "med": 1.93
     },
     "Closed": {
      "n": 22,
@@ -558,16 +559,16 @@
    },
    "dist": {
     "To Do": 125,
-    "PR Created": 6,
+    "PR Created": 4,
     "In Development": 5,
     "In Progress": 14,
     "Done": 59,
-    "PR Merged": 2,
+    "PR Merged": 3,
     "Closed": 22,
     "Backlog": 111,
     "Ready for Development": 13,
     "Ready Prod": 19,
-    "In Stage": 25,
+    "In Stage": 26,
     "WAITING REVIEW": 1,
     "In Testing": 1,
     "On Hold": 3,
@@ -602,7 +603,7 @@
     },
     "In Development": {
      "n": 50,
-     "med": 0.62
+     "med": 0.56
     },
     "PR Created": {
      "n": 37,
@@ -637,8 +638,8 @@
      "med": 11.66
     },
     "On Hold": {
-     "n": 4,
-     "med": 12.17
+     "n": 5,
+     "med": 11.65
     },
     "Will Not Implement": {
      "n": 2,
@@ -656,8 +657,8 @@
     "Ready for Development": 12,
     "Ready Prod": 8,
     "PR Created": 4,
-    "On Hold": 3,
-    "In Development": 11,
+    "On Hold": 4,
+    "In Development": 10,
     "Will Not Implement": 2,
     "In QA": 6,
     "WAITING REVIEW": 1
@@ -707,9 +708,9 @@
   "LL-Sprint 24-26": [
    3.0,
    191.0,
-   189.0,
-   187.0,
-   189.0
+   190.0,
+   188.0,
+   190.0
   ],
   "Plans-Sprint 24-26": [
    233.0,

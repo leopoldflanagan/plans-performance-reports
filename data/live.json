@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T15:05:41Z",
+ "generated": "2026-10-16T15:35:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -33,7 +33,7 @@
    {
     "rule": "Idea/Draft sitting in Ready for Development",
     "n": 55,
-    "points": 112,
+    "points": 114,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -74,19 +74,11 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 109,
+    "n": 106,
     "items": [
      {
       "key": "PLANS-24551",
       "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  3 "
-     },
-     {
-      "key": "PLANS-24546",
-      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
-     },
-     {
-      "key": "PLANS-24536",
-      "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
      },
      {
       "key": "PLANS-24535",
@@ -107,6 +99,14 @@
      {
       "key": "PLANS-24469",
       "summary": " Duplicate Charge-Not Showing in CSP "
+     },
+     {
+      "key": "PLANS-24467",
+      "summary": "Preprod - One Smile- Membership agreement - logo is not visible"
+     },
+     {
+      "key": "PLANS-24416",
+      "summary": "Prod - PMP - One Smile - Incorrect URL in membership card "
      }
     ]
    },
@@ -445,14 +445,14 @@
   "items": 407,
   "items_done": 46,
   "committed": 220,
-  "final": 284,
+  "final": 285,
   "completed": 95,
-  "scope_change": 29,
+  "scope_change": 30,
   "vs_commitment": 43,
   "time_elapsed": 29,
   "spill": {
    "open_items": 163,
-   "open_pts": 196.0,
+   "open_pts": 197.0,
    "out_items": 4,
    "out_pts": 1.0,
    "done_pts": 86.0
@@ -466,16 +466,16 @@
   "spill_rate": null,
   "dist": {
    "To Do": 125,
-   "PR Created": 6,
+   "PR Created": 4,
    "In Development": 5,
    "In Progress": 14,
    "Done": 59,
-   "PR Merged": 2,
+   "PR Merged": 3,
    "Closed": 21,
    "Backlog": 110,
    "Ready for Development": 13,
    "Ready Prod": 19,
-   "In Stage": 25,
+   "In Stage": 26,
    "WAITING REVIEW": 1,
    "In Testing": 1,
    "On Hold": 2,
@@ -484,23 +484,23 @@
   "burn": [
    3.0,
    191.0,
-   189.0,
-   187.0,
-   189.0
+   190.0,
+   188.0,
+   190.0
   ],
   "scope": [
    3.0,
    220.0,
-   231.0,
-   251.0,
-   284.0
+   232.0,
+   252.0,
+   285.0
   ],
   "ghost": [
    3.0,
    191.0,
-   189.0,
-   187.0,
-   189.0
+   190.0,
+   188.0,
+   190.0
   ],
   "days": 14,
   "day": 5
@@ -539,8 +539,8 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 39,
-    "med_age": 7.3,
+    "open": 40,
+    "med_age": 7.2,
     "max_age": 7.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -551,8 +551,8 @@
    },
    {
     "status": "PR Created",
-    "open": 24,
-    "med_age": 4.2,
+    "open": 22,
+    "med_age": 4.3,
     "max_age": 30.0,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -565,13 +565,13 @@
     "status": "Ready for Development",
     "open": 38,
     "med_age": 2.1,
-    "max_age": 36.5,
+    "max_age": 36.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 16,
     "clear_med": 0.8,
-    "clear_n": 252
+    "clear_n": 251
    },
    {
     "status": "WAITING REVIEW",
@@ -599,8 +599,8 @@
    },
    {
     "status": "In Development",
-    "open": 20,
-    "med_age": 1.7,
+    "open": 19,
+    "med_age": 2.1,
     "max_age": 21.0,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -611,39 +611,27 @@
    },
    {
     "status": "PR Merged",
-    "open": 13,
-    "med_age": 0.8,
+    "open": 14,
+    "med_age": 0.6,
     "max_age": 2.9,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 603
+    "clear_n": 602
    },
    {
     "status": "In QA",
     "open": 7,
-    "med_age": 0.9,
-    "max_age": 0.9,
-    "worst_key": "PLANS-24097",
-    "worst_sum": "[2.1.W1] Ship the cancellation-reason backfill as an auto-running PostDeployment script, p",
-    "worst_who": "Denys  Kernychnyi",
+    "med_age": 1.0,
+    "max_age": 1.0,
+    "worst_key": "PLANS-23402",
+    "worst_sum": "[3.5.W2] Immutable CREG Employee ID to internal WF ID with returning-member and transition",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 42
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -656,13 +644,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 164,
-   "On Hold": 2
+   "On Hold": 3,
+   "Backlog": 165
   },
-  "open_total": 144,
+  "open_total": 143,
   "stale": 57,
   "worst": "In Stage"
  }
