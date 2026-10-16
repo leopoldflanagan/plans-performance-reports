@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T02:08:10Z",
+ "generated": "2026-10-16T02:41:24Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -551,7 +551,7 @@
    {
     "status": "PR Created",
     "open": 22,
-    "med_age": 3.7,
+    "med_age": 3.8,
     "max_age": 29.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -559,6 +559,18 @@
     "over": 5,
     "clear_med": 0.0,
     "clear_n": 627
+   },
+   {
+    "status": "Ready for Development",
+    "open": 45,
+    "med_age": 1.2,
+    "max_age": 36.0,
+    "worst_key": "PLANS-22675",
+    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
+    "worst_who": "unassigned",
+    "over": 16,
+    "clear_med": 0.9,
+    "clear_n": 245
    },
    {
     "status": "WAITING REVIEW",
@@ -571,18 +583,6 @@
     "over": 2,
     "clear_med": 0.0,
     "clear_n": 20
-   },
-   {
-    "status": "Ready for Development",
-    "open": 45,
-    "med_age": 1.1,
-    "max_age": 36.0,
-    "worst_key": "PLANS-22675",
-    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
-    "worst_who": "unassigned",
-    "over": 16,
-    "clear_med": 0.9,
-    "clear_n": 245
    },
    {
     "status": "In Development",
@@ -609,6 +609,18 @@
     "clear_n": 2
    },
    {
+    "status": "PR Merged",
+    "open": 7,
+    "med_age": 0.5,
+    "max_age": 2.4,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 601
+   },
+   {
     "status": "In QA",
     "open": 7,
     "med_age": 0.4,
@@ -619,18 +631,6 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 42
-   },
-   {
-    "status": "PR Merged",
-    "open": 7,
-    "med_age": 0.4,
-    "max_age": 2.3,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 601
    },
    {
     "status": "Ready for Stage",
