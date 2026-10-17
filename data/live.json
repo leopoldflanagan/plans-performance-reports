@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T22:04:59Z",
+ "generated": "2026-10-17T22:32:39Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -545,7 +545,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 4.2,
+    "med_age": 4.3,
     "max_age": 9.0,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -639,18 +639,6 @@
     "clear_n": 50
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -661,6 +649,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
