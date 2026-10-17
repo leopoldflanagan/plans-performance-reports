@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T17:05:01Z",
+ "generated": "2026-10-17T17:32:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -605,7 +605,7 @@
    {
     "status": "In Development",
     "open": 19,
-    "med_age": 1.8,
+    "med_age": 1.9,
     "max_age": 22.1,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -664,8 +664,8 @@
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 165
   },
   "open_total": 140,
   "stale": 54,
