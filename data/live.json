@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T11:32:53Z",
+ "generated": "2026-10-17T12:07:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 96,
   "scope_change": 31,
   "vs_commitment": 44,
-  "time_elapsed": 35,
+  "time_elapsed": 36,
   "spill": {
    "open_items": 158,
    "open_pts": 192.0,
@@ -578,7 +578,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 26.7,
+    "med_age": 26.8,
     "max_age": 44.7,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -590,8 +590,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 43.9,
-    "max_age": 43.9,
+    "med_age": 44.0,
+    "max_age": 44.0,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -614,7 +614,7 @@
    {
     "status": "PR Merged",
     "open": 6,
-    "med_age": 0.8,
+    "med_age": 0.9,
     "max_age": 3.7,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -661,8 +661,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 3
   },
   "open_total": 140,
   "stale": 54,
