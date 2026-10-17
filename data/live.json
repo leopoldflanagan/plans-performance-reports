@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T03:06:17Z",
+ "generated": "2026-10-17T03:38:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -555,7 +555,7 @@
     "status": "Ready for Development",
     "open": 32,
     "med_age": 3.8,
-    "max_age": 37.0,
+    "max_age": 37.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -567,7 +567,7 @@
     "status": "PR Created",
     "open": 23,
     "med_age": 4.8,
-    "max_age": 30.5,
+    "max_age": 30.6,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -636,18 +636,6 @@
     "clear_n": 50
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -658,6 +646,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
