@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T01:02:52Z",
+ "generated": "2026-10-17T01:40:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -542,8 +542,8 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 3.4,
-    "max_age": 8.1,
+    "med_age": 3.5,
+    "max_age": 8.2,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -555,7 +555,7 @@
     "status": "Ready for Development",
     "open": 32,
     "med_age": 3.7,
-    "max_age": 36.9,
+    "max_age": 37.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -567,7 +567,7 @@
     "status": "PR Created",
     "open": 23,
     "med_age": 4.7,
-    "max_age": 30.4,
+    "max_age": 30.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -578,8 +578,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 26.2,
-    "max_age": 44.2,
+    "med_age": 26.3,
+    "max_age": 44.3,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -603,7 +603,7 @@
     "status": "In Development",
     "open": 19,
     "med_age": 1.2,
-    "max_age": 21.4,
+    "max_age": 21.5,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -626,26 +626,14 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 0.1,
-    "max_age": 0.1,
+    "med_age": 0.2,
+    "max_age": 0.2,
     "worst_key": "PLANS-23307",
     "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 2.8,
     "clear_n": 50
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -658,11 +646,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 165
   },
   "open_total": 140,
   "stale": 54,
