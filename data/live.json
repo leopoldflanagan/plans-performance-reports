@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T23:32:55Z",
+ "generated": "2026-10-17T00:14:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 5,
+  "day": 6,
   "days": 14,
   "n": 17,
   "done_now": 96,
   "committed": 219,
   "lo": 213,
-  "mid": 317,
+  "mid": 273,
   "hi": 555,
-  "pct": 145,
+  "pct": 125,
   "verdict": "on track for the commitment",
-  "share_mid": 0.303
+  "share_mid": 0.351
  },
  "admin": {
   "scope": {
@@ -505,7 +505,7 @@
    190.0
   ],
   "days": 14,
-  "day": 5
+  "day": 6
  },
  "next": {
   "name": "LL-Sprint 25-26",
@@ -518,7 +518,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 19,
+  "day": 20,
   "days": 28,
   "closed": 406,
   "points": 974,
@@ -590,8 +590,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 43.4,
-    "max_age": 43.4,
+    "med_age": 43.5,
+    "max_age": 43.5,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -614,7 +614,7 @@
    {
     "status": "PR Merged",
     "open": 6,
-    "med_age": 0.3,
+    "med_age": 0.4,
     "max_age": 3.2,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
