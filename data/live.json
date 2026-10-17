@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T02:07:50Z",
+ "generated": "2026-10-17T02:40:02Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -566,7 +566,7 @@
    {
     "status": "PR Created",
     "open": 23,
-    "med_age": 4.7,
+    "med_age": 4.8,
     "max_age": 30.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -614,8 +614,8 @@
    {
     "status": "PR Merged",
     "open": 6,
-    "med_age": 0.4,
-    "max_age": 3.3,
+    "med_age": 0.5,
+    "max_age": 3.4,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -636,18 +636,6 @@
     "clear_n": 50
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -658,11 +646,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 165
   },
   "open_total": 140,
   "stale": 54,
