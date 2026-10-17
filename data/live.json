@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T00:14:55Z",
+ "generated": "2026-10-17T01:02:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -542,7 +542,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 3.3,
+    "med_age": 3.4,
     "max_age": 8.1,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -554,7 +554,7 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 3.6,
+    "med_age": 3.7,
     "max_age": 36.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -566,7 +566,7 @@
    {
     "status": "PR Created",
     "open": 23,
-    "med_age": 4.6,
+    "med_age": 4.7,
     "max_age": 30.4,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -602,7 +602,7 @@
    {
     "status": "In Development",
     "open": 19,
-    "med_age": 1.1,
+    "med_age": 1.2,
     "max_age": 21.4,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -615,7 +615,7 @@
     "status": "PR Merged",
     "open": 6,
     "med_age": 0.4,
-    "max_age": 3.2,
+    "max_age": 3.3,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
