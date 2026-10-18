@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T09:35:49Z",
+ "generated": "2026-10-18T10:05:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -569,7 +569,7 @@
    {
     "status": "PR Created",
     "open": 23,
-    "med_age": 6.0,
+    "med_age": 6.1,
     "max_age": 31.8,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -593,7 +593,7 @@
    {
     "status": "In Development",
     "open": 19,
-    "med_age": 2.5,
+    "med_age": 2.6,
     "max_age": 22.8,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -618,7 +618,7 @@
     "status": "PR Merged",
     "open": 6,
     "med_age": 1.8,
-    "max_age": 4.6,
+    "max_age": 4.7,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -664,8 +664,8 @@
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 165
   },
   "open_total": 140,
   "stale": 54,
