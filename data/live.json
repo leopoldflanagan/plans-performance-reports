@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T20:35:28Z",
+ "generated": "2026-10-18T21:05:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -549,7 +549,7 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 5.2,
-    "max_age": 9.9,
+    "max_age": 10.0,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -597,7 +597,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 28.1,
-    "max_age": 46.0,
+    "max_age": 46.1,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -632,26 +632,14 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 1.9,
-    "max_age": 1.9,
+    "med_age": 2.0,
+    "max_age": 2.0,
     "worst_key": "PLANS-23307",
     "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 2.8,
     "clear_n": 50
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -664,11 +652,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 165
   },
   "open_total": 140,
   "stale": 54,
