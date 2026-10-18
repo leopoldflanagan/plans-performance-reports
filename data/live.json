@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T02:40:18Z",
+ "generated": "2026-10-18T03:06:50Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -557,7 +557,7 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 4.7,
+    "med_age": 4.8,
     "max_age": 38.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -605,7 +605,7 @@
    {
     "status": "In Development",
     "open": 19,
-    "med_age": 2.2,
+    "med_age": 2.3,
     "max_age": 22.5,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
