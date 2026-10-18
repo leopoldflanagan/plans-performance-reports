@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T12:40:50Z",
+ "generated": "2026-10-18T13:05:31Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -545,7 +545,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 4.8,
+    "med_age": 4.9,
     "max_age": 9.6,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
