@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T11:04:54Z",
+ "generated": "2026-10-18T11:33:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -546,7 +546,7 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 4.8,
-    "max_age": 9.5,
+    "max_age": 9.6,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -629,8 +629,8 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 1.5,
-    "max_age": 1.5,
+    "med_age": 1.6,
+    "max_age": 1.6,
     "worst_key": "PLANS-23307",
     "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
     "worst_who": "Sailaja Yanamandra",
@@ -664,8 +664,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 3
   },
   "open_total": 140,
   "stale": 54,
