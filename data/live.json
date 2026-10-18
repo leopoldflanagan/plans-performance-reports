@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T13:33:23Z",
+ "generated": "2026-10-18T14:05:09Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 96,
   "scope_change": 31,
   "vs_commitment": 44,
-  "time_elapsed": 43,
+  "time_elapsed": 44,
   "spill": {
    "open_items": 158,
    "open_pts": 192.0,
@@ -545,8 +545,8 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 4.9,
-    "max_age": 9.6,
+    "med_age": 5.0,
+    "max_age": 9.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -605,8 +605,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 45.0,
-    "max_age": 45.0,
+    "med_age": 45.1,
+    "max_age": 45.1,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -629,26 +629,14 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 1.6,
-    "max_age": 1.6,
+    "med_age": 1.7,
+    "max_age": 1.7,
     "worst_key": "PLANS-23307",
     "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 2.8,
     "clear_n": 50
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -661,11 +649,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 3
   },
   "open_total": 140,
   "stale": 54,
