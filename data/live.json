@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T00:16:15Z",
+ "generated": "2026-10-18T01:08:38Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 96,
   "scope_change": 31,
   "vs_commitment": 44,
-  "time_elapsed": 39,
+  "time_elapsed": 40,
   "spill": {
    "open_items": 158,
    "open_pts": 192.0,
@@ -545,7 +545,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 4.3,
+    "med_age": 4.4,
     "max_age": 9.1,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -557,7 +557,7 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 4.6,
+    "med_age": 4.7,
     "max_age": 37.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -605,7 +605,7 @@
    {
     "status": "In Development",
     "open": 19,
-    "med_age": 2.1,
+    "med_age": 2.2,
     "max_age": 22.4,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
