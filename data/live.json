@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T19:32:52Z",
+ "generated": "2026-10-18T20:05:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -560,7 +560,7 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 5.4,
+    "med_age": 5.5,
     "max_age": 38.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -582,6 +582,18 @@
     "clear_n": 636
    },
    {
+    "status": "In Development",
+    "open": 19,
+    "med_age": 3.0,
+    "max_age": 23.2,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 6,
+    "clear_med": 0.0,
+    "clear_n": 619
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 28.1,
@@ -592,18 +604,6 @@
     "over": 2,
     "clear_med": 0.0,
     "clear_n": 20
-   },
-   {
-    "status": "In Development",
-    "open": 19,
-    "med_age": 2.9,
-    "max_age": 23.2,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 6,
-    "clear_med": 0.0,
-    "clear_n": 619
    },
    {
     "status": "Identified",
@@ -667,8 +667,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 3
   },
   "open_total": 140,
   "stale": 54,
