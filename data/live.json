@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T02:11:24Z",
+ "generated": "2026-10-19T02:45:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -572,7 +572,7 @@
    {
     "status": "PR Created",
     "open": 23,
-    "med_age": 6.7,
+    "med_age": 6.8,
     "max_age": 32.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -620,8 +620,8 @@
    {
     "status": "PR Merged",
     "open": 6,
-    "med_age": 2.4,
-    "max_age": 5.3,
+    "med_age": 2.5,
+    "max_age": 5.4,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
