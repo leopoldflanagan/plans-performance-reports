@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T05:06:21Z",
+ "generated": "2026-10-19T05:38:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -584,7 +584,7 @@
    {
     "status": "In Development",
     "open": 19,
-    "med_age": 3.3,
+    "med_age": 3.4,
     "max_age": 23.6,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
