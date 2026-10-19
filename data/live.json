@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T17:36:01Z",
+ "generated": "2026-10-19T18:08:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -558,31 +558,31 @@
     "worst_who": "Valentyna Tenus",
     "over": 25,
     "clear_med": 2.7,
-    "clear_n": 400
+    "clear_n": 399
    },
    {
     "status": "Ready for Development",
     "open": 29,
     "med_age": 5.6,
-    "max_age": 39.6,
+    "max_age": 39.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 14,
     "clear_med": 0.8,
-    "clear_n": 260
+    "clear_n": 257
    },
    {
     "status": "In Development",
-    "open": 29,
+    "open": 30,
     "med_age": 2.8,
-    "max_age": 24.1,
+    "max_age": 24.2,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 625
+    "clear_n": 624
    },
    {
     "status": "Identified",
@@ -600,13 +600,13 @@
     "status": "PR Created",
     "open": 7,
     "med_age": 3.9,
-    "max_age": 33.1,
+    "max_age": 33.2,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 659
+    "clear_n": 658
    },
    {
     "status": "WAITING REVIEW",
@@ -618,7 +618,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 21
+    "clear_n": 20
    },
    {
     "status": "In QA",
@@ -629,8 +629,8 @@
     "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
-    "clear_med": 2.8,
-    "clear_n": 50
+    "clear_med": 3.0,
+    "clear_n": 49
    },
    {
     "status": "PR Merged",
@@ -642,19 +642,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 621
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
+    "clear_n": 620
    },
    {
     "status": "Ready for Stage",
@@ -667,13 +655,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
    "Backlog": 162,
    "On Hold": 3
   },
-  "open_total": 139,
+  "open_total": 140,
   "stale": 49,
   "worst": "In Stage"
  }
