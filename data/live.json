@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T06:13:12Z",
+ "generated": "2026-10-19T07:05:15Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -548,8 +548,8 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 5.6,
-    "max_age": 10.3,
+    "med_age": 5.7,
+    "max_age": 10.4,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -608,8 +608,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 45.7,
-    "max_age": 45.7,
+    "med_age": 45.8,
+    "max_age": 45.8,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -620,7 +620,7 @@
    {
     "status": "PR Merged",
     "open": 6,
-    "med_age": 2.6,
+    "med_age": 2.7,
     "max_age": 5.5,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -632,26 +632,14 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 2.3,
-    "max_age": 2.3,
+    "med_age": 2.4,
+    "max_age": 2.4,
     "worst_key": "PLANS-23307",
     "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 2.8,
     "clear_n": 50
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -664,11 +652,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 165
   },
   "open_total": 140,
   "stale": 54,
