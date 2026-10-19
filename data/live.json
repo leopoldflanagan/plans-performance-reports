@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T20:06:37Z",
+ "generated": "2026-10-19T20:38:19Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
-    "points": 82,
+    "n": 45,
+    "points": 84,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 76,
+   "ready": 77,
    "sprint": 225,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 52,
     "items": [
      {
       "key": "PLANS-24605",
@@ -321,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 182,
+    "n": 183,
     "items": [
      {
       "key": "PLANS-24585",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 287 of 290 items. This reads as a field the team does not use rather than 287 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 287,
+    "why": "missing on 288 of 291 items. This reads as a field the team does not use rather than 288 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 288,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 284 of 290 items. This reads as a field the team does not use rather than 284 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 284,
+    "why": "missing on 285 of 291 items. This reads as a field the team does not use rather than 285 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 285,
     "items": []
    },
    {
@@ -549,18 +549,6 @@
   "stale_days": 7,
   "rows": [
    {
-    "status": "Ready for Development",
-    "open": 28,
-    "med_age": 8.4,
-    "max_age": 39.7,
-    "worst_key": "PLANS-22675",
-    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
-    "worst_who": "unassigned",
-    "over": 14,
-    "clear_med": 0.8,
-    "clear_n": 260
-   },
-   {
     "status": "In Stage",
     "open": 57,
     "med_age": 4.0,
@@ -570,7 +558,19 @@
     "worst_who": "Valentyna Tenus",
     "over": 21,
     "clear_med": 2.9,
-    "clear_n": 407
+    "clear_n": 406
+   },
+   {
+    "status": "Ready for Development",
+    "open": 29,
+    "med_age": 5.7,
+    "max_age": 39.8,
+    "worst_key": "PLANS-22675",
+    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
+    "worst_who": "unassigned",
+    "over": 14,
+    "clear_med": 0.8,
+    "clear_n": 257
    },
    {
     "status": "Identified",
@@ -588,13 +588,13 @@
     "status": "PR Created",
     "open": 3,
     "med_age": 11.9,
-    "max_age": 33.2,
+    "max_age": 33.3,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 669
+    "clear_n": 668
    },
    {
     "status": "WAITING REVIEW",
@@ -606,31 +606,31 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 21
+    "clear_n": 20
    },
    {
     "status": "In Development",
     "open": 23,
     "med_age": 0.3,
-    "max_age": 24.2,
+    "max_age": 24.3,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 633
+    "clear_n": 632
    },
    {
     "status": "PR Merged",
     "open": 13,
-    "med_age": 0.1,
+    "med_age": 0.2,
     "max_age": 6.1,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 627
+    "clear_n": 626
    },
    {
     "status": "In QA",
@@ -641,8 +641,8 @@
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
     "worst_who": "Conor Kamperman",
     "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 53
+    "clear_med": 2.7,
+    "clear_n": 52
    },
    {
     "status": "In PreProd",
@@ -673,8 +673,8 @@
    "On Hold": 2,
    "Backlog": 164
   },
-  "open_total": 130,
+  "open_total": 131,
   "stale": 41,
-  "worst": "Ready for Development"
+  "worst": "In Stage"
  }
 }
