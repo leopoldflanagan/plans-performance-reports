@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T12:48:47Z",
+ "generated": "2026-10-19T13:09:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 49,
-    "points": 97,
+    "n": 50,
+    "points": 100,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 81,
+   "ready": 82,
    "sprint": 200,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 56,
+    "n": 57,
     "items": [
      {
       "key": "PLANS-24566",
@@ -321,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 182,
+    "n": 183,
     "items": [
      {
       "key": "PLANS-24546",
@@ -352,21 +352,21 @@
       "summary": " Duplicate Charge-Not Showing in CSP "
      },
      {
-      "key": "PLANS-24273",
-      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
+      "key": "PLANS-24434",
+      "summary": "PLANS-24434: Unify Purchase Into NPM Package: Story 8.4: SGDP Portal - Restore p"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 267 of 271 items. This reads as a field the team does not use rather than 267 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 267,
+    "why": "missing on 268 of 272 items. This reads as a field the team does not use rather than 268 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 268,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 269 of 271 items. This reads as a field the team does not use rather than 269 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 269,
+    "why": "missing on 270 of 272 items. This reads as a field the team does not use rather than 270 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 270,
     "items": []
    },
    {
@@ -559,8 +559,8 @@
    },
    {
     "status": "Ready for Development",
-    "open": 31,
-    "med_age": 5.4,
+    "open": 32,
+    "med_age": 5.1,
     "max_age": 39.4,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -667,10 +667,10 @@
    }
   ],
   "parked": {
-   "Backlog": 165,
+   "Backlog": 164,
    "On Hold": 3
   },
-  "open_total": 142,
+  "open_total": 143,
   "stale": 51,
   "worst": "In Stage"
  }
