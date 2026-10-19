@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T20:38:19Z",
+ "generated": "2026-10-19T21:05:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 8,
   "days": 14,
   "n": 17,
-  "done_now": 133,
+  "done_now": 136,
   "committed": 230,
-  "lo": 195,
-  "mid": 235,
-  "hi": 378,
-  "pct": 102,
+  "lo": 199,
+  "mid": 240,
+  "hi": 387,
+  "pct": 104,
   "verdict": "on track for the commitment",
   "share_mid": 0.567
  },
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 483,
-  "items_done": 57,
+  "items_done": 58,
   "committed": 230,
   "final": 387,
-  "completed": 133,
+  "completed": 136,
   "scope_change": 68,
-  "vs_commitment": 58,
+  "vs_commitment": 59,
   "time_elapsed": 53,
   "spill": {
-   "open_items": 175,
-   "open_pts": 245.0,
+   "open_items": 174,
+   "open_pts": 242.0,
    "out_items": 8,
    "out_pts": 7.0,
-   "done_pts": 124.0
+   "done_pts": 127.0
   },
   "recv": {
    "items": 5,
@@ -465,13 +465,13 @@
   },
   "spill_rate": null,
   "dist": {
-   "Done": 75,
+   "Done": 76,
    "To Do": 154,
-   "In Progress": 19,
+   "In Progress": 18,
    "PR Merged": 4,
    "Ready for Development": 11,
-   "Ready Prod": 29,
-   "In Stage": 42,
+   "Ready Prod": 30,
+   "In Stage": 41,
    "PR Created": 1,
    "In Development": 6,
    "Closed": 22,
@@ -489,7 +489,7 @@
    203.0,
    203.0,
    227.0,
-   254.0
+   251.0
   ],
   "scope": [
    14.0,
@@ -511,7 +511,7 @@
    203.0,
    203.0,
    227.0,
-   254.0
+   251.0
   ],
   "days": 14,
   "day": 8
@@ -529,8 +529,8 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 429,
-  "points": 1046,
+  "closed": 430,
+  "points": 1049,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -550,15 +550,15 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 57,
-    "med_age": 4.0,
-    "max_age": 10.9,
+    "open": 56,
+    "med_age": 3.6,
+    "max_age": 11.0,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 21,
-    "clear_med": 2.9,
-    "clear_n": 406
+    "over": 20,
+    "clear_med": 2.8,
+    "clear_n": 405
    },
    {
     "status": "Ready for Development",
@@ -570,7 +570,7 @@
     "worst_who": "unassigned",
     "over": 14,
     "clear_med": 0.8,
-    "clear_n": 257
+    "clear_n": 255
    },
    {
     "status": "Identified",
@@ -594,7 +594,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 668
+    "clear_n": 666
    },
    {
     "status": "WAITING REVIEW",
@@ -618,7 +618,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 632
+    "clear_n": 630
    },
    {
     "status": "PR Merged",
@@ -630,7 +630,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 626
+    "clear_n": 624
    },
    {
     "status": "In QA",
@@ -671,10 +671,10 @@
   ],
   "parked": {
    "On Hold": 2,
-   "Backlog": 164
+   "Backlog": 166
   },
-  "open_total": 131,
-  "stale": 41,
+  "open_total": 130,
+  "stale": 40,
   "worst": "In Stage"
  }
 }
