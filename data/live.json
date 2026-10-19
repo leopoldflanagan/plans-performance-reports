@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T13:09:01Z",
+ "generated": "2026-10-19T13:43:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 50,
-    "points": 100,
+    "n": 46,
+    "points": 92,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 82,
+   "ready": 78,
    "sprint": 200,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 102,
+    "n": 101,
     "items": [
-     {
-      "key": "PLANS-24535",
-      "summary": "PROD - DCA Website is down."
-     },
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
+     },
+     {
+      "key": "PLANS-14538",
+      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 57,
+    "n": 53,
     "items": [
      {
       "key": "PLANS-24566",
@@ -137,10 +137,6 @@
      {
       "key": "PLANS-24536",
       "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
-     },
-     {
-      "key": "PLANS-24535",
-      "summary": "PROD - DCA Website is down."
      },
      {
       "key": "PLANS-24519",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
+     },
+     {
+      "key": "PLANS-24469",
+      "summary": " Duplicate Charge-Not Showing in CSP "
      }
     ]
    },
@@ -321,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 183,
+    "n": 181,
     "items": [
      {
       "key": "PLANS-24546",
@@ -330,10 +330,6 @@
      {
       "key": "PLANS-24536",
       "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
-     },
-     {
-      "key": "PLANS-24535",
-      "summary": "PROD - DCA Website is down."
      },
      {
       "key": "PLANS-24519",
@@ -352,27 +348,31 @@
       "summary": " Duplicate Charge-Not Showing in CSP "
      },
      {
-      "key": "PLANS-24434",
-      "summary": "PLANS-24434: Unify Purchase Into NPM Package: Story 8.4: SGDP Portal - Restore p"
+      "key": "PLANS-24273",
+      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
+     },
+     {
+      "key": "PLANS-24113",
+      "summary": "CSP - Rank is not retained in the CSP > Plan Template UI after saving"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 268 of 272 items. This reads as a field the team does not use rather than 268 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 268,
+    "why": "missing on 264 of 268 items. This reads as a field the team does not use rather than 264 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 264,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 270 of 272 items. This reads as a field the team does not use rather than 270 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 270,
+    "why": "missing on 267 of 268 items. This reads as a field the team does not use rather than 267 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 267,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 131,
+    "n": 129,
     "items": [
      {
       "key": "PLANS-22675",
@@ -387,14 +387,6 @@
       "summary": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP"
      },
      {
-      "key": "PLANS-18564",
-      "summary": "WFP \u2013 Plan Purchase and Renewal Restrictions Not Enforced for WFP plans - AD PMP"
-     },
-     {
-      "key": "PLANS-18461",
-      "summary": "Member Portal \u2013 Renewal Restrictions Not Applied; Restricted Plans Still Visible"
-     },
-     {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
      },
@@ -405,6 +397,14 @@
      {
       "key": "PLANS-14582",
       "summary": "Update UI for CSP"
+     },
+     {
+      "key": "PLANS-14568",
+      "summary": "Integrating plans API into CSP (Dev Only)"
+     },
+     {
+      "key": "PLANS-14558",
+      "summary": "Handle One-Time Payment Option (Dev & QA)"
      }
     ]
    }
@@ -526,7 +526,7 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 406,
+  "closed": 407,
   "points": 974,
   "unplanned": null,
   "unplanned_pct": null,
@@ -549,7 +549,7 @@
     "status": "In Stage",
     "open": 65,
     "med_age": 4.9,
-    "max_age": 10.6,
+    "max_age": 10.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -559,21 +559,21 @@
    },
    {
     "status": "Ready for Development",
-    "open": 32,
-    "med_age": 5.1,
-    "max_age": 39.4,
+    "open": 30,
+    "med_age": 6.2,
+    "max_age": 39.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 14,
+    "over": 15,
     "clear_med": 0.8,
-    "clear_n": 256
+    "clear_n": 258
    },
    {
     "status": "In Development",
-    "open": 18,
-    "med_age": 4.0,
-    "max_age": 23.9,
+    "open": 19,
+    "med_age": 3.7,
+    "max_age": 24.0,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -585,7 +585,7 @@
     "status": "PR Created",
     "open": 19,
     "med_age": 3.7,
-    "max_age": 32.9,
+    "max_age": 33.0,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -632,26 +632,14 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 2.6,
-    "max_age": 2.6,
+    "med_age": 2.7,
+    "max_age": 2.7,
     "worst_key": "PLANS-23307",
     "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 2.8,
     "clear_n": 50
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -664,14 +652,26 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
    "Backlog": 164,
    "On Hold": 3
   },
-  "open_total": 143,
-  "stale": 51,
+  "open_total": 142,
+  "stale": 52,
   "worst": "In Stage"
  }
 }
