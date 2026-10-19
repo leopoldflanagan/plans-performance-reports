@@ -476,11 +476,11 @@
    },
    "dist": {
     "Done": 222,
-    "To Do": 5,
-    "In Progress": 1,
+    "In Progress": 4,
     "In Stage": 8,
     "Closed": 88,
     "Ready Prod": 12,
+    "To Do": 2,
     "Will Not Implement": 11,
     "On Hold": 1,
     "Backlog": 3,
@@ -599,8 +599,8 @@
      "med": 3.34
     },
     "In Progress": {
-     "n": 59,
-     "med": 1.02
+     "n": 62,
+     "med": 1.26
     },
     "Done": {
      "n": 81,
@@ -658,10 +658,10 @@
    "dist": {
     "Backlog": 11,
     "Done": 77,
-    "In Progress": 17,
-    "To Do": 46,
+    "In Progress": 20,
     "In Stage": 20,
     "Closed": 22,
+    "To Do": 43,
     "In Development": 6,
     "Ready for Development": 4,
     "Ready Prod": 10,
