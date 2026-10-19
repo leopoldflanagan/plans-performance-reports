@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T11:37:45Z",
+ "generated": "2026-10-19T12:10:16Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -596,8 +596,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 45.9,
-    "max_age": 45.9,
+    "med_age": 46.0,
+    "max_age": 46.0,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -608,7 +608,7 @@
    {
     "status": "PR Merged",
     "open": 6,
-    "med_age": 2.8,
+    "med_age": 2.9,
     "max_age": 5.7,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -620,8 +620,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 10.7,
-    "max_age": 10.7,
+    "med_age": 10.8,
+    "max_age": 10.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -642,18 +642,6 @@
     "clear_n": 50
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -664,11 +652,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 165
   },
   "open_total": 142,
   "stale": 51,
