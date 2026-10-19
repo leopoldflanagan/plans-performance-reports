@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T19:34:54Z",
+ "generated": "2026-10-19T20:06:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 76,
-   "sprint": 224,
+   "sprint": 225,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 17,
+    "n": 18,
     "items": [
      {
       "key": "PLANS-23913",
@@ -268,12 +268,12 @@
       "summary": "[5.1.W1] wellfit-plans-services-widget - wf-plan-summary-card binds resolved Sav"
      },
      {
-      "key": "PLANS-22220",
-      "summary": "Story 2.5: Wire Add, Edit, and Remove Primary Contact via existing screens with "
+      "key": "PLANS-23329",
+      "summary": "[4.1.W1] plans-core - carry the plan type and the coverage levels on the manage "
      },
      {
-      "key": "PLANS-22218",
-      "summary": "Story 2.4: PMP Overview PrimaryContactPanel warning and linked-adult read states"
+      "key": "PLANS-22220",
+      "summary": "Story 2.5: Wire Add, Edit, and Remove Primary Contact via existing screens with "
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 286 of 289 items. This reads as a field the team does not use rather than 286 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 286,
+    "why": "missing on 287 of 290 items. This reads as a field the team does not use rather than 287 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 287,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 283 of 289 items. This reads as a field the team does not use rather than 283 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 283,
+    "why": "missing on 284 of 290 items. This reads as a field the team does not use rather than 284 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 284,
     "items": []
    },
    {
@@ -442,17 +442,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 480,
+  "items": 483,
   "items_done": 57,
   "committed": 230,
-  "final": 384,
+  "final": 387,
   "completed": 133,
-  "scope_change": 67,
+  "scope_change": 68,
   "vs_commitment": 58,
   "time_elapsed": 53,
   "spill": {
-   "open_items": 174,
-   "open_pts": 242.0,
+   "open_items": 175,
+   "open_pts": 245.0,
    "out_items": 8,
    "out_pts": 7.0,
    "done_pts": 124.0
@@ -467,13 +467,13 @@
   "dist": {
    "Done": 75,
    "To Do": 154,
-   "In Progress": 17,
-   "PR Created": 2,
+   "In Progress": 19,
+   "PR Merged": 4,
    "Ready for Development": 11,
    "Ready Prod": 29,
-   "In Stage": 41,
+   "In Stage": 42,
+   "PR Created": 1,
    "In Development": 6,
-   "PR Merged": 3,
    "Closed": 22,
    "Backlog": 108,
    "In Testing": 2,
@@ -489,7 +489,7 @@
    203.0,
    203.0,
    227.0,
-   251.0
+   254.0
   ],
   "scope": [
    14.0,
@@ -500,7 +500,7 @@
    299.0,
    299.0,
    323.0,
-   384.0
+   387.0
   ],
   "ghost": [
    14.0,
@@ -511,7 +511,7 @@
    203.0,
    203.0,
    227.0,
-   251.0
+   254.0
   ],
   "days": 14,
   "day": 8
@@ -586,15 +586,15 @@
    },
    {
     "status": "PR Created",
-    "open": 5,
-    "med_age": 3.2,
+    "open": 3,
+    "med_age": 11.9,
     "max_age": 33.2,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 667
+    "clear_n": 669
    },
    {
     "status": "WAITING REVIEW",
@@ -622,7 +622,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 11,
+    "open": 13,
     "med_age": 0.1,
     "max_age": 6.1,
     "worst_key": "PLANS-24431",
@@ -631,6 +631,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 627
+   },
+   {
+    "status": "In QA",
+    "open": 4,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-23741",
+    "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
+    "worst_who": "Conor Kamperman",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 53
    },
    {
     "status": "In PreProd",
@@ -643,18 +655,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
-   },
-   {
-    "status": "In QA",
-    "open": 4,
-    "med_age": 0.0,
-    "max_age": 0.1,
-    "worst_key": "PLANS-23741",
-    "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
-    "worst_who": "Conor Kamperman",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 53
    },
    {
     "status": "Ready for Stage",
