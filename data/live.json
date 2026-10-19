@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T14:07:07Z",
+ "generated": "2026-10-19T14:38:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -570,21 +570,9 @@
     "clear_n": 258
    },
    {
-    "status": "PR Created",
-    "open": 19,
-    "med_age": 3.7,
-    "max_age": 33.0,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 8,
-    "clear_med": 0.0,
-    "clear_n": 643
-   },
-   {
     "status": "In Development",
-    "open": 19,
-    "med_age": 3.7,
+    "open": 20,
+    "med_age": 3.5,
     "max_age": 24.0,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
@@ -592,6 +580,18 @@
     "over": 6,
     "clear_med": 0.0,
     "clear_n": 622
+   },
+   {
+    "status": "PR Created",
+    "open": 18,
+    "med_age": 3.7,
+    "max_age": 33.0,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 7,
+    "clear_med": 0.0,
+    "clear_n": 644
    },
    {
     "status": "Identified",
@@ -607,8 +607,8 @@
    },
    {
     "status": "PR Merged",
-    "open": 6,
-    "med_age": 2.9,
+    "open": 7,
+    "med_age": 3.0,
     "max_age": 5.8,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -620,8 +620,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 10.8,
-    "max_age": 10.8,
+    "med_age": 10.9,
+    "max_age": 10.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -668,10 +668,10 @@
   ],
   "parked": {
    "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 164
   },
-  "open_total": 142,
-  "stale": 57,
+  "open_total": 143,
+  "stale": 56,
   "worst": "In Stage"
  }
 }
