@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T12:10:16Z",
+ "generated": "2026-10-19T12:48:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 96,
   "scope_change": 31,
   "vs_commitment": 44,
-  "time_elapsed": 50,
+  "time_elapsed": 51,
   "spill": {
    "open_items": 158,
    "open_pts": 192.0,
@@ -468,8 +468,8 @@
    "To Do": 123,
    "Done": 61,
    "Ready Prod": 20,
-   "PR Created": 3,
-   "In Development": 5,
+   "PR Created": 4,
+   "In Development": 4,
    "In Progress": 14,
    "In Stage": 28,
    "Closed": 22,
@@ -548,7 +548,7 @@
    {
     "status": "In Stage",
     "open": 65,
-    "med_age": 4.8,
+    "med_age": 4.9,
     "max_age": 10.6,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -560,7 +560,7 @@
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 5.3,
+    "med_age": 5.4,
     "max_age": 39.4,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -570,9 +570,21 @@
     "clear_n": 256
    },
    {
-    "status": "PR Created",
+    "status": "In Development",
     "open": 18,
-    "med_age": 4.3,
+    "med_age": 4.0,
+    "max_age": 23.9,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 6,
+    "clear_med": 0.0,
+    "clear_n": 622
+   },
+   {
+    "status": "PR Created",
+    "open": 19,
+    "med_age": 3.7,
     "max_age": 32.9,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -580,18 +592,6 @@
     "over": 8,
     "clear_med": 0.0,
     "clear_n": 643
-   },
-   {
-    "status": "In Development",
-    "open": 19,
-    "med_age": 3.6,
-    "max_age": 23.9,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 6,
-    "clear_med": 0.0,
-    "clear_n": 621
    },
    {
     "status": "Identified",
@@ -609,7 +609,7 @@
     "status": "PR Merged",
     "open": 6,
     "med_age": 2.9,
-    "max_age": 5.7,
+    "max_age": 5.8,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -667,8 +667,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 3
   },
   "open_total": 142,
   "stale": 51,
