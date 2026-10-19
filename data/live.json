@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T17:04:58Z",
+ "generated": "2026-10-19T17:36:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 8,
   "days": 14,
   "n": 17,
-  "done_now": 102,
+  "done_now": 107,
   "committed": 219,
-  "lo": 150,
-  "mid": 180,
-  "hi": 290,
-  "pct": 82,
+  "lo": 157,
+  "mid": 189,
+  "hi": 304,
+  "pct": 86,
   "verdict": "a little short of the commitment",
   "share_mid": 0.567
  },
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 446,
-  "items_done": 50,
+  "items_done": 51,
   "committed": 219,
   "final": 328,
-  "completed": 102,
+  "completed": 107,
   "scope_change": 50,
-  "vs_commitment": 47,
+  "vs_commitment": 49,
   "time_elapsed": 52,
   "spill": {
-   "open_items": 171,
-   "open_pts": 228.0,
+   "open_items": 170,
+   "open_pts": 223.0,
    "out_items": 8,
    "out_pts": 7.0,
-   "done_pts": 93.0
+   "done_pts": 98.0
   },
   "recv": {
    "items": 5,
@@ -467,11 +467,11 @@
   "dist": {
    "To Do": 144,
    "PR Created": 2,
-   "Done": 63,
-   "Ready Prod": 22,
-   "In Stage": 40,
+   "Done": 64,
+   "Ready Prod": 23,
+   "In Stage": 39,
    "In Development": 6,
-   "In Progress": 15,
+   "In Progress": 14,
    "PR Merged": 2,
    "Closed": 22,
    "Backlog": 108,
@@ -489,7 +489,7 @@
    192.0,
    192.0,
    216.0,
-   226.0
+   221.0
   ],
   "scope": [
    3.0,
@@ -511,7 +511,7 @@
    192.0,
    192.0,
    216.0,
-   226.0
+   221.0
   ],
   "days": 14,
   "day": 8
@@ -529,8 +529,8 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 419,
-  "points": 1004,
+  "closed": 421,
+  "points": 1012,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -550,20 +550,20 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 62,
-    "med_age": 4.5,
+    "open": 61,
+    "med_age": 4.1,
     "max_age": 10.8,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 26,
+    "over": 25,
     "clear_med": 2.7,
-    "clear_n": 399
+    "clear_n": 400
    },
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 5.5,
+    "med_age": 5.6,
     "max_age": 39.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -598,15 +598,15 @@
    },
    {
     "status": "PR Created",
-    "open": 8,
-    "med_age": 3.5,
+    "open": 7,
+    "med_age": 3.9,
     "max_age": 33.1,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 658
+    "clear_n": 659
    },
    {
     "status": "WAITING REVIEW",
@@ -634,7 +634,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 8,
+    "open": 9,
     "med_age": 0.1,
     "max_age": 6.0,
     "worst_key": "PLANS-24431",
@@ -673,8 +673,8 @@
    "Backlog": 162,
    "On Hold": 3
   },
-  "open_total": 140,
-  "stale": 50,
+  "open_total": 139,
+  "stale": 49,
   "worst": "In Stage"
  }
 }
