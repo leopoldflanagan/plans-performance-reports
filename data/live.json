@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T07:05:15Z",
+ "generated": "2026-10-19T07:53:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -547,56 +547,56 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 56,
-    "med_age": 5.7,
+    "open": 62,
+    "med_age": 4.7,
     "max_age": 10.4,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 21,
     "clear_med": 2.7,
-    "clear_n": 396
+    "clear_n": 395
    },
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 5.9,
+    "med_age": 6.0,
     "max_age": 39.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 15,
     "clear_med": 0.8,
-    "clear_n": 257
+    "clear_n": 256
    },
    {
     "status": "PR Created",
-    "open": 23,
-    "med_age": 6.9,
+    "open": 17,
+    "med_age": 4.8,
     "max_age": 32.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 9,
+    "over": 8,
     "clear_med": 0.0,
-    "clear_n": 636
+    "clear_n": 641
    },
    {
     "status": "In Development",
     "open": 19,
-    "med_age": 3.4,
+    "med_age": 3.5,
     "max_age": 23.7,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 619
+    "clear_n": 618
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 28.5,
+    "med_age": 28.6,
     "max_age": 46.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
@@ -621,13 +621,13 @@
     "status": "PR Merged",
     "open": 6,
     "med_age": 2.7,
-    "max_age": 5.5,
+    "max_age": 5.6,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 610
+    "clear_n": 615
    },
    {
     "status": "In QA",
@@ -668,10 +668,10 @@
   ],
   "parked": {
    "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 166
   },
   "open_total": 140,
-  "stale": 54,
+  "stale": 53,
   "worst": "In Stage"
  }
 }
