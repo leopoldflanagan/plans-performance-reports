@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T23:32:54Z",
+ "generated": "2026-10-19T00:16:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 7,
+  "day": 8,
   "days": 14,
   "n": 17,
   "done_now": 96,
   "committed": 219,
-  "lo": 157,
-  "mid": 217,
-  "hi": 467,
-  "pct": 99,
-  "verdict": "on track for the commitment",
-  "share_mid": 0.443
+  "lo": 141,
+  "mid": 169,
+  "hi": 273,
+  "pct": 77,
+  "verdict": "well short of the commitment",
+  "share_mid": 0.567
  },
  "admin": {
   "scope": {
@@ -449,7 +449,7 @@
   "completed": 96,
   "scope_change": 31,
   "vs_commitment": 44,
-  "time_elapsed": 46,
+  "time_elapsed": 47,
   "spill": {
    "open_items": 158,
    "open_pts": 192.0,
@@ -511,7 +511,7 @@
    190.0
   ],
   "days": 14,
-  "day": 7
+  "day": 8
  },
  "next": {
   "name": "LL-Sprint 25-26",
@@ -524,7 +524,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 21,
+  "day": 22,
   "days": 28,
   "closed": 406,
   "points": 974,
@@ -572,7 +572,7 @@
    {
     "status": "PR Created",
     "open": 23,
-    "med_age": 6.6,
+    "med_age": 6.7,
     "max_age": 32.4,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -608,8 +608,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 45.4,
-    "max_age": 45.4,
+    "med_age": 45.5,
+    "max_age": 45.5,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -620,8 +620,8 @@
    {
     "status": "PR Merged",
     "open": 6,
-    "med_age": 2.3,
-    "max_age": 5.2,
+    "med_age": 2.4,
+    "max_age": 5.3,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -667,8 +667,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 3
   },
   "open_total": 140,
   "stale": 54,
