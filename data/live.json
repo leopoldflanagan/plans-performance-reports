@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T18:43:15Z",
+ "generated": "2026-10-19T19:05:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -56,18 +56,18 @@
   "days": 14,
   "n": 17,
   "done_now": 107,
-  "committed": 219,
+  "committed": 230,
   "lo": 157,
   "mid": 189,
   "hi": 304,
-  "pct": 86,
+  "pct": 82,
   "verdict": "a little short of the commitment",
   "share_mid": 0.567
  },
  "admin": {
   "scope": {
    "ready": 76,
-   "sprint": 214,
+   "sprint": 218,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
@@ -202,8 +202,12 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 81,
+    "n": 82,
     "items": [
+     {
+      "key": "PLANS-24566",
+      "summary": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)"
+     },
      {
       "key": "PLANS-24485",
       "summary": "Marketing Settings - Legacy ONLY - CDPS \"Show Header as\" setting is not inherite"
@@ -231,17 +235,13 @@
      {
       "key": "PLANS-24399",
       "summary": "STAGE/Prod - Plan Details -  Auto renewal text is not matching with CSP configur"
-     },
-     {
-      "key": "PLANS-24275",
-      "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
      }
     ]
    },
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 15,
+    "n": 17,
     "items": [
      {
       "key": "PLANS-23913",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 277 of 280 items. This reads as a field the team does not use rather than 277 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 277,
+    "why": "missing on 280 of 283 items. This reads as a field the team does not use rather than 280 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 280,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 274 of 280 items. This reads as a field the team does not use rather than 274 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 274,
+    "why": "missing on 277 of 283 items. This reads as a field the team does not use rather than 277 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 277,
     "items": []
    },
    {
@@ -442,17 +442,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 446,
+  "items": 461,
   "items_done": 51,
-  "committed": 219,
-  "final": 328,
+  "committed": 230,
+  "final": 358,
   "completed": 107,
-  "scope_change": 50,
-  "vs_commitment": 49,
+  "scope_change": 56,
+  "vs_commitment": 47,
   "time_elapsed": 52,
   "spill": {
-   "open_items": 170,
-   "open_pts": 223.0,
+   "open_items": 174,
+   "open_pts": 242.0,
    "out_items": 8,
    "out_pts": 7.0,
    "done_pts": 98.0
@@ -465,53 +465,53 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 143,
-   "In Progress": 15,
+   "To Do": 147,
+   "In Progress": 17,
    "PR Created": 2,
-   "Done": 64,
+   "Ready for Development": 11,
+   "Done": 69,
    "Ready Prod": 23,
-   "In Stage": 39,
+   "In Stage": 41,
    "In Development": 6,
-   "PR Merged": 2,
+   "PR Merged": 3,
    "Closed": 22,
    "Backlog": 108,
-   "Ready for Development": 10,
    "In Testing": 2,
    "On Hold": 2,
    "Will Not Implement": 1
   },
   "burn": [
-   3.0,
-   190.0,
-   189.0,
-   187.0,
-   192.0,
-   192.0,
-   192.0,
-   216.0,
-   221.0
+   14.0,
+   201.0,
+   200.0,
+   198.0,
+   203.0,
+   203.0,
+   203.0,
+   227.0,
+   251.0
   ],
   "scope": [
-   3.0,
-   219.0,
-   231.0,
-   251.0,
-   287.0,
-   288.0,
-   288.0,
-   312.0,
-   328.0
+   14.0,
+   230.0,
+   242.0,
+   262.0,
+   298.0,
+   299.0,
+   299.0,
+   323.0,
+   358.0
   ],
   "ghost": [
-   3.0,
-   190.0,
-   189.0,
-   187.0,
-   192.0,
-   192.0,
-   192.0,
-   216.0,
-   221.0
+   14.0,
+   201.0,
+   200.0,
+   198.0,
+   203.0,
+   203.0,
+   203.0,
+   227.0,
+   251.0
   ],
   "days": 14,
   "day": 8
@@ -529,8 +529,8 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 421,
-  "points": 1012,
+  "closed": 426,
+  "points": 1036,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -550,15 +550,15 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 61,
+    "open": 59,
     "med_age": 4.1,
     "max_age": 10.9,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 25,
+    "over": 24,
     "clear_med": 2.7,
-    "clear_n": 399
+    "clear_n": 403
    },
    {
     "status": "Ready for Development",
@@ -573,28 +573,40 @@
     "clear_n": 258
    },
    {
-    "status": "In Development",
-    "open": 28,
-    "med_age": 2.8,
-    "max_age": 24.2,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 6,
-    "clear_med": 0.0,
-    "clear_n": 628
-   },
-   {
     "status": "Identified",
     "open": 1,
-    "med_age": 46.2,
-    "max_age": 46.2,
+    "med_age": 46.3,
+    "max_age": 46.3,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 2
+   },
+   {
+    "status": "In Development",
+    "open": 24,
+    "med_age": 1.6,
+    "max_age": 24.2,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 2,
+    "clear_med": 0.0,
+    "clear_n": 632
+   },
+   {
+    "status": "PR Created",
+    "open": 5,
+    "med_age": 3.2,
+    "max_age": 33.2,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 2,
+    "clear_med": 0.0,
+    "clear_n": 666
    },
    {
     "status": "WAITING REVIEW",
@@ -609,18 +621,6 @@
     "clear_n": 20
    },
    {
-    "status": "PR Created",
-    "open": 6,
-    "med_age": 1.8,
-    "max_age": 33.2,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 2,
-    "clear_med": 0.0,
-    "clear_n": 661
-   },
-   {
     "status": "PR Merged",
     "open": 11,
     "med_age": 0.1,
@@ -630,31 +630,19 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 621
+    "clear_n": 626
    },
    {
     "status": "In QA",
-    "open": 3,
-    "med_age": 0.1,
+    "open": 5,
+    "med_age": 0.0,
     "max_age": 2.9,
     "worst_key": "PLANS-23307",
     "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 49
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 2.6,
+    "clear_n": 51
    },
    {
     "status": "In PreProd",
@@ -667,14 +655,26 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 164,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 164
   },
-  "open_total": 139,
-  "stale": 49,
+  "open_total": 134,
+  "stale": 44,
   "worst": "In Stage"
  }
 }
