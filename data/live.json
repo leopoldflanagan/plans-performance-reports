@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T14:38:47Z",
+ "generated": "2026-10-19T15:06:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 46,
-    "points": 92,
+    "n": 44,
+    "points": 84,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,8 +66,8 @@
  },
  "admin": {
   "scope": {
-   "ready": 78,
-   "sprint": 200,
+   "ready": 76,
+   "sprint": 201,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 53,
+    "n": 51,
     "items": [
      {
       "key": "PLANS-24566",
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 17,
+    "n": 15,
     "items": [
      {
       "key": "PLANS-23969",
@@ -250,14 +250,6 @@
      {
       "key": "PLANS-23913",
       "summary": "ACH -  Emails are not working (Declines, Returns)"
-     },
-     {
-      "key": "PLANS-23410",
-      "summary": "[4.2.W1] Assert the file is genuinely CREG before applying"
-     },
-     {
-      "key": "PLANS-23409",
-      "summary": "[4.1.W1] Halt out-of-band files with an anomaly and row-count gate"
      },
      {
       "key": "PLANS-15940",
@@ -274,13 +266,21 @@
      {
       "key": "PLANS-23477",
       "summary": "[5.2.W1] wellfit-plans-services-widget - wf-fee-schedule renders CategorySavings"
+     },
+     {
+      "key": "PLANS-23474",
+      "summary": "[5.1.W1] wellfit-plans-services-widget - wf-plan-summary-card binds resolved Sav"
+     },
+     {
+      "key": "PLANS-22220",
+      "summary": "Story 2.5: Wire Add, Edit, and Remove Primary Contact via existing screens with "
      }
     ]
    },
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 106,
+    "n": 107,
     "items": [
      {
       "key": "PLANS-24485",
@@ -299,6 +299,10 @@
       "summary": "PLANS-23852: Member Portal: Find A Dentist: Accessibility Screen Reader does not"
      },
      {
+      "key": "PLANS-21645",
+      "summary": "ACH Refund / CC Refund - Transactions Not Visible in Member Portal > Transaction"
+     },
+     {
       "key": "PLANS-14945",
       "summary": "PM Hours Tracking  KOS Dental Dreams Custom Website"
      },
@@ -309,10 +313,6 @@
      {
       "key": "PLANS-14896",
       "summary": "PM Hours Tracking  Member Portal Plans Item Tracking"
-     },
-     {
-      "key": "PLANS-14893",
-      "summary": "PM Hours Tracking  PMP Updates Pending Other Teams"
      }
     ]
    }
@@ -321,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 181,
+    "n": 182,
     "items": [
      {
       "key": "PLANS-24546",
@@ -359,20 +359,20 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 264 of 268 items. This reads as a field the team does not use rather than 264 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 264,
+    "why": "missing on 263 of 267 items. This reads as a field the team does not use rather than 263 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 263,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 267 of 268 items. This reads as a field the team does not use rather than 267 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 267,
+    "why": "missing on 266 of 267 items. This reads as a field the team does not use rather than 266 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 266,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 129,
+    "n": 130,
     "items": [
      {
       "key": "PLANS-22675",
@@ -442,7 +442,7 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 407,
+  "items": 410,
   "items_done": 48,
   "committed": 219,
   "final": 286,
@@ -451,7 +451,7 @@
   "vs_commitment": 44,
   "time_elapsed": 51,
   "spill": {
-   "open_items": 158,
+   "open_items": 159,
    "open_pts": 192.0,
    "out_items": 8,
    "out_pts": 7.0,
@@ -465,7 +465,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 123,
+   "To Do": 125,
    "Done": 61,
    "Ready Prod": 20,
    "PR Created": 4,
@@ -473,7 +473,7 @@
    "In Progress": 14,
    "In Stage": 28,
    "Closed": 22,
-   "Backlog": 107,
+   "Backlog": 108,
    "PR Merged": 3,
    "Ready for Development": 10,
    "In Testing": 1,
@@ -526,8 +526,8 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 407,
-  "points": 974,
+  "closed": 410,
+  "points": 982,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -548,26 +548,38 @@
    {
     "status": "In Stage",
     "open": 65,
-    "med_age": 4.9,
+    "med_age": 5.0,
     "max_age": 10.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 26,
+    "over": 27,
     "clear_med": 2.7,
     "clear_n": 394
    },
    {
     "status": "Ready for Development",
-    "open": 30,
-    "med_age": 6.2,
+    "open": 28,
+    "med_age": 9.0,
     "max_age": 39.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 15,
-    "clear_med": 0.8,
-    "clear_n": 258
+    "clear_med": 0.9,
+    "clear_n": 260
+   },
+   {
+    "status": "PR Created",
+    "open": 16,
+    "med_age": 4.4,
+    "max_age": 33.0,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 7,
+    "clear_med": 0.0,
+    "clear_n": 646
    },
    {
     "status": "In Development",
@@ -580,18 +592,6 @@
     "over": 6,
     "clear_med": 0.0,
     "clear_n": 622
-   },
-   {
-    "status": "PR Created",
-    "open": 18,
-    "med_age": 3.7,
-    "max_age": 33.0,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 644
    },
    {
     "status": "Identified",
@@ -607,9 +607,9 @@
    },
    {
     "status": "PR Merged",
-    "open": 7,
+    "open": 9,
     "med_age": 3.0,
-    "max_age": 5.8,
+    "max_age": 5.9,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -668,10 +668,10 @@
   ],
   "parked": {
    "On Hold": 3,
-   "Backlog": 164
+   "Backlog": 163
   },
-  "open_total": 143,
-  "stale": 56,
+  "open_total": 141,
+  "stale": 57,
   "worst": "In Stage"
  }
 }
