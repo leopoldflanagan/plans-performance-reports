@@ -482,7 +482,8 @@
     "Closed": 84,
     "Ready Prod": 12,
     "Will Not Implement": 10,
-    "On Hold": 2,
+    "PR Created": 1,
+    "On Hold": 1,
     "Backlog": 3,
     "In Development": 8,
     "In QA": 1
@@ -497,6 +498,10 @@
     "To Do": {
      "n": 185,
      "med": 13.58
+    },
+    "In Progress": {
+     "n": 48,
+     "med": 0.07
     },
     "PR Created": {
      "n": 40,
@@ -525,10 +530,6 @@
     "Ready Prod": {
      "n": 31,
      "med": 9.65
-    },
-    "In Progress": {
-     "n": 47,
-     "med": 0.07
     },
     "Ready for Development": {
      "n": 24,
@@ -568,13 +569,13 @@
     }
    },
    "dist": {
-    "To Do": 144,
+    "To Do": 143,
+    "In Progress": 15,
     "PR Created": 2,
     "Done": 64,
     "Ready Prod": 23,
     "In Stage": 39,
     "In Development": 6,
-    "In Progress": 14,
     "PR Merged": 2,
     "Closed": 23,
     "Backlog": 110,
@@ -591,7 +592,7 @@
   "Plans-Sprint 24-26": {
    "tis": {
     "Backlog": {
-     "n": 31,
+     "n": 33,
      "med": 2.01
     },
     "To Do": {
@@ -608,18 +609,18 @@
     },
     "Ready for Development": {
      "n": 37,
-     "med": 0.98
+     "med": 0.78
     },
     "In Development": {
-     "n": 61,
-     "med": 0.84
+     "n": 63,
+     "med": 0.78
     },
     "PR Created": {
-     "n": 45,
-     "med": 0.01
+     "n": 46,
+     "med": 0.02
     },
     "PR Merged": {
-     "n": 43,
+     "n": 45,
      "med": 0.02
     },
     "In Stage": {
@@ -635,7 +636,7 @@
      "med": 10.49
     },
     "In QA": {
-     "n": 11,
+     "n": 12,
      "med": 0.98
     },
     "In PreProd": {
@@ -648,7 +649,7 @@
     },
     "On Hold": {
      "n": 5,
-     "med": 11.65
+     "med": 9.64
     },
     "Will Not Implement": {
      "n": 2,
@@ -656,19 +657,19 @@
     }
    },
    "dist": {
-    "Backlog": 10,
+    "Backlog": 12,
     "In Progress": 21,
     "Done": 73,
     "To Do": 46,
-    "Ready for Development": 4,
+    "Ready for Development": 3,
     "In Stage": 21,
     "Closed": 17,
+    "In Development": 11,
     "Ready Prod": 10,
-    "On Hold": 4,
-    "In Development": 12,
-    "PR Merged": 3,
-    "PR Created": 2,
-    "In QA": 1,
+    "On Hold": 3,
+    "PR Merged": 4,
+    "In QA": 2,
+    "PR Created": 1,
     "WAITING REVIEW": 1,
     "Will Not Implement": 2
    },
