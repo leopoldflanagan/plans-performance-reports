@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T22:05:58Z",
+ "generated": "2026-10-19T22:34:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 18,
+    "n": 17,
     "items": [
      {
       "key": "PLANS-23913",
@@ -268,12 +268,12 @@
       "summary": "[5.1.W1] wellfit-plans-services-widget - wf-plan-summary-card binds resolved Sav"
      },
      {
-      "key": "PLANS-23329",
-      "summary": "[4.1.W1] plans-core - carry the plan type and the coverage levels on the manage "
-     },
-     {
       "key": "PLANS-22220",
       "summary": "Story 2.5: Wire Add, Edit, and Remove Primary Contact via existing screens with "
+     },
+     {
+      "key": "PLANS-22218",
+      "summary": "Story 2.4: PMP Overview PrimaryContactPanel warning and linked-adult read states"
      }
     ]
    },
@@ -449,7 +449,7 @@
   "completed": 136,
   "scope_change": 68,
   "vs_commitment": 59,
-  "time_elapsed": 53,
+  "time_elapsed": 54,
   "spill": {
    "open_items": 174,
    "open_pts": 242.0,
@@ -472,8 +472,8 @@
    "Ready for Development": 11,
    "Ready Prod": 30,
    "In Stage": 41,
-   "PR Created": 1,
-   "In Development": 6,
+   "PR Created": 2,
+   "In Development": 5,
    "Closed": 22,
    "Backlog": 108,
    "In Testing": 2,
@@ -529,8 +529,8 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 431,
-  "points": 1051,
+  "closed": 432,
+  "points": 1054,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -551,14 +551,14 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 3.7,
+    "med_age": 3.3,
     "max_age": 11.0,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 20,
+    "over": 19,
     "clear_med": 2.7,
-    "clear_n": 403
+    "clear_n": 404
    },
    {
     "status": "Ready for Development",
@@ -586,15 +586,15 @@
    },
    {
     "status": "PR Created",
-    "open": 3,
-    "med_age": 12.0,
+    "open": 4,
+    "med_age": 7.7,
     "max_age": 33.3,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 664
+    "clear_n": 665
    },
    {
     "status": "WAITING REVIEW",
@@ -610,15 +610,15 @@
    },
    {
     "status": "In Development",
-    "open": 23,
-    "med_age": 0.4,
+    "open": 21,
+    "med_age": 0.3,
     "max_age": 24.3,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
-    "over": 2,
+    "over": 1,
     "clear_med": 0.0,
-    "clear_n": 628
+    "clear_n": 630
    },
    {
     "status": "PR Merged",
@@ -630,12 +630,12 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 622
+    "clear_n": 623
    },
    {
     "status": "In QA",
     "open": 4,
-    "med_age": 0.1,
+    "med_age": 0.2,
     "max_age": 0.2,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
@@ -643,18 +643,6 @@
     "over": 0,
     "clear_med": 2.7,
     "clear_n": 52
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -667,14 +655,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 168
+   "Backlog": 168,
+   "On Hold": 1
   },
-  "open_total": 130,
-  "stale": 40,
+  "open_total": 129,
+  "stale": 38,
   "worst": "In Stage"
  }
 }
