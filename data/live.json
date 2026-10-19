@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T09:11:34Z",
+ "generated": "2026-10-19T09:44:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 96,
   "scope_change": 31,
   "vs_commitment": 44,
-  "time_elapsed": 49,
+  "time_elapsed": 50,
   "spill": {
    "open_items": 158,
    "open_pts": 192.0,
@@ -570,9 +570,21 @@
     "clear_n": 256
    },
    {
+    "status": "In Development",
+    "open": 20,
+    "med_age": 3.5,
+    "max_age": 23.8,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 6,
+    "clear_med": 0.0,
+    "clear_n": 619
+   },
+   {
     "status": "PR Created",
-    "open": 17,
-    "med_age": 4.9,
+    "open": 19,
+    "med_age": 3.5,
     "max_age": 32.8,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -582,22 +594,10 @@
     "clear_n": 640
    },
    {
-    "status": "In Development",
-    "open": 22,
-    "med_age": 3.2,
-    "max_age": 23.8,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 6,
-    "clear_med": 0.0,
-    "clear_n": 617
-   },
-   {
     "status": "Identified",
     "open": 1,
-    "med_age": 45.8,
-    "max_age": 45.8,
+    "med_age": 45.9,
+    "max_age": 45.9,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -608,7 +608,7 @@
    {
     "status": "PR Merged",
     "open": 6,
-    "med_age": 2.7,
+    "med_age": 2.8,
     "max_age": 5.6,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -620,8 +620,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 10.6,
-    "max_age": 10.6,
+    "med_age": 10.7,
+    "max_age": 10.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -667,8 +667,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 166
+   "Backlog": 166,
+   "On Hold": 3
   },
   "open_total": 141,
   "stale": 51,
