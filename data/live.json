@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T05:38:54Z",
+ "generated": "2026-10-19T06:13:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 96,
   "scope_change": 31,
   "vs_commitment": 44,
-  "time_elapsed": 48,
+  "time_elapsed": 49,
   "spill": {
    "open_items": 158,
    "open_pts": 192.0,
@@ -548,7 +548,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 5.5,
+    "med_age": 5.6,
     "max_age": 10.3,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -560,8 +560,8 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 5.8,
-    "max_age": 39.1,
+    "med_age": 5.9,
+    "max_age": 39.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -573,7 +573,7 @@
     "status": "PR Created",
     "open": 23,
     "med_age": 6.9,
-    "max_age": 32.6,
+    "max_age": 32.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -585,7 +585,7 @@
     "status": "In Development",
     "open": 19,
     "med_age": 3.4,
-    "max_age": 23.6,
+    "max_age": 23.7,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -596,8 +596,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 28.4,
-    "max_age": 46.4,
+    "med_age": 28.5,
+    "max_age": 46.5,
     "worst_key": "PLANS-22301",
     "worst_sum": "Member Portal \\ Broken plan cards on add and renew flow for DCA plans ",
     "worst_who": "unassigned",
@@ -667,8 +667,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 165,
+   "On Hold": 3
   },
   "open_total": 140,
   "stale": 54,
