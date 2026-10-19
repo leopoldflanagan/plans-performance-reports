@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T15:37:20Z",
+ "generated": "2026-10-19T16:06:42Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,19 +55,19 @@
   "day": 8,
   "days": 14,
   "n": 17,
-  "done_now": 96,
+  "done_now": 99,
   "committed": 219,
-  "lo": 141,
-  "mid": 169,
-  "hi": 273,
-  "pct": 77,
-  "verdict": "well short of the commitment",
+  "lo": 145,
+  "mid": 175,
+  "hi": 281,
+  "pct": 80,
+  "verdict": "a little short of the commitment",
   "share_mid": 0.567
  },
  "admin": {
   "scope": {
    "ready": 75,
-   "sprint": 204,
+   "sprint": 210,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 15,
+    "n": 16,
     "items": [
      {
       "key": "PLANS-23969",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 265 of 269 items. This reads as a field the team does not use rather than 265 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 265,
+    "why": "missing on 271 of 275 items. This reads as a field the team does not use rather than 271 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 271,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 268 of 269 items. This reads as a field the team does not use rather than 268 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 268,
+    "why": "missing on 270 of 275 items. This reads as a field the team does not use rather than 270 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 270,
     "items": []
    },
    {
@@ -442,20 +442,20 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 419,
-  "items_done": 48,
+  "items": 433,
+  "items_done": 49,
   "committed": 219,
-  "final": 292,
-  "completed": 96,
-  "scope_change": 33,
-  "vs_commitment": 44,
-  "time_elapsed": 51,
+  "final": 313,
+  "completed": 99,
+  "scope_change": 43,
+  "vs_commitment": 45,
+  "time_elapsed": 52,
   "spill": {
-   "open_items": 162,
-   "open_pts": 198.0,
+   "open_items": 168,
+   "open_pts": 216.0,
    "out_items": 8,
    "out_pts": 7.0,
-   "done_pts": 87.0
+   "done_pts": 90.0
   },
   "recv": {
    "items": 5,
@@ -465,18 +465,18 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 131,
-   "Done": 61,
-   "Ready Prod": 20,
+   "To Do": 136,
    "PR Created": 2,
+   "Done": 62,
+   "Ready Prod": 21,
+   "In Stage": 37,
    "In Development": 5,
-   "In Progress": 14,
-   "In Stage": 30,
+   "In Progress": 15,
+   "PR Merged": 3,
    "Closed": 22,
    "Backlog": 108,
-   "PR Merged": 5,
    "Ready for Development": 10,
-   "In Testing": 1,
+   "In Testing": 2,
    "On Hold": 2,
    "Will Not Implement": 1
   },
@@ -488,7 +488,8 @@
    190.0,
    190.0,
    190.0,
-   196.0
+   214.0,
+   214.0
   ],
   "scope": [
    3.0,
@@ -498,7 +499,8 @@
    285.0,
    286.0,
    286.0,
-   292.0
+   310.0,
+   313.0
   ],
   "ghost": [
    3.0,
@@ -508,7 +510,8 @@
    190.0,
    190.0,
    190.0,
-   196.0
+   214.0,
+   214.0
   ],
   "days": 14,
   "day": 8
@@ -526,8 +529,8 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 410,
-  "points": 982,
+  "closed": 415,
+  "points": 996,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -546,18 +549,6 @@
   "stale_days": 7,
   "rows": [
    {
-    "status": "In Stage",
-    "open": 64,
-    "med_age": 5.0,
-    "max_age": 10.7,
-    "worst_key": "PLANS-24033",
-    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
-    "worst_who": "Valentyna Tenus",
-    "over": 28,
-    "clear_med": 2.7,
-    "clear_n": 394
-   },
-   {
     "status": "Ready for Development",
     "open": 27,
     "med_age": 11.0,
@@ -570,16 +561,28 @@
     "clear_n": 260
    },
    {
+    "status": "In Stage",
+    "open": 65,
+    "med_age": 4.0,
+    "max_age": 10.8,
+    "worst_key": "PLANS-24033",
+    "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
+    "worst_who": "Valentyna Tenus",
+    "over": 27,
+    "clear_med": 2.7,
+    "clear_n": 396
+   },
+   {
     "status": "In Development",
-    "open": 21,
-    "med_age": 3.3,
-    "max_age": 24.0,
+    "open": 20,
+    "med_age": 3.5,
+    "max_age": 24.1,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 622
+    "clear_n": 623
    },
    {
     "status": "PR Created",
@@ -591,7 +594,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 646
+    "clear_n": 647
    },
    {
     "status": "Identified",
@@ -604,18 +607,6 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 2
-   },
-   {
-    "status": "PR Merged",
-    "open": 9,
-    "med_age": 3.0,
-    "max_age": 5.9,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 617
    },
    {
     "status": "WAITING REVIEW",
@@ -632,8 +623,8 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 2.7,
-    "max_age": 2.7,
+    "med_age": 2.8,
+    "max_age": 2.8,
     "worst_key": "PLANS-23307",
     "worst_sum": "2.2: Run joint 270/271 eligibility testing with PDS against real CREG members",
     "worst_who": "Sailaja Yanamandra",
@@ -642,16 +633,16 @@
     "clear_n": 50
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "PR Merged",
+    "open": 7,
+    "med_age": 0.0,
+    "max_age": 5.9,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
+    "clear_med": 0.1,
+    "clear_n": 620
    },
    {
     "status": "Ready for Stage",
@@ -664,14 +655,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 164
+   "Backlog": 164,
+   "On Hold": 3
   },
-  "open_total": 141,
-  "stale": 58,
-  "worst": "In Stage"
+  "open_total": 139,
+  "stale": 57,
+  "worst": "Ready for Development"
  }
 }
