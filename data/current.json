@@ -95,7 +95,7 @@
    "Plans-Sprint 23-26",
    "Sep 29",
    "Oct 13",
-   356,
+   355,
    79,
    351,
    463,
@@ -173,7 +173,7 @@
    "Plans-Sprint 24-26",
    "Oct 13",
    "Oct 26",
-   236,
+   227,
    23,
    245,
    275,
@@ -263,15 +263,15 @@
   "Plans-Sprint 24-26": {
    "done": [
     23,
-    91
+    80
    ],
    "open": [
     56,
     178
    ],
    "out": [
-    2,
-    3
+    4,
+    14
    ],
    "in": [
     0,
@@ -407,7 +407,7 @@
   "Plans-Sprint 23-26": {
    "tis": {
     "To Do": {
-     "n": 177,
+     "n": 176,
      "med": 10.77
     },
     "In Progress": {
@@ -474,7 +474,7 @@
    "dist": {
     "In Progress": 2,
     "Done": 219,
-    "To Do": 6,
+    "To Do": 5,
     "In Stage": 9,
     "Closed": 82,
     "Ready Prod": 12,
@@ -485,10 +485,10 @@
     "Ready for Development": 2,
     "In QA": 1
    },
-   "stalled": 167,
+   "stalled": 166,
    "worst": 10.77,
    "worstSt": "To Do",
-   "items": 356
+   "items": 355
   },
   "LL-Sprint 24-26": {
    "tis": {
@@ -589,15 +589,15 @@
   "Plans-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 113,
-     "med": 3.34
+     "n": 106,
+     "med": 6.41
     },
     "In Progress": {
-     "n": 58,
+     "n": 55,
      "med": 1.02
     },
     "Done": {
-     "n": 84,
+     "n": 77,
      "med": 11.66
     },
     "Backlog": {
@@ -655,8 +655,8 @@
    },
    "dist": {
     "In Progress": 17,
-    "Done": 80,
-    "To Do": 55,
+    "Done": 73,
+    "To Do": 53,
     "Ready for Development": 7,
     "Backlog": 8,
     "In Stage": 22,
@@ -665,14 +665,14 @@
     "On Hold": 4,
     "In Development": 11,
     "PR Created": 5,
-    "Will Not Implement": 2,
     "In QA": 1,
-    "WAITING REVIEW": 1
+    "WAITING REVIEW": 1,
+    "Will Not Implement": 2
    },
-   "stalled": 211,
+   "stalled": 202,
    "worst": 11.66,
    "worstSt": "Done",
-   "items": 236
+   "items": 227
   }
  },
  "GHOST": {

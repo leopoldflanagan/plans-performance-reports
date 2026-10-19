@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T13:43:54Z",
+ "generated": "2026-10-19T14:07:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -553,7 +553,7 @@
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 21,
+    "over": 26,
     "clear_med": 2.7,
     "clear_n": 394
    },
@@ -570,18 +570,6 @@
     "clear_n": 258
    },
    {
-    "status": "In Development",
-    "open": 19,
-    "med_age": 3.7,
-    "max_age": 24.0,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 6,
-    "clear_med": 0.0,
-    "clear_n": 622
-   },
-   {
     "status": "PR Created",
     "open": 19,
     "med_age": 3.7,
@@ -594,10 +582,22 @@
     "clear_n": 643
    },
    {
+    "status": "In Development",
+    "open": 19,
+    "med_age": 3.7,
+    "max_age": 24.0,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 6,
+    "clear_med": 0.0,
+    "clear_n": 622
+   },
+   {
     "status": "Identified",
     "open": 1,
-    "med_age": 46.0,
-    "max_age": 46.0,
+    "med_age": 46.1,
+    "max_age": 46.1,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -667,11 +667,11 @@
    }
   ],
   "parked": {
-   "Backlog": 164,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 165
   },
   "open_total": 142,
-  "stale": 52,
+  "stale": 57,
   "worst": "In Stage"
  }
 }
