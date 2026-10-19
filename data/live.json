@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T21:05:52Z",
+ "generated": "2026-10-19T21:35:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -551,14 +551,14 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 3.6,
+    "med_age": 3.7,
     "max_age": 11.0,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
     "over": 20,
-    "clear_med": 2.8,
-    "clear_n": 405
+    "clear_med": 2.7,
+    "clear_n": 404
    },
    {
     "status": "Ready for Development",
@@ -570,13 +570,13 @@
     "worst_who": "unassigned",
     "over": 14,
     "clear_med": 0.8,
-    "clear_n": 255
+    "clear_n": 254
    },
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 46.3,
-    "max_age": 46.3,
+    "med_age": 46.4,
+    "max_age": 46.4,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -594,7 +594,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 666
+    "clear_n": 665
    },
    {
     "status": "WAITING REVIEW",
@@ -611,14 +611,14 @@
    {
     "status": "In Development",
     "open": 23,
-    "med_age": 0.3,
+    "med_age": 0.4,
     "max_age": 24.3,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 630
+    "clear_n": 629
    },
    {
     "status": "PR Merged",
@@ -630,7 +630,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 624
+    "clear_n": 623
    },
    {
     "status": "In QA",
@@ -645,18 +645,6 @@
     "clear_n": 52
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -667,11 +655,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 166
+   "Backlog": 167,
+   "On Hold": 2
   },
   "open_total": 130,
   "stale": 40,
