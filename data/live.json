@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T21:35:12Z",
+ "generated": "2026-10-19T22:05:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -529,8 +529,8 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 430,
-  "points": 1049,
+  "closed": 431,
+  "points": 1051,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -558,12 +558,12 @@
     "worst_who": "Valentyna Tenus",
     "over": 20,
     "clear_med": 2.7,
-    "clear_n": 404
+    "clear_n": 403
    },
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 5.7,
+    "med_age": 5.8,
     "max_age": 39.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -587,26 +587,26 @@
    {
     "status": "PR Created",
     "open": 3,
-    "med_age": 11.9,
+    "med_age": 12.0,
     "max_age": 33.3,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 665
+    "clear_n": 664
    },
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 11.1,
-    "max_age": 11.1,
+    "med_age": 11.2,
+    "max_age": 11.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 20
+    "clear_n": 19
    },
    {
     "status": "In Development",
@@ -618,43 +618,31 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 629
+    "clear_n": 628
    },
    {
     "status": "PR Merged",
     "open": 13,
     "med_age": 0.2,
-    "max_age": 6.1,
+    "max_age": 6.2,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 623
+    "clear_n": 622
    },
    {
     "status": "In QA",
     "open": 4,
     "med_age": 0.1,
-    "max_age": 0.1,
+    "max_age": 0.2,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
     "worst_who": "Conor Kamperman",
     "over": 0,
     "clear_med": 2.7,
     "clear_n": 52
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -667,11 +655,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 167,
-   "On Hold": 2
+   "On Hold": 1,
+   "Backlog": 168
   },
   "open_total": 130,
   "stale": 40,
