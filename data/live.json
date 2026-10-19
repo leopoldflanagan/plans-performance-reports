@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T10:38:40Z",
+ "generated": "2026-10-19T11:06:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -547,7 +547,7 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 64,
+    "open": 65,
     "med_age": 4.8,
     "max_age": 10.5,
     "worst_key": "PLANS-24033",
@@ -561,7 +561,7 @@
     "status": "Ready for Development",
     "open": 31,
     "med_age": 5.3,
-    "max_age": 39.3,
+    "max_age": 39.4,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -570,28 +570,28 @@
     "clear_n": 256
    },
    {
+    "status": "PR Created",
+    "open": 18,
+    "med_age": 4.3,
+    "max_age": 32.9,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 8,
+    "clear_med": 0.0,
+    "clear_n": 643
+   },
+   {
     "status": "In Development",
     "open": 19,
     "med_age": 3.6,
-    "max_age": 23.8,
+    "max_age": 23.9,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
     "over": 6,
     "clear_med": 0.0,
     "clear_n": 621
-   },
-   {
-    "status": "PR Created",
-    "open": 19,
-    "med_age": 3.6,
-    "max_age": 32.8,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 8,
-    "clear_med": 0.0,
-    "clear_n": 642
    },
    {
     "status": "Identified",
@@ -615,7 +615,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 616
+    "clear_n": 617
    },
    {
     "status": "WAITING REVIEW",
