@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T15:06:18Z",
+ "generated": "2026-10-20T15:37:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
+    "n": 43,
     "points": 78,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 76,
+   "ready": 75,
    "sprint": 226,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,7 +74,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 104,
+    "n": 103,
     "items": [
      {
       "key": "PLANS-24624",
@@ -83,10 +83,6 @@
      {
       "key": "PLANS-24621",
       "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
-     },
-     {
-      "key": "PLANS-24614",
-      "summary": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address"
      },
      {
       "key": "PLANS-24585",
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
+     },
+     {
+      "key": "PLANS-14760",
+      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 50,
     "items": [
      {
       "key": "PLANS-24624",
@@ -137,10 +137,6 @@
      {
       "key": "PLANS-24619",
       "summary": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedul"
-     },
-     {
-      "key": "PLANS-24614",
-      "summary": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address"
      },
      {
       "key": "PLANS-24585",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
+     {
+      "key": "PLANS-24518",
+      "summary": "Configurations for Website not working"
      }
     ]
    },
@@ -202,7 +202,7 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 82,
+    "n": 81,
     "items": [
      {
       "key": "PLANS-24485",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 289 of 292 items. This reads as a field the team does not use rather than 289 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 289,
+    "why": "missing on 288 of 291 items. This reads as a field the team does not use rather than 288 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 288,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 286 of 292 items. This reads as a field the team does not use rather than 286 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 286,
+    "why": "missing on 285 of 291 items. This reads as a field the team does not use rather than 285 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 285,
     "items": []
    },
    {
@@ -467,18 +467,18 @@
   "dist": {
    "Done": 76,
    "To Do": 152,
-   "In Development": 5,
+   "In Development": 4,
    "In Progress": 20,
-   "PR Merged": 4,
+   "In Stage": 44,
    "Ready Prod": 30,
-   "In Stage": 41,
-   "PR Created": 4,
+   "PR Created": 5,
    "Closed": 22,
    "Backlog": 108,
    "Ready for Development": 10,
    "In Testing": 2,
    "On Hold": 2,
-   "Will Not Implement": 1
+   "Will Not Implement": 1,
+   "PR Merged": 1
   },
   "burn": [
    14.0,
@@ -549,8 +549,20 @@
   "stale_days": 7,
   "rows": [
    {
+    "status": "Ready for Development",
+    "open": 28,
+    "med_age": 9.2,
+    "max_age": 40.6,
+    "worst_key": "PLANS-22675",
+    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
+    "worst_who": "unassigned",
+    "over": 14,
+    "clear_med": 0.8,
+    "clear_n": 259
+   },
+   {
     "status": "In Stage",
-    "open": 55,
+    "open": 64,
     "med_age": 4.0,
     "max_age": 11.7,
     "worst_key": "PLANS-24033",
@@ -559,18 +571,6 @@
     "over": 18,
     "clear_med": 2.7,
     "clear_n": 404
-   },
-   {
-    "status": "Ready for Development",
-    "open": 29,
-    "med_age": 6.5,
-    "max_age": 40.5,
-    "worst_key": "PLANS-22675",
-    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
-    "worst_who": "unassigned",
-    "over": 14,
-    "clear_med": 0.8,
-    "clear_n": 258
    },
    {
     "status": "Identified",
@@ -585,18 +585,6 @@
     "clear_n": 2
    },
    {
-    "status": "PR Merged",
-    "open": 18,
-    "med_age": 0.9,
-    "max_age": 6.9,
-    "worst_key": "PLANS-24431",
-    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 625
-   },
-   {
     "status": "WAITING REVIEW",
     "open": 1,
     "med_age": 11.9,
@@ -609,52 +597,52 @@
     "clear_n": 18
    },
    {
+    "status": "PR Merged",
+    "open": 12,
+    "med_age": 0.6,
+    "max_age": 6.9,
+    "worst_key": "PLANS-24431",
+    "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 633
+   },
+   {
     "status": "In Development",
     "open": 11,
-    "med_age": 0.9,
-    "max_age": 7.0,
+    "med_age": 0.3,
+    "max_age": 7.1,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
     "worst_who": "Sailaja Yanamandra",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 654
+    "clear_n": 655
    },
    {
     "status": "In QA",
-    "open": 4,
-    "med_age": 0.8,
+    "open": 3,
+    "med_age": 0.9,
     "max_age": 0.9,
-    "worst_key": "PLANS-23741",
-    "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
-    "worst_who": "Conor Kamperman",
+    "worst_key": "PLANS-23382",
+    "worst_sum": "1.4: Schedule the monthly CREG processing job with an explicit source argument",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
-    "clear_med": 2.7,
-    "clear_n": 52
+    "clear_med": 2.6,
+    "clear_n": 53
    },
    {
     "status": "PR Created",
-    "open": 23,
+    "open": 22,
     "med_age": 0.1,
-    "max_age": 34.0,
+    "max_age": 34.1,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 672
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 674
    },
    {
     "status": "In PreProd",
@@ -667,6 +655,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
@@ -675,6 +675,6 @@
   },
   "open_total": 142,
   "stale": 36,
-  "worst": "In Stage"
+  "worst": "Ready for Development"
  }
 }
