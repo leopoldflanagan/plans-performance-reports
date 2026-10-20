@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T18:07:52Z",
+ "generated": "2026-10-20T18:40:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -602,14 +602,14 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 1.1,
+    "med_age": 0.7,
     "max_age": 7.2,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
     "worst_who": "Sailaja Yanamandra",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 660
+    "clear_n": 661
    },
    {
     "status": "PR Created",
@@ -621,7 +621,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 683
+    "clear_n": 684
    },
    {
     "status": "PR Merged",
@@ -674,7 +674,7 @@
   ],
   "parked": {
    "On Hold": 1,
-   "Backlog": 155
+   "Backlog": 156
   },
   "open_total": 139,
   "stale": 35,
