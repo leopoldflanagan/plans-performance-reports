@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T05:06:13Z",
+ "generated": "2026-10-20T05:38:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -563,7 +563,7 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 6.0,
+    "med_age": 6.1,
     "max_age": 40.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -597,6 +597,18 @@
     "clear_n": 664
    },
    {
+    "status": "In Development",
+    "open": 21,
+    "med_age": 0.6,
+    "max_age": 24.6,
+    "worst_key": "PLANS-22998",
+    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 629
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 1,
     "med_age": 11.5,
@@ -607,18 +619,6 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 18
-   },
-   {
-    "status": "In Development",
-    "open": 21,
-    "med_age": 0.5,
-    "max_age": 24.6,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 629
    },
    {
     "status": "PR Merged",
@@ -645,18 +645,6 @@
     "clear_n": 52
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -667,6 +655,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
