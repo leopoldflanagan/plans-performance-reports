@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T12:09:19Z",
+ "generated": "2026-10-20T12:46:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -586,27 +586,27 @@
    },
    {
     "status": "In Development",
-    "open": 21,
+    "open": 22,
     "med_age": 0.8,
-    "max_age": 24.9,
-    "worst_key": "PLANS-22998",
-    "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 1,
+    "max_age": 6.9,
+    "worst_key": "PLANS-23406",
+    "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
     "clear_med": 0.0,
-    "clear_n": 639
+    "clear_n": 640
    },
    {
     "status": "PR Merged",
     "open": 18,
-    "med_age": 0.7,
-    "max_age": 6.7,
+    "med_age": 0.8,
+    "max_age": 6.8,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 622
+    "clear_n": 623
    },
    {
     "status": "WAITING REVIEW",
@@ -624,7 +624,7 @@
     "status": "In QA",
     "open": 4,
     "med_age": 0.7,
-    "max_age": 0.7,
+    "max_age": 0.8,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
     "worst_who": "Conor Kamperman",
@@ -642,7 +642,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 669
+    "clear_n": 670
    },
    {
     "status": "In PreProd",
@@ -670,11 +670,11 @@
    }
   ],
   "parked": {
-   "Backlog": 162,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 161
   },
-  "open_total": 136,
-  "stale": 37,
+  "open_total": 137,
+  "stale": 36,
   "worst": "Ready for Development"
  }
 }
