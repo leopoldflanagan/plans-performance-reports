@@ -479,8 +479,8 @@
     }
    },
    "dist": {
-    "Done": 223,
-    "In Progress": 3,
+    "Done": 224,
+    "In Progress": 2,
     "In Stage": 10,
     "Closed": 88,
     "Ready Prod": 13,
@@ -625,11 +625,11 @@
     },
     "In Progress": {
      "n": 67,
-     "med": 1.06
+     "med": 1.02
     },
     "Done": {
-     "n": 84,
-     "med": 11.57
+     "n": 85,
+     "med": 11.55
     },
     "In Stage": {
      "n": 54,
@@ -665,8 +665,8 @@
     "Ready for Development": 3,
     "In QA": 2,
     "Backlog": 11,
-    "Done": 79,
-    "In Progress": 22,
+    "Done": 80,
+    "In Progress": 21,
     "In Stage": 26,
     "Closed": 23,
     "In Development": 4,
@@ -678,7 +678,7 @@
     "WAITING REVIEW": 1
    },
    "stalled": 193,
-   "worst": 11.57,
+   "worst": 11.55,
    "worstSt": "Done",
    "items": 230
   }

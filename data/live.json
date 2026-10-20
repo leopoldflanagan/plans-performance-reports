@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T22:34:55Z",
+ "generated": "2026-10-20T23:05:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -566,8 +566,8 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 6.0,
-    "max_age": 40.8,
+    "med_age": 6.1,
+    "max_age": 40.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -603,13 +603,25 @@
     "status": "In Development",
     "open": 8,
     "med_age": 0.9,
-    "max_age": 7.3,
+    "max_age": 7.4,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
     "worst_who": "Sailaja Yanamandra",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 657
+   },
+   {
+    "status": "PR Created",
+    "open": 11,
+    "med_age": 0.4,
+    "max_age": 34.4,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 691
    },
    {
     "status": "PR Merged",
@@ -624,18 +636,6 @@
     "clear_n": 641
    },
    {
-    "status": "PR Created",
-    "open": 11,
-    "med_age": 0.3,
-    "max_age": 34.3,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 691
-   },
-   {
     "status": "In QA",
     "open": 2,
     "med_age": 0.1,
@@ -648,18 +648,6 @@
     "clear_n": 56
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -670,11 +658,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 159,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 159
   },
   "open_total": 136,
   "stale": 29,
