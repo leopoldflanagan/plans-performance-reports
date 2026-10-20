@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T14:38:21Z",
+ "generated": "2026-10-20T15:06:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 41,
+    "n": 44,
     "points": 78,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 73,
+   "ready": 76,
    "sprint": 226,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,8 +74,20 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 101,
+    "n": 104,
     "items": [
+     {
+      "key": "PLANS-24624",
+      "summary": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additi"
+     },
+     {
+      "key": "PLANS-24621",
+      "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
+     },
+     {
+      "key": "PLANS-24614",
+      "summary": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address"
+     },
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
@@ -95,18 +107,6 @@
      {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
-     },
-     {
-      "key": "PLANS-14760",
-      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
-     },
-     {
-      "key": "PLANS-14758",
-      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14538",
-      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
      }
     ]
    },
@@ -124,8 +124,24 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 48,
+    "n": 51,
     "items": [
+     {
+      "key": "PLANS-24624",
+      "summary": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additi"
+     },
+     {
+      "key": "PLANS-24621",
+      "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
+     },
+     {
+      "key": "PLANS-24619",
+      "summary": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedul"
+     },
+     {
+      "key": "PLANS-24614",
+      "summary": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address"
+     },
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
@@ -141,22 +157,6 @@
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
-     },
-     {
-      "key": "PLANS-24518",
-      "summary": "Configurations for Website not working"
-     },
-     {
-      "key": "PLANS-24478",
-      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price - CONFIG ISS"
-     },
-     {
-      "key": "PLANS-24475",
-      "summary": "Production - Text Messaging Improvements"
-     },
-     {
-      "key": "PLANS-24467",
-      "summary": "Preprod - One Smile- Membership agreement - logo is not visible"
      }
     ]
    },
@@ -321,8 +321,16 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 182,
+    "n": 183,
     "items": [
+     {
+      "key": "PLANS-24624",
+      "summary": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additi"
+     },
+     {
+      "key": "PLANS-24621",
+      "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
+     },
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
@@ -346,27 +354,19 @@
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
-     },
-     {
-      "key": "PLANS-24273",
-      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
-     },
-     {
-      "key": "PLANS-24113",
-      "summary": "CSP - Rank is not retained in the CSP > Plan Template UI after saving"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 286 of 289 items. This reads as a field the team does not use rather than 286 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 286,
+    "why": "missing on 289 of 292 items. This reads as a field the team does not use rather than 289 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 289,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 283 of 289 items. This reads as a field the team does not use rather than 283 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 283,
+    "why": "missing on 286 of 292 items. This reads as a field the team does not use rather than 286 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 286,
     "items": []
    },
    {
@@ -449,7 +449,7 @@
   "completed": 136,
   "scope_change": 69,
   "vs_commitment": 59,
-  "time_elapsed": 58,
+  "time_elapsed": 59,
   "spill": {
    "open_items": 175,
    "open_pts": 244.0,
@@ -466,9 +466,9 @@
   "spill_rate": null,
   "dist": {
    "Done": 76,
-   "To Do": 154,
+   "To Do": 152,
    "In Development": 5,
-   "In Progress": 18,
+   "In Progress": 20,
    "PR Merged": 4,
    "Ready Prod": 30,
    "In Stage": 41,
@@ -529,7 +529,7 @@
   "end": "2026-10-25",
   "day": 23,
   "days": 28,
-  "closed": 433,
+  "closed": 435,
   "points": 1057,
   "unplanned": null,
   "unplanned_pct": null,
@@ -549,18 +549,6 @@
   "stale_days": 7,
   "rows": [
    {
-    "status": "Ready for Development",
-    "open": 26,
-    "med_age": 13.0,
-    "max_age": 40.5,
-    "worst_key": "PLANS-22675",
-    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
-    "worst_who": "unassigned",
-    "over": 14,
-    "clear_med": 0.8,
-    "clear_n": 257
-   },
-   {
     "status": "In Stage",
     "open": 55,
     "med_age": 4.0,
@@ -571,6 +559,18 @@
     "over": 18,
     "clear_med": 2.7,
     "clear_n": 404
+   },
+   {
+    "status": "Ready for Development",
+    "open": 29,
+    "med_age": 6.5,
+    "max_age": 40.5,
+    "worst_key": "PLANS-22675",
+    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
+    "worst_who": "unassigned",
+    "over": 14,
+    "clear_med": 0.8,
+    "clear_n": 258
    },
    {
     "status": "Identified",
@@ -586,15 +586,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 19,
-    "med_age": 0.8,
-    "max_age": 6.8,
+    "open": 18,
+    "med_age": 0.9,
+    "max_age": 6.9,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 623
+    "clear_med": 0.0,
+    "clear_n": 625
    },
    {
     "status": "WAITING REVIEW",
@@ -610,7 +610,7 @@
    },
    {
     "status": "In Development",
-    "open": 9,
+    "open": 11,
     "med_age": 0.9,
     "max_age": 7.0,
     "worst_key": "PLANS-23406",
@@ -634,27 +634,15 @@
    },
    {
     "status": "PR Created",
-    "open": 22,
-    "med_age": 0.0,
+    "open": 23,
+    "med_age": 0.1,
     "max_age": 34.0,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 671
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
+    "clear_n": 672
    },
    {
     "status": "Ready for Stage",
@@ -667,14 +655,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 160,
+   "Backlog": 153,
    "On Hold": 1
   },
-  "open_total": 137,
+  "open_total": 142,
   "stale": 36,
-  "worst": "Ready for Development"
+  "worst": "In Stage"
  }
 }
