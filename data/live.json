@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T20:38:16Z",
+ "generated": "2026-10-20T21:06:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -451,11 +451,11 @@
   "vs_commitment": 74,
   "time_elapsed": 60,
   "spill": {
-   "open_items": 167,
-   "open_pts": 219.0,
+   "open_items": 166,
+   "open_pts": 218.0,
    "out_items": 8,
    "out_pts": 7.0,
-   "done_pts": 160.0
+   "done_pts": 161.0
   },
   "recv": {
    "items": 5,
@@ -466,14 +466,14 @@
   "spill_rate": null,
   "dist": {
    "Done": 90,
-   "To Do": 150,
+   "To Do": 147,
    "In Development": 4,
-   "In Progress": 15,
-   "In Stage": 37,
+   "In Progress": 18,
+   "In Stage": 36,
    "Ready Prod": 41,
    "PR Merged": 3,
    "PR Created": 2,
-   "Closed": 23,
+   "Closed": 24,
    "Backlog": 108,
    "Ready for Development": 10,
    "In Testing": 2,
@@ -532,8 +532,8 @@
   "end": "2026-10-25",
   "day": 23,
   "days": 28,
-  "closed": 447,
-  "points": 1089,
+  "closed": 448,
+  "points": 1090,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -553,13 +553,13 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 62,
+    "open": 61,
     "med_age": 4.2,
     "max_age": 11.9,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 13,
+    "over": 12,
     "clear_med": 3.0,
     "clear_n": 412
    },
@@ -609,7 +609,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 658
+    "clear_n": 657
    },
    {
     "status": "PR Created",
@@ -621,7 +621,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 692
+    "clear_n": 691
    },
    {
     "status": "PR Merged",
@@ -633,7 +633,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 641
+    "clear_n": 640
+   },
+   {
+    "status": "In QA",
+    "open": 1,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-24614",
+    "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
+    "worst_who": "Conor Kamperman",
+    "over": 0,
+    "clear_med": 1.1,
+    "clear_n": 56
    },
    {
     "status": "In PreProd",
@@ -646,18 +658,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
-   },
-   {
-    "status": "In QA",
-    "open": 1,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24614",
-    "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
-    "worst_who": "Conor Kamperman",
-    "over": 0,
-    "clear_med": 1.1,
-    "clear_n": 56
    },
    {
     "status": "Ready for Stage",
@@ -674,10 +674,10 @@
   ],
   "parked": {
    "On Hold": 1,
-   "Backlog": 158
+   "Backlog": 159
   },
-  "open_total": 138,
-  "stale": 31,
+  "open_total": 137,
+  "stale": 30,
   "worst": "In Stage"
  }
 }
