@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T07:41:16Z",
+ "generated": "2026-10-20T08:08:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -585,20 +585,8 @@
     "clear_n": 2
    },
    {
-    "status": "PR Created",
-    "open": 4,
-    "med_age": 8.1,
-    "max_age": 33.7,
-    "worst_key": "PLANS-22703",
-    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 2,
-    "clear_med": 0.0,
-    "clear_n": 664
-   },
-   {
     "status": "In Development",
-    "open": 22,
+    "open": 21,
     "med_age": 0.6,
     "max_age": 24.7,
     "worst_key": "PLANS-22998",
@@ -606,7 +594,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 629
+    "clear_n": 630
    },
    {
     "status": "WAITING REVIEW",
@@ -622,7 +610,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 13,
+    "open": 14,
     "med_age": 0.6,
     "max_age": 6.6,
     "worst_key": "PLANS-24431",
@@ -633,9 +621,21 @@
     "clear_n": 622
    },
    {
+    "status": "PR Created",
+    "open": 4,
+    "med_age": 2.1,
+    "max_age": 33.7,
+    "worst_key": "PLANS-22703",
+    "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 665
+   },
+   {
     "status": "In QA",
     "open": 4,
-    "med_age": 0.5,
+    "med_age": 0.6,
     "max_age": 0.6,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
@@ -674,7 +674,7 @@
    "On Hold": 1
   },
   "open_total": 129,
-  "stale": 38,
+  "stale": 37,
   "worst": "Ready for Development"
  }
 }
