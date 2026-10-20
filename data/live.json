@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T02:08:01Z",
+ "generated": "2026-10-20T02:42:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -599,8 +599,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 11.3,
-    "max_age": 11.3,
+    "med_age": 11.4,
+    "max_age": 11.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -624,7 +624,7 @@
     "status": "PR Merged",
     "open": 13,
     "med_age": 0.4,
-    "max_age": 6.3,
+    "max_age": 6.4,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -636,25 +636,13 @@
     "status": "In QA",
     "open": 4,
     "med_age": 0.3,
-    "max_age": 0.3,
+    "max_age": 0.4,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
     "worst_who": "Conor Kamperman",
     "over": 0,
     "clear_med": 2.7,
     "clear_n": 52
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -667,6 +655,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
