@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T14:06:39Z",
+ "generated": "2026-10-20T14:38:21Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 73,
-   "sprint": 225,
+   "sprint": 226,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 285 of 288 items. This reads as a field the team does not use rather than 285 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 285,
+    "why": "missing on 286 of 289 items. This reads as a field the team does not use rather than 286 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 286,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 282 of 288 items. This reads as a field the team does not use rather than 282 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 282,
+    "why": "missing on 283 of 289 items. This reads as a field the team does not use rather than 283 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 283,
     "items": []
    },
    {
@@ -442,17 +442,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 483,
+  "items": 484,
   "items_done": 58,
   "committed": 230,
-  "final": 387,
+  "final": 389,
   "completed": 136,
-  "scope_change": 68,
+  "scope_change": 69,
   "vs_commitment": 59,
   "time_elapsed": 58,
   "spill": {
-   "open_items": 174,
-   "open_pts": 242.0,
+   "open_items": 175,
+   "open_pts": 244.0,
    "out_items": 8,
    "out_pts": 7.0,
    "done_pts": 127.0
@@ -467,9 +467,9 @@
   "dist": {
    "Done": 76,
    "To Do": 154,
+   "In Development": 5,
    "In Progress": 18,
    "PR Merged": 4,
-   "In Development": 4,
    "Ready Prod": 30,
    "In Stage": 41,
    "PR Created": 4,
@@ -489,7 +489,7 @@
    203.0,
    203.0,
    227.0,
-   251.0
+   253.0
   ],
   "scope": [
    14.0,
@@ -500,7 +500,7 @@
    299.0,
    299.0,
    323.0,
-   387.0
+   389.0
   ],
   "ghost": [
    14.0,
@@ -511,7 +511,7 @@
    203.0,
    203.0,
    227.0,
-   251.0
+   253.0
   ],
   "days": 14,
   "day": 9
@@ -529,8 +529,8 @@
   "end": "2026-10-25",
   "day": 23,
   "days": 28,
-  "closed": 432,
-  "points": 1054,
+  "closed": 433,
+  "points": 1057,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -551,7 +551,7 @@
    {
     "status": "Ready for Development",
     "open": 26,
-    "med_age": 12.9,
+    "med_age": 13.0,
     "max_age": 40.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -562,15 +562,15 @@
    },
    {
     "status": "In Stage",
-    "open": 56,
+    "open": 55,
     "med_age": 4.0,
     "max_age": 11.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
-    "over": 19,
+    "over": 18,
     "clear_med": 2.7,
-    "clear_n": 403
+    "clear_n": 404
    },
    {
     "status": "Identified",
@@ -586,7 +586,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 18,
+    "open": 19,
     "med_age": 0.8,
     "max_age": 6.8,
     "worst_key": "PLANS-24431",
@@ -599,8 +599,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 11.8,
-    "max_age": 11.8,
+    "med_age": 11.9,
+    "max_age": 11.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -610,7 +610,7 @@
    },
    {
     "status": "In Development",
-    "open": 10,
+    "open": 9,
     "med_age": 0.9,
     "max_age": 7.0,
     "worst_key": "PLANS-23406",
@@ -618,13 +618,13 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 653
+    "clear_n": 654
    },
    {
     "status": "In QA",
     "open": 4,
     "med_age": 0.8,
-    "max_age": 0.8,
+    "max_age": 0.9,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
     "worst_who": "Conor Kamperman",
@@ -642,19 +642,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 670
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 671
    },
    {
     "status": "In PreProd",
@@ -667,14 +655,26 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 160
+   "Backlog": 160,
+   "On Hold": 1
   },
-  "open_total": 138,
-  "stale": 37,
+  "open_total": 137,
+  "stale": 36,
   "worst": "Ready for Development"
  }
 }
