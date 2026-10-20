@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T10:05:52Z",
+ "generated": "2026-10-20T10:37:21Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -623,7 +623,7 @@
    {
     "status": "In QA",
     "open": 4,
-    "med_age": 0.6,
+    "med_age": 0.7,
     "max_age": 0.7,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
@@ -670,8 +670,8 @@
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 162
+   "Backlog": 162,
+   "On Hold": 1
   },
   "open_total": 136,
   "stale": 37,
