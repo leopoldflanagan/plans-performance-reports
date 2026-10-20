@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T23:35:37Z",
+ "generated": "2026-10-20T00:14:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 8,
+  "day": 9,
   "days": 14,
   "n": 17,
   "done_now": 136,
   "committed": 230,
-  "lo": 199,
-  "mid": 240,
-  "hi": 387,
-  "pct": 104,
-  "verdict": "on track for the commitment",
-  "share_mid": 0.567
+  "lo": 187,
+  "mid": 205,
+  "hi": 313,
+  "pct": 89,
+  "verdict": "a little short of the commitment",
+  "share_mid": 0.664
  },
  "admin": {
   "scope": {
@@ -514,7 +514,7 @@
    251.0
   ],
   "days": 14,
-  "day": 8
+  "day": 9
  },
  "next": {
   "name": "LL-Sprint 25-26",
@@ -527,7 +527,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 22,
+  "day": 23,
   "days": 28,
   "closed": 432,
   "points": 1054,
@@ -551,7 +551,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 3.3,
+    "med_age": 3.4,
     "max_age": 11.1,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -575,8 +575,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 46.4,
-    "max_age": 46.4,
+    "med_age": 46.5,
+    "max_age": 46.5,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -599,8 +599,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 11.2,
-    "max_age": 11.2,
+    "med_age": 11.3,
+    "max_age": 11.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -636,7 +636,7 @@
     "status": "In QA",
     "open": 4,
     "med_age": 0.2,
-    "max_age": 0.2,
+    "max_age": 0.3,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
     "worst_who": "Conor Kamperman",
@@ -670,8 +670,8 @@
    }
   ],
   "parked": {
-   "Backlog": 169,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 169
   },
   "open_total": 129,
   "stale": 38,
