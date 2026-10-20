@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T08:43:24Z",
+ "generated": "2026-10-20T09:06:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -564,7 +564,7 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 3.7,
-    "max_age": 11.4,
+    "max_age": 11.5,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -611,7 +611,7 @@
    {
     "status": "PR Merged",
     "open": 14,
-    "med_age": 0.6,
+    "med_age": 0.7,
     "max_age": 6.6,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -670,8 +670,8 @@
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 169
+   "Backlog": 169,
+   "On Hold": 1
   },
   "open_total": 129,
   "stale": 37,
