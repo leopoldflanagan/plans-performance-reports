@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T15:37:53Z",
+ "generated": "2026-10-20T16:07:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 9,
   "days": 14,
   "n": 17,
-  "done_now": 136,
+  "done_now": 144,
   "committed": 230,
-  "lo": 187,
-  "mid": 205,
-  "hi": 313,
-  "pct": 89,
+  "lo": 198,
+  "mid": 217,
+  "hi": 332,
+  "pct": 94,
   "verdict": "a little short of the commitment",
   "share_mid": 0.664
  },
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 484,
-  "items_done": 58,
+  "items_done": 60,
   "committed": 230,
   "final": 389,
-  "completed": 136,
+  "completed": 144,
   "scope_change": 69,
-  "vs_commitment": 59,
+  "vs_commitment": 63,
   "time_elapsed": 59,
   "spill": {
-   "open_items": 175,
-   "open_pts": 244.0,
+   "open_items": 173,
+   "open_pts": 236.0,
    "out_items": 8,
    "out_pts": 7.0,
-   "done_pts": 127.0
+   "done_pts": 135.0
   },
   "recv": {
    "items": 5,
@@ -465,12 +465,12 @@
   },
   "spill_rate": null,
   "dist": {
-   "Done": 76,
+   "Done": 78,
    "To Do": 152,
    "In Development": 4,
-   "In Progress": 20,
-   "In Stage": 44,
-   "Ready Prod": 30,
+   "In Progress": 18,
+   "In Stage": 42,
+   "Ready Prod": 32,
    "PR Created": 5,
    "Closed": 22,
    "Backlog": 108,
@@ -489,7 +489,8 @@
    203.0,
    203.0,
    227.0,
-   253.0
+   248.0,
+   245.0
   ],
   "scope": [
    14.0,
@@ -500,6 +501,7 @@
    299.0,
    299.0,
    323.0,
+   389.0,
    389.0
   ],
   "ghost": [
@@ -511,7 +513,8 @@
    203.0,
    203.0,
    227.0,
-   253.0
+   248.0,
+   245.0
   ],
   "days": 14,
   "day": 9
@@ -529,8 +532,8 @@
   "end": "2026-10-25",
   "day": 23,
   "days": 28,
-  "closed": 435,
-  "points": 1057,
+  "closed": 437,
+  "points": 1065,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -564,7 +567,7 @@
     "status": "In Stage",
     "open": 64,
     "med_age": 4.0,
-    "max_age": 11.7,
+    "max_age": 11.8,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -598,8 +601,8 @@
    },
    {
     "status": "PR Merged",
-    "open": 12,
-    "med_age": 0.6,
+    "open": 16,
+    "med_age": 0.3,
     "max_age": 6.9,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -634,7 +637,7 @@
    },
    {
     "status": "PR Created",
-    "open": 22,
+    "open": 18,
     "med_age": 0.1,
     "max_age": 34.1,
     "worst_key": "PLANS-22703",
@@ -642,7 +645,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 674
+    "clear_n": 678
    },
    {
     "status": "In PreProd",
@@ -670,8 +673,8 @@
    }
   ],
   "parked": {
-   "Backlog": 153,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 153
   },
   "open_total": 142,
   "stale": 36,
