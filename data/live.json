@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T04:39:28Z",
+ "generated": "2026-10-20T05:06:13Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 136,
   "scope_change": 68,
   "vs_commitment": 59,
-  "time_elapsed": 55,
+  "time_elapsed": 56,
   "spill": {
    "open_items": 174,
    "open_pts": 242.0,
@@ -551,7 +551,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 3.5,
+    "med_age": 3.6,
     "max_age": 11.3,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -587,7 +587,7 @@
    {
     "status": "PR Created",
     "open": 4,
-    "med_age": 7.9,
+    "med_age": 8.0,
     "max_age": 33.6,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -599,8 +599,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 11.4,
-    "max_age": 11.4,
+    "med_age": 11.5,
+    "max_age": 11.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -624,7 +624,7 @@
     "status": "PR Merged",
     "open": 13,
     "med_age": 0.5,
-    "max_age": 6.4,
+    "max_age": 6.5,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -636,7 +636,7 @@
     "status": "In QA",
     "open": 4,
     "med_age": 0.4,
-    "max_age": 0.4,
+    "max_age": 0.5,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
     "worst_who": "Conor Kamperman",
@@ -670,8 +670,8 @@
    }
   ],
   "parked": {
-   "Backlog": 169,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 169
   },
   "open_total": 129,
   "stale": 38,
