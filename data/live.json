@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T07:10:56Z",
+ "generated": "2026-10-20T07:41:16Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 45,
+    "n": 44,
     "points": 84,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 77,
+   "ready": 76,
    "sprint": 225,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 102,
+    "n": 101,
     "items": [
-     {
-      "key": "PLANS-24605",
-      "summary": "Email Change Logic"
-     },
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
+     },
+     {
+      "key": "PLANS-14538",
+      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 52,
+    "n": 51,
     "items": [
      {
       "key": "PLANS-24605",
@@ -137,10 +137,6 @@
      {
       "key": "PLANS-24566",
       "summary": "DCA plan savings inflated in Dynamics (duplicate Denticon treatment plans)"
-     },
-     {
-      "key": "PLANS-24551",
-      "summary": "Prod - One Smile - Copy / Content Issues - Claude quality scrub - Issue list  3 "
      },
      {
       "key": "PLANS-24546",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24518",
       "summary": "Configurations for Website not working"
+     },
+     {
+      "key": "PLANS-24478",
+      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price - CONFIG ISS"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 288 of 291 items. This reads as a field the team does not use rather than 288 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 288,
+    "why": "missing on 287 of 290 items. This reads as a field the team does not use rather than 287 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 287,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 285 of 291 items. This reads as a field the team does not use rather than 285 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 285,
+    "why": "missing on 284 of 290 items. This reads as a field the team does not use rather than 284 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 284,
     "items": []
    },
    {
@@ -549,6 +549,18 @@
   "stale_days": 7,
   "rows": [
    {
+    "status": "Ready for Development",
+    "open": 28,
+    "med_age": 8.9,
+    "max_age": 40.2,
+    "worst_key": "PLANS-22675",
+    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
+    "worst_who": "unassigned",
+    "over": 14,
+    "clear_med": 0.8,
+    "clear_n": 255
+   },
+   {
     "status": "In Stage",
     "open": 56,
     "med_age": 3.7,
@@ -559,18 +571,6 @@
     "over": 19,
     "clear_med": 2.7,
     "clear_n": 403
-   },
-   {
-    "status": "Ready for Development",
-    "open": 29,
-    "med_age": 6.1,
-    "max_age": 40.2,
-    "worst_key": "PLANS-22675",
-    "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
-    "worst_who": "unassigned",
-    "over": 14,
-    "clear_med": 0.8,
-    "clear_n": 254
    },
    {
     "status": "Identified",
@@ -587,7 +587,7 @@
    {
     "status": "PR Created",
     "open": 4,
-    "med_age": 8.0,
+    "med_age": 8.1,
     "max_age": 33.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -598,7 +598,7 @@
    },
    {
     "status": "In Development",
-    "open": 21,
+    "open": 22,
     "med_age": 0.6,
     "max_age": 24.7,
     "worst_key": "PLANS-22998",
@@ -611,8 +611,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 11.5,
-    "max_age": 11.5,
+    "med_age": 11.6,
+    "max_age": 11.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -624,7 +624,7 @@
     "status": "PR Merged",
     "open": 13,
     "med_age": 0.6,
-    "max_age": 6.5,
+    "max_age": 6.6,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
     "worst_who": "Ivan Yarymovych",
@@ -636,25 +636,13 @@
     "status": "In QA",
     "open": 4,
     "med_age": 0.5,
-    "max_age": 0.5,
+    "max_age": 0.6,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
     "worst_who": "Conor Kamperman",
     "over": 0,
     "clear_med": 2.7,
     "clear_n": 52
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -667,6 +655,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
@@ -675,6 +675,6 @@
   },
   "open_total": 129,
   "stale": 38,
-  "worst": "In Stage"
+  "worst": "Ready for Development"
  }
 }
