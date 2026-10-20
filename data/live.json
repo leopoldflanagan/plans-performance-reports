@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T01:04:28Z",
+ "generated": "2026-10-20T01:44:11Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 136,
   "scope_change": 68,
   "vs_commitment": 59,
-  "time_elapsed": 54,
+  "time_elapsed": 55,
   "spill": {
    "open_items": 174,
    "open_pts": 242.0,
@@ -552,7 +552,7 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 3.4,
-    "max_age": 11.1,
+    "max_age": 11.2,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -564,7 +564,7 @@
     "status": "Ready for Development",
     "open": 29,
     "med_age": 5.9,
-    "max_age": 39.9,
+    "max_age": 40.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -588,7 +588,7 @@
     "status": "PR Created",
     "open": 4,
     "med_age": 7.8,
-    "max_age": 33.4,
+    "max_age": 33.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -612,7 +612,7 @@
     "status": "In Development",
     "open": 21,
     "med_age": 0.4,
-    "max_age": 24.4,
+    "max_age": 24.5,
     "worst_key": "PLANS-22998",
     "worst_sum": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member while requ",
     "worst_who": "Rostyslav  Masniuk",
@@ -623,7 +623,7 @@
    {
     "status": "PR Merged",
     "open": 13,
-    "med_age": 0.3,
+    "med_age": 0.4,
     "max_age": 6.3,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -670,8 +670,8 @@
    }
   ],
   "parked": {
-   "Backlog": 169,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 169
   },
   "open_total": 129,
   "stale": 38,
