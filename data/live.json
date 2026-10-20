@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T17:36:21Z",
+ "generated": "2026-10-20T18:07:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
+    "n": 43,
     "points": 78,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 76,
+   "ready": 75,
    "sprint": 226,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 104,
+    "n": 103,
     "items": [
-     {
-      "key": "PLANS-24643",
-      "summary": "Pre-Prod - MW Dental - No offices are coming up on the site"
-     },
      {
       "key": "PLANS-24624",
       "summary": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additi"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24101",
       "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
+     },
+     {
+      "key": "PLANS-14760",
+      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
      }
     ]
    },
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 50,
     "items": [
-     {
-      "key": "PLANS-24643",
-      "summary": "Pre-Prod - MW Dental - No offices are coming up on the site"
-     },
      {
       "key": "PLANS-24624",
       "summary": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additi"
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
+     {
+      "key": "PLANS-24518",
+      "summary": "Configurations for Website not working"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 289 of 292 items. This reads as a field the team does not use rather than 289 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 289,
+    "why": "missing on 288 of 291 items. This reads as a field the team does not use rather than 288 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 288,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 286 of 292 items. This reads as a field the team does not use rather than 286 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 286,
+    "why": "missing on 285 of 291 items. This reads as a field the team does not use rather than 285 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 285,
     "items": []
    },
    {
@@ -449,7 +449,7 @@
   "completed": 151,
   "scope_change": 69,
   "vs_commitment": 66,
-  "time_elapsed": 59,
+  "time_elapsed": 60,
   "spill": {
    "open_items": 171,
    "open_pts": 229.0,
@@ -532,7 +532,7 @@
   "end": "2026-10-25",
   "day": 23,
   "days": 28,
-  "closed": 440,
+  "closed": 441,
   "points": 1077,
   "unplanned": null,
   "unplanned_pct": null,
@@ -565,15 +565,15 @@
    },
    {
     "status": "Ready for Development",
-    "open": 29,
-    "med_age": 6.6,
-    "max_age": 40.6,
+    "open": 28,
+    "med_age": 9.3,
+    "max_age": 40.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 14,
     "clear_med": 0.8,
-    "clear_n": 259
+    "clear_n": 260
    },
    {
     "status": "Identified",
@@ -603,7 +603,7 @@
     "status": "In Development",
     "open": 8,
     "med_age": 1.1,
-    "max_age": 7.1,
+    "max_age": 7.2,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
     "worst_who": "Sailaja Yanamandra",
@@ -613,15 +613,27 @@
    },
    {
     "status": "PR Created",
-    "open": 23,
-    "med_age": 0.1,
-    "max_age": 34.1,
+    "open": 22,
+    "med_age": 0.2,
+    "max_age": 34.2,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 682
+    "clear_n": 683
+   },
+   {
+    "status": "PR Merged",
+    "open": 12,
+    "med_age": 0.1,
+    "max_age": 0.4,
+    "worst_key": "PLANS-22699",
+    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 642
    },
    {
     "status": "In PreProd",
@@ -636,16 +648,16 @@
     "clear_n": 26
    },
    {
-    "status": "PR Merged",
-    "open": 11,
-    "med_age": 0.0,
-    "max_age": 0.3,
-    "worst_key": "PLANS-22699",
-    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
-    "worst_who": "Mykyta  Moroz",
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 642
+    "clear_med": 1.1,
+    "clear_n": 56
    },
    {
     "status": "Ready for Stage",
@@ -658,25 +670,13 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.1,
-    "clear_n": 56
    }
   ],
   "parked": {
-   "Backlog": 155,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 155
   },
-  "open_total": 140,
+  "open_total": 139,
   "stale": 35,
   "worst": "In Stage"
  }
