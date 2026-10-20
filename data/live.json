@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T01:44:11Z",
+ "generated": "2026-10-20T02:08:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -551,7 +551,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 3.4,
+    "med_age": 3.5,
     "max_age": 11.2,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -575,8 +575,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 46.5,
-    "max_age": 46.5,
+    "med_age": 46.6,
+    "max_age": 46.6,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
