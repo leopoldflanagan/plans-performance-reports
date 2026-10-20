@@ -507,8 +507,8 @@
      "med": 0.07
     },
     "PR Created": {
-     "n": 41,
-     "med": 0.01
+     "n": 42,
+     "med": 0.02
     },
     "PR Merged": {
      "n": 44,
@@ -518,13 +518,13 @@
      "n": 25,
      "med": 10.66
     },
+    "In Development": {
+     "n": 44,
+     "med": 0.02
+    },
     "Backlog": {
      "n": 130,
      "med": 13.58
-    },
-    "In Development": {
-     "n": 43,
-     "med": 0.01
     },
     "In Stage": {
      "n": 89,
@@ -572,13 +572,13 @@
     "To Do": 154,
     "In Progress": 18,
     "PR Merged": 4,
-    "Ready for Development": 14,
+    "In Development": 5,
     "Ready Prod": 30,
     "In Stage": 41,
-    "PR Created": 2,
-    "In Development": 5,
+    "PR Created": 3,
     "Closed": 23,
     "Backlog": 110,
+    "Ready for Development": 13,
     "In Testing": 2,
     "On Hold": 3,
     "Will Not Implement": 1
@@ -611,8 +611,8 @@
      "med": 0.78
     },
     "In Development": {
-     "n": 63,
-     "med": 0.78
+     "n": 64,
+     "med": 0.81
     },
     "PR Created": {
      "n": 50,
@@ -662,8 +662,8 @@
     "In Stage": 20,
     "Closed": 22,
     "To Do": 43,
-    "In Development": 6,
-    "Ready for Development": 4,
+    "In Development": 7,
+    "Ready for Development": 3,
     "Ready Prod": 10,
     "PR Merged": 4,
     "On Hold": 2,
