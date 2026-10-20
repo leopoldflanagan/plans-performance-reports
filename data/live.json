@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T13:07:24Z",
+ "generated": "2026-10-20T13:38:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -552,7 +552,7 @@
     "status": "Ready for Development",
     "open": 26,
     "med_age": 12.9,
-    "max_age": 40.4,
+    "max_age": 40.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -564,7 +564,7 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 3.9,
-    "max_age": 11.6,
+    "max_age": 11.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
     "worst_who": "Valentyna Tenus",
@@ -587,12 +587,12 @@
    {
     "status": "In Development",
     "open": 22,
-    "med_age": 0.8,
-    "max_age": 6.9,
+    "med_age": 0.9,
+    "max_age": 7.0,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
     "worst_who": "Sailaja Yanamandra",
-    "over": 0,
+    "over": 1,
     "clear_med": 0.0,
     "clear_n": 640
    },
@@ -636,7 +636,7 @@
     "status": "PR Created",
     "open": 9,
     "med_age": 0.2,
-    "max_age": 33.9,
+    "max_age": 34.0,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -670,11 +670,11 @@
    }
   ],
   "parked": {
-   "Backlog": 161,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 161
   },
   "open_total": 137,
-  "stale": 36,
+  "stale": 37,
   "worst": "Ready for Development"
  }
 }
