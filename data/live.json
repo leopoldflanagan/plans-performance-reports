@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T21:06:12Z",
+ "generated": "2026-10-20T21:36:06Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 171,
   "scope_change": 73,
   "vs_commitment": 74,
-  "time_elapsed": 60,
+  "time_elapsed": 61,
   "spill": {
    "open_items": 166,
    "open_pts": 218.0,
@@ -578,8 +578,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 47.3,
-    "max_age": 47.3,
+    "med_age": 47.4,
+    "max_age": 47.4,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -625,7 +625,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 22,
+    "open": 21,
     "med_age": 0.1,
     "max_age": 0.5,
     "worst_key": "PLANS-22699",
@@ -633,11 +633,11 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 640
+    "clear_n": 641
    },
    {
     "status": "In QA",
-    "open": 1,
+    "open": 2,
     "med_age": 0.1,
     "max_age": 0.1,
     "worst_key": "PLANS-24614",
