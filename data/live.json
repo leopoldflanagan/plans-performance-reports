@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T22:06:08Z",
+ "generated": "2026-10-20T22:34:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -612,6 +612,18 @@
     "clear_n": 657
    },
    {
+    "status": "PR Merged",
+    "open": 21,
+    "med_age": 0.2,
+    "max_age": 0.6,
+    "worst_key": "PLANS-22699",
+    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 641
+   },
+   {
     "status": "PR Created",
     "open": 11,
     "med_age": 0.3,
@@ -622,18 +634,6 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 691
-   },
-   {
-    "status": "PR Merged",
-    "open": 21,
-    "med_age": 0.1,
-    "max_age": 0.5,
-    "worst_key": "PLANS-22699",
-    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 641
    },
    {
     "status": "In QA",
@@ -648,18 +648,6 @@
     "clear_n": 56
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -670,11 +658,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 159
+   "Backlog": 159,
+   "On Hold": 1
   },
   "open_total": 136,
   "stale": 29,
