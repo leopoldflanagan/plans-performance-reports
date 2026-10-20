@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T13:38:07Z",
+ "generated": "2026-10-20T14:06:39Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -202,7 +202,7 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 81,
+    "n": 82,
     "items": [
      {
       "key": "PLANS-24485",
@@ -469,10 +469,10 @@
    "To Do": 154,
    "In Progress": 18,
    "PR Merged": 4,
-   "In Development": 5,
+   "In Development": 4,
    "Ready Prod": 30,
    "In Stage": 41,
-   "PR Created": 3,
+   "PR Created": 4,
    "Closed": 22,
    "Backlog": 108,
    "Ready for Development": 10,
@@ -563,7 +563,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 3.9,
+    "med_age": 4.0,
     "max_age": 11.7,
     "worst_key": "PLANS-24033",
     "worst_sum": "[4.4.W3] wellfit-pay Manage Plan Details - render one row per coverage level for ad hoc pl",
@@ -575,26 +575,14 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 47.0,
-    "max_age": 47.0,
+    "med_age": 47.1,
+    "max_age": 47.1,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 2
-   },
-   {
-    "status": "In Development",
-    "open": 22,
-    "med_age": 0.9,
-    "max_age": 7.0,
-    "worst_key": "PLANS-23406",
-    "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 640
    },
    {
     "status": "PR Merged",
@@ -621,6 +609,18 @@
     "clear_n": 18
    },
    {
+    "status": "In Development",
+    "open": 10,
+    "med_age": 0.9,
+    "max_age": 7.0,
+    "worst_key": "PLANS-23406",
+    "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 653
+   },
+   {
     "status": "In QA",
     "open": 4,
     "med_age": 0.8,
@@ -634,8 +634,8 @@
    },
    {
     "status": "PR Created",
-    "open": 9,
-    "med_age": 0.2,
+    "open": 22,
+    "med_age": 0.0,
     "max_age": 34.0,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -643,18 +643,6 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 670
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -667,13 +655,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
    "On Hold": 1,
-   "Backlog": 161
+   "Backlog": 160
   },
-  "open_total": 137,
+  "open_total": 138,
   "stale": 37,
   "worst": "Ready for Development"
  }
