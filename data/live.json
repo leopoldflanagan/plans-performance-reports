@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T03:07:15Z",
+ "generated": "2026-10-20T03:41:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -564,7 +564,7 @@
     "status": "Ready for Development",
     "open": 29,
     "med_age": 6.0,
-    "max_age": 40.0,
+    "max_age": 40.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -587,8 +587,8 @@
    {
     "status": "PR Created",
     "open": 4,
-    "med_age": 7.8,
-    "max_age": 33.5,
+    "med_age": 7.9,
+    "max_age": 33.6,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -623,7 +623,7 @@
    {
     "status": "PR Merged",
     "open": 13,
-    "med_age": 0.4,
+    "med_age": 0.5,
     "max_age": 6.4,
     "worst_key": "PLANS-24431",
     "worst_sum": "PLANS-24431: Unify Purchase Into NPM Package: Story 8.1: SGDP Portal - Investigate and rem",
@@ -635,7 +635,7 @@
    {
     "status": "In QA",
     "open": 4,
-    "med_age": 0.3,
+    "med_age": 0.4,
     "max_age": 0.4,
     "worst_key": "PLANS-23741",
     "worst_sum": "[3.1.W1] Plans API accepts Practices and PlanName filters and applies them within scope",
@@ -643,18 +643,6 @@
     "over": 0,
     "clear_med": 2.7,
     "clear_n": 52
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -667,6 +655,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
