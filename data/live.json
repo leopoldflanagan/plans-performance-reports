@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T19:35:41Z",
+ "generated": "2026-10-20T20:06:09Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 9,
   "days": 14,
   "n": 17,
-  "done_now": 154,
+  "done_now": 159,
   "committed": 230,
-  "lo": 212,
-  "mid": 232,
-  "hi": 355,
-  "pct": 101,
+  "lo": 219,
+  "mid": 240,
+  "hi": 366,
+  "pct": 104,
   "verdict": "on track for the commitment",
   "share_mid": 0.664
  },
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 484,
-  "items_done": 63,
+  "items_done": 65,
   "committed": 230,
   "final": 389,
-  "completed": 154,
+  "completed": 159,
   "scope_change": 69,
-  "vs_commitment": 67,
+  "vs_commitment": 69,
   "time_elapsed": 60,
   "spill": {
-   "open_items": 170,
-   "open_pts": 226.0,
+   "open_items": 168,
+   "open_pts": 221.0,
    "out_items": 8,
    "out_pts": 7.0,
-   "done_pts": 145.0
+   "done_pts": 150.0
   },
   "recv": {
    "items": 5,
@@ -465,12 +465,12 @@
   },
   "spill_rate": null,
   "dist": {
-   "Done": 80,
-   "To Do": 152,
+   "Done": 81,
+   "To Do": 151,
    "In Development": 4,
    "In Progress": 16,
-   "In Stage": 40,
-   "Ready Prod": 35,
+   "In Stage": 38,
+   "Ready Prod": 37,
    "PR Merged": 3,
    "PR Created": 2,
    "Closed": 22,
@@ -490,7 +490,7 @@
    203.0,
    227.0,
    248.0,
-   235.0
+   230.0
   ],
   "scope": [
    14.0,
@@ -514,7 +514,7 @@
    203.0,
    227.0,
    248.0,
-   235.0
+   230.0
   ],
   "days": 14,
   "day": 9
@@ -532,8 +532,8 @@
   "end": "2026-10-25",
   "day": 23,
   "days": 28,
-  "closed": 442,
-  "points": 1080,
+  "closed": 444,
+  "points": 1085,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -553,15 +553,15 @@
   "rows": [
    {
     "status": "In Stage",
-    "open": 66,
+    "open": 64,
     "med_age": 4.2,
     "max_age": 11.9,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 16,
-    "clear_med": 2.7,
-    "clear_n": 409
+    "over": 14,
+    "clear_med": 2.9,
+    "clear_n": 410
    },
    {
     "status": "Ready for Development",
@@ -609,7 +609,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 659
+    "clear_n": 658
    },
    {
     "status": "PR Created",
@@ -621,7 +621,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 692
+    "clear_n": 691
    },
    {
     "status": "PR Merged",
@@ -633,7 +633,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 642
+    "clear_n": 641
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    },
    {
     "status": "In QA",
@@ -658,26 +670,14 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    }
   ],
   "parked": {
    "On Hold": 1,
-   "Backlog": 159
+   "Backlog": 163
   },
-  "open_total": 138,
-  "stale": 34,
+  "open_total": 136,
+  "stale": 32,
   "worst": "In Stage"
  }
 }
