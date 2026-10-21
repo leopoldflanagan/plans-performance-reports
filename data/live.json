@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T23:33:33Z",
+ "generated": "2026-10-21T00:14:50Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 9,
+  "day": 10,
   "days": 14,
   "n": 17,
   "done_now": 171,
   "committed": 230,
-  "lo": 235,
-  "mid": 258,
-  "hi": 394,
-  "pct": 112,
+  "lo": 201,
+  "mid": 223,
+  "hi": 291,
+  "pct": 97,
   "verdict": "on track for the commitment",
-  "share_mid": 0.664
+  "share_mid": 0.768
  },
  "admin": {
   "scope": {
@@ -517,7 +517,7 @@
    228.0
   ],
   "days": 14,
-  "day": 9
+  "day": 10
  },
  "next": {
   "name": "LL-Sprint 25-26",
@@ -530,7 +530,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 23,
+  "day": 24,
   "days": 28,
   "closed": 450,
   "points": 1100,
@@ -554,7 +554,7 @@
    {
     "status": "In Stage",
     "open": 59,
-    "med_age": 4.0,
+    "med_age": 4.1,
     "max_age": 12.0,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
@@ -566,7 +566,7 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 6.1,
+    "med_age": 6.2,
     "max_age": 40.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -578,8 +578,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 47.4,
-    "max_age": 47.4,
+    "med_age": 47.5,
+    "max_age": 47.5,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -590,8 +590,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 12.2,
-    "max_age": 12.2,
+    "med_age": 12.3,
+    "max_age": 12.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -648,18 +648,6 @@
     "clear_n": 56
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -670,6 +658,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
