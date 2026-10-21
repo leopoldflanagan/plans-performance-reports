@@ -9,9 +9,9 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 252,
-  "closed": 471,
+  "closed": 472,
   "discarded": 0,
-  "resolved": 471,
+  "resolved": 472,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    218
+    219
    ],
    [
     "TechDebt",
@@ -39,7 +39,7 @@
   "day": 21,
   "days": 28,
   "status": "risk",
-  "headline": "471 items closed in the first 21 days, a pace of about 628 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "472 items closed in the first 21 days, a pace of about 629 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 11.0d and average 18.1d, both past the healthy band"
@@ -142,12 +142,12 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   518,
-   75,
+   520,
+   76,
    233,
-   422,
-   177,
-   81,
+   424,
+   179,
+   82,
    [
     14.0,
     204.0,
@@ -172,7 +172,7 @@
     326.0,
     394.0,
     409.0,
-    422.0
+    424.0
    ]
   ],
   [
@@ -254,8 +254,8 @@
   },
   "LL-Sprint 24-26": {
    "done": [
-    75,
-    165
+    76,
+    167
    ],
    "open": [
     173,
@@ -306,7 +306,7 @@
   },
   "LL-Sprint 24-26": {
    "react": 0,
-   "plan": 75,
+   "plan": 76,
    "pct": 0
   },
   "Plans-Sprint 24-26": {
@@ -485,9 +485,9 @@
    "dist": {
     "Done": 225,
     "In Progress": 1,
-    "In Stage": 10,
+    "In Stage": 9,
     "Closed": 88,
-    "Ready Prod": 15,
+    "Ready Prod": 16,
     "To Do": 2,
     "Will Not Implement": 11,
     "On Hold": 1,
@@ -502,16 +502,16 @@
   "LL-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 222,
+     "n": 223,
      "med": 13.58
     },
     "In Progress": {
-     "n": 63,
-     "med": 0.15
+     "n": 64,
+     "med": 0.17
     },
     "Done": {
-     "n": 95,
-     "med": 11.37
+     "n": 96,
+     "med": 11.36
     },
     "Ready for Development": {
      "n": 27,
@@ -526,11 +526,11 @@
      "med": 0.02
     },
     "In Stage": {
-     "n": 106,
-     "med": 4.54
+     "n": 107,
+     "med": 4.05
     },
     "Ready Prod": {
-     "n": 52,
+     "n": 53,
      "med": 6.43
     },
     "Closed": {
@@ -538,8 +538,8 @@
      "med": 10.44
     },
     "In Development": {
-     "n": 48,
-     "med": 0.02
+     "n": 49,
+     "med": 0.03
     },
     "Backlog": {
      "n": 130,
@@ -579,14 +579,14 @@
     }
    },
    "dist": {
-    "To Do": 154,
-    "Done": 92,
-    "Ready for Development": 14,
-    "Ready Prod": 43,
-    "Closed": 27,
     "In Progress": 20,
-    "In Stage": 46,
-    "In Development": 4,
+    "To Do": 154,
+    "Done": 93,
+    "Ready for Development": 14,
+    "Ready Prod": 44,
+    "Closed": 27,
+    "In Stage": 45,
+    "In Development": 5,
     "Backlog": 110,
     "In Testing": 1,
     "On Hold": 4,
@@ -594,10 +594,10 @@
     "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 447,
+   "stalled": 448,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 518
+   "items": 520
   },
   "Plans-Sprint 24-26": {
    "tis": {
@@ -751,20 +751,20 @@
  },
  "CAP": {
   "9.09": [
-   471,
-   394,
-   1159,
+   472,
+   395,
+   1161,
    23
   ]
  },
  "CYC": {
   "9.09": {
    "med": 11.04,
-   "avg": 18.11,
-   "n": 343,
+   "avg": 18.07,
+   "n": 344,
    "mx": 148.81,
    "nodev": 128,
-   "base": 471
+   "base": 472
   }
  },
  "complete": false,
