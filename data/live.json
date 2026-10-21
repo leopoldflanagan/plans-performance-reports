@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T03:41:06Z",
+ "generated": "2026-10-21T04:07:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 171,
   "scope_change": 73,
   "vs_commitment": 74,
-  "time_elapsed": 62,
+  "time_elapsed": 63,
   "spill": {
    "open_items": 166,
    "open_pts": 218.0,
@@ -566,7 +566,7 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 6.2,
+    "med_age": 6.3,
     "max_age": 41.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -626,7 +626,7 @@
    {
     "status": "PR Created",
     "open": 11,
-    "med_age": 0.5,
+    "med_age": 0.6,
     "max_age": 34.6,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
@@ -639,25 +639,13 @@
     "status": "In QA",
     "open": 2,
     "med_age": 0.3,
-    "max_age": 0.3,
+    "max_age": 0.4,
     "worst_key": "PLANS-24614",
     "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
     "worst_who": "Conor Kamperman",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 56
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -670,6 +658,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
