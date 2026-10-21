@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T08:08:17Z",
+ "generated": "2026-10-21T08:42:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -566,8 +566,8 @@
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 6.5,
-    "max_age": 41.2,
+    "med_age": 6.6,
+    "max_age": 41.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -588,18 +588,6 @@
     "clear_n": 2
    },
    {
-    "status": "PR Merged",
-    "open": 21,
-    "med_age": 0.6,
-    "max_age": 1.0,
-    "worst_key": "PLANS-22699",
-    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 641
-   },
-   {
     "status": "WAITING REVIEW",
     "open": 1,
     "med_age": 12.6,
@@ -612,10 +600,22 @@
     "clear_n": 18
    },
    {
+    "status": "PR Merged",
+    "open": 21,
+    "med_age": 0.6,
+    "max_age": 1.0,
+    "worst_key": "PLANS-22699",
+    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 641
+   },
+   {
     "status": "In Development",
     "open": 9,
     "med_age": 1.0,
-    "max_age": 7.7,
+    "max_age": 7.8,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
     "worst_who": "Sailaja Yanamandra",
@@ -626,8 +626,8 @@
    {
     "status": "PR Created",
     "open": 11,
-    "med_age": 0.7,
-    "max_age": 34.7,
+    "med_age": 0.8,
+    "max_age": 34.8,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -638,8 +638,8 @@
    {
     "status": "In QA",
     "open": 2,
-    "med_age": 0.5,
-    "max_age": 0.5,
+    "med_age": 0.6,
+    "max_age": 0.6,
     "worst_key": "PLANS-24614",
     "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
     "worst_who": "Conor Kamperman",
