@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T12:47:15Z",
+ "generated": "2026-10-21T13:08:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -532,7 +532,7 @@
   "end": "2026-10-25",
   "day": 24,
   "days": 28,
-  "closed": 450,
+  "closed": 451,
   "points": 1100,
   "unplanned": null,
   "unplanned_pct": null,
@@ -591,7 +591,7 @@
     "status": "PR Merged",
     "open": 22,
     "med_age": 0.8,
-    "max_age": 1.1,
+    "max_age": 1.2,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -627,7 +627,7 @@
     "status": "PR Created",
     "open": 11,
     "med_age": 0.8,
-    "max_age": 1.1,
+    "max_age": 1.2,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
@@ -638,7 +638,7 @@
    {
     "status": "In QA",
     "open": 2,
-    "med_age": 0.6,
+    "med_age": 0.7,
     "max_age": 0.7,
     "worst_key": "PLANS-24614",
     "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
@@ -646,18 +646,6 @@
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 56
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -670,11 +658,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
    "On Hold": 2,
-   "Backlog": 160
+   "Backlog": 159
   },
   "open_total": 134,
   "stale": 28,
