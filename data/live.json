@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T05:39:08Z",
+ "generated": "2026-10-21T06:10:23Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -566,8 +566,8 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 6.3,
-    "max_age": 41.1,
+    "med_age": 6.4,
+    "max_age": 41.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -603,7 +603,7 @@
     "status": "PR Merged",
     "open": 21,
     "med_age": 0.5,
-    "max_age": 0.8,
+    "max_age": 0.9,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -615,7 +615,7 @@
     "status": "In Development",
     "open": 8,
     "med_age": 1.2,
-    "max_age": 7.6,
+    "max_age": 7.7,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
     "worst_who": "Sailaja Yanamandra",
@@ -626,8 +626,8 @@
    {
     "status": "PR Created",
     "open": 11,
-    "med_age": 0.6,
-    "max_age": 34.6,
+    "med_age": 0.7,
+    "max_age": 34.7,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -638,7 +638,7 @@
    {
     "status": "In QA",
     "open": 2,
-    "med_age": 0.3,
+    "med_age": 0.4,
     "max_age": 0.4,
     "worst_key": "PLANS-24614",
     "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
@@ -673,8 +673,8 @@
    }
   ],
   "parked": {
-   "Backlog": 159,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 159
   },
   "open_total": 135,
   "stale": 29,
