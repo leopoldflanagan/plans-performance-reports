@@ -520,7 +520,7 @@
      "med": 0.02
     },
     "PR Merged": {
-     "n": 51,
+     "n": 52,
      "med": 0.03
     },
     "In Stage": {
@@ -579,13 +579,13 @@
     "In Progress": 20,
     "In Stage": 36,
     "Ready Prod": 41,
-    "PR Merged": 3,
-    "PR Created": 2,
+    "PR Merged": 4,
     "Closed": 25,
     "Backlog": 110,
     "Ready for Development": 12,
     "In Testing": 2,
     "On Hold": 4,
+    "PR Created": 1,
     "Will Not Implement": 1
    },
    "stalled": 428,
