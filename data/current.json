@@ -616,10 +616,10 @@
     },
     "In Development": {
      "n": 78,
-     "med": 0.34
+     "med": 0.31
     },
     "PR Created": {
-     "n": 65,
+     "n": 66,
      "med": 0.01
     },
     "PR Merged": {
@@ -671,8 +671,8 @@
     "To Do": 45,
     "Closed": 42,
     "In Stage": 22,
-    "In Development": 3,
-    "PR Created": 2,
+    "In Development": 2,
+    "PR Created": 3,
     "Done": 86,
     "In Progress": 14,
     "Ready for Development": 3,
