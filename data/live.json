@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T07:42:17Z",
+ "generated": "2026-10-21T08:08:17Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -588,6 +588,18 @@
     "clear_n": 2
    },
    {
+    "status": "PR Merged",
+    "open": 21,
+    "med_age": 0.6,
+    "max_age": 1.0,
+    "worst_key": "PLANS-22699",
+    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 641
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 1,
     "med_age": 12.6,
@@ -598,18 +610,6 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 18
-   },
-   {
-    "status": "PR Merged",
-    "open": 21,
-    "med_age": 0.5,
-    "max_age": 0.9,
-    "worst_key": "PLANS-22699",
-    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 641
    },
    {
     "status": "In Development",
@@ -673,8 +673,8 @@
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 159
+   "Backlog": 159,
+   "On Hold": 1
   },
   "open_total": 135,
   "stale": 29,
