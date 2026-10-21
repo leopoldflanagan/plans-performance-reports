@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T15:39:23Z",
+ "generated": "2026-10-21T16:06:30Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -472,9 +472,8 @@
    "Closed": 25,
    "In Development": 3,
    "In Progress": 19,
-   "In Stage": 36,
+   "In Stage": 40,
    "Ready Prod": 42,
-   "PR Merged": 4,
    "Backlog": 108,
    "In Testing": 1,
    "On Hold": 3,
@@ -491,6 +490,7 @@
    206.0,
    230.0,
    253.0,
+   234.0,
    234.0
   ],
   "scope": [
@@ -503,6 +503,7 @@
    302.0,
    326.0,
    394.0,
+   409.0,
    409.0
   ],
   "ghost": [
@@ -515,6 +516,7 @@
    206.0,
    230.0,
    253.0,
+   234.0,
    234.0
   ],
   "days": 14,
@@ -533,8 +535,8 @@
   "end": "2026-10-25",
   "day": 24,
   "days": 28,
-  "closed": 464,
-  "points": 1147,
+  "closed": 466,
+  "points": 1150,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -566,15 +568,15 @@
    },
    {
     "status": "In Stage",
-    "open": 50,
-    "med_age": 2.3,
+    "open": 64,
+    "med_age": 1.9,
     "max_age": 12.7,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
     "over": 14,
     "clear_med": 3.0,
-    "clear_n": 423
+    "clear_n": 424
    },
    {
     "status": "Identified",
@@ -587,18 +589,6 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 2
-   },
-   {
-    "status": "PR Merged",
-    "open": 22,
-    "med_age": 0.9,
-    "max_age": 1.3,
-    "worst_key": "PLANS-22699",
-    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 649
    },
    {
     "status": "WAITING REVIEW",
@@ -625,16 +615,40 @@
     "clear_n": 699
    },
    {
+    "status": "PR Merged",
+    "open": 7,
+    "med_age": 1.3,
+    "max_age": 1.3,
+    "worst_key": "PLANS-22699",
+    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 664
+   },
+   {
     "status": "In Development",
     "open": 7,
     "med_age": 0.9,
-    "max_age": 7.1,
+    "max_age": 7.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 660
+   },
+   {
+    "status": "In QA",
+    "open": 1,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-24614",
+    "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
+    "worst_who": "Conor Kamperman",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 58
    },
    {
     "status": "Ready for Stage",
@@ -659,25 +673,13 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
-   },
-   {
-    "status": "In QA",
-    "open": 1,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24614",
-    "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
-    "worst_who": "Conor Kamperman",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 58
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 157
+   "Backlog": 156,
+   "On Hold": 2
   },
-  "open_total": 128,
+  "open_total": 127,
   "stale": 31,
   "worst": "Ready for Development"
  }
