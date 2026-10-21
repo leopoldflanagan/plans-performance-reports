@@ -401,9 +401,9 @@
     "Ready for Development": 10,
     "WAITING REVIEW": 1,
     "In Stage": 10,
-    "In Development": 2,
+    "On Hold": 4,
     "PR Created": 1,
-    "On Hold": 3,
+    "In Development": 1,
     "Will Not Implement": 1
    },
    "stalled": 354,
@@ -516,11 +516,11 @@
      "med": 0.14
     },
     "PR Created": {
-     "n": 46,
+     "n": 47,
      "med": 0.02
     },
     "PR Merged": {
-     "n": 49,
+     "n": 50,
      "med": 0.03
     },
     "In Stage": {
@@ -560,8 +560,8 @@
      "med": 8.52
     },
     "On Hold": {
-     "n": 6,
-     "med": 7.19
+     "n": 7,
+     "med": 4.79
     },
     "IN-DEVELOPMENT": {
      "n": 1,
@@ -575,7 +575,7 @@
    "dist": {
     "Done": 90,
     "To Do": 145,
-    "In Development": 5,
+    "In Development": 4,
     "In Progress": 20,
     "In Stage": 36,
     "Ready Prod": 41,
@@ -585,7 +585,7 @@
     "Backlog": 110,
     "Ready for Development": 12,
     "In Testing": 2,
-    "On Hold": 3,
+    "On Hold": 4,
     "Will Not Implement": 1
    },
    "stalled": 428,

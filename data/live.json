@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T10:38:37Z",
+ "generated": "2026-10-21T11:05:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -467,7 +467,7 @@
   "dist": {
    "Done": 90,
    "To Do": 145,
-   "In Development": 5,
+   "In Development": 4,
    "In Progress": 20,
    "In Stage": 36,
    "Ready Prod": 41,
@@ -477,7 +477,7 @@
    "Backlog": 108,
    "Ready for Development": 9,
    "In Testing": 2,
-   "On Hold": 2,
+   "On Hold": 3,
    "Will Not Implement": 1
   },
   "burn": [
@@ -566,8 +566,8 @@
    {
     "status": "Ready for Development",
     "open": 30,
-    "med_age": 6.5,
-    "max_age": 41.3,
+    "med_age": 6.6,
+    "max_age": 41.4,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -597,7 +597,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 644
+    "clear_n": 646
    },
    {
     "status": "WAITING REVIEW",
@@ -613,15 +613,15 @@
    },
    {
     "status": "In Development",
-    "open": 9,
-    "med_age": 1.1,
-    "max_age": 7.8,
+    "open": 8,
+    "med_age": 1.4,
+    "max_age": 7.9,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
     "worst_who": "Sailaja Yanamandra",
-    "over": 1,
+    "over": 2,
     "clear_med": 0.0,
-    "clear_n": 658
+    "clear_n": 659
    },
    {
     "status": "PR Created",
@@ -633,31 +633,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 694
+    "clear_n": 696
    },
    {
     "status": "In QA",
     "open": 2,
     "med_age": 0.6,
-    "max_age": 0.6,
+    "max_age": 0.7,
     "worst_key": "PLANS-24614",
     "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
     "worst_who": "Conor Kamperman",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 56
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -670,14 +658,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 159,
-   "On Hold": 1
+   "On Hold": 2,
+   "Backlog": 159
   },
-  "open_total": 135,
-  "stale": 27,
+  "open_total": 134,
+  "stale": 28,
   "worst": "In Stage"
  }
 }
