@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T18:07:49Z",
+ "generated": "2026-10-21T18:41:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,19 +55,19 @@
   "day": 10,
   "days": 14,
   "n": 17,
-  "done_now": 179,
+  "done_now": 182,
   "committed": 233,
-  "lo": 211,
-  "mid": 233,
-  "hi": 305,
-  "pct": 100,
+  "lo": 214,
+  "mid": 237,
+  "hi": 310,
+  "pct": 102,
   "verdict": "on track for the commitment",
   "share_mid": 0.768
  },
  "admin": {
   "scope": {
    "ready": 80,
-   "sprint": 241,
+   "sprint": 245,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
@@ -359,20 +359,20 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 305 of 310 items. This reads as a field the team does not use rather than 305 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 305,
+    "why": "missing on 309 of 314 items. This reads as a field the team does not use rather than 309 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 309,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 304 of 310 items. This reads as a field the team does not use rather than 304 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 304,
+    "why": "missing on 306 of 314 items. This reads as a field the team does not use rather than 306 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 306,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 129,
+    "n": 131,
     "items": [
      {
       "key": "PLANS-22675",
@@ -442,20 +442,20 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 518,
-  "items_done": 76,
+  "items": 529,
+  "items_done": 77,
   "committed": 233,
-  "final": 422,
-  "completed": 179,
-  "scope_change": 81,
-  "vs_commitment": 77,
+  "final": 432,
+  "completed": 182,
+  "scope_change": 85,
+  "vs_commitment": 78,
   "time_elapsed": 67,
   "spill": {
-   "open_items": 172,
-   "open_pts": 234.0,
+   "open_items": 175,
+   "open_pts": 241.0,
    "out_items": 8,
    "out_pts": 8.0,
-   "done_pts": 167.0
+   "done_pts": 170.0
   },
   "recv": {
    "items": 5,
@@ -465,14 +465,14 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 154,
-   "Done": 93,
+   "In Progress": 22,
+   "To Do": 156,
+   "Done": 95,
    "Ready for Development": 11,
-   "Ready Prod": 44,
+   "Ready Prod": 45,
    "Closed": 26,
-   "In Progress": 19,
-   "In Stage": 44,
-   "In Development": 5,
+   "In Development": 6,
+   "In Stage": 46,
    "Backlog": 107,
    "In Testing": 1,
    "On Hold": 3,
@@ -491,7 +491,7 @@
    230.0,
    253.0,
    234.0,
-   243.0
+   250.0
   ],
   "scope": [
    14.0,
@@ -504,7 +504,7 @@
    326.0,
    394.0,
    409.0,
-   422.0
+   432.0
   ],
   "ghost": [
    14.0,
@@ -517,7 +517,7 @@
    230.0,
    253.0,
    234.0,
-   243.0
+   250.0
   ],
   "days": 14,
   "day": 10
@@ -535,8 +535,8 @@
   "end": "2026-10-25",
   "day": 24,
   "days": 28,
-  "closed": 472,
-  "points": 1161,
+  "closed": 473,
+  "points": 1164,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -568,7 +568,7 @@
    },
    {
     "status": "In Stage",
-    "open": 64,
+    "open": 62,
     "med_age": 2.0,
     "max_age": 12.8,
     "worst_key": "PLANS-23995",
@@ -576,7 +576,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 14,
     "clear_med": 3.0,
-    "clear_n": 429
+    "clear_n": 431
    },
    {
     "status": "Identified",
@@ -605,7 +605,7 @@
    {
     "status": "PR Created",
     "open": 11,
-    "med_age": 1.0,
+    "med_age": 1.1,
     "max_age": 1.4,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -628,27 +628,15 @@
    },
    {
     "status": "In Development",
-    "open": 9,
+    "open": 10,
     "med_age": 0.2,
-    "max_age": 7.2,
+    "max_age": 7.3,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 660
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
    },
    {
     "status": "Ready for Stage",
@@ -661,6 +649,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    },
    {
     "status": "In PreProd",
@@ -676,10 +676,10 @@
    }
   ],
   "parked": {
-   "Backlog": 155,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 155
   },
-  "open_total": 123,
+  "open_total": 122,
   "stale": 32,
   "worst": "Ready for Development"
  }
