@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T15:06:06Z",
+ "generated": "2026-10-21T15:39:23Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 46,
-    "points": 80,
+    "n": 48,
+    "points": 84,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -56,7 +56,7 @@
   "days": 14,
   "n": 17,
   "done_now": 175,
-  "committed": 232,
+  "committed": 233,
   "lo": 206,
   "mid": 228,
   "hi": 298,
@@ -66,23 +66,19 @@
  },
  "admin": {
   "scope": {
-   "ready": 78,
-   "sprint": 230,
+   "ready": 80,
+   "sprint": 235,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 105,
+    "n": 103,
     "items": [
      {
       "key": "PLANS-24656",
       "summary": "Danahay Discount Plan Upgrade Plan to Add Member "
-     },
-     {
-      "key": "PLANS-24648",
-      "summary": "Stage-PMP-Retry option in Primary Contact panel not showing after refresh for ad"
      },
      {
       "key": "PLANS-24624",
@@ -105,8 +101,12 @@
       "summary": "Preprod - One Smile- Membership agreement - logo is not visible"
      },
      {
-      "key": "PLANS-24416",
-      "summary": "Prod - PMP - One Smile - Incorrect URL in membership card "
+      "key": "PLANS-24101",
+      "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
+     },
+     {
+      "key": "PLANS-14760",
+      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
      }
     ]
    },
@@ -124,8 +124,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 53,
+    "n": 55,
     "items": [
+     {
+      "key": "PLANS-24664",
+      "summary": "Essential Smile - Website Mobile View Issues"
+     },
+     {
+      "key": "PLANS-24662",
+      "summary": "Essential Smile Website Issues - Test in Pre-Prod"
+     },
      {
       "key": "PLANS-24656",
       "summary": "Danahay Discount Plan Upgrade Plan to Add Member "
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-24619",
       "summary": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedul"
-     },
-     {
-      "key": "PLANS-24585",
-      "summary": "KOS portal uses static footer instead of shared dynamic footer"
-     },
-     {
-      "key": "PLANS-24546",
-      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
      }
     ]
    },
@@ -202,8 +202,16 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 81,
+    "n": 83,
     "items": [
+     {
+      "key": "PLANS-24664",
+      "summary": "Essential Smile - Website Mobile View Issues"
+     },
+     {
+      "key": "PLANS-24662",
+      "summary": "Essential Smile Website Issues - Test in Pre-Prod"
+     },
      {
       "key": "PLANS-24485",
       "summary": "Marketing Settings - Legacy ONLY - CDPS \"Show Header as\" setting is not inherite"
@@ -227,21 +235,13 @@
      {
       "key": "PLANS-24405",
       "summary": "Prod - Logo not visible in Membership agreement / Membership cards."
-     },
-     {
-      "key": "PLANS-24399",
-      "summary": "STAGE/Prod - Plan Details -  Auto renewal text is not matching with CSP configur"
-     },
-     {
-      "key": "PLANS-24275",
-      "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
      }
     ]
    },
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 14,
+    "n": 15,
     "items": [
      {
       "key": "PLANS-15940",
@@ -250,6 +250,10 @@
      {
       "key": "PLANS-15928",
       "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
+     },
+     {
+      "key": "PLANS-23991",
+      "summary": "PLANS-23991: Story 1.1: Manage Preferences - CSP & WF Pay: Accept WellfitPay as "
      },
      {
       "key": "PLANS-23913",
@@ -270,10 +274,6 @@
      {
       "key": "PLANS-22214",
       "summary": "Story 2.2: Marketplace member-level GET/POST/DELETE primary-contact proxies with"
-     },
-     {
-      "key": "PLANS-22212",
-      "summary": "Story 2.1: Fix Member API responsible-party create path: dedupe-orphan link corr"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 294 of 299 items. This reads as a field the team does not use rather than 294 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 294,
+    "why": "missing on 299 of 304 items. This reads as a field the team does not use rather than 299 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 299,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 293 of 299 items. This reads as a field the team does not use rather than 293 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 293,
+    "why": "missing on 298 of 304 items. This reads as a field the team does not use rather than 298 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 298,
     "items": []
    },
    {
@@ -442,18 +442,18 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 495,
-  "items_done": 72,
-  "committed": 232,
-  "final": 403,
+  "items": 503,
+  "items_done": 73,
+  "committed": 233,
+  "final": 409,
   "completed": 175,
-  "scope_change": 74,
+  "scope_change": 76,
   "vs_commitment": 75,
   "time_elapsed": 66,
   "spill": {
-   "open_items": 165,
-   "open_pts": 220.0,
-   "out_items": 8,
+   "open_items": 169,
+   "open_pts": 226.0,
+   "out_items": 7,
    "out_pts": 7.0,
    "done_pts": 163.0
   },
@@ -465,56 +465,57 @@
   },
   "spill_rate": null,
   "dist": {
+   "Ready for Development": 11,
+   "To Do": 148,
    "Done": 91,
-   "To Do": 145,
+   "PR Created": 3,
+   "Closed": 25,
    "In Development": 3,
    "In Progress": 19,
-   "In Stage": 35,
-   "PR Created": 2,
+   "In Stage": 36,
    "Ready Prod": 42,
    "PR Merged": 4,
-   "Closed": 24,
    "Backlog": 108,
-   "Ready for Development": 9,
-   "In Testing": 2,
+   "In Testing": 1,
    "On Hold": 3,
+   "READY DEPLOYMENT": 1,
    "Will Not Implement": 1
   },
   "burn": [
    14.0,
+   204.0,
    203.0,
-   202.0,
-   200.0,
-   205.0,
-   205.0,
-   205.0,
-   229.0,
-   252.0,
-   228.0
+   201.0,
+   206.0,
+   206.0,
+   206.0,
+   230.0,
+   253.0,
+   234.0
   ],
   "scope": [
    14.0,
-   232.0,
-   244.0,
-   264.0,
-   300.0,
+   233.0,
+   245.0,
+   265.0,
    301.0,
-   301.0,
-   325.0,
-   393.0,
-   403.0
+   302.0,
+   302.0,
+   326.0,
+   394.0,
+   409.0
   ],
   "ghost": [
    14.0,
+   204.0,
    203.0,
-   202.0,
-   200.0,
-   205.0,
-   205.0,
-   205.0,
-   229.0,
-   252.0,
-   228.0
+   201.0,
+   206.0,
+   206.0,
+   206.0,
+   230.0,
+   253.0,
+   234.0
   ],
   "days": 14,
   "day": 10
@@ -532,8 +533,8 @@
   "end": "2026-10-25",
   "day": 24,
   "days": 28,
-  "closed": 463,
-  "points": 1145,
+  "closed": 464,
+  "points": 1147,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -553,9 +554,9 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 31,
+    "open": 33,
     "med_age": 6.7,
-    "max_age": 41.5,
+    "max_age": 41.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -565,7 +566,7 @@
    },
    {
     "status": "In Stage",
-    "open": 49,
+    "open": 50,
     "med_age": 2.3,
     "max_age": 12.7,
     "worst_key": "PLANS-23995",
@@ -573,7 +574,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 14,
     "clear_med": 3.0,
-    "clear_n": 425
+    "clear_n": 423
    },
    {
     "status": "Identified",
@@ -590,14 +591,14 @@
    {
     "status": "PR Merged",
     "open": 22,
-    "med_age": 0.8,
-    "max_age": 1.2,
+    "med_age": 0.9,
+    "max_age": 1.3,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 651
+    "clear_n": 649
    },
    {
     "status": "WAITING REVIEW",
@@ -615,37 +616,25 @@
     "status": "PR Created",
     "open": 13,
     "med_age": 0.9,
-    "max_age": 1.2,
+    "max_age": 1.3,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 701
+    "clear_n": 699
    },
    {
     "status": "In Development",
-    "open": 8,
-    "med_age": 0.5,
+    "open": 7,
+    "med_age": 0.9,
     "max_age": 7.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 662
-   },
-   {
-    "status": "In QA",
-    "open": 2,
-    "med_age": 0.3,
-    "max_age": 0.7,
-    "worst_key": "PLANS-23412",
-    "worst_sum": "[5.1.W1] Generate per-run confirmation and exception reports and email them to CREG",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 57
+    "clear_n": 660
    },
    {
     "status": "Ready for Stage",
@@ -670,13 +659,25 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "In QA",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24614",
+    "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
+    "worst_who": "Conor Kamperman",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 58
    }
   ],
   "parked": {
-   "Backlog": 157,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 157
   },
-  "open_total": 127,
+  "open_total": 128,
   "stale": 31,
   "worst": "Ready for Development"
  }
