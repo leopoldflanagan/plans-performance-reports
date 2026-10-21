@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T21:05:38Z",
+ "generated": "2026-10-21T21:37:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -472,12 +472,12 @@
    "Ready for Development": 10,
    "Ready Prod": 47,
    "Closed": 29,
-   "PR Created": 3,
+   "PR Merged": 3,
+   "PR Created": 1,
    "In Stage": 44,
    "Backlog": 107,
    "In Testing": 1,
    "On Hold": 3,
-   "PR Merged": 1,
    "READY DEPLOYMENT": 1,
    "Will Not Implement": 1
   },
@@ -536,8 +536,8 @@
   "end": "2026-10-25",
   "day": 24,
   "days": 28,
-  "closed": 474,
-  "points": 1170,
+  "closed": 475,
+  "points": 1172,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -558,12 +558,12 @@
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 6.9,
+    "med_age": 7.0,
     "max_age": 41.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 15,
+    "over": 17,
     "clear_med": 0.8,
     "clear_n": 266
    },
@@ -582,8 +582,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 48.3,
-    "max_age": 48.3,
+    "med_age": 48.4,
+    "max_age": 48.4,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -593,7 +593,7 @@
    },
    {
     "status": "PR Created",
-    "open": 14,
+    "open": 12,
     "med_age": 1.2,
     "max_age": 1.5,
     "worst_key": "PLANS-22695",
@@ -601,13 +601,13 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 707
+    "clear_n": 709
    },
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 13.1,
-    "max_age": 13.1,
+    "med_age": 13.2,
+    "max_age": 13.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -617,7 +617,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 5,
+    "open": 7,
     "med_age": 1.5,
     "max_age": 1.5,
     "worst_key": "PLANS-22699",
@@ -629,7 +629,7 @@
    },
    {
     "status": "In Development",
-    "open": 8,
+    "open": 7,
     "med_age": 0.3,
     "max_age": 7.4,
     "worst_key": "PLANS-24223",
@@ -637,19 +637,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 669
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
+    "clear_n": 670
    },
    {
     "status": "In QA",
@@ -662,6 +650,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 59
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -680,8 +680,8 @@
    "On Hold": 2,
    "Backlog": 151
   },
-  "open_total": 126,
-  "stale": 31,
+  "open_total": 125,
+  "stale": 33,
   "worst": "Ready for Development"
  }
 }
