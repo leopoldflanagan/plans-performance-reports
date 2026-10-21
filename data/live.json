@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T02:10:11Z",
+ "generated": "2026-10-21T02:43:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -590,8 +590,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 12.3,
-    "max_age": 12.3,
+    "med_age": 12.4,
+    "max_age": 12.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -602,7 +602,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 1.0,
+    "med_age": 1.1,
     "max_age": 7.5,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
@@ -648,18 +648,6 @@
     "clear_n": 56
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -670,6 +658,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
