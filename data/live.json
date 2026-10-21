@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T20:05:58Z",
+ "generated": "2026-10-21T20:38:24Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -471,8 +471,8 @@
    "Ready for Development": 11,
    "Ready Prod": 46,
    "Closed": 29,
-   "PR Created": 2,
-   "In Development": 5,
+   "PR Created": 3,
+   "In Development": 4,
    "In Stage": 45,
    "Backlog": 107,
    "In Testing": 1,
@@ -558,7 +558,7 @@
     "status": "Ready for Development",
     "open": 32,
     "med_age": 6.9,
-    "max_age": 41.7,
+    "max_age": 41.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -576,7 +576,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 14,
     "clear_med": 3.0,
-    "clear_n": 432
+    "clear_n": 431
    },
    {
     "status": "Identified",
@@ -592,15 +592,15 @@
    },
    {
     "status": "PR Created",
-    "open": 13,
+    "open": 14,
     "med_age": 1.1,
-    "max_age": 1.4,
+    "max_age": 1.5,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 707
+    "clear_n": 706
    },
    {
     "status": "WAITING REVIEW",
@@ -617,19 +617,19 @@
    {
     "status": "PR Merged",
     "open": 4,
-    "med_age": 1.4,
-    "max_age": 1.4,
+    "med_age": 1.5,
+    "max_age": 1.5,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 674
+    "clear_n": 673
    },
    {
     "status": "In Development",
-    "open": 9,
-    "med_age": 0.3,
+    "open": 8,
+    "med_age": 0.7,
     "max_age": 7.3,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -639,7 +639,7 @@
     "clear_n": 668
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -647,8 +647,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
+    "clear_med": 1.0,
+    "clear_n": 59
    },
    {
     "status": "Ready for Stage",
@@ -663,7 +663,7 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -671,13 +671,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 150,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 151
   },
   "open_total": 127,
   "stale": 32,

@@ -518,7 +518,7 @@
      "med": 4.6
     },
     "PR Created": {
-     "n": 55,
+     "n": 56,
      "med": 0.02
     },
     "PR Merged": {
@@ -585,8 +585,8 @@
     "Ready for Development": 14,
     "Ready Prod": 46,
     "Closed": 29,
-    "PR Created": 2,
-    "In Development": 5,
+    "PR Created": 3,
+    "In Development": 4,
     "In Stage": 45,
     "Backlog": 110,
     "In Testing": 1,
