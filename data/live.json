@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T00:14:50Z",
+ "generated": "2026-10-21T01:04:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 171,
   "scope_change": 73,
   "vs_commitment": 74,
-  "time_elapsed": 61,
+  "time_elapsed": 62,
   "spill": {
    "open_items": 166,
    "open_pts": 218.0,
@@ -555,7 +555,7 @@
     "status": "In Stage",
     "open": 59,
     "med_age": 4.1,
-    "max_age": 12.0,
+    "max_age": 12.1,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
@@ -602,7 +602,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 0.9,
+    "med_age": 1.0,
     "max_age": 7.4,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
@@ -610,6 +610,18 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 657
+   },
+   {
+    "status": "PR Merged",
+    "open": 21,
+    "med_age": 0.3,
+    "max_age": 0.7,
+    "worst_key": "PLANS-22699",
+    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 641
    },
    {
     "status": "PR Created",
@@ -622,18 +634,6 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 691
-   },
-   {
-    "status": "PR Merged",
-    "open": 21,
-    "med_age": 0.2,
-    "max_age": 0.6,
-    "worst_key": "PLANS-22699",
-    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 641
    },
    {
     "status": "In QA",
