@@ -255,11 +255,11 @@
   "LL-Sprint 24-26": {
    "done": [
     81,
-    176
+    178
    ],
    "open": [
-    173,
-    239
+    172,
+    237
    ],
    "out": [
     7,
@@ -510,8 +510,8 @@
      "med": 0.2
     },
     "Done": {
-     "n": 102,
-     "med": 11.3
+     "n": 103,
+     "med": 11.25
     },
     "Ready for Development": {
      "n": 27,
@@ -531,10 +531,10 @@
     },
     "In Stage": {
      "n": 112,
-     "med": 3.49
+     "med": 3.11
     },
     "Ready Prod": {
-     "n": 56,
+     "n": 57,
      "med": 6.43
     },
     "Closed": {
@@ -579,15 +579,15 @@
     }
    },
    "dist": {
-    "In Progress": 22,
+    "In Progress": 21,
     "To Do": 154,
-    "Done": 99,
+    "Done": 100,
     "PR Created": 3,
     "Ready for Development": 13,
-    "Ready Prod": 47,
+    "Ready Prod": 48,
     "Closed": 29,
     "PR Merged": 2,
-    "In Stage": 44,
+    "In Stage": 43,
     "In Development": 3,
     "Backlog": 110,
     "In Testing": 1,
@@ -595,7 +595,7 @@
     "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 456,
+   "stalled": 455,
    "worst": 13.58,
    "worstSt": "To Do",
    "items": 533
