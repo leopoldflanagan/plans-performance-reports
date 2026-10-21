@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T01:04:57Z",
+ "generated": "2026-10-21T01:45:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -567,7 +567,7 @@
     "status": "Ready for Development",
     "open": 32,
     "med_age": 6.2,
-    "max_age": 40.9,
+    "max_age": 41.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -603,7 +603,7 @@
     "status": "In Development",
     "open": 8,
     "med_age": 1.0,
-    "max_age": 7.4,
+    "max_age": 7.5,
     "worst_key": "PLANS-23406",
     "worst_sum": "[3.7.W3] Apply two-flag termination and cascade COBRA continuation to dependents",
     "worst_who": "Sailaja Yanamandra",
@@ -626,8 +626,8 @@
    {
     "status": "PR Created",
     "open": 11,
-    "med_age": 0.4,
-    "max_age": 34.4,
+    "med_age": 0.5,
+    "max_age": 34.5,
     "worst_key": "PLANS-22703",
     "worst_sum": "[3.1.W1] Render refundable, past-window, not eligible, and manual check recorded states",
     "worst_who": "Oleksandr Terletskyy",
@@ -639,7 +639,7 @@
     "status": "In QA",
     "open": 2,
     "med_age": 0.2,
-    "max_age": 0.2,
+    "max_age": 0.3,
     "worst_key": "PLANS-24614",
     "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
     "worst_who": "Conor Kamperman",
@@ -673,8 +673,8 @@
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 159
+   "Backlog": 159,
+   "On Hold": 1
   },
   "open_total": 135,
   "stale": 28,
