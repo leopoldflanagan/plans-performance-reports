@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T16:06:30Z",
+ "generated": "2026-10-21T16:39:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -535,7 +535,7 @@
   "end": "2026-10-25",
   "day": 24,
   "days": 28,
-  "closed": 466,
+  "closed": 467,
   "points": 1150,
   "unplanned": null,
   "unplanned_pct": null,
@@ -568,7 +568,7 @@
    },
    {
     "status": "In Stage",
-    "open": 64,
+    "open": 68,
     "med_age": 1.9,
     "max_age": 12.7,
     "worst_key": "PLANS-23995",
@@ -581,14 +581,26 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 48.1,
-    "max_age": 48.1,
+    "med_age": 48.2,
+    "max_age": 48.2,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 2
+   },
+   {
+    "status": "PR Created",
+    "open": 13,
+    "med_age": 1.0,
+    "max_age": 1.3,
+    "worst_key": "PLANS-22695",
+    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 699
    },
    {
     "status": "WAITING REVIEW",
@@ -603,30 +615,6 @@
     "clear_n": 17
    },
    {
-    "status": "PR Created",
-    "open": 13,
-    "med_age": 0.9,
-    "max_age": 1.3,
-    "worst_key": "PLANS-22695",
-    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 699
-   },
-   {
-    "status": "PR Merged",
-    "open": 7,
-    "med_age": 1.3,
-    "max_age": 1.3,
-    "worst_key": "PLANS-22699",
-    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 664
-   },
-   {
     "status": "In Development",
     "open": 7,
     "med_age": 0.9,
@@ -639,16 +627,16 @@
     "clear_n": 660
    },
    {
-    "status": "In QA",
-    "open": 1,
-    "med_age": 0.1,
-    "max_age": 0.1,
-    "worst_key": "PLANS-24614",
-    "worst_sum": "Blocker - CSP/Unable to purchase CREG plan for a member with CA address",
-    "worst_who": "Conor Kamperman",
+    "status": "PR Merged",
+    "open": 4,
+    "med_age": 1.3,
+    "max_age": 1.3,
+    "worst_key": "PLANS-22699",
+    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
+    "worst_who": "Mykyta  Moroz",
     "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 58
+    "clear_med": 0.1,
+    "clear_n": 667
    },
    {
     "status": "Ready for Stage",
@@ -661,6 +649,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    },
    {
     "status": "In PreProd",
@@ -676,7 +676,7 @@
    }
   ],
   "parked": {
-   "Backlog": 156,
+   "Backlog": 155,
    "On Hold": 2
   },
   "open_total": 127,
