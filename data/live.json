@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T11:06:03Z",
+ "generated": "2026-10-22T11:37:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -468,10 +468,10 @@
    "To Do": 177,
    "In Progress": 20,
    "Done": 101,
-   "PR Merged": 4,
+   "PR Created": 3,
+   "PR Merged": 3,
    "Ready Prod": 50,
    "Closed": 29,
-   "PR Created": 2,
    "In Stage": 51,
    "In Development": 3,
    "Backlog": 107,
@@ -592,18 +592,6 @@
     "clear_n": 2
    },
    {
-    "status": "PR Created",
-    "open": 14,
-    "med_age": 1.1,
-    "max_age": 2.1,
-    "worst_key": "PLANS-22695",
-    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 707
-   },
-   {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 6.9,
@@ -616,8 +604,20 @@
     "clear_n": 17
    },
    {
+    "status": "PR Created",
+    "open": 16,
+    "med_age": 0.6,
+    "max_age": 2.1,
+    "worst_key": "PLANS-22695",
+    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 707
+   },
+   {
     "status": "PR Merged",
-    "open": 10,
+    "open": 9,
     "med_age": 0.6,
     "max_age": 2.1,
     "worst_key": "PLANS-22699",
@@ -625,22 +625,22 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 668
+    "clear_n": 669
    },
    {
     "status": "In Development",
-    "open": 7,
-    "med_age": 0.1,
+    "open": 6,
+    "med_age": 0.5,
     "max_age": 8.0,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 670
+    "clear_n": 671
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -648,8 +648,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
+    "clear_med": 0.0,
+    "clear_n": 26
    },
    {
     "status": "Ready for Stage",
@@ -664,7 +664,7 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -672,13 +672,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
+    "clear_med": 1.0,
+    "clear_n": 59
    }
   ],
   "parked": {
-   "Backlog": 152,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 152
   },
   "open_total": 120,
   "stale": 33,
