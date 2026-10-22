@@ -524,13 +524,13 @@
      "n": 56,
      "med": 0.03
     },
+    "PR Created": {
+     "n": 68,
+     "med": 0.05
+    },
     "Backlog": {
      "n": 132,
      "med": 13.58
-    },
-    "PR Created": {
-     "n": 67,
-     "med": 0.05
     },
     "PR Merged": {
      "n": 67,
@@ -585,8 +585,7 @@
     "Done": 117,
     "To Do": 170,
     "In Progress": 25,
-    "In Development": 3,
-    "PR Created": 4,
+    "PR Created": 5,
     "In PreProd": 1,
     "WAITING REVIEW": 1,
     "Ready for Development": 13,
@@ -597,6 +596,7 @@
     "In Testing": 1,
     "On Hold": 4,
     "READY DEPLOYMENT": 1,
+    "In Development": 2,
     "Will Not Implement": 1
    },
    "stalled": 497,
