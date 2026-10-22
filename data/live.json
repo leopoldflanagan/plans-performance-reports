@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:38:18Z",
+ "generated": "2026-10-22T11:06:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -559,7 +559,7 @@
     "status": "Ready for Development",
     "open": 31,
     "med_age": 7.5,
-    "max_age": 42.3,
+    "max_age": 42.4,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -570,14 +570,14 @@
    {
     "status": "In Stage",
     "open": 55,
-    "med_age": 2.6,
+    "med_age": 2.7,
     "max_age": 13.5,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
     "over": 11,
     "clear_med": 2.7,
-    "clear_n": 436
+    "clear_n": 435
    },
    {
     "status": "Identified",
@@ -601,7 +601,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 708
+    "clear_n": 707
    },
    {
     "status": "WAITING REVIEW",
@@ -625,22 +625,22 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 669
+    "clear_n": 668
    },
    {
     "status": "In Development",
-    "open": 6,
-    "med_age": 0.4,
-    "max_age": 7.9,
+    "open": 7,
+    "med_age": 0.1,
+    "max_age": 8.0,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 671
+    "clear_n": 670
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -648,8 +648,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
+    "clear_med": 1.0,
+    "clear_n": 59
    },
    {
     "status": "Ready for Stage",
@@ -664,7 +664,7 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -672,15 +672,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
    "Backlog": 152,
    "On Hold": 2
   },
-  "open_total": 119,
+  "open_total": 120,
   "stale": 33,
   "worst": "Ready for Development"
  }
