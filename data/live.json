@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T13:08:10Z",
+ "generated": "2026-10-22T13:39:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 46,
+    "n": 47,
     "points": 85,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -55,27 +55,31 @@
   "day": 11,
   "days": 14,
   "n": 17,
-  "done_now": 198,
+  "done_now": 199,
   "committed": 234,
-  "lo": 216,
-  "mid": 233,
-  "hi": 284,
+  "lo": 218,
+  "mid": 235,
+  "hi": 286,
   "pct": 100,
   "verdict": "on track for the commitment",
   "share_mid": 0.848
  },
  "admin": {
   "scope": {
-   "ready": 78,
-   "sprint": 258,
+   "ready": 79,
+   "sprint": 259,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 96,
+    "n": 97,
     "items": [
+     {
+      "key": "PLANS-24705",
+      "summary": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a "
+     },
      {
       "key": "PLANS-24656",
       "summary": "Danahay Discount Plan Upgrade Plan to Add Member "
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14538",
       "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
-     },
-     {
-      "key": "PLANS-11253",
-      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 53,
+    "n": 54,
     "items": [
+     {
+      "key": "PLANS-24705",
+      "summary": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a "
+     },
      {
       "key": "PLANS-24681",
       "summary": "Use Fee Schedule Bug for Click Here for Details"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
-     },
-     {
-      "key": "PLANS-24546",
-      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 322 of 327 items. This reads as a field the team does not use rather than 322 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 322,
+    "why": "missing on 324 of 329 items. This reads as a field the team does not use rather than 324 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 324,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 319 of 327 items. This reads as a field the team does not use rather than 319 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 319,
+    "why": "missing on 321 of 329 items. This reads as a field the team does not use rather than 321 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 321,
     "items": []
    },
    {
@@ -442,12 +442,12 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 566,
-  "items_done": 85,
+  "items": 567,
+  "items_done": 86,
   "committed": 234,
-  "final": 478,
-  "completed": 198,
-  "scope_change": 104,
+  "final": 479,
+  "completed": 199,
+  "scope_change": 105,
   "vs_commitment": 85,
   "time_elapsed": 73,
   "spill": {
@@ -455,7 +455,7 @@
    "open_pts": 269.0,
    "out_items": 7,
    "out_pts": 8.0,
-   "done_pts": 188.0
+   "done_pts": 189.0
   },
   "recv": {
    "items": 5,
@@ -466,19 +466,19 @@
   "spill_rate": null,
   "dist": {
    "To Do": 176,
-   "In Progress": 19,
-   "Done": 103,
+   "Done": 104,
+   "PR Created": 4,
+   "In Progress": 18,
    "PR Merged": 4,
-   "Ready Prod": 52,
+   "Ready Prod": 53,
    "Closed": 29,
-   "PR Created": 2,
-   "In Stage": 49,
-   "In Development": 3,
+   "In Stage": 48,
    "Backlog": 107,
    "Ready for Development": 9,
    "In Testing": 1,
    "On Hold": 3,
    "READY DEPLOYMENT": 1,
+   "In Development": 2,
    "Will Not Implement": 1
   },
   "burn": [
@@ -505,7 +505,7 @@
    331.0,
    399.0,
    416.0,
-   478.0
+   479.0
   ],
   "ghost": [
    14.0,
@@ -536,8 +536,8 @@
   "end": "2026-10-25",
   "day": 25,
   "days": 28,
-  "closed": 485,
-  "points": 1202,
+  "closed": 486,
+  "points": 1203,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -557,19 +557,19 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 31,
+    "open": 32,
     "med_age": 7.6,
-    "max_age": 42.4,
+    "max_age": 42.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 20,
+    "over": 21,
     "clear_med": 0.8,
     "clear_n": 269
    },
    {
     "status": "In Stage",
-    "open": 54,
+    "open": 53,
     "med_age": 2.8,
     "max_age": 13.6,
     "worst_key": "PLANS-23995",
@@ -577,7 +577,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 11,
     "clear_med": 2.7,
-    "clear_n": 436
+    "clear_n": 437
    },
    {
     "status": "WAITING REVIEW",
@@ -593,7 +593,7 @@
    },
    {
     "status": "PR Created",
-    "open": 15,
+    "open": 16,
     "med_age": 0.7,
     "max_age": 2.2,
     "worst_key": "PLANS-22695",
@@ -617,15 +617,15 @@
    },
    {
     "status": "In Development",
-    "open": 6,
-    "med_age": 0.5,
-    "max_age": 8.0,
+    "open": 5,
+    "med_age": 0.1,
+    "max_age": 8.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 671
+    "clear_n": 672
    },
    {
     "status": "In PreProd",
@@ -666,10 +666,10 @@
   ],
   "parked": {
    "On Hold": 2,
-   "Backlog": 155
+   "Backlog": 154
   },
   "open_total": 118,
-  "stale": 33,
+  "stale": 34,
   "worst": "Ready for Development"
  }
 }
