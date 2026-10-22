@@ -142,7 +142,7 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   585,
+   587,
    90,
    234,
    495,
@@ -505,12 +505,12 @@
   "LL-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 258,
+     "n": 260,
      "med": 13.58
     },
     "In Progress": {
-     "n": 74,
-     "med": 0.29
+     "n": 76,
+     "med": 0.5
     },
     "Ready for Development": {
      "n": 29,
@@ -582,7 +582,7 @@
     }
    },
    "dist": {
-    "In Progress": 21,
+    "In Progress": 23,
     "To Do": 176,
     "In Development": 3,
     "PR Created": 5,
@@ -598,10 +598,10 @@
     "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 497,
+   "stalled": 499,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 585
+   "items": 587
   },
   "Plans-Sprint 24-26": {
    "tis": {

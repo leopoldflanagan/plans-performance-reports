@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T18:41:37Z",
+ "generated": "2026-10-22T19:05:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -442,14 +442,14 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 585,
+  "items": 587,
   "items_done": 90,
   "committed": 234,
   "final": 495,
   "completed": 207,
   "scope_change": 112,
   "vs_commitment": 88,
-  "time_elapsed": 74,
+  "time_elapsed": 75,
   "spill": {
    "open_items": 182,
    "open_pts": 274.0,
@@ -465,7 +465,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Progress": 21,
+   "In Progress": 23,
    "To Do": 176,
    "In Development": 3,
    "PR Created": 5,
@@ -561,7 +561,7 @@
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 7.8,
+    "med_age": 7.9,
     "max_age": 42.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -578,7 +578,7 @@
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 9,
+    "over": 10,
     "clear_med": 2.7,
     "clear_n": 442
    },
@@ -631,18 +631,6 @@
     "clear_n": 677
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -653,6 +641,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    },
    {
     "status": "In PreProd",
@@ -668,11 +668,11 @@
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 151
+   "Backlog": 151,
+   "On Hold": 1
   },
   "open_total": 116,
-  "stale": 32,
+  "stale": 33,
   "worst": "Ready for Development"
  }
 }
