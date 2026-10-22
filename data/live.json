@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T22:06:12Z",
+ "generated": "2026-10-22T22:34:49Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,12 +449,12 @@
   "completed": 221,
   "scope_change": 112,
   "vs_commitment": 94,
-  "time_elapsed": 75,
+  "time_elapsed": 76,
   "spill": {
-   "open_items": 177,
-   "open_pts": 260.0,
-   "out_items": 7,
-   "out_pts": 8.0,
+   "open_items": 176,
+   "open_pts": 259.0,
+   "out_items": 8,
+   "out_pts": 9.0,
    "done_pts": 213.0
   },
   "recv": {
@@ -469,7 +469,8 @@
    "To Do": 170,
    "In Progress": 25,
    "In Development": 3,
-   "PR Created": 5,
+   "PR Created": 4,
+   "In PreProd": 1,
    "WAITING REVIEW": 1,
    "Ready for Development": 10,
    "Ready Prod": 62,
@@ -580,24 +581,24 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 11,
     "clear_med": 2.7,
-    "clear_n": 448
+    "clear_n": 449
    },
    {
     "status": "PR Merged",
     "open": 7,
-    "med_age": 2.5,
-    "max_age": 2.5,
+    "med_age": 2.6,
+    "max_age": 2.6,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 678
+    "clear_n": 679
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 7.3,
+    "med_age": 7.4,
     "max_age": 14.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -608,15 +609,15 @@
    },
    {
     "status": "PR Created",
-    "open": 20,
-    "med_age": 0.4,
-    "max_age": 2.5,
+    "open": 19,
+    "med_age": 0.3,
+    "max_age": 2.6,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 714
+    "clear_n": 715
    },
    {
     "status": "In Development",
@@ -631,18 +632,6 @@
     "clear_n": 679
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -653,6 +642,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 59
+   },
+   {
+    "status": "In PreProd",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24683",
+    "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
+    "worst_who": "Carlos Parra",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -668,8 +669,8 @@
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 149
+   "Backlog": 149,
+   "On Hold": 1
   },
   "open_total": 113,
   "stale": 36,
