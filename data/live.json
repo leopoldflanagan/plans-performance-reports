@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T01:02:55Z",
+ "generated": "2026-10-22T01:44:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 47,
+    "n": 48,
     "points": 84,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 79,
+   "ready": 80,
    "sprint": 248,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 97,
+    "n": 98,
     "items": [
+     {
+      "key": "PLANS-24682",
+      "summary": "Additional Benefits Link in PDF"
+     },
      {
       "key": "PLANS-24681",
       "summary": "Use Fee Schedule Bug for Click Here for Details"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14538",
-      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 54,
+    "n": 55,
     "items": [
+     {
+      "key": "PLANS-24682",
+      "summary": "Additional Benefits Link in PDF"
+     },
      {
       "key": "PLANS-24681",
       "summary": "Use Fee Schedule Bug for Click Here for Details"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24621",
       "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
-     },
-     {
-      "key": "PLANS-24585",
-      "summary": "KOS portal uses static footer instead of shared dynamic footer"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 312 of 317 items. This reads as a field the team does not use rather than 312 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 312,
+    "why": "missing on 313 of 318 items. This reads as a field the team does not use rather than 313 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 313,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 309 of 317 items. This reads as a field the team does not use rather than 309 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 309,
+    "why": "missing on 310 of 318 items. This reads as a field the team does not use rather than 310 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 310,
     "items": []
    },
    {
@@ -557,9 +557,9 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 32,
+    "open": 33,
     "med_age": 7.1,
-    "max_age": 41.9,
+    "max_age": 42.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -577,7 +577,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 13,
     "clear_med": 3.0,
-    "clear_n": 431
+    "clear_n": 430
    },
    {
     "status": "Identified",
@@ -613,7 +613,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 706
+    "clear_n": 705
    },
    {
     "status": "PR Merged",
@@ -625,31 +625,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 671
+    "clear_n": 670
    },
    {
     "status": "In Development",
     "open": 4,
     "med_age": 0.5,
-    "max_age": 7.5,
+    "max_age": 7.6,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 671
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
+    "clear_n": 670
    },
    {
     "status": "In QA",
@@ -674,13 +662,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 152
+   "Backlog": 152,
+   "On Hold": 2
   },
-  "open_total": 125,
+  "open_total": 126,
   "stale": 33,
   "worst": "Ready for Development"
  }
