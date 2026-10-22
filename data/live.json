@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T02:09:46Z",
+ "generated": "2026-10-22T02:43:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 48,
+    "n": 49,
     "points": 84,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 80,
+   "ready": 81,
    "sprint": 248,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 98,
+    "n": 99,
     "items": [
+     {
+      "key": "PLANS-24683",
+      "summary": "PreProd - No Plans that were transferred from Prod are showing in WFPay"
+     },
      {
       "key": "PLANS-24682",
       "summary": "Additional Benefits Link in PDF"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
-     },
-     {
-      "key": "PLANS-14758",
-      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 55,
+    "n": 56,
     "items": [
+     {
+      "key": "PLANS-24683",
+      "summary": "PreProd - No Plans that were transferred from Prod are showing in WFPay"
+     },
      {
       "key": "PLANS-24682",
       "summary": "Additional Benefits Link in PDF"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24624",
       "summary": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additi"
-     },
-     {
-      "key": "PLANS-24621",
-      "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 313 of 318 items. This reads as a field the team does not use rather than 313 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 313,
+    "why": "missing on 314 of 319 items. This reads as a field the team does not use rather than 314 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 314,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 310 of 318 items. This reads as a field the team does not use rather than 310 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 310,
+    "why": "missing on 311 of 319 items. This reads as a field the team does not use rather than 311 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 311,
     "items": []
    },
    {
@@ -449,7 +449,7 @@
   "completed": 188,
   "scope_change": 86,
   "vs_commitment": 80,
-  "time_elapsed": 69,
+  "time_elapsed": 70,
   "spill": {
    "open_items": 172,
    "open_pts": 237.0,
@@ -557,7 +557,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 33,
+    "open": 34,
     "med_age": 7.1,
     "max_age": 42.0,
     "worst_key": "PLANS-22675",
@@ -576,8 +576,8 @@
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
     "over": 13,
-    "clear_med": 3.0,
-    "clear_n": 430
+    "clear_med": 2.9,
+    "clear_n": 429
    },
    {
     "status": "Identified",
@@ -594,8 +594,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 1,
-    "med_age": 13.3,
-    "max_age": 13.3,
+    "med_age": 13.4,
+    "max_age": 13.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -613,7 +613,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 705
+    "clear_n": 704
    },
    {
     "status": "PR Merged",
@@ -625,7 +625,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 670
+    "clear_n": 669
    },
    {
     "status": "In Development",
@@ -637,7 +637,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 670
+    "clear_n": 669
    },
    {
     "status": "Ready for Stage",
@@ -652,18 +652,6 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -674,13 +662,25 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 152
+   "Backlog": 152,
+   "On Hold": 2
   },
-  "open_total": 126,
+  "open_total": 127,
   "stale": 34,
   "worst": "Ready for Development"
  }
