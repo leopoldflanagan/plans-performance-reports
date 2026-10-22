@@ -509,12 +509,12 @@
      "med": 13.58
     },
     "In Progress": {
-     "n": 82,
-     "med": 0.17
+     "n": 85,
+     "med": 0.19
     },
     "Done": {
-     "n": 119,
-     "med": 10.4
+     "n": 120,
+     "med": 10.39
     },
     "Ready for Development": {
      "n": 29,
@@ -582,9 +582,9 @@
     }
    },
    "dist": {
-    "In Progress": 23,
-    "Done": 116,
-    "To Do": 173,
+    "Done": 117,
+    "To Do": 170,
+    "In Progress": 25,
     "In Development": 3,
     "PR Created": 5,
     "WAITING REVIEW": 1,
