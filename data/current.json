@@ -506,8 +506,8 @@
      "med": 13.58
     },
     "In Progress": {
-     "n": 67,
-     "med": 0.2
+     "n": 68,
+     "med": 0.29
     },
     "Done": {
      "n": 106,
@@ -579,8 +579,8 @@
     }
    },
    "dist": {
-    "To Do": 177,
-    "In Progress": 18,
+    "To Do": 176,
+    "In Progress": 19,
     "Done": 103,
     "PR Merged": 4,
     "Ready Prod": 52,
