@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T11:37:44Z",
+ "generated": "2026-10-22T12:09:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -468,10 +468,10 @@
    "To Do": 177,
    "In Progress": 20,
    "Done": 101,
-   "PR Created": 3,
-   "PR Merged": 3,
+   "PR Merged": 4,
    "Ready Prod": 50,
    "Closed": 29,
+   "PR Created": 2,
    "In Stage": 51,
    "In Development": 3,
    "Backlog": 107,
@@ -558,7 +558,7 @@
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 7.5,
+    "med_age": 7.6,
     "max_age": 42.4,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -582,20 +582,20 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 48.9,
-    "max_age": 48.9,
+    "med_age": 49.0,
+    "max_age": 49.0,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 2
+    "clear_n": 1
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 6.9,
-    "max_age": 13.7,
+    "med_age": 7.0,
+    "max_age": 13.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -605,19 +605,19 @@
    },
    {
     "status": "PR Created",
-    "open": 16,
-    "med_age": 0.6,
+    "open": 15,
+    "med_age": 0.7,
     "max_age": 2.1,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 707
+    "clear_n": 708
    },
    {
     "status": "PR Merged",
-    "open": 9,
+    "open": 10,
     "med_age": 0.6,
     "max_age": 2.1,
     "worst_key": "PLANS-22699",
@@ -640,18 +640,6 @@
     "clear_n": 671
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -662,6 +650,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    },
    {
     "status": "In QA",
@@ -677,8 +677,8 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 152
+   "Backlog": 153,
+   "On Hold": 2
   },
   "open_total": 120,
   "stale": 33,
