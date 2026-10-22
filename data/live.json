@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T03:41:27Z",
+ "generated": "2026-10-22T04:06:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -442,7 +442,7 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 533,
+  "items": 534,
   "items_done": 82,
   "committed": 234,
   "final": 436,
@@ -465,8 +465,8 @@
   },
   "spill_rate": null,
   "dist": {
+   "To Do": 155,
    "In Progress": 20,
-   "To Do": 154,
    "Done": 101,
    "PR Created": 3,
    "Ready for Development": 10,
@@ -536,8 +536,8 @@
   "end": "2026-10-25",
   "day": 25,
   "days": 28,
-  "closed": 477,
-  "points": 1176,
+  "closed": 478,
+  "points": 1179,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -569,7 +569,7 @@
    },
    {
     "status": "In Stage",
-    "open": 62,
+    "open": 61,
     "med_age": 2.4,
     "max_age": 13.2,
     "worst_key": "PLANS-23995",
@@ -577,7 +577,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 13,
     "clear_med": 2.7,
-    "clear_n": 429
+    "clear_n": 430
    },
    {
     "status": "Identified",
@@ -631,25 +631,13 @@
     "status": "In Development",
     "open": 4,
     "med_age": 0.6,
-    "max_age": 7.6,
+    "max_age": 7.7,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 667
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 26
    },
    {
     "status": "In QA",
@@ -674,13 +662,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 26
    }
   ],
   "parked": {
-   "Backlog": 153,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 153
   },
-  "open_total": 125,
+  "open_total": 124,
   "stale": 35,
   "worst": "Ready for Development"
  }

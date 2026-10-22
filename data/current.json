@@ -9,9 +9,9 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 252,
-  "closed": 477,
+  "closed": 478,
   "discarded": 0,
-  "resolved": 477,
+  "resolved": 478,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    222
+    223
    ],
    [
     "TechDebt",
@@ -39,10 +39,10 @@
   "day": 22,
   "days": 28,
   "status": "risk",
-  "headline": "477 items closed in the first 22 days, a pace of about 607 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "478 items closed in the first 22 days, a pace of about 608 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 10.9d and average 17.9d, both past the healthy band"
+   "cycle time median 10.8d and average 17.9d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -142,7 +142,7 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   533,
+   534,
    82,
    234,
    436,
@@ -502,7 +502,7 @@
   "LL-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 228,
+     "n": 229,
      "med": 13.58
     },
     "In Progress": {
@@ -579,8 +579,8 @@
     }
    },
    "dist": {
+    "To Do": 155,
     "In Progress": 20,
-    "To Do": 154,
     "Done": 101,
     "PR Created": 3,
     "Ready for Development": 13,
@@ -595,10 +595,10 @@
     "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 454,
+   "stalled": 455,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 533
+   "items": 534
   },
   "Plans-Sprint 24-26": {
    "tis": {
@@ -752,20 +752,20 @@
  },
  "CAP": {
   "9.09": [
-   477,
-   405,
-   1176,
+   478,
+   406,
+   1179,
    23
   ]
  },
  "CYC": {
   "9.09": {
-   "med": 10.9,
-   "avg": 17.91,
-   "n": 349,
+   "med": 10.84,
+   "avg": 17.87,
+   "n": 350,
    "mx": 148.81,
    "nodev": 128,
-   "base": 477
+   "base": 478
   }
  },
  "complete": false,
