@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T19:05:01Z",
+ "generated": "2026-10-22T19:34:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 11,
   "days": 14,
   "n": 17,
-  "done_now": 207,
+  "done_now": 215,
   "committed": 234,
-  "lo": 226,
-  "mid": 244,
-  "hi": 297,
-  "pct": 104,
+  "lo": 235,
+  "mid": 253,
+  "hi": 309,
+  "pct": 108,
   "verdict": "on track for the commitment",
   "share_mid": 0.848
  },
@@ -442,20 +442,20 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 587,
-  "items_done": 90,
+  "items": 589,
+  "items_done": 92,
   "committed": 234,
   "final": 495,
-  "completed": 207,
+  "completed": 215,
   "scope_change": 112,
-  "vs_commitment": 88,
+  "vs_commitment": 92,
   "time_elapsed": 75,
   "spill": {
-   "open_items": 182,
-   "open_pts": 274.0,
+   "open_items": 180,
+   "open_pts": 266.0,
    "out_items": 7,
    "out_pts": 8.0,
-   "done_pts": 199.0
+   "done_pts": 207.0
   },
   "recv": {
    "items": 5,
@@ -465,16 +465,16 @@
   },
   "spill_rate": null,
   "dist": {
+   "Done": 112,
    "In Progress": 23,
    "To Do": 176,
    "In Development": 3,
    "PR Created": 5,
-   "Done": 110,
    "WAITING REVIEW": 1,
    "Ready for Development": 10,
-   "In Stage": 51,
+   "In Stage": 49,
    "Backlog": 108,
-   "Ready Prod": 57,
+   "Ready Prod": 59,
    "Closed": 30,
    "In Testing": 1,
    "On Hold": 3,
@@ -493,7 +493,7 @@
    256.0,
    239.0,
    294.0,
-   288.0
+   280.0
   ],
   "scope": [
    14.0,
@@ -521,7 +521,7 @@
    256.0,
    239.0,
    294.0,
-   288.0
+   280.0
   ],
   "days": 14,
   "day": 11
@@ -539,8 +539,8 @@
   "end": "2026-10-25",
   "day": 25,
   "days": 28,
-  "closed": 497,
-  "points": 1223,
+  "closed": 499,
+  "points": 1231,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -572,19 +572,19 @@
    },
    {
     "status": "In Stage",
-    "open": 53,
-    "med_age": 1.1,
+    "open": 51,
+    "med_age": 2.2,
     "max_age": 13.8,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 10,
+    "over": 11,
     "clear_med": 2.7,
-    "clear_n": 442
+    "clear_n": 445
    },
    {
     "status": "PR Created",
-    "open": 20,
+    "open": 19,
     "med_age": 0.9,
     "max_age": 2.4,
     "worst_key": "PLANS-22695",
@@ -592,13 +592,13 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 712
+    "clear_n": 714
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 7.2,
-    "max_age": 14.0,
+    "max_age": 14.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -608,7 +608,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 5,
+    "open": 6,
     "med_age": 2.4,
     "max_age": 2.4,
     "worst_key": "PLANS-22699",
@@ -616,7 +616,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 678
+    "clear_n": 679
    },
    {
     "status": "In Development",
@@ -628,7 +628,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 677
+    "clear_n": 678
    },
    {
     "status": "Ready for Stage",
@@ -671,8 +671,8 @@
    "Backlog": 151,
    "On Hold": 1
   },
-  "open_total": 116,
-  "stale": 33,
+  "open_total": 114,
+  "stale": 34,
   "worst": "Ready for Development"
  }
 }
