@@ -541,8 +541,8 @@
      "med": 0.04
     },
     "In Stage": {
-     "n": 125,
-     "med": 3.56
+     "n": 129,
+     "med": 3.52
     },
     "Ready Prod": {
      "n": 64,
@@ -589,11 +589,10 @@
     "WAITING REVIEW": 1,
     "Ready for Development": 13,
     "In Progress": 21,
-    "PR Merged": 4,
+    "In Stage": 53,
     "Backlog": 111,
     "Ready Prod": 55,
     "Closed": 30,
-    "In Stage": 49,
     "In Testing": 1,
     "On Hold": 4,
     "READY DEPLOYMENT": 1,
@@ -635,8 +634,8 @@
      "med": 0.01
     },
     "PR Merged": {
-     "n": 63,
-     "med": 0.0
+     "n": 64,
+     "med": 0.01
     },
     "In Stage": {
      "n": 66,
@@ -678,9 +677,10 @@
     "Closed": 44,
     "In Stage": 15,
     "In Development": 1,
-    "PR Created": 4,
+    "PR Created": 3,
     "Ready Prod": 23,
     "Ready for Development": 3,
+    "PR Merged": 1,
     "Backlog": 9,
     "WAITING REVIEW": 1,
     "On Hold": 1,
