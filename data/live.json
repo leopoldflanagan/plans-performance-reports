@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T08:43:44Z",
+ "generated": "2026-10-22T09:07:21Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 47,
+    "n": 46,
     "points": 85,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 79,
+   "ready": 78,
    "sprint": 258,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 97,
+    "n": 96,
     "items": [
-     {
-      "key": "PLANS-24683",
-      "summary": "PreProd - No Plans that were transferred from Prod are showing in WFPay"
-     },
      {
       "key": "PLANS-24656",
       "summary": "Danahay Discount Plan Upgrade Plan to Add Member "
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-14538",
       "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
+     },
+     {
+      "key": "PLANS-11253",
+      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 54,
+    "n": 53,
     "items": [
-     {
-      "key": "PLANS-24683",
-      "summary": "PreProd - No Plans that were transferred from Prod are showing in WFPay"
-     },
      {
       "key": "PLANS-24681",
       "summary": "Use Fee Schedule Bug for Click Here for Details"
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
+     },
+     {
+      "key": "PLANS-24546",
+      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
      }
     ]
    },
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 323 of 328 items. This reads as a field the team does not use rather than 323 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 323,
+    "why": "missing on 322 of 327 items. This reads as a field the team does not use rather than 322 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 322,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 320 of 328 items. This reads as a field the team does not use rather than 320 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 320,
+    "why": "missing on 319 of 327 items. This reads as a field the team does not use rather than 319 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 319,
     "items": []
    },
    {
@@ -449,7 +449,7 @@
   "completed": 192,
   "scope_change": 104,
   "vs_commitment": 82,
-  "time_elapsed": 71,
+  "time_elapsed": 72,
   "spill": {
    "open_items": 180,
    "open_pts": 275.0,
@@ -469,11 +469,11 @@
    "In Progress": 20,
    "Done": 101,
    "PR Merged": 3,
-   "In Development": 4,
+   "PR Created": 3,
    "Ready Prod": 50,
    "Closed": 29,
-   "PR Created": 2,
    "In Stage": 51,
+   "In Development": 3,
    "Backlog": 107,
    "Ready for Development": 9,
    "In Testing": 1,
@@ -557,7 +557,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 32,
+    "open": 31,
     "med_age": 7.4,
     "max_age": 42.3,
     "worst_key": "PLANS-22675",
@@ -565,7 +565,7 @@
     "worst_who": "unassigned",
     "over": 19,
     "clear_med": 0.8,
-    "clear_n": 268
+    "clear_n": 269
    },
    {
     "status": "In Stage",
@@ -592,21 +592,9 @@
     "clear_n": 2
    },
    {
-    "status": "PR Created",
-    "open": 14,
-    "med_age": 1.3,
-    "max_age": 2.0,
-    "worst_key": "PLANS-22695",
-    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 705
-   },
-   {
     "status": "WAITING REVIEW",
-    "open": 1,
-    "med_age": 13.6,
+    "open": 2,
+    "med_age": 6.8,
     "max_age": 13.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -616,16 +604,16 @@
     "clear_n": 17
    },
    {
-    "status": "In Development",
-    "open": 7,
-    "med_age": 0.7,
-    "max_age": 7.9,
-    "worst_key": "PLANS-24223",
-    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
+    "status": "PR Created",
+    "open": 16,
+    "med_age": 0.8,
+    "max_age": 2.0,
+    "worst_key": "PLANS-22695",
+    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
     "clear_med": 0.0,
-    "clear_n": 667
+    "clear_n": 705
    },
    {
     "status": "PR Merged",
@@ -638,6 +626,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 667
+   },
+   {
+    "status": "In Development",
+    "open": 5,
+    "med_age": 0.7,
+    "max_age": 7.9,
+    "worst_key": "PLANS-24223",
+    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 670
    },
    {
     "status": "Ready for Stage",
@@ -677,8 +677,8 @@
    }
   ],
   "parked": {
-   "Backlog": 152,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 152
   },
   "open_total": 119,
   "stale": 33,
