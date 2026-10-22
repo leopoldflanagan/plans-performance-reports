@@ -145,7 +145,7 @@
    566,
    83,
    234,
-   474,
+   475,
    192,
    103,
    [
@@ -158,8 +158,8 @@
     206.0,
     230.0,
     253.0,
-    235.0,
-    282.0
+    236.0,
+    283.0
    ],
    [
     14.0,
@@ -171,8 +171,8 @@
     304.0,
     328.0,
     396.0,
-    412.0,
-    474.0
+    413.0,
+    475.0
    ]
   ],
   [
@@ -259,7 +259,7 @@
    ],
    "open": [
     180,
-    271
+    272
    ],
    "out": [
     7,
@@ -515,10 +515,10 @@
     },
     "Ready for Development": {
      "n": 27,
-     "med": 4.6
+     "med": 0.85
     },
     "In Development": {
-     "n": 53,
+     "n": 54,
      "med": 0.03
     },
     "PR Created": {
@@ -583,13 +583,13 @@
     "In Progress": 20,
     "Done": 101,
     "PR Created": 3,
-    "Ready for Development": 13,
+    "In Development": 4,
     "Ready Prod": 50,
     "Closed": 29,
     "PR Merged": 2,
     "In Stage": 51,
-    "In Development": 3,
     "Backlog": 110,
+    "Ready for Development": 12,
     "In Testing": 1,
     "On Hold": 4,
     "READY DEPLOYMENT": 1,
@@ -734,8 +734,8 @@
    206.0,
    230.0,
    253.0,
-   235.0,
-   282.0
+   236.0,
+   283.0
   ],
   "Plans-Sprint 24-26": [
    235.0,
