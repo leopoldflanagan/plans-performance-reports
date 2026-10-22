@@ -142,12 +142,12 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   540,
+   566,
    83,
    234,
-   441,
+   474,
    192,
-   88,
+   103,
    [
     14.0,
     205.0,
@@ -159,7 +159,7 @@
     230.0,
     253.0,
     235.0,
-    249.0
+    282.0
    ],
    [
     14.0,
@@ -172,7 +172,7 @@
     328.0,
     396.0,
     412.0,
-    441.0
+    474.0
    ]
   ],
   [
@@ -258,8 +258,8 @@
     182
    ],
    "open": [
-    171,
-    238
+    180,
+    271
    ],
    "out": [
     7,
@@ -306,7 +306,7 @@
   },
   "LL-Sprint 24-26": {
    "react": 0,
-   "plan": 82,
+   "plan": 91,
    "pct": 0
   },
   "Plans-Sprint 24-26": {
@@ -502,7 +502,7 @@
   "LL-Sprint 24-26": {
    "tis": {
     "To Do": {
-     "n": 234,
+     "n": 251,
      "med": 13.58
     },
     "In Progress": {
@@ -530,8 +530,8 @@
      "med": 0.03
     },
     "In Stage": {
-     "n": 113,
-     "med": 2.96
+     "n": 122,
+     "med": 3.98
     },
     "Ready Prod": {
      "n": 59,
@@ -579,7 +579,7 @@
     }
    },
    "dist": {
-    "To Do": 160,
+    "To Do": 177,
     "In Progress": 20,
     "Done": 101,
     "PR Created": 3,
@@ -587,7 +587,7 @@
     "Ready Prod": 50,
     "Closed": 29,
     "PR Merged": 2,
-    "In Stage": 42,
+    "In Stage": 51,
     "In Development": 3,
     "Backlog": 110,
     "In Testing": 1,
@@ -595,10 +595,10 @@
     "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 460,
+   "stalled": 486,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 540
+   "items": 566
   },
   "Plans-Sprint 24-26": {
    "tis": {
@@ -735,7 +735,7 @@
    230.0,
    253.0,
    235.0,
-   249.0
+   282.0
   ],
   "Plans-Sprint 24-26": [
    235.0,
