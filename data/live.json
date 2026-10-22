@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T19:34:58Z",
+ "generated": "2026-10-22T20:07:09Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 11,
   "days": 14,
   "n": 17,
-  "done_now": 215,
+  "done_now": 217,
   "committed": 234,
-  "lo": 235,
-  "mid": 253,
-  "hi": 309,
-  "pct": 108,
+  "lo": 237,
+  "mid": 256,
+  "hi": 312,
+  "pct": 109,
   "verdict": "on track for the commitment",
   "share_mid": 0.848
  },
@@ -442,20 +442,20 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 589,
-  "items_done": 92,
+  "items": 590,
+  "items_done": 93,
   "committed": 234,
   "final": 495,
-  "completed": 215,
+  "completed": 217,
   "scope_change": 112,
-  "vs_commitment": 92,
+  "vs_commitment": 93,
   "time_elapsed": 75,
   "spill": {
-   "open_items": 180,
-   "open_pts": 266.0,
+   "open_items": 179,
+   "open_pts": 264.0,
    "out_items": 7,
    "out_pts": 8.0,
-   "done_pts": 207.0
+   "done_pts": 209.0
   },
   "recv": {
    "items": 5,
@@ -465,16 +465,16 @@
   },
   "spill_rate": null,
   "dist": {
-   "Done": 112,
-   "In Progress": 23,
+   "In Progress": 22,
+   "Done": 114,
    "To Do": 176,
    "In Development": 3,
    "PR Created": 5,
    "WAITING REVIEW": 1,
    "Ready for Development": 10,
-   "In Stage": 49,
+   "In Stage": 48,
    "Backlog": 108,
-   "Ready Prod": 59,
+   "Ready Prod": 60,
    "Closed": 30,
    "In Testing": 1,
    "On Hold": 3,
@@ -493,7 +493,7 @@
    256.0,
    239.0,
    294.0,
-   280.0
+   278.0
   ],
   "scope": [
    14.0,
@@ -521,7 +521,7 @@
    256.0,
    239.0,
    294.0,
-   280.0
+   278.0
   ],
   "days": 14,
   "day": 11
@@ -539,8 +539,8 @@
   "end": "2026-10-25",
   "day": 25,
   "days": 28,
-  "closed": 499,
-  "points": 1231,
+  "closed": 500,
+  "points": 1233,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -572,15 +572,15 @@
    },
    {
     "status": "In Stage",
-    "open": 51,
-    "med_age": 2.2,
-    "max_age": 13.8,
+    "open": 50,
+    "med_age": 2.5,
+    "max_age": 13.9,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
     "over": 11,
     "clear_med": 2.7,
-    "clear_n": 445
+    "clear_n": 446
    },
    {
     "status": "PR Created",
@@ -595,9 +595,21 @@
     "clear_n": 714
    },
    {
+    "status": "PR Merged",
+    "open": 6,
+    "med_age": 2.5,
+    "max_age": 2.5,
+    "worst_key": "PLANS-22697",
+    "worst_sum": "[2.2.W2] Record the owed manual refund on confirmation instead of calling a processor",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 679
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 7.2,
+    "med_age": 7.3,
     "max_age": 14.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -607,20 +619,8 @@
     "clear_n": 16
    },
    {
-    "status": "PR Merged",
-    "open": 6,
-    "med_age": 2.4,
-    "max_age": 2.4,
-    "worst_key": "PLANS-22699",
-    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 679
-   },
-   {
     "status": "In Development",
-    "open": 5,
+    "open": 6,
     "med_age": 0.2,
     "max_age": 8.3,
     "worst_key": "PLANS-24223",
@@ -629,6 +629,18 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 678
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -653,22 +665,10 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 59
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 151,
+   "Backlog": 150,
    "On Hold": 1
   },
   "open_total": 114,
