@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T15:07:04Z",
+ "generated": "2026-10-22T15:38:32Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 11,
   "days": 14,
   "n": 17,
-  "done_now": 199,
+  "done_now": 200,
   "committed": 234,
-  "lo": 218,
-  "mid": 235,
-  "hi": 286,
-  "pct": 100,
+  "lo": 219,
+  "mid": 236,
+  "hi": 287,
+  "pct": 101,
   "verdict": "on track for the commitment",
   "share_mid": 0.848
  },
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 580,
-  "items_done": 86,
+  "items_done": 87,
   "committed": 234,
   "final": 494,
-  "completed": 199,
+  "completed": 200,
   "scope_change": 111,
   "vs_commitment": 85,
-  "time_elapsed": 73,
+  "time_elapsed": 74,
   "spill": {
-   "open_items": 186,
-   "open_pts": 284.0,
+   "open_items": 185,
+   "open_pts": 283.0,
    "out_items": 7,
    "out_pts": 8.0,
-   "done_pts": 189.0
+   "done_pts": 190.0
   },
   "recv": {
    "items": 5,
@@ -466,17 +466,17 @@
   "spill_rate": null,
   "dist": {
    "In Development": 4,
-   "To Do": 179,
-   "Done": 104,
-   "PR Created": 4,
+   "To Do": 176,
+   "Done": 105,
+   "PR Created": 3,
    "WAITING REVIEW": 1,
    "Ready for Development": 10,
-   "In Progress": 20,
-   "PR Merged": 5,
+   "In Progress": 22,
+   "PR Merged": 6,
    "Backlog": 108,
-   "Ready Prod": 53,
+   "Ready Prod": 54,
    "Closed": 29,
-   "In Stage": 50,
+   "In Stage": 49,
    "In Testing": 1,
    "On Hold": 3,
    "READY DEPLOYMENT": 1,
@@ -493,7 +493,7 @@
    233.0,
    256.0,
    239.0,
-   295.0
+   294.0
   ],
   "scope": [
    14.0,
@@ -519,7 +519,7 @@
    233.0,
    256.0,
    239.0,
-   295.0
+   294.0
   ],
   "days": 14,
   "day": 11
@@ -537,8 +537,8 @@
   "end": "2026-10-25",
   "day": 25,
   "days": 28,
-  "closed": 490,
-  "points": 1211,
+  "closed": 492,
+  "points": 1214,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -560,7 +560,7 @@
     "status": "Ready for Development",
     "open": 31,
     "med_age": 7.7,
-    "max_age": 42.5,
+    "max_age": 42.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -570,15 +570,15 @@
    },
    {
     "status": "In Stage",
-    "open": 51,
-    "med_age": 2.8,
+    "open": 49,
+    "med_age": 2.9,
     "max_age": 13.7,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 11,
+    "over": 10,
     "clear_med": 2.7,
-    "clear_n": 439
+    "clear_n": 441
    },
    {
     "status": "WAITING REVIEW",
@@ -594,21 +594,21 @@
    },
    {
     "status": "PR Created",
-    "open": 16,
+    "open": 15,
     "med_age": 0.8,
-    "max_age": 2.2,
+    "max_age": 2.3,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 712
+    "clear_n": 713
    },
    {
     "status": "PR Merged",
-    "open": 10,
+    "open": 11,
     "med_age": 0.8,
-    "max_age": 2.2,
+    "max_age": 2.3,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -629,18 +629,6 @@
     "clear_n": 672
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -651,6 +639,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    },
    {
     "status": "In PreProd",
@@ -666,11 +666,11 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 149
+   "Backlog": 149,
+   "On Hold": 2
   },
-  "open_total": 119,
-  "stale": 34,
+  "open_total": 117,
+  "stale": 33,
   "worst": "Ready for Development"
  }
 }
