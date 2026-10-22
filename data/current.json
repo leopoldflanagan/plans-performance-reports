@@ -9,15 +9,15 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 252,
-  "closed": 495,
+  "closed": 496,
   "discarded": 0,
-  "resolved": 495,
+  "resolved": 496,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    266
+    267
    ],
    [
     "Bug",
@@ -39,7 +39,7 @@
   "day": 22,
   "days": 28,
   "status": "risk",
-  "headline": "495 items closed in the first 22 days, a pace of about 630 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "496 items closed in the first 22 days, a pace of about 631 for the month against 252 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 11.0d and average 17.8d, both past the healthy band"
@@ -259,11 +259,11 @@
   "LL-Sprint 24-26": {
    "done": [
     89,
-    193
+    196
    ],
    "open": [
-    184,
-    280
+    183,
+    277
    ],
    "out": [
     7,
@@ -529,8 +529,8 @@
      "med": 0.29
     },
     "Done": {
-     "n": 110,
-     "med": 10.51
+     "n": 111,
+     "med": 10.49
     },
     "WAITING REVIEW": {
      "n": 7,
@@ -545,7 +545,7 @@
      "med": 3.52
     },
     "Ready Prod": {
-     "n": 64,
+     "n": 65,
      "med": 5.57
     },
     "Closed": {
@@ -585,20 +585,20 @@
     "To Do": 178,
     "In Development": 3,
     "PR Created": 5,
-    "Done": 107,
+    "Done": 108,
     "WAITING REVIEW": 1,
     "Ready for Development": 13,
-    "In Progress": 21,
-    "In Stage": 53,
+    "In Progress": 20,
+    "In Stage": 52,
     "Backlog": 111,
-    "Ready Prod": 55,
+    "Ready Prod": 56,
     "Closed": 30,
     "In Testing": 1,
     "On Hold": 4,
     "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 498,
+   "stalled": 497,
    "worst": 13.58,
    "worstSt": "To Do",
    "items": 584
@@ -758,20 +758,20 @@
  },
  "CAP": {
   "9.09": [
-   495,
-   419,
-   1217,
+   496,
+   420,
+   1220,
    23
   ]
  },
  "CYC": {
   "9.09": {
    "med": 11.04,
-   "avg": 17.82,
-   "n": 363,
+   "avg": 17.83,
+   "n": 364,
    "mx": 148.81,
    "nodev": 132,
-   "base": 495
+   "base": 496
   }
  },
  "complete": false,
