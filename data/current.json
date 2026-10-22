@@ -142,12 +142,12 @@
    "LL-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   567,
+   569,
    86,
    234,
-   479,
+   481,
    199,
-   105,
+   106,
    [
     14.0,
     205.0,
@@ -159,7 +159,7 @@
     233.0,
     256.0,
     239.0,
-    280.0
+    282.0
    ],
    [
     14.0,
@@ -172,7 +172,7 @@
     331.0,
     399.0,
     416.0,
-    479.0
+    481.0
    ]
   ],
   [
@@ -258,8 +258,8 @@
     189
    ],
    "open": [
-    178,
-    269
+    180,
+    271
    ],
    "out": [
     7,
@@ -306,7 +306,7 @@
   },
   "LL-Sprint 24-26": {
    "react": 0,
-   "plan": 92,
+   "plan": 94,
    "pct": 0
   },
   "Plans-Sprint 24-26": {
@@ -501,6 +501,14 @@
   },
   "LL-Sprint 24-26": {
    "tis": {
+    "Ready for Development": {
+     "n": 28,
+     "med": 2.26
+    },
+    "Backlog": {
+     "n": 131,
+     "med": 13.58
+    },
     "To Do": {
      "n": 251,
      "med": 13.58
@@ -516,10 +524,6 @@
     "PR Created": {
      "n": 64,
      "med": 0.03
-    },
-    "Ready for Development": {
-     "n": 27,
-     "med": 0.85
     },
     "In Development": {
      "n": 54,
@@ -540,10 +544,6 @@
     "Closed": {
      "n": 29,
      "med": 10.44
-    },
-    "Backlog": {
-     "n": 130,
-     "med": 13.58
     },
     "WAITING REVIEW": {
      "n": 6,
@@ -579,6 +579,8 @@
     }
    },
    "dist": {
+    "Ready for Development": 13,
+    "Backlog": 111,
     "To Do": 176,
     "Done": 104,
     "PR Created": 4,
@@ -587,18 +589,16 @@
     "Ready Prod": 53,
     "Closed": 29,
     "In Stage": 48,
-    "Backlog": 110,
-    "Ready for Development": 12,
     "In Testing": 1,
     "On Hold": 4,
     "READY DEPLOYMENT": 1,
     "In Development": 2,
     "Will Not Implement": 1
    },
-   "stalled": 484,
+   "stalled": 486,
    "worst": 13.58,
    "worstSt": "To Do",
-   "items": 567
+   "items": 569
   },
   "Plans-Sprint 24-26": {
    "tis": {
@@ -631,7 +631,7 @@
      "med": 0.01
     },
     "PR Merged": {
-     "n": 61,
+     "n": 62,
      "med": 0.0
     },
     "In Stage": {
@@ -673,7 +673,8 @@
     "Closed": 42,
     "In Stage": 17,
     "In Development": 1,
-    "PR Created": 4,
+    "PR Created": 3,
+    "PR Merged": 1,
     "Ready Prod": 22,
     "In Progress": 13,
     "Ready for Development": 3,
@@ -735,7 +736,7 @@
    233.0,
    256.0,
    239.0,
-   280.0
+   282.0
   ],
   "Plans-Sprint 24-26": [
    235.0,
