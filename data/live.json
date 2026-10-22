@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T14:06:37Z",
+ "generated": "2026-10-22T14:38:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 47,
-    "points": 86,
+    "n": 46,
+    "points": 85,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,8 +66,8 @@
  },
  "admin": {
   "scope": {
-   "ready": 79,
-   "sprint": 261,
+   "ready": 78,
+   "sprint": 264,
    "sprint_name": "LL-Sprint 24-26"
   },
   "blocking": [
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 54,
+    "n": 53,
     "items": [
-     {
-      "key": "PLANS-24705",
-      "summary": "Plan Ranking - Broken - Rank change is not applied on first Save and requires a "
-     },
      {
       "key": "PLANS-24681",
       "summary": "Use Fee Schedule Bug for Click Here for Details"
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
+     },
+     {
+      "key": "PLANS-24546",
+      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
      }
     ]
    },
@@ -205,8 +205,8 @@
     "n": 79,
     "items": [
      {
-      "key": "PLANS-24703",
-      "summary": "Portal Renew Restrictions - Renew button disabled in Plan Overview when one plan"
+      "key": "PLANS-24659",
+      "summary": "Joint ACH Language"
      },
      {
       "key": "PLANS-24569",
@@ -241,8 +241,12 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 25,
+    "n": 26,
     "items": [
+     {
+      "key": "PLANS-24585",
+      "summary": "KOS portal uses static footer instead of shared dynamic footer"
+     },
      {
       "key": "PLANS-15940",
       "summary": "[4.1] Add GetPlanLedgerState method to PlanLedgerManager"
@@ -270,10 +274,6 @@
      {
       "key": "PLANS-23913",
       "summary": "ACH -  Emails are not working (Declines, Returns)"
-     },
-     {
-      "key": "PLANS-22998",
-      "summary": "[2.2.W1] PMP member overview: disable Renew, Purchase, Add Plan, and Add Member "
      }
     ]
    },
@@ -283,8 +283,8 @@
     "n": 107,
     "items": [
      {
-      "key": "PLANS-24703",
-      "summary": "Portal Renew Restrictions - Renew button disabled in Plan Overview when one plan"
+      "key": "PLANS-24659",
+      "summary": "Joint ACH Language"
      },
      {
       "key": "PLANS-24442",
@@ -321,7 +321,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 180,
+    "n": 181,
     "items": [
      {
       "key": "PLANS-24656",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 325 of 330 items. This reads as a field the team does not use rather than 325 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 325,
+    "why": "missing on 327 of 332 items. This reads as a field the team does not use rather than 327 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 327,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 322 of 330 items. This reads as a field the team does not use rather than 322 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 322,
+    "why": "missing on 324 of 332 items. This reads as a field the team does not use rather than 324 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 324,
     "items": []
    },
    {
@@ -442,17 +442,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 569,
+  "items": 572,
   "items_done": 86,
   "committed": 234,
-  "final": 481,
+  "final": 487,
   "completed": 199,
-  "scope_change": 106,
+  "scope_change": 108,
   "vs_commitment": 85,
   "time_elapsed": 73,
   "spill": {
-   "open_items": 180,
-   "open_pts": 271.0,
+   "open_items": 183,
+   "open_pts": 277.0,
    "out_items": 7,
    "out_pts": 8.0,
    "done_pts": 189.0
@@ -465,20 +465,21 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 10,
-   "Backlog": 108,
+   "In Development": 4,
    "To Do": 176,
    "Done": 104,
    "PR Created": 4,
+   "WAITING REVIEW": 1,
+   "Ready for Development": 10,
    "In Progress": 18,
    "PR Merged": 4,
+   "Backlog": 108,
    "Ready Prod": 53,
    "Closed": 29,
    "In Stage": 48,
    "In Testing": 1,
    "On Hold": 3,
    "READY DEPLOYMENT": 1,
-   "In Development": 2,
    "Will Not Implement": 1
   },
   "burn": [
@@ -492,7 +493,7 @@
    233.0,
    256.0,
    239.0,
-   282.0
+   288.0
   ],
   "scope": [
    14.0,
@@ -505,7 +506,7 @@
    331.0,
    399.0,
    416.0,
-   481.0
+   487.0
   ],
   "ghost": [
    14.0,
@@ -518,7 +519,7 @@
    233.0,
    256.0,
    239.0,
-   282.0
+   288.0
   ],
   "days": 14,
   "day": 11
@@ -536,8 +537,8 @@
   "end": "2026-10-25",
   "day": 25,
   "days": 28,
-  "closed": 486,
-  "points": 1203,
+  "closed": 490,
+  "points": 1211,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -557,19 +558,19 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 32,
-    "med_age": 7.6,
+    "open": 31,
+    "med_age": 7.7,
     "max_age": 42.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 21,
     "clear_med": 0.8,
-    "clear_n": 269
+    "clear_n": 270
    },
    {
     "status": "In Stage",
-    "open": 53,
+    "open": 51,
     "med_age": 2.8,
     "max_age": 13.6,
     "worst_key": "PLANS-23995",
@@ -577,13 +578,25 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 11,
     "clear_med": 2.7,
-    "clear_n": 437
+    "clear_n": 439
+   },
+   {
+    "status": "PR Created",
+    "open": 14,
+    "med_age": 1.4,
+    "max_age": 2.2,
+    "worst_key": "PLANS-22695",
+    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 711
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 7.0,
-    "max_age": 13.8,
+    "max_age": 13.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -592,21 +605,9 @@
     "clear_n": 17
    },
    {
-    "status": "PR Created",
-    "open": 15,
-    "med_age": 0.8,
-    "max_age": 2.2,
-    "worst_key": "PLANS-22695",
-    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 710
-   },
-   {
     "status": "PR Merged",
-    "open": 11,
-    "med_age": 0.7,
+    "open": 12,
+    "med_age": 0.5,
     "max_age": 2.2,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
@@ -617,7 +618,7 @@
    },
    {
     "status": "In Development",
-    "open": 5,
+    "open": 9,
     "med_age": 0.2,
     "max_age": 8.1,
     "worst_key": "PLANS-24223",
@@ -640,18 +641,6 @@
     "clear_n": 26
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -662,13 +651,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    }
   ],
   "parked": {
    "On Hold": 2,
-   "Backlog": 154
+   "Backlog": 149
   },
-  "open_total": 118,
+  "open_total": 119,
   "stale": 34,
   "worst": "Ready for Development"
  }
