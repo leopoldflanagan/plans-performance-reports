@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T15:38:32Z",
+ "generated": "2026-10-22T16:07:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -467,11 +467,11 @@
   "dist": {
    "In Development": 4,
    "To Do": 176,
-   "Done": 105,
+   "Done": 106,
    "PR Created": 3,
    "WAITING REVIEW": 1,
    "Ready for Development": 10,
-   "In Progress": 22,
+   "In Progress": 21,
    "PR Merged": 6,
    "Backlog": 108,
    "Ready Prod": 54,
@@ -493,6 +493,7 @@
    233.0,
    256.0,
    239.0,
+   294.0,
    294.0
   ],
   "scope": [
@@ -506,6 +507,7 @@
    331.0,
    399.0,
    416.0,
+   494.0,
    494.0
   ],
   "ghost": [
@@ -519,6 +521,7 @@
    233.0,
    256.0,
    239.0,
+   294.0,
    294.0
   ],
   "days": 14,
@@ -537,8 +540,8 @@
   "end": "2026-10-25",
   "day": 25,
   "days": 28,
-  "closed": 492,
-  "points": 1214,
+  "closed": 493,
+  "points": 1217,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -581,6 +584,18 @@
     "clear_n": 441
    },
    {
+    "status": "PR Created",
+    "open": 18,
+    "med_age": 0.8,
+    "max_age": 2.3,
+    "worst_key": "PLANS-22695",
+    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 713
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 7.1,
@@ -590,19 +605,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 17
-   },
-   {
-    "status": "PR Created",
-    "open": 15,
-    "med_age": 0.8,
-    "max_age": 2.3,
-    "worst_key": "PLANS-22695",
-    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 713
+    "clear_n": 16
    },
    {
     "status": "PR Merged",
@@ -618,15 +621,15 @@
    },
    {
     "status": "In Development",
-    "open": 9,
-    "med_age": 0.2,
-    "max_age": 8.1,
+    "open": 6,
+    "med_age": 0.1,
+    "max_age": 8.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 672
+    "clear_med": 0.1,
+    "clear_n": 675
    },
    {
     "status": "Ready for Stage",
@@ -641,18 +644,6 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -663,10 +654,22 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 26
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    }
   ],
   "parked": {
-   "Backlog": 149,
+   "Backlog": 151,
    "On Hold": 2
   },
   "open_total": 117,
