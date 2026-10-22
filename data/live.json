@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T04:06:59Z",
+ "generated": "2026-10-22T04:40:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -442,7 +442,7 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 534,
+  "items": 536,
   "items_done": 82,
   "committed": 234,
   "final": 436,
@@ -465,7 +465,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 155,
+   "To Do": 157,
    "In Progress": 20,
    "Done": 101,
    "PR Created": 3,
@@ -558,7 +558,7 @@
    {
     "status": "Ready for Development",
     "open": 34,
-    "med_age": 7.1,
+    "med_age": 7.2,
     "max_age": 42.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -582,8 +582,8 @@
    {
     "status": "Identified",
     "open": 1,
-    "med_age": 48.6,
-    "max_age": 48.6,
+    "med_age": 48.7,
+    "max_age": 48.7,
     "worst_key": "PLANS-22399",
     "worst_sum": "DECISION: BR-2 AC-2 asks for two audit rows but ProcessAsync writes one (blocks Story 3.8)",
     "worst_who": "unassigned",
@@ -677,8 +677,8 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 153
+   "Backlog": 153,
+   "On Hold": 2
   },
   "open_total": 124,
   "stale": 35,
