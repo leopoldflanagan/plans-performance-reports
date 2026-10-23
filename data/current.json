@@ -404,8 +404,8 @@
     }
    },
    "dist": {
-    "In Progress": 11,
-    "To Do": 83,
+    "In Progress": 12,
+    "To Do": 82,
     "Done": 213,
     "Ready Prod": 27,
     "Closed": 126,
@@ -512,8 +512,8 @@
      "med": 13.58
     },
     "In Progress": {
-     "n": 87,
-     "med": 0.2
+     "n": 88,
+     "med": 0.29
     },
     "Done": {
      "n": 122,
@@ -586,8 +586,8 @@
    },
    "dist": {
     "Done": 119,
-    "To Do": 168,
-    "In Progress": 25,
+    "To Do": 167,
+    "In Progress": 26,
     "In Stage": 48,
     "In PreProd": 1,
     "In Development": 3,
@@ -601,7 +601,7 @@
     "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 487,
+   "stalled": 486,
    "worst": 13.58,
    "worstSt": "To Do",
    "items": 590
