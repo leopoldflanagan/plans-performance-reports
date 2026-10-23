@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T11:06:04Z",
+ "generated": "2026-10-23T11:38:02Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 221,
   "scope_change": 112,
   "vs_commitment": 94,
-  "time_elapsed": 79,
+  "time_elapsed": 80,
   "spill": {
    "open_items": 176,
    "open_pts": 259.0,
@@ -463,7 +463,7 @@
    "pct": 3,
    "from": "Plans-Sprint 23-26"
   },
-  "spill_rate": null,
+  "spill_rate": 56,
   "dist": {
    "Done": 117,
    "To Do": 169,
@@ -471,7 +471,7 @@
    "PR Created": 3,
    "PR Merged": 2,
    "In PreProd": 1,
-   "WAITING REVIEW": 1,
+   "In Development": 3,
    "In Stage": 47,
    "Ready Prod": 62,
    "Backlog": 108,
@@ -480,7 +480,6 @@
    "In Testing": 1,
    "On Hold": 3,
    "READY DEPLOYMENT": 1,
-   "In Development": 2,
    "Will Not Implement": 1
   },
   "burn": [
@@ -575,7 +574,7 @@
    {
     "status": "In Stage",
     "open": 48,
-    "med_age": 3.6,
+    "med_age": 3.7,
     "max_age": 14.5,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
@@ -597,6 +596,18 @@
     "clear_n": 721
    },
    {
+    "status": "WAITING REVIEW",
+    "open": 2,
+    "med_age": 7.4,
+    "max_age": 14.7,
+    "worst_key": "PLANS-24108",
+    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 17
+   },
+   {
     "status": "PR Merged",
     "open": 13,
     "med_age": 0.6,
@@ -610,7 +621,7 @@
    },
    {
     "status": "In Development",
-    "open": 5,
+    "open": 6,
     "med_age": 0.9,
     "max_age": 9.0,
     "worst_key": "PLANS-24223",
@@ -621,22 +632,10 @@
     "clear_n": 680
    },
    {
-    "status": "WAITING REVIEW",
-    "open": 3,
-    "med_age": 1.1,
-    "max_age": 14.7,
-    "worst_key": "PLANS-24108",
-    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 16
-   },
-   {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.5,
-    "max_age": 0.5,
+    "med_age": 0.6,
+    "max_age": 0.6,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -670,8 +669,8 @@
    }
   ],
   "parked": {
-   "Backlog": 148,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 148
   },
   "open_total": 115,
   "stale": 36,
