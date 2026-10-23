@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T04:07:07Z",
+ "generated": "2026-10-23T04:40:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 221,
   "scope_change": 112,
   "vs_commitment": 94,
-  "time_elapsed": 77,
+  "time_elapsed": 78,
   "spill": {
    "open_items": 176,
    "open_pts": 259.0,
@@ -634,26 +634,14 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.2,
-    "max_age": 0.2,
+    "med_age": 0.3,
+    "max_age": 0.3,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
    },
    {
     "status": "Ready for Stage",
@@ -666,11 +654,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    }
   ],
   "parked": {
-   "Backlog": 150,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 150
   },
   "open_total": 113,
   "stale": 36,
