@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T17:05:10Z",
+ "generated": "2026-10-23T17:36:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -451,11 +451,11 @@
   "vs_commitment": 101,
   "time_elapsed": 81,
   "spill": {
-   "open_items": 173,
-   "open_pts": 240.0,
+   "open_items": 172,
+   "open_pts": 238.0,
    "out_items": 8,
    "out_pts": 9.0,
-   "done_pts": 232.0
+   "done_pts": 234.0
   },
   "recv": {
    "items": 5,
@@ -463,15 +463,15 @@
    "pct": 3,
    "from": "Plans-Sprint 23-26"
   },
-  "spill_rate": 52,
+  "spill_rate": 51,
   "dist": {
-   "Done": 120,
-   "To Do": 166,
+   "Done": 121,
+   "To Do": 165,
    "In Progress": 26,
-   "In Stage": 48,
+   "In Stage": 47,
    "In PreProd": 1,
    "In Development": 3,
-   "Ready Prod": 65,
+   "Ready Prod": 66,
    "Backlog": 108,
    "Closed": 30,
    "PR Created": 2,
@@ -542,8 +542,8 @@
   "end": "2026-10-25",
   "day": 26,
   "days": 28,
-  "closed": 507,
-  "points": 1264,
+  "closed": 508,
+  "points": 1266,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -575,20 +575,20 @@
    },
    {
     "status": "In Stage",
-    "open": 52,
+    "open": 51,
     "med_age": 2.1,
-    "max_age": 14.7,
+    "max_age": 14.8,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 12,
+    "over": 11,
     "clear_med": 2.7,
-    "clear_n": 450
+    "clear_n": 451
    },
    {
     "status": "PR Created",
     "open": 14,
-    "med_age": 1.8,
+    "med_age": 1.9,
     "max_age": 3.3,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -674,8 +674,8 @@
    "On Hold": 1,
    "Backlog": 148
   },
-  "open_total": 115,
-  "stale": 36,
+  "open_total": 114,
+  "stale": 35,
   "worst": "Ready for Development"
  }
 }
