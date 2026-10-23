@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T07:41:46Z",
+ "generated": "2026-10-23T08:08:14Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 221,
   "scope_change": 112,
   "vs_commitment": 94,
-  "time_elapsed": 78,
+  "time_elapsed": 79,
   "spill": {
    "open_items": 176,
    "open_pts": 259.0,
@@ -584,6 +584,18 @@
     "clear_n": 448
    },
    {
+    "status": "PR Created",
+    "open": 16,
+    "med_age": 1.4,
+    "max_age": 3.0,
+    "worst_key": "PLANS-22695",
+    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 719
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 7.8,
@@ -597,9 +609,9 @@
    },
    {
     "status": "PR Merged",
-    "open": 8,
-    "med_age": 1.7,
-    "max_age": 2.9,
+    "open": 11,
+    "med_age": 0.5,
+    "max_age": 3.0,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -608,21 +620,9 @@
     "clear_n": 679
    },
    {
-    "status": "PR Created",
-    "open": 19,
-    "med_age": 0.7,
-    "max_age": 2.9,
-    "worst_key": "PLANS-22695",
-    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 716
-   },
-   {
     "status": "In Development",
-    "open": 4,
-    "med_age": 1.2,
+    "open": 5,
+    "med_age": 0.7,
     "max_age": 8.8,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -644,18 +644,6 @@
     "clear_n": 24
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -666,13 +654,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 150
+   "Backlog": 149,
+   "On Hold": 1
   },
-  "open_total": 113,
+  "open_total": 114,
   "stale": 36,
   "worst": "Ready for Development"
  }
