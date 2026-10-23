@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T17:36:36Z",
+ "generated": "2026-10-23T18:07:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 12,
   "days": 14,
   "n": 17,
-  "done_now": 237,
+  "done_now": 240,
   "committed": 234,
-  "lo": 254,
-  "mid": 269,
-  "hi": 327,
-  "pct": 115,
+  "lo": 257,
+  "mid": 273,
+  "hi": 331,
+  "pct": 117,
   "verdict": "on track for the commitment",
   "share_mid": 0.879
  },
@@ -442,20 +442,20 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 590,
-  "items_done": 97,
+  "items": 594,
+  "items_done": 98,
   "committed": 234,
   "final": 495,
-  "completed": 237,
+  "completed": 240,
   "scope_change": 112,
-  "vs_commitment": 101,
-  "time_elapsed": 81,
+  "vs_commitment": 103,
+  "time_elapsed": 82,
   "spill": {
-   "open_items": 172,
-   "open_pts": 238.0,
+   "open_items": 170,
+   "open_pts": 234.0,
    "out_items": 8,
    "out_pts": 9.0,
-   "done_pts": 234.0
+   "done_pts": 238.0
   },
   "recv": {
    "items": 5,
@@ -465,13 +465,13 @@
   },
   "spill_rate": 51,
   "dist": {
-   "Done": 121,
+   "Done": 123,
+   "In Progress": 28,
    "To Do": 165,
-   "In Progress": 26,
-   "In Stage": 47,
+   "In Stage": 45,
    "In PreProd": 1,
    "In Development": 3,
-   "Ready Prod": 66,
+   "Ready Prod": 68,
    "Backlog": 108,
    "Closed": 30,
    "PR Created": 2,
@@ -494,7 +494,7 @@
    239.0,
    294.0,
    266.0,
-   258.0
+   255.0
   ],
   "scope": [
    14.0,
@@ -524,7 +524,7 @@
    239.0,
    294.0,
    266.0,
-   258.0
+   255.0
   ],
   "days": 14,
   "day": 12
@@ -542,8 +542,8 @@
   "end": "2026-10-25",
   "day": 26,
   "days": 28,
-  "closed": 508,
-  "points": 1266,
+  "closed": 510,
+  "points": 1270,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -565,7 +565,7 @@
     "status": "Ready for Development",
     "open": 30,
     "med_age": 8.9,
-    "max_age": 43.6,
+    "max_age": 43.7,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -575,21 +575,21 @@
    },
    {
     "status": "In Stage",
-    "open": 51,
+    "open": 49,
     "med_age": 2.1,
     "max_age": 14.8,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 11,
+    "over": 9,
     "clear_med": 2.7,
-    "clear_n": 451
+    "clear_n": 453
    },
    {
     "status": "PR Created",
     "open": 14,
     "med_age": 1.9,
-    "max_age": 3.3,
+    "max_age": 3.4,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
@@ -600,8 +600,8 @@
    {
     "status": "PR Merged",
     "open": 8,
-    "med_age": 2.0,
-    "max_age": 3.3,
+    "med_age": 2.1,
+    "max_age": 3.4,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -624,7 +624,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 0.7,
+    "med_age": 0.8,
     "max_age": 9.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -674,8 +674,8 @@
    "On Hold": 1,
    "Backlog": 148
   },
-  "open_total": 114,
-  "stale": 35,
+  "open_total": 112,
+  "stale": 33,
   "worst": "Ready for Development"
  }
 }
