@@ -533,7 +533,7 @@
      "med": 13.58
     },
     "PR Merged": {
-     "n": 68,
+     "n": 69,
      "med": 0.03
     },
     "In Stage": {
@@ -585,7 +585,8 @@
     "Done": 117,
     "To Do": 169,
     "In Progress": 26,
-    "PR Created": 5,
+    "PR Created": 4,
+    "PR Merged": 1,
     "In PreProd": 1,
     "WAITING REVIEW": 1,
     "In Stage": 47,
@@ -599,7 +600,7 @@
     "In Development": 2,
     "Will Not Implement": 1
    },
-   "stalled": 496,
+   "stalled": 495,
    "worst": 13.58,
    "worstSt": "To Do",
    "items": 590
