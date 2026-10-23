@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T23:34:34Z",
+ "generated": "2026-10-23T00:15:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 11,
+  "day": 12,
   "days": 14,
   "n": 17,
   "done_now": 221,
   "committed": 234,
-  "lo": 242,
-  "mid": 260,
-  "hi": 317,
-  "pct": 111,
+  "lo": 237,
+  "mid": 251,
+  "hi": 305,
+  "pct": 107,
   "verdict": "on track for the commitment",
-  "share_mid": 0.848
+  "share_mid": 0.879
  },
  "admin": {
   "scope": {
@@ -466,8 +466,8 @@
   "spill_rate": null,
   "dist": {
    "Done": 117,
-   "To Do": 170,
-   "In Progress": 25,
+   "To Do": 169,
+   "In Progress": 26,
    "PR Created": 5,
    "In PreProd": 1,
    "WAITING REVIEW": 1,
@@ -525,7 +525,7 @@
    274.0
   ],
   "days": 14,
-  "day": 11
+  "day": 12
  },
  "next": {
   "name": "LL-Sprint 25-26",
@@ -538,7 +538,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 25,
+  "day": 26,
   "days": 28,
   "closed": 503,
   "points": 1240,
@@ -562,7 +562,7 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 8.0,
+    "med_age": 8.1,
     "max_age": 42.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -598,8 +598,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 7.4,
-    "max_age": 14.2,
+    "med_age": 7.5,
+    "max_age": 14.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
