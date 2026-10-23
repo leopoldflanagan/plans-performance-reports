@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T18:07:07Z",
+ "generated": "2026-10-23T18:42:15Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 12,
   "days": 14,
   "n": 17,
-  "done_now": 240,
+  "done_now": 255,
   "committed": 234,
-  "lo": 257,
-  "mid": 273,
-  "hi": 331,
-  "pct": 117,
+  "lo": 274,
+  "mid": 290,
+  "hi": 352,
+  "pct": 124,
   "verdict": "on track for the commitment",
   "share_mid": 0.879
  },
@@ -241,7 +241,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 26,
+    "n": 19,
     "items": [
      {
       "key": "PLANS-24585",
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 594,
-  "items_done": 98,
+  "items_done": 102,
   "committed": 234,
   "final": 495,
-  "completed": 240,
+  "completed": 255,
   "scope_change": 112,
-  "vs_commitment": 103,
+  "vs_commitment": 109,
   "time_elapsed": 82,
   "spill": {
-   "open_items": 170,
-   "open_pts": 234.0,
+   "open_items": 166,
+   "open_pts": 219.0,
    "out_items": 8,
    "out_pts": 9.0,
-   "done_pts": 238.0
+   "done_pts": 253.0
   },
   "recv": {
    "items": 5,
@@ -463,15 +463,15 @@
    "pct": 3,
    "from": "Plans-Sprint 23-26"
   },
-  "spill_rate": 51,
+  "spill_rate": 47,
   "dist": {
-   "Done": 123,
-   "In Progress": 28,
-   "To Do": 165,
-   "In Stage": 45,
+   "Done": 127,
+   "In Progress": 26,
+   "To Do": 163,
+   "Ready Prod": 72,
+   "In Stage": 41,
    "In PreProd": 1,
    "In Development": 3,
-   "Ready Prod": 68,
    "Backlog": 108,
    "Closed": 30,
    "PR Created": 2,
@@ -494,7 +494,7 @@
    239.0,
    294.0,
    266.0,
-   255.0
+   240.0
   ],
   "scope": [
    14.0,
@@ -524,7 +524,7 @@
    239.0,
    294.0,
    266.0,
-   255.0
+   240.0
   ],
   "days": 14,
   "day": 12
@@ -542,8 +542,8 @@
   "end": "2026-10-25",
   "day": 26,
   "days": 28,
-  "closed": 510,
-  "points": 1270,
+  "closed": 514,
+  "points": 1285,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -575,7 +575,7 @@
    },
    {
     "status": "In Stage",
-    "open": 49,
+    "open": 48,
     "med_age": 2.1,
     "max_age": 14.8,
     "worst_key": "PLANS-23995",
@@ -583,7 +583,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 2.7,
-    "clear_n": 453
+    "clear_n": 455
    },
    {
     "status": "PR Created",
@@ -599,15 +599,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 8,
-    "med_age": 2.1,
+    "open": 7,
+    "med_age": 3.4,
     "max_age": 3.4,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 692
+    "clear_n": 693
    },
    {
     "status": "WAITING REVIEW",
@@ -625,7 +625,7 @@
     "status": "In Development",
     "open": 8,
     "med_age": 0.8,
-    "max_age": 9.2,
+    "max_age": 9.3,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -636,26 +636,14 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.8,
-    "max_age": 0.8,
+    "med_age": 0.9,
+    "max_age": 0.9,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -668,13 +656,25 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 148
+   "Backlog": 148,
+   "On Hold": 1
   },
-  "open_total": 112,
+  "open_total": 110,
   "stale": 33,
   "worst": "Ready for Development"
  }
