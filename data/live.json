@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T20:06:27Z",
+ "generated": "2026-10-23T20:37:50Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -564,14 +564,14 @@
    {
     "status": "Ready for Development",
     "open": 30,
-    "med_age": 8.9,
-    "max_age": 43.7,
+    "med_age": 9.0,
+    "max_age": 43.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.8,
-    "clear_n": 270
+    "clear_n": 269
    },
    {
     "status": "In Stage",
@@ -583,31 +583,31 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 2.7,
-    "clear_n": 454
+    "clear_n": 453
    },
    {
     "status": "PR Created",
-    "open": 14,
+    "open": 15,
     "med_age": 1.9,
-    "max_age": 3.4,
+    "max_age": 3.5,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 728
+    "clear_n": 726
    },
    {
     "status": "PR Merged",
     "open": 7,
-    "med_age": 3.4,
-    "max_age": 3.4,
+    "med_age": 3.5,
+    "max_age": 3.5,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 692
+    "clear_n": 690
    },
    {
     "status": "WAITING REVIEW",
@@ -623,7 +623,7 @@
    },
    {
     "status": "In Development",
-    "open": 9,
+    "open": 8,
     "med_age": 0.4,
     "max_age": 9.3,
     "worst_key": "PLANS-24223",
@@ -631,7 +631,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 681
+    "clear_n": 680
    },
    {
     "status": "In PreProd",
@@ -646,18 +646,6 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -668,11 +656,23 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
    "On Hold": 1,
-   "Backlog": 149
+   "Backlog": 150
   },
   "open_total": 111,
   "stale": 33,
