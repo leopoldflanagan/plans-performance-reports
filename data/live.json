@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T15:40:07Z",
+ "generated": "2026-10-23T16:06:49Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 12,
   "days": 14,
   "n": 17,
-  "done_now": 221,
+  "done_now": 237,
   "committed": 234,
-  "lo": 237,
-  "mid": 251,
-  "hi": 305,
-  "pct": 107,
+  "lo": 254,
+  "mid": 269,
+  "hi": 327,
+  "pct": 115,
   "verdict": "on track for the commitment",
   "share_mid": 0.879
  },
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 590,
-  "items_done": 95,
+  "items_done": 97,
   "committed": 234,
   "final": 495,
-  "completed": 221,
+  "completed": 237,
   "scope_change": 112,
-  "vs_commitment": 94,
+  "vs_commitment": 101,
   "time_elapsed": 81,
   "spill": {
-   "open_items": 176,
-   "open_pts": 259.0,
+   "open_items": 174,
+   "open_pts": 243.0,
    "out_items": 8,
    "out_pts": 9.0,
-   "done_pts": 213.0
+   "done_pts": 229.0
   },
   "recv": {
    "items": 5,
@@ -463,15 +463,15 @@
    "pct": 3,
    "from": "Plans-Sprint 23-26"
   },
-  "spill_rate": 56,
+  "spill_rate": 52,
   "dist": {
-   "Done": 117,
+   "Done": 119,
    "To Do": 168,
-   "In Progress": 27,
-   "In Stage": 50,
+   "In Progress": 25,
+   "In Stage": 48,
    "In PreProd": 1,
    "In Development": 3,
-   "Ready Prod": 62,
+   "Ready Prod": 64,
    "Backlog": 108,
    "Closed": 30,
    "PR Created": 2,
@@ -493,7 +493,8 @@
    256.0,
    239.0,
    294.0,
-   274.0
+   266.0,
+   258.0
   ],
   "scope": [
    14.0,
@@ -507,6 +508,7 @@
    399.0,
    416.0,
    494.0,
+   495.0,
    495.0
   ],
   "ghost": [
@@ -521,7 +523,8 @@
    256.0,
    239.0,
    294.0,
-   274.0
+   266.0,
+   258.0
   ],
   "days": 14,
   "day": 12
@@ -539,8 +542,8 @@
   "end": "2026-10-25",
   "day": 26,
   "days": 28,
-  "closed": 504,
-  "points": 1245,
+  "closed": 506,
+  "points": 1261,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -622,7 +625,7 @@
     "status": "In Development",
     "open": 7,
     "med_age": 1.1,
-    "max_age": 9.1,
+    "max_age": 9.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
