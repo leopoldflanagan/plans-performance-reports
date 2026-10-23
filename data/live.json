@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T04:40:40Z",
+ "generated": "2026-10-23T05:06:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -562,7 +562,7 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 8.2,
+    "med_age": 8.3,
     "max_age": 43.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -598,8 +598,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 7.6,
-    "max_age": 14.4,
+    "med_age": 7.7,
+    "max_age": 14.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -644,18 +644,6 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -666,6 +654,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 59
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
