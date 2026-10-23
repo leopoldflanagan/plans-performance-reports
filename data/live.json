@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T23:05:31Z",
+ "generated": "2026-10-23T23:34:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -588,7 +588,7 @@
    {
     "status": "PR Created",
     "open": 15,
-    "med_age": 2.0,
+    "med_age": 2.1,
     "max_age": 3.6,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -636,8 +636,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 1.0,
-    "max_age": 1.0,
+    "med_age": 1.1,
+    "max_age": 1.1,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
