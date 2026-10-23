@@ -183,7 +183,7 @@
    "Plans-Sprint 24-26",
    "Oct 13",
    "Oct 26",
-   251,
+   252,
    69,
    247,
    312,
@@ -608,6 +608,14 @@
   },
   "Plans-Sprint 24-26": {
    "tis": {
+    "To Do": {
+     "n": 111,
+     "med": 6.0
+    },
+    "In Progress": {
+     "n": 72,
+     "med": 0.98
+    },
     "Backlog": {
      "n": 44,
      "med": 0.52
@@ -628,16 +636,8 @@
      "n": 72,
      "med": 1.52
     },
-    "To Do": {
-     "n": 110,
-     "med": 6.0
-    },
-    "In Progress": {
-     "n": 70,
-     "med": 0.98
-    },
     "Done": {
-     "n": 101,
+     "n": 103,
      "med": 10.48
     },
     "Closed": {
@@ -674,13 +674,13 @@
     }
    },
    "dist": {
+    "In Progress": 11,
     "In Development": 3,
     "In Stage": 17,
-    "Done": 96,
+    "Done": 97,
     "To Do": 38,
     "Closed": 46,
     "PR Created": 1,
-    "In Progress": 11,
     "Ready Prod": 23,
     "Ready for Development": 3,
     "WAITING REVIEW": 1,
@@ -688,10 +688,10 @@
     "Backlog": 8,
     "Will Not Implement": 3
    },
-   "stalled": 170,
+   "stalled": 168,
    "worst": 10.48,
    "worstSt": "Done",
-   "items": 251
+   "items": 252
   }
  },
  "GHOST": {
