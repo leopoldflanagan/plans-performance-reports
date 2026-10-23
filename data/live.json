@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T16:39:48Z",
+ "generated": "2026-10-23T17:05:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 45,
-    "points": 84,
+    "n": 44,
+    "points": 83,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 78,
+   "ready": 77,
    "sprint": 268,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 52,
+    "n": 51,
     "items": [
      {
       "key": "PLANS-24656",
@@ -451,11 +451,11 @@
   "vs_commitment": 101,
   "time_elapsed": 81,
   "spill": {
-   "open_items": 174,
-   "open_pts": 243.0,
+   "open_items": 173,
+   "open_pts": 240.0,
    "out_items": 8,
    "out_pts": 9.0,
-   "done_pts": 229.0
+   "done_pts": 232.0
   },
   "recv": {
    "items": 5,
@@ -465,17 +465,17 @@
   },
   "spill_rate": 52,
   "dist": {
-   "Done": 119,
-   "To Do": 167,
+   "Done": 120,
+   "To Do": 166,
    "In Progress": 26,
    "In Stage": 48,
    "In PreProd": 1,
    "In Development": 3,
-   "Ready Prod": 64,
+   "Ready Prod": 65,
    "Backlog": 108,
    "Closed": 30,
    "PR Created": 2,
-   "Ready for Development": 9,
+   "Ready for Development": 8,
    "In Testing": 1,
    "On Hold": 3,
    "READY DEPLOYMENT": 1,
@@ -542,8 +542,8 @@
   "end": "2026-10-25",
   "day": 26,
   "days": 28,
-  "closed": 506,
-  "points": 1261,
+  "closed": 507,
+  "points": 1264,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -563,27 +563,27 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 31,
-    "med_age": 8.8,
+    "open": 30,
+    "med_age": 8.9,
     "max_age": 43.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 23,
+    "over": 22,
     "clear_med": 0.8,
-    "clear_n": 270
+    "clear_n": 271
    },
    {
     "status": "In Stage",
     "open": 52,
-    "med_age": 2.5,
+    "med_age": 2.1,
     "max_age": 14.7,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 13,
+    "over": 12,
     "clear_med": 2.7,
-    "clear_n": 449
+    "clear_n": 450
    },
    {
     "status": "PR Created",
@@ -595,7 +595,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 728
+    "clear_n": 729
    },
    {
     "status": "PR Merged",
@@ -607,13 +607,13 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 691
+    "clear_n": 692
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 7.6,
-    "max_age": 14.9,
+    "med_age": 7.7,
+    "max_age": 15.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -631,7 +631,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 681
+    "clear_n": 682
    },
    {
     "status": "In PreProd",
@@ -646,18 +646,6 @@
     "clear_n": 24
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -668,14 +656,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
    }
   ],
   "parked": {
-   "Backlog": 147,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 148
   },
-  "open_total": 116,
-  "stale": 38,
+  "open_total": 115,
+  "stale": 36,
   "worst": "Ready for Development"
  }
 }
