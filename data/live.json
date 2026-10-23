@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T14:40:07Z",
+ "generated": "2026-10-23T15:06:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -468,10 +468,10 @@
    "Done": 117,
    "To Do": 168,
    "In Progress": 27,
-   "PR Merged": 3,
+   "PR Merged": 2,
    "In PreProd": 1,
    "In Development": 3,
-   "In Stage": 47,
+   "In Stage": 48,
    "Ready Prod": 62,
    "Backlog": 108,
    "Closed": 30,
@@ -573,27 +573,27 @@
    },
    {
     "status": "In Stage",
-    "open": 49,
-    "med_age": 3.7,
-    "max_age": 14.6,
+    "open": 50,
+    "med_age": 3.4,
+    "max_age": 14.7,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 12,
+    "over": 13,
     "clear_med": 2.7,
     "clear_n": 449
    },
    {
     "status": "PR Created",
     "open": 14,
-    "med_age": 1.7,
+    "med_age": 1.8,
     "max_age": 3.2,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 726
+    "clear_n": 727
    },
    {
     "status": "WAITING REVIEW",
@@ -621,15 +621,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 11,
-    "med_age": 0.4,
+    "open": 10,
+    "med_age": 0.6,
     "max_age": 3.2,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 686
+    "clear_n": 688
    },
    {
     "status": "In PreProd",
@@ -669,11 +669,11 @@
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 147
+   "Backlog": 148,
+   "On Hold": 1
   },
   "open_total": 115,
-  "stale": 37,
+  "stale": 38,
   "worst": "Ready for Development"
  }
 }
