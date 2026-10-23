@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T20:37:50Z",
+ "generated": "2026-10-23T21:05:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
-    "points": 83,
+    "n": 43,
+    "points": 81,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 77,
+   "ready": 76,
    "sprint": 268,
    "sprint_name": "LL-Sprint 24-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 50,
     "items": [
      {
       "key": "PLANS-24656",
@@ -359,14 +359,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 332 of 337 items. This reads as a field the team does not use rather than 332 oversights. Worth deciding: adopt it or stop asking for it.",
+    "why": "missing on 332 of 336 items. This reads as a field the team does not use rather than 332 oversights. Worth deciding: adopt it or stop asking for it.",
     "n": 332,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 328 of 337 items. This reads as a field the team does not use rather than 328 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 328,
+    "why": "missing on 327 of 336 items. This reads as a field the team does not use rather than 327 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 327,
     "items": []
    },
    {
@@ -449,7 +449,7 @@
   "completed": 255,
   "scope_change": 113,
   "vs_commitment": 109,
-  "time_elapsed": 82,
+  "time_elapsed": 83,
   "spill": {
    "open_items": 166,
    "open_pts": 222.0,
@@ -563,15 +563,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 30,
-    "med_age": 9.0,
+    "open": 29,
+    "med_age": 9.1,
     "max_age": 43.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.8,
-    "clear_n": 269
+    "clear_n": 270
    },
    {
     "status": "In Stage",
@@ -588,7 +588,7 @@
    {
     "status": "PR Created",
     "open": 15,
-    "med_age": 1.9,
+    "med_age": 2.0,
     "max_age": 3.5,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -623,9 +623,9 @@
    },
    {
     "status": "In Development",
-    "open": 8,
+    "open": 9,
     "med_age": 0.4,
-    "max_age": 9.3,
+    "max_age": 9.4,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -636,8 +636,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 0.9,
-    "max_age": 0.9,
+    "med_age": 1.0,
+    "max_age": 1.0,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
