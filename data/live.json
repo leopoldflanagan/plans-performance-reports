@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T12:45:46Z",
+ "generated": "2026-10-23T13:06:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -587,7 +587,7 @@
     "status": "PR Created",
     "open": 14,
     "med_age": 2.2,
-    "max_age": 3.1,
+    "max_age": 3.2,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
@@ -611,7 +611,7 @@
     "status": "PR Merged",
     "open": 13,
     "med_age": 0.6,
-    "max_age": 3.1,
+    "max_age": 3.2,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -644,18 +644,6 @@
     "clear_n": 24
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 59
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -666,11 +654,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 59
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 147
+   "Backlog": 147,
+   "On Hold": 1
   },
   "open_total": 116,
   "stale": 36,
