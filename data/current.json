@@ -533,13 +533,13 @@
      "n": 72,
      "med": 0.04
     },
+    "In Stage": {
+     "n": 134,
+     "med": 2.6
+    },
     "Backlog": {
      "n": 132,
      "med": 13.58
-    },
-    "In Stage": {
-     "n": 132,
-     "med": 2.58
     },
     "In PreProd": {
      "n": 10,
@@ -586,10 +586,9 @@
     "Done": 117,
     "To Do": 168,
     "In Progress": 27,
-    "PR Merged": 2,
+    "In Stage": 50,
     "In PreProd": 1,
     "In Development": 3,
-    "In Stage": 48,
     "Ready Prod": 62,
     "Backlog": 111,
     "Closed": 30,
