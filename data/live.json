@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T06:52:15Z",
+ "generated": "2026-10-23T07:12:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -562,7 +562,7 @@
    {
     "status": "Ready for Development",
     "open": 32,
-    "med_age": 8.3,
+    "med_age": 8.4,
     "max_age": 43.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
