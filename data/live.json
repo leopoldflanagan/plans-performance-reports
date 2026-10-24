@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T10:05:54Z",
+ "generated": "2026-10-24T10:35:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -589,7 +589,7 @@
     "status": "PR Created",
     "open": 15,
     "med_age": 2.5,
-    "max_age": 4.0,
+    "max_age": 4.1,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
@@ -600,8 +600,8 @@
    {
     "status": "PR Merged",
     "open": 7,
-    "med_age": 4.0,
-    "max_age": 4.0,
+    "med_age": 4.1,
+    "max_age": 4.1,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -612,7 +612,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 8.3,
+    "med_age": 8.4,
     "max_age": 15.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
