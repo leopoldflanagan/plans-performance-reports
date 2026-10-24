@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T22:33:54Z",
+ "generated": "2026-10-24T23:04:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 13,
   "days": 14,
   "n": 17,
-  "done_now": 263,
+  "done_now": 265,
   "committed": 234,
-  "lo": 280,
-  "mid": 286,
-  "hi": 313,
-  "pct": 122,
+  "lo": 282,
+  "mid": 288,
+  "hi": 315,
+  "pct": 123,
   "verdict": "on track for the commitment",
   "share_mid": 0.919
  },
@@ -443,19 +443,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 594,
-  "items_done": 104,
+  "items_done": 105,
   "committed": 234,
   "final": 498,
-  "completed": 263,
+  "completed": 265,
   "scope_change": 113,
-  "vs_commitment": 112,
-  "time_elapsed": 90,
+  "vs_commitment": 113,
+  "time_elapsed": 91,
   "spill": {
-   "open_items": 164,
-   "open_pts": 214.0,
+   "open_items": 163,
+   "open_pts": 212.0,
    "out_items": 8,
    "out_pts": 9.0,
-   "done_pts": 261.0
+   "done_pts": 263.0
   },
   "recv": {
    "items": 5,
@@ -465,11 +465,11 @@
   },
   "spill_rate": 46,
   "dist": {
-   "Done": 129,
-   "In Progress": 26,
+   "Done": 130,
+   "In Progress": 25,
    "To Do": 161,
-   "Ready Prod": 74,
-   "In Stage": 39,
+   "Ready Prod": 75,
+   "In Stage": 38,
    "In PreProd": 1,
    "In Development": 3,
    "Backlog": 108,
@@ -495,7 +495,7 @@
    297.0,
    269.0,
    235.0,
-   235.0
+   233.0
   ],
   "scope": [
    14.0,
@@ -527,7 +527,7 @@
    297.0,
    269.0,
    235.0,
-   235.0
+   233.0
   ],
   "days": 14,
   "day": 13
@@ -545,8 +545,8 @@
   "end": "2026-10-25",
   "day": 27,
   "days": 28,
-  "closed": 517,
-  "points": 1295,
+  "closed": 518,
+  "points": 1297,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -567,8 +567,8 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 10.1,
-    "max_age": 44.8,
+    "med_age": 10.2,
+    "max_age": 44.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -578,7 +578,7 @@
    },
    {
     "status": "In Stage",
-    "open": 46,
+    "open": 45,
     "med_age": 3.3,
     "max_age": 16.0,
     "worst_key": "PLANS-23995",
@@ -586,7 +586,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 2.7,
-    "clear_n": 455
+    "clear_n": 456
    },
    {
     "status": "PR Created",
@@ -627,8 +627,8 @@
    {
     "status": "In Development",
     "open": 9,
-    "med_age": 1.4,
-    "max_age": 10.4,
+    "med_age": 1.5,
+    "max_age": 10.5,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -649,18 +649,6 @@
     "clear_n": 24
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -671,13 +659,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
    }
   ],
   "parked": {
-   "Backlog": 150,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 150
   },
-  "open_total": 109,
+  "open_total": 108,
   "stale": 33,
   "worst": "Ready for Development"
  }
