@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T15:05:21Z",
+ "generated": "2026-10-24T15:34:32Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -589,7 +589,7 @@
     "status": "PR Created",
     "open": 15,
     "med_age": 2.7,
-    "max_age": 4.2,
+    "max_age": 4.3,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
@@ -600,8 +600,8 @@
    {
     "status": "PR Merged",
     "open": 7,
-    "med_age": 4.2,
-    "max_age": 4.2,
+    "med_age": 4.3,
+    "max_age": 4.3,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -624,7 +624,7 @@
    {
     "status": "In Development",
     "open": 9,
-    "med_age": 1.1,
+    "med_age": 1.2,
     "max_age": 10.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
