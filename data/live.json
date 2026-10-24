@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T01:02:45Z",
+ "generated": "2026-10-24T01:43:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -564,8 +564,8 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 9.2,
-    "max_age": 43.9,
+    "med_age": 9.3,
+    "max_age": 44.0,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -588,7 +588,7 @@
    {
     "status": "PR Created",
     "open": 15,
-    "med_age": 2.1,
+    "med_age": 2.2,
     "max_age": 3.7,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -625,7 +625,7 @@
     "status": "In Development",
     "open": 9,
     "med_age": 0.6,
-    "max_age": 9.5,
+    "max_age": 9.6,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
