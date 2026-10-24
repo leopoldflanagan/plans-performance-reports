@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T03:06:49Z",
+ "generated": "2026-10-24T03:39:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 263,
   "scope_change": 113,
   "vs_commitment": 112,
-  "time_elapsed": 84,
+  "time_elapsed": 85,
   "spill": {
    "open_items": 164,
    "open_pts": 214.0,
@@ -565,7 +565,7 @@
     "status": "Ready for Development",
     "open": 29,
     "med_age": 9.3,
-    "max_age": 44.0,
+    "max_age": 44.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -589,7 +589,7 @@
     "status": "PR Created",
     "open": 15,
     "med_age": 2.2,
-    "max_age": 3.7,
+    "max_age": 3.8,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
@@ -600,8 +600,8 @@
    {
     "status": "PR Merged",
     "open": 7,
-    "med_age": 3.7,
-    "max_age": 3.7,
+    "med_age": 3.8,
+    "max_age": 3.8,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -624,7 +624,7 @@
    {
     "status": "In Development",
     "open": 9,
-    "med_age": 0.6,
+    "med_age": 0.7,
     "max_age": 9.6,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -646,18 +646,6 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -668,6 +656,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
