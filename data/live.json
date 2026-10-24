@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T19:32:47Z",
+ "generated": "2026-10-24T20:05:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 263,
   "scope_change": 113,
   "vs_commitment": 112,
-  "time_elapsed": 89,
+  "time_elapsed": 90,
   "spill": {
    "open_items": 164,
    "open_pts": 214.0,
@@ -580,7 +580,7 @@
     "status": "In Stage",
     "open": 47,
     "med_age": 3.2,
-    "max_age": 15.8,
+    "max_age": 15.9,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
