@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T02:09:47Z",
+ "generated": "2026-10-25T02:43:14Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 265,
   "scope_change": 113,
   "vs_commitment": 113,
-  "time_elapsed": 91,
+  "time_elapsed": 92,
   "spill": {
    "open_items": 163,
    "open_pts": 212.0,
@@ -579,7 +579,7 @@
    {
     "status": "In Stage",
     "open": 45,
-    "med_age": 3.4,
+    "med_age": 3.5,
     "max_age": 16.1,
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
@@ -616,7 +616,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 9.0,
-    "max_age": 16.3,
+    "max_age": 16.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -674,8 +674,8 @@
    }
   ],
   "parked": {
-   "Backlog": 150,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 150
   },
   "open_total": 108,
   "stale": 33,
