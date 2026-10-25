@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T15:34:40Z",
+ "generated": "2026-10-25T16:05:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -469,9 +469,8 @@
    "In Progress": 25,
    "To Do": 161,
    "Ready Prod": 75,
-   "In Stage": 38,
+   "In Stage": 39,
    "In PreProd": 1,
-   "In Development": 3,
    "Backlog": 108,
    "Closed": 30,
    "PR Created": 2,
@@ -479,6 +478,7 @@
    "In Testing": 1,
    "On Hold": 3,
    "READY DEPLOYMENT": 1,
+   "In Development": 2,
    "Will Not Implement": 1
   },
   "burn": [
@@ -495,6 +495,7 @@
    297.0,
    269.0,
    235.0,
+   233.0,
    233.0
   ],
   "scope": [
@@ -509,6 +510,7 @@
    402.0,
    419.0,
    497.0,
+   498.0,
    498.0,
    498.0,
    498.0
@@ -527,6 +529,7 @@
    297.0,
    269.0,
    235.0,
+   233.0,
    233.0
   ],
   "days": 14,
@@ -567,8 +570,8 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 10.8,
-    "max_age": 45.5,
+    "med_age": 10.9,
+    "max_age": 45.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -578,7 +581,7 @@
    },
    {
     "status": "In Stage",
-    "open": 45,
+    "open": 46,
     "med_age": 4.0,
     "max_age": 16.7,
     "worst_key": "PLANS-23995",
@@ -591,14 +594,14 @@
    {
     "status": "PR Created",
     "open": 15,
-    "med_age": 3.7,
+    "med_age": 3.8,
     "max_age": 5.3,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 724
+    "clear_n": 725
    },
    {
     "status": "PR Merged",
@@ -610,19 +613,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 689
-   },
-   {
-    "status": "In Development",
-    "open": 9,
-    "med_age": 2.2,
-    "max_age": 11.1,
-    "worst_key": "PLANS-24223",
-    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 677
+    "clear_n": 690
    },
    {
     "status": "WAITING REVIEW",
@@ -635,6 +626,18 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 16
+   },
+   {
+    "status": "In Development",
+    "open": 8,
+    "med_age": 2.2,
+    "max_age": 11.2,
+    "worst_key": "PLANS-24223",
+    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 678
    },
    {
     "status": "In PreProd",
