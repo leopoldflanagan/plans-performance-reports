@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T18:39:22Z",
+ "generated": "2026-10-25T19:04:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -677,8 +677,8 @@
    }
   ],
   "parked": {
-   "Backlog": 151,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 151
   },
   "open_total": 108,
   "stale": 33,
