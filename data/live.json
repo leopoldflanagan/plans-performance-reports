@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T20:35:45Z",
+ "generated": "2026-10-25T21:05:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -594,7 +594,7 @@
    {
     "status": "PR Created",
     "open": 15,
-    "med_age": 3.9,
+    "med_age": 4.0,
     "max_age": 5.5,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -631,7 +631,7 @@
     "status": "In Development",
     "open": 8,
     "med_age": 2.3,
-    "max_age": 11.3,
+    "max_age": 11.4,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -642,26 +642,14 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 2.9,
-    "max_age": 2.9,
+    "med_age": 3.0,
+    "max_age": 3.0,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
    },
    {
     "status": "Ready for Stage",
@@ -674,6 +662,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
    }
   ],
   "parked": {
