@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T11:33:56Z",
+ "generated": "2026-10-25T12:07:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 265,
   "scope_change": 113,
   "vs_commitment": 113,
-  "time_elapsed": 94,
+  "time_elapsed": 95,
   "spill": {
    "open_items": 163,
    "open_pts": 212.0,
@@ -615,8 +615,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 9.4,
-    "max_age": 16.7,
+    "med_age": 9.5,
+    "max_age": 16.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -649,18 +649,6 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -671,6 +659,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
