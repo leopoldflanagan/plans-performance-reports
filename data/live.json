@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T14:05:49Z",
+ "generated": "2026-10-25T14:34:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -616,7 +616,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 9.5,
-    "max_age": 16.8,
+    "max_age": 16.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
