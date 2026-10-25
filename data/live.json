@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T20:05:32Z",
+ "generated": "2026-10-25T20:35:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -570,8 +570,8 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 11.0,
-    "max_age": 45.7,
+    "med_age": 11.1,
+    "max_age": 45.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -595,7 +595,7 @@
     "status": "PR Created",
     "open": 15,
     "med_age": 3.9,
-    "max_age": 5.4,
+    "max_age": 5.5,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
@@ -606,8 +606,8 @@
    {
     "status": "PR Merged",
     "open": 7,
-    "med_age": 5.4,
-    "max_age": 5.4,
+    "med_age": 5.5,
+    "max_age": 5.5,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -652,18 +652,6 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -674,11 +662,23 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 151
+   "Backlog": 151,
+   "On Hold": 1
   },
   "open_total": 108,
   "stale": 33,
