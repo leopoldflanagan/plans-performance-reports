@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T02:48:32Z",
+ "generated": "2026-10-26T03:09:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -615,7 +615,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 2.5,
+    "med_age": 2.6,
     "max_age": 11.6,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -674,8 +674,8 @@
    }
   ],
   "parked": {
-   "Backlog": 151,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 151
   },
   "open_total": 108,
   "stale": 33,
