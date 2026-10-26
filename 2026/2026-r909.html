@@ -318,7 +318,7 @@
 </style>
 
 <style>
- .statuspill .dot{background:var(--wf-muted)}
+ .statuspill .dot{background:var(--risk)}
  .scrumgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-bottom:18px}
  .sh{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}
  .sh .k{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--wf-muted);font-weight:700}
@@ -467,31 +467,31 @@
 </script>
 <header><div class="wrap"><div class="prefs"><button class="prefbtn" id="themebtn" type="button">&#9789;&#65038; Dark</button></div><div class="crumb"><a href="../index.html">Plans Performance Reports</a> &rsaquo; Release 9.09 Performance Report</div><div class="eyebrow">Plans &middot; Flow &amp; Sprint Metrics</div>
 <h1>Release 9.09 Performance Report</h1><div class="sub">Flow and sprint metrics for the release, against R9.05 and the band of the last three releases.</div>
-<div class="pillrow" style="margin-top:18px"><div class="statuspill"><span class="dot"></span> Release in progress — 2 of 4 sprints closed · ends Oct 25. The numbers move until it closes, so this page carries no flow-health verdict yet.</div><span class="revchip pend"><span class="ic">&#9679;</span> Generated from Jira · pending sign-off</span></div></div></header>
+<div class="pillrow" style="margin-top:18px"><div class="statuspill"><span class="dot"></span> Flow Health: RISK — 518 items closed over 4 sprints, 129.5 per sprint against 63.0 in R9.05. The Unplanned label was not applied, so reactive work cannot be measured.</div><span class="revchip pend"><span class="ic">&#9679;</span> Generated from Jira · pending sign-off</span></div></div></header>
 <div class="tabs"><div class="wrap">
  <button class="tab active" data-tab="dash">Flow</button>
  <button class="tab" data-tab="scrum">Sprints</button>
  <button class="tab" data-tab="cmp">Comparatives</button>
  <button class="tab" data-tab="act">Findings &amp; Retro</button>
 </div></div>
-<div class="repnav"><div class="wrap"><a class="rp live" href="../sprint.html"><i></i>Active sprint</a><span class="rsep"></span><a class="rp" href="2026-r900.html">9.00</a><a class="rp" href="2026-r901.html">9.01</a><a class="rp" href="2026-r902.html">9.02</a><a class="rp" href="2026-r903.html">9.03</a><a class="rp" href="2026-r904.html">9.04</a><a class="rp" href="2026-r905.html">9.05</a><span class="rp on">9.09</span><span class="rgroup"><a class="rutil" href="../index.html">&larr; All reports</a></span></div></div>
+<div class="repnav"><div class="wrap"><a class="rp live" href="../sprint.html"><i></i>Active sprint</a><span class="rsep"></span><a class="rp" href="2026-r900.html">9.00</a><a class="rp" href="2026-r901.html">9.01</a><a class="rp" href="2026-r902.html">9.02</a><a class="rp" href="2026-r903.html">9.03</a><a class="rp" href="2026-r904.html">9.04</a><a class="rp" href="2026-r905.html">9.05</a><span class="rp on">9.09</span><a class="rp" href="2026-r910.html">9.10</a><span class="rgroup"><a class="rutil" href="../index.html">&larr; All reports</a></span></div></div>
 <main><div class="wrap">
 <section class="panel active" id="dash">
   <div class="sectit">Flow metrics — Release 9.09</div>
   <div class="secsub">Throughput counts closed items only; discarded work is reported separately.</div>
   <div class="grid g3">
     <div class="card">
-      <div class="ghead"><span class="gname">Throughput</span><span class="badge b-amber"><span class="d"></span>Warning</span></div>
-      <div class="bignum num-amber">518<span class="unit">closed · day 28 of 28</span></div>
-<div class="ctxline"><span>At this pace the release lands near <b>518 items</b>. Every comparison below is cut to the same 100% on both sides.</span></div>
+      <div class="ghead"><span class="gname">Throughput</span><span class="badge b-green"><span class="d"></span>Healthy</span></div>
+      <div class="bignum num-green">518<span class="unit">closed · release</span></div>
+
       <div class="secondary">276 Story · 240 Bug · 2 TechDebt</div>
-      <div class="statblock"><div class="sb sb-head"><span></span><span>This release</span><span>vs R9.05</span><span>vs the band</span></div><div class="sb"><span class="sk">Items closed</span><span class="sv">130</span><span class="sd pos">+106%</span><span class="sd pos">+105%</span></div><div class="sb"><span class="sk">Story points</span><span class="sv">324</span><span class="sd pos">+159%</span><span class="sd pos">+157%</span></div></div>
-      <div class="ctxline"><span>Average item size <b>2.93 pts</b> <i>(R9.05 2.50)</i></span>
-        <span>Team <b>23 active</b> <i>(R9.05 24.0)</i></span></div>
-      <div class="spark-cap">Items closed &middot; R9.00 to R9.05 &middot; this release is still running and is not plotted</div>
-      <svg class="spark" viewBox="0 0 260 34" preserveAspectRatio="none" role="img" aria-hidden="true"><path d="M3.0,13.4 L53.8,17.7 L104.6,31.0 L155.4,3.0 L206.2,11.1 L257.0,7.3" fill="none" style="stroke:var(--edge)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>
-      <div class="infopanel ip-amber">On top of the 518 closed there were <b>0 discarded</b> (Won't Do), which are not deliveries.
-        Items are +106% on R9.05 while points are +159% at the same point in the month.
+      <div class="statblock"><div class="sb sb-head"><span></span><span>This release</span><span>vs R9.09</span><span>vs the band</span></div><div class="sb"><span class="sk">Items closed</span><span class="sv">130</span><span class="sd neg">+0%</span><span class="sd pos">+55%</span></div><div class="sb"><span class="sk">Story points</span><span class="sv">324</span><span class="sd neg">+0%</span><span class="sd pos">+70%</span></div></div>
+      <div class="ctxline"><span>Average item size <b>2.93 pts</b> <i>(R9.09 2.93)</i></span>
+        <span>Team <b>23 active</b> <i>(R9.09 23.0)</i></span></div>
+      <div class="spark-cap">Items closed &middot; R9.00 to R9.09</div>
+      <svg class="spark" viewBox="0 0 260 34" preserveAspectRatio="none" role="img" aria-hidden="true"><path d="M3.0,24.1 L45.3,25.8 L87.7,31.0 L130.0,20.0 L172.3,23.2 L214.7,21.7 L257.0,3.0" fill="none" style="stroke:var(--edge)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="257.0" cy="3.0" r="4" fill="#007CBC" style="stroke:var(--card)" stroke-width="2"/></svg>
+      <div class="infopanel ip-green">On top of the 518 closed there were <b>0 discarded</b> (Won't Do), which are not deliveries.
+        Items are up +0% on R9.09 while points are up +0% — the team is larger and the items are smaller.
         <a href="#" class="ip-link" data-goto="cmp">Trend and expected range in Comparatives &rarr;</a></div>
       <div class="cardfill"></div><hr class="docsep">
       
@@ -501,17 +501,17 @@
       <div class="bignum num-red">10.64<span class="unit">d median</span></div>
       <div class="secondary">386 issues measured · longest 149d</div>
       <div class="targetline"><span class="tl">Target</span> &le;6d median · &le;9d average</div>
-      <div class="statblock"><div class="sb sb-head"><span></span><span>This release</span><span>vs R9.05</span><span>vs the band</span></div><div class="sb"><span class="sk">Median</span><span class="sv">10.6d</span><span class="sd neg">+78%</span><span class="sd neg">+48%</span></div><div class="sb"><span class="sk">Average</span><span class="sv">17.7d</span><span class="sd neg">+87%</span><span class="sd neg">+51%</span></div></div>
+      <div class="statblock"><div class="sb sb-head"><span></span><span>This release</span><span>vs R9.09</span><span>vs the band</span></div><div class="sb"><span class="sk">Median</span><span class="sv">10.6d</span><span class="sd neg">+0%</span><span class="sd neg">+26%</span></div><div class="sb"><span class="sk">Average</span><span class="sv">17.7d</span><span class="sd neg">+0%</span><span class="sd neg">+33%</span></div></div>
       <div class="ctxline"><span>Measured on <b>386 of 518</b> closed items <i>(75% of the release)</i></span></div>
-      <div class="spark-cap">Median cycle time · R9.00 to R9.05</div>
-      <svg class="spark" viewBox="0 0 260 34" preserveAspectRatio="none" role="img" aria-hidden="true"><path d="M3.0,30.2 L53.8,31.0 L104.6,26.1 L155.4,11.8 L206.2,3.0 L257.0,16.4" fill="none" style="stroke:var(--edge)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <div class="spark-cap">Median cycle time · R9.00 to R9.09</div>
+      <svg class="spark" viewBox="0 0 260 34" preserveAspectRatio="none" role="img" aria-hidden="true"><path d="M3.0,30.4 L45.3,31.0 L87.7,27.4 L130.0,16.9 L172.3,10.5 L214.7,20.3 L257.0,3.0" fill="none" style="stroke:var(--edge)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="257.0" cy="3.0" r="4" fill="#4FA800" style="stroke:var(--card)" stroke-width="2"/></svg>
       <div class="infopanel ip-green">Median and average both within target. The gap between 10.6d and 17.7d comes from a few long tickets — the longest this month took 149 days.</div>
       <div class="cardfill"></div><hr class="docsep">
       
     </div>
     <div class="card">
       <div class="ghead"><span class="gname">Planned vs Unplanned</span><span class="badge" style="background:var(--pillbg);color:var(--wf-muted2)"><span class="d" style="background:var(--muted3)"></span>No data</span></div>
-      <div class="nodata" style="margin:10px 0"><span class="big">—</span>this team marks no work as reactive so far this release</div>
+      <div class="nodata" style="margin:10px 0"><span class="big">—</span>this team marks no work as reactive in the whole release</div>
       <div class="targetline"><span class="tl">Target</span> &le;5% · Warning 5-10% · Risk &gt;10%</div>
       <div class="infopanel ip-amber">This team has no marker for reactive work, so its share cannot be measured here. That is not the same as zero — publishing 0% would claim all 518 deliveries were planned, which nothing in Jira says. Agreeing on a label is what turns this into a number.</div>
       <div class="cardfill"></div><hr class="docsep">
@@ -540,12 +540,12 @@
   <div style="margin-top:26px"></div>
   <div class="sectit" style="font-size:20px">Executive summary</div>
   <div class="tscroll"><table class="exec">
-    <thead><tr><th>Metric</th><th>Release</th><th>R9.05</th><th>R9.05</th><th>Last 3 releases</th><th>vs R9.05</th><th>vs the band</th></tr></thead>
+    <thead><tr><th>Metric</th><th>Release</th><th>R9.05</th><th>R9.09</th><th>Last 3 releases</th><th>vs R9.09</th><th>vs the band</th></tr></thead>
     <tbody>
-      <tr><td>Throughput (closed)</td><td>518</td><td>252</td><td>63</td><td>63</td><td class="pos">+722.2%</td><td class="pos">+722.2%</td></tr>
+      <tr><td>Throughput (closed)</td><td>518</td><td>252</td><td>130</td><td>83</td><td class="pos">+298.5%</td><td class="pos">+524.1%</td></tr>
       <tr><td>Unplanned work</td><td class="flat">no data</td><td class="flat">—</td><td>0%</td><td>0.0%</td><td class="flat">—</td><td class="flat">—</td></tr>
-      <tr><td>Cycle Time (median)</td><td>10.64d</td><td class="flat">—</td><td>5.98d</td><td>7.17d</td><td class="neg">+77.9%</td><td class="neg">+48.4%</td></tr>
-      <tr><td>Closed without entering development</td><td>132 (25%)</td><td class="flat">—</td><td class="flat">—</td><td>298</td><td class="flat">—</td><td class="flat">—</td></tr>
+      <tr><td>Cycle Time (median)</td><td>10.64d</td><td class="flat">—</td><td>10.64d</td><td>8.42d</td><td class="pos">+0.0%</td><td class="neg">+26.4%</td></tr>
+      <tr><td>Closed without entering development</td><td>132 (25%)</td><td class="flat">—</td><td class="flat">—</td><td>314</td><td class="flat">—</td><td class="flat">—</td></tr>
     </tbody>
   </table></div>
   <div class="fnote">Comparatives use the closed quarters of the year: Q1 and Q2. Q3 joins this table once September closes and its report is created. Q1's monthly detail is under review — the figure used here is the one published in Confluence.</div>
@@ -560,487 +560,18 @@
 
 
 <section class="panel" id="scrum">
- <div class="sectit">Sprint metrics</div>
- <div class="secsub">Every sprint of the series, rebuilt from Jira.</div>
+ <div class="sectit">Sprint metrics — R9.09</div>
+ <div class="secsub">The sprints that closed in this release, rebuilt from Jira.</div>
  
+ <div class="insightbox" style="margin-bottom:24px"><div class="k">Sprints closed in this release</div>
+  <h2>Scope grew +27% to +114% after the sprints had started, and 703 points left the sprints without finishing.</h2>
+  <p>Of everything added after day 1, <span class="stat">0%</span> carried a reactive marker — labeled <i>Unplanned</i> or typed <i>Urgent Task</i>. The rest came in as ordinary planned work. The series-wide view — velocity, scope-change trend and the full sprint table — lives in the
+  <a href="#" class="ip-link" data-goto="cmp" style="color:#fff;border-bottom:1px solid rgba(255,255,255,.5)">Comparatives tab</a>.</p>
+ </div>
  
- <div class="sectit" style="font-size:20px;margin-top:4px">Committed vs Completed — full series</div>
- <div class="secsub">Every sprint on the board this year.</div>
- <div class="tscroll"><table class="exec">
-  <thead><tr><th>Sprint</th><th>Dates</th><th>Committed</th><th>Added</th><th>Completed</th><th>Left sprint</th><th>vs commit</th><th>Added: reactive</th><th>Added: plannable</th><th>% reactive</th></tr></thead>
-  <tbody><tr><td>Plans-R9.00 S1</td><td>Jan 5 - Jan 19</td><td>110</td><td>+27</td><td>99</td><td class="neg">37</td><td>90%</td><td>0</td><td class="neg">19</td><td>0%</td></tr><tr><td>Plans-R9.00 S2</td><td>Jan 19 - Feb 2</td><td>92</td><td>+37</td><td>100</td><td class="neg">30</td><td>109%</td><td>0</td><td class="neg">21</td><td>0%</td></tr><tr><td>Plans-Sprint 6-26</td><td>Feb 2 - Feb 17</td><td>108</td><td>+21</td><td>95</td><td class="neg">27</td><td>88%</td><td>0</td><td class="neg">13</td><td>0%</td></tr><tr><td>Plans-Sprint 7-26</td><td>Feb 17 - Mar 2</td><td>95</td><td>+46</td><td>74</td><td class="neg">59</td><td>78%</td><td>0</td><td class="neg">22</td><td>0%</td></tr><tr><td>Plans-Sprint 8-26</td><td>Mar 3 - Mar 16</td><td>127</td><td>+14</td><td>78</td><td class="neg">61</td><td>61%</td><td>0</td><td class="neg">10</td><td>0%</td></tr><tr><td>LL-Sprint 8-26</td><td>Mar 3 - Mar 16</td><td>7</td><td>+5</td><td>0</td><td class="neg">8</td><td>0%</td><td>0</td><td class="neg">1</td><td>0%</td></tr><tr><td>LL-Sprint 9-26</td><td>Mar 16 - Mar 30</td><td>8</td><td>+0</td><td>0</td><td class="neg">13</td><td>0%</td><td class="flat">no data</td><td class="flat">no data</td><td class="flat">—</td></tr><tr><td>Plans-Sprint 9-26</td><td>Mar 16 - Mar 30</td><td>231</td><td>+66</td><td>91</td><td class="neg">166</td><td>39%</td><td>0</td><td class="neg">44</td><td>0%</td></tr><tr><td>LL-Sprint 10-26</td><td>Mar 30 - Apr 13</td><td>10</td><td>+0</td><td>0</td><td class="neg">14</td><td>0%</td><td>0</td><td class="neg">1</td><td>0%</td></tr><tr><td>Plans-Sprint 10-26</td><td>Mar 31 - Apr 13</td><td>445</td><td>+44</td><td>270</td><td class="neg">200</td><td>61%</td><td>0</td><td class="neg">20</td><td>0%</td></tr><tr><td>LL-Sprint 11-26</td><td>Apr 13 - Apr 27</td><td>71</td><td>+23</td><td>85</td><td class="neg">30</td><td>120%</td><td>0</td><td class="neg">10</td><td>0%</td></tr><tr><td>Plans-Sprint 11-26</td><td>Apr 13 - Apr 27</td><td>220</td><td>+41</td><td>131</td><td class="neg">124</td><td>60%</td><td>0</td><td class="neg">19</td><td>0%</td></tr><tr><td>Plans-Sprint 12-26</td><td>Apr 27 - May 11</td><td>275</td><td>+30</td><td>162</td><td class="neg">130</td><td>59%</td><td>0</td><td class="neg">19</td><td>0%</td></tr><tr><td>LL-Sprint 12 - 26</td><td>Apr 27 - May 19</td><td>142</td><td>+27</td><td>82</td><td class="neg">87</td><td>58%</td><td>0</td><td class="neg">15</td><td>0%</td></tr><tr><td>LL-Sprint 13 - 26</td><td>May 11 - May 26</td><td>5</td><td>+111</td><td>50</td><td class="neg">81</td><td>1000%</td><td>0</td><td class="neg">33</td><td>0%</td></tr><tr><td>Plans-Sprint 13-26</td><td>May 12 - May 26</td><td>252</td><td>+42</td><td>164</td><td class="neg">135</td><td>65%</td><td>0</td><td class="neg">22</td><td>0%</td></tr><tr><td>LL-Sprint 14-26</td><td>May 26 - Jun 8</td><td>175</td><td>+75</td><td>50</td><td class="neg">181</td><td>29%</td><td>0</td><td class="neg">28</td><td>0%</td></tr><tr><td>Plans-Sprint 14-26</td><td>May 27 - Jun 9</td><td>204</td><td>+241</td><td>107</td><td class="neg">357</td><td>52%</td><td>0</td><td class="neg">88</td><td>0%</td></tr><tr><td>LL-Sprint 15-26</td><td>Jun 8 - Jun 25</td><td>156</td><td>+451</td><td>136</td><td class="neg">313</td><td>87%</td><td>0</td><td class="neg">117</td><td>0%</td></tr><tr><td>Plans-Sprint 15-26</td><td>Jun 9 - Jun 22</td><td>325</td><td>+86</td><td>162</td><td class="neg">243</td><td>50%</td><td>0</td><td class="neg">34</td><td>0%</td></tr><tr><td>LL-Sprint 23-26</td><td>Sep 28 - Oct 12</td><td>487</td><td>+180</td><td>467</td><td class="neg">197</td><td>96%</td><td>0</td><td class="neg">78</td><td>0%</td></tr><tr><td>Plans-Sprint 23-26</td><td>Sep 29 - Oct 13</td><td>351</td><td>+113</td><td>247</td><td class="neg">204</td><td>70%</td><td>0</td><td class="neg">40</td><td>0%</td></tr><tr class="runrow"><td>LL-Sprint 24-26 <span class="runtag">day 14 of 14</span></td><td>Oct 12 - Oct 26</td><td>234</td><td>+264</td><td>265</td><td class="flat">&mdash;</td><td class="flat">still running</td><td>0</td><td class="neg">101</td><td>0%</td></tr><tr><td>Plans-Sprint 24-26</td><td>Oct 13 - Oct 26</td><td>247</td><td>+65</td><td>221</td><td class="neg">98</td><td>89%</td><td>0</td><td class="neg">40</td><td>0%</td></tr></tbody>
- </table></div>
- <div class="fnote">Carry-over between sprints is close to zero, which at first looks like exceptional planning. The added column explains it: little carries over because little is committed up front — the sprint is filled in as it runs. For a service team part of that is unavoidable, but the reactive split shows most of the filling is plannable work. Two separate conversations for the retro: how much service load to reserve capacity for, and why plannable work is not on the board on day 1.</div> <div class="cmpcard">
-  <div class="cmphead"><h3>Velocity per sprint</h3></div>
-  <div class="secsub" style="margin-bottom:8px">Points completed against the day-1 commitment, and against the documented baseline of 0 (range 0-0).</div>
-  <div class="chartbox" style="height:300px"><canvas id="cVel"></canvas></div>
-  <div class="infopanel ip-red">The average of the last 5 closed sprints is <b>246.6 points</b>, against a baseline of 0. Same gap Throughput shows: the reference describes the 4-dev team, not this one. But note the commitment bars — the team consistently delivers far more than it commits to, which makes the commitment, not the delivery, the number to fix first.</div>
- </div>
-
- <div class="cmpcard"><div class="cmphead"><h3>Trend, expected range and consistency</h3></div>
-  <div class="secsub" style="margin-bottom:10px">Throughput scales with team size, so a fixed target cannot hold. These three readings do not depend on one.</div>
-  <div class="cmpgrid">
-   <div class="chartbox" style="height:280px"><canvas id="cBand"></canvas></div>
-   <div class="readout">
-    <div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">Trend +43%</span><br>Average of the last three months against the three before them: 63 vs 44 items. Team went from 11.7 to 20.0 people over the same stretch, so read the two together.</div>
-    <div class="line" style="border-color:var(--healthy)"><span class="vs-tag">Expected range 41 - 85</span><br>Built from the team's own month-to-month movement, not from a target. A month outside it means something changed; a month inside is normal variation.</div>
-    <div class="line" style="border-color:var(--warning)"><span class="vs-tag">Consistency 13%</span><br>Throughput moves <b>8.2 items</b> from one month to the next on average, 13% of the level.</div>
-   </div>
-  </div>
-  <div class="infopanel ip-amber">The range re-centres only after a signal has been explained — a team change, a workflow change, or a change in how work arrives. It does not drift quietly along with the numbers.</div>
- </div>
- <div class="cmpcard"><div class="cmphead"><h3>Spillover — what does not finish, and where it goes</h3></div>
-  <div class="secsub" style="margin-bottom:10px">Points that left the sprint over every point the sprint ever held. Same source as Jira's own sprint report.</div>
-  <div class="cmpgrid">
-   <div class="chartbox" style="height:280px"><canvas id="cSpill"></canvas></div>
-   <div class="readout">
-    <div class="line" style="border-color:var(--risk)"><span class="vs-tag">52% of everything committed</span><br><b>3016 of 5820 points</b> across the series did not finish in the sprint they were in. That is a third of the work, every sprint, and it is invisible in the burndown.</div>
-    <div class="line" style="border-color:var(--warning)"><span class="vs-tag">21% of it is removed, not carried</span><br>PLANS takes work <i>out</i> of the sprint before closing it rather than letting it show as incomplete. That is why every sprint reads 100% complete — the sprint empties before it closes.</div>
-    <div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">Read it against the commitment, not the burndown</span><br>A sprint that commits to 45 points, grows to 117, closes 69 and drops 48 has not delivered 100% of anything. The honest pair is day-1 commitment and spillover rate, side by side.</div>
-   </div>
-  </div>
-  
-  <div class="infopanel ip-amber">There is no sprint goal recorded on any of these sprints, so spillover cannot be read against what the sprint set out to achieve — only against the points. Recording a goal is what would make the difference between "we dropped 48 points" and "we dropped 48 points and still got there".</div>
- </div>
- <div class="cmpcard"><div class="cmphead"><h3>Spillover, both ends &mdash; what a sprint takes in and what it hands on</h3></div><div class="secsub" style="margin-bottom:10px">Inherited is work already open in the previous sprint that arrived inside the day-1 commitment. It is capacity spent before the sprint began.</div><div class="cmpgrid"><div class="chartbox" style="height:280px"><canvas id="cRecv"></canvas></div><div class="readout"><div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">9% of everything committed was inherited</span><br><b>388 of 4377 points</b> across the series were already open when the sprint started. Planning that treats the whole commitment as new work is planning with room the team does not have.</div><div class="line" style="border-color:var(--warning)"><span class="vs-tag">388 in, 3016 out</span><br>Over the series the team hands on more than it takes in, so the carry-over is still growing.</div><div class="line" style="border-color:var(--risk)"><span class="vs-tag">Heaviest: Plans-Sprint 12-26</span><br>Started with <b>99 points</b> already open, inherited from Plans-Sprint 11-26.</div></div></div><div class="infopanel ip-amber">Inherited work is counted at day 1 only. Something pulled in mid-sprint from an older sprint is scope change, not inheritance, and shows in the Added column instead.</div></div>
- <div class="insightbox" style="margin-bottom:24px"><div class="k">What the burndowns show</div><h2>Scope grows <b>1.46×</b> between day 1 and the end of a sprint, and most of what arrives is not reactive work.</h2><p>A service team cannot plan every request: urgent work lands mid-sprint, which is exactly what Planned vs Unplanned exists to measure, so some scope growth is expected. The question is how much of it was genuinely unplannable. Over the <b>23</b> sprints where the <i>Unplanned</i> label was still being applied, reactive work accounts for <span class="stat">0% to 0%</span> of everything added after day 1, with a median of <b>0%</b>. The rest could have been on the board from the start.</p></div>
- <div class="cmpcard">
-  <div class="cmphead"><h3>Where the mid-sprint work comes from</h3></div>
-  <div class="cmpgrid">
-   <div class="chartbox" style="height:280px"><canvas id="cSplit"></canvas></div>
-   <div class="readout">
-    <div class="line" style="border-color:var(--healthy)"><span class="vs-tag">Reactive, as expected</span><br>A handful of points a sprint arrive labeled <i>Unplanned</i> or as <i>Urgent Task</i>. That is the service load, and outside 12-26 it is smaller than it feels.</div>
-    <div class="line" style="border-color:var(--risk)"><span class="vs-tag">Plannable, added anyway</span><br>Most of the mid-sprint additions carry no reactive marker — dashboard tabs, E2E testing, table-layout fixes. This is the planning gap.</div>
-    <div class="line" style="border-color:var(--warning)"><span class="vs-tag">Not measurable from 18-26</span><br>The label stopped being applied, so those sprints show as no data, not as zero reactive work.</div>
-   </div>
-  </div>
-  <div class="infopanel ip-amber">One caveat on method: the label lives on the ticket, not on the moment. If someone added it after the fact, the item still counts as reactive here.</div>
- </div>
-
-
- <div class="sectit" style="font-size:20px;margin-top:28px">Burndown per sprint</div>
- <div class="secsub">Grey is total scope, blue is work still open.</div>
+ <div class="sectit" style="font-size:20px;margin-top:28px">Sprints that closed in R9.09</div>
+ <div class="secsub">Newest first. Grey is total scope, blue is work still open; a healthy sprint has a flat grey line and a falling blue one.</div>
  
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-R9.00 S1</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +25%</span>
-     <span class="sprintdates">Jan 5 &rarr; Jan 19</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">110</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+27</div><div class="n">final scope 137 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">99</div><div class="n">58 of 297 items · still open 38 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">90%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd0"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">19 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 16 items &middot; 17% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-R8.29 S3</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">28%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 37 of 132 pts</span></div><div class="sn">25 items — 7 removed before the sprint closed · 18 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>205 items</b> spent more than 5 days without moving; the worst sat <b>13.8 days</b> in <i>IN-DEVELOPMENT</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-R9.00 S2</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +40%</span>
-     <span class="sprintdates">Jan 19 &rarr; Feb 2</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">92</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+37</div><div class="n">final scope 129 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">100</div><div class="n">48 of 238 items · still open 29 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">109%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd1"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">7 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 6 items &middot; 8% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-R9.00 S1</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">24%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 30 of 123 pts</span></div><div class="sn">21 items — 9 removed before the sprint closed · 12 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>156 items</b> spent more than 5 days without moving; the worst sat <b>13.9 days</b> in <i>IN-DEVELOPMENT</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 6-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +19%</span>
-     <span class="sprintdates">Feb 2 &rarr; Feb 17</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">108</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+21</div><div class="n">final scope 129 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">95</div><div class="n">54 of 244 items · still open 34 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">88%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd2"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">16 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 16 items &middot; 15% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-R9.00 S2</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">23%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 27 of 117 pts</span></div><div class="sn">22 items — 11 removed before the sprint closed · 11 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>172 items</b> spent more than 5 days without moving; the worst sat <b>14.7 days</b> in <i>IN-DEVELOPMENT</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 7-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +48%</span>
-     <span class="sprintdates">Feb 17 &rarr; Mar 2</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">95</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+46</div><div class="n">final scope 141 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">74</div><div class="n">29 of 220 items · still open 67 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">78%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd3"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">11 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 13 items &middot; 12% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-Sprint 6-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">44%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 59 of 133 pts</span></div><div class="sn">33 items — 6 removed before the sprint closed · 27 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>161 items</b> spent more than 5 days without moving; the worst sat <b>12.9 days</b> in <i>WAITING REVIEW</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 8-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +11%</span>
-     <span class="sprintdates">Mar 3 &rarr; Mar 16</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">127</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+14</div><div class="n">final scope 141 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">78</div><div class="n">35 of 239 items · still open 63 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">61%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd4"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv" style="color:var(--warning)">51 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 27 items &middot; 40% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-Sprint 7-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">49%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 61 of 125 pts</span></div><div class="sn">33 items — 7 removed before the sprint closed · 26 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>161 items</b> spent more than 5 days without moving; the worst sat <b>12.9 days</b> in <i>IN-DEVELOPMENT</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>LL-Sprint 8-26</h3>
-     <span class="badge badge-lg b-amber"><span class="d"></span>scope +71%</span>
-     <span class="sprintdates">Mar 3 &rarr; Mar 16</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">7</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+5</div><div class="n">final scope 12 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">0</div><div class="n">0 of 6 items · still open 12 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">0%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd5"></canvas></div>
-   
-   
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">100%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 8 of 8 pts</span></div><div class="sn">5 items — 3 removed before the sprint closed · 2 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>6 items</b> spent more than 5 days without moving; the worst sat <b>12.8 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>LL-Sprint 9-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +0%</span>
-     <span class="sprintdates">Mar 16 &rarr; Mar 30</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">8</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+0</div><div class="n">final scope 8 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">0</div><div class="n">0 of 6 items · still open 8 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">0%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd6"></canvas></div>
-   
-   
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">100%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 13 of 13 pts</span></div><div class="sn">6 items — 2 removed before the sprint closed · 4 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>5 items</b> spent more than 5 days without moving; the worst sat <b>14.0 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 9-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +29%</span>
-     <span class="sprintdates">Mar 16 &rarr; Mar 30</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">231</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+66</div><div class="n">final scope 297 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">91</div><div class="n">50 of 391 items · still open 206 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">39%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd7"></canvas></div>
-   
-   
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">65%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 166 of 255 pts</span></div><div class="sn">82 items — 20 removed before the sprint closed · 62 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>311 items</b> spent more than 5 days without moving; the worst sat <b>14.0 days</b> in <i>On Hold</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>LL-Sprint 10-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +0%</span>
-     <span class="sprintdates">Mar 30 &rarr; Apr 13</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">10</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+0</div><div class="n">final scope 10 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">0</div><div class="n">0 of 7 items · still open 10 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">0%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd8"></canvas></div>
-   
-   
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">100%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 14 of 14 pts</span></div><div class="sn">6 items — 1 removed before the sprint closed · 5 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>6 items</b> spent more than 5 days without moving; the worst sat <b>14.0 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 10-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +10%</span>
-     <span class="sprintdates">Mar 31 &rarr; Apr 13</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">445</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+44</div><div class="n">final scope 489 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">270</div><div class="n">116 of 607 items · still open 219 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">61%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd9"></canvas></div>
-   
-   
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">46%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 200 of 437 pts</span></div><div class="sn">92 items — 9 removed before the sprint closed · 83 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>456 items</b> spent more than 5 days without moving; the worst sat <b>13.0 days</b> in <i>WAITING REVIEW</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>LL-Sprint 11-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +32%</span>
-     <span class="sprintdates">Apr 13 &rarr; Apr 27</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">71</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+23</div><div class="n">final scope 94 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">85</div><div class="n">42 of 110 items · still open 9 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">120%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd10"></canvas></div>
-   
-   
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">70%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 30 of 43 pts</span></div><div class="sn">27 items — 5 removed before the sprint closed · 22 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>37 items</b> spent more than 5 days without moving; the worst sat <b>10.3 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 11-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +19%</span>
-     <span class="sprintdates">Apr 13 &rarr; Apr 27</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">220</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+41</div><div class="n">final scope 261 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">131</div><div class="n">43 of 292 items · still open 130 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">60%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd11"></canvas></div>
-   
-   
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">55%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 124 of 224 pts</span></div><div class="sn">71 items — 17 removed before the sprint closed · 54 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>221 items</b> spent more than 5 days without moving; the worst sat <b>14.0 days</b> in <i>Ready for Development</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 12-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +11%</span>
-     <span class="sprintdates">Apr 27 &rarr; May 11</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">275</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+30</div><div class="n">final scope 305 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">162</div><div class="n">59 of 389 items · still open 143 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">59%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd12"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv" style="color:var(--warning)">99 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 56 items &middot; 36% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-Sprint 11-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">50%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 130 of 260 pts</span></div><div class="sn">93 items — 19 removed before the sprint closed · 74 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>283 items</b> spent more than 5 days without moving; the worst sat <b>13.8 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>LL-Sprint 12 - 26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +19%</span>
-     <span class="sprintdates">Apr 27 &rarr; May 19</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">142</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+27</div><div class="n">final scope 169 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">82</div><div class="n">36 of 149 items · still open 87 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">58%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd13"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv" style="color:var(--warning)">44 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 18 items &middot; 31% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-Sprint 12-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">70%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 87 of 124 pts</span></div><div class="sn">37 items — 21 removed before the sprint closed · 16 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>91 items</b> spent more than 5 days without moving; the worst sat <b>13.9 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>LL-Sprint 13 - 26</h3>
-     <span class="badge badge-lg b-amber"><span class="d"></span>scope +2220%</span>
-     <span class="sprintdates">May 11 &rarr; May 26</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">5</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+111</div><div class="n">final scope 116 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">50</div><div class="n">18 of 87 items · still open 66 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">1000%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd14"></canvas></div>
-   
-   
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">63%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 81 of 129 pts</span></div><div class="sn">24 items — 4 removed before the sprint closed · 20 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>55 items</b> spent more than 5 days without moving; the worst sat <b>12.7 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 13-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +17%</span>
-     <span class="sprintdates">May 12 &rarr; May 26</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">252</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+42</div><div class="n">final scope 294 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">164</div><div class="n">74 of 350 items · still open 130 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">65%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd15"></canvas></div>
-   
-   
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">48%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 135 of 281 pts</span></div><div class="sn">59 items — 32 removed before the sprint closed · 27 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>236 items</b> spent more than 5 days without moving; the worst sat <b>7.0 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>LL-Sprint 14-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +43%</span>
-     <span class="sprintdates">May 26 &rarr; Jun 8</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">175</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+75</div><div class="n">final scope 250 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">50</div><div class="n">28 of 430 items · still open 200 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">29%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd16"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">3 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 1 items &middot; 2% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-Sprint 13-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">85%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 181 of 214 pts</span></div><div class="sn">191 items — 13 removed before the sprint closed · 178 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>376 items</b> spent more than 5 days without moving; the worst sat <b>12.8 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 14-26</h3>
-     <span class="badge badge-lg b-amber"><span class="d"></span>scope +118%</span>
-     <span class="sprintdates">May 27 &rarr; Jun 9</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">204</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+241</div><div class="n">final scope 445 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">107</div><div class="n">56 of 487 items · still open 338 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">52%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd17"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">8 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 3 items &middot; 4% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>LL-Sprint 14-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">80%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 357 of 444 pts</span></div><div class="sn">130 items — 36 removed before the sprint closed · 94 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>373 items</b> spent more than 5 days without moving; the worst sat <b>13.9 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>LL-Sprint 15-26</h3>
-     <span class="badge badge-lg b-amber"><span class="d"></span>scope +289%</span>
-     <span class="sprintdates">Jun 8 &rarr; Jun 25</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">156</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+451</div><div class="n">final scope 607 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">136</div><div class="n">58 of 606 items · still open 471 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">87%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd18"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv" style="color:var(--warning)">65 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 94 items &middot; 42% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-Sprint 14-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">70%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 313 of 446 pts</span></div><div class="sn">243 items — 7 removed before the sprint closed · 236 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>426 items</b> spent more than 5 days without moving; the worst sat <b>17.2 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
- <div class="cmpcard">
-   <div class="cmphead sprinthead">
-     <h3>Plans-Sprint 15-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +26%</span>
-     <span class="sprintdates">Jun 9 &rarr; Jun 22</span>
-   </div>
-   <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">325</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+86</div><div class="n">final scope 411 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">162</div><div class="n">67 of 486 items · still open 249 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">50%</div><div class="n">completed against day-1 scope</div></div>
-   </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd19"></canvas></div>
-   
-   <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">5 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 2 items &middot; 2% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>LL-Sprint 15-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">61%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 243 of 398 pts</span></div><div class="sn">82 items — 13 removed before the sprint closed · 69 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
-   <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
-   <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>343 items</b> spent more than 5 days without moving; the worst sat <b>12.7 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
-   
- </div>
  <div class="cmpcard">
    <div class="cmphead sprinthead">
      <h3>LL-Sprint 23-26</h3>
@@ -1053,10 +584,10 @@
      <div class="sh"><div class="k">Completed</div><div class="v">467</div><div class="n">123 of 594 items · still open 200 pts</div></div>
      <div class="sh"><div class="k">vs commitment</div><div class="v">96%</div><div class="n">completed against day-1 scope</div></div>
    </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd20"></canvas></div>
+   <div class="chartbox" style="height:310px"><canvas id="bd0"></canvas></div>
    
    <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">43 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 12 items &middot; 9% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-Sprint 22-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">30%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 197 of 646 pts</span></div><div class="sn">172 items — 14 removed before the sprint closed · 158 still open at close. The dotted line on the burndown is where the sprint would have stood if none of it had been taken out.</div></div>
+   <div class="spill"><div class="sk">Spillover</div><div class="sv">30%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 197 of 646 pts</span></div><div class="sn">172 items — 14 removed before the sprint closed · 158 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
    <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
    <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
    <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>354 items</b> spent more than 5 days without moving; the worst sat <b>13.9 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
@@ -1069,74 +600,79 @@
      <span class="sprintdates">Sep 29 &rarr; Oct 13</span>
    </div>
    <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">351</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+113</div><div class="n">final scope 464 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">247</div><div class="n">79 of 357 items · still open 217 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">70%</div><div class="n">completed against day-1 scope</div></div>
+     <div class="sh"><div class="k">Committed at start</div><div class="v">349</div><div class="n">story points in scope on day 1</div></div>
+     <div class="sh"><div class="k">Added during sprint</div><div class="v">+113</div><div class="n">final scope 462 points</div></div>
+     <div class="sh"><div class="k">Completed</div><div class="v">247</div><div class="n">79 of 356 items · still open 215 pts</div></div>
+     <div class="sh"><div class="k">vs commitment</div><div class="v">71%</div><div class="n">completed against day-1 scope</div></div>
    </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd21"></canvas></div>
+   <div class="chartbox" style="height:310px"><canvas id="bd1"></canvas></div>
    
    <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">10 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 3 items &middot; 3% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>LL-Sprint 23-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">44%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 204 of 461 pts</span></div><div class="sn">51 items — 35 removed before the sprint closed · 16 still open at close. The dotted line on the burndown is where the sprint would have stood if none of it had been taken out.</div></div>
+   <div class="spill"><div class="sk">Spillover</div><div class="sv">44%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 202 of 459 pts</span></div><div class="sn">50 items — 35 removed before the sprint closed · 15 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
    <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
    <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>168 items</b> spent more than 5 days without moving; the worst sat <b>10.8 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
+   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>167 items</b> spent more than 5 days without moving; the worst sat <b>10.8 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
    
  </div>
  <div class="cmpcard">
    <div class="cmphead sprinthead">
      <h3>LL-Sprint 24-26</h3>
-     <span class="badge badge-lg b-amber"><span class="d"></span>scope +113%</span>
+     <span class="badge badge-lg b-amber"><span class="d"></span>scope +114%</span>
      <span class="sprintdates">Oct 12 &rarr; Oct 26</span>
    </div>
    <div class="scrumgrid">
      <div class="sh"><div class="k">Committed at start</div><div class="v">234</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+264</div><div class="n">final scope 498 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">265</div><div class="n">105 of 594 items · still open 233 pts</div></div>
-     <div class="sh"><div class="k">Sprint elapsed</div><div class="v">Day 14</div><div class="n">of 14 — no verdict until it closes</div></div>
+     <div class="sh"><div class="k">Added during sprint</div><div class="v">+267</div><div class="n">final scope 501 points</div></div>
+     <div class="sh"><div class="k">Completed</div><div class="v">273</div><div class="n">109 of 597 items · still open 228 pts</div></div>
+     <div class="sh"><div class="k">vs commitment</div><div class="v">117%</div><div class="n">completed against day-1 scope</div></div>
    </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd22"></canvas></div>
+   <div class="chartbox" style="height:310px"><canvas id="bd2"></canvas></div>
    
    <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">6 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 5 items &middot; 3% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>Plans-Sprint 23-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Still open</div><div class="sv">221 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 171 items</span></div><div class="sn">Work in flight on day 14 of 14. Whatever is still open on Oct 26 becomes the spillover into the next sprint — not before.</div></div>
+   <div class="spill"><div class="sk">Spillover</div><div class="sv">44%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 216 of 487 pts</span></div><div class="sn">168 items — 8 removed before the sprint closed · 160 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
    <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
    <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>467 items</b> spent more than 5 days without moving; the worst sat <b>13.6 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
+   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>399 items</b> spent more than 5 days without moving; the worst sat <b>13.9 days</b> in <i>To Do</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
    
  </div>
  <div class="cmpcard">
    <div class="cmphead sprinthead">
      <h3>Plans-Sprint 24-26</h3>
-     <span class="badge badge-lg b-green"><span class="d"></span>scope +26%</span>
+     <span class="badge badge-lg b-green"><span class="d"></span>scope +27%</span>
      <span class="sprintdates">Oct 13 &rarr; Oct 26</span>
    </div>
    <div class="scrumgrid">
-     <div class="sh"><div class="k">Committed at start</div><div class="v">247</div><div class="n">story points in scope on day 1</div></div>
-     <div class="sh"><div class="k">Added during sprint</div><div class="v">+65</div><div class="n">final scope 312 points</div></div>
-     <div class="sh"><div class="k">Completed</div><div class="v">221</div><div class="n">70 of 254 items · still open 91 pts</div></div>
-     <div class="sh"><div class="k">vs commitment</div><div class="v">89%</div><div class="n">completed against day-1 scope</div></div>
+     <div class="sh"><div class="k">Committed at start</div><div class="v">245</div><div class="n">story points in scope on day 1</div></div>
+     <div class="sh"><div class="k">Added during sprint</div><div class="v">+65</div><div class="n">final scope 310 points</div></div>
+     <div class="sh"><div class="k">Completed</div><div class="v">229</div><div class="n">72 of 251 items · still open 81 pts</div></div>
+     <div class="sh"><div class="k">vs commitment</div><div class="v">93%</div><div class="n">completed against day-1 scope</div></div>
    </div>
-   <div class="chartbox" style="height:310px"><canvas id="bd23"></canvas></div>
+   <div class="chartbox" style="height:310px"><canvas id="bd3"></canvas></div>
    
    <div class="spill"><div class="sk">Inherited from the sprint before</div><div class="sv">1 pts<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 1 items &middot; 0% of the day-1 commitment</span></div><div class="sn">Work that was already open in <b>LL-Sprint 24-26</b> and came in with the commitment. It is capacity that was spent before the sprint started.</div></div>
-   <div class="spill"><div class="sk">Spillover</div><div class="sv">32%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 98 of 309 pts</span></div><div class="sn">37 items — 16 removed before the sprint closed · 21 still open at close. The dotted line on the burndown is where the sprint would have stood if none of it had been taken out.</div></div>
+   <div class="spill"><div class="sk">Spillover</div><div class="sv">29%<span style="font-size:14px;color:var(--wf-muted);font-weight:600"> &middot; 88 of 307 pts</span></div><div class="sn">34 items — 17 removed before the sprint closed · 17 still open at close. The burndown drops when this work leaves the sprint, not only when it is finished.</div></div>
    <div class="goalbox"><b>No goal recorded in Jira for this sprint.</b> Without one there is nothing to measure delivery against beyond the point count, and no way to say whether the sprint achieved what it set out to do.</div>
    <div class="sprintsec"><div class="sk">Time in status</div><div class="goalbox">Not enough status history in this sprint to measure it.</div></div>
-   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>168 items</b> spent more than 5 days without moving; the worst sat <b>10.5 days</b> in <i>Done</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
+   <div class="sprintsec"><div class="sk">Stalled items</div><div class="goalbox"><b>128 items</b> spent more than 5 days without moving; the worst sat <b>9.7 days</b> in <i>Done</i>. Neither team uses the <i>Flagged</i> field or a <i>Blocked</i> status, so this is the closest measurable read on what was stuck.</div></div>
    
  </div>
- 
+ <div class="sectit" style="font-size:20px;margin-top:28px">Committed vs Completed — R9.09</div>
+ <div class="secsub">Day-1 commitment against what was added mid-sprint and what actually closed.</div>
+ <div class="tscroll"><table class="exec">
+  <thead><tr><th>Sprint</th><th>Dates</th><th>Committed</th><th>Added</th><th>Completed</th><th>Left sprint</th><th>vs commit</th><th>Added: reactive</th><th>Added: plannable</th><th>% reactive</th></tr></thead>
+  <tbody><tr><td>LL-Sprint 23-26</td><td>Sep 28 - Oct 12</td><td>487</td><td>+180</td><td>467</td><td class="neg">197</td><td>96%</td><td>0</td><td class="neg">78</td><td>0%</td></tr><tr><td>Plans-Sprint 23-26</td><td>Sep 29 - Oct 13</td><td>349</td><td>+113</td><td>247</td><td class="neg">202</td><td>71%</td><td>0</td><td class="neg">40</td><td>0%</td></tr><tr><td>LL-Sprint 24-26</td><td>Oct 12 - Oct 26</td><td>234</td><td>+267</td><td>273</td><td class="neg">216</td><td>117%</td><td>0</td><td class="neg">102</td><td>0%</td></tr><tr><td>Plans-Sprint 24-26</td><td>Oct 13 - Oct 26</td><td>245</td><td>+65</td><td>229</td><td class="neg">88</td><td>93%</td><td>0</td><td class="neg">40</td><td>0%</td></tr></tbody>
+ </table></div>
 </section>
 <section class="panel" id="cmp">
   <div class="sectit">Comparatives</div>
   <div class="secsub">The full series from the baseline, so the trend shows and not just the month. Same order as the Flow tab: what came out, how long it took, where that time went, and how much of it was reactive.</div>
   <div class="cmpcard">
-    <div class="cmphead"><h3><span class="st-dot" style="background:var(--warning);width:13px;height:13px"></span> Throughput</h3><span class="badge b-amber"><span class="d"></span>Warning</span></div>
+    <div class="cmphead"><h3><span class="st-dot" style="background:var(--healthy);width:13px;height:13px"></span> Throughput</h3><span class="badge b-green"><span class="d"></span>Healthy</span></div>
     <div class="cmpgrid">
       <div class="chartbox" style="height:250px"><canvas id="cThru"></canvas></div>
       <div class="readout">
-        <div class="line" style="border-color:var(--warning)"><span class="vs-tag">vs R9.05 (63/sprint)</span><br><b>+722.2%</b> in items &mdash; but +170% once item size and team size are taken out. Most of the gap is a bigger team closing smaller items.</div>
-        <div class="line" style="border-color:var(--warning)"><span class="vs-tag">vs the band (63/sprint)</span><br><b>+722.2%</b> — the band is the team's own range over the last three releases, per sprint.</div>
+        <div class="line" style="border-color:var(--healthy)"><span class="vs-tag">vs R9.09 (130/sprint)</span><br><b>+298.5%</b> in items &mdash; but +0% once item size and team size are taken out. Most of the gap is a bigger team closing smaller items.</div>
+        <div class="line" style="border-color:var(--healthy)"><span class="vs-tag">vs the band (83/sprint)</span><br><b>+524.1%</b> — the band is the team's own range over the last three releases, per sprint.</div>
         <div class="line"><span class="vs-tag">Reading</span><br>Throughput scales with headcount, so a fixed baseline cannot survive a team change. The status on this page comes from the expected range below, not from the distance to Q1.</div>
       </div>
     </div>
@@ -1157,8 +693,8 @@
     <div class="cmpgrid">
       <div class="chartbox" style="height:250px"><canvas id="cUnp"></canvas></div>
       <div class="readout">
-        <div class="line"><span class="vs-tag">The series</span><br>R9.00 no data &rarr; R9.01 no data &rarr; R9.02 no data &rarr; R9.03 no data &rarr; R9.04 no data &rarr; R9.05 no data &rarr; R9.09 no data.</div>
-        <div class="line" style="border-color:var(--warning)"><span class="vs-tag">Careful</span><br>The break at R9.00, R9.01, R9.02, R9.03, R9.04, R9.05 and R9.09 is not a drop to zero, it is missing labeling. The line is interrupted on purpose.</div>
+        <div class="line"><span class="vs-tag">The series</span><br>R9.00 no data &rarr; R9.01 no data &rarr; R9.02 no data &rarr; R9.03 no data &rarr; R9.04 no data &rarr; R9.05 no data &rarr; R9.09 no data &rarr; R9.10 no data.</div>
+        <div class="line" style="border-color:var(--warning)"><span class="vs-tag">Careful</span><br>The break at R9.00, R9.01, R9.02, R9.03, R9.04, R9.05, R9.09 and R9.10 is not a drop to zero, it is missing labeling. The line is interrupted on purpose.</div>
       </div>
     </div>
   </div>
@@ -1168,13 +704,13 @@
  <div class="secsub">Every sprint on the board this year.</div>
  <div class="tscroll"><table class="exec">
   <thead><tr><th>Sprint</th><th>Dates</th><th>Committed</th><th>Added</th><th>Completed</th><th>Left sprint</th><th>vs commit</th><th>Added: reactive</th><th>Added: plannable</th><th>% reactive</th></tr></thead>
-  <tbody><tr><td>Plans-R9.00 S1</td><td>Jan 5 - Jan 19</td><td>110</td><td>+27</td><td>99</td><td class="neg">37</td><td>90%</td><td>0</td><td class="neg">19</td><td>0%</td></tr><tr><td>Plans-R9.00 S2</td><td>Jan 19 - Feb 2</td><td>92</td><td>+37</td><td>100</td><td class="neg">30</td><td>109%</td><td>0</td><td class="neg">21</td><td>0%</td></tr><tr><td>Plans-Sprint 6-26</td><td>Feb 2 - Feb 17</td><td>108</td><td>+21</td><td>95</td><td class="neg">27</td><td>88%</td><td>0</td><td class="neg">13</td><td>0%</td></tr><tr><td>Plans-Sprint 7-26</td><td>Feb 17 - Mar 2</td><td>95</td><td>+46</td><td>74</td><td class="neg">59</td><td>78%</td><td>0</td><td class="neg">22</td><td>0%</td></tr><tr><td>Plans-Sprint 8-26</td><td>Mar 3 - Mar 16</td><td>127</td><td>+14</td><td>78</td><td class="neg">61</td><td>61%</td><td>0</td><td class="neg">10</td><td>0%</td></tr><tr><td>LL-Sprint 8-26</td><td>Mar 3 - Mar 16</td><td>7</td><td>+5</td><td>0</td><td class="neg">8</td><td>0%</td><td>0</td><td class="neg">1</td><td>0%</td></tr><tr><td>LL-Sprint 9-26</td><td>Mar 16 - Mar 30</td><td>8</td><td>+0</td><td>0</td><td class="neg">13</td><td>0%</td><td class="flat">no data</td><td class="flat">no data</td><td class="flat">—</td></tr><tr><td>Plans-Sprint 9-26</td><td>Mar 16 - Mar 30</td><td>231</td><td>+66</td><td>91</td><td class="neg">166</td><td>39%</td><td>0</td><td class="neg">44</td><td>0%</td></tr><tr><td>LL-Sprint 10-26</td><td>Mar 30 - Apr 13</td><td>10</td><td>+0</td><td>0</td><td class="neg">14</td><td>0%</td><td>0</td><td class="neg">1</td><td>0%</td></tr><tr><td>Plans-Sprint 10-26</td><td>Mar 31 - Apr 13</td><td>445</td><td>+44</td><td>270</td><td class="neg">200</td><td>61%</td><td>0</td><td class="neg">20</td><td>0%</td></tr><tr><td>LL-Sprint 11-26</td><td>Apr 13 - Apr 27</td><td>71</td><td>+23</td><td>85</td><td class="neg">30</td><td>120%</td><td>0</td><td class="neg">10</td><td>0%</td></tr><tr><td>Plans-Sprint 11-26</td><td>Apr 13 - Apr 27</td><td>220</td><td>+41</td><td>131</td><td class="neg">124</td><td>60%</td><td>0</td><td class="neg">19</td><td>0%</td></tr><tr><td>Plans-Sprint 12-26</td><td>Apr 27 - May 11</td><td>275</td><td>+30</td><td>162</td><td class="neg">130</td><td>59%</td><td>0</td><td class="neg">19</td><td>0%</td></tr><tr><td>LL-Sprint 12 - 26</td><td>Apr 27 - May 19</td><td>142</td><td>+27</td><td>82</td><td class="neg">87</td><td>58%</td><td>0</td><td class="neg">15</td><td>0%</td></tr><tr><td>LL-Sprint 13 - 26</td><td>May 11 - May 26</td><td>5</td><td>+111</td><td>50</td><td class="neg">81</td><td>1000%</td><td>0</td><td class="neg">33</td><td>0%</td></tr><tr><td>Plans-Sprint 13-26</td><td>May 12 - May 26</td><td>252</td><td>+42</td><td>164</td><td class="neg">135</td><td>65%</td><td>0</td><td class="neg">22</td><td>0%</td></tr><tr><td>LL-Sprint 14-26</td><td>May 26 - Jun 8</td><td>175</td><td>+75</td><td>50</td><td class="neg">181</td><td>29%</td><td>0</td><td class="neg">28</td><td>0%</td></tr><tr><td>Plans-Sprint 14-26</td><td>May 27 - Jun 9</td><td>204</td><td>+241</td><td>107</td><td class="neg">357</td><td>52%</td><td>0</td><td class="neg">88</td><td>0%</td></tr><tr><td>LL-Sprint 15-26</td><td>Jun 8 - Jun 25</td><td>156</td><td>+451</td><td>136</td><td class="neg">313</td><td>87%</td><td>0</td><td class="neg">117</td><td>0%</td></tr><tr><td>Plans-Sprint 15-26</td><td>Jun 9 - Jun 22</td><td>325</td><td>+86</td><td>162</td><td class="neg">243</td><td>50%</td><td>0</td><td class="neg">34</td><td>0%</td></tr><tr><td>LL-Sprint 23-26</td><td>Sep 28 - Oct 12</td><td>487</td><td>+180</td><td>467</td><td class="neg">197</td><td>96%</td><td>0</td><td class="neg">78</td><td>0%</td></tr><tr><td>Plans-Sprint 23-26</td><td>Sep 29 - Oct 13</td><td>351</td><td>+113</td><td>247</td><td class="neg">204</td><td>70%</td><td>0</td><td class="neg">40</td><td>0%</td></tr><tr class="runrow"><td>LL-Sprint 24-26 <span class="runtag">day 14 of 14</span></td><td>Oct 12 - Oct 26</td><td>234</td><td>+264</td><td>265</td><td class="flat">&mdash;</td><td class="flat">still running</td><td>0</td><td class="neg">101</td><td>0%</td></tr><tr><td>Plans-Sprint 24-26</td><td>Oct 13 - Oct 26</td><td>247</td><td>+65</td><td>221</td><td class="neg">98</td><td>89%</td><td>0</td><td class="neg">40</td><td>0%</td></tr></tbody>
+  <tbody><tr><td>Plans-R9.00 S1</td><td>Jan 5 - Jan 19</td><td>110</td><td>+27</td><td>99</td><td class="neg">37</td><td>90%</td><td>0</td><td class="neg">19</td><td>0%</td></tr><tr><td>Plans-R9.00 S2</td><td>Jan 19 - Feb 2</td><td>92</td><td>+37</td><td>100</td><td class="neg">30</td><td>109%</td><td>0</td><td class="neg">21</td><td>0%</td></tr><tr><td>Plans-Sprint 6-26</td><td>Feb 2 - Feb 17</td><td>108</td><td>+21</td><td>95</td><td class="neg">27</td><td>88%</td><td>0</td><td class="neg">13</td><td>0%</td></tr><tr><td>Plans-Sprint 7-26</td><td>Feb 17 - Mar 2</td><td>95</td><td>+46</td><td>74</td><td class="neg">59</td><td>78%</td><td>0</td><td class="neg">22</td><td>0%</td></tr><tr><td>Plans-Sprint 8-26</td><td>Mar 3 - Mar 16</td><td>127</td><td>+14</td><td>78</td><td class="neg">61</td><td>61%</td><td>0</td><td class="neg">10</td><td>0%</td></tr><tr><td>LL-Sprint 8-26</td><td>Mar 3 - Mar 16</td><td>7</td><td>+5</td><td>0</td><td class="neg">8</td><td>0%</td><td>0</td><td class="neg">1</td><td>0%</td></tr><tr><td>LL-Sprint 9-26</td><td>Mar 16 - Mar 30</td><td>8</td><td>+0</td><td>0</td><td class="neg">13</td><td>0%</td><td class="flat">no data</td><td class="flat">no data</td><td class="flat">—</td></tr><tr><td>Plans-Sprint 9-26</td><td>Mar 16 - Mar 30</td><td>231</td><td>+66</td><td>91</td><td class="neg">166</td><td>39%</td><td>0</td><td class="neg">44</td><td>0%</td></tr><tr><td>LL-Sprint 10-26</td><td>Mar 30 - Apr 13</td><td>10</td><td>+0</td><td>0</td><td class="neg">14</td><td>0%</td><td>0</td><td class="neg">1</td><td>0%</td></tr><tr><td>Plans-Sprint 10-26</td><td>Mar 31 - Apr 13</td><td>445</td><td>+44</td><td>270</td><td class="neg">200</td><td>61%</td><td>0</td><td class="neg">20</td><td>0%</td></tr><tr><td>LL-Sprint 11-26</td><td>Apr 13 - Apr 27</td><td>71</td><td>+23</td><td>85</td><td class="neg">30</td><td>120%</td><td>0</td><td class="neg">10</td><td>0%</td></tr><tr><td>Plans-Sprint 11-26</td><td>Apr 13 - Apr 27</td><td>220</td><td>+41</td><td>131</td><td class="neg">124</td><td>60%</td><td>0</td><td class="neg">19</td><td>0%</td></tr><tr><td>Plans-Sprint 12-26</td><td>Apr 27 - May 11</td><td>275</td><td>+30</td><td>162</td><td class="neg">130</td><td>59%</td><td>0</td><td class="neg">19</td><td>0%</td></tr><tr><td>LL-Sprint 12 - 26</td><td>Apr 27 - May 19</td><td>142</td><td>+27</td><td>82</td><td class="neg">87</td><td>58%</td><td>0</td><td class="neg">15</td><td>0%</td></tr><tr><td>LL-Sprint 13 - 26</td><td>May 11 - May 26</td><td>5</td><td>+111</td><td>50</td><td class="neg">81</td><td>1000%</td><td>0</td><td class="neg">33</td><td>0%</td></tr><tr><td>Plans-Sprint 13-26</td><td>May 12 - May 26</td><td>252</td><td>+42</td><td>164</td><td class="neg">135</td><td>65%</td><td>0</td><td class="neg">22</td><td>0%</td></tr><tr><td>LL-Sprint 14-26</td><td>May 26 - Jun 8</td><td>175</td><td>+75</td><td>50</td><td class="neg">181</td><td>29%</td><td>0</td><td class="neg">28</td><td>0%</td></tr><tr><td>Plans-Sprint 14-26</td><td>May 27 - Jun 9</td><td>204</td><td>+241</td><td>107</td><td class="neg">357</td><td>52%</td><td>0</td><td class="neg">88</td><td>0%</td></tr><tr><td>LL-Sprint 15-26</td><td>Jun 8 - Jun 25</td><td>156</td><td>+451</td><td>136</td><td class="neg">313</td><td>87%</td><td>0</td><td class="neg">117</td><td>0%</td></tr><tr><td>Plans-Sprint 15-26</td><td>Jun 9 - Jun 22</td><td>325</td><td>+86</td><td>162</td><td class="neg">243</td><td>50%</td><td>0</td><td class="neg">34</td><td>0%</td></tr><tr><td>LL-Sprint 23-26</td><td>Sep 28 - Oct 12</td><td>487</td><td>+180</td><td>467</td><td class="neg">197</td><td>96%</td><td>0</td><td class="neg">78</td><td>0%</td></tr><tr><td>Plans-Sprint 23-26</td><td>Sep 29 - Oct 13</td><td>349</td><td>+113</td><td>247</td><td class="neg">202</td><td>71%</td><td>0</td><td class="neg">40</td><td>0%</td></tr><tr><td>LL-Sprint 24-26</td><td>Oct 12 - Oct 26</td><td>234</td><td>+267</td><td>273</td><td class="neg">216</td><td>117%</td><td>0</td><td class="neg">102</td><td>0%</td></tr><tr><td>Plans-Sprint 24-26</td><td>Oct 13 - Oct 26</td><td>245</td><td>+65</td><td>229</td><td class="neg">88</td><td>93%</td><td>0</td><td class="neg">40</td><td>0%</td></tr><tr><td>LL-Sprint 25-26</td><td>Oct 26 - Nov 9</td><td>219</td><td>+0</td><td>5</td><td class="neg">202</td><td>2%</td><td class="flat">no data</td><td class="flat">no data</td><td class="flat">—</td></tr><tr class="runrow"><td>Plans-Sprint 25-26 <span class="runtag">day 1 of 13</span></td><td>Oct 26 - Nov 8</td><td>70</td><td>+0</td><td>8</td><td class="flat">&mdash;</td><td class="flat">still running</td><td class="flat">no data</td><td class="flat">no data</td><td class="flat">—</td></tr></tbody>
  </table></div>
  <div class="fnote">Carry-over between sprints is close to zero, which at first looks like exceptional planning. The added column explains it: little carries over because little is committed up front — the sprint is filled in as it runs. For a service team part of that is unavoidable, but the reactive split shows most of the filling is plannable work. Two separate conversations for the retro: how much service load to reserve capacity for, and why plannable work is not on the board on day 1.</div> <div class="cmpcard">
   <div class="cmphead"><h3>Velocity per sprint</h3></div>
   <div class="secsub" style="margin-bottom:8px">Points completed against the day-1 commitment, and against the documented baseline of 0 (range 0-0).</div>
   <div class="chartbox" style="height:300px"><canvas id="cVel"></canvas></div>
-  <div class="infopanel ip-red">The average of the last 5 closed sprints is <b>246.6 points</b>, against a baseline of 0. Same gap Throughput shows: the reference describes the 4-dev team, not this one. But note the commitment bars — the team consistently delivers far more than it commits to, which makes the commitment, not the delivery, the number to fix first.</div>
+  <div class="infopanel ip-red">The average of the last 5 closed sprints is <b>244.2 points</b>, against a baseline of 0. Same gap Throughput shows: the reference describes the 4-dev team, not this one. But note the commitment bars — the team consistently delivers far more than it commits to, which makes the commitment, not the delivery, the number to fix first.</div>
  </div>
 
  <div class="cmpcard"><div class="cmphead"><h3>Trend, expected range and consistency</h3></div>
@@ -1182,9 +718,9 @@
   <div class="cmpgrid">
    <div class="chartbox" style="height:280px"><canvas id="cBand"></canvas></div>
    <div class="readout">
-    <div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">Trend +43%</span><br>Average of the last three months against the three before them: 63 vs 44 items. Team went from 11.7 to 20.0 people over the same stretch, so read the two together.</div>
-    <div class="line" style="border-color:var(--healthy)"><span class="vs-tag">Expected range 41 - 85</span><br>Built from the team's own month-to-month movement, not from a target. A month outside it means something changed; a month inside is normal variation.</div>
-    <div class="line" style="border-color:var(--warning)"><span class="vs-tag">Consistency 13%</span><br>Throughput moves <b>8.2 items</b> from one month to the next on average, 13% of the level.</div>
+    <div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">Trend +70%</span><br>Average of the last three months against the three before them: 83 vs 49 items. Team went from 12.0 to 22.7 people over the same stretch, so read the two together.</div>
+    <div class="line" style="border-color:var(--healthy)"><span class="vs-tag">Expected range 0 - 179</span><br>Built from the team's own month-to-month movement, not from a target. A month outside it means something changed; a month inside is normal variation.</div>
+    <div class="line" style="border-color:var(--warning)"><span class="vs-tag">Consistency 43%</span><br>Throughput moves <b>35.9 items</b> from one month to the next on average, 43% of the level.</div>
    </div>
   </div>
   <div class="infopanel ip-amber">The range re-centres only after a signal has been explained — a team change, a workflow change, or a change in how work arrives. It does not drift quietly along with the numbers.</div>
@@ -1194,16 +730,16 @@
   <div class="cmpgrid">
    <div class="chartbox" style="height:280px"><canvas id="cSpill"></canvas></div>
    <div class="readout">
-    <div class="line" style="border-color:var(--risk)"><span class="vs-tag">52% of everything committed</span><br><b>3016 of 5820 points</b> across the series did not finish in the sprint they were in. That is a third of the work, every sprint, and it is invisible in the burndown.</div>
-    <div class="line" style="border-color:var(--warning)"><span class="vs-tag">21% of it is removed, not carried</span><br>PLANS takes work <i>out</i> of the sprint before closing it rather than letting it show as incomplete. That is why every sprint reads 100% complete — the sprint empties before it closes.</div>
+    <div class="line" style="border-color:var(--risk)"><span class="vs-tag">54% of everything committed</span><br><b>3262 of 6087 points</b> across the series did not finish in the sprint they were in. That is a third of the work, every sprint, and it is invisible in the burndown.</div>
+    <div class="line" style="border-color:var(--warning)"><span class="vs-tag">19% of it is removed, not carried</span><br>PLANS takes work <i>out</i> of the sprint before closing it rather than letting it show as incomplete. That is why every sprint reads 100% complete — the sprint empties before it closes.</div>
     <div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">Read it against the commitment, not the burndown</span><br>A sprint that commits to 45 points, grows to 117, closes 69 and drops 48 has not delivered 100% of anything. The honest pair is day-1 commitment and spillover rate, side by side.</div>
    </div>
   </div>
   
   <div class="infopanel ip-amber">There is no sprint goal recorded on any of these sprints, so spillover cannot be read against what the sprint set out to achieve — only against the points. Recording a goal is what would make the difference between "we dropped 48 points" and "we dropped 48 points and still got there".</div>
  </div>
- <div class="cmpcard"><div class="cmphead"><h3>Spillover, both ends &mdash; what a sprint takes in and what it hands on</h3></div><div class="secsub" style="margin-bottom:10px">Inherited is work already open in the previous sprint that arrived inside the day-1 commitment. It is capacity spent before the sprint began.</div><div class="cmpgrid"><div class="chartbox" style="height:280px"><canvas id="cRecv"></canvas></div><div class="readout"><div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">9% of everything committed was inherited</span><br><b>388 of 4377 points</b> across the series were already open when the sprint started. Planning that treats the whole commitment as new work is planning with room the team does not have.</div><div class="line" style="border-color:var(--warning)"><span class="vs-tag">388 in, 3016 out</span><br>Over the series the team hands on more than it takes in, so the carry-over is still growing.</div><div class="line" style="border-color:var(--risk)"><span class="vs-tag">Heaviest: Plans-Sprint 12-26</span><br>Started with <b>99 points</b> already open, inherited from Plans-Sprint 11-26.</div></div></div><div class="infopanel ip-amber">Inherited work is counted at day 1 only. Something pulled in mid-sprint from an older sprint is scope change, not inheritance, and shows in the Added column instead.</div></div>
- <div class="insightbox" style="margin-bottom:24px"><div class="k">What the burndowns show</div><h2>Scope grows <b>1.46×</b> between day 1 and the end of a sprint, and most of what arrives is not reactive work.</h2><p>A service team cannot plan every request: urgent work lands mid-sprint, which is exactly what Planned vs Unplanned exists to measure, so some scope growth is expected. The question is how much of it was genuinely unplannable. Over the <b>23</b> sprints where the <i>Unplanned</i> label was still being applied, reactive work accounts for <span class="stat">0% to 0%</span> of everything added after day 1, with a median of <b>0%</b>. The rest could have been on the board from the start.</p></div>
+ <div class="cmpcard"><div class="cmphead"><h3>Spillover, both ends &mdash; what a sprint takes in and what it hands on</h3></div><div class="secsub" style="margin-bottom:10px">Inherited is work already open in the previous sprint that arrived inside the day-1 commitment. It is capacity spent before the sprint began.</div><div class="cmpgrid"><div class="chartbox" style="height:280px"><canvas id="cRecv"></canvas></div><div class="readout"><div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">9% of everything committed was inherited</span><br><b>397 of 4662 points</b> across the series were already open when the sprint started. Planning that treats the whole commitment as new work is planning with room the team does not have.</div><div class="line" style="border-color:var(--warning)"><span class="vs-tag">397 in, 3262 out</span><br>Over the series the team hands on more than it takes in, so the carry-over is still growing.</div><div class="line" style="border-color:var(--risk)"><span class="vs-tag">Heaviest: Plans-Sprint 12-26</span><br>Started with <b>99 points</b> already open, inherited from Plans-Sprint 11-26.</div></div></div><div class="infopanel ip-amber">Inherited work is counted at day 1 only. Something pulled in mid-sprint from an older sprint is scope change, not inheritance, and shows in the Added column instead.</div></div>
+ <div class="insightbox" style="margin-bottom:24px"><div class="k">What the burndowns show</div><h2>Scope grows <b>1.43×</b> between day 1 and the end of a sprint, and most of what arrives is not reactive work.</h2><p>A service team cannot plan every request: urgent work lands mid-sprint, which is exactly what Planned vs Unplanned exists to measure, so some scope growth is expected. The question is how much of it was genuinely unplannable. Over the <b>23</b> sprints where the <i>Unplanned</i> label was still being applied, reactive work accounts for <span class="stat">0% to 0%</span> of everything added after day 1, with a median of <b>0%</b>. The rest could have been on the board from the start.</p></div>
  <div class="cmpcard">
   <div class="cmphead"><h3>Where the mid-sprint work comes from</h3></div>
   <div class="cmpgrid">
@@ -1222,7 +758,7 @@
 <section class="panel" id="act">
 <div class="sectit">Findings &amp; retro</div>
 <div class="secsub">Each finding below is a rule over the series, not a note written for this page. It appears when it becomes true, carries the release it first became true in, and disappears when the team fixes it. Evaluated as of R9.09, so this page says what was true then.</div>
-<div class="findkey"><span><i class="fk p-red"></i><b>Risk</b> &mdash; needs a decision now</span><span><i class="fk p-amber"></i><b>Action</b> &mdash; someone has to do something</span><span><i class="fk p-blue"></i><b>Discuss</b> &mdash; bring it to the team; no owner yet</span><span><i class="fk p-green"></i><b>Cleared</b> &mdash; was true earlier in the series, is not any more</span></div><div class="act"><div class="pri p-red"></div><div class="inner"><div class="atop"><h4>A third of committed work never finishes in its sprint</h4><span class="pill pill-red">Risk</span></div><p>Every sprint reads as complete because the work is taken out before the sprint closes, not because it was done. The burndown cannot show this and the commitment number cannot either.</p><div class="owner" style="font-weight:400">Points that left the sprint over every point it held: <b>38%</b>.</div><div class="owner">first true in R9.01 · 6 releases running</div></div></div><div class="act"><div class="pri p-amber"></div><div class="inner"><div class="atop"><h4>Reactive work cannot be measured at all</h4><span class="pill pill-amber">Action</span></div><p>Planned against unplanned is the one metric a service team cannot do without, and it is dark. Publishing 0% would invent an improvement nobody earned, so the charts break the line instead.</p><div class="owner" style="font-weight:400">No item in <b>R9.09</b> carries the Unplanned label or the Urgent Task type.</div><div class="owner">first true in R9.00 · 7 releases running</div></div></div><div class="act"><div class="pri p-amber"></div><div class="inner"><div class="atop"><h4>Work closes without ever entering development</h4><span class="pill pill-amber">Action</span></div><p>Either the work was genuinely trivial, or the board is not being moved. The two have very different consequences, and cycle time is computed over what is left either way.</p><div class="owner" style="font-weight:400"><b>132 of 518</b> closed items (25%) recorded no transition into <i>In Development</i>, so cycle time is computed over the other 386.</div><div class="owner">first true in R9.02 · 5 releases running</div></div></div><div class="act"><div class="pri p-blue"></div><div class="inner"><div class="atop"><h4>The team is smaller than the baselines were set with</h4><span class="pill pill-blue">Discuss</span></div><p>Every fixed baseline on these pages was set with a different team. This is why the status comes from the team’s own expected range rather than from the distance to a number somebody wrote down once.</p><div class="owner" style="font-weight:400">People closing work went from <b>24</b> in R9.05 to <b>23</b> in R9.09.</div><div class="owner">first true in R9.09</div></div></div><div class="act"><div class="pri p-green"></div><div class="inner"><div class="atop"><h4>Scope roughly doubles after day 1</h4><span class="pill pill-green">Cleared</span></div><p>For a service team some of this is unavoidable: urgent requests land mid-sprint and cannot be planned. The question the split answers is how much of it was genuinely unplannable.</p><div class="owner">true through R9.05, gone by R9.09</div></div></div><div class="act"><div class="pri p-green"></div><div class="inner"><div class="atop"><h4>The cycle-time tail is pulling away from the median</h4><span class="pill pill-green">Cleared</span></div><p>The middle of the work flows fine. A few items sit for weeks, and only the average sees them, which is why a target on the average alone fires for a reason nobody can act on.</p><div class="owner">true through R9.03, gone by R9.04</div></div></div>
+<div class="findkey"><span><i class="fk p-red"></i><b>Risk</b> &mdash; needs a decision now</span><span><i class="fk p-amber"></i><b>Action</b> &mdash; someone has to do something</span><span><i class="fk p-blue"></i><b>Discuss</b> &mdash; bring it to the team; no owner yet</span><span><i class="fk p-green"></i><b>Cleared</b> &mdash; was true earlier in the series, is not any more</span></div><div class="act"><div class="pri p-red"></div><div class="inner"><div class="atop"><h4>A third of committed work never finishes in its sprint</h4><span class="pill pill-red">Risk</span></div><p>Every sprint reads as complete because the work is taken out before the sprint closes, not because it was done. The burndown cannot show this and the commitment number cannot either.</p><div class="owner" style="font-weight:400">Points that left the sprint over every point it held: <b>37%</b>.</div><div class="owner">first true in R9.01 · 6 releases running</div></div></div><div class="act"><div class="pri p-amber"></div><div class="inner"><div class="atop"><h4>Reactive work cannot be measured at all</h4><span class="pill pill-amber">Action</span></div><p>Planned against unplanned is the one metric a service team cannot do without, and it is dark. Publishing 0% would invent an improvement nobody earned, so the charts break the line instead.</p><div class="owner" style="font-weight:400">No item in <b>R9.09</b> carries the Unplanned label or the Urgent Task type.</div><div class="owner">first true in R9.00 · 7 releases running</div></div></div><div class="act"><div class="pri p-amber"></div><div class="inner"><div class="atop"><h4>Work closes without ever entering development</h4><span class="pill pill-amber">Action</span></div><p>Either the work was genuinely trivial, or the board is not being moved. The two have very different consequences, and cycle time is computed over what is left either way.</p><div class="owner" style="font-weight:400"><b>132 of 518</b> closed items (25%) recorded no transition into <i>In Development</i>, so cycle time is computed over the other 386.</div><div class="owner">first true in R9.02 · 5 releases running</div></div></div><div class="act"><div class="pri p-blue"></div><div class="inner"><div class="atop"><h4>The team is smaller than the baselines were set with</h4><span class="pill pill-blue">Discuss</span></div><p>Every fixed baseline on these pages was set with a different team. This is why the status comes from the team’s own expected range rather than from the distance to a number somebody wrote down once.</p><div class="owner" style="font-weight:400">People closing work went from <b>24</b> in R9.05 to <b>23</b> in R9.09.</div><div class="owner">first true in R9.09</div></div></div><div class="act"><div class="pri p-green"></div><div class="inner"><div class="atop"><h4>Scope roughly doubles after day 1</h4><span class="pill pill-green">Cleared</span></div><p>For a service team some of this is unavoidable: urgent requests land mid-sprint and cannot be planned. The question the split answers is how much of it was genuinely unplannable.</p><div class="owner">true through R9.05, gone by R9.09</div></div></div><div class="act"><div class="pri p-green"></div><div class="inner"><div class="atop"><h4>The cycle-time tail is pulling away from the median</h4><span class="pill pill-green">Cleared</span></div><p>The middle of the work flows fine. A few items sit for weeks, and only the average sees them, which is why a target on the average alone fires for a reason nobody can act on.</p><div class="owner">true through R9.03, gone by R9.04</div></div></div>
 <div class="sectit" style="font-size:20px;margin-top:28px">For the retrospective</div><div class="secsub">One question per finding above. When a finding clears, its question stops being asked.</div><div class="retro"><h4>Questions for the team</h4><ul><li>Do we close at 100% because we commit to less, or because work leaves the sprint before anyone counts it?</li><li>What would make the Unplanned label get applied on its own, without depending on somebody remembering?</li><li>Of the items that closed without entering development, how many were real work that skipped the board?</li><li>With the team we have today, how many deliveries a period and how many points a sprint are a realistic commitment?</li></ul></div>
 </section></div></main>
 <footer>Plans Performance Reports · Plans · Wellfit</footer>
@@ -1274,28 +810,28 @@ new Chart(document.getElementById('donut'),{type:'doughnut',
  data:{labels:['Cerrados',"Won't Do"],datasets:[{data:[518,0],backgroundColor:[BLUE,GREY],borderColor:'#fff',borderWidth:3}]},
  options:{cutout:'68%',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}}}});
 const thrRef={id:'thrRef',afterDraw(c){const{ctx,chartArea:{left,right},scales:{y}}=c;
- [{v:63,t:'Q1 63',col:BLUED},{v:63,t:'Q2 63',col:AMBER}].forEach(r=>{
+ [{v:130,t:'Q1 130',col:BLUED},{v:83,t:'Q2 83',col:AMBER}].forEach(r=>{
   const yp=y.getPixelForValue(r.v);ctx.save();ctx.strokeStyle=r.col;ctx.lineWidth=1.5;ctx.setLineDash([5,4]);
   ctx.beginPath();ctx.moveTo(left,yp);ctx.lineTo(right,yp);ctx.stroke();ctx.setLineDash([]);
   ctx.fillStyle=r.col;ctx.font='600 10px DM Sans';ctx.textAlign='right';ctx.fillText(r.t,right-4,yp-4);ctx.restore();});}};
 new Chart(document.getElementById('cThru'),{type:'bar',
- data:{labels:["R9.00", "R9.01", "R9.02", "R9.03", "R9.04", "R9.05", "R9.09"],datasets:[{label:'Closed',
-  data:[54.5, 48.5, 30.0, 69.0, 57.8, 63.0, 129.5],backgroundColor:["#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#007CBC"],borderRadius:6}]},
+ data:{labels:["R9.00", "R9.01", "R9.02", "R9.03", "R9.04", "R9.05", "R9.09", "R9.10"],datasets:[{label:'Closed',
+  data:[54.5, 48.5, 30.0, 69.0, 57.8, 63.0, 129.5, 2.7],backgroundColor:["#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#007CBC", "#65B2D5"],borderRadius:6}]},
  options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:162,grid:{color:gridc},title:{display:true,text:'Items closed per sprint'}},x:{grid:{display:false}}}},
  plugins:[thrRef]});
 new Chart(document.getElementById('cCyc'),{type:'bar',
- data:{labels:["R9.05", "the band", "R9.00", "R9.01", "R9.02", "R9.03", "R9.04", "R9.05"],datasets:[
-  {label:'Median',data:[5.98, 7.17, 3.27, 3.11, 4.07, 6.89, 8.63, 5.98],backgroundColor:BLUE,borderRadius:5},
-  {label:'Average',data:[9.45, 11.7, 6.96, 5.89, 6.2, 12.88, 12.77, 9.45],backgroundColor:BLUEL,borderRadius:5}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,max:15,grid:{color:gridc},title:{display:true,text:'Days'}},x:{grid:{display:false}}}}});
+ data:{labels:["R9.09", "the band", "R9.00", "R9.01", "R9.02", "R9.03", "R9.04", "R9.05", "R9.09"],datasets:[
+  {label:'Median',data:[10.64, 8.42, 3.27, 3.11, 4.07, 6.89, 8.63, 5.98, 10.64],backgroundColor:BLUE,borderRadius:5},
+  {label:'Average',data:[17.7, 13.31, 6.96, 5.89, 6.2, 12.88, 12.77, 9.45, 17.7],backgroundColor:BLUEL,borderRadius:5}]},
+ options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,max:21,grid:{color:gridc},title:{display:true,text:'Days'}},x:{grid:{display:false}}}}});
 const bands={id:'bands',beforeDraw(c){const{ctx,chartArea:{left,right},scales:{y}}=c;const z=v=>y.getPixelForValue(v);
  ctx.save();ctx.fillStyle='rgba(79,168,0,.08)';ctx.fillRect(left,z(5),right-left,z(0)-z(5));
  ctx.fillStyle='rgba(237,125,49,.12)';ctx.fillRect(left,z(10),right-left,z(5)-z(10));
  ctx.fillStyle='rgba(214,69,80,.08)';ctx.fillRect(left,z(20),right-left,z(10)-z(20));ctx.restore();}};
 new Chart(document.getElementById('cUnp'),{type:'line',
- data:{labels:["R9.00", "R9.01", "R9.02", "R9.03", "R9.04", "R9.05", "R9.09"],datasets:[{data:[null, null, null, null, null, null, null],
+ data:{labels:["R9.00", "R9.01", "R9.02", "R9.03", "R9.04", "R9.05", "R9.09", "R9.10"],datasets:[{data:[null, null, null, null, null, null, null, null],
   borderColor:BLUED,backgroundColor:BLUED,tension:.25,pointRadius:6,borderWidth:3,spanGaps:false,
-  pointBackgroundColor:[GREY,GREY,GREY,GREY,GREY,GREY,GREY]}]},
+  pointBackgroundColor:[GREY,GREY,GREY,GREY,GREY,GREY,GREY,GREY]}]},
  options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.raw==null?' no data':` ${c.raw}% unplanned`}}},
   scales:{y:{beginAtZero:true,max:19,grid:{color:gridc},ticks:{callback:v=>v+'%'}},x:{grid:{display:false}}}},
  plugins:[bands]});
@@ -1305,186 +841,66 @@ const velRef={id:'velRef',afterDraw(c){const{ctx,chartArea:{left,right},scales:{
  ctx.beginPath();ctx.moveTo(left,yp);ctx.lineTo(right,yp);ctx.stroke();ctx.setLineDash([]);
  ctx.fillStyle=RED;ctx.font='600 10px DM Sans';ctx.textAlign='right';ctx.fillText('Baseline 0',right-4,yp-4);ctx.restore();}};
 new Chart(document.getElementById('cVel'),{type:'bar',
- data:{labels:["Plans-R9.00 S1", "Plans-R9.00 S2", "S6-26", "S7-26", "S8-26", "S8-26", "S9-26", "S9-26", "S10-26", "S10-26", "S11-26", "S11-26", "S12-26", "S12 - 26", "S13 - 26", "S13-26", "S14-26", "S14-26", "S15-26", "S15-26", "S23-26", "S23-26", "S24-26", "S24-26"],datasets:[
-  {label:'Committed (day 1)',data:[110, 92, 108, 95, 127, 7, 8, 231, 10, 445, 71, 220, 275, 142, 5, 252, 175, 204, 156, 325, 487, 351, 234, 247],backgroundColor:GREY,borderRadius:5},
-  {label:'Completed',data:[99, 100, 95, 74, 78, 0, 0, 91, 0, 270, 85, 131, 162, 82, 50, 164, 50, 107, 136, 162, 467, 247, 265, 221],backgroundColor:BLUE,borderRadius:5}]},
+ data:{labels:["Plans-R9.00 S1", "Plans-R9.00 S2", "S6-26", "S7-26", "S8-26", "S8-26", "S9-26", "S9-26", "S10-26", "S10-26", "S11-26", "S11-26", "S12-26", "S12 - 26", "S13 - 26", "S13-26", "S14-26", "S14-26", "S15-26", "S15-26", "S23-26", "S23-26", "S24-26", "S24-26", "S25-26", "S25-26"],datasets:[
+  {label:'Committed (day 1)',data:[110, 92, 108, 95, 127, 7, 8, 231, 10, 445, 71, 220, 275, 142, 5, 252, 175, 204, 156, 325, 487, 349, 234, 245, 219, 70],backgroundColor:GREY,borderRadius:5},
+  {label:'Completed',data:[99, 100, 95, 74, 78, 0, 0, 91, 0, 270, 85, 131, 162, 82, 50, 164, 50, 107, 136, 162, 467, 247, 273, 229, 5, 8],backgroundColor:BLUE,borderRadius:5}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,max:115,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false}}}},
  plugins:[velRef]});
 new Chart(document.getElementById('cSplit'),{type:'bar',
  data:{labels:["S8-26", "S8-26", "S9-26", "S10-26", "S10-26", "S11-26", "S11-26", "S12-26", "S12 - 26", "S13 - 26", "S13-26", "S14-26", "S14-26", "S15-26", "S15-26", "Plans-R9.00 S1", "Plans-R9.00 S2", "S6-26", "S7-26", "S23-26", "S23-26", "S24-26", "S24-26"],datasets:[
   {label:'Reactive (Unplanned / Urgent)',data:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],backgroundColor:AMBER,borderRadius:4},
-  {label:'Plannable',data:[10, 1, 44, 1, 20, 10, 19, 19, 15, 33, 22, 28, 88, 117, 34, 19, 21, 13, 22, 78, 40, 101, 40],backgroundColor:RED,borderRadius:4}]},
+  {label:'Plannable',data:[10, 1, 44, 1, 20, 10, 19, 19, 15, 33, 22, 28, 88, 117, 34, 19, 21, 13, 22, 78, 40, 102, 40],backgroundColor:RED,borderRadius:4}]},
  options:{plugins:{legend:{position:'top'}},scales:{x:{stacked:true,grid:{display:false}},y:{stacked:true,beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Points added mid-sprint'}}}}});
 const bandRef={id:'bandRef',afterDraw(c){const{ctx,chartArea:{left,right},scales:{y}}=c;
- const yl=y.getPixelForValue(41.3), yh=y.getPixelForValue(85.2);
+ const yl=y.getPixelForValue(0.0), yh=y.getPixelForValue(178.8);
  ctx.save();ctx.fillStyle='rgba(79,168,0,.10)';ctx.fillRect(left,yh,right-left,yl-yh);
  ctx.strokeStyle='#4FA800';ctx.setLineDash([5,4]);ctx.lineWidth=1.2;
  [yl,yh].forEach(function(yp){ctx.beginPath();ctx.moveTo(left,yp);ctx.lineTo(right,yp);ctx.stroke();});
  ctx.setLineDash([]);ctx.fillStyle='#4FA800';ctx.font='600 10px DM Sans';ctx.textAlign='right';
- ctx.fillText('expected 41-85',right-4,yh-4);ctx.restore();}};
+ ctx.fillText('expected 0-179',right-4,yh-4);ctx.restore();}};
 new Chart(document.getElementById('cBand'),{type:'bar',
- data:{labels:["R9.00", "R9.01", "R9.02", "R9.03", "R9.04", "R9.05"],datasets:[{label:'Items closed',data:[54.5, 48.5, 30.0, 69.0, 57.75, 63.0],backgroundColor:["#c3cdda", "#c3cdda", "#c3cdda", "#c3cdda", "#c3cdda", "#c3cdda"],borderRadius:6}]},
+ data:{labels:["R9.00", "R9.01", "R9.02", "R9.03", "R9.04", "R9.05", "R9.09"],datasets:[{label:'Items closed',data:[54.5, 48.5, 30.0, 69.0, 57.75, 63.0, 129.5],backgroundColor:["#c3cdda", "#c3cdda", "#c3cdda", "#c3cdda", "#c3cdda", "#c3cdda", "#007CBC"],borderRadius:6}]},
  options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Items closed'}},x:{grid:{display:false}}}},
  plugins:[bandRef]});
 const spillRef={id:'spillRef',afterDraw(c){const{ctx,chartArea:{left,right},scales:{y}}=c;
- const yp=y.getPixelForValue(51.8);ctx.save();ctx.strokeStyle='var(--wf-muted)';ctx.lineWidth=1.5;ctx.setLineDash([5,4]);
+ const yp=y.getPixelForValue(53.6);ctx.save();ctx.strokeStyle='var(--wf-muted)';ctx.lineWidth=1.5;ctx.setLineDash([5,4]);
  ctx.beginPath();ctx.moveTo(left,yp);ctx.lineTo(right,yp);ctx.stroke();ctx.setLineDash([]);
  ctx.fillStyle='var(--wf-muted)';ctx.font='600 10px DM Sans';ctx.textAlign='right';
- ctx.fillText('series average 52%',right-4,yp-4);ctx.restore();}};
+ ctx.fillText('series average 54%',right-4,yp-4);ctx.restore();}};
 new Chart(document.getElementById('cSpill'),{type:'bar',
- data:{labels:["Plans-R9.00 S1", "Plans-R9.00 S2", "S6-26", "S7-26", "S8-26", "S8-26", "S9-26", "S9-26", "S10-26", "S10-26", "S11-26", "S11-26", "S12-26", "S12 - 26", "S13 - 26", "S13-26", "S14-26", "S14-26", "S15-26", "S15-26", "S23-26", "S23-26", "S24-26", "S24-26"],datasets:[{label:'Spillover rate',data:[28.0, 24.4, 23.1, 44.4, 48.8, 100.0, 100.0, 65.1, 100.0, 45.8, 69.8, 55.4, 50.0, 70.2, 62.8, 48.0, 84.6, 80.4, 70.2, 61.1, 30.5, 44.3, 45.7, 31.7],backgroundColor:["#65B2D5", "#65B2D5", "#65B2D5", "#ED7D31", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#d64550", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#65B2D5", "#ED7D31", "#ED7D31", "#65B2D5"],borderRadius:5}]},
+ data:{labels:["Plans-R9.00 S1", "Plans-R9.00 S2", "S6-26", "S7-26", "S8-26", "S8-26", "S9-26", "S9-26", "S10-26", "S10-26", "S11-26", "S11-26", "S12-26", "S12 - 26", "S13 - 26", "S13-26", "S14-26", "S14-26", "S15-26", "S15-26", "S23-26", "S23-26", "S24-26", "S24-26", "S25-26", "S25-26"],datasets:[{label:'Spillover rate',data:[28.0, 24.4, 23.1, 44.4, 48.8, 100.0, 100.0, 65.1, 100.0, 45.8, 69.8, 55.4, 50.0, 70.2, 62.8, 48.0, 84.6, 80.4, 70.2, 61.1, 30.5, 44.0, 44.4, 28.7, 97.6, 100.0],backgroundColor:["#65B2D5", "#65B2D5", "#65B2D5", "#ED7D31", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#d64550", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#65B2D5", "#ED7D31", "#ED7D31", "#65B2D5", "#d64550", "#d64550"],borderRadius:5}]},
  options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:100,grid:{color:gridc},ticks:{callback:v=>v+'%'},title:{display:true,text:'% of points that left the sprint'}},x:{grid:{display:false}}}},
  plugins:[spillRef]});
 new Chart(document.getElementById('cRecv'),{type:'bar',
- data:{labels:["Plans-R9.00 S1", "Plans-R9.00 S2", "S6-26", "S7-26", "S8-26", "S8-26", "S9-26", "S9-26", "S10-26", "S10-26", "S11-26", "S11-26", "S12-26", "S12 - 26", "S13 - 26", "S13-26", "S14-26", "S14-26", "S15-26", "S15-26", "S23-26", "S23-26", "S24-26", "S24-26"],datasets:[
-  {label:'Inherited at day 1',data:[19, 7, 16, 11, 51, 0, 0, 0, 0, 0, 0, 0, 99, 44, 0, 0, 3, 8, 65, 5, 43, 10, 6, 1],backgroundColor:BLUEL,borderRadius:4},
-  {label:'Handed to the next sprint',data:[37, 30, 27, 59, 61, 8, 13, 166, 14, 200, 30, 124, 130, 87, 81, 135, 181, 357, 313, 243, 197, 204, 221, 98],backgroundColor:AMBER,borderRadius:4}]},
+ data:{labels:["Plans-R9.00 S1", "Plans-R9.00 S2", "S6-26", "S7-26", "S8-26", "S8-26", "S9-26", "S9-26", "S10-26", "S10-26", "S11-26", "S11-26", "S12-26", "S12 - 26", "S13 - 26", "S13-26", "S14-26", "S14-26", "S15-26", "S15-26", "S23-26", "S23-26", "S24-26", "S24-26", "S25-26", "S25-26"],datasets:[
+  {label:'Inherited at day 1',data:[19, 7, 16, 11, 51, 0, 0, 0, 0, 0, 0, 0, 99, 44, 0, 0, 3, 8, 65, 5, 43, 10, 6, 1, 9, 0],backgroundColor:BLUEL,borderRadius:4},
+  {label:'Handed to the next sprint',data:[37, 30, 27, 59, 61, 8, 13, 166, 14, 200, 30, 124, 130, 87, 81, 135, 181, 357, 313, 243, 197, 202, 216, 88, 202, 61],backgroundColor:AMBER,borderRadius:4}]},
  options:{plugins:{legend:{position:'top'}},scales:{
   y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},
   x:{grid:{display:false}}}}});
 new Chart(document.getElementById('bd0'),{type:'line',
  data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[106.0, 110.0, 114.0, 117.0, 119.0, 121.0, 121.0, 121.0, 125.0, 131.0, 135.0, 137.0, 137.0, 137.0, 134.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[98.0, 85.0, 87.0, 90.0, 89.0, 91.0, 91.0, 72.0, 60.0, 59.0, 55.0, 53.0, 46.0, 46.0, 35.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[106.0, 98.4, 90.9, 83.3, 75.7, 68.1, 60.6, 53.0, 45.4, 37.9, 30.3, 22.7, 15.1, 7.6, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd1'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[78.0, 91.0, 103.0, 105.0, 105.0, 105.0, 105.0, 110.0, 110.0, 113.0, 122.0, 123.0, 123.0, 123.0, 123.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[71.0, 70.0, 73.0, 61.0, 53.0, 53.0, 53.0, 51.0, 42.0, 41.0, 46.0, 36.0, 32.0, 32.0, 24.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[78.0, 72.4, 66.9, 61.3, 55.7, 50.1, 44.6, 39.0, 33.4, 27.9, 22.3, 16.7, 11.1, 5.6, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd2'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14", "d15"],datasets:[
-  {label:'Total scope',data:[106.0, 108.0, 110.0, 108.0, 108.0, 108.0, 108.0, 112.0, 117.0, 115.0, 120.0, 114.0, 116.0, 116.0, 116.0, 116.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[95.0, 83.0, 84.0, 79.0, 75.0, 75.0, 75.0, 74.0, 69.0, 56.0, 54.0, 30.0, 26.0, 26.0, 26.0, 19.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[106.0, 98.9, 91.9, 84.8, 77.7, 70.7, 63.6, 56.5, 49.5, 42.4, 35.3, 28.3, 21.2, 14.1, 7.1, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd3'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13"],datasets:[
-  {label:'Total scope',data:[91.0, 93.0, 97.0, 97.0, 97.0, 97.0, 122.0, 129.0, 129.0, 138.0, 134.0, 134.0, 134.0, 134.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[89.0, 91.0, 91.0, 91.0, 91.0, 91.0, 116.0, 111.0, 95.0, 90.0, 66.0, 60.0, 60.0, 60.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[91.0, 84.0, 77.0, 70.0, 63.0, 56.0, 49.0, 42.0, 35.0, 28.0, 21.0, 14.0, 7.0, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd4'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13"],datasets:[
-  {label:'Total scope',data:[122.0, 127.0, 127.0, 130.0, 130.0, 130.0, 130.0, 130.0, 130.0, 132.0, 137.0, 137.0, 137.0, 139.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[109.0, 109.0, 102.0, 102.0, 99.0, 99.0, 99.0, 99.0, 99.0, 97.0, 85.0, 83.0, 83.0, 61.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[122.0, 112.6, 103.2, 93.8, 84.5, 75.1, 65.7, 56.3, 46.9, 37.5, 28.2, 18.8, 9.4, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd5'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13"],datasets:[
-  {label:'Total scope',data:[7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 12.0, 12.0, 12.0, 12.0, 12.0, 12.0, 12.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 12.0, 12.0, 12.0, 12.0, 12.0, 12.0, 12.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[7.0, 6.5, 5.9, 5.4, 4.8, 4.3, 3.8, 3.2, 2.7, 2.2, 1.6, 1.1, 0.5, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd6'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[8.0, 7.4, 6.9, 6.3, 5.7, 5.1, 4.6, 4.0, 3.4, 2.9, 2.3, 1.7, 1.1, 0.6, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd7'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[221.0, 231.0, 250.0, 258.0, 261.0, 263.0, 263.0, 272.0, 280.0, 286.0, 293.0, 297.0, 294.0, 294.0, 294.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[221.0, 221.0, 235.0, 237.0, 223.0, 222.0, 222.0, 229.0, 224.0, 219.0, 214.0, 212.0, 203.0, 203.0, 203.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[221.0, 205.2, 189.4, 173.6, 157.9, 142.1, 126.3, 110.5, 94.7, 78.9, 63.1, 47.4, 31.6, 15.8, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd8'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[10.0, 9.3, 8.6, 7.9, 7.1, 6.4, 5.7, 5.0, 4.3, 3.6, 2.9, 2.1, 1.4, 0.7, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd9'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[438.0, 445.0, 450.0, 452.0, 454.0, 454.0, 454.0, 458.0, 466.0, 468.0, 482.0, 482.0, 482.0, 487.0, 487.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[428.0, 401.0, 399.0, 393.0, 385.0, 380.0, 380.0, 329.0, 292.0, 249.0, 221.0, 212.0, 212.0, 217.0, 180.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[438.0, 406.7, 375.4, 344.1, 312.9, 281.6, 250.3, 219.0, 187.7, 156.4, 125.1, 93.9, 62.6, 31.3, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd10'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14", "d15"],datasets:[
-  {label:'Total scope',data:[10.0, 71.0, 74.0, 74.0, 79.0, 79.0, 79.0, 79.0, 79.0, 84.0, 84.0, 91.0, 91.0, 91.0, 94.0, 94.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[10.0, 71.0, 74.0, 74.0, 79.0, 77.0, 77.0, 77.0, 71.0, 63.0, 59.0, 60.0, 41.0, 38.0, 9.0, 9.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[10.0, 9.3, 8.7, 8.0, 7.3, 6.7, 6.0, 5.3, 4.7, 4.0, 3.3, 2.7, 2.0, 1.3, 0.7, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd11'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[216.0, 220.0, 235.0, 238.0, 240.0, 240.0, 240.0, 241.0, 248.0, 252.0, 254.0, 256.0, 256.0, 256.0, 256.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[190.0, 182.0, 193.0, 188.0, 178.0, 158.0, 158.0, 153.0, 153.0, 153.0, 140.0, 138.0, 132.0, 132.0, 123.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[216.0, 200.6, 185.1, 169.7, 154.3, 138.9, 123.4, 108.0, 92.6, 77.1, 61.7, 46.3, 30.9, 15.4, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd12'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[268.0, 275.0, 276.0, 276.0, 276.0, 276.0, 276.0, 279.0, 278.0, 278.0, 297.0, 293.0, 293.0, 293.0, 293.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[261.0, 262.0, 262.0, 252.0, 248.0, 248.0, 248.0, 249.0, 221.0, 219.0, 217.0, 193.0, 193.0, 193.0, 131.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[268.0, 248.9, 229.7, 210.6, 191.4, 172.3, 153.1, 134.0, 114.9, 95.7, 76.6, 57.4, 38.3, 19.1, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd13'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14", "d15", "d16", "d17", "d18", "d19", "d20", "d21", "d22"],datasets:[
-  {label:'Total scope',data:[140.0, 140.0, 140.0, 140.0, 142.0, 142.0, 142.0, 142.0, 153.0, 154.0, 154.0, 157.0, 159.0, 159.0, 156.0, 159.0, 159.0, 159.0, 159.0, 159.0, 159.0, 159.0, 159.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[133.0, 121.0, 121.0, 117.0, 117.0, 117.0, 117.0, 117.0, 125.0, 123.0, 120.0, 98.0, 99.0, 99.0, 94.0, 96.0, 94.0, 91.0, 91.0, 91.0, 91.0, 77.0, 71.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[140.0, 133.6, 127.3, 120.9, 114.5, 108.2, 101.8, 95.5, 89.1, 82.7, 76.4, 70.0, 63.6, 57.3, 50.9, 44.5, 38.2, 31.8, 25.5, 19.1, 12.7, 6.4, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd14'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14", "d15", "d16"],datasets:[
-  {label:'Total scope',data:[5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 60.0, 68.0, 79.0, 116.0, 116.0, 116.0, 116.0, 116.0, 116.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 57.0, 49.0, 48.0, 74.0, 74.0, 74.0, 74.0, 66.0, 58.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[5.0, 4.7, 4.4, 4.1, 3.8, 3.4, 3.1, 2.8, 2.5, 2.2, 1.9, 1.6, 1.2, 0.9, 0.6, 0.3, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd15'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[235.0, 248.0, 252.0, 253.0, 253.0, 253.0, 261.0, 277.0, 282.0, 284.0, 285.0, 285.0, 285.0, 285.0, 282.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[198.0, 201.0, 205.0, 206.0, 203.0, 203.0, 202.0, 174.0, 167.0, 140.0, 127.0, 127.0, 127.0, 127.0, 114.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[235.0, 218.2, 201.4, 184.6, 167.9, 151.1, 134.3, 117.5, 100.7, 83.9, 67.1, 50.4, 33.6, 16.8, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd16'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13"],datasets:[
-  {label:'Total scope',data:[135.0, 173.0, 180.0, 180.0, 182.0, 182.0, 184.0, 187.0, 194.0, 243.0, 243.0, 245.0, 245.0, 245.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[132.0, 159.0, 158.0, 147.0, 149.0, 149.0, 147.0, 150.0, 155.0, 196.0, 196.0, 198.0, 198.0, 195.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[135.0, 124.6, 114.2, 103.8, 93.5, 83.1, 72.7, 62.3, 51.9, 41.5, 31.2, 20.8, 10.4, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd17'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[200.0, 204.0, 218.0, 220.0, 220.0, 220.0, 220.0, 235.0, 237.0, 422.0, 443.0, 443.0, 443.0, 445.0, 445.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[183.0, 180.0, 166.0, 155.0, 155.0, 155.0, 151.0, 164.0, 166.0, 351.0, 359.0, 359.0, 359.0, 351.0, 338.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[200.0, 185.7, 171.4, 157.1, 142.9, 128.6, 114.3, 100.0, 85.7, 71.4, 57.1, 42.9, 28.6, 14.3, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd18'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14", "d15", "d16", "d17", "d18"],datasets:[
-  {label:'Total scope',data:[156.0, 156.0, 158.0, 160.0, 187.0, 187.0, 187.0, 187.0, 208.0, 210.0, 417.0, 429.0, 550.0, 550.0, 555.0, 557.0, 596.0, 605.0, 607.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[153.0, 151.0, 126.0, 125.0, 152.0, 152.0, 152.0, 152.0, 169.0, 169.0, 374.0, 371.0, 484.0, 484.0, 489.0, 479.0, 480.0, 479.0, 459.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[156.0, 147.3, 138.7, 130.0, 121.3, 112.7, 104.0, 95.3, 86.7, 78.0, 69.3, 60.7, 52.0, 43.3, 34.7, 26.0, 17.3, 8.7, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd19'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13"],datasets:[
-  {label:'Total scope',data:[315.0, 325.0, 341.0, 358.0, 358.0, 358.0, 363.0, 369.0, 381.0, 395.0, 407.0, 409.0, 409.0, 411.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[312.0, 311.0, 324.0, 338.0, 338.0, 338.0, 332.0, 326.0, 315.0, 295.0, 287.0, 264.0, 264.0, 231.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[315.0, 290.8, 266.5, 242.3, 218.1, 193.8, 169.6, 145.4, 121.2, 96.9, 72.7, 48.5, 24.2, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
- options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd20'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
   {label:'Total scope',data:[452.0, 487.0, 509.0, 512.0, 520.0, 527.0, 527.0, 541.0, 558.0, 575.0, 589.0, 659.0, 664.0, 664.0, 667.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
   {label:'Work still open',data:[445.0, 426.0, 399.0, 386.0, 378.0, 374.0, 374.0, 369.0, 343.0, 325.0, 329.0, 372.0, 375.0, 208.0, 200.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
   {label:'Ideal from day-1 commitment',data:[452.0, 419.7, 387.4, 355.1, 322.9, 290.6, 258.3, 226.0, 193.7, 161.4, 129.1, 96.9, 64.6, 32.3, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd21'),{type:'line',
+new Chart(document.getElementById('bd1'),{type:'line',
  data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14", "d15"],datasets:[
-  {label:'Total scope',data:[337.0, 351.0, 353.0, 374.0, 380.0, 385.0, 387.0, 427.0, 448.0, 450.0, 456.0, 458.0, 458.0, 458.0, 464.0, 464.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[327.0, 321.0, 292.0, 293.0, 289.0, 294.0, 296.0, 320.0, 323.0, 307.0, 312.0, 290.0, 290.0, 290.0, 217.0, 214.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[337.0, 314.5, 292.1, 269.6, 247.1, 224.7, 202.2, 179.7, 157.3, 134.8, 112.3, 89.9, 67.4, 44.9, 22.5, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
+  {label:'Total scope',data:[335.0, 349.0, 351.0, 372.0, 378.0, 383.0, 385.0, 425.0, 446.0, 448.0, 454.0, 456.0, 456.0, 456.0, 462.0, 462.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
+  {label:'Work still open',data:[325.0, 319.0, 290.0, 291.0, 287.0, 292.0, 294.0, 318.0, 321.0, 305.0, 310.0, 288.0, 288.0, 288.0, 215.0, 212.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
+  {label:'Ideal from day-1 commitment',data:[335.0, 312.7, 290.3, 268.0, 245.7, 223.3, 201.0, 178.7, 156.3, 134.0, 111.7, 89.3, 67.0, 44.7, 22.3, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd22'),{type:'line',
+new Chart(document.getElementById('bd2'),{type:'line',
  data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
-  {label:'Total scope',data:[14.0, 234.0, 246.0, 267.0, 303.0, 304.0, 304.0, 331.0, 402.0, 419.0, 497.0, 498.0, 498.0, 498.0, 498.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[14.0, 205.0, 204.0, 201.0, 206.0, 206.0, 206.0, 233.0, 259.0, 242.0, 297.0, 269.0, 235.0, 233.0, 233.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
+  {label:'Total scope',data:[14.0, 234.0, 246.0, 267.0, 303.0, 304.0, 304.0, 331.0, 402.0, 419.0, 497.0, 498.0, 498.0, 498.0, 501.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
+  {label:'Work still open',data:[14.0, 205.0, 204.0, 201.0, 206.0, 206.0, 206.0, 233.0, 259.0, 242.0, 297.0, 269.0, 235.0, 233.0, 223.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
   {label:'Ideal from day-1 commitment',data:[14.0, 13.0, 12.0, 11.0, 10.0, 9.0, 8.0, 7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.0, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
-new Chart(document.getElementById('bd23'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13"],datasets:[
-  {label:'Total scope',data:[237.0, 247.0, 257.0, 274.0, 282.0, 282.0, 282.0, 284.0, 291.0, 305.0, 307.0, 312.0, 312.0, 312.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[235.0, 238.0, 198.0, 202.0, 200.0, 200.0, 200.0, 171.0, 158.0, 96.0, 88.0, 93.0, 91.0, 91.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[237.0, 218.8, 200.5, 182.3, 164.1, 145.8, 127.6, 109.4, 91.2, 72.9, 54.7, 36.5, 18.2, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
+new Chart(document.getElementById('bd3'),{type:'line',
+ data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14"],datasets:[
+  {label:'Total scope',data:[235.0, 245.0, 255.0, 272.0, 280.0, 280.0, 280.0, 282.0, 289.0, 303.0, 305.0, 310.0, 310.0, 310.0, 310.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
+  {label:'Work still open',data:[233.0, 236.0, 196.0, 200.0, 198.0, 198.0, 198.0, 169.0, 156.0, 94.0, 86.0, 91.0, 89.0, 84.0, 81.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
+  {label:'Ideal from day-1 commitment',data:[235.0, 218.2, 201.4, 184.6, 167.9, 151.1, 134.3, 117.5, 100.7, 83.9, 67.1, 50.4, 33.6, 16.8, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
 /* Sprints tab: newest first, collapsible cards */
 (function(){

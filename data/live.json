@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T14:55:15Z",
+ "generated": "2026-10-26T15:29:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
-    "points": 86,
+    "n": 43,
+    "points": 85,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -52,29 +52,29 @@
  },
  "projection": {
   "too_early": false,
-  "day": 13,
+  "day": 1,
   "days": 13,
   "n": 17,
-  "done_now": 221,
-  "committed": 245,
-  "lo": 221,
-  "mid": 221,
-  "hi": 221,
-  "pct": 90,
-  "verdict": "a little short of the commitment",
-  "share_mid": 1.0
+  "done_now": 8,
+  "committed": 70,
+  "lo": 31,
+  "mid": 37,
+  "hi": 99,
+  "pct": 53,
+  "verdict": "well short of the commitment",
+  "share_mid": 0.216
  },
  "admin": {
   "scope": {
-   "ready": 77,
-   "sprint": 89,
-   "sprint_name": "Plans-Sprint 24-26"
+   "ready": 76,
+   "sprint": 33,
+   "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 12,
+    "n": 11,
     "items": [
      {
       "key": "PLANS-24475",
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 50,
     "items": [
      {
       "key": "PLANS-24789",
@@ -133,10 +133,6 @@
      {
       "key": "PLANS-24788",
       "summary": "ARD for WT-1022"
-     },
-     {
-      "key": "PLANS-24648",
-      "summary": "Stage-PMP-Retry option in Primary Contact panel not showing after refresh for ad"
      },
      {
       "key": "PLANS-24631",
@@ -157,59 +153,51 @@
      {
       "key": "PLANS-24546",
       "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
+     },
+     {
+      "key": "PLANS-24536",
+      "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
      }
     ]
    },
    {
     "rule": "AdHoc without the unplanned label",
     "why": "the guide does not allow it. Unlabelled reactive work is why the reactive share cannot be measured.",
-    "n": 2,
+    "n": 1,
     "items": [
      {
       "key": "PLANS-24472",
       "summary": "CSP Modify Plan pages to use PlanAdministrator role instead of Admin role"
-     },
-     {
-      "key": "PLANS-24471",
-      "summary": "Enhance CSHTML Rendering"
      }
     ]
    },
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 6,
+    "n": 4,
     "items": [
-     {
-      "key": "PLANS-24618",
-      "summary": "CREG/Unable to Add Dependent member to primary in the UI "
-     },
-     {
-      "key": "PLANS-24414",
-      "summary": "Production - OneSmile Plan - WA Annual/WA 2 Yr. Plan"
-     },
-     {
-      "key": "PLANS-24397",
-      "summary": "QA validation -GIFTCORE promocode for Autorenewal"
-     },
-     {
-      "key": "PLANS-24283",
-      "summary": " Locations are not Available for Digital Smailes"
-     },
      {
       "key": "PLANS-23846",
       "summary": "Office shows preselected on Assign patient ID modal when switching views"
      },
      {
-      "key": "PLANS-21835",
-      "summary": "MP| Inconsistent Plan purchase Pricing between add member and checkout page"
+      "key": "PLANS-21801",
+      "summary": "Plans Identification Card"
+     },
+     {
+      "key": "PLANS-21516",
+      "summary": "IND. Plus plan - UI improvement"
+     },
+     {
+      "key": "PLANS-19701",
+      "summary": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong la"
      }
     ]
    },
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 10,
+    "n": 7,
     "items": [
      {
       "key": "PLANS-24585",
@@ -238,10 +226,45 @@
      {
       "key": "PLANS-24651",
       "summary": "[5.1.W1] Verify every Day 0 outcome on stage, and how a held renewal looks every"
+     }
+    ]
+   },
+   {
+    "rule": "Still in Backlog inside the sprint",
+    "why": "in the sprint but never pulled into the flow.",
+    "n": 8,
+    "items": [
+     {
+      "key": "PLANS-24790",
+      "summary": "Tech debt - Subscription analysis"
      },
      {
-      "key": "PLANS-23969",
-      "summary": "[4.4.W2] Enable decline retry per environment, verify in production, then remove"
+      "key": "PLANS-23835",
+      "summary": "Duplicate External ID for a member"
+     },
+     {
+      "key": "PLANS-22135",
+      "summary": "Dashboard - ACH - Renewals Not Captured in Dashboard"
+     },
+     {
+      "key": "PLANS-22108",
+      "summary": "Dashboard- Failed Auto Renewal transactions are not reflected in Dashboard metri"
+     },
+     {
+      "key": "PLANS-22022",
+      "summary": " Dashboard - When a plan purchase is refunded, the Dashboard incorrectly updates"
+     },
+     {
+      "key": "PLANS-22017",
+      "summary": "Dashboard - When a plan purchase is declined, the Dashboard incorrectly updates "
+     },
+     {
+      "key": "PLANS-22016",
+      "summary": "Dashboard - Purchasing a new plan is incorrectly increasing the 'Plans Renewal' "
+     },
+     {
+      "key": "PLANS-14923",
+      "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
      }
     ]
    }
@@ -252,10 +275,6 @@
     "why": "the release a delivery belongs to cannot be traced without it.",
     "n": 72,
     "items": [
-     {
-      "key": "PLANS-24648",
-      "summary": "Stage-PMP-Retry option in Primary Contact panel not showing after refresh for ad"
-     },
      {
       "key": "PLANS-24631",
       "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
@@ -283,25 +302,29 @@
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
+     {
+      "key": "PLANS-24478",
+      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price - CONFIG ISS"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 152 of 164 items. This reads as a field the team does not use rather than 152 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 152,
+    "why": "missing on 98 of 105 items. This reads as a field the team does not use rather than 98 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 98,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 164 of 164 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 164,
+    "why": "missing on 105 of 105 items. This reads as a field the team does not use rather than 105 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 105,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 21,
+    "n": 28,
     "items": [
      {
       "key": "PLANS-22675",
@@ -366,96 +389,60 @@
   ]
  },
  "sprint": {
-  "name": "Plans-Sprint 24-26",
+  "name": "Plans-Sprint 25-26",
   "state": "active",
-  "start": "2026-10-13",
-  "end": "2026-10-26",
+  "start": "2026-10-26",
+  "end": "2026-11-08",
   "goal": "",
-  "items": 253,
-  "items_done": 70,
-  "committed": 245,
-  "final": 310,
-  "completed": 221,
-  "scope_change": 27,
-  "vs_commitment": 90,
-  "time_elapsed": 100,
+  "items": 58,
+  "items_done": 5,
+  "committed": 70,
+  "final": 70,
+  "completed": 8,
+  "scope_change": 0,
+  "vs_commitment": 11,
+  "time_elapsed": 0,
   "spill": {
-   "open_items": 18,
-   "open_pts": 46.0,
-   "out_items": 16,
-   "out_pts": 42.0,
-   "done_pts": 219.0
+   "open_items": 27,
+   "open_pts": 61.0,
+   "out_items": 0,
+   "out_pts": 0,
+   "done_pts": 0
   },
   "recv": {
-   "items": 1,
-   "pts": 1,
+   "items": 0,
+   "pts": 0,
    "pct": 0,
-   "from": "LL-Sprint 24-26"
+   "from": "LL-Sprint 25-26"
   },
-  "spill_rate": 29,
+  "spill_rate": null,
   "dist": {
-   "To Do": 36,
-   "Done": 105,
-   "In Progress": 7,
+   "Backlog": 8,
+   "Ready for Development": 4,
+   "To Do": 8,
+   "In Progress": 6,
    "In Development": 3,
    "In Stage": 11,
-   "Closed": 44,
+   "Done": 11,
    "PR Created": 1,
-   "Ready Prod": 26,
-   "Ready for Development": 2,
    "WAITING REVIEW": 1,
-   "On Hold": 1
+   "Closed": 4,
+   "Ready Prod": 1
   },
   "burn": [
-   233.0,
-   236.0,
-   196.0,
-   200.0,
-   198.0,
-   198.0,
-   198.0,
-   169.0,
-   156.0,
-   94.0,
-   86.0,
-   91.0,
-   89.0,
-   84.0
+   60.0,
+   60.0
   ],
   "scope": [
-   235.0,
-   245.0,
-   255.0,
-   272.0,
-   280.0,
-   280.0,
-   280.0,
-   282.0,
-   289.0,
-   303.0,
-   305.0,
-   310.0,
-   310.0,
-   310.0
+   68.0,
+   68.0
   ],
   "ghost": [
-   233.0,
-   236.0,
-   196.0,
-   200.0,
-   198.0,
-   198.0,
-   198.0,
-   169.0,
-   156.0,
-   94.0,
-   86.0,
-   91.0,
-   89.0,
-   84.0
+   62.0,
+   62.0
   ],
   "days": 13,
-  "day": 13
+  "day": 1
  },
  "next": {
   "name": "LL-Sprint 26-26",
@@ -470,17 +457,18 @@
   "end": "2026-11-22",
   "day": 1,
   "days": 28,
-  "closed": 7,
-  "points": 16,
+  "closed": 8,
+  "points": 21,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
   "people_active": 1,
   "sprints": [
    "LL-Sprint 25-26",
+   "Plans-Sprint 25-26",
    "LL-Sprint 26-26"
   ],
-  "n_sprints": 2,
+  "n_sprints": 3,
   "sprints_done": 0
  },
  "aging": {
@@ -489,15 +477,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 30,
+    "open": 29,
     "med_age": 11.8,
     "max_age": 46.5,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
-    "over": 22,
+    "over": 23,
     "clear_med": 0.7,
-    "clear_n": 240
+    "clear_n": 238
    },
    {
     "status": "In Stage",
@@ -509,35 +497,35 @@
     "worst_who": "Chris Rubio",
     "over": 12,
     "clear_med": 2.7,
-    "clear_n": 427
+    "clear_n": 424
    },
    {
     "status": "PR Created",
-    "open": 22,
-    "med_age": 3.5,
-    "max_age": 6.2,
+    "open": 21,
+    "med_age": 4.0,
+    "max_age": 6.3,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 692
+    "clear_n": 690
    },
    {
     "status": "PR Merged",
     "open": 8,
     "med_age": 5.0,
-    "max_age": 6.2,
+    "max_age": 6.3,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 658
+    "clear_n": 656
    },
    {
     "status": "In Development",
-    "open": 8,
+    "open": 10,
     "med_age": 3.0,
     "max_age": 12.1,
     "worst_key": "PLANS-24223",
@@ -545,12 +533,12 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 650
+    "clear_n": 647
    },
    {
     "status": "WAITING REVIEW",
-    "open": 2,
-    "med_age": 10.5,
+    "open": 4,
+    "med_age": 1.6,
     "max_age": 17.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -597,11 +585,11 @@
    }
   ],
   "parked": {
-   "Backlog": 180,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 182
   },
-  "open_total": 111,
-  "stale": 36,
+  "open_total": 113,
+  "stale": 37,
   "worst": "Ready for Development"
  }
 }
