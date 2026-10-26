@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T16:09:25Z",
+ "generated": "2026-10-26T16:41:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 43,
-    "points": 85,
+    "n": 46,
+    "points": 87,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,18 +55,18 @@
   "day": 1,
   "days": 13,
   "n": 21,
-  "done_now": 8,
+  "done_now": 10,
   "committed": 70,
-  "lo": 33,
-  "mid": 58,
-  "hi": 99,
-  "pct": 83,
-  "verdict": "a little short of the commitment",
+  "lo": 41,
+  "mid": 72,
+  "hi": 124,
+  "pct": 103,
+  "verdict": "on track for the commitment",
   "share_mid": 0.139
  },
  "admin": {
   "scope": {
-   "ready": 76,
+   "ready": 79,
    "sprint": 33,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 11,
+    "n": 12,
     "items": [
+     {
+      "key": "PLANS-24801",
+      "summary": "Euler CSP Setting"
+     },
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-11252",
       "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
-     },
-     {
-      "key": "PLANS-11249",
-      "summary": "Blocked DYN 265 > WFPLNS > Discount Plan 2 Individuals> CRM email child turning "
      }
     ]
    },
@@ -124,8 +124,20 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 50,
+    "n": 53,
     "items": [
+     {
+      "key": "PLANS-24801",
+      "summary": "Euler CSP Setting"
+     },
+     {
+      "key": "PLANS-24799",
+      "summary": "SGDP - The legal text displayed on the website does not match the legal text con"
+     },
+     {
+      "key": "PLANS-24795",
+      "summary": "Blocker-Stage-PMP-Wallet QR scan not working for Apple wallet, it worked on Andr"
+     },
      {
       "key": "PLANS-24789",
       "summary": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims ad"
@@ -145,18 +157,6 @@
      {
       "key": "PLANS-24621",
       "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
-     },
-     {
-      "key": "PLANS-24585",
-      "summary": "KOS portal uses static footer instead of shared dynamic footer"
-     },
-     {
-      "key": "PLANS-24546",
-      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
-     },
-     {
-      "key": "PLANS-24536",
-      "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
      }
     ]
    },
@@ -273,8 +273,12 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 72,
+    "n": 73,
     "items": [
+     {
+      "key": "PLANS-24801",
+      "summary": "Euler CSP Setting"
+     },
      {
       "key": "PLANS-24631",
       "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
@@ -302,23 +306,19 @@
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
-     },
-     {
-      "key": "PLANS-24478",
-      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price - CONFIG ISS"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 98 of 105 items. This reads as a field the team does not use rather than 98 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 98,
+    "why": "missing on 101 of 108 items. This reads as a field the team does not use rather than 101 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 101,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 105 of 105 items. This reads as a field the team does not use rather than 105 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 105,
+    "why": "missing on 108 of 108 items. This reads as a field the team does not use rather than 108 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 108,
     "items": []
    },
    {
@@ -395,19 +395,19 @@
   "end": "2026-11-08",
   "goal": "",
   "items": 59,
-  "items_done": 5,
+  "items_done": 6,
   "committed": 70,
   "final": 70,
-  "completed": 8,
+  "completed": 10,
   "scope_change": 0,
-  "vs_commitment": 11,
+  "vs_commitment": 14,
   "time_elapsed": 0,
   "spill": {
-   "open_items": 27,
-   "open_pts": 61.0,
+   "open_items": 26,
+   "open_pts": 59.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 0
+   "done_pts": 2.0
   },
   "recv": {
    "items": 0,
@@ -417,21 +417,20 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 9,
+   "In Progress": 6,
    "Backlog": 8,
    "Ready for Development": 4,
-   "In Progress": 6,
+   "To Do": 8,
    "In Development": 3,
    "In Stage": 11,
-   "Done": 11,
-   "PR Merged": 1,
+   "Done": 12,
+   "Ready Prod": 2,
    "WAITING REVIEW": 1,
-   "Closed": 4,
-   "Ready Prod": 1
+   "Closed": 4
   },
   "burn": [
    60.0,
-   60.0
+   58.0
   ],
   "scope": [
    68.0,
@@ -439,7 +438,7 @@
   ],
   "ghost": [
    62.0,
-   62.0
+   60.0
   ],
   "days": 13,
   "day": 1
@@ -457,8 +456,8 @@
   "end": "2026-11-22",
   "day": 1,
   "days": 28,
-  "closed": 10,
-  "points": 27,
+  "closed": 12,
+  "points": 31,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -477,8 +476,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 29,
-    "med_age": 11.9,
+    "open": 32,
+    "med_age": 11.8,
     "max_age": 46.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -509,67 +508,55 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 690
-   },
-   {
-    "status": "PR Merged",
-    "open": 8,
-    "med_age": 5.0,
-    "max_age": 6.3,
-    "worst_key": "PLANS-22699",
-    "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 656
+    "clear_n": 683
    },
    {
     "status": "In Development",
-    "open": 11,
-    "med_age": 2.9,
+    "open": 13,
+    "med_age": 2.8,
     "max_age": 12.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 646
+    "clear_n": 640
+   },
+   {
+    "status": "PR Merged",
+    "open": 4,
+    "med_age": 2.0,
+    "max_age": 6.3,
+    "worst_key": "PLANS-22685",
+    "worst_sum": "[1.2.W1] Add ExpiredWindowRefundRequest to the shared WellfitStatistic transaction types",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 656
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 1.6,
+    "med_age": 1.7,
     "max_age": 17.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 16
+    "clear_med": 0.1,
+    "clear_n": 14
    },
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 3.7,
-    "max_age": 3.7,
+    "med_age": 3.8,
+    "max_age": 3.8,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 22
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
    },
    {
     "status": "Ready for Stage",
@@ -582,13 +569,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
    }
   ],
   "parked": {
-   "Backlog": 184,
+   "Backlog": 183,
    "On Hold": 2
   },
-  "open_total": 114,
+  "open_total": 115,
   "stale": 37,
   "worst": "Ready for Development"
  }
