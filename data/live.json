@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T08:15:38Z",
+ "generated": "2026-10-26T08:51:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -567,8 +567,8 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 11.5,
-    "max_age": 46.2,
+    "med_age": 11.6,
+    "max_age": 46.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -591,7 +591,7 @@
    {
     "status": "PR Created",
     "open": 16,
-    "med_age": 4.1,
+    "med_age": 4.2,
     "max_age": 6.0,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -602,7 +602,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 7,
+    "open": 5,
     "med_age": 6.0,
     "max_age": 6.0,
     "worst_key": "PLANS-22699",
@@ -610,7 +610,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.1,
-    "clear_n": 690
+    "clear_n": 692
+   },
+   {
+    "status": "In Development",
+    "open": 10,
+    "med_age": 2.6,
+    "max_age": 11.9,
+    "worst_key": "PLANS-24223",
+    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 679
    },
    {
     "status": "WAITING REVIEW",
@@ -623,18 +635,6 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 16
-   },
-   {
-    "status": "In Development",
-    "open": 7,
-    "med_age": 2.9,
-    "max_age": 11.8,
-    "worst_key": "PLANS-24223",
-    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 679
    },
    {
     "status": "In PreProd",
@@ -675,9 +675,9 @@
   ],
   "parked": {
    "On Hold": 1,
-   "Backlog": 151
+   "Backlog": 150
   },
-  "open_total": 108,
+  "open_total": 109,
   "stale": 38,
   "worst": "Ready for Development"
  }
