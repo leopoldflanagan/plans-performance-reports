@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T15:29:05Z",
+ "generated": "2026-10-26T15:54:28Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -54,15 +54,15 @@
   "too_early": false,
   "day": 1,
   "days": 13,
-  "n": 17,
+  "n": 21,
   "done_now": 8,
   "committed": 70,
-  "lo": 31,
-  "mid": 37,
+  "lo": 33,
+  "mid": 58,
   "hi": 99,
-  "pct": 53,
-  "verdict": "well short of the commitment",
-  "share_mid": 0.216
+  "pct": 83,
+  "verdict": "a little short of the commitment",
+  "share_mid": 0.139
  },
  "admin": {
   "scope": {
@@ -394,7 +394,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 58,
+  "items": 59,
   "items_done": 5,
   "committed": 70,
   "final": 70,
@@ -417,14 +417,14 @@
   },
   "spill_rate": null,
   "dist": {
+   "To Do": 9,
    "Backlog": 8,
    "Ready for Development": 4,
-   "To Do": 8,
    "In Progress": 6,
    "In Development": 3,
    "In Stage": 11,
    "Done": 11,
-   "PR Created": 1,
+   "PR Merged": 1,
    "WAITING REVIEW": 1,
    "Closed": 4,
    "Ready Prod": 1
@@ -457,12 +457,12 @@
   "end": "2026-11-22",
   "day": 1,
   "days": 28,
-  "closed": 8,
-  "points": 21,
+  "closed": 10,
+  "points": 27,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 1,
+  "people_active": 2,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -478,8 +478,8 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 11.8,
-    "max_age": 46.5,
+    "med_age": 11.9,
+    "max_age": 46.6,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -497,12 +497,12 @@
     "worst_who": "Chris Rubio",
     "over": 12,
     "clear_med": 2.7,
-    "clear_n": 424
+    "clear_n": 423
    },
    {
     "status": "PR Created",
-    "open": 21,
-    "med_age": 4.0,
+    "open": 20,
+    "med_age": 4.1,
     "max_age": 6.3,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -513,27 +513,27 @@
    },
    {
     "status": "PR Merged",
-    "open": 8,
-    "med_age": 5.0,
+    "open": 9,
+    "med_age": 3.8,
     "max_age": 6.3,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 656
+    "clear_n": 655
    },
    {
     "status": "In Development",
     "open": 10,
     "med_age": 3.0,
-    "max_age": 12.1,
+    "max_age": 12.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 647
+    "clear_n": 646
    },
    {
     "status": "WAITING REVIEW",
@@ -585,8 +585,8 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 182
+   "Backlog": 183,
+   "On Hold": 2
   },
   "open_total": 113,
   "stale": 37,
