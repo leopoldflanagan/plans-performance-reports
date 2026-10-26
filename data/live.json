@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T19:37:19Z",
+ "generated": "2026-10-26T20:06:15Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -401,7 +401,7 @@
   "completed": 10,
   "scope_change": 0,
   "vs_commitment": 14,
-  "time_elapsed": 1,
+  "time_elapsed": 2,
   "spill": {
    "open_items": 26,
    "open_pts": 59.0,
@@ -456,8 +456,8 @@
   "end": "2026-11-22",
   "day": 1,
   "days": 28,
-  "closed": 18,
-  "points": 51,
+  "closed": 20,
+  "points": 56,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -488,7 +488,7 @@
    },
    {
     "status": "In Stage",
-    "open": 36,
+    "open": 34,
     "med_age": 5.2,
     "max_age": 17.9,
     "worst_key": "PLANS-23770",
@@ -496,7 +496,7 @@
     "worst_who": "Chris Rubio",
     "over": 13,
     "clear_med": 2.7,
-    "clear_n": 426
+    "clear_n": 427
    },
    {
     "status": "PR Created",
@@ -508,12 +508,12 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 681
+    "clear_n": 680
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 1.8,
+    "med_age": 1.9,
     "max_age": 18.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -544,7 +544,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 637
+    "clear_n": 636
    },
    {
     "status": "PR Merged",
@@ -556,19 +556,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 654
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 653
    },
    {
     "status": "In QA",
@@ -581,13 +569,25 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 183,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 184
   },
-  "open_total": 113,
+  "open_total": 111,
   "stale": 38,
   "worst": "Ready for Development"
  }
