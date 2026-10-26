@@ -9,19 +9,19 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 12,
+  "closed": 15,
   "discarded": 0,
-  "resolved": 12,
+  "resolved": 15,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    8
+    10
    ],
    [
     "Bug",
-    4
+    5
    ]
   ],
   "sprints": [
@@ -33,11 +33,11 @@
   "day": 26,
   "days": 28,
   "status": "risk",
-  "headline": "12 items closed in the first 26 days, a pace of about 13 for the month against 388 last month. Running 97% behind last month's pace.",
+  "headline": "15 items closed in the first 26 days, a pace of about 16 for the month against 388 last month. Running 96% behind last month's pace.",
   "notes": [
-   "running 97% behind last month's pace",
+   "running 96% behind last month's pace",
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 21.1d and average 34.1d, both past the healthy band"
+   "cycle time median 21.1d and average 35.5d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -46,14 +46,14 @@
    "Oct 26",
    "Nov 9",
    313,
-   4,
+   6,
    221,
    221,
-   13,
+   23,
    0,
    [
     219.0,
-    208.0
+    198.0
    ],
    [
     219.0,
@@ -83,12 +83,12 @@
  "SPILL": {
   "LL-Sprint 25-26": {
    "done": [
-    4,
-    13
+    6,
+    23
    ],
    "open": [
-    157,
-    196
+    155,
+    186
    ],
    "out": [
     0,
@@ -162,8 +162,8 @@
      "med": 13.64
     },
     "Ready Prod": {
-     "n": 4,
-     "med": 13.6
+     "n": 6,
+     "med": 13.59
     },
     "PR Created": {
      "n": 2,
@@ -187,16 +187,16 @@
     "Ready for Development": 10,
     "Done": 31,
     "In Progress": 17,
-    "In Stage": 33,
+    "In Stage": 31,
     "In PreProd": 1,
-    "Ready Prod": 4,
+    "Ready Prod": 6,
     "Backlog": 108,
     "PR Created": 2,
     "In Testing": 1,
     "On Hold": 2,
     "In Development": 2
    },
-   "stalled": 309,
+   "stalled": 307,
    "worst": 13.64,
    "worstSt": "To Do",
    "items": 313
@@ -273,7 +273,7 @@
  "GHOST": {
   "LL-Sprint 25-26": [
    219.0,
-   208.0
+   198.0
   ],
   "Plans-Sprint 25-26": [
    62.0,
@@ -282,20 +282,20 @@
  },
  "CAP": {
   "9.10": [
-   12,
-   11,
-   31,
-   2
+   15,
+   14,
+   43,
+   3
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 21.11,
-   "avg": 34.13,
-   "n": 10,
-   "mx": 80.29,
+   "med": 21.12,
+   "avg": 35.47,
+   "n": 13,
+   "mx": 82.2,
    "nodev": 2,
-   "base": 12
+   "base": 15
   }
  },
  "complete": false,
