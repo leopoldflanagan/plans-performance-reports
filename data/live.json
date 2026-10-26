@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T04:08:08Z",
+ "generated": "2026-10-26T04:44:39Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "completed": 265,
   "scope_change": 113,
   "vs_commitment": 113,
-  "time_elapsed": 99,
+  "time_elapsed": 100,
   "spill": {
    "open_items": 163,
    "open_pts": 212.0,
@@ -639,8 +639,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 3.2,
-    "max_age": 3.2,
+    "med_age": 3.3,
+    "max_age": 3.3,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
