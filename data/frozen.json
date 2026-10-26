@@ -3427,12 +3427,13 @@
    "start": "2026-10-26",
    "end": "2026-11-22",
    "sprints": [
-    "LL-Sprint 25-26"
+    "LL-Sprint 25-26",
+    "LL-Sprint 26-26"
    ],
    "weeks": 4,
    "closed": null,
    "per_sprint": null,
-   "n_sprints": 1
+   "n_sprints": 2
   }
  },
  "SP_BY_RELEASE": {

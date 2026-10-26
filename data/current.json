@@ -4,52 +4,183 @@
   "slug": "2026-r910",
   "label": "Release 9.10",
   "short": "9.10",
-  "n_sprints": 1,
+  "n_sprints": 2,
   "start": "2026-10-26",
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": null,
-  "closed": 0,
+  "closed": 7,
   "discarded": 0,
-  "resolved": 0,
+  "resolved": 7,
   "unplanned": null,
   "unp_pct": null,
-  "types": [],
-  "sprints": [],
+  "types": [
+   [
+    "Story",
+    5
+   ],
+   [
+    "Bug",
+    2
+   ]
+  ],
+  "sprints": [
+   "LL-Sprint 25-26"
+  ],
   "unp_items": [],
   "open": true,
   "day": 26,
   "days": 28,
-  "status": "warning",
-  "headline": "0 items closed in the first 26 days. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "status": "risk",
+  "headline": "7 items closed in the first 26 days. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
-   "the Unplanned label was not applied, so reactive work cannot be measured"
+   "the Unplanned label was not applied, so reactive work cannot be measured",
+   "cycle time median 21.1d and average 17.0d, both past the healthy band"
   ]
  },
- "SPRINTS": [],
- "SPILL": {},
- "SPLIT": {},
- "TIS": {},
- "GHOST": {},
+ "SPRINTS": [
+  [
+   "LL-Sprint 25-26",
+   "Oct 26",
+   "Nov 9",
+   308,
+   0,
+   219,
+   219,
+   0,
+   0,
+   [
+    219.0,
+    219.0
+   ],
+   [
+    219.0,
+    219.0
+   ]
+  ]
+ ],
+ "SPILL": {
+  "LL-Sprint 25-26": {
+   "done": [
+    0,
+    0
+   ],
+   "open": [
+    159,
+    207
+   ],
+   "out": [
+    0,
+    0
+   ],
+   "in": [
+    3,
+    9
+   ],
+   "in_pct": 4,
+   "in_from": "Plans-Sprint 24-26"
+  }
+ },
+ "SPLIT": {
+  "LL-Sprint 25-26": null
+ },
+ "TIS": {
+  "LL-Sprint 25-26": {
+   "tis": {
+    "In Progress": {
+     "n": 22,
+     "med": 13.64
+    },
+    "To Do": {
+     "n": 100,
+     "med": 13.64
+    },
+    "PR Merged": {
+     "n": 1,
+     "med": 13.64
+    },
+    "In Stage": {
+     "n": 36,
+     "med": 13.64
+    },
+    "In PreProd": {
+     "n": 1,
+     "med": 13.64
+    },
+    "Done": {
+     "n": 25,
+     "med": 13.64
+    },
+    "Backlog": {
+     "n": 108,
+     "med": 13.64
+    },
+    "PR Created": {
+     "n": 2,
+     "med": 13.64
+    },
+    "Ready for Development": {
+     "n": 8,
+     "med": 13.64
+    },
+    "In Testing": {
+     "n": 1,
+     "med": 13.64
+    },
+    "On Hold": {
+     "n": 2,
+     "med": 13.64
+    },
+    "In Development": {
+     "n": 2,
+     "med": 13.64
+    }
+   },
+   "dist": {
+    "In Progress": 22,
+    "To Do": 100,
+    "PR Merged": 1,
+    "In Stage": 36,
+    "In PreProd": 1,
+    "Done": 25,
+    "Backlog": 108,
+    "PR Created": 2,
+    "Ready for Development": 8,
+    "In Testing": 1,
+    "On Hold": 2,
+    "In Development": 2
+   },
+   "stalled": 308,
+   "worst": 13.64,
+   "worstSt": "In Progress",
+   "items": 308
+  }
+ },
+ "GHOST": {
+  "LL-Sprint 25-26": [
+   219.0,
+   219.0
+  ]
+ },
  "CAP": {
   "9.10": [
-   0,
-   0,
-   0,
-   0
+   7,
+   6,
+   16,
+   1
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 0,
-   "avg": 0,
-   "n": 0,
-   "mx": 0,
-   "nodev": 0,
-   "base": 0
+   "med": 21.11,
+   "avg": 16.99,
+   "n": 5,
+   "mx": 21.12,
+   "nodev": 2,
+   "base": 7
   }
  },
  "complete": false,
  "kind": "release",
- "n_sprints": 1
+ "n_sprints": 2
 }
