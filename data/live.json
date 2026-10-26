@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T06:13:04Z",
+ "generated": "2026-10-26T07:06:23Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -584,14 +584,14 @@
     "worst_key": "PLANS-23995",
     "worst_sum": "PLANS-23995: Story 1.3: Manage Preferences - CSP & WF Pay: Record WellfitPay preference ch",
     "worst_who": "Nazarii  Polinyk",
-    "over": 9,
+    "over": 14,
     "clear_med": 2.7,
     "clear_n": 456
    },
    {
     "status": "PR Created",
-    "open": 15,
-    "med_age": 4.3,
+    "open": 16,
+    "med_age": 4.1,
     "max_age": 5.9,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -613,18 +613,6 @@
     "clear_n": 690
    },
    {
-    "status": "In Development",
-    "open": 8,
-    "med_age": 2.8,
-    "max_age": 11.7,
-    "worst_key": "PLANS-24223",
-    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 678
-   },
-   {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 10.2,
@@ -637,10 +625,22 @@
     "clear_n": 16
    },
    {
+    "status": "In Development",
+    "open": 7,
+    "med_age": 2.8,
+    "max_age": 11.8,
+    "worst_key": "PLANS-24223",
+    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 679
+   },
+   {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 3.3,
-    "max_age": 3.3,
+    "med_age": 3.4,
+    "max_age": 3.4,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -674,11 +674,11 @@
    }
   ],
   "parked": {
-   "Backlog": 151,
-   "On Hold": 1
+   "On Hold": 1,
+   "Backlog": 151
   },
   "open_total": 108,
-  "stale": 33,
+  "stale": 38,
   "worst": "Ready for Development"
  }
 }
