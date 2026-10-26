@@ -150,8 +150,8 @@
      "med": 13.64
     },
     "In Development": {
-     "n": 4,
-     "med": 13.58
+     "n": 5,
+     "med": 13.53
     },
     "PR Merged": {
      "n": 3,
@@ -186,10 +186,10 @@
     "To Do": 101,
     "Ready for Development": 9,
     "Done": 36,
-    "In Development": 3,
+    "In Development": 4,
     "In Progress": 13,
     "Ready Prod": 11,
-    "In Stage": 26,
+    "In Stage": 25,
     "In PreProd": 1,
     "Backlog": 108,
     "PR Merged": 1,

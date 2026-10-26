@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T20:06:15Z",
+ "generated": "2026-10-26T20:39:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -478,7 +478,7 @@
     "status": "Ready for Development",
     "open": 31,
     "med_age": 11.9,
-    "max_age": 46.7,
+    "max_age": 46.8,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -488,13 +488,13 @@
    },
    {
     "status": "In Stage",
-    "open": 34,
+    "open": 33,
     "med_age": 5.2,
     "max_age": 17.9,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
-    "over": 13,
+    "over": 12,
     "clear_med": 2.7,
     "clear_n": 427
    },
@@ -502,13 +502,13 @@
     "status": "PR Created",
     "open": 21,
     "med_age": 3.3,
-    "max_age": 6.4,
+    "max_age": 6.5,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 680
+    "clear_n": 679
    },
    {
     "status": "WAITING REVIEW",
@@ -536,27 +536,27 @@
    },
    {
     "status": "In Development",
-    "open": 15,
+    "open": 16,
     "med_age": 0.2,
-    "max_age": 12.3,
+    "max_age": 12.4,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 636
+    "clear_n": 635
    },
    {
     "status": "PR Merged",
     "open": 5,
     "med_age": 0.4,
-    "max_age": 6.4,
+    "max_age": 6.5,
     "worst_key": "PLANS-22685",
     "worst_sum": "[1.2.W1] Add ExpiredWindowRefundRequest to the shared WellfitStatistic transaction types",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 653
+    "clear_n": 652
    },
    {
     "status": "In QA",
@@ -584,11 +584,11 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 184
+   "Backlog": 185,
+   "On Hold": 2
   },
   "open_total": 111,
-  "stale": 38,
+  "stale": 37,
   "worst": "Ready for Development"
  }
 }
