@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T19:07:31Z",
+ "generated": "2026-10-26T19:37:19Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -484,37 +484,37 @@
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
-    "clear_n": 239
+    "clear_n": 236
    },
    {
     "status": "In Stage",
     "open": 36,
-    "med_age": 5.1,
-    "max_age": 17.8,
+    "med_age": 5.2,
+    "max_age": 17.9,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
     "over": 13,
     "clear_med": 2.7,
-    "clear_n": 427
+    "clear_n": 426
    },
    {
     "status": "PR Created",
     "open": 21,
-    "med_age": 3.2,
+    "med_age": 3.3,
     "max_age": 6.4,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 682
+    "clear_n": 681
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 1.8,
-    "max_age": 18.0,
+    "max_age": 18.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -544,19 +544,19 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 639
+    "clear_n": 637
    },
    {
     "status": "PR Merged",
     "open": 5,
-    "med_age": 0.3,
+    "med_age": 0.4,
     "max_age": 6.4,
     "worst_key": "PLANS-22685",
     "worst_sum": "[1.2.W1] Add ExpiredWindowRefundRequest to the shared WellfitStatistic transaction types",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 655
+    "clear_n": 654
    },
    {
     "status": "Ready for Stage",
@@ -584,8 +584,8 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 182
+   "Backlog": 183,
+   "On Hold": 2
   },
   "open_total": 113,
   "stale": 38,
