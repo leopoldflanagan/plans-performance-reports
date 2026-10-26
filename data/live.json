@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T17:06:02Z",
+ "generated": "2026-10-26T17:37:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 46,
-    "points": 87,
+    "n": 45,
+    "points": 86,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 79,
+   "ready": 78,
    "sprint": 33,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 53,
+    "n": 52,
     "items": [
      {
       "key": "PLANS-24801",
@@ -133,10 +133,6 @@
      {
       "key": "PLANS-24799",
       "summary": "SGDP - The legal text displayed on the website does not match the legal text con"
-     },
-     {
-      "key": "PLANS-24795",
-      "summary": "Blocker-Stage-PMP-Wallet QR scan not working for Apple wallet, it worked on Andr"
      },
      {
       "key": "PLANS-24789",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24621",
       "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
+     },
+     {
+      "key": "PLANS-24585",
+      "summary": "KOS portal uses static footer instead of shared dynamic footer"
      }
     ]
    },
@@ -311,14 +311,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 101 of 108 items. This reads as a field the team does not use rather than 101 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 101,
+    "why": "missing on 100 of 107 items. This reads as a field the team does not use rather than 100 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 100,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 108 of 108 items. This reads as a field the team does not use rather than 108 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 108,
+    "why": "missing on 107 of 107 items. This reads as a field the team does not use rather than 107 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 107,
     "items": []
    },
    {
@@ -476,7 +476,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 32,
+    "open": 31,
     "med_age": 11.8,
     "max_age": 46.6,
     "worst_key": "PLANS-22675",
@@ -484,13 +484,13 @@
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
-    "clear_n": 238
+    "clear_n": 239
    },
    {
     "status": "In Stage",
     "open": 39,
-    "med_age": 5.0,
-    "max_age": 17.7,
+    "med_age": 5.1,
+    "max_age": 17.8,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
@@ -509,18 +509,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 680
-   },
-   {
-    "status": "In Development",
-    "open": 13,
-    "med_age": 2.8,
-    "max_age": 12.2,
-    "worst_key": "PLANS-24223",
-    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 637
    },
    {
     "status": "PR Merged",
@@ -559,16 +547,16 @@
     "clear_n": 22
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
+    "status": "In Development",
+    "open": 16,
+    "med_age": 0.2,
+    "max_age": 12.2,
+    "worst_key": "PLANS-24223",
+    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 637
    },
    {
     "status": "Ready for Stage",
@@ -581,13 +569,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
    }
   ],
   "parked": {
-   "Backlog": 184,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 182
   },
-  "open_total": 114,
+  "open_total": 116,
   "stale": 37,
   "worst": "Ready for Development"
  }
