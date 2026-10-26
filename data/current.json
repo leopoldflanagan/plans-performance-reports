@@ -217,7 +217,7 @@
      "med": 12.6
     },
     "Ready for Development": {
-     "n": 4,
+     "n": 5,
      "med": 12.6
     },
     "In Development": {
@@ -256,10 +256,10 @@
    "dist": {
     "In Progress": 6,
     "Backlog": 8,
-    "Ready for Development": 4,
+    "Ready for Development": 5,
     "To Do": 8,
     "In Development": 3,
-    "In Stage": 11,
+    "In Stage": 10,
     "Done": 12,
     "Ready Prod": 2,
     "WAITING REVIEW": 1,
