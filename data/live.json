@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T15:54:28Z",
+ "generated": "2026-10-26T16:09:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -501,7 +501,7 @@
    },
    {
     "status": "PR Created",
-    "open": 20,
+    "open": 21,
     "med_age": 4.1,
     "max_age": 6.3,
     "worst_key": "PLANS-22695",
@@ -513,20 +513,20 @@
    },
    {
     "status": "PR Merged",
-    "open": 9,
-    "med_age": 3.8,
+    "open": 8,
+    "med_age": 5.0,
     "max_age": 6.3,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 655
+    "clear_n": 656
    },
    {
     "status": "In Development",
-    "open": 10,
-    "med_age": 3.0,
+    "open": 11,
+    "med_age": 2.9,
     "max_age": 12.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -585,10 +585,10 @@
    }
   ],
   "parked": {
-   "Backlog": 183,
+   "Backlog": 184,
    "On Hold": 2
   },
-  "open_total": 113,
+  "open_total": 114,
   "stale": 37,
   "worst": "Ready for Development"
  }
