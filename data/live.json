@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T10:09:12Z",
+ "generated": "2026-10-26T10:40:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -590,21 +590,21 @@
    },
    {
     "status": "PR Created",
-    "open": 17,
-    "med_age": 3.8,
-    "max_age": 6.0,
+    "open": 16,
+    "med_age": 4.2,
+    "max_age": 6.1,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 725
+    "clear_n": 726
    },
    {
     "status": "PR Merged",
-    "open": 5,
-    "med_age": 6.0,
-    "max_age": 6.0,
+    "open": 6,
+    "med_age": 6.1,
+    "max_age": 6.1,
     "worst_key": "PLANS-22699",
     "worst_sum": "[2.3.W1] Reject direct past-window refunds at the Plans API",
     "worst_who": "Mykyta  Moroz",
@@ -615,7 +615,7 @@
    {
     "status": "In Development",
     "open": 10,
-    "med_age": 2.7,
+    "med_age": 2.8,
     "max_age": 11.9,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -627,7 +627,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 10.3,
+    "med_age": 10.4,
     "max_age": 17.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -674,8 +674,8 @@
    }
   ],
   "parked": {
-   "On Hold": 1,
-   "Backlog": 149
+   "Backlog": 149,
+   "On Hold": 1
   },
   "open_total": 110,
   "stale": 39,
