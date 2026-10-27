@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T19:33:02Z",
+ "generated": "2026-10-27T20:05:17Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -390,7 +390,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 66,
+  "items": 67,
   "items_done": 8,
   "committed": 70,
   "final": 72,
@@ -413,12 +413,13 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Progress": 12,
-   "To Do": 8,
-   "In Development": 6,
+   "To Do": 9,
+   "In Progress": 11,
+   "PR Created": 1,
+   "In Development": 5,
+   "Done": 13,
    "In Stage": 9,
    "Ready Prod": 4,
-   "Done": 12,
    "Ready for Development": 3,
    "Backlog": 7,
    "WAITING REVIEW": 1,
@@ -477,7 +478,7 @@
     "status": "Ready for Development",
     "open": 28,
     "med_age": 12.9,
-    "max_age": 46.2,
+    "max_age": 46.3,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -488,8 +489,8 @@
    {
     "status": "In Stage",
     "open": 27,
-    "med_age": 6.1,
-    "max_age": 18.8,
+    "med_age": 6.2,
+    "max_age": 18.9,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
@@ -499,7 +500,7 @@
    },
    {
     "status": "PR Created",
-    "open": 20,
+    "open": 21,
     "med_age": 1.4,
     "max_age": 7.1,
     "worst_key": "PLANS-24433",
@@ -511,15 +512,15 @@
    },
    {
     "status": "In Development",
-    "open": 16,
-    "med_age": 0.8,
+    "open": 15,
+    "med_age": 0.9,
     "max_age": 13.3,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 619
+    "clear_n": 620
    },
    {
     "status": "WAITING REVIEW",
@@ -583,8 +584,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 195
+   "Backlog": 195,
+   "On Hold": 3
   },
   "open_total": 101,
   "stale": 41,
