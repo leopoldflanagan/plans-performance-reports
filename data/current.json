@@ -150,8 +150,8 @@
      "med": 13.64
     },
     "In Development": {
-     "n": 5,
-     "med": 0.67
+     "n": 6,
+     "med": 6.71
     },
     "PR Created": {
      "n": 5,
@@ -185,17 +185,17 @@
    "dist": {
     "Done": 43,
     "To Do": 95,
-    "Ready for Development": 9,
+    "In Development": 3,
     "In Stage": 24,
     "In Progress": 15,
     "Ready Prod": 14,
     "In PreProd": 1,
     "Backlog": 108,
     "PR Merged": 1,
+    "Ready for Development": 8,
     "In Testing": 1,
     "On Hold": 2,
-    "PR Created": 1,
-    "In Development": 2
+    "PR Created": 1
    },
    "stalled": 302,
    "worst": 13.64,
