@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T03:42:28Z",
+ "generated": "2026-10-27T04:06:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -363,6 +363,24 @@
     "why": "neither Jira nor the capacity page records one, so delivery can only be measured in points.",
     "n": 1,
     "items": []
+   },
+   {
+    "rule": "Release 9.06 has two different windows on the schedule",
+    "why": "the feature-freeze column gives 2026-06-22 to 2026-07-26 and the dev-window column gives 2026-06-22 to 2026-08-02. The calendar keeps what it already had; the page needs one of the two corrected.",
+    "n": 1,
+    "items": []
+   },
+   {
+    "rule": "Release 9.07 has two different windows on the schedule",
+    "why": "the feature-freeze column gives 2026-07-27 to 2026-08-23 and the dev-window column gives 2026-08-03 to 2026-08-30. The calendar keeps what it already had; the page needs one of the two corrected.",
+    "n": 1,
+    "items": []
+   },
+   {
+    "rule": "Release 9.08 has two different windows on the schedule",
+    "why": "the feature-freeze column gives 2026-08-24 to 2026-09-27 and the dev-window column gives 2026-08-31 to 2026-09-27. The calendar keeps what it already had; the page needs one of the two corrected.",
+    "n": 1,
+    "items": []
    }
   ]
  },
@@ -505,7 +523,7 @@
     "status": "In Development",
     "open": 16,
     "med_age": 0.5,
-    "max_age": 12.6,
+    "max_age": 12.7,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -538,18 +556,6 @@
     "clear_n": 652
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -560,6 +566,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
