@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T02:45:03Z",
+ "generated": "2026-10-27T03:08:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -487,7 +487,7 @@
     "status": "In Stage",
     "open": 29,
     "med_age": 5.5,
-    "max_age": 18.1,
+    "max_age": 18.2,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
@@ -556,18 +556,6 @@
     "clear_n": 652
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -578,11 +566,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 183
+   "Backlog": 183,
+   "On Hold": 2
   },
   "open_total": 110,
   "stale": 37,
