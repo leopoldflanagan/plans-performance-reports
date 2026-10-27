@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T23:35:09Z",
+ "generated": "2026-10-27T00:14:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 1,
+  "day": 2,
   "days": 13,
   "n": 21,
   "done_now": 10,
   "committed": 70,
-  "lo": 41,
-  "mid": 72,
-  "hi": 124,
-  "pct": 103,
-  "verdict": "on track for the commitment",
-  "share_mid": 0.139
+  "lo": 36,
+  "mid": 38,
+  "hi": 61,
+  "pct": 54,
+  "verdict": "well short of the commitment",
+  "share_mid": 0.266
  },
  "admin": {
   "scope": {
@@ -438,7 +438,7 @@
    60.0
   ],
   "days": 13,
-  "day": 1
+  "day": 2
  },
  "next": {
   "name": "LL-Sprint 26-26",
@@ -451,7 +451,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 1,
+  "day": 2,
   "days": 28,
   "closed": 23,
   "points": 70,
@@ -474,7 +474,7 @@
    {
     "status": "Ready for Development",
     "open": 33,
-    "med_age": 12.0,
+    "med_age": 12.1,
     "max_age": 46.9,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
@@ -486,7 +486,7 @@
    {
     "status": "In Stage",
     "open": 29,
-    "med_age": 5.3,
+    "med_age": 5.4,
     "max_age": 18.0,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
@@ -498,7 +498,7 @@
    {
     "status": "PR Created",
     "open": 22,
-    "med_age": 3.3,
+    "med_age": 3.4,
     "max_age": 6.6,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
@@ -510,8 +510,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 1.9,
-    "max_age": 18.2,
+    "med_age": 2.0,
+    "max_age": 18.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -581,8 +581,8 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 183
+   "Backlog": 183,
+   "On Hold": 2
   },
   "open_total": 110,
   "stale": 37,
