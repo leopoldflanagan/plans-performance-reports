@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T03:08:04Z",
+ "generated": "2026-10-27T03:42:28Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -363,24 +363,6 @@
     "why": "neither Jira nor the capacity page records one, so delivery can only be measured in points.",
     "n": 1,
     "items": []
-   },
-   {
-    "rule": "Release 9.06 has two different windows on the schedule",
-    "why": "the feature-freeze column gives 2026-06-22 to 2026-07-26 and the dev-window column gives 2026-06-22 to 2026-08-02. The calendar keeps what it already had; the page needs one of the two corrected.",
-    "n": 1,
-    "items": []
-   },
-   {
-    "rule": "Release 9.07 has two different windows on the schedule",
-    "why": "the feature-freeze column gives 2026-07-27 to 2026-08-23 and the dev-window column gives 2026-08-03 to 2026-08-30. The calendar keeps what it already had; the page needs one of the two corrected.",
-    "n": 1,
-    "items": []
-   },
-   {
-    "rule": "Release 9.08 has two different windows on the schedule",
-    "why": "the feature-freeze column gives 2026-08-24 to 2026-09-27 and the dev-window column gives 2026-08-31 to 2026-09-27. The calendar keeps what it already had; the page needs one of the two corrected.",
-    "n": 1,
-    "items": []
    }
   ]
  },
@@ -475,7 +457,7 @@
     "status": "Ready for Development",
     "open": 33,
     "med_age": 12.2,
-    "max_age": 47.0,
+    "max_age": 47.1,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -499,7 +481,7 @@
     "status": "PR Created",
     "open": 22,
     "med_age": 3.5,
-    "max_age": 6.7,
+    "max_age": 6.8,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
@@ -547,7 +529,7 @@
     "status": "PR Merged",
     "open": 5,
     "med_age": 0.7,
-    "max_age": 6.7,
+    "max_age": 6.8,
     "worst_key": "PLANS-22685",
     "worst_sum": "[1.2.W1] Add ExpiredWindowRefundRequest to the shared WellfitStatistic transaction types",
     "worst_who": "Mykyta  Moroz",
@@ -581,8 +563,8 @@
    }
   ],
   "parked": {
-   "Backlog": 183,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 183
   },
   "open_total": 110,
   "stale": 37,
