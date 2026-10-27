@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T09:07:51Z",
+ "generated": "2026-10-27T09:40:20Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -474,18 +474,18 @@
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 12.4,
+    "med_age": 12.5,
     "max_age": 47.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
-    "clear_n": 238
+    "clear_n": 237
    },
    {
     "status": "In Stage",
-    "open": 29,
+    "open": 31,
     "med_age": 5.7,
     "max_age": 18.4,
     "worst_key": "PLANS-23770",
@@ -505,25 +505,25 @@
     "worst_who": "Mykyta  Moroz",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 680
+    "clear_n": 682
    },
    {
     "status": "In Development",
-    "open": 17,
-    "med_age": 0.7,
+    "open": 15,
+    "med_age": 0.8,
     "max_age": 12.9,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 639
+    "clear_n": 641
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 2.4,
-    "max_age": 18.6,
+    "max_age": 18.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -541,7 +541,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 653
+    "clear_n": 655
    },
    {
     "status": "In PreProd",
@@ -581,8 +581,8 @@
    }
   ],
   "parked": {
-   "Backlog": 183,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 183
   },
   "open_total": 109,
   "stale": 41,
