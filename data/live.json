@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T09:40:20Z",
+ "generated": "2026-10-27T10:06:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -486,8 +486,8 @@
    {
     "status": "In Stage",
     "open": 31,
-    "med_age": 5.7,
-    "max_age": 18.4,
+    "med_age": 5.8,
+    "max_age": 18.5,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
@@ -534,7 +534,7 @@
    {
     "status": "PR Merged",
     "open": 5,
-    "med_age": 0.9,
+    "med_age": 1.0,
     "max_age": 7.0,
     "worst_key": "PLANS-22685",
     "worst_sum": "[1.2.W1] Add ExpiredWindowRefundRequest to the shared WellfitStatistic transaction types",
@@ -581,8 +581,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 183
+   "Backlog": 183,
+   "On Hold": 3
   },
   "open_total": 109,
   "stale": 41,
