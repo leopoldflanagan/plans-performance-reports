@@ -9,19 +9,19 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 27,
+  "closed": 29,
   "discarded": 0,
-  "resolved": 27,
+  "resolved": 29,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
-    "Bug",
-    14
+    "Story",
+    15
    ],
    [
-    "Story",
-    13
+    "Bug",
+    14
    ]
   ],
   "sprints": [
@@ -33,11 +33,11 @@
   "day": 27,
   "days": 28,
   "status": "risk",
-  "headline": "27 items closed in the first 27 days, a pace of about 28 for the month against 388 last month. Running 93% behind last month's pace.",
+  "headline": "29 items closed in the first 27 days, a pace of about 30 for the month against 388 last month. Running 92% behind last month's pace.",
   "notes": [
-   "running 93% behind last month's pace",
+   "running 92% behind last month's pace",
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 11.9d and average 24.7d, both past the healthy band"
+   "cycle time median 11.9d and average 23.4d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -67,15 +67,15 @@
    "Oct 26",
    "Nov 8",
    66,
-   6,
+   8,
    70,
    72,
-   10,
+   14,
    3,
    [
     60.0,
     58.0,
-    60.0
+    56.0
    ],
    [
     68.0,
@@ -107,12 +107,12 @@
   },
   "Plans-Sprint 25-26": {
    "done": [
-    6,
-    2
+    8,
+    6
    ],
    "open": [
-    27,
-    61
+    25,
+    57
    ],
    "out": [
     0,
@@ -257,13 +257,13 @@
      "n": 13,
      "med": 12.6
     },
+    "Ready Prod": {
+     "n": 4,
+     "med": 12.02
+    },
     "Done": {
      "n": 12,
      "med": 12.6
-    },
-    "Ready Prod": {
-     "n": 2,
-     "med": 12.59
     },
     "WAITING REVIEW": {
      "n": 1,
@@ -278,15 +278,15 @@
     "In Progress": 12,
     "To Do": 8,
     "In Development": 6,
-    "In Stage": 11,
+    "In Stage": 9,
+    "Ready Prod": 4,
     "Done": 12,
     "Ready for Development": 3,
-    "Ready Prod": 2,
     "Backlog": 7,
     "WAITING REVIEW": 1,
     "Closed": 4
    },
-   "stalled": 60,
+   "stalled": 58,
    "worst": 12.6,
    "worstSt": "To Do",
    "items": 66
@@ -301,25 +301,25 @@
   "Plans-Sprint 25-26": [
    62.0,
    60.0,
-   62.0
+   58.0
   ]
  },
  "CAP": {
   "9.10": [
+   29,
    27,
-   25,
-   77,
-   5
+   81,
+   6
   ]
  },
  "CYC": {
   "9.10": {
    "med": 11.94,
-   "avg": 24.74,
-   "n": 23,
+   "avg": 23.43,
+   "n": 25,
    "mx": 82.2,
    "nodev": 4,
-   "base": 27
+   "base": 29
   }
  },
  "complete": false,
