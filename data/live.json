@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T20:32:52Z",
+ "generated": "2026-10-27T21:03:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 43,
-    "points": 82,
+    "n": 44,
+    "points": 83,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,19 +55,19 @@
   "day": 2,
   "days": 13,
   "n": 21,
-  "done_now": 14,
+  "done_now": 17,
   "committed": 70,
-  "lo": 50,
-  "mid": 53,
-  "hi": 85,
-  "pct": 76,
-  "verdict": "well short of the commitment",
+  "lo": 61,
+  "mid": 64,
+  "hi": 103,
+  "pct": 91,
+  "verdict": "a little short of the commitment",
   "share_mid": 0.266
  },
  "admin": {
   "scope": {
-   "ready": 76,
-   "sprint": 34,
+   "ready": 77,
+   "sprint": 35,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 50,
+    "n": 51,
     "items": [
+     {
+      "key": "PLANS-24860",
+      "summary": "Stage/PMP/EssentialSmiles/Member ID is not displayed in Plan Card PDF"
+     },
      {
       "key": "PLANS-24847",
       "summary": "Production - Sellability/Accept for the Org continues to turn on"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24536",
       "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
-     },
-     {
-      "key": "PLANS-24519",
-      "summary": "Production - Android User/Edge Search Browser for One Smile "
      }
     ]
    },
@@ -197,7 +197,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 7,
+    "n": 4,
     "items": [
      {
       "key": "PLANS-24585",
@@ -210,18 +210,6 @@
      {
       "key": "PLANS-15928",
       "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
-     },
-     {
-      "key": "PLANS-24654",
-      "summary": "[5.4.W2] Verify opt-out, plan deletion and renewal through another channel durin"
-     },
-     {
-      "key": "PLANS-24653",
-      "summary": "[5.3.W2] Verify retry exhaustion on stage, and that the member can still renew a"
-     },
-     {
-      "key": "PLANS-24652",
-      "summary": "[5.2.W2] Verify retry success on Day 3 and Day 7 on stage, with one charge"
      },
      {
       "key": "PLANS-24651",
@@ -307,14 +295,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 100 of 107 items. This reads as a field the team does not use rather than 100 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 100,
+    "why": "missing on 102 of 109 items. This reads as a field the team does not use rather than 102 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 102,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 107 of 107 items. This reads as a field the team does not use rather than 107 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 107,
+    "why": "missing on 109 of 109 items. This reads as a field the team does not use rather than 109 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 109,
     "items": []
    },
    {
@@ -390,20 +378,20 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 67,
-  "items_done": 8,
+  "items": 70,
+  "items_done": 9,
   "committed": 70,
-  "final": 72,
-  "completed": 14,
-  "scope_change": 3,
-  "vs_commitment": 20,
+  "final": 74,
+  "completed": 17,
+  "scope_change": 6,
+  "vs_commitment": 24,
   "time_elapsed": 10,
   "spill": {
    "open_items": 25,
-   "open_pts": 57.0,
+   "open_pts": 56.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 6.0
+   "done_pts": 9.0
   },
   "recv": {
    "items": 0,
@@ -413,13 +401,13 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 9,
    "In Progress": 11,
-   "PR Created": 1,
-   "In Development": 5,
-   "Done": 13,
-   "In Stage": 9,
-   "Ready Prod": 4,
+   "To Do": 10,
+   "In Development": 6,
+   "Done": 14,
+   "PR Merged": 1,
+   "In Stage": 8,
+   "Ready Prod": 5,
    "Ready for Development": 3,
    "Backlog": 7,
    "WAITING REVIEW": 1,
@@ -428,17 +416,17 @@
   "burn": [
    60.0,
    58.0,
-   56.0
+   55.0
   ],
   "scope": [
    68.0,
    68.0,
-   70.0
+   72.0
   ],
   "ghost": [
    62.0,
    60.0,
-   58.0
+   57.0
   ],
   "days": 13,
   "day": 2
@@ -456,8 +444,8 @@
   "end": "2026-11-22",
   "day": 2,
   "days": 28,
-  "closed": 31,
-  "points": 85,
+  "closed": 32,
+  "points": 88,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -476,8 +464,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 28,
-    "med_age": 13.0,
+    "open": 29,
+    "med_age": 12.9,
     "max_age": 46.3,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
@@ -488,7 +476,7 @@
    },
    {
     "status": "In Stage",
-    "open": 27,
+    "open": 26,
     "med_age": 6.2,
     "max_age": 18.9,
     "worst_key": "PLANS-23770",
@@ -496,25 +484,25 @@
     "worst_who": "Chris Rubio",
     "over": 11,
     "clear_med": 3.0,
-    "clear_n": 423
+    "clear_n": 424
    },
    {
     "status": "PR Created",
-    "open": 20,
+    "open": 19,
     "med_age": 1.4,
-    "max_age": 7.1,
+    "max_age": 7.2,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 658
+    "clear_n": 659
    },
    {
     "status": "In Development",
-    "open": 15,
-    "med_age": 0.9,
-    "max_age": 13.3,
+    "open": 16,
+    "med_age": 0.8,
+    "max_age": 13.4,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -537,8 +525,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 4.9,
-    "max_age": 4.9,
+    "med_age": 5.0,
+    "max_age": 5.0,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -548,8 +536,8 @@
    },
    {
     "status": "PR Merged",
-    "open": 3,
-    "med_age": 1.2,
+    "open": 4,
+    "med_age": 0.7,
     "max_age": 1.4,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
@@ -557,18 +545,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 633
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
    },
    {
     "status": "Ready for Stage",
@@ -581,13 +557,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 198
+   "Backlog": 196,
+   "On Hold": 3
   },
-  "open_total": 99,
+  "open_total": 100,
   "stale": 41,
   "worst": "Ready for Development"
  }
