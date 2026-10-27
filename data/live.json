@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T14:07:50Z",
+ "generated": "2026-10-27T14:42:22Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
-    "points": 87,
+    "n": 42,
+    "points": 82,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 77,
+   "ready": 75,
    "sprint": 33,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,16 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 49,
     "items": [
-     {
-      "key": "PLANS-24789",
-      "summary": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims ad"
-     },
-     {
-      "key": "PLANS-24788",
-      "summary": "ARD for WT-1022"
-     },
      {
       "key": "PLANS-24631",
       "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
@@ -157,6 +149,14 @@
      {
       "key": "PLANS-24536",
       "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
+     },
+     {
+      "key": "PLANS-24519",
+      "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
+     {
+      "key": "PLANS-24518",
+      "summary": "Configurations for Website not working"
      }
     ]
    },
@@ -390,14 +390,14 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 60,
+  "items": 62,
   "items_done": 6,
   "committed": 70,
   "final": 70,
   "completed": 10,
   "scope_change": 0,
   "vs_commitment": 14,
-  "time_elapsed": 7,
+  "time_elapsed": 8,
   "spill": {
    "open_items": 26,
    "open_pts": 59.0,
@@ -413,13 +413,13 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Progress": 7,
-   "In Development": 3,
-   "Ready for Development": 5,
+   "In Progress": 9,
+   "In Development": 5,
    "To Do": 8,
    "PR Created": 1,
    "In Stage": 10,
    "Done": 12,
+   "Ready for Development": 3,
    "Ready Prod": 2,
    "Backlog": 7,
    "WAITING REVIEW": 1,
@@ -473,19 +473,19 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 29,
-    "med_age": 12.6,
+    "open": 27,
+    "med_age": 12.8,
     "max_age": 46.0,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 24,
     "clear_med": 0.7,
-    "clear_n": 234
+    "clear_n": 236
    },
    {
     "status": "In Stage",
-    "open": 30,
+    "open": 31,
     "med_age": 5.9,
     "max_age": 18.6,
     "worst_key": "PLANS-23770",
@@ -509,8 +509,8 @@
    },
    {
     "status": "In Development",
-    "open": 15,
-    "med_age": 0.9,
+    "open": 19,
+    "med_age": 0.7,
     "max_age": 13.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -523,7 +523,7 @@
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 2.6,
-    "max_age": 18.8,
+    "max_age": 18.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -545,27 +545,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 4,
-    "med_age": 1.0,
+    "open": 3,
+    "med_age": 1.2,
     "max_age": 4.7,
     "worst_key": "PLANS-22705",
     "worst_sum": "[3.2.W2] Build the past-window refund dialog with permitted and escalation branches",
     "worst_who": "Oleksandr Terletskyy",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 634
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
+    "clear_n": 635
    },
    {
     "status": "Ready for Stage",
@@ -578,13 +566,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 196,
+   "Backlog": 194,
    "On Hold": 3
   },
-  "open_total": 105,
+  "open_total": 107,
   "stale": 42,
   "worst": "Ready for Development"
  }
