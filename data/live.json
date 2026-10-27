@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T08:08:40Z",
+ "generated": "2026-10-27T08:44:39Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 47,
+    "n": 45,
     "points": 88,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 80,
+   "ready": 78,
    "sprint": 33,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,16 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 13,
+    "n": 11,
     "items": [
-     {
-      "key": "PLANS-24812",
-      "summary": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL"
-     },
-     {
-      "key": "PLANS-24801",
-      "summary": "Euler CSP Setting"
-     },
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
@@ -107,6 +99,14 @@
      {
       "key": "PLANS-11253",
       "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
+     },
+     {
+      "key": "PLANS-11252",
+      "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
+     },
+     {
+      "key": "PLANS-11249",
+      "summary": "Blocked DYN 265 > WFPLNS > Discount Plan 2 Individuals> CRM email child turning "
      }
     ]
    },
@@ -124,16 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 54,
+    "n": 52,
     "items": [
-     {
-      "key": "PLANS-24812",
-      "summary": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL"
-     },
-     {
-      "key": "PLANS-24801",
-      "summary": "Euler CSP Setting"
-     },
      {
       "key": "PLANS-24799",
       "summary": "SGDP - The legal text displayed on the website does not match the legal text con"
@@ -157,6 +149,14 @@
      {
       "key": "PLANS-24621",
       "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
+     },
+     {
+      "key": "PLANS-24585",
+      "summary": "KOS portal uses static footer instead of shared dynamic footer"
+     },
+     {
+      "key": "PLANS-24546",
+      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
      }
     ]
    },
@@ -269,16 +269,8 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 73,
+    "n": 71,
     "items": [
-     {
-      "key": "PLANS-24812",
-      "summary": "SMS \\ Activation link displays the full URL instead of a shortened TinyURL"
-     },
-     {
-      "key": "PLANS-24801",
-      "summary": "Euler CSP Setting"
-     },
      {
       "key": "PLANS-24631",
       "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
@@ -302,19 +294,27 @@
      {
       "key": "PLANS-24536",
       "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
+     },
+     {
+      "key": "PLANS-24519",
+      "summary": "Production - Android User/Edge Search Browser for One Smile "
+     },
+     {
+      "key": "PLANS-24478",
+      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price - CONFIG ISS"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 101 of 108 items. This reads as a field the team does not use rather than 101 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 101,
+    "why": "missing on 99 of 106 items. This reads as a field the team does not use rather than 99 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 99,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 108 of 108 items. This reads as a field the team does not use rather than 108 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 108,
+    "why": "missing on 106 of 106 items. This reads as a field the team does not use rather than 106 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 106,
     "items": []
    },
    {
@@ -473,15 +473,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 33,
+    "open": 31,
     "med_age": 12.4,
-    "max_age": 47.2,
+    "max_age": 47.3,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
-    "clear_n": 236
+    "clear_n": 238
    },
    {
     "status": "In Stage",
@@ -509,9 +509,9 @@
    },
    {
     "status": "In Development",
-    "open": 16,
+    "open": 18,
     "med_age": 0.7,
-    "max_age": 12.8,
+    "max_age": 12.9,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -581,8 +581,8 @@
    }
   ],
   "parked": {
-   "Backlog": 183,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 183
   },
   "open_total": 110,
   "stale": 41,
