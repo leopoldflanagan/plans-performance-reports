@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T16:34:50Z",
+ "generated": "2026-10-27T17:04:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -390,7 +390,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 65,
+  "items": 66,
   "items_done": 6,
   "committed": 70,
   "final": 72,
@@ -413,7 +413,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 8,
+   "To Do": 9,
    "In Progress": 11,
    "In Development": 6,
    "In Stage": 11,
@@ -455,7 +455,7 @@
   "end": "2026-11-22",
   "day": 2,
   "days": 28,
-  "closed": 25,
+  "closed": 26,
   "points": 72,
   "unplanned": null,
   "unplanned_pct": null,
@@ -499,20 +499,20 @@
    },
    {
     "status": "PR Created",
-    "open": 21,
-    "med_age": 1.4,
-    "max_age": 7.3,
-    "worst_key": "PLANS-22695",
-    "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
-    "worst_who": "Mykyta  Moroz",
-    "over": 4,
+    "open": 20,
+    "med_age": 1.3,
+    "max_age": 7.0,
+    "worst_key": "PLANS-24433",
+    "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
+    "worst_who": "Ivan Yarymovych",
+    "over": 3,
     "clear_med": 0.0,
     "clear_n": 662
    },
    {
     "status": "In Development",
-    "open": 20,
-    "med_age": 0.6,
+    "open": 19,
+    "med_age": 0.8,
     "max_age": 13.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -523,9 +523,9 @@
    },
    {
     "status": "WAITING REVIEW",
-    "open": 4,
-    "med_age": 2.6,
-    "max_age": 18.9,
+    "open": 5,
+    "med_age": 1.1,
+    "max_age": 19.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -558,18 +558,6 @@
     "clear_n": 637
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -580,14 +568,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 193,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 193
   },
-  "open_total": 109,
-  "stale": 43,
+  "open_total": 108,
+  "stale": 42,
   "worst": "Ready for Development"
  }
 }

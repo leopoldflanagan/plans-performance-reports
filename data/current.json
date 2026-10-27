@@ -9,19 +9,19 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 25,
+  "closed": 26,
   "discarded": 0,
-  "resolved": 25,
+  "resolved": 26,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
-    "Story",
+    "Bug",
     13
    ],
    [
-    "Bug",
-    12
+    "Story",
+    13
    ]
   ],
   "sprints": [
@@ -33,7 +33,7 @@
   "day": 27,
   "days": 28,
   "status": "risk",
-  "headline": "25 items closed in the first 27 days, a pace of about 26 for the month against 388 last month. Running 93% behind last month's pace.",
+  "headline": "26 items closed in the first 27 days, a pace of about 27 for the month against 388 last month. Running 93% behind last month's pace.",
   "notes": [
    "running 93% behind last month's pace",
    "the Unplanned label was not applied, so reactive work cannot be measured",
@@ -66,7 +66,7 @@
    "Plans-Sprint 25-26",
    "Oct 26",
    "Nov 8",
-   65,
+   66,
    6,
    70,
    72,
@@ -91,12 +91,12 @@
     52
    ],
    "open": [
-    149,
-    166
+    148,
+    165
    ],
    "out": [
-    0,
-    0
+    1,
+    1
    ],
    "in": [
     3,
@@ -163,7 +163,7 @@
     },
     "In Development": {
      "n": 9,
-     "med": 0.67
+     "med": 0.53
     },
     "Backlog": {
      "n": 110,
@@ -180,6 +180,10 @@
     "PR Merged": {
      "n": 6,
      "med": 0.02
+    },
+    "WAITING REVIEW": {
+     "n": 1,
+     "med": 12.54
     },
     "In Stage": {
      "n": 41,
@@ -203,7 +207,8 @@
     "Done": 44,
     "On Hold": 3,
     "Closed": 1,
-    "In Development": 4,
+    "In Development": 3,
+    "WAITING REVIEW": 1,
     "In Stage": 24,
     "PR Created": 2,
     "Ready Prod": 15,
@@ -221,7 +226,7 @@
   "Plans-Sprint 25-26": {
    "tis": {
     "To Do": {
-     "n": 14,
+     "n": 15,
      "med": 12.6
     },
     "In Progress": {
@@ -270,7 +275,7 @@
     }
    },
    "dist": {
-    "To Do": 8,
+    "To Do": 9,
     "In Progress": 11,
     "In Development": 6,
     "In Stage": 11,
@@ -281,10 +286,10 @@
     "WAITING REVIEW": 1,
     "Closed": 4
    },
-   "stalled": 59,
+   "stalled": 60,
    "worst": 12.6,
    "worstSt": "To Do",
-   "items": 65
+   "items": 66
   }
  },
  "GHOST": {
@@ -301,7 +306,7 @@
  },
  "CAP": {
   "9.10": [
-   25,
+   26,
    24,
    72,
    5
@@ -313,8 +318,8 @@
    "avg": 24.89,
    "n": 22,
    "mx": 82.2,
-   "nodev": 3,
-   "base": 25
+   "nodev": 4,
+   "base": 26
   }
  },
  "complete": false,
