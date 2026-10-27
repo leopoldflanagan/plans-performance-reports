@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T12:49:25Z",
+ "generated": "2026-10-27T13:11:06Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -475,7 +475,7 @@
     "status": "Ready for Development",
     "open": 29,
     "med_age": 12.6,
-    "max_age": 45.9,
+    "max_age": 46.0,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -499,7 +499,7 @@
     "status": "PR Created",
     "open": 22,
     "med_age": 4.0,
-    "max_age": 7.1,
+    "max_age": 7.2,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
@@ -510,7 +510,7 @@
    {
     "status": "In Development",
     "open": 15,
-    "med_age": 0.8,
+    "med_age": 0.9,
     "max_age": 13.0,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -522,7 +522,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 2.5,
+    "med_age": 2.6,
     "max_age": 18.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -535,7 +535,7 @@
     "status": "PR Merged",
     "open": 5,
     "med_age": 1.1,
-    "max_age": 7.1,
+    "max_age": 7.2,
     "worst_key": "PLANS-22685",
     "worst_sum": "[1.2.W1] Add ExpiredWindowRefundRequest to the shared WellfitStatistic transaction types",
     "worst_who": "Mykyta  Moroz",
@@ -581,8 +581,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 195
+   "Backlog": 195,
+   "On Hold": 3
   },
   "open_total": 107,
   "stale": 40,
