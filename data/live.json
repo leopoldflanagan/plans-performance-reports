@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T05:39:19Z",
+ "generated": "2026-10-27T06:10:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -475,7 +475,7 @@
     "status": "Ready for Development",
     "open": 33,
     "med_age": 12.3,
-    "max_age": 47.1,
+    "max_age": 47.2,
     "worst_key": "PLANS-22675",
     "worst_sum": "Unify Font's in the Plans Widget Checkout Screen",
     "worst_who": "unassigned",
@@ -499,13 +499,13 @@
     "status": "PR Created",
     "open": 22,
     "med_age": 3.7,
-    "max_age": 6.8,
+    "max_age": 6.9,
     "worst_key": "PLANS-22695",
     "worst_sum": "[2.1.W1] Branch past-window refund actions on the manual-refund permission",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 679
+    "clear_n": 680
    },
    {
     "status": "In Development",
@@ -517,7 +517,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 636
+    "clear_n": 638
    },
    {
     "status": "WAITING REVIEW",
@@ -547,25 +547,13 @@
     "status": "PR Merged",
     "open": 5,
     "med_age": 0.8,
-    "max_age": 6.8,
+    "max_age": 6.9,
     "worst_key": "PLANS-22685",
     "worst_sum": "[1.2.W1] Add ExpiredWindowRefundRequest to the shared WellfitStatistic transaction types",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 652
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
+    "clear_n": 653
    },
    {
     "status": "Ready for Stage",
@@ -578,11 +566,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
    }
   ],
   "parked": {
-   "Backlog": 183,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 183
   },
   "open_total": 110,
   "stale": 37,
