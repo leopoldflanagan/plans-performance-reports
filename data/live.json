@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T14:42:22Z",
+ "generated": "2026-10-27T15:07:15Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -416,7 +416,7 @@
    "In Progress": 9,
    "In Development": 5,
    "To Do": 8,
-   "PR Created": 1,
+   "PR Merged": 1,
    "In Stage": 10,
    "Done": 12,
    "Ready for Development": 3,
@@ -486,8 +486,8 @@
    {
     "status": "In Stage",
     "open": 31,
-    "med_age": 5.9,
-    "max_age": 18.6,
+    "med_age": 6.0,
+    "max_age": 18.7,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
@@ -497,7 +497,7 @@
    },
    {
     "status": "PR Created",
-    "open": 22,
+    "open": 23,
     "med_age": 4.0,
     "max_age": 7.2,
     "worst_key": "PLANS-22695",
@@ -505,19 +505,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 660
+    "clear_n": 661
    },
    {
     "status": "In Development",
-    "open": 19,
-    "med_age": 0.7,
+    "open": 17,
+    "med_age": 0.9,
     "max_age": 13.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 619
+    "clear_n": 621
    },
    {
     "status": "WAITING REVIEW",
@@ -545,8 +545,8 @@
    },
    {
     "status": "PR Merged",
-    "open": 3,
-    "med_age": 1.2,
+    "open": 4,
+    "med_age": 1.1,
     "max_age": 4.7,
     "worst_key": "PLANS-22705",
     "worst_sum": "[3.2.W2] Build the past-window refund dialog with permitted and escalation branches",
