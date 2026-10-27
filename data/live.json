@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T19:04:08Z",
+ "generated": "2026-10-27T19:33:02Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 2,
   "days": 13,
   "n": 21,
-  "done_now": 12,
+  "done_now": 14,
   "committed": 70,
-  "lo": 43,
-  "mid": 45,
-  "hi": 73,
-  "pct": 64,
+  "lo": 50,
+  "mid": 53,
+  "hi": 85,
+  "pct": 76,
   "verdict": "well short of the commitment",
   "share_mid": 0.266
  },
@@ -391,19 +391,19 @@
   "end": "2026-11-08",
   "goal": "",
   "items": 66,
-  "items_done": 7,
+  "items_done": 8,
   "committed": 70,
   "final": 72,
-  "completed": 12,
+  "completed": 14,
   "scope_change": 3,
-  "vs_commitment": 17,
+  "vs_commitment": 20,
   "time_elapsed": 9,
   "spill": {
-   "open_items": 26,
-   "open_pts": 59.0,
+   "open_items": 25,
+   "open_pts": 57.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 4.0
+   "done_pts": 6.0
   },
   "recv": {
    "items": 0,
@@ -416,8 +416,8 @@
    "In Progress": 12,
    "To Do": 8,
    "In Development": 6,
-   "In Stage": 10,
-   "Ready Prod": 3,
+   "In Stage": 9,
+   "Ready Prod": 4,
    "Done": 12,
    "Ready for Development": 3,
    "Backlog": 7,
@@ -427,7 +427,7 @@
   "burn": [
    60.0,
    58.0,
-   58.0
+   56.0
   ],
   "scope": [
    68.0,
@@ -437,7 +437,7 @@
   "ghost": [
    62.0,
    60.0,
-   60.0
+   58.0
   ],
   "days": 13,
   "day": 2
@@ -455,12 +455,12 @@
   "end": "2026-11-22",
   "day": 2,
   "days": 28,
-  "closed": 28,
-  "points": 79,
+  "closed": 31,
+  "points": 85,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 5,
+  "people_active": 6,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -481,21 +481,21 @@
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
-    "over": 24,
+    "over": 25,
     "clear_med": 0.7,
     "clear_n": 236
    },
    {
     "status": "In Stage",
-    "open": 30,
+    "open": 27,
     "med_age": 6.1,
     "max_age": 18.8,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
-    "over": 13,
-    "clear_med": 2.9,
-    "clear_n": 421
+    "over": 11,
+    "clear_med": 3.0,
+    "clear_n": 424
    },
    {
     "status": "PR Created",
@@ -512,7 +512,7 @@
    {
     "status": "In Development",
     "open": 16,
-    "med_age": 0.7,
+    "med_age": 0.8,
     "max_age": 13.3,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -525,7 +525,7 @@
     "status": "WAITING REVIEW",
     "open": 5,
     "med_age": 1.2,
-    "max_age": 19.0,
+    "max_age": 19.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -583,11 +583,11 @@
    }
   ],
   "parked": {
-   "Backlog": 195,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 195
   },
-  "open_total": 104,
-  "stale": 42,
+  "open_total": 101,
+  "stale": 41,
   "worst": "Ready for Development"
  }
 }
