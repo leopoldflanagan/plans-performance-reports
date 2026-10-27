@@ -227,10 +227,10 @@
    "tis": {
     "To Do": {
      "n": 18,
-     "med": 12.6
+     "med": 6.94
     },
     "In Progress": {
-     "n": 14,
+     "n": 15,
      "med": 11.64
     },
     "Backlog": {
@@ -275,8 +275,8 @@
     }
    },
    "dist": {
-    "In Progress": 11,
-    "To Do": 10,
+    "In Progress": 12,
+    "To Do": 9,
     "PR Created": 1,
     "Done": 14,
     "PR Merged": 1,
@@ -290,7 +290,7 @@
    },
    "stalled": 61,
    "worst": 12.6,
-   "worstSt": "To Do",
+   "worstSt": "Done",
    "items": 70
   }
  },
