@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T23:04:01Z",
+ "generated": "2026-10-27T23:33:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -385,7 +385,7 @@
   "completed": 17,
   "scope_change": 6,
   "vs_commitment": 24,
-  "time_elapsed": 10,
+  "time_elapsed": 11,
   "spill": {
    "open_items": 25,
    "open_pts": 56.0,
@@ -491,7 +491,7 @@
     "status": "PR Created",
     "open": 20,
     "med_age": 1.5,
-    "max_age": 7.2,
+    "max_age": 7.3,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
@@ -526,8 +526,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 5.0,
-    "max_age": 5.0,
+    "med_age": 5.1,
+    "max_age": 5.1,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -548,18 +548,6 @@
     "clear_n": 631
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -570,11 +558,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 196,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 196
   },
   "open_total": 99,
   "stale": 41,
