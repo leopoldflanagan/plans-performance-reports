@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T13:41:26Z",
+ "generated": "2026-10-27T14:07:50Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -453,8 +453,8 @@
   "end": "2026-11-22",
   "day": 2,
   "days": 28,
-  "closed": 24,
-  "points": 70,
+  "closed": 25,
+  "points": 71,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -479,21 +479,21 @@
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
-    "over": 22,
+    "over": 24,
     "clear_med": 0.7,
     "clear_n": 234
    },
    {
     "status": "In Stage",
-    "open": 31,
+    "open": 30,
     "med_age": 5.9,
     "max_age": 18.6,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
-    "over": 12,
+    "over": 13,
     "clear_med": 2.9,
-    "clear_n": 418
+    "clear_n": 419
    },
    {
     "status": "PR Created",
@@ -505,7 +505,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 661
+    "clear_n": 660
    },
    {
     "status": "In Development",
@@ -517,7 +517,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 620
+    "clear_n": 619
    },
    {
     "status": "WAITING REVIEW",
@@ -532,28 +532,28 @@
     "clear_n": 13
    },
    {
-    "status": "PR Merged",
-    "open": 5,
-    "med_age": 1.1,
-    "max_age": 7.2,
-    "worst_key": "PLANS-22685",
-    "worst_sum": "[1.2.W1] Add ExpiredWindowRefundRequest to the shared WellfitStatistic transaction types",
-    "worst_who": "Mykyta  Moroz",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 634
-   },
-   {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 4.6,
-    "max_age": 4.6,
+    "med_age": 4.7,
+    "max_age": 4.7,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 22
+   },
+   {
+    "status": "PR Merged",
+    "open": 4,
+    "med_age": 1.0,
+    "max_age": 4.7,
+    "worst_key": "PLANS-22705",
+    "worst_sum": "[3.2.W2] Build the past-window refund dialog with permitted and escalation branches",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 634
    },
    {
     "status": "In QA",
@@ -581,11 +581,11 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 195
+   "Backlog": 196,
+   "On Hold": 3
   },
-  "open_total": 107,
-  "stale": 40,
+  "open_total": 105,
+  "stale": 42,
   "worst": "Ready for Development"
  }
 }
