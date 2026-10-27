@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T20:05:17Z",
+ "generated": "2026-10-27T20:32:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -397,7 +397,7 @@
   "completed": 14,
   "scope_change": 3,
   "vs_commitment": 20,
-  "time_elapsed": 9,
+  "time_elapsed": 10,
   "spill": {
    "open_items": 25,
    "open_pts": 57.0,
@@ -477,14 +477,14 @@
    {
     "status": "Ready for Development",
     "open": 28,
-    "med_age": 12.9,
+    "med_age": 13.0,
     "max_age": 46.3,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 25,
     "clear_med": 0.7,
-    "clear_n": 236
+    "clear_n": 234
    },
    {
     "status": "In Stage",
@@ -496,11 +496,11 @@
     "worst_who": "Chris Rubio",
     "over": 11,
     "clear_med": 3.0,
-    "clear_n": 424
+    "clear_n": 423
    },
    {
     "status": "PR Created",
-    "open": 21,
+    "open": 20,
     "med_age": 1.4,
     "max_age": 7.1,
     "worst_key": "PLANS-24433",
@@ -508,7 +508,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 661
+    "clear_n": 658
    },
    {
     "status": "In Development",
@@ -520,7 +520,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 620
+    "clear_n": 617
    },
    {
     "status": "WAITING REVIEW",
@@ -548,15 +548,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 4,
+    "open": 3,
     "med_age": 1.2,
-    "max_age": 4.9,
-    "worst_key": "PLANS-22705",
-    "worst_sum": "[3.2.W2] Build the past-window refund dialog with permitted and escalation branches",
-    "worst_who": "Oleksandr Terletskyy",
+    "max_age": 1.4,
+    "worst_key": "PLANS-24702",
+    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 635
+    "clear_n": 633
    },
    {
     "status": "In QA",
@@ -584,10 +584,10 @@
    }
   ],
   "parked": {
-   "Backlog": 195,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 198
   },
-  "open_total": 101,
+  "open_total": 99,
   "stale": 41,
   "worst": "Ready for Development"
  }
