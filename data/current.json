@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 23,
+  "closed": 24,
   "discarded": 0,
-  "resolved": 23,
+  "resolved": 24,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    10
+    11
    ]
   ],
   "sprints": [
@@ -33,7 +33,7 @@
   "day": 27,
   "days": 28,
   "status": "risk",
-  "headline": "23 items closed in the first 27 days, a pace of about 24 for the month against 388 last month. Running 94% behind last month's pace.",
+  "headline": "24 items closed in the first 27 days, a pace of about 25 for the month against 388 last month. Running 94% behind last month's pace.",
   "notes": [
    "running 94% behind last month's pace",
    "the Unplanned label was not applied, so reactive work cannot be measured",
@@ -284,7 +284,7 @@
  },
  "CAP": {
   "9.10": [
-   23,
+   24,
    22,
    70,
    5
@@ -296,8 +296,8 @@
    "avg": 25.84,
    "n": 21,
    "mx": 82.2,
-   "nodev": 2,
-   "base": 23
+   "nodev": 3,
+   "base": 24
   }
  },
  "complete": false,
