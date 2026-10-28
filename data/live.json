@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T08:06:33Z",
+ "generated": "2026-10-28T08:35:21Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -385,7 +385,7 @@
   "completed": 17,
   "scope_change": 6,
   "vs_commitment": 24,
-  "time_elapsed": 13,
+  "time_elapsed": 14,
   "spill": {
    "open_items": 25,
    "open_pts": 56.0,
@@ -573,8 +573,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 195
+   "Backlog": 195,
+   "On Hold": 3
   },
   "open_total": 100,
   "stale": 41,
