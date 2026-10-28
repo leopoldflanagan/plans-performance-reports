@@ -234,6 +234,10 @@
      "n": 15,
      "med": 11.64
     },
+    "Done": {
+     "n": 15,
+     "med": 12.6
+    },
     "Backlog": {
      "n": 10,
      "med": 12.6
@@ -243,15 +247,11 @@
      "med": 11.64
     },
     "PR Created": {
-     "n": 4,
-     "med": 0.38
-    },
-    "Done": {
-     "n": 14,
-     "med": 12.6
+     "n": 5,
+     "med": 0.04
     },
     "PR Merged": {
-     "n": 3,
+     "n": 5,
      "med": 0.04
     },
     "Ready for Development": {
@@ -259,8 +259,8 @@
      "med": 12.35
     },
     "In Stage": {
-     "n": 13,
-     "med": 11.58
+     "n": 14,
+     "med": 11.13
     },
     "Ready Prod": {
      "n": 5,
@@ -276,13 +276,12 @@
     }
    },
    "dist": {
-    "In Progress": 12,
+    "Done": 15,
     "To Do": 9,
-    "PR Created": 1,
-    "Done": 14,
-    "PR Merged": 1,
-    "In Development": 6,
-    "In Stage": 7,
+    "PR Merged": 2,
+    "In Progress": 11,
+    "In Development": 5,
+    "In Stage": 8,
     "Ready Prod": 5,
     "Ready for Development": 3,
     "Backlog": 7,
