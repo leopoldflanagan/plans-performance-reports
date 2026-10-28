@@ -149,6 +149,10 @@
      "n": 11,
      "med": 13.64
     },
+    "In Development": {
+     "n": 10,
+     "med": 0.33
+    },
     "To Do": {
      "n": 113,
      "med": 13.64
@@ -168,10 +172,6 @@
     "Closed": {
      "n": 2,
      "med": 12.52
-    },
-    "In Development": {
-     "n": 9,
-     "med": 0.14
     },
     "PR Created": {
      "n": 8,
@@ -203,7 +203,7 @@
     }
    },
    "dist": {
-    "Ready for Development": 9,
+    "In Development": 3,
     "In Progress": 14,
     "Done": 50,
     "To Do": 95,
@@ -215,8 +215,8 @@
     "Ready Prod": 19,
     "In PreProd": 1,
     "In Stage": 19,
-    "In Testing": 1,
-    "In Development": 2
+    "Ready for Development": 8,
+    "In Testing": 1
    },
    "stalled": 307,
    "worst": 13.64,
