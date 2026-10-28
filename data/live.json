@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T07:33:00Z",
+ "generated": "2026-10-28T08:06:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -467,7 +467,7 @@
     "status": "Ready for Development",
     "open": 30,
     "med_age": 13.4,
-    "max_age": 46.7,
+    "max_age": 46.8,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -479,7 +479,7 @@
     "status": "In Stage",
     "open": 23,
     "med_age": 6.7,
-    "max_age": 19.3,
+    "max_age": 19.4,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
@@ -514,7 +514,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 3.3,
+    "med_age": 3.4,
     "max_age": 19.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
