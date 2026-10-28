@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T22:33:02Z",
+ "generated": "2026-10-28T23:04:19Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -446,8 +446,8 @@
   "end": "2026-11-22",
   "day": 3,
   "days": 28,
-  "closed": 47,
-  "points": 123,
+  "closed": 50,
+  "points": 134,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -478,19 +478,19 @@
    },
    {
     "status": "In Stage",
-    "open": 21,
+    "open": 18,
     "med_age": 7.3,
     "max_age": 20.0,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
-    "over": 16,
-    "clear_med": 2.7,
-    "clear_n": 430
+    "over": 13,
+    "clear_med": 2.9,
+    "clear_n": 433
    },
    {
     "status": "PR Created",
-    "open": 25,
+    "open": 26,
     "med_age": 2.4,
     "max_age": 8.2,
     "worst_key": "PLANS-24433",
@@ -504,13 +504,13 @@
     "status": "In Development",
     "open": 42,
     "med_age": 0.5,
-    "max_age": 14.4,
+    "max_age": 14.5,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 626
+    "clear_n": 627
    },
    {
     "status": "WAITING REVIEW",
@@ -575,10 +575,10 @@
   ],
   "parked": {
    "On Hold": 3,
-   "Backlog": 166
+   "Backlog": 165
   },
-  "open_total": 127,
-  "stale": 45,
+  "open_total": 125,
+  "stale": 42,
   "worst": "Ready for Development"
  }
 }
