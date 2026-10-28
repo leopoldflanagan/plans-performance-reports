@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T21:04:23Z",
+ "generated": "2026-10-28T21:33:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -468,7 +468,7 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 13.9,
+    "med_age": 14.0,
     "max_age": 47.3,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
@@ -486,20 +486,32 @@
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
     "over": 16,
-    "clear_med": 2.9,
-    "clear_n": 431
+    "clear_med": 2.8,
+    "clear_n": 429
    },
    {
     "status": "PR Created",
-    "open": 19,
-    "med_age": 2.4,
+    "open": 20,
+    "med_age": 2.3,
     "max_age": 8.2,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 667
+    "clear_n": 664
+   },
+   {
+    "status": "In Development",
+    "open": 46,
+    "med_age": 0.4,
+    "max_age": 14.4,
+    "worst_key": "PLANS-24223",
+    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 621
    },
    {
     "status": "WAITING REVIEW",
@@ -512,18 +524,6 @@
     "over": 1,
     "clear_med": 0.1,
     "clear_n": 16
-   },
-   {
-    "status": "In Development",
-    "open": 40,
-    "med_age": 0.4,
-    "max_age": 14.4,
-    "worst_key": "PLANS-24223",
-    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 622
    },
    {
     "status": "In PreProd",
@@ -547,7 +547,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 639
+    "clear_n": 636
    },
    {
     "status": "In QA",
@@ -575,10 +575,10 @@
    }
   ],
   "parked": {
-   "Backlog": 173,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 167
   },
-  "open_total": 120,
+  "open_total": 127,
   "stale": 45,
   "worst": "Ready for Development"
  }
