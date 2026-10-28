@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T14:05:15Z",
+ "generated": "2026-10-28T14:32:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -385,7 +385,7 @@
   "completed": 17,
   "scope_change": 6,
   "vs_commitment": 24,
-  "time_elapsed": 15,
+  "time_elapsed": 16,
   "spill": {
    "open_items": 25,
    "open_pts": 56.0,
@@ -465,7 +465,7 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 13.6,
+    "med_age": 13.7,
     "max_age": 47.0,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
@@ -489,7 +489,7 @@
    {
     "status": "PR Created",
     "open": 20,
-    "med_age": 2.0,
+    "med_age": 2.1,
     "max_age": 7.9,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
@@ -501,8 +501,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 3.5,
-    "max_age": 19.8,
+    "med_age": 3.6,
+    "max_age": 19.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
