@@ -249,28 +249,32 @@
      "med": 12.6
     },
     "In Development": {
-     "n": 10,
-     "med": 6.32
+     "n": 11,
+     "med": 2.02
     },
     "PR Created": {
-     "n": 6,
-     "med": 0.02
+     "n": 7,
+     "med": 0.01
     },
     "PR Merged": {
-     "n": 6,
-     "med": 0.05
+     "n": 7,
+     "med": 0.04
     },
     "In Stage": {
-     "n": 16,
-     "med": 2.0
+     "n": 17,
+     "med": 1.97
     },
     "Ready Prod": {
-     "n": 7,
-     "med": 11.46
+     "n": 8,
+     "med": 11.42
     },
     "Closed": {
      "n": 5,
      "med": 12.6
+    },
+    "In PreProd": {
+     "n": 1,
+     "med": 0.0
     },
     "WAITING REVIEW": {
      "n": 1,
@@ -284,11 +288,11 @@
     "In Stage": 7,
     "In Progress": 10,
     "In Development": 5,
-    "Ready Prod": 7,
-    "Closed": 5,
+    "Ready Prod": 8,
     "PR Merged": 1,
     "Backlog": 7,
-    "WAITING REVIEW": 1
+    "WAITING REVIEW": 1,
+    "Closed": 4
    },
    "stalled": 59,
    "worst": 12.6,
