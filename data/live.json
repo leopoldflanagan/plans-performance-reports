@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T18:05:44Z",
+ "generated": "2026-10-28T18:35:02Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
-    "points": 82,
+    "n": 45,
+    "points": 83,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 77,
+   "ready": 78,
    "sprint": 36,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 52,
     "items": [
+     {
+      "key": "PLANS-24869",
+      "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Custom Portal Purchases (E"
+     },
      {
       "key": "PLANS-24867",
       "summary": "ARD for WT-1190"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
-     },
-     {
-      "key": "PLANS-24546",
-      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
      }
     ]
    },
@@ -257,8 +257,12 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 71,
+    "n": 72,
     "items": [
+     {
+      "key": "PLANS-24869",
+      "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Custom Portal Purchases (E"
+     },
      {
       "key": "PLANS-24631",
       "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
@@ -286,23 +290,19 @@
      {
       "key": "PLANS-24519",
       "summary": "Production - Android User/Edge Search Browser for One Smile "
-     },
-     {
-      "key": "PLANS-24478",
-      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price - CONFIG ISS"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 103 of 110 items. This reads as a field the team does not use rather than 103 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 103,
+    "why": "missing on 104 of 111 items. This reads as a field the team does not use rather than 104 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 104,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 110 of 110 items. This reads as a field the team does not use rather than 110 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 110,
+    "why": "missing on 111 of 111 items. This reads as a field the team does not use rather than 111 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 111,
     "items": []
    },
    {
@@ -403,9 +403,9 @@
   "dist": {
    "Ready for Development": 3,
    "Done": 16,
-   "To Do": 9,
+   "In Progress": 12,
    "In Stage": 7,
-   "In Progress": 10,
+   "To Do": 7,
    "In Development": 5,
    "Ready Prod": 8,
    "PR Merged": 1,
@@ -467,7 +467,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 29,
+    "open": 30,
     "med_age": 13.8,
     "max_age": 47.2,
     "worst_key": "PLANS-22848",
@@ -493,13 +493,13 @@
     "status": "PR Created",
     "open": 19,
     "med_age": 2.3,
-    "max_age": 8.0,
+    "max_age": 8.1,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 665
+    "clear_n": 666
    },
    {
     "status": "WAITING REVIEW",
@@ -517,19 +517,19 @@
     "status": "In Development",
     "open": 40,
     "med_age": 0.3,
-    "max_age": 14.2,
+    "max_age": 14.3,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 621
+    "clear_n": 620
    },
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 5.8,
-    "max_age": 5.8,
+    "med_age": 5.9,
+    "max_age": 5.9,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -547,7 +547,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 636
+    "clear_n": 637
    },
    {
     "status": "Ready for Stage",
@@ -578,7 +578,7 @@
    "Backlog": 171,
    "On Hold": 3
   },
-  "open_total": 122,
+  "open_total": 123,
   "stale": 46,
   "worst": "Ready for Development"
  }

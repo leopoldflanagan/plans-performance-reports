@@ -45,23 +45,23 @@
    "LL-Sprint 25-26",
    "Oct 26",
    "Nov 9",
-   330,
+   331,
    25,
    229,
-   237,
+   238,
    79,
-   3,
+   4,
    [
     219.0,
     178.0,
     162.0,
-    158.0
+    159.0
    ],
    [
     219.0,
     229.0,
     234.0,
-    237.0
+    238.0
    ]
   ],
   [
@@ -95,8 +95,8 @@
     78
    ],
    "open": [
-    144,
-    146
+    145,
+    147
    ],
    "out": [
     0,
@@ -133,7 +133,7 @@
  "SPLIT": {
   "LL-Sprint 25-26": {
    "react": 0,
-   "plan": 5,
+   "plan": 6,
    "pct": 0
   },
   "Plans-Sprint 25-26": {
@@ -145,13 +145,13 @@
  "TIS": {
   "LL-Sprint 25-26": {
    "tis": {
+    "Backlog": {
+     "n": 113,
+     "med": 13.64
+    },
     "PR Created": {
      "n": 12,
      "med": 0.09
-    },
-    "Backlog": {
-     "n": 112,
-     "med": 13.64
     },
     "Ready for Development": {
      "n": 11,
@@ -207,10 +207,10 @@
     }
    },
    "dist": {
+    "Backlog": 110,
     "PR Created": 3,
     "Done": 52,
     "To Do": 95,
-    "Backlog": 109,
     "In Progress": 12,
     "On Hold": 3,
     "Closed": 3,
@@ -221,10 +221,10 @@
     "In Testing": 1,
     "In Development": 2
    },
-   "stalled": 305,
+   "stalled": 306,
    "worst": 13.64,
    "worstSt": "Ready for Development",
-   "items": 330
+   "items": 331
   },
   "Plans-Sprint 25-26": {
    "tis": {
@@ -234,11 +234,11 @@
     },
     "To Do": {
      "n": 18,
-     "med": 6.94
+     "med": 1.7
     },
     "In Progress": {
-     "n": 15,
-     "med": 11.64
+     "n": 17,
+     "med": 11.49
     },
     "Done": {
      "n": 16,
@@ -253,12 +253,12 @@
      "med": 2.02
     },
     "PR Created": {
-     "n": 7,
+     "n": 8,
      "med": 0.01
     },
     "PR Merged": {
-     "n": 7,
-     "med": 0.04
+     "n": 8,
+     "med": 0.05
     },
     "In Stage": {
      "n": 17,
@@ -284,9 +284,9 @@
    "dist": {
     "Ready for Development": 3,
     "Done": 16,
-    "To Do": 9,
+    "In Progress": 12,
     "In Stage": 7,
-    "In Progress": 10,
+    "To Do": 7,
     "In Development": 5,
     "Ready Prod": 8,
     "PR Merged": 1,
@@ -305,7 +305,7 @@
    219.0,
    178.0,
    162.0,
-   158.0
+   159.0
   ],
   "Plans-Sprint 25-26": [
    62.0,
