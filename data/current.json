@@ -258,7 +258,7 @@
     },
     "PR Merged": {
      "n": 8,
-     "med": 0.05
+     "med": 0.04
     },
     "In Stage": {
      "n": 17,
@@ -276,6 +276,10 @@
      "n": 1,
      "med": 0.0
     },
+    "In QA": {
+     "n": 1,
+     "med": 10.46
+    },
     "WAITING REVIEW": {
      "n": 1,
      "med": 12.6
@@ -289,7 +293,7 @@
     "To Do": 7,
     "In Development": 5,
     "Ready Prod": 8,
-    "PR Merged": 1,
+    "In QA": 1,
     "Backlog": 7,
     "WAITING REVIEW": 1,
     "Closed": 4
