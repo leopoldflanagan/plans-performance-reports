@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T10:05:13Z",
+ "generated": "2026-10-28T10:33:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -467,7 +467,7 @@
     "status": "Ready for Development",
     "open": 30,
     "med_age": 13.5,
-    "max_age": 46.8,
+    "max_age": 46.9,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
