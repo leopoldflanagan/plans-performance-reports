@@ -178,8 +178,8 @@
      "med": 0.09
     },
     "PR Merged": {
-     "n": 6,
-     "med": 0.02
+     "n": 7,
+     "med": 0.04
     },
     "WAITING REVIEW": {
      "n": 1,
@@ -210,8 +210,9 @@
     "Backlog": 109,
     "On Hold": 3,
     "Closed": 2,
-    "PR Created": 3,
+    "PR Merged": 1,
     "WAITING REVIEW": 1,
+    "PR Created": 2,
     "Ready Prod": 19,
     "In PreProd": 1,
     "In Stage": 19,
