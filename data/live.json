@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T00:51:57Z",
+ "generated": "2026-10-28T01:05:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -467,7 +467,7 @@
     "status": "Ready for Development",
     "open": 30,
     "med_age": 13.1,
-    "max_age": 46.4,
+    "max_age": 46.5,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -501,8 +501,8 @@
    },
    {
     "status": "In Development",
-    "open": 17,
-    "med_age": 0.8,
+    "open": 18,
+    "med_age": 0.7,
     "max_age": 13.5,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -573,10 +573,10 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 196
+   "Backlog": 195,
+   "On Hold": 3
   },
-  "open_total": 99,
+  "open_total": 100,
   "stale": 41,
   "worst": "Ready for Development"
  }
