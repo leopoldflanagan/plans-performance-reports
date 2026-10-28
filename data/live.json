@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T19:33:03Z",
+ "generated": "2026-10-28T20:05:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -469,7 +469,7 @@
     "status": "Ready for Development",
     "open": 30,
     "med_age": 13.9,
-    "max_age": 47.2,
+    "max_age": 47.3,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -479,15 +479,15 @@
    },
    {
     "status": "In Stage",
-    "open": 22,
-    "med_age": 7.1,
-    "max_age": 19.8,
+    "open": 21,
+    "med_age": 7.2,
+    "max_age": 19.9,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
     "over": 16,
     "clear_med": 3.0,
-    "clear_n": 428
+    "clear_n": 430
    },
    {
     "status": "PR Created",
@@ -499,7 +499,19 @@
     "worst_who": "Ivan Yarymovych",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 665
+    "clear_n": 666
+   },
+   {
+    "status": "In Development",
+    "open": 41,
+    "med_age": 0.4,
+    "max_age": 14.3,
+    "worst_key": "PLANS-24223",
+    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 620
    },
    {
     "status": "WAITING REVIEW",
@@ -512,18 +524,6 @@
     "over": 1,
     "clear_med": 0.1,
     "clear_n": 16
-   },
-   {
-    "status": "In Development",
-    "open": 40,
-    "med_age": 0.3,
-    "max_age": 14.3,
-    "worst_key": "PLANS-24223",
-    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 619
    },
    {
     "status": "In PreProd",
@@ -547,19 +547,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 637
-   },
-   {
-    "status": "In QA",
-    "open": 1,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24619",
-    "worst_sum": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not d",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
+    "clear_n": 638
    },
    {
     "status": "Ready for Stage",
@@ -572,6 +560,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24619",
+    "worst_sum": "CREG/Provider Portal/Plan Details opens the incorrect template (CREG Fee schedule is not d",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
