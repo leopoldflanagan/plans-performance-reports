@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T16:05:34Z",
+ "generated": "2026-10-28T16:33:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 3,
   "days": 13,
   "n": 21,
-  "done_now": 20,
+  "done_now": 23,
   "committed": 70,
-  "lo": 58,
-  "mid": 72,
-  "hi": 100,
-  "pct": 103,
+  "lo": 67,
+  "mid": 82,
+  "hi": 115,
+  "pct": 117,
   "verdict": "on track for the commitment",
   "share_mid": 0.28
  },
@@ -379,19 +379,19 @@
   "end": "2026-11-08",
   "goal": "",
   "items": 71,
-  "items_done": 11,
+  "items_done": 12,
   "committed": 70,
   "final": 76,
-  "completed": 20,
+  "completed": 23,
   "scope_change": 9,
-  "vs_commitment": 29,
+  "vs_commitment": 33,
   "time_elapsed": 16,
   "spill": {
-   "open_items": 24,
-   "open_pts": 55.0,
+   "open_items": 23,
+   "open_pts": 52.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 12.0
+   "done_pts": 15.0
   },
   "recv": {
    "items": 0,
@@ -404,10 +404,10 @@
    "Ready for Development": 3,
    "Done": 16,
    "To Do": 9,
-   "In Stage": 8,
+   "In Stage": 7,
    "In Progress": 10,
    "In Development": 5,
-   "Ready Prod": 6,
+   "Ready Prod": 7,
    "Closed": 5,
    "PR Merged": 1,
    "Backlog": 7,
@@ -417,7 +417,7 @@
    60.0,
    58.0,
    52.0,
-   54.0
+   51.0
   ],
   "scope": [
    68.0,
@@ -429,7 +429,7 @@
    62.0,
    60.0,
    54.0,
-   56.0
+   53.0
   ],
   "days": 13,
   "day": 3
@@ -447,12 +447,12 @@
   "end": "2026-11-22",
   "day": 3,
   "days": 28,
-  "closed": 40,
-  "points": 111,
+  "closed": 41,
+  "points": 114,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 9,
+  "people_active": 10,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -493,7 +493,7 @@
     "status": "PR Created",
     "open": 20,
     "med_age": 2.2,
-    "max_age": 7.9,
+    "max_age": 8.0,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
@@ -503,15 +503,15 @@
    },
    {
     "status": "WAITING REVIEW",
-    "open": 4,
-    "med_age": 3.6,
+    "open": 3,
+    "med_age": 5.3,
     "max_age": 19.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.1,
-    "clear_n": 14
+    "clear_n": 15
    },
    {
     "status": "In Development",
@@ -528,8 +528,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 5.7,
-    "max_age": 5.7,
+    "med_age": 5.8,
+    "max_age": 5.8,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -575,10 +575,10 @@
    }
   ],
   "parked": {
-   "Backlog": 169,
+   "Backlog": 170,
    "On Hold": 3
   },
-  "open_total": 124,
+  "open_total": 123,
   "stale": 45,
   "worst": "Ready for Development"
  }
