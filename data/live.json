@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T14:32:54Z",
+ "generated": "2026-10-28T15:05:17Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,13 +55,13 @@
   "day": 3,
   "days": 13,
   "n": 21,
-  "done_now": 17,
+  "done_now": 19,
   "committed": 70,
-  "lo": 50,
-  "mid": 61,
-  "hi": 85,
-  "pct": 87,
-  "verdict": "a little short of the commitment",
+  "lo": 55,
+  "mid": 68,
+  "hi": 95,
+  "pct": 97,
+  "verdict": "on track for the commitment",
   "share_mid": 0.28
  },
  "admin": {
@@ -379,19 +379,19 @@
   "end": "2026-11-08",
   "goal": "",
   "items": 70,
-  "items_done": 9,
+  "items_done": 10,
   "committed": 70,
   "final": 74,
-  "completed": 17,
+  "completed": 19,
   "scope_change": 6,
-  "vs_commitment": 24,
+  "vs_commitment": 27,
   "time_elapsed": 16,
   "spill": {
-   "open_items": 25,
-   "open_pts": 56.0,
+   "open_items": 24,
+   "open_pts": 54.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 9.0
+   "done_pts": 11.0
   },
   "recv": {
    "items": 0,
@@ -401,22 +401,21 @@
   },
   "spill_rate": null,
   "dist": {
-   "Done": 15,
+   "Done": 16,
    "To Do": 9,
-   "PR Merged": 2,
-   "In Progress": 11,
+   "In Stage": 9,
+   "In Progress": 10,
    "In Development": 5,
-   "In Stage": 8,
    "Ready Prod": 5,
+   "Closed": 5,
    "Ready for Development": 3,
    "Backlog": 7,
-   "WAITING REVIEW": 1,
-   "Closed": 4
+   "WAITING REVIEW": 1
   },
   "burn": [
    60.0,
    58.0,
-   55.0
+   53.0
   ],
   "scope": [
    68.0,
@@ -426,7 +425,7 @@
   "ghost": [
    62.0,
    60.0,
-   57.0
+   55.0
   ],
   "days": 13,
   "day": 3
@@ -444,12 +443,12 @@
   "end": "2026-11-22",
   "day": 3,
   "days": 28,
-  "closed": 36,
-  "points": 103,
+  "closed": 37,
+  "points": 105,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 8,
+  "people_active": 9,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -476,19 +475,19 @@
    },
    {
     "status": "In Stage",
-    "open": 24,
-    "med_age": 6.9,
-    "max_age": 19.6,
+    "open": 26,
+    "med_age": 7.0,
+    "max_age": 19.7,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
-    "over": 11,
+    "over": 16,
     "clear_med": 3.0,
-    "clear_n": 425
+    "clear_n": 426
    },
    {
     "status": "PR Created",
-    "open": 20,
+    "open": 21,
     "med_age": 2.1,
     "max_age": 7.9,
     "worst_key": "PLANS-24433",
@@ -511,6 +510,18 @@
     "clear_n": 14
    },
    {
+    "status": "In Development",
+    "open": 40,
+    "med_age": 0.2,
+    "max_age": 14.1,
+    "worst_key": "PLANS-24223",
+    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 623
+   },
+   {
     "status": "In PreProd",
     "open": 1,
     "med_age": 5.7,
@@ -523,28 +534,16 @@
     "clear_n": 22
    },
    {
-    "status": "In Development",
-    "open": 40,
-    "med_age": 0.1,
-    "max_age": 14.1,
-    "worst_key": "PLANS-24223",
-    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 623
-   },
-   {
     "status": "PR Merged",
-    "open": 9,
-    "med_age": 0.3,
-    "max_age": 2.1,
+    "open": 5,
+    "med_age": 0.9,
+    "max_age": 2.2,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 634
+    "clear_n": 638
    },
    {
     "status": "Ready for Stage",
@@ -572,11 +571,11 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 168
+   "Backlog": 168,
+   "On Hold": 3
   },
-  "open_total": 127,
-  "stale": 41,
+  "open_total": 126,
+  "stale": 46,
   "worst": "Ready for Development"
  }
 }
