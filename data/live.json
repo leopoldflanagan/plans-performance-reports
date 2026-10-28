@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T15:05:17Z",
+ "generated": "2026-10-28T15:33:21Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
-    "points": 82,
+    "n": 43,
+    "points": 80,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,18 +55,18 @@
   "day": 3,
   "days": 13,
   "n": 21,
-  "done_now": 19,
+  "done_now": 20,
   "committed": 70,
-  "lo": 55,
-  "mid": 68,
-  "hi": 95,
-  "pct": 97,
+  "lo": 58,
+  "mid": 72,
+  "hi": 100,
+  "pct": 103,
   "verdict": "on track for the commitment",
   "share_mid": 0.28
  },
  "admin": {
   "scope": {
-   "ready": 77,
+   "ready": 76,
    "sprint": 35,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 50,
     "items": [
      {
       "key": "PLANS-24862",
@@ -379,19 +379,19 @@
   "end": "2026-11-08",
   "goal": "",
   "items": 70,
-  "items_done": 10,
+  "items_done": 11,
   "committed": 70,
   "final": 74,
-  "completed": 19,
+  "completed": 20,
   "scope_change": 6,
-  "vs_commitment": 27,
+  "vs_commitment": 29,
   "time_elapsed": 16,
   "spill": {
-   "open_items": 24,
-   "open_pts": 54.0,
+   "open_items": 23,
+   "open_pts": 53.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 11.0
+   "done_pts": 12.0
   },
   "recv": {
    "items": 0,
@@ -403,29 +403,32 @@
   "dist": {
    "Done": 16,
    "To Do": 9,
-   "In Stage": 9,
+   "In Stage": 8,
    "In Progress": 10,
-   "In Development": 5,
-   "Ready Prod": 5,
+   "In Development": 6,
+   "Ready Prod": 6,
    "Closed": 5,
-   "Ready for Development": 3,
+   "Ready for Development": 2,
    "Backlog": 7,
    "WAITING REVIEW": 1
   },
   "burn": [
    60.0,
    58.0,
-   53.0
+   52.0,
+   52.0
   ],
   "scope": [
    68.0,
    68.0,
+   72.0,
    72.0
   ],
   "ghost": [
    62.0,
    60.0,
-   55.0
+   54.0,
+   54.0
   ],
   "days": 13,
   "day": 3
@@ -443,8 +446,8 @@
   "end": "2026-11-22",
   "day": 3,
   "days": 28,
-  "closed": 37,
-  "points": 105,
+  "closed": 40,
+  "points": 111,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -463,39 +466,39 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 29,
-    "med_age": 13.7,
-    "max_age": 47.0,
+    "open": 28,
+    "med_age": 13.8,
+    "max_age": 47.1,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 25,
     "clear_med": 0.7,
-    "clear_n": 236
+    "clear_n": 237
    },
    {
     "status": "In Stage",
-    "open": 26,
+    "open": 23,
     "med_age": 7.0,
     "max_age": 19.7,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
-    "over": 16,
+    "over": 15,
     "clear_med": 3.0,
-    "clear_n": 426
+    "clear_n": 428
    },
    {
     "status": "PR Created",
-    "open": 21,
-    "med_age": 2.1,
+    "open": 20,
+    "med_age": 2.2,
     "max_age": 7.9,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 665
+    "clear_n": 664
    },
    {
     "status": "WAITING REVIEW",
@@ -511,7 +514,7 @@
    },
    {
     "status": "In Development",
-    "open": 40,
+    "open": 41,
     "med_age": 0.2,
     "max_age": 14.1,
     "worst_key": "PLANS-24223",
@@ -519,7 +522,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 623
+    "clear_n": 621
    },
    {
     "status": "In PreProd",
@@ -535,27 +538,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 5,
-    "med_age": 0.9,
+    "open": 6,
+    "med_age": 0.7,
     "max_age": 2.2,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 638
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 636
    },
    {
     "status": "In QA",
@@ -568,14 +559,26 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 60
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 168,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 169
   },
-  "open_total": 126,
-  "stale": 46,
+  "open_total": 123,
+  "stale": 45,
   "worst": "Ready for Development"
  }
 }
