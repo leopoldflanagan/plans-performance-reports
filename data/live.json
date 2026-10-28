@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T01:05:29Z",
+ "generated": "2026-10-28T01:33:38Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -503,7 +503,7 @@
     "status": "In Development",
     "open": 18,
     "med_age": 0.7,
-    "max_age": 13.5,
+    "max_age": 13.6,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
