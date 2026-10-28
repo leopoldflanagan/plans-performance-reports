@@ -48,18 +48,18 @@
    328,
    21,
    229,
-   233,
+   234,
    72,
    2,
    [
     219.0,
     178.0,
-    161.0
+    162.0
    ],
    [
     219.0,
     229.0,
-    233.0
+    234.0
    ]
   ],
   [
@@ -92,7 +92,7 @@
    ],
    "open": [
     145,
-    148
+    149
    ],
    "out": [
     1,
@@ -151,7 +151,11 @@
     },
     "In Development": {
      "n": 10,
-     "med": 0.33
+     "med": 0.28
+    },
+    "PR Created": {
+     "n": 9,
+     "med": 0.16
     },
     "To Do": {
      "n": 113,
@@ -172,10 +176,6 @@
     "Closed": {
      "n": 2,
      "med": 12.52
-    },
-    "PR Created": {
-     "n": 8,
-     "med": 0.09
     },
     "PR Merged": {
      "n": 8,
@@ -203,7 +203,7 @@
     }
    },
    "dist": {
-    "In Development": 3,
+    "PR Created": 2,
     "In Progress": 14,
     "Done": 50,
     "To Do": 95,
@@ -217,7 +217,7 @@
     "In Stage": 19,
     "Ready for Development": 8,
     "In Testing": 1,
-    "PR Created": 1
+    "In Development": 2
    },
    "stalled": 307,
    "worst": 13.64,
@@ -299,7 +299,7 @@
   "LL-Sprint 25-26": [
    219.0,
    178.0,
-   161.0
+   162.0
   ],
   "Plans-Sprint 25-26": [
    62.0,

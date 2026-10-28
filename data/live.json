@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T11:04:44Z",
+ "generated": "2026-10-28T11:33:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -385,7 +385,7 @@
   "completed": 17,
   "scope_change": 6,
   "vs_commitment": 24,
-  "time_elapsed": 14,
+  "time_elapsed": 15,
   "spill": {
    "open_items": 25,
    "open_pts": 56.0,
@@ -489,27 +489,15 @@
    },
    {
     "status": "PR Created",
-    "open": 17,
-    "med_age": 2.0,
-    "max_age": 7.7,
+    "open": 20,
+    "med_age": 1.9,
+    "max_age": 7.8,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 3,
     "clear_med": 0.0,
     "clear_n": 661
-   },
-   {
-    "status": "In Development",
-    "open": 19,
-    "med_age": 0.9,
-    "max_age": 14.0,
-    "worst_key": "PLANS-24223",
-    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 617
    },
    {
     "status": "WAITING REVIEW",
@@ -526,8 +514,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 5.5,
-    "max_age": 5.5,
+    "med_age": 5.6,
+    "max_age": 5.6,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -560,6 +548,18 @@
     "clear_n": 60
    },
    {
+    "status": "In Development",
+    "open": 40,
+    "med_age": 0.0,
+    "max_age": 14.0,
+    "worst_key": "PLANS-24223",
+    "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 620
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -573,10 +573,10 @@
    }
   ],
   "parked": {
-   "Backlog": 193,
+   "Backlog": 169,
    "On Hold": 3
   },
-  "open_total": 102,
+  "open_total": 126,
   "stale": 41,
   "worst": "Ready for Development"
  }
