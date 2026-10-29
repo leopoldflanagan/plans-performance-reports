@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T16:33:28Z",
+ "generated": "2026-10-29T17:04:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 44,
-    "points": 80,
+    "n": 46,
+    "points": 81,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 77,
+   "ready": 79,
    "sprint": 37,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 13,
+    "n": 14,
     "items": [
+     {
+      "key": "PLANS-24908",
+      "summary": "Dial Care Language Update"
+     },
      {
       "key": "PLANS-24882",
       "summary": "Essential Smile - Add membership advantages table to essential smile website"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14538",
       "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
-     },
-     {
-      "key": "PLANS-11253",
-      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,8 +124,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 51,
+    "n": 53,
     "items": [
+     {
+      "key": "PLANS-24908",
+      "summary": "Dial Care Language Update"
+     },
+     {
+      "key": "PLANS-24892",
+      "summary": "Plan confirmation Receipt - Fee Charged amount displayed with one decimal place "
+     },
      {
       "key": "PLANS-24882",
       "summary": "Essential Smile - Add membership advantages table to essential smile website"
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-24631",
       "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
-     },
-     {
-      "key": "PLANS-24624",
-      "summary": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additi"
-     },
-     {
-      "key": "PLANS-24621",
-      "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
      }
     ]
    },
@@ -261,8 +261,12 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 71,
+    "n": 72,
     "items": [
+     {
+      "key": "PLANS-24892",
+      "summary": "Plan confirmation Receipt - Fee Charged amount displayed with one decimal place "
+     },
      {
       "key": "PLANS-24869",
       "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Custom Portal Purchases (E"
@@ -290,23 +294,19 @@
      {
       "key": "PLANS-24536",
       "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
-     },
-     {
-      "key": "PLANS-24519",
-      "summary": "Production - Android User/Edge Search Browser for One Smile "
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 104 of 111 items. This reads as a field the team does not use rather than 104 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 104,
+    "why": "missing on 106 of 113 items. This reads as a field the team does not use rather than 106 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 106,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 111 of 111 items. This reads as a field the team does not use rather than 111 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 111,
+    "why": "missing on 113 of 113 items. This reads as a field the team does not use rather than 113 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 113,
     "items": []
    },
    {
@@ -473,15 +473,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 29,
-    "med_age": 14.7,
+    "open": 31,
+    "med_age": 14.6,
     "max_age": 48.1,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.8,
-    "clear_n": 229
+    "clear_n": 225
    },
    {
     "status": "In Stage",
@@ -492,8 +492,20 @@
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
     "over": 11,
-    "clear_med": 2.6,
-    "clear_n": 429
+    "clear_med": 2.4,
+    "clear_n": 423
+   },
+   {
+    "status": "PR Created",
+    "open": 23,
+    "med_age": 3.0,
+    "max_age": 9.0,
+    "worst_key": "PLANS-24433",
+    "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
+    "worst_who": "Ivan Yarymovych",
+    "over": 6,
+    "clear_med": 0.0,
+    "clear_n": 654
    },
    {
     "status": "In Development",
@@ -505,43 +517,19 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 621
-   },
-   {
-    "status": "PR Created",
-    "open": 24,
-    "med_age": 2.1,
-    "max_age": 9.0,
-    "worst_key": "PLANS-24433",
-    "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
-    "worst_who": "Ivan Yarymovych",
-    "over": 6,
-    "clear_med": 0.0,
-    "clear_n": 662
+    "clear_n": 615
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 4.7,
-    "max_age": 20.9,
+    "max_age": 21.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.1,
     "clear_n": 16
-   },
-   {
-    "status": "PR Merged",
-    "open": 9,
-    "med_age": 1.0,
-    "max_age": 3.2,
-    "worst_key": "PLANS-24702",
-    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 631
    },
    {
     "status": "In PreProd",
@@ -554,6 +542,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 23
+   },
+   {
+    "status": "PR Merged",
+    "open": 10,
+    "med_age": 0.6,
+    "max_age": 3.2,
+    "worst_key": "PLANS-24702",
+    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 622
    },
    {
     "status": "Ready for Stage",
@@ -582,9 +582,9 @@
   ],
   "parked": {
    "On Hold": 3,
-   "Backlog": 158
+   "Backlog": 159
   },
-  "open_total": 135,
+  "open_total": 137,
   "stale": 44,
   "worst": "Ready for Development"
  }
