@@ -30,7 +30,7 @@
   ],
   "unp_items": [],
   "open": true,
-  "day": 28,
+  "day": 29,
   "days": 28,
   "status": "risk",
   "headline": "51 items closed against 388 the month before. Running 87% behind last month's pace.",
@@ -48,20 +48,20 @@
    335,
    31,
    229,
-   238,
+   239,
    96,
    4,
    [
     219.0,
     178.0,
     162.0,
-    142.0
+    143.0
    ],
    [
     219.0,
     229.0,
     234.0,
-    238.0
+    239.0
    ]
   ],
   [
@@ -96,7 +96,7 @@
    ],
    "open": [
     139,
-    130
+    131
    ],
    "out": [
     0,
@@ -161,17 +161,25 @@
      "n": 113,
      "med": 13.64
     },
+    "In Development": {
+     "n": 14,
+     "med": 0.09
+    },
     "PR Created": {
-     "n": 13,
+     "n": 14,
      "med": 0.02
+    },
+    "PR Merged": {
+     "n": 14,
+     "med": 0.02
+    },
+    "In Stage": {
+     "n": 46,
+     "med": 1.31
     },
     "Ready for Development": {
      "n": 11,
      "med": 13.64
-    },
-    "In Development": {
-     "n": 13,
-     "med": 0.12
     },
     "On Hold": {
      "n": 3,
@@ -180,14 +188,6 @@
     "Closed": {
      "n": 4,
      "med": 11.97
-    },
-    "PR Merged": {
-     "n": 11,
-     "med": 0.01
-    },
-    "In Stage": {
-     "n": 45,
-     "med": 1.29
     },
     "WAITING REVIEW": {
      "n": 1,
@@ -209,16 +209,17 @@
    "dist": {
     "Done": 59,
     "In Progress": 13,
-    "Backlog": 110,
-    "PR Created": 3,
+    "In Stage": 14,
+    "PR Merged": 2,
     "To Do": 91,
+    "Backlog": 109,
     "On Hold": 3,
     "Closed": 4,
-    "In Stage": 13,
     "Ready Prod": 27,
     "In PreProd": 1,
     "Ready for Development": 8,
     "In Testing": 1,
+    "PR Created": 1,
     "In Development": 2
    },
    "stalled": 304,
@@ -308,7 +309,7 @@
    219.0,
    178.0,
    162.0,
-   142.0
+   143.0
   ],
   "Plans-Sprint 25-26": [
    62.0,
