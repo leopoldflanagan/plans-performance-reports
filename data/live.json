@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T05:33:07Z",
+ "generated": "2026-10-29T06:07:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -467,8 +467,8 @@
    {
     "status": "Ready for Development",
     "open": 27,
-    "med_age": 14.4,
-    "max_age": 47.6,
+    "med_age": 14.5,
+    "max_age": 47.7,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -515,7 +515,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 5.8,
+    "med_age": 5.9,
     "max_age": 20.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -574,8 +574,8 @@
    }
   ],
   "parked": {
-   "Backlog": 165,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 165
   },
   "open_total": 124,
   "stale": 39,
