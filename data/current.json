@@ -170,8 +170,8 @@
      "med": 13.64
     },
     "In Development": {
-     "n": 15,
-     "med": 0.11
+     "n": 17,
+     "med": 0.12
     },
     "PR Created": {
      "n": 15,
@@ -183,7 +183,7 @@
     },
     "In Stage": {
      "n": 48,
-     "med": 1.31
+     "med": 0.8
     },
     "Ready Prod": {
      "n": 29,
@@ -216,14 +216,14 @@
     "Ready for Development": 9,
     "In Progress": 10,
     "Ready Prod": 29,
-    "In Stage": 11,
+    "In Development": 4,
     "Backlog": 110,
     "On Hold": 4,
     "Closed": 5,
+    "In Stage": 9,
     "In PreProd": 1,
     "In Testing": 1,
-    "PR Created": 1,
-    "In Development": 2
+    "PR Created": 1
    },
    "stalled": 297,
    "worst": 13.64,
