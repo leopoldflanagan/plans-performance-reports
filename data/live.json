@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T20:05:10Z",
+ "generated": "2026-10-29T20:33:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -408,7 +408,7 @@
    "To Do": 6,
    "In Development": 4,
    "In Stage": 7,
-   "PR Created": 1,
+   "PR Merged": 1,
    "Backlog": 6,
    "WAITING REVIEW": 1,
    "Closed": 4
@@ -450,8 +450,8 @@
   "end": "2026-11-22",
   "day": 4,
   "days": 28,
-  "closed": 58,
-  "points": 152,
+  "closed": 59,
+  "points": 154,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -482,15 +482,27 @@
    },
    {
     "status": "In Stage",
-    "open": 16,
-    "med_age": 8.1,
+    "open": 15,
+    "med_age": 8.2,
     "max_age": 15.2,
     "worst_key": "PLANS-24188",
     "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
     "worst_who": "Petro Yarish",
     "over": 10,
     "clear_med": 2.3,
-    "clear_n": 417
+    "clear_n": 418
+   },
+   {
+    "status": "PR Created",
+    "open": 23,
+    "med_age": 3.2,
+    "max_age": 9.1,
+    "worst_key": "PLANS-24433",
+    "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
+    "worst_who": "Ivan Yarymovych",
+    "over": 6,
+    "clear_med": 0.0,
+    "clear_n": 644
    },
    {
     "status": "In Development",
@@ -503,18 +515,6 @@
     "over": 3,
     "clear_med": 0.1,
     "clear_n": 608
-   },
-   {
-    "status": "PR Created",
-    "open": 24,
-    "med_age": 2.3,
-    "max_age": 9.1,
-    "worst_key": "PLANS-24433",
-    "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
-    "worst_who": "Ivan Yarymovych",
-    "over": 6,
-    "clear_med": 0.0,
-    "clear_n": 643
    },
    {
     "status": "WAITING REVIEW",
@@ -530,8 +530,8 @@
    },
    {
     "status": "PR Merged",
-    "open": 9,
-    "med_age": 1.1,
+    "open": 10,
+    "med_age": 0.8,
     "max_age": 3.4,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
@@ -578,10 +578,10 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 160
+   "Backlog": 160,
+   "On Hold": 3
   },
-  "open_total": 138,
+  "open_total": 137,
   "stale": 44,
   "worst": "Ready for Development"
  }
