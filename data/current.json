@@ -45,25 +45,25 @@
    "LL-Sprint 25-26",
    "Oct 26",
    "Nov 9",
-   331,
+   335,
    34,
    213,
-   223,
+   225,
    105,
-   5,
+   6,
    [
     203.0,
     162.0,
     146.0,
     122.0,
-    118.0
+    120.0
    ],
    [
     203.0,
     213.0,
     218.0,
     223.0,
-    223.0
+    225.0
    ]
   ],
   [
@@ -99,8 +99,8 @@
     104
    ],
    "open": [
-    136,
-    117
+    138,
+    119
    ],
    "out": [
     1,
@@ -137,7 +137,7 @@
  "SPLIT": {
   "LL-Sprint 25-26": {
    "react": 0,
-   "plan": 7,
+   "plan": 9,
    "pct": 0
   },
   "Plans-Sprint 25-26": {
@@ -149,8 +149,12 @@
  "TIS": {
   "LL-Sprint 25-26": {
    "tis": {
+    "Ready for Development": {
+     "n": 14,
+     "med": 13.64
+    },
     "To Do": {
-     "n": 119,
+     "n": 121,
      "med": 13.64
     },
     "Done": {
@@ -165,25 +169,21 @@
      "n": 115,
      "med": 13.64
     },
-    "Ready for Development": {
-     "n": 12,
-     "med": 13.64
-    },
     "In Development": {
      "n": 17,
-     "med": 0.12
+     "med": 0.05
     },
     "PR Created": {
-     "n": 15,
+     "n": 17,
      "med": 0.02
     },
     "PR Merged": {
-     "n": 15,
-     "med": 0.02
+     "n": 16,
+     "med": 0.01
     },
     "In Stage": {
-     "n": 48,
-     "med": 0.8
+     "n": 49,
+     "med": 0.97
     },
     "Ready Prod": {
      "n": 29,
@@ -211,24 +211,24 @@
     }
    },
    "dist": {
-    "To Do": 91,
+    "Ready for Development": 11,
+    "To Do": 93,
     "Done": 57,
-    "Ready for Development": 9,
     "In Progress": 10,
     "Ready Prod": 29,
-    "In Development": 4,
+    "PR Created": 2,
+    "In Stage": 10,
     "Backlog": 110,
     "On Hold": 4,
     "Closed": 5,
-    "In Stage": 9,
     "In PreProd": 1,
     "In Testing": 1,
-    "PR Created": 1
+    "In Development": 2
    },
-   "stalled": 297,
+   "stalled": 301,
    "worst": 13.64,
-   "worstSt": "To Do",
-   "items": 331
+   "worstSt": "Ready for Development",
+   "items": 335
   },
   "Plans-Sprint 25-26": {
    "tis": {
@@ -313,7 +313,7 @@
    162.0,
    146.0,
    122.0,
-   118.0
+   120.0
   ],
   "Plans-Sprint 25-26": [
    62.0,
