@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T08:35:20Z",
+ "generated": "2026-10-29T09:05:28Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -490,27 +490,27 @@
    },
    {
     "status": "PR Created",
-    "open": 26,
+    "open": 27,
     "med_age": 2.8,
-    "max_age": 8.6,
+    "max_age": 8.7,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 666
+    "clear_n": 667
    },
    {
     "status": "In Development",
-    "open": 43,
+    "open": 42,
     "med_age": 0.9,
-    "max_age": 14.8,
+    "max_age": 14.9,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 628
+    "clear_n": 630
    },
    {
     "status": "WAITING REVIEW",
@@ -534,13 +534,13 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 636
+    "clear_n": 637
    },
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 6.4,
-    "max_age": 6.4,
+    "med_age": 6.5,
+    "max_age": 6.5,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -574,8 +574,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 164
+   "Backlog": 164,
+   "On Hold": 3
   },
   "open_total": 125,
   "stale": 39,
