@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T18:35:07Z",
+ "generated": "2026-10-29T19:04:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -224,12 +224,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 7,
+    "n": 6,
     "items": [
-     {
-      "key": "PLANS-23835",
-      "summary": "Duplicate External ID for a member"
-     },
      {
       "key": "PLANS-22135",
       "summary": "Dashboard - ACH - Renewals Not Captured in Dashboard"
@@ -412,7 +408,8 @@
    "To Do": 6,
    "In Development": 4,
    "In Stage": 7,
-   "Backlog": 7,
+   "PR Created": 1,
+   "Backlog": 6,
    "WAITING REVIEW": 1,
    "Closed": 4
   },
@@ -453,8 +450,8 @@
   "end": "2026-11-22",
   "day": 4,
   "days": 28,
-  "closed": 57,
-  "points": 150,
+  "closed": 58,
+  "points": 152,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -479,19 +476,19 @@
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
-    "over": 23,
+    "over": 24,
     "clear_med": 0.8,
-    "clear_n": 224
+    "clear_n": 223
    },
    {
     "status": "In Stage",
     "open": 15,
-    "med_age": 10.5,
-    "max_age": 20.8,
-    "worst_key": "PLANS-23770",
-    "worst_sum": "CSP - Lock Unlock Plan configuration",
-    "worst_who": "Chris Rubio",
-    "over": 11,
+    "med_age": 8.1,
+    "max_age": 15.1,
+    "worst_key": "PLANS-24188",
+    "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
+    "worst_who": "Petro Yarish",
+    "over": 10,
     "clear_med": 2.3,
     "clear_n": 419
    },
@@ -517,7 +514,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 646
+    "clear_n": 645
    },
    {
     "status": "WAITING REVIEW",
@@ -541,7 +538,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 615
+    "clear_n": 614
    },
    {
     "status": "In PreProd",
@@ -556,18 +553,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -578,6 +563,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
