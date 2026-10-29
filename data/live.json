@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T20:33:10Z",
+ "generated": "2026-10-29T21:04:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 47,
+    "n": 48,
     "points": 83,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 80,
+   "ready": 81,
    "sprint": 37,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 13,
+    "n": 14,
     "items": [
+     {
+      "key": "PLANS-24920",
+      "summary": "Production - Essential Smile - PDF's do not match"
+     },
      {
       "key": "PLANS-24912",
       "summary": "Essential Smiles Plan - Box for Chose Now/Click here for details"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14538",
       "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
-     },
-     {
-      "key": "PLANS-11253",
-      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 54,
+    "n": 55,
     "items": [
+     {
+      "key": "PLANS-24920",
+      "summary": "Production - Essential Smile - PDF's do not match"
+     },
      {
       "key": "PLANS-24912",
       "summary": "Essential Smiles Plan - Box for Chose Now/Click here for details"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24867",
       "summary": "ARD for WT-1190"
-     },
-     {
-      "key": "PLANS-24862",
-      "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
      }
     ]
    },
@@ -295,14 +295,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 107 of 114 items. This reads as a field the team does not use rather than 107 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 107,
+    "why": "missing on 108 of 115 items. This reads as a field the team does not use rather than 108 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 108,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 114 of 114 items. This reads as a field the team does not use rather than 114 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 114,
+    "why": "missing on 115 of 115 items. This reads as a field the team does not use rather than 115 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 115,
     "items": []
    },
    {
@@ -385,7 +385,7 @@
   "completed": 29,
   "scope_change": 10,
   "vs_commitment": 41,
-  "time_elapsed": 25,
+  "time_elapsed": 26,
   "spill": {
    "open_items": 21,
    "open_pts": 47.0,
@@ -450,7 +450,7 @@
   "end": "2026-11-22",
   "day": 4,
   "days": 28,
-  "closed": 59,
+  "closed": 60,
   "points": 154,
   "unplanned": null,
   "unplanned_pct": null,
@@ -470,7 +470,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 32,
+    "open": 33,
     "med_age": 14.7,
     "max_age": 48.3,
     "worst_key": "PLANS-22848",
@@ -478,7 +478,7 @@
     "worst_who": "unassigned",
     "over": 24,
     "clear_med": 0.8,
-    "clear_n": 221
+    "clear_n": 220
    },
    {
     "status": "In Stage",
@@ -490,31 +490,31 @@
     "worst_who": "Petro Yarish",
     "over": 10,
     "clear_med": 2.3,
-    "clear_n": 418
-   },
-   {
-    "status": "PR Created",
-    "open": 23,
-    "med_age": 3.2,
-    "max_age": 9.1,
-    "worst_key": "PLANS-24433",
-    "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
-    "worst_who": "Ivan Yarymovych",
-    "over": 6,
-    "clear_med": 0.0,
-    "clear_n": 644
+    "clear_n": 416
    },
    {
     "status": "In Development",
-    "open": 52,
+    "open": 51,
     "med_age": 1.4,
-    "max_age": 15.3,
+    "max_age": 15.4,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 3,
     "clear_med": 0.1,
-    "clear_n": 608
+    "clear_n": 607
+   },
+   {
+    "status": "PR Created",
+    "open": 24,
+    "med_age": 2.3,
+    "max_age": 9.2,
+    "worst_key": "PLANS-24433",
+    "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
+    "worst_who": "Ivan Yarymovych",
+    "over": 6,
+    "clear_med": 0.0,
+    "clear_n": 641
    },
    {
     "status": "WAITING REVIEW",
@@ -538,17 +538,17 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 613
+    "clear_n": 610
    },
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 6.9,
-    "max_age": 6.9,
+    "med_age": 7.0,
+    "max_age": 7.0,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
-    "over": 0,
+    "over": 1,
     "clear_med": 0.0,
     "clear_n": 23
    },
@@ -578,11 +578,11 @@
    }
   ],
   "parked": {
-   "Backlog": 160,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 159
   },
-  "open_total": 137,
-  "stale": 44,
+  "open_total": 138,
+  "stale": 45,
   "worst": "Ready for Development"
  }
 }

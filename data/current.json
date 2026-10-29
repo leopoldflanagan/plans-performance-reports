@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 59,
+  "closed": 60,
   "discarded": 0,
-  "resolved": 59,
+  "resolved": 60,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Bug",
-    31
+    32
    ],
    [
     "Story",
@@ -33,7 +33,7 @@
   "day": 29,
   "days": 28,
   "status": "risk",
-  "headline": "59 items closed against 388 the month before. Running 85% behind last month's pace.",
+  "headline": "60 items closed against 388 the month before. Running 85% behind last month's pace.",
   "notes": [
    "running 85% behind last month's pace",
    "the Unplanned label was not applied, so reactive work cannot be measured",
@@ -45,7 +45,7 @@
    "LL-Sprint 25-26",
    "Oct 26",
    "Nov 9",
-   339,
+   341,
    37,
    213,
    230,
@@ -99,7 +99,7 @@
     111
    ],
    "open": [
-    136,
+    138,
     117
    ],
    "out": [
@@ -137,7 +137,7 @@
  "SPLIT": {
   "LL-Sprint 25-26": {
    "react": 0,
-   "plan": 10,
+   "plan": 12,
    "pct": 0
   },
   "Plans-Sprint 25-26": {
@@ -162,23 +162,23 @@
      "med": 13.42
     },
     "Ready for Development": {
-     "n": 14,
+     "n": 15,
+     "med": 13.64
+    },
+    "Backlog": {
+     "n": 116,
      "med": 13.64
     },
     "In Stage": {
      "n": 51,
      "med": 0.62
     },
-    "Backlog": {
-     "n": 115,
-     "med": 13.64
-    },
     "In Development": {
      "n": 18,
      "med": 0.08
     },
     "PR Created": {
-     "n": 17,
+     "n": 18,
      "med": 0.02
     },
     "PR Merged": {
@@ -213,22 +213,22 @@
    "dist": {
     "To Do": 93,
     "Done": 60,
-    "Ready for Development": 10,
+    "Ready for Development": 11,
+    "Backlog": 111,
     "In Stage": 9,
-    "In Development": 3,
+    "PR Created": 2,
     "In Progress": 10,
     "Ready Prod": 32,
-    "Backlog": 110,
     "On Hold": 4,
     "Closed": 5,
     "In PreProd": 1,
     "In Testing": 1,
-    "PR Created": 1
+    "In Development": 2
    },
-   "stalled": 302,
+   "stalled": 304,
    "worst": 13.64,
    "worstSt": "To Do",
-   "items": 339
+   "items": 341
   },
   "Plans-Sprint 25-26": {
    "tis": {
@@ -326,7 +326,7 @@
  },
  "CAP": {
   "9.10": [
-   59,
+   60,
    55,
    154,
    12
@@ -338,8 +338,8 @@
    "avg": 19.33,
    "n": 52,
    "mx": 92.49,
-   "nodev": 7,
-   "base": 59
+   "nodev": 8,
+   "base": 60
   }
  },
  "complete": false,
