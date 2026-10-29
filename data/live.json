@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T15:05:19Z",
+ "generated": "2026-10-29T15:32:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 43,
+    "n": 44,
     "points": 80,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 76,
+   "ready": 77,
    "sprint": 37,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 12,
+    "n": 13,
     "items": [
+     {
+      "key": "PLANS-24882",
+      "summary": "Essential Smile - Add membership advantages table to essential smile website"
+     },
      {
       "key": "PLANS-24862",
       "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-11253",
       "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
-     },
-     {
-      "key": "PLANS-11252",
-      "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 50,
+    "n": 51,
     "items": [
+     {
+      "key": "PLANS-24882",
+      "summary": "Essential Smile - Add membership advantages table to essential smile website"
+     },
      {
       "key": "PLANS-24879",
       "summary": "Stage/PMP/Primary member email is populated for the minor"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24621",
       "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
-     },
-     {
-      "key": "PLANS-24585",
-      "summary": "KOS portal uses static footer instead of shared dynamic footer"
      }
     ]
    },
@@ -299,14 +299,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 103 of 110 items. This reads as a field the team does not use rather than 103 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 103,
+    "why": "missing on 104 of 111 items. This reads as a field the team does not use rather than 104 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 104,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 110 of 110 items. This reads as a field the team does not use rather than 110 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 110,
+    "why": "missing on 111 of 111 items. This reads as a field the team does not use rather than 111 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 111,
     "items": []
    },
    {
@@ -420,18 +420,21 @@
    60.0,
    58.0,
    52.0,
+   46.0,
    46.0
   ],
   "scope": [
    68.0,
    68.0,
    72.0,
+   75.0,
    75.0
   ],
   "ghost": [
    62.0,
    60.0,
    54.0,
+   48.0,
    48.0
   ],
   "days": 13,
@@ -470,31 +473,31 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 28,
-    "med_age": 14.8,
-    "max_age": 48.0,
+    "open": 29,
+    "med_age": 14.7,
+    "max_age": 48.1,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.8,
-    "clear_n": 232
+    "clear_n": 231
    },
    {
     "status": "In Stage",
     "open": 17,
-    "med_age": 7.9,
+    "med_age": 8.0,
     "max_age": 20.7,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
     "over": 11,
     "clear_med": 2.7,
-    "clear_n": 429
+    "clear_n": 428
    },
    {
     "status": "In Development",
-    "open": 51,
+    "open": 50,
     "med_age": 1.2,
     "max_age": 15.1,
     "worst_key": "PLANS-24223",
@@ -506,8 +509,8 @@
    },
    {
     "status": "PR Created",
-    "open": 25,
-    "med_age": 1.1,
+    "open": 24,
+    "med_age": 2.1,
     "max_age": 8.9,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
@@ -518,8 +521,8 @@
    },
    {
     "status": "WAITING REVIEW",
-    "open": 3,
-    "med_age": 6.2,
+    "open": 4,
+    "med_age": 4.7,
     "max_age": 20.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -527,18 +530,6 @@
     "over": 1,
     "clear_med": 0.1,
     "clear_n": 16
-   },
-   {
-    "status": "PR Merged",
-    "open": 9,
-    "med_age": 0.9,
-    "max_age": 3.2,
-    "worst_key": "PLANS-24702",
-    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 633
    },
    {
     "status": "In PreProd",
@@ -551,6 +542,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 23
+   },
+   {
+    "status": "PR Merged",
+    "open": 10,
+    "med_age": 0.6,
+    "max_age": 3.2,
+    "worst_key": "PLANS-24702",
+    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 632
    },
    {
     "status": "In QA",
@@ -578,10 +581,10 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 157
+   "Backlog": 157,
+   "On Hold": 3
   },
-  "open_total": 134,
+  "open_total": 135,
   "stale": 44,
   "worst": "Ready for Development"
  }
