@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T21:04:46Z",
+ "generated": "2026-10-29T21:33:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -378,7 +378,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 73,
+  "items": 74,
   "items_done": 15,
   "committed": 70,
   "final": 77,
@@ -401,14 +401,15 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Progress": 11,
+   "In Progress": 12,
    "Ready for Development": 3,
    "Done": 19,
    "Ready Prod": 11,
    "To Do": 6,
-   "In Development": 4,
+   "In Development": 3,
    "In Stage": 7,
    "PR Merged": 1,
+   "PR Created": 1,
    "Backlog": 6,
    "WAITING REVIEW": 1,
    "Closed": 4
@@ -450,7 +451,7 @@
   "end": "2026-11-22",
   "day": 4,
   "days": 28,
-  "closed": 60,
+  "closed": 61,
   "points": 154,
   "unplanned": null,
   "unplanned_pct": null,
@@ -478,7 +479,7 @@
     "worst_who": "unassigned",
     "over": 24,
     "clear_med": 0.8,
-    "clear_n": 220
+    "clear_n": 218
    },
    {
     "status": "In Stage",
@@ -490,11 +491,11 @@
     "worst_who": "Petro Yarish",
     "over": 10,
     "clear_med": 2.3,
-    "clear_n": 416
+    "clear_n": 411
    },
    {
     "status": "In Development",
-    "open": 51,
+    "open": 50,
     "med_age": 1.4,
     "max_age": 15.4,
     "worst_key": "PLANS-24223",
@@ -502,24 +503,24 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 3,
     "clear_med": 0.1,
-    "clear_n": 607
+    "clear_n": 603
    },
    {
     "status": "PR Created",
-    "open": 24,
-    "med_age": 2.3,
+    "open": 25,
+    "med_age": 1.4,
     "max_age": 9.2,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 641
+    "clear_n": 636
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
-    "med_age": 4.8,
+    "med_age": 4.9,
     "max_age": 21.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -538,7 +539,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 610
+    "clear_n": 605
    },
    {
     "status": "In PreProd",
@@ -578,8 +579,8 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 159
+   "Backlog": 159,
+   "On Hold": 4
   },
   "open_total": 138,
   "stale": 45,

@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 60,
+  "closed": 61,
   "discarded": 0,
-  "resolved": 60,
+  "resolved": 61,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Bug",
-    32
+    33
    ],
    [
     "Story",
@@ -33,7 +33,7 @@
   "day": 29,
   "days": 28,
   "status": "risk",
-  "headline": "60 items closed against 388 the month before. Running 85% behind last month's pace.",
+  "headline": "61 items closed against 388 the month before. Running 85% behind last month's pace.",
   "notes": [
    "running 85% behind last month's pace",
    "the Unplanned label was not applied, so reactive work cannot be measured",
@@ -70,7 +70,7 @@
    "Plans-Sprint 25-26",
    "Oct 26",
    "Nov 8",
-   73,
+   74,
    15,
    70,
    77,
@@ -233,12 +233,12 @@
   "Plans-Sprint 25-26": {
    "tis": {
     "To Do": {
-     "n": 19,
+     "n": 20,
      "med": 2.12
     },
     "In Progress": {
-     "n": 19,
-     "med": 10.38
+     "n": 20,
+     "med": 10.25
     },
     "Backlog": {
      "n": 11,
@@ -254,10 +254,10 @@
     },
     "In Development": {
      "n": 13,
-     "med": 0.97
+     "med": 0.66
     },
     "PR Created": {
-     "n": 11,
+     "n": 12,
      "med": 0.01
     },
     "PR Merged": {
@@ -290,22 +290,23 @@
     }
    },
    "dist": {
-    "In Progress": 11,
+    "In Progress": 12,
     "Ready for Development": 3,
     "Done": 19,
     "Ready Prod": 11,
     "To Do": 6,
-    "In Development": 4,
+    "In Development": 3,
     "In Stage": 7,
     "PR Merged": 1,
+    "PR Created": 1,
     "Backlog": 6,
     "WAITING REVIEW": 1,
     "Closed": 4
    },
-   "stalled": 58,
+   "stalled": 59,
    "worst": 12.6,
    "worstSt": "Done",
-   "items": 73
+   "items": 74
   }
  },
  "GHOST": {
@@ -326,7 +327,7 @@
  },
  "CAP": {
   "9.10": [
-   60,
+   61,
    55,
    154,
    12
@@ -338,8 +339,8 @@
    "avg": 19.33,
    "n": 52,
    "mx": 92.49,
-   "nodev": 8,
-   "base": 60
+   "nodev": 9,
+   "base": 61
   }
  },
  "complete": false,
