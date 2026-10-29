@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T10:04:51Z",
+ "generated": "2026-10-29T10:33:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -468,7 +468,7 @@
     "status": "Ready for Development",
     "open": 27,
     "med_age": 14.6,
-    "max_age": 47.8,
+    "max_age": 47.9,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -479,7 +479,7 @@
    {
     "status": "In Stage",
     "open": 17,
-    "med_age": 7.7,
+    "med_age": 7.8,
     "max_age": 20.5,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
@@ -491,7 +491,7 @@
    {
     "status": "PR Created",
     "open": 27,
-    "med_age": 2.8,
+    "med_age": 2.9,
     "max_age": 8.7,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
@@ -502,8 +502,8 @@
    },
    {
     "status": "In Development",
-    "open": 42,
-    "med_age": 0.9,
+    "open": 43,
+    "med_age": 1.0,
     "max_age": 14.9,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -515,7 +515,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 6.0,
+    "med_age": 6.1,
     "max_age": 20.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -574,10 +574,10 @@
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 164
+   "Backlog": 163,
+   "On Hold": 3
   },
-  "open_total": 125,
+  "open_total": 126,
   "stale": 39,
   "worst": "Ready for Development"
  }
