@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T00:11:51Z",
+ "generated": "2026-10-29T00:51:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 43,
+    "n": 42,
     "points": 79,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 76,
+   "ready": 75,
    "sprint": 36,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,15 +74,11 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 13,
+    "n": 12,
     "items": [
      {
       "key": "PLANS-24862",
       "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
-     },
-     {
-      "key": "PLANS-24847",
-      "summary": "Production - Sellability/Accept for the Org continues to turn on"
      },
      {
       "key": "PLANS-24475",
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-11253",
       "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
+     },
+     {
+      "key": "PLANS-11252",
+      "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 50,
+    "n": 49,
     "items": [
      {
       "key": "PLANS-24869",
@@ -137,10 +137,6 @@
      {
       "key": "PLANS-24862",
       "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
-     },
-     {
-      "key": "PLANS-24847",
-      "summary": "Production - Sellability/Accept for the Org continues to turn on"
      },
      {
       "key": "PLANS-24631",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
+     },
+     {
+      "key": "PLANS-24546",
+      "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
      }
     ]
    },
@@ -295,14 +295,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 103 of 110 items. This reads as a field the team does not use rather than 103 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 103,
+    "why": "missing on 102 of 109 items. This reads as a field the team does not use rather than 102 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 102,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 110 of 110 items. This reads as a field the team does not use rather than 110 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 110,
+    "why": "missing on 109 of 109 items. This reads as a field the team does not use rather than 109 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 109,
     "items": []
    },
    {
@@ -466,21 +466,21 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 28,
-    "med_age": 14.1,
+    "open": 27,
+    "med_age": 14.2,
     "max_age": 47.4,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
-    "clear_n": 239
+    "clear_n": 240
    },
    {
     "status": "In Stage",
     "open": 18,
-    "med_age": 7.3,
-    "max_age": 20.0,
+    "med_age": 7.4,
+    "max_age": 20.1,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
@@ -502,8 +502,8 @@
    },
    {
     "status": "In Development",
-    "open": 43,
-    "med_age": 0.5,
+    "open": 44,
+    "med_age": 0.6,
     "max_age": 14.5,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -539,26 +539,14 @@
    {
     "status": "PR Merged",
     "open": 8,
-    "med_age": 0.6,
-    "max_age": 2.5,
+    "med_age": 0.7,
+    "max_age": 2.6,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 637
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -571,11 +559,23 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 3,
-   "Backlog": 164
+   "Backlog": 164,
+   "On Hold": 3
   },
   "open_total": 125,
   "stale": 40,
