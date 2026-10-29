@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T08:06:20Z",
+ "generated": "2026-10-29T08:35:20Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -385,7 +385,7 @@
   "completed": 27,
   "scope_change": 9,
   "vs_commitment": 39,
-  "time_elapsed": 21,
+  "time_elapsed": 22,
   "spill": {
    "open_items": 21,
    "open_pts": 48.0,
@@ -467,7 +467,7 @@
    {
     "status": "Ready for Development",
     "open": 27,
-    "med_age": 14.5,
+    "med_age": 14.6,
     "max_age": 47.8,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
@@ -490,7 +490,7 @@
    },
    {
     "status": "PR Created",
-    "open": 24,
+    "open": 26,
     "med_age": 2.8,
     "max_age": 8.6,
     "worst_key": "PLANS-24433",
@@ -502,7 +502,7 @@
    },
    {
     "status": "In Development",
-    "open": 44,
+    "open": 43,
     "med_age": 0.9,
     "max_age": 14.8,
     "worst_key": "PLANS-24223",
@@ -510,7 +510,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 626
+    "clear_n": 628
    },
    {
     "status": "WAITING REVIEW",
@@ -527,7 +527,7 @@
    {
     "status": "PR Merged",
     "open": 8,
-    "med_age": 1.0,
+    "med_age": 1.1,
     "max_age": 2.9,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
@@ -575,9 +575,9 @@
   ],
   "parked": {
    "On Hold": 3,
-   "Backlog": 165
+   "Backlog": 164
   },
-  "open_total": 124,
+  "open_total": 125,
   "stale": 39,
   "worst": "Ready for Development"
  }
