@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T04:05:43Z",
+ "generated": "2026-10-29T04:33:42Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -446,8 +446,8 @@
   "end": "2026-11-22",
   "day": 4,
   "days": 28,
-  "closed": 51,
-  "points": 136,
+  "closed": 52,
+  "points": 141,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -478,21 +478,21 @@
    },
    {
     "status": "In Stage",
-    "open": 18,
+    "open": 17,
     "med_age": 7.5,
     "max_age": 20.2,
     "worst_key": "PLANS-23770",
     "worst_sum": "CSP - Lock Unlock Plan configuration",
     "worst_who": "Chris Rubio",
-    "over": 12,
-    "clear_med": 2.9,
-    "clear_n": 433
+    "over": 11,
+    "clear_med": 3.0,
+    "clear_n": 434
    },
    {
     "status": "PR Created",
     "open": 24,
     "med_age": 2.6,
-    "max_age": 8.4,
+    "max_age": 8.5,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
@@ -539,8 +539,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 6.2,
-    "max_age": 6.2,
+    "med_age": 6.3,
+    "max_age": 6.3,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -577,8 +577,8 @@
    "On Hold": 3,
    "Backlog": 165
   },
-  "open_total": 125,
-  "stale": 40,
+  "open_total": 124,
+  "stale": 39,
   "worst": "Ready for Development"
  }
 }
