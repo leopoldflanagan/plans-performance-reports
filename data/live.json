@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T13:05:17Z",
+ "generated": "2026-10-29T13:33:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -467,7 +467,7 @@
    {
     "status": "Ready for Development",
     "open": 27,
-    "med_age": 14.7,
+    "med_age": 14.8,
     "max_age": 48.0,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
@@ -492,11 +492,11 @@
     "status": "In Development",
     "open": 51,
     "med_age": 1.1,
-    "max_age": 15.0,
+    "max_age": 15.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
-    "over": 1,
+    "over": 3,
     "clear_med": 0.0,
     "clear_n": 632
    },
@@ -508,7 +508,7 @@
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
-    "over": 3,
+    "over": 6,
     "clear_med": 0.0,
     "clear_n": 672
    },
@@ -549,18 +549,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -571,14 +559,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
    }
   ],
   "parked": {
-   "Backlog": 155,
-   "On Hold": 3
+   "On Hold": 3,
+   "Backlog": 155
   },
   "open_total": 134,
-  "stale": 39,
+  "stale": 44,
   "worst": "Ready for Development"
  }
 }
