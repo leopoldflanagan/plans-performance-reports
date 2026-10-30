@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T03:34:07Z",
+ "generated": "2026-10-30T04:05:39Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -492,7 +492,7 @@
    {
     "status": "In Stage",
     "open": 14,
-    "med_age": 9.6,
+    "med_age": 9.7,
     "max_age": 15.5,
     "worst_key": "PLANS-24188",
     "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
@@ -505,7 +505,7 @@
     "status": "In Development",
     "open": 50,
     "med_age": 1.7,
-    "max_age": 15.6,
+    "max_age": 15.7,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
