@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T09:05:15Z",
+ "generated": "2026-10-30T09:33:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 49,
-    "points": 85,
+    "n": 47,
+    "points": 83,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 82,
+   "ready": 80,
    "sprint": 38,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 56,
+    "n": 54,
     "items": [
      {
       "key": "PLANS-24920",
@@ -133,10 +133,6 @@
      {
       "key": "PLANS-24909",
       "summary": "Auto Renewal Retry \\ Failure notification email is not sent after all retry atte"
-     },
-     {
-      "key": "PLANS-24908",
-      "summary": "Dial Care Language Update"
      },
      {
       "key": "PLANS-24892",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24867",
       "summary": "ARD for WT-1190"
+     },
+     {
+      "key": "PLANS-24862",
+      "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
      }
     ]
    },
@@ -205,15 +205,11 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 5,
+    "n": 4,
     "items": [
      {
       "key": "PLANS-24884",
       "summary": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal"
-     },
-     {
-      "key": "PLANS-24585",
-      "summary": "KOS portal uses static footer instead of shared dynamic footer"
      },
      {
       "key": "PLANS-15940",
@@ -265,7 +261,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 72,
+    "n": 71,
     "items": [
      {
       "key": "PLANS-24892",
@@ -288,29 +284,29 @@
       "summary": "Plan Details PDF - Coverage Level Name Not Displayed for Ad Hoc Plans (Perio/Pro"
      },
      {
-      "key": "PLANS-24585",
-      "summary": "KOS portal uses static footer instead of shared dynamic footer"
-     },
-     {
       "key": "PLANS-24546",
       "summary": "OneSmile/MembberPortal/AddPlan/Duplicate Plans are displayed in the pop-up"
      },
      {
       "key": "PLANS-24536",
       "summary": "Member Portal \\  Configured Theme Colors Revert to Default Colors on Payments Pa"
+     },
+     {
+      "key": "PLANS-24519",
+      "summary": "Production - Android User/Edge Search Browser for One Smile "
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 109 of 116 items. This reads as a field the team does not use rather than 109 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 109,
+    "why": "missing on 107 of 114 items. This reads as a field the team does not use rather than 107 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 107,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 116 of 116 items. This reads as a field the team does not use rather than 116 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 116,
+    "why": "missing on 114 of 114 items. This reads as a field the team does not use rather than 114 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 114,
     "items": []
    },
    {
@@ -479,15 +475,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 33,
-    "med_age": 15.2,
+    "open": 31,
+    "med_age": 15.3,
     "max_age": 48.8,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
-    "over": 24,
+    "over": 23,
     "clear_med": 0.7,
-    "clear_n": 220
+    "clear_n": 222
    },
    {
     "status": "In Stage",
@@ -511,12 +507,12 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 3,
     "clear_med": 0.1,
-    "clear_n": 604
+    "clear_n": 606
    },
    {
     "status": "PR Created",
-    "open": 25,
-    "med_age": 1.9,
+    "open": 27,
+    "med_age": 1.8,
     "max_age": 9.7,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
@@ -587,11 +583,11 @@
    }
   ],
   "parked": {
-   "Backlog": 153,
-   "On Hold": 5
+   "On Hold": 5,
+   "Backlog": 153
   },
   "open_total": 142,
-  "stale": 45,
+  "stale": 44,
   "worst": "Ready for Development"
  }
 }
