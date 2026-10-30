@@ -154,7 +154,7 @@
      "med": 13.64
     },
     "In Progress": {
-     "n": 43,
+     "n": 44,
      "med": 0.22
     },
     "Done": {
@@ -211,13 +211,13 @@
     }
    },
    "dist": {
-    "To Do": 93,
+    "In Progress": 10,
     "Done": 61,
     "PR Created": 3,
     "In Development": 4,
+    "To Do": 92,
     "Backlog": 111,
     "In Stage": 8,
-    "In Progress": 9,
     "Ready Prod": 33,
     "On Hold": 4,
     "Closed": 5,
