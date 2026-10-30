@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T08:06:04Z",
+ "generated": "2026-10-30T08:34:50Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 50,
+    "n": 49,
     "points": 85,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 83,
+   "ready": 82,
    "sprint": 38,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,15 +74,11 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 14,
+    "n": 13,
     "items": [
      {
       "key": "PLANS-24920",
       "summary": "Production - Essential Smile - PDF's do not match"
-     },
-     {
-      "key": "PLANS-24912",
-      "summary": "Essential Smiles Plan - Box for Chose Now/Click here for details"
      },
      {
       "key": "PLANS-24862",
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-14538",
       "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
+     },
+     {
+      "key": "PLANS-11253",
+      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,15 +124,11 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 57,
+    "n": 56,
     "items": [
      {
       "key": "PLANS-24920",
       "summary": "Production - Essential Smile - PDF's do not match"
-     },
-     {
-      "key": "PLANS-24912",
-      "summary": "Essential Smiles Plan - Box for Chose Now/Click here for details"
      },
      {
       "key": "PLANS-24909",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24869",
       "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Custom Portal Purchases (E"
+     },
+     {
+      "key": "PLANS-24867",
+      "summary": "ARD for WT-1190"
      }
     ]
    },
@@ -303,14 +303,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 110 of 117 items. This reads as a field the team does not use rather than 110 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 110,
+    "why": "missing on 109 of 116 items. This reads as a field the team does not use rather than 109 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 109,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 117 of 117 items. This reads as a field the team does not use rather than 117 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 117,
+    "why": "missing on 116 of 116 items. This reads as a field the team does not use rather than 116 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 116,
     "items": []
    },
    {
@@ -479,15 +479,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 34,
-    "med_age": 14.8,
+    "open": 33,
+    "med_age": 15.2,
     "max_age": 48.8,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 24,
-    "clear_med": 0.8,
-    "clear_n": 219
+    "clear_med": 0.7,
+    "clear_n": 220
    },
    {
     "status": "In Stage",
@@ -503,7 +503,7 @@
    },
    {
     "status": "In Development",
-    "open": 51,
+    "open": 52,
     "med_age": 1.9,
     "max_age": 15.8,
     "worst_key": "PLANS-24223",
@@ -562,18 +562,6 @@
     "clear_n": 23
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -584,6 +572,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 60
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
