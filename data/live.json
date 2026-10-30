@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T17:32:47Z",
+ "generated": "2026-10-30T18:04:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 5,
   "days": 13,
   "n": 21,
-  "done_now": 34,
+  "done_now": 37,
   "committed": 78,
-  "lo": 86,
-  "mid": 102,
-  "hi": 144,
-  "pct": 131,
+  "lo": 93,
+  "mid": 111,
+  "hi": 156,
+  "pct": 142,
   "verdict": "on track for the commitment",
   "share_mid": 0.334
  },
@@ -201,7 +201,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 4,
+    "n": 3,
     "items": [
      {
       "key": "PLANS-24884",
@@ -214,10 +214,6 @@
      {
       "key": "PLANS-15928",
       "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
-     },
-     {
-      "key": "PLANS-24651",
-      "summary": "[5.1.W1] Verify every Day 0 outcome on stage, and how a held renewal looks every"
      }
     ]
    },
@@ -378,20 +374,20 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 77,
-  "items_done": 17,
+  "items": 78,
+  "items_done": 18,
   "committed": 78,
   "final": 87,
-  "completed": 34,
+  "completed": 37,
   "scope_change": 12,
-  "vs_commitment": 44,
-  "time_elapsed": 32,
+  "vs_commitment": 47,
+  "time_elapsed": 33,
   "spill": {
-   "open_items": 20,
-   "open_pts": 52.0,
+   "open_items": 19,
+   "open_pts": 49.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 26.0
+   "done_pts": 29.0
   },
   "recv": {
    "items": 0,
@@ -401,13 +397,13 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Progress": 11,
    "To Do": 8,
+   "In Progress": 12,
    "Ready for Development": 3,
    "In Development": 4,
    "Done": 20,
-   "Ready Prod": 13,
-   "In Stage": 6,
+   "Ready Prod": 14,
+   "In Stage": 5,
    "PR Created": 1,
    "Backlog": 6,
    "WAITING REVIEW": 1,
@@ -419,7 +415,7 @@
    60.0,
    55.0,
    54.0,
-   51.0
+   48.0
   ],
   "scope": [
    76.0,
@@ -435,7 +431,7 @@
    62.0,
    57.0,
    56.0,
-   53.0
+   50.0
   ],
   "days": 13,
   "day": 5
@@ -453,8 +449,8 @@
   "end": "2026-11-22",
   "day": 5,
   "days": 28,
-  "closed": 65,
-  "points": 166,
+  "closed": 66,
+  "points": 169,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -475,25 +471,13 @@
     "status": "Ready for Development",
     "open": 31,
     "med_age": 15.6,
-    "max_age": 49.1,
+    "max_age": 49.2,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
     "clear_n": 212
-   },
-   {
-    "status": "In Stage",
-    "open": 15,
-    "med_age": 8.9,
-    "max_age": 16.1,
-    "worst_key": "PLANS-24188",
-    "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
-    "worst_who": "Petro Yarish",
-    "over": 8,
-    "clear_med": 2.2,
-    "clear_n": 403
    },
    {
     "status": "In Development",
@@ -506,6 +490,18 @@
     "over": 4,
     "clear_med": 0.1,
     "clear_n": 607
+   },
+   {
+    "status": "In Stage",
+    "open": 14,
+    "med_age": 7.2,
+    "max_age": 16.1,
+    "worst_key": "PLANS-24188",
+    "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
+    "worst_who": "Petro Yarish",
+    "over": 7,
+    "clear_med": 2.2,
+    "clear_n": 404
    },
    {
     "status": "PR Created",
@@ -522,7 +518,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 7.3,
+    "med_age": 7.4,
     "max_age": 22.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -581,11 +577,11 @@
    }
   ],
   "parked": {
-   "Backlog": 162,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 162
   },
-  "open_total": 150,
-  "stale": 45,
+  "open_total": 149,
+  "stale": 44,
   "worst": "Ready for Development"
  }
 }
