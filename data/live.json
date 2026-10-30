@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T20:04:57Z",
+ "generated": "2026-10-30T20:32:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -405,9 +405,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 11,
+   "In Progress": 13,
+   "To Do": 10,
    "Ready for Development": 5,
-   "In Progress": 12,
    "In Development": 4,
    "Done": 20,
    "Ready Prod": 14,
@@ -485,7 +485,7 @@
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
-    "clear_n": 212
+    "clear_n": 210
    },
    {
     "status": "In Development",
@@ -497,7 +497,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 607
+    "clear_n": 604
    },
    {
     "status": "In Stage",
@@ -509,7 +509,7 @@
     "worst_who": "Petro Yarish",
     "over": 7,
     "clear_med": 2.2,
-    "clear_n": 404
+    "clear_n": 403
    },
    {
     "status": "PR Created",
@@ -521,12 +521,12 @@
     "worst_who": "Ivan Yarymovych",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 641
+    "clear_n": 640
    },
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 7.4,
+    "med_age": 7.5,
     "max_age": 22.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -545,7 +545,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 608
+    "clear_n": 607
    },
    {
     "status": "In PreProd",
@@ -560,18 +560,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -582,10 +570,22 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 151,
+   "Backlog": 153,
    "On Hold": 2
   },
   "open_total": 160,
