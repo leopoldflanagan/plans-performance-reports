@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T13:32:49Z",
+ "generated": "2026-10-30T14:05:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 46,
-    "points": 83,
+    "n": 45,
+    "points": 82,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 79,
+   "ready": 78,
    "sprint": 38,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 53,
+    "n": 52,
     "items": [
      {
       "key": "PLANS-24909",
@@ -299,14 +299,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 106 of 113 items. This reads as a field the team does not use rather than 106 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 106,
+    "why": "missing on 105 of 112 items. This reads as a field the team does not use rather than 105 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 105,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 113 of 113 items. This reads as a field the team does not use rather than 113 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 113,
+    "why": "missing on 112 of 112 items. This reads as a field the team does not use rather than 112 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 112,
     "items": []
    },
    {
@@ -476,30 +476,30 @@
    {
     "status": "Ready for Development",
     "open": 30,
-    "med_age": 15.5,
+    "med_age": 15.6,
     "max_age": 49.0,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
-    "clear_n": 223
+    "clear_n": 222
    },
    {
     "status": "In Stage",
     "open": 14,
-    "med_age": 10.0,
+    "med_age": 10.1,
     "max_age": 15.9,
     "worst_key": "PLANS-24188",
     "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
     "worst_who": "Petro Yarish",
     "over": 9,
     "clear_med": 2.3,
-    "clear_n": 413
+    "clear_n": 412
    },
    {
     "status": "In Development",
-    "open": 54,
+    "open": 56,
     "med_age": 2.1,
     "max_age": 16.1,
     "worst_key": "PLANS-24223",
@@ -507,19 +507,19 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 613
+    "clear_n": 616
    },
    {
     "status": "PR Created",
     "open": 34,
-    "med_age": 1.6,
-    "max_age": 9.8,
+    "med_age": 1.7,
+    "max_age": 9.9,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 644
+    "clear_n": 647
    },
    {
     "status": "WAITING REVIEW",
@@ -535,7 +535,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 9,
+    "open": 10,
     "med_age": 1.1,
     "max_age": 4.1,
     "worst_key": "PLANS-24702",
@@ -543,31 +543,19 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 614
+    "clear_n": 616
    },
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 7.6,
-    "max_age": 7.6,
+    "med_age": 7.7,
+    "max_age": 7.7,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 23
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -580,13 +568,25 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 60
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 5,
-   "Backlog": 152
+   "Backlog": 153,
+   "On Hold": 2
   },
-  "open_total": 144,
+  "open_total": 147,
   "stale": 46,
   "worst": "Ready for Development"
  }

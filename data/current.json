@@ -166,12 +166,12 @@
      "med": 13.64
     },
     "In Development": {
-     "n": 21,
-     "med": 0.11
+     "n": 23,
+     "med": 0.12
     },
     "PR Created": {
-     "n": 19,
-     "med": 0.03
+     "n": 20,
+     "med": 0.05
     },
     "Backlog": {
      "n": 116,
@@ -191,7 +191,7 @@
     },
     "On Hold": {
      "n": 4,
-     "med": 13.14
+     "med": 7.29
     },
     "Closed": {
      "n": 5,
@@ -213,17 +213,17 @@
    "dist": {
     "In Progress": 10,
     "Done": 61,
-    "PR Created": 3,
-    "In Development": 4,
+    "PR Created": 4,
     "To Do": 92,
+    "In Development": 5,
     "Backlog": 111,
     "In Stage": 8,
     "Ready Prod": 33,
-    "On Hold": 4,
     "Closed": 5,
     "In PreProd": 1,
     "Ready for Development": 8,
-    "In Testing": 1
+    "In Testing": 1,
+    "On Hold": 2
    },
    "stalled": 303,
    "worst": 13.64,
