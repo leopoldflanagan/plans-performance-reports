@@ -30,12 +30,12 @@
   ],
   "unp_items": [],
   "open": true,
-  "day": 29,
+  "day": 30,
   "days": 28,
   "status": "risk",
-  "headline": "63 items closed against 388 the month before. Running 84% behind last month's pace.",
+  "headline": "63 items closed against 388 the month before. Running 85% behind last month's pace.",
   "notes": [
-   "running 84% behind last month's pace",
+   "running 85% behind last month's pace",
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 11.2d and average 19.3d, both past the healthy band"
   ]
@@ -70,25 +70,25 @@
    "Plans-Sprint 25-26",
    "Oct 26",
    "Nov 8",
-   74,
-   16,
-   70,
    77,
+   16,
+   78,
+   86,
    31,
    10,
    [
+    68.0,
+    66.0,
     60.0,
-    58.0,
-    52.0,
-    46.0,
-    44.0
+    54.0,
+    53.0
    ],
    [
-    68.0,
-    68.0,
-    72.0,
-    75.0,
-    75.0
+    76.0,
+    76.0,
+    80.0,
+    83.0,
+    84.0
    ]
   ]
  ],
@@ -119,8 +119,8 @@
     23
    ],
    "open": [
-    20,
-    45
+    21,
+    54
    ],
    "out": [
     0,
@@ -142,7 +142,7 @@
   },
   "Plans-Sprint 25-26": {
    "react": 0,
-   "plan": 4,
+   "plan": 5,
    "pct": 0
   }
  },
@@ -233,20 +233,20 @@
   "Plans-Sprint 25-26": {
    "tis": {
     "To Do": {
-     "n": 20,
-     "med": 2.12
+     "n": 22,
+     "med": 2.17
     },
     "In Progress": {
      "n": 20,
      "med": 9.73
     },
     "Backlog": {
-     "n": 11,
-     "med": 12.6
+     "n": 12,
+     "med": 7.88
     },
     "Ready for Development": {
-     "n": 7,
-     "med": 2.22
+     "n": 8,
+     "med": 5.73
     },
     "Done": {
      "n": 20,
@@ -291,10 +291,10 @@
    },
    "dist": {
     "In Progress": 11,
-    "Ready for Development": 3,
+    "To Do": 8,
+    "Ready for Development": 4,
     "Done": 20,
     "Ready Prod": 12,
-    "To Do": 6,
     "In Development": 3,
     "In Stage": 6,
     "PR Merged": 1,
@@ -303,10 +303,10 @@
     "WAITING REVIEW": 1,
     "Closed": 4
    },
-   "stalled": 58,
+   "stalled": 61,
    "worst": 12.6,
    "worstSt": "Done",
-   "items": 74
+   "items": 77
   }
  },
  "GHOST": {
@@ -318,11 +318,11 @@
    113.0
   ],
   "Plans-Sprint 25-26": [
+   70.0,
+   68.0,
    62.0,
-   60.0,
-   54.0,
-   48.0,
-   46.0
+   56.0,
+   55.0
   ]
  },
  "CAP": {

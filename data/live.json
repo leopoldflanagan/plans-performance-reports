@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T23:32:59Z",
+ "generated": "2026-10-30T00:12:16Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 49,
-    "points": 84,
+    "n": 51,
+    "points": 86,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -52,22 +52,22 @@
  },
  "projection": {
   "too_early": false,
-  "day": 4,
+  "day": 5,
   "days": 13,
   "n": 21,
   "done_now": 31,
-  "committed": 70,
+  "committed": 78,
   "lo": 78,
-  "mid": 100,
-  "hi": 135,
-  "pct": 143,
+  "mid": 93,
+  "hi": 131,
+  "pct": 119,
   "verdict": "on track for the commitment",
-  "share_mid": 0.311
+  "share_mid": 0.334
  },
  "admin": {
   "scope": {
-   "ready": 82,
-   "sprint": 37,
+   "ready": 84,
+   "sprint": 38,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 56,
+    "n": 58,
     "items": [
      {
       "key": "PLANS-24920",
@@ -133,6 +133,10 @@
      {
       "key": "PLANS-24912",
       "summary": "Essential Smiles Plan - Box for Chose Now/Click here for details"
+     },
+     {
+      "key": "PLANS-24909",
+      "summary": "Auto Renewal Retry \\ Failure notification email is not sent after all retry atte"
      },
      {
       "key": "PLANS-24908",
@@ -147,16 +151,12 @@
       "summary": "Plan confirmation Receipt - Fee Charged amount displayed with one decimal place "
      },
      {
+      "key": "PLANS-24884",
+      "summary": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal"
+     },
+     {
       "key": "PLANS-24879",
       "summary": "Stage/PMP/Primary member email is populated for the minor"
-     },
-     {
-      "key": "PLANS-24869",
-      "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Custom Portal Purchases (E"
-     },
-     {
-      "key": "PLANS-24867",
-      "summary": "ARD for WT-1190"
      }
     ]
    },
@@ -174,8 +174,12 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 5,
+    "n": 6,
     "items": [
+     {
+      "key": "PLANS-24909",
+      "summary": "Auto Renewal Retry \\ Failure notification email is not sent after all retry atte"
+     },
      {
       "key": "PLANS-24879",
       "summary": "Stage/PMP/Primary member email is populated for the minor"
@@ -201,8 +205,12 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 4,
+    "n": 5,
     "items": [
+     {
+      "key": "PLANS-24884",
+      "summary": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal"
+     },
      {
       "key": "PLANS-24585",
       "summary": "KOS portal uses static footer instead of shared dynamic footer"
@@ -295,14 +303,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 109 of 116 items. This reads as a field the team does not use rather than 109 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 109,
+    "why": "missing on 111 of 118 items. This reads as a field the team does not use rather than 111 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 111,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 116 of 116 items. This reads as a field the team does not use rather than 116 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 116,
+    "why": "missing on 118 of 118 items. This reads as a field the team does not use rather than 118 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 118,
     "items": []
    },
    {
@@ -378,17 +386,17 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 74,
+  "items": 77,
   "items_done": 16,
-  "committed": 70,
-  "final": 77,
+  "committed": 78,
+  "final": 86,
   "completed": 31,
   "scope_change": 10,
-  "vs_commitment": 44,
-  "time_elapsed": 26,
+  "vs_commitment": 40,
+  "time_elapsed": 27,
   "spill": {
-   "open_items": 20,
-   "open_pts": 45.0,
+   "open_items": 21,
+   "open_pts": 54.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 23.0
@@ -402,10 +410,10 @@
   "spill_rate": null,
   "dist": {
    "In Progress": 11,
-   "Ready for Development": 3,
+   "To Do": 8,
+   "Ready for Development": 4,
    "Done": 20,
    "Ready Prod": 12,
-   "To Do": 6,
    "In Development": 3,
    "In Stage": 6,
    "PR Merged": 1,
@@ -415,28 +423,28 @@
    "Closed": 4
   },
   "burn": [
-   60.0,
-   58.0,
-   52.0,
-   46.0,
-   44.0
-  ],
-  "scope": [
    68.0,
-   68.0,
-   72.0,
-   75.0,
-   75.0
-  ],
-  "ghost": [
-   62.0,
+   66.0,
    60.0,
    54.0,
-   48.0,
-   46.0
+   53.0
+  ],
+  "scope": [
+   76.0,
+   76.0,
+   80.0,
+   83.0,
+   84.0
+  ],
+  "ghost": [
+   70.0,
+   68.0,
+   62.0,
+   56.0,
+   55.0
   ],
   "days": 13,
-  "day": 4
+  "day": 5
  },
  "next": {
   "name": "LL-Sprint 26-26",
@@ -449,7 +457,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 4,
+  "day": 5,
   "days": 28,
   "closed": 63,
   "points": 161,
@@ -471,8 +479,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 33,
-    "med_age": 14.8,
+    "open": 35,
+    "med_age": 14.1,
     "max_age": 48.4,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
@@ -521,7 +529,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 6.6,
-    "max_age": 21.2,
+    "max_age": 21.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -554,18 +562,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -576,13 +572,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
    "On Hold": 4,
-   "Backlog": 159
+   "Backlog": 157
   },
-  "open_total": 136,
+  "open_total": 138,
   "stale": 44,
   "worst": "Ready for Development"
  }
