@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T16:05:19Z",
+ "generated": "2026-10-30T16:32:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 47,
-    "points": 84,
+    "n": 46,
+    "points": 83,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 80,
+   "ready": 79,
    "sprint": 38,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 54,
+    "n": 53,
     "items": [
      {
       "key": "PLANS-24934",
@@ -147,16 +147,16 @@
       "summary": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal"
      },
      {
-      "key": "PLANS-24879",
-      "summary": "Stage/PMP/Primary member email is populated for the minor"
-     },
-     {
       "key": "PLANS-24869",
       "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Smile health and Custom Po"
      },
      {
       "key": "PLANS-24867",
       "summary": "ARD for WT-1190"
+     },
+     {
+      "key": "PLANS-24862",
+      "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
      }
     ]
    },
@@ -403,10 +403,10 @@
   "dist": {
    "In Progress": 11,
    "To Do": 8,
-   "Ready for Development": 4,
+   "Ready for Development": 3,
+   "In Development": 4,
    "Done": 20,
    "Ready Prod": 12,
-   "In Development": 3,
    "In Stage": 7,
    "PR Created": 1,
    "Backlog": 6,
@@ -473,8 +473,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 32,
-    "med_age": 15.5,
+    "open": 31,
+    "med_age": 15.6,
     "max_age": 49.1,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
@@ -492,12 +492,12 @@
     "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
     "worst_who": "Petro Yarish",
     "over": 9,
-    "clear_med": 2.3,
-    "clear_n": 409
+    "clear_med": 2.2,
+    "clear_n": 408
    },
    {
     "status": "In Development",
-    "open": 55,
+    "open": 56,
     "med_age": 2.2,
     "max_age": 16.2,
     "worst_key": "PLANS-24223",
@@ -505,19 +505,19 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 613
+    "clear_n": 612
    },
    {
     "status": "PR Created",
     "open": 31,
     "med_age": 1.8,
-    "max_age": 9.9,
+    "max_age": 10.0,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 648
+    "clear_n": 647
    },
    {
     "status": "WAITING REVIEW",
@@ -541,31 +541,19 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 616
+    "clear_n": 615
    },
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 7.7,
-    "max_age": 7.7,
+    "med_age": 7.8,
+    "max_age": 7.8,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 23
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
    },
    {
     "status": "Ready for Stage",
@@ -578,11 +566,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 156
+   "Backlog": 157,
+   "On Hold": 2
   },
   "open_total": 149,
   "stale": 46,
