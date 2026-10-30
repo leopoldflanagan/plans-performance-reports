@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T14:33:07Z",
+ "generated": "2026-10-30T15:04:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 45,
-    "points": 82,
+    "n": 46,
+    "points": 83,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 78,
+   "ready": 80,
    "sprint": 38,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,8 +124,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 52,
+    "n": 54,
     "items": [
+     {
+      "key": "PLANS-24934",
+      "summary": "Preprod / STAGE - Phase 3 - Euler Family Dental Org  & practices not visible."
+     },
+     {
+      "key": "PLANS-24933",
+      "summary": " Preprod / STAGE - Phase 3 - Duplicate 'Legacy West Dental' Orgs visible in Prep"
+     },
      {
       "key": "PLANS-24909",
       "summary": "Auto Renewal Retry \\ Failure notification email is not sent after all retry atte"
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-24867",
       "summary": "ARD for WT-1190"
-     },
-     {
-      "key": "PLANS-24862",
-      "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
-     },
-     {
-      "key": "PLANS-24631",
-      "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
      }
     ]
    },
@@ -174,15 +174,11 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 6,
+    "n": 5,
     "items": [
      {
       "key": "PLANS-24909",
       "summary": "Auto Renewal Retry \\ Failure notification email is not sent after all retry atte"
-     },
-     {
-      "key": "PLANS-24879",
-      "summary": "Stage/PMP/Primary member email is populated for the minor"
      },
      {
       "key": "PLANS-23846",
@@ -299,14 +295,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 105 of 112 items. This reads as a field the team does not use rather than 105 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 105,
+    "why": "missing on 107 of 114 items. This reads as a field the team does not use rather than 107 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 107,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 112 of 112 items. This reads as a field the team does not use rather than 112 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 112,
+    "why": "missing on 114 of 114 items. This reads as a field the team does not use rather than 114 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 114,
     "items": []
    },
    {
@@ -389,7 +385,7 @@
   "completed": 31,
   "scope_change": 10,
   "vs_commitment": 40,
-  "time_elapsed": 31,
+  "time_elapsed": 32,
   "spill": {
    "open_items": 21,
    "open_pts": 54.0,
@@ -475,43 +471,43 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 30,
-    "med_age": 15.6,
+    "open": 32,
+    "med_age": 15.4,
     "max_age": 49.0,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
-    "clear_n": 222
+    "clear_n": 221
    },
    {
     "status": "In Stage",
-    "open": 13,
-    "med_age": 11.3,
-    "max_age": 15.9,
+    "open": 14,
+    "med_age": 10.1,
+    "max_age": 16.0,
     "worst_key": "PLANS-24188",
     "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
     "worst_who": "Petro Yarish",
     "over": 9,
     "clear_med": 2.3,
-    "clear_n": 413
+    "clear_n": 412
    },
    {
     "status": "In Development",
     "open": 56,
-    "med_age": 2.1,
+    "med_age": 2.2,
     "max_age": 16.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 616
+    "clear_n": 615
    },
    {
     "status": "PR Created",
-    "open": 32,
+    "open": 31,
     "med_age": 1.7,
     "max_age": 9.9,
     "worst_key": "PLANS-24433",
@@ -537,7 +533,7 @@
     "status": "PR Merged",
     "open": 12,
     "med_age": 1.0,
-    "max_age": 4.1,
+    "max_age": 4.2,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
@@ -583,10 +579,10 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 153
+   "Backlog": 154,
+   "On Hold": 2
   },
-  "open_total": 146,
+  "open_total": 148,
   "stale": 46,
   "worst": "Ready for Development"
  }
