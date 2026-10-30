@@ -83,6 +83,7 @@
     66.0,
     60.0,
     54.0,
+    53.0,
     53.0
    ],
    [
@@ -90,6 +91,7 @@
     76.0,
     80.0,
     83.0,
+    84.0,
     84.0
    ]
   ]
@@ -184,8 +186,8 @@
      "med": 0.0
     },
     "In Stage": {
-     "n": 52,
-     "med": 0.69
+     "n": 53,
+     "med": 0.75
     },
     "Ready Prod": {
      "n": 34,
@@ -215,13 +217,12 @@
    "dist": {
     "Ready for Development": 10,
     "Done": 62,
-    "PR Merged": 1,
+    "In Stage": 9,
     "PR Created": 2,
     "To Do": 92,
     "In Development": 5,
     "Backlog": 111,
     "Ready Prod": 34,
-    "In Stage": 8,
     "In Progress": 9,
     "Closed": 5,
     "In PreProd": 1,
@@ -268,8 +269,8 @@
      "med": 0.04
     },
     "In Stage": {
-     "n": 20,
-     "med": 1.19
+     "n": 21,
+     "med": 1.22
     },
     "Ready Prod": {
      "n": 12,
@@ -299,8 +300,7 @@
     "Done": 20,
     "Ready Prod": 12,
     "In Development": 3,
-    "In Stage": 6,
-    "PR Merged": 1,
+    "In Stage": 7,
     "PR Created": 1,
     "Backlog": 6,
     "WAITING REVIEW": 1,
@@ -326,6 +326,7 @@
    68.0,
    62.0,
    56.0,
+   55.0,
    55.0
   ]
  },
