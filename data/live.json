@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T20:32:44Z",
+ "generated": "2026-10-30T21:03:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 5,
   "days": 13,
   "n": 21,
-  "done_now": 37,
+  "done_now": 42,
   "committed": 78,
-  "lo": 93,
-  "mid": 111,
-  "hi": 156,
-  "pct": 142,
+  "lo": 106,
+  "mid": 126,
+  "hi": 178,
+  "pct": 162,
   "verdict": "on track for the commitment",
   "share_mid": 0.334
  },
@@ -209,7 +209,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 3,
+    "n": 4,
     "items": [
      {
       "key": "PLANS-24884",
@@ -222,6 +222,10 @@
      {
       "key": "PLANS-15928",
       "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
+     },
+     {
+      "key": "PLANS-24788",
+      "summary": "ARD for WT-1022"
      }
     ]
    },
@@ -383,19 +387,19 @@
   "end": "2026-11-08",
   "goal": "",
   "items": 83,
-  "items_done": 18,
+  "items_done": 19,
   "committed": 78,
   "final": 89,
-  "completed": 37,
+  "completed": 42,
   "scope_change": 14,
-  "vs_commitment": 47,
-  "time_elapsed": 33,
+  "vs_commitment": 54,
+  "time_elapsed": 34,
   "spill": {
-   "open_items": 21,
-   "open_pts": 51.0,
+   "open_items": 20,
+   "open_pts": 46.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 29.0
+   "done_pts": 34.0
   },
   "recv": {
    "items": 0,
@@ -405,17 +409,17 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Progress": 13,
+   "In Progress": 12,
    "To Do": 10,
    "Ready for Development": 5,
    "In Development": 4,
-   "Done": 20,
+   "Done": 21,
    "Ready Prod": 14,
-   "In Stage": 5,
+   "In Stage": 4,
+   "Closed": 5,
    "PR Created": 1,
    "Backlog": 6,
-   "WAITING REVIEW": 1,
-   "Closed": 4
+   "WAITING REVIEW": 1
   },
   "burn": [
    68.0,
@@ -423,7 +427,7 @@
    60.0,
    55.0,
    54.0,
-   50.0
+   45.0
   ],
   "scope": [
    76.0,
@@ -439,7 +443,7 @@
    62.0,
    57.0,
    56.0,
-   52.0
+   47.0
   ],
   "days": 13,
   "day": 5
@@ -457,8 +461,8 @@
   "end": "2026-11-22",
   "day": 5,
   "days": 28,
-  "closed": 66,
-  "points": 169,
+  "closed": 68,
+  "points": 174,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -477,13 +481,13 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 42,
-    "med_age": 10.1,
-    "max_age": 49.3,
-    "worst_key": "PLANS-22848",
-    "worst_sum": "Cancelled Status - doesn't carry over member info",
+    "open": 41,
+    "med_age": 10.0,
+    "max_age": 45.2,
+    "worst_key": "PLANS-23014",
+    "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
-    "over": 23,
+    "over": 22,
     "clear_med": 0.7,
     "clear_n": 210
    },
@@ -491,7 +495,7 @@
     "status": "In Development",
     "open": 56,
     "med_age": 2.4,
-    "max_age": 16.3,
+    "max_age": 16.4,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -500,28 +504,28 @@
     "clear_n": 604
    },
    {
-    "status": "In Stage",
-    "open": 14,
-    "med_age": 7.3,
-    "max_age": 16.2,
-    "worst_key": "PLANS-24188",
-    "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
-    "worst_who": "Petro Yarish",
-    "over": 7,
-    "clear_med": 2.2,
-    "clear_n": 403
-   },
-   {
     "status": "PR Created",
     "open": 32,
-    "med_age": 1.9,
-    "max_age": 10.1,
+    "med_age": 2.0,
+    "max_age": 10.2,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 7,
     "clear_med": 0.0,
     "clear_n": 640
+   },
+   {
+    "status": "In Stage",
+    "open": 13,
+    "med_age": 3.2,
+    "max_age": 16.2,
+    "worst_key": "PLANS-24188",
+    "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
+    "worst_who": "Petro Yarish",
+    "over": 6,
+    "clear_med": 2.2,
+    "clear_n": 404
    },
    {
     "status": "WAITING REVIEW",
@@ -550,8 +554,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 7.9,
-    "max_age": 7.9,
+    "med_age": 8.0,
+    "max_age": 8.0,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -585,11 +589,11 @@
    }
   ],
   "parked": {
-   "Backlog": 153,
+   "Backlog": 154,
    "On Hold": 2
   },
-  "open_total": 160,
-  "stale": 44,
+  "open_total": 158,
+  "stale": 42,
   "worst": "Ready for Development"
  }
 }
