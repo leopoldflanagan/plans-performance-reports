@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T05:33:07Z",
+ "generated": "2026-10-30T06:07:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -393,7 +393,7 @@
   "completed": 31,
   "scope_change": 10,
   "vs_commitment": 40,
-  "time_elapsed": 28,
+  "time_elapsed": 29,
   "spill": {
    "open_items": 21,
    "open_pts": 54.0,
@@ -480,8 +480,8 @@
    {
     "status": "Ready for Development",
     "open": 35,
-    "med_age": 14.3,
-    "max_age": 48.6,
+    "med_age": 14.4,
+    "max_age": 48.7,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -516,7 +516,7 @@
    {
     "status": "PR Created",
     "open": 25,
-    "med_age": 1.7,
+    "med_age": 1.8,
     "max_age": 9.5,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
@@ -528,7 +528,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 6.8,
+    "med_age": 6.9,
     "max_age": 21.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -562,18 +562,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -584,11 +572,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 158
+   "Backlog": 158,
+   "On Hold": 4
   },
   "open_total": 138,
   "stale": 44,
