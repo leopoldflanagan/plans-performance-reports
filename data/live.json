@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T17:03:46Z",
+ "generated": "2026-10-30T17:32:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -481,7 +481,7 @@
     "worst_who": "unassigned",
     "over": 23,
     "clear_med": 0.7,
-    "clear_n": 214
+    "clear_n": 212
    },
    {
     "status": "In Stage",
@@ -493,19 +493,19 @@
     "worst_who": "Petro Yarish",
     "over": 8,
     "clear_med": 2.2,
-    "clear_n": 405
+    "clear_n": 403
    },
    {
     "status": "In Development",
-    "open": 55,
-    "med_age": 2.2,
+    "open": 56,
+    "med_age": 2.3,
     "max_age": 16.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 609
+    "clear_n": 607
    },
    {
     "status": "PR Created",
@@ -533,15 +533,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 11,
-    "med_age": 1.2,
-    "max_age": 4.2,
+    "open": 12,
+    "med_age": 0.8,
+    "max_age": 4.3,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 609
+    "clear_n": 608
    },
    {
     "status": "In PreProd",
@@ -556,18 +556,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -578,13 +566,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 162
+   "Backlog": 162,
+   "On Hold": 2
   },
-  "open_total": 148,
+  "open_total": 150,
   "stale": 45,
   "worst": "Ready for Development"
  }
