@@ -186,8 +186,8 @@
      "med": 0.0
     },
     "In Stage": {
-     "n": 53,
-     "med": 0.62
+     "n": 54,
+     "med": 0.69
     },
     "Ready Prod": {
      "n": 35,
@@ -219,9 +219,8 @@
     "To Do": 95,
     "Ready for Development": 16,
     "Done": 62,
-    "In Stage": 8,
+    "In Stage": 9,
     "PR Created": 2,
-    "PR Merged": 1,
     "Backlog": 111,
     "Ready Prod": 35,
     "In Development": 4,
@@ -246,8 +245,8 @@
      "med": 2.87
     },
     "In Progress": {
-     "n": 22,
-     "med": 8.46
+     "n": 23,
+     "med": 8.41
     },
     "Backlog": {
      "n": 13,
@@ -258,8 +257,8 @@
      "med": 0.81
     },
     "Done": {
-     "n": 21,
-     "med": 12.6
+     "n": 22,
+     "med": 11.99
     },
     "PR Created": {
      "n": 12,
@@ -309,7 +308,7 @@
    },
    "stalled": 65,
    "worst": 12.6,
-   "worstSt": "Done",
+   "worstSt": "WAITING REVIEW",
    "items": 84
   }
  },
