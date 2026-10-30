@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T07:33:16Z",
+ "generated": "2026-10-30T08:06:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 51,
-    "points": 86,
+    "n": 50,
+    "points": 85,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 84,
+   "ready": 83,
    "sprint": 38,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 58,
+    "n": 57,
     "items": [
      {
       "key": "PLANS-24920",
@@ -143,10 +143,6 @@
       "summary": "Dial Care Language Update"
      },
      {
-      "key": "PLANS-24904",
-      "summary": "PMP - 'Remove primary contact' button is visible for minor dependents under an a"
-     },
-     {
       "key": "PLANS-24892",
       "summary": "Plan confirmation Receipt - Fee Charged amount displayed with one decimal place "
      },
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24879",
       "summary": "Stage/PMP/Primary member email is populated for the minor"
+     },
+     {
+      "key": "PLANS-24869",
+      "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Custom Portal Purchases (E"
      }
     ]
    },
@@ -303,14 +303,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 111 of 118 items. This reads as a field the team does not use rather than 111 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 111,
+    "why": "missing on 110 of 117 items. This reads as a field the team does not use rather than 110 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 110,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 118 of 118 items. This reads as a field the team does not use rather than 118 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 118,
+    "why": "missing on 117 of 117 items. This reads as a field the team does not use rather than 117 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 117,
     "items": []
    },
    {
@@ -479,15 +479,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 35,
-    "med_age": 14.4,
-    "max_age": 48.7,
+    "open": 34,
+    "med_age": 14.8,
+    "max_age": 48.8,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 24,
     "clear_med": 0.8,
-    "clear_n": 218
+    "clear_n": 219
    },
    {
     "status": "In Stage",
@@ -503,8 +503,8 @@
    },
    {
     "status": "In Development",
-    "open": 50,
-    "med_age": 1.8,
+    "open": 51,
+    "med_age": 1.9,
     "max_age": 15.8,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -516,7 +516,7 @@
    {
     "status": "PR Created",
     "open": 25,
-    "med_age": 1.8,
+    "med_age": 1.9,
     "max_age": 9.6,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
@@ -528,12 +528,12 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 6.9,
+    "med_age": 7.0,
     "max_age": 21.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
-    "over": 1,
+    "over": 2,
     "clear_med": 0.1,
     "clear_n": 17
    },
@@ -587,11 +587,11 @@
    }
   ],
   "parked": {
-   "On Hold": 4,
-   "Backlog": 158
+   "Backlog": 158,
+   "On Hold": 4
   },
   "open_total": 138,
-  "stale": 44,
+  "stale": 45,
   "worst": "Ready for Development"
  }
 }

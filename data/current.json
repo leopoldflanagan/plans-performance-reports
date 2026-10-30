@@ -48,22 +48,22 @@
    341,
    38,
    213,
-   230,
+   232,
    117,
-   8,
+   9,
    [
     203.0,
     162.0,
     146.0,
     122.0,
-    113.0
+    115.0
    ],
    [
     203.0,
     213.0,
     218.0,
     223.0,
-    230.0
+    232.0
    ]
   ],
   [
@@ -100,7 +100,7 @@
    ],
    "open": [
     137,
-    112
+    114
    ],
    "out": [
     1,
@@ -165,6 +165,10 @@
      "n": 15,
      "med": 13.64
     },
+    "In Development": {
+     "n": 19,
+     "med": 0.11
+    },
     "Backlog": {
      "n": 116,
      "med": 13.64
@@ -172,10 +176,6 @@
     "In Stage": {
      "n": 51,
      "med": 0.62
-    },
-    "In Development": {
-     "n": 18,
-     "med": 0.08
     },
     "PR Created": {
      "n": 18,
@@ -213,7 +213,8 @@
    "dist": {
     "To Do": 93,
     "Done": 61,
-    "Ready for Development": 11,
+    "Ready for Development": 10,
+    "In Development": 3,
     "Backlog": 111,
     "In Stage": 8,
     "PR Created": 2,
@@ -222,8 +223,7 @@
     "On Hold": 4,
     "Closed": 5,
     "In PreProd": 1,
-    "In Testing": 1,
-    "In Development": 2
+    "In Testing": 1
    },
    "stalled": 303,
    "worst": 13.64,
@@ -315,7 +315,7 @@
    162.0,
    146.0,
    122.0,
-   113.0
+   115.0
   ],
   "Plans-Sprint 25-26": [
    70.0,
