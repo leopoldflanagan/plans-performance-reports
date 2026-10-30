@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T21:03:45Z",
+ "generated": "2026-10-30T21:33:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -461,8 +461,8 @@
   "end": "2026-11-22",
   "day": 5,
   "days": 28,
-  "closed": 68,
-  "points": 174,
+  "closed": 69,
+  "points": 177,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -482,14 +482,14 @@
    {
     "status": "Ready for Development",
     "open": 41,
-    "med_age": 10.0,
-    "max_age": 45.2,
-    "worst_key": "PLANS-23014",
-    "worst_sum": "PRODUCTION - CSP Plan Transactions",
+    "med_age": 10.1,
+    "max_age": 45.3,
+    "worst_key": "PLANS-23002",
+    "worst_sum": "PRODUCTION - incorrect logging in transactions",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.7,
-    "clear_n": 210
+    "clear_n": 208
    },
    {
     "status": "In Development",
@@ -501,7 +501,19 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 604
+    "clear_n": 601
+   },
+   {
+    "status": "In Stage",
+    "open": 12,
+    "med_age": 7.4,
+    "max_age": 16.2,
+    "worst_key": "PLANS-24188",
+    "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
+    "worst_who": "Petro Yarish",
+    "over": 6,
+    "clear_med": 2.2,
+    "clear_n": 405
    },
    {
     "status": "PR Created",
@@ -516,21 +528,9 @@
     "clear_n": 640
    },
    {
-    "status": "In Stage",
-    "open": 13,
-    "med_age": 3.2,
-    "max_age": 16.2,
-    "worst_key": "PLANS-24188",
-    "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
-    "worst_who": "Petro Yarish",
-    "over": 6,
-    "clear_med": 2.2,
-    "clear_n": 404
-   },
-   {
     "status": "WAITING REVIEW",
-    "open": 3,
-    "med_age": 7.5,
+    "open": 4,
+    "med_age": 3.9,
     "max_age": 22.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -589,7 +589,7 @@
    }
   ],
   "parked": {
-   "Backlog": 154,
+   "Backlog": 155,
    "On Hold": 2
   },
   "open_total": 158,
