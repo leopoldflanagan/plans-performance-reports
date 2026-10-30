@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T22:03:42Z",
+ "generated": "2026-10-30T22:32:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 57,
+    "n": 58,
     "points": 93,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,16 +66,20 @@
  },
  "admin": {
   "scope": {
-   "ready": 90,
-   "sprint": 40,
+   "ready": 91,
+   "sprint": 41,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 13,
+    "n": 14,
     "items": [
+     {
+      "key": "PLANS-24956",
+      "summary": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan"
+     },
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14538",
       "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
-     },
-     {
-      "key": "PLANS-11253",
-      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 64,
+    "n": 65,
     "items": [
+     {
+      "key": "PLANS-24956",
+      "summary": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan"
+     },
      {
       "key": "PLANS-24952",
       "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24936",
       "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
-     },
-     {
-      "key": "PLANS-24934",
-      "summary": "Preprod / STAGE - Phase 3 - Euler Family Dental Org  & practices not visible."
      }
     ]
    },
@@ -303,14 +303,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 118 of 125 items. This reads as a field the team does not use rather than 118 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 118,
+    "why": "missing on 119 of 126 items. This reads as a field the team does not use rather than 119 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 119,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 125 of 125 items. This reads as a field the team does not use rather than 125 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 125,
+    "why": "missing on 126 of 126 items. This reads as a field the team does not use rather than 126 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 126,
     "items": []
    },
    {
@@ -386,7 +386,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 83,
+  "items": 84,
   "items_done": 19,
   "committed": 78,
   "final": 89,
@@ -395,7 +395,7 @@
   "vs_commitment": 54,
   "time_elapsed": 34,
   "spill": {
-   "open_items": 20,
+   "open_items": 21,
    "open_pts": 46.0,
    "out_items": 0,
    "out_pts": 0,
@@ -409,9 +409,9 @@
   },
   "spill_rate": null,
   "dist": {
+   "Ready for Development": 6,
    "In Progress": 12,
    "To Do": 10,
-   "Ready for Development": 5,
    "In Development": 4,
    "Done": 21,
    "Ready Prod": 14,
@@ -481,27 +481,27 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 41,
-    "med_age": 10.1,
+    "open": 42,
+    "med_age": 9.1,
     "max_age": 45.3,
     "worst_key": "PLANS-23002",
     "worst_sum": "PRODUCTION - incorrect logging in transactions",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.7,
-    "clear_n": 208
+    "clear_n": 207
    },
    {
     "status": "In Development",
     "open": 56,
-    "med_age": 2.4,
+    "med_age": 2.5,
     "max_age": 16.4,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 601
+    "clear_n": 600
    },
    {
     "status": "In Stage",
@@ -530,7 +530,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 7.5,
+    "med_age": 7.6,
     "max_age": 22.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -564,18 +564,6 @@
     "clear_n": 23
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -586,13 +574,25 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 60
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 156,
+   "Backlog": 155,
    "On Hold": 2
   },
-  "open_total": 157,
+  "open_total": 158,
   "stale": 42,
   "worst": "Ready for Development"
  }
