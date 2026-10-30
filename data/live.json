@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T00:52:39Z",
+ "generated": "2026-10-30T01:06:15Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -480,7 +480,7 @@
    {
     "status": "Ready for Development",
     "open": 35,
-    "med_age": 14.1,
+    "med_age": 14.2,
     "max_age": 48.5,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
@@ -492,7 +492,7 @@
    {
     "status": "In Stage",
     "open": 14,
-    "med_age": 9.4,
+    "med_age": 9.5,
     "max_age": 15.4,
     "worst_key": "PLANS-24188",
     "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
@@ -528,7 +528,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 6.6,
+    "med_age": 6.7,
     "max_age": 21.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
