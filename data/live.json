@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T19:32:42Z",
+ "generated": "2026-10-31T20:03:48Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -497,7 +497,7 @@
    {
     "status": "In Development",
     "open": 56,
-    "med_age": 3.3,
+    "med_age": 3.4,
     "max_age": 17.3,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -521,7 +521,7 @@
    {
     "status": "In Stage",
     "open": 13,
-    "med_age": 4.1,
+    "med_age": 4.2,
     "max_age": 17.2,
     "worst_key": "PLANS-24188",
     "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
@@ -567,18 +567,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -589,6 +577,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
