@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T14:03:42Z",
+ "generated": "2026-10-31T14:32:39Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -410,10 +410,10 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 6,
-   "In Progress": 12,
+   "In Progress": 11,
    "To Do": 10,
+   "Done": 22,
    "In Development": 4,
-   "Done": 21,
    "Ready Prod": 14,
    "In Stage": 4,
    "Closed": 5,
@@ -531,7 +531,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 15.5,
-    "max_age": 22.8,
+    "max_age": 22.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -589,8 +589,8 @@
    }
   ],
   "parked": {
-   "Backlog": 153,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 153
   },
   "open_total": 159,
   "stale": 42,
