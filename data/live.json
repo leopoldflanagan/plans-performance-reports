@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T16:32:46Z",
+ "generated": "2026-10-31T17:03:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -522,7 +522,7 @@
     "status": "In Stage",
     "open": 13,
     "med_age": 4.0,
-    "max_age": 17.0,
+    "max_age": 17.1,
     "worst_key": "PLANS-24188",
     "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
     "worst_who": "Petro Yarish",
@@ -533,8 +533,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 15.6,
-    "max_age": 22.9,
+    "med_age": 15.7,
+    "max_age": 23.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -592,8 +592,8 @@
    }
   ],
   "parked": {
-   "Backlog": 153,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 153
   },
   "open_total": 159,
   "stale": 42,
