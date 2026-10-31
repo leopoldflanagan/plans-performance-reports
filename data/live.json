@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T05:32:44Z",
+ "generated": "2026-10-31T06:06:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -393,7 +393,7 @@
   "completed": 42,
   "scope_change": 14,
   "vs_commitment": 54,
-  "time_elapsed": 36,
+  "time_elapsed": 37,
   "spill": {
    "open_items": 21,
    "open_pts": 46.0,
@@ -564,18 +564,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -586,11 +574,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 153
+   "Backlog": 153,
+   "On Hold": 2
   },
   "open_total": 159,
   "stale": 42,
