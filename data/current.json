@@ -30,12 +30,12 @@
   ],
   "unp_items": [],
   "open": true,
-  "day": 30,
+  "day": 31,
   "days": 28,
   "status": "risk",
-  "headline": "69 items closed against 388 the month before. Running 83% behind last month's pace.",
+  "headline": "69 items closed against 388 the month before. Running 84% behind last month's pace.",
   "notes": [
-   "running 83% behind last month's pace",
+   "running 84% behind last month's pace",
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 9.7d and average 18.4d, both past the healthy band"
   ]
@@ -45,7 +45,7 @@
    "LL-Sprint 25-26",
    "Oct 26",
    "Nov 9",
-   354,
+   355,
    40,
    213,
    245,
@@ -103,7 +103,7 @@
     121
    ],
    "open": [
-    142,
+    143,
     121
    ],
    "out": [
@@ -141,7 +141,7 @@
  "SPLIT": {
   "LL-Sprint 25-26": {
    "react": 0,
-   "plan": 20,
+   "plan": 21,
    "pct": 0
   },
   "Plans-Sprint 25-26": {
@@ -161,13 +161,13 @@
      "n": 46,
      "med": 0.22
     },
+    "Ready for Development": {
+     "n": 24,
+     "med": 9.49
+    },
     "Backlog": {
      "n": 121,
      "med": 13.64
-    },
-    "Ready for Development": {
-     "n": 23,
-     "med": 9.49
     },
     "Done": {
      "n": 62,
@@ -216,8 +216,8 @@
    },
    "dist": {
     "In Progress": 11,
+    "Ready for Development": 17,
     "To Do": 95,
-    "Ready for Development": 16,
     "Done": 62,
     "In Stage": 9,
     "PR Created": 2,
@@ -229,10 +229,10 @@
     "In Testing": 1,
     "On Hold": 2
    },
-   "stalled": 314,
+   "stalled": 315,
    "worst": 13.64,
    "worstSt": "To Do",
-   "items": 354
+   "items": 355
   },
   "Plans-Sprint 25-26": {
    "tis": {

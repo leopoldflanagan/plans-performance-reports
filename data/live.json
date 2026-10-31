@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T23:32:30Z",
+ "generated": "2026-10-31T00:10:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 58,
+    "n": 60,
     "points": 93,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -52,21 +52,21 @@
  },
  "projection": {
   "too_early": false,
-  "day": 5,
+  "day": 6,
   "days": 13,
   "n": 21,
   "done_now": 42,
   "committed": 78,
-  "lo": 106,
-  "mid": 126,
-  "hi": 178,
-  "pct": 162,
+  "lo": 91,
+  "mid": 107,
+  "hi": 157,
+  "pct": 137,
   "verdict": "on track for the commitment",
-  "share_mid": 0.334
+  "share_mid": 0.392
  },
  "admin": {
   "scope": {
-   "ready": 91,
+   "ready": 93,
    "sprint": 41,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,8 +74,16 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 14,
+    "n": 16,
     "items": [
+     {
+      "key": "PLANS-24964",
+      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
+     },
+     {
+      "key": "PLANS-24958",
+      "summary": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount"
+     },
      {
       "key": "PLANS-24956",
       "summary": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan"
@@ -99,14 +107,6 @@
      {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
-     },
-     {
-      "key": "PLANS-14758",
-      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14538",
-      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
      }
     ]
    },
@@ -124,8 +124,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 65,
+    "n": 67,
     "items": [
+     {
+      "key": "PLANS-24964",
+      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
+     },
+     {
+      "key": "PLANS-24958",
+      "summary": "Phase 3 - STAGE- Essential Smiles - showing a monthly amount"
+     },
      {
       "key": "PLANS-24956",
       "summary": "CREG/MemberPortal/Renew Button is displayed in the Dashboard for Expired plan"
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
-     },
-     {
-      "key": "PLANS-24937",
-      "summary": "Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile healt"
-     },
-     {
-      "key": "PLANS-24936",
-      "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
      }
     ]
    },
@@ -265,8 +265,12 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 75,
+    "n": 76,
     "items": [
+     {
+      "key": "PLANS-24964",
+      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
+     },
      {
       "key": "PLANS-24952",
       "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
@@ -294,23 +298,19 @@
      {
       "key": "PLANS-24631",
       "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
-     },
-     {
-      "key": "PLANS-24624",
-      "summary": "Plan Details PDF - Sent via Email Does Not Match Downloaded PDF - Missing Additi"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 119 of 126 items. This reads as a field the team does not use rather than 119 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 119,
+    "why": "missing on 120 of 128 items. This reads as a field the team does not use rather than 120 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 120,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 126 of 126 items. This reads as a field the team does not use rather than 126 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 126,
+    "why": "missing on 128 of 128 items. This reads as a field the team does not use rather than 128 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 128,
     "items": []
    },
    {
@@ -393,7 +393,7 @@
   "completed": 42,
   "scope_change": 14,
   "vs_commitment": 54,
-  "time_elapsed": 34,
+  "time_elapsed": 35,
   "spill": {
    "open_items": 21,
    "open_pts": 46.0,
@@ -446,7 +446,7 @@
    47.0
   ],
   "days": 13,
-  "day": 5
+  "day": 6
  },
  "next": {
   "name": "LL-Sprint 26-26",
@@ -459,7 +459,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 5,
+  "day": 6,
   "days": 28,
   "closed": 69,
   "points": 177,
@@ -481,15 +481,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 42,
-    "med_age": 9.1,
-    "max_age": 45.3,
-    "worst_key": "PLANS-23014",
-    "worst_sum": "PRODUCTION - CSP Plan Transactions",
+    "open": 44,
+    "med_age": 5.6,
+    "max_age": 45.4,
+    "worst_key": "PLANS-23002",
+    "worst_sum": "PRODUCTION - incorrect logging in transactions",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.7,
-    "clear_n": 207
+    "clear_n": 208
    },
    {
     "status": "In Development",
@@ -501,7 +501,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 600
+    "clear_n": 601
    },
    {
     "status": "PR Created",
@@ -529,9 +529,9 @@
    },
    {
     "status": "WAITING REVIEW",
-    "open": 3,
-    "med_age": 7.6,
-    "max_age": 22.2,
+    "open": 2,
+    "med_age": 14.9,
+    "max_age": 22.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -564,18 +564,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -586,13 +574,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 155,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 153
   },
-  "open_total": 158,
+  "open_total": 159,
   "stale": 42,
   "worst": "Ready for Development"
  }
