@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T12:32:11Z",
+ "generated": "2026-10-31T13:03:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -494,7 +494,7 @@
    {
     "status": "In Development",
     "open": 56,
-    "med_age": 3.0,
+    "med_age": 3.1,
     "max_age": 17.0,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -530,7 +530,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 15.4,
+    "med_age": 15.5,
     "max_age": 22.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -589,8 +589,8 @@
    }
   ],
   "parked": {
-   "Backlog": 153,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 153
   },
   "open_total": 159,
   "stale": 42,
