@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T05:33:05Z",
+ "generated": "2026-11-01T06:06:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -393,7 +393,7 @@
   "completed": 42,
   "scope_change": 14,
   "vs_commitment": 54,
-  "time_elapsed": 44,
+  "time_elapsed": 45,
   "spill": {
    "open_items": 21,
    "open_pts": 46.0,
@@ -533,7 +533,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 16.1,
+    "med_age": 16.2,
     "max_age": 23.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
