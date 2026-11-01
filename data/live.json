@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T21:03:53Z",
+ "generated": "2026-11-01T21:32:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -393,7 +393,7 @@
   "completed": 42,
   "scope_change": 14,
   "vs_commitment": 54,
-  "time_elapsed": 49,
+  "time_elapsed": 50,
   "spill": {
    "open_items": 21,
    "open_pts": 46.0,
@@ -489,9 +489,9 @@
     "status": "Ready for Development",
     "open": 44,
     "med_age": 7.5,
-    "max_age": 47.2,
-    "worst_key": "PLANS-23014",
-    "worst_sum": "PRODUCTION - CSP Plan Transactions",
+    "max_age": 47.3,
+    "worst_key": "PLANS-23002",
+    "worst_sum": "PRODUCTION - incorrect logging in transactions",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.7,
@@ -570,18 +570,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -592,11 +580,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 153
+   "Backlog": 153,
+   "On Hold": 2
   },
   "open_total": 159,
   "stale": 42,
