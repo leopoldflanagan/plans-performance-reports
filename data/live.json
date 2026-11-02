@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T15:32:53Z",
+ "generated": "2026-11-02T16:04:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 53,
+    "n": 55,
     "points": 86,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 86,
+   "ready": 88,
    "sprint": 41,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,8 +74,16 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 16,
+    "n": 18,
     "items": [
+     {
+      "key": "PLANS-24972",
+      "summary": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan"
+     },
+     {
+      "key": "PLANS-24966",
+      "summary": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Memb"
+     },
      {
       "key": "PLANS-24964",
       "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
@@ -99,14 +107,6 @@
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
-     },
-     {
-      "key": "PLANS-24101",
-      "summary": "Member portal -  ADD Plan -  now showing all available plans. (ranking set via s"
-     },
-     {
-      "key": "PLANS-14760",
-      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
      }
     ]
    },
@@ -124,8 +124,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 60,
+    "n": 62,
     "items": [
+     {
+      "key": "PLANS-24972",
+      "summary": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan"
+     },
+     {
+      "key": "PLANS-24966",
+      "summary": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Memb"
+     },
      {
       "key": "PLANS-24964",
       "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
-     },
-     {
-      "key": "PLANS-24936",
-      "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
-     },
-     {
-      "key": "PLANS-24929",
-      "summary": "Member Portal \\ Payment method is missing from Transactions section after plan r"
      }
     ]
    },
@@ -303,14 +303,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 113 of 121 items. This reads as a field the team does not use rather than 113 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 113,
+    "why": "missing on 115 of 123 items. This reads as a field the team does not use rather than 115 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 115,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 121 of 121 items. This reads as a field the team does not use rather than 121 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 121,
+    "why": "missing on 123 of 123 items. This reads as a field the team does not use rather than 123 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 123,
     "items": []
    },
    {
@@ -395,10 +395,10 @@
   "vs_commitment": 54,
   "time_elapsed": 56,
   "spill": {
-   "open_items": 21,
-   "open_pts": 46.0,
-   "out_items": 0,
-   "out_pts": 0,
+   "open_items": 20,
+   "open_pts": 43.0,
+   "out_items": 1,
+   "out_pts": 3.0,
    "done_pts": 34.0
   },
   "recv": {
@@ -415,7 +415,8 @@
    "Done": 22,
    "In Development": 4,
    "Ready Prod": 14,
-   "In Stage": 4,
+   "In Stage": 3,
+   "In PreProd": 1,
    "Closed": 5,
    "PR Created": 1,
    "Backlog": 6,
@@ -490,7 +491,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 37,
+    "open": 39,
     "med_age": 13.0,
     "max_age": 48.0,
     "worst_key": "PLANS-23002",
@@ -498,36 +499,36 @@
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.7,
-    "clear_n": 213
+    "clear_n": 212
    },
    {
     "status": "In Development",
     "open": 55,
     "med_age": 5.2,
-    "max_age": 19.1,
+    "max_age": 19.2,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 600
+    "clear_n": 599
    },
    {
     "status": "PR Created",
-    "open": 34,
-    "med_age": 4.7,
+    "open": 31,
+    "med_age": 4.8,
     "max_age": 12.9,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 643
+    "clear_n": 645
    },
    {
     "status": "In Stage",
-    "open": 14,
-    "med_age": 5.5,
+    "open": 15,
+    "med_age": 5.0,
     "max_age": 19.0,
     "worst_key": "PLANS-24188",
     "worst_sum": "PreProd PMP \\ Error when trying to manually renew a migrated member",
@@ -538,20 +539,20 @@
    },
    {
     "status": "PR Merged",
-    "open": 16,
-    "med_age": 3.0,
+    "open": 17,
+    "med_age": 3.1,
     "max_age": 7.2,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 606
+    "clear_n": 607
    },
    {
     "status": "WAITING REVIEW",
-    "open": 2,
-    "med_age": 17.6,
+    "open": 3,
+    "med_age": 10.3,
     "max_age": 24.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -562,27 +563,15 @@
    },
    {
     "status": "In PreProd",
-    "open": 1,
-    "med_age": 10.7,
+    "open": 2,
+    "med_age": 5.3,
     "max_age": 10.7,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 22
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
+    "clear_n": 21
    },
    {
     "status": "Ready for Stage",
@@ -595,13 +584,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 158,
+   "Backlog": 156,
    "On Hold": 2
   },
-  "open_total": 159,
+  "open_total": 162,
   "stale": 49,
   "worst": "Ready for Development"
  }
