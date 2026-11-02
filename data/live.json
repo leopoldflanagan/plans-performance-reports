@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T21:04:19Z",
+ "generated": "2026-11-02T21:32:32Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -44,8 +44,8 @@
    },
    {
     "rule": "Groomed work archived as Deferred",
-    "n": 0,
-    "points": 0,
+    "n": 1,
+    "points": 3,
     "why": "work that met Definition of Ready and was then parked."
    }
   ]
@@ -82,7 +82,7 @@
      },
      {
       "key": "PLANS-25001",
-      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction and Failed Member Additi"
+      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction "
      },
      {
       "key": "PLANS-25000",
@@ -98,7 +98,7 @@
      },
      {
       "key": "PLANS-24985",
-      "summary": "PMP - Upgrade Flow Allows Minor with Existing Responsible Party to Be Added, Res"
+      "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
      },
      {
       "key": "PLANS-24972",
@@ -132,7 +132,7 @@
      },
      {
       "key": "PLANS-25001",
-      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction and Failed Member Additi"
+      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction "
      },
      {
       "key": "PLANS-25000",
@@ -148,7 +148,7 @@
      },
      {
       "key": "PLANS-24985",
-      "summary": "PMP - Upgrade Flow Allows Minor with Existing Responsible Party to Be Added, Res"
+      "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
      },
      {
       "key": "PLANS-24972",
@@ -273,7 +273,7 @@
     "items": [
      {
       "key": "PLANS-25001",
-      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction and Failed Member Additi"
+      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction "
      },
      {
       "key": "PLANS-24964",
@@ -397,7 +397,7 @@
   "completed": 49,
   "scope_change": 17,
   "vs_commitment": 63,
-  "time_elapsed": 57,
+  "time_elapsed": 58,
   "spill": {
    "open_items": 19,
    "open_pts": 38.0,
@@ -413,11 +413,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 12,
+   "To Do": 11,
    "Ready for Development": 6,
    "In Stage": 2,
    "Done": 24,
-   "In Progress": 9,
+   "In Progress": 10,
    "PR Created": 2,
    "Ready Prod": 16,
    "In Development": 3,
@@ -475,8 +475,8 @@
   "end": "2026-11-22",
   "day": 8,
   "days": 28,
-  "closed": 78,
-  "points": 194,
+  "closed": 79,
+  "points": 196,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -509,9 +509,9 @@
     "status": "Ready for Development",
     "open": 42,
     "med_age": 5.2,
-    "max_age": 48.2,
-    "worst_key": "PLANS-23014",
-    "worst_sum": "PRODUCTION - CSP Plan Transactions",
+    "max_age": 48.3,
+    "worst_key": "PLANS-23002",
+    "worst_sum": "PRODUCTION - incorrect logging in transactions",
     "worst_who": "unassigned",
     "over": 19,
     "clear_med": 0.7,
@@ -520,7 +520,7 @@
    {
     "status": "PR Created",
     "open": 33,
-    "med_age": 4.9,
+    "med_age": 5.0,
     "max_age": 13.2,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
@@ -531,15 +531,15 @@
    },
    {
     "status": "In Stage",
-    "open": 11,
-    "med_age": 5.2,
+    "open": 10,
+    "med_age": 9.9,
     "max_age": 14.6,
     "worst_key": "PLANS-24261",
     "worst_sum": "[2.1] Payment Term on Plan Overview - Fix charge-schedule semantics (ExtendTerm billing-da",
     "worst_who": "Denys  Kernychnyi",
     "over": 5,
     "clear_med": 2.3,
-    "clear_n": 398
+    "clear_n": 399
    },
    {
     "status": "PR Merged",
@@ -578,18 +578,6 @@
     "clear_n": 21
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -600,13 +588,25 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 60
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
    "Backlog": 156,
    "On Hold": 2
   },
-  "open_total": 162,
+  "open_total": 161,
   "stale": 46,
   "worst": "In Development"
  }
