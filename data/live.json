@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T21:32:32Z",
+ "generated": "2026-11-02T22:04:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -494,6 +494,18 @@
   "stale_days": 7,
   "rows": [
    {
+    "status": "Ready for Development",
+    "open": 46,
+    "med_age": 8.6,
+    "max_age": 52.3,
+    "worst_key": "PLANS-22848",
+    "worst_sum": "Cancelled Status - doesn't carry over member info",
+    "worst_who": "unassigned",
+    "over": 23,
+    "clear_med": 0.8,
+    "clear_n": 239
+   },
+   {
     "status": "In Development",
     "open": 58,
     "med_age": 5.4,
@@ -503,19 +515,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 5,
     "clear_med": 0.1,
-    "clear_n": 594
-   },
-   {
-    "status": "Ready for Development",
-    "open": 42,
-    "med_age": 5.2,
-    "max_age": 48.3,
-    "worst_key": "PLANS-23002",
-    "worst_sum": "PRODUCTION - incorrect logging in transactions",
-    "worst_who": "unassigned",
-    "over": 19,
-    "clear_med": 0.7,
-    "clear_n": 212
+    "clear_n": 642
    },
    {
     "status": "PR Created",
@@ -527,7 +527,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 636
+    "clear_n": 684
    },
    {
     "status": "In Stage",
@@ -539,25 +539,25 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 5,
     "clear_med": 2.3,
-    "clear_n": 399
+    "clear_n": 438
    },
    {
     "status": "PR Merged",
     "open": 14,
     "med_age": 3.3,
-    "max_age": 7.4,
+    "max_age": 7.5,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 601
+    "clear_n": 649
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 17.8,
-    "max_age": 25.1,
+    "med_age": 17.9,
+    "max_age": 25.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -568,26 +568,14 @@
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 5.6,
+    "med_age": 5.7,
     "max_age": 11.0,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 21
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
+    "clear_n": 23
    },
    {
     "status": "Ready for Stage",
@@ -600,14 +588,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 156,
+   "Backlog": 112,
    "On Hold": 2
   },
-  "open_total": 161,
-  "stale": 46,
-  "worst": "In Development"
+  "open_total": 165,
+  "stale": 50,
+  "worst": "Ready for Development"
  }
 }
