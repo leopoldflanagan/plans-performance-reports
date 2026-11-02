@@ -284,8 +284,8 @@
      "med": 10.45
     },
     "In Progress": {
-     "n": 24,
-     "med": 3.0
+     "n": 25,
+     "med": 3.04
     },
     "Done": {
      "n": 27,
@@ -312,8 +312,8 @@
     "To Do": 11,
     "Ready for Development": 8,
     "Ready Prod": 17,
-    "Done": 26,
-    "In Progress": 8,
+    "Done": 25,
+    "In Progress": 9,
     "PR Created": 2,
     "Closed": 7,
     "In Development": 2,
