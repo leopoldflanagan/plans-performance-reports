@@ -44,7 +44,7 @@
    "LL-Sprint 25-26",
    "Oct 26",
    "Nov 9",
-   356,
+   357,
    41,
    213,
    254,
@@ -80,19 +80,19 @@
    84,
    19,
    78,
-   89,
+   91,
    42,
-   14,
+   17,
    [
     68.0,
     66.0,
     60.0,
     55.0,
     54.0,
-    45.0,
-    45.0,
-    45.0,
-    45.0
+    47.0,
+    47.0,
+    47.0,
+    47.0
    ],
    [
     76.0,
@@ -100,10 +100,10 @@
     80.0,
     84.0,
     85.0,
-    87.0,
-    87.0,
-    87.0,
-    87.0
+    89.0,
+    89.0,
+    89.0,
+    89.0
    ]
   ]
  ],
@@ -135,7 +135,7 @@
    ],
    "open": [
     20,
-    43
+    45
    ],
    "out": [
     1,
@@ -165,7 +165,7 @@
   "LL-Sprint 25-26": {
    "tis": {
     "To Do": {
-     "n": 130,
+     "n": 131,
      "med": 13.64
     },
     "In Progress": {
@@ -177,8 +177,8 @@
      "med": 13.34
     },
     "Ready for Development": {
-     "n": 24,
-     "med": 2.74
+     "n": 25,
+     "med": 2.79
     },
     "Backlog": {
      "n": 121,
@@ -226,30 +226,38 @@
     }
    },
    "dist": {
+    "To Do": 95,
     "Done": 63,
     "In Progress": 12,
-    "Ready for Development": 10,
-    "To Do": 94,
+    "Ready for Development": 11,
     "In Stage": 12,
     "PR Created": 4,
     "In Development": 5,
     "Closed": 6,
-    "Backlog": 111,
+    "Backlog": 110,
     "Ready Prod": 35,
     "In PreProd": 1,
     "In Testing": 1,
     "On Hold": 2
    },
-   "stalled": 315,
+   "stalled": 316,
    "worst": 13.64,
    "worstSt": "To Do",
-   "items": 356
+   "items": 357
   },
   "Plans-Sprint 25-26": {
    "tis": {
     "Ready for Development": {
      "n": 11,
-     "med": 8.32
+     "med": 2.79
+    },
+    "WAITING REVIEW": {
+     "n": 2,
+     "med": 6.3
+    },
+    "In Development": {
+     "n": 15,
+     "med": 0.97
     },
     "To Do": {
      "n": 26,
@@ -266,10 +274,6 @@
     "Done": {
      "n": 23,
      "med": 11.42
-    },
-    "In Development": {
-     "n": 14,
-     "med": 0.81
     },
     "PR Created": {
      "n": 12,
@@ -298,18 +302,14 @@
     "In QA": {
      "n": 1,
      "med": 0.11
-    },
-    "WAITING REVIEW": {
-     "n": 1,
-     "med": 12.6
     }
    },
    "dist": {
-    "Ready for Development": 6,
+    "In Development": 5,
     "In Progress": 11,
     "To Do": 10,
+    "Ready for Development": 5,
     "Done": 22,
-    "In Development": 4,
     "Ready Prod": 14,
     "In Stage": 3,
     "In PreProd": 1,
@@ -319,8 +319,8 @@
     "WAITING REVIEW": 1
    },
    "stalled": 65,
-   "worst": 12.6,
-   "worstSt": "WAITING REVIEW",
+   "worst": 11.42,
+   "worstSt": "Done",
    "items": 84
   }
  },
@@ -342,10 +342,10 @@
    62.0,
    57.0,
    56.0,
-   47.0,
-   47.0,
-   47.0,
-   47.0
+   49.0,
+   49.0,
+   49.0,
+   49.0
   ]
  },
  "CAP": {
