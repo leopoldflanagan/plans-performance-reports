@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T08:33:08Z",
+ "generated": "2026-11-02T09:06:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 58,
-    "points": 91,
+    "n": 57,
+    "points": 90,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 91,
+   "ready": 90,
    "sprint": 41,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 65,
+    "n": 64,
     "items": [
      {
       "key": "PLANS-24964",
@@ -143,10 +143,6 @@
       "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
      },
      {
-      "key": "PLANS-24950",
-      "summary": "PMP - Unable to Update Responsible Party for Minor Dependent After Removal From "
-     },
-     {
       "key": "PLANS-24945",
       "summary": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing"
      },
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
+     },
+     {
+      "key": "PLANS-24937",
+      "summary": "Phase 3- Preprod/STAGE - Legacy West Dental - Offices not visible on Smile healt"
      }
     ]
    },
@@ -303,14 +303,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 118 of 126 items. This reads as a field the team does not use rather than 118 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 118,
+    "why": "missing on 117 of 125 items. This reads as a field the team does not use rather than 117 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 117,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 126 of 126 items. This reads as a field the team does not use rather than 126 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 126,
+    "why": "missing on 125 of 125 items. This reads as a field the team does not use rather than 125 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 125,
     "items": []
    },
    {
@@ -487,39 +487,39 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 42,
-    "med_age": 11.5,
+    "open": 41,
+    "med_age": 12.5,
     "max_age": 47.7,
-    "worst_key": "PLANS-23002",
-    "worst_sum": "PRODUCTION - incorrect logging in transactions",
+    "worst_key": "PLANS-23014",
+    "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.7,
-    "clear_n": 210
+    "clear_n": 211
    },
    {
     "status": "In Development",
     "open": 57,
     "med_age": 4.9,
-    "max_age": 18.8,
+    "max_age": 18.9,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 602
+    "clear_n": 603
    },
    {
     "status": "PR Created",
-    "open": 31,
-    "med_age": 4.4,
-    "max_age": 12.6,
+    "open": 32,
+    "med_age": 4.5,
+    "max_age": 12.7,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 642
+    "clear_n": 643
    },
    {
     "status": "In Stage",
@@ -536,14 +536,14 @@
    {
     "status": "PR Merged",
     "open": 13,
-    "med_age": 2.9,
+    "med_age": 3.0,
     "max_age": 6.9,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 608
+    "clear_n": 609
    },
    {
     "status": "WAITING REVIEW",
@@ -560,8 +560,8 @@
    {
     "status": "In PreProd",
     "open": 1,
-    "med_age": 10.4,
-    "max_age": 10.4,
+    "med_age": 10.5,
+    "max_age": 10.5,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
