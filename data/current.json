@@ -173,7 +173,7 @@
      "med": 0.22
     },
     "Done": {
-     "n": 63,
+     "n": 64,
      "med": 13.34
     },
     "Ready for Development": {
@@ -227,8 +227,8 @@
    },
    "dist": {
     "To Do": 95,
-    "Done": 63,
-    "In Progress": 12,
+    "Done": 64,
+    "In Progress": 11,
     "In Development": 6,
     "In Stage": 12,
     "PR Created": 4,
@@ -260,8 +260,8 @@
      "med": 0.66
     },
     "PR Created": {
-     "n": 13,
-     "med": 0.01
+     "n": 14,
+     "med": 0.02
     },
     "To Do": {
      "n": 26,
@@ -305,13 +305,13 @@
     }
    },
    "dist": {
-    "PR Created": 2,
+    "PR Created": 3,
     "In Progress": 11,
     "To Do": 10,
     "Ready for Development": 5,
     "Done": 22,
-    "In Development": 4,
     "Ready Prod": 14,
+    "In Development": 3,
     "In Stage": 3,
     "In PreProd": 1,
     "Closed": 5,

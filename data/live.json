@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T18:05:18Z",
+ "generated": "2026-11-02T18:32:42Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -393,7 +393,7 @@
   "completed": 42,
   "scope_change": 17,
   "vs_commitment": 54,
-  "time_elapsed": 56,
+  "time_elapsed": 57,
   "spill": {
    "open_items": 20,
    "open_pts": 45.0,
@@ -409,13 +409,13 @@
   },
   "spill_rate": null,
   "dist": {
-   "PR Created": 2,
+   "PR Created": 3,
    "In Progress": 11,
    "To Do": 10,
    "Ready for Development": 5,
    "Done": 22,
-   "In Development": 4,
    "Ready Prod": 14,
+   "In Development": 3,
    "In Stage": 3,
    "In PreProd": 1,
    "Closed": 5,
@@ -491,39 +491,39 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 40,
-    "med_age": 13.0,
+    "open": 39,
+    "med_age": 12.9,
     "max_age": 48.1,
     "worst_key": "PLANS-23002",
     "worst_sum": "PRODUCTION - incorrect logging in transactions",
     "worst_who": "unassigned",
-    "over": 22,
+    "over": 21,
     "clear_med": 0.7,
-    "clear_n": 213
+    "clear_n": 212
    },
    {
     "status": "In Development",
-    "open": 57,
+    "open": 56,
     "med_age": 5.3,
-    "max_age": 19.2,
+    "max_age": 19.3,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 599
+    "clear_n": 598
    },
    {
     "status": "PR Created",
-    "open": 32,
+    "open": 33,
     "med_age": 4.8,
-    "max_age": 13.0,
+    "max_age": 13.1,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 644
+    "clear_n": 641
    },
    {
     "status": "In Stage",
@@ -535,7 +535,7 @@
     "worst_who": "Petro Yarish",
     "over": 6,
     "clear_med": 2.3,
-    "clear_n": 399
+    "clear_n": 397
    },
    {
     "status": "PR Merged",
@@ -547,7 +547,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 609
+    "clear_n": 606
    },
    {
     "status": "WAITING REVIEW",
@@ -599,11 +599,11 @@
    }
   ],
   "parked": {
-   "Backlog": 155,
+   "Backlog": 158,
    "On Hold": 2
   },
-  "open_total": 162,
-  "stale": 49,
+  "open_total": 161,
+  "stale": 48,
   "worst": "Ready for Development"
  }
 }
