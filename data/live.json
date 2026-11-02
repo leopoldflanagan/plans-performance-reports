@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T06:44:06Z",
+ "generated": "2026-11-02T07:05:15Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -488,10 +488,10 @@
    {
     "status": "Ready for Development",
     "open": 44,
-    "med_age": 7.9,
-    "max_age": 47.6,
-    "worst_key": "PLANS-23014",
-    "worst_sum": "PRODUCTION - CSP Plan Transactions",
+    "med_age": 8.0,
+    "max_age": 47.7,
+    "worst_key": "PLANS-23002",
+    "worst_sum": "PRODUCTION - incorrect logging in transactions",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.7,
@@ -570,18 +570,6 @@
     "clear_n": 23
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -592,6 +580,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
