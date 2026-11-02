@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T18:32:42Z",
+ "generated": "2026-11-02T19:03:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 56,
+    "n": 57,
     "points": 88,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -44,8 +44,8 @@
    },
    {
     "rule": "Groomed work archived as Deferred",
-    "n": 1,
-    "points": 3,
+    "n": 0,
+    "points": 0,
     "why": "work that met Definition of Ready and was then parked."
    }
   ]
@@ -66,23 +66,27 @@
  },
  "admin": {
   "scope": {
-   "ready": 89,
-   "sprint": 41,
+   "ready": 90,
+   "sprint": 42,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 18,
+    "n": 19,
     "items": [
+     {
+      "key": "PLANS-24995",
+      "summary": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitat"
+     },
+     {
+      "key": "PLANS-24985",
+      "summary": "PMP - Upgrade Flow Allows Minor with Existing Responsible Party to Be Added, Res"
+     },
      {
       "key": "PLANS-24972",
       "summary": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan"
-     },
-     {
-      "key": "PLANS-24969",
-      "summary": "PMP & MP - Auto-Renewal Enabled but No Payment Method Assigned in Plan Overview "
      },
      {
       "key": "PLANS-24966",
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-24862",
       "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
-     },
-     {
-      "key": "PLANS-24475",
-      "summary": "Production - Text Messaging Improvements"
      }
     ]
    },
@@ -124,15 +124,19 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 63,
+    "n": 64,
     "items": [
+     {
+      "key": "PLANS-24995",
+      "summary": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitat"
+     },
+     {
+      "key": "PLANS-24985",
+      "summary": "PMP - Upgrade Flow Allows Minor with Existing Responsible Party to Be Added, Res"
+     },
      {
       "key": "PLANS-24972",
       "summary": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan"
-     },
-     {
-      "key": "PLANS-24969",
-      "summary": "PMP & MP - Auto-Renewal Enabled but No Payment Method Assigned in Plan Overview "
      },
      {
       "key": "PLANS-24966",
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
-     },
-     {
-      "key": "PLANS-24936",
-      "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
      }
     ]
    },
@@ -303,14 +303,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 117 of 125 items. This reads as a field the team does not use rather than 117 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 117,
+    "why": "missing on 118 of 126 items. This reads as a field the team does not use rather than 118 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 118,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 125 of 125 items. This reads as a field the team does not use rather than 125 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 125,
+    "why": "missing on 126 of 126 items. This reads as a field the team does not use rather than 126 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 126,
     "items": []
    },
    {
@@ -386,7 +386,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 84,
+  "items": 87,
   "items_done": 19,
   "committed": 78,
   "final": 91,
@@ -395,7 +395,7 @@
   "vs_commitment": 54,
   "time_elapsed": 57,
   "spill": {
-   "open_items": 20,
+   "open_items": 21,
    "open_pts": 45.0,
    "out_items": 1,
    "out_pts": 3.0,
@@ -409,11 +409,11 @@
   },
   "spill_rate": null,
   "dist": {
+   "To Do": 12,
+   "Ready for Development": 6,
    "PR Created": 3,
-   "In Progress": 11,
-   "To Do": 10,
-   "Ready for Development": 5,
-   "Done": 22,
+   "In Progress": 10,
+   "Done": 23,
    "Ready Prod": 14,
    "In Development": 3,
    "In Stage": 3,
@@ -471,7 +471,7 @@
   "end": "2026-11-22",
   "day": 8,
   "days": 28,
-  "closed": 72,
+  "closed": 73,
   "points": 180,
   "unplanned": null,
   "unplanned_pct": null,
@@ -492,18 +492,18 @@
    {
     "status": "Ready for Development",
     "open": 39,
-    "med_age": 12.9,
-    "max_age": 48.1,
+    "med_age": 10.9,
+    "max_age": 48.2,
     "worst_key": "PLANS-23002",
     "worst_sum": "PRODUCTION - incorrect logging in transactions",
     "worst_who": "unassigned",
-    "over": 21,
+    "over": 20,
     "clear_med": 0.7,
-    "clear_n": 212
+    "clear_n": 213
    },
    {
     "status": "In Development",
-    "open": 56,
+    "open": 57,
     "med_age": 5.3,
     "max_age": 19.3,
     "worst_key": "PLANS-24223",
@@ -511,19 +511,19 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 598
+    "clear_n": 595
    },
    {
     "status": "PR Created",
     "open": 33,
-    "med_age": 4.8,
+    "med_age": 4.9,
     "max_age": 13.1,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 641
+    "clear_n": 635
    },
    {
     "status": "In Stage",
@@ -535,7 +535,7 @@
     "worst_who": "Petro Yarish",
     "over": 6,
     "clear_med": 2.3,
-    "clear_n": 397
+    "clear_n": 394
    },
    {
     "status": "PR Merged",
@@ -547,7 +547,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 606
+    "clear_n": 600
    },
    {
     "status": "WAITING REVIEW",
@@ -565,25 +565,13 @@
     "status": "In PreProd",
     "open": 2,
     "med_age": 5.5,
-    "max_age": 10.8,
+    "max_age": 10.9,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 21
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
    },
    {
     "status": "Ready for Stage",
@@ -596,14 +584,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 158,
+   "Backlog": 157,
    "On Hold": 2
   },
-  "open_total": 161,
-  "stale": 48,
+  "open_total": 162,
+  "stale": 47,
   "worst": "Ready for Development"
  }
 }
