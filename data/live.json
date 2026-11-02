@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T23:32:31Z",
+ "generated": "2026-11-02T00:11:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 7,
+  "day": 8,
   "days": 13,
   "n": 21,
   "done_now": 42,
   "committed": 78,
-  "lo": 65,
-  "mid": 83,
-  "hi": 147,
-  "pct": 106,
-  "verdict": "on track for the commitment",
-  "share_mid": 0.504
+  "lo": 60,
+  "mid": 67,
+  "hi": 91,
+  "pct": 86,
+  "verdict": "a little short of the commitment",
+  "share_mid": 0.625
  },
  "admin": {
   "scope": {
@@ -452,7 +452,7 @@
    47.0
   ],
   "days": 13,
-  "day": 7
+  "day": 8
  },
  "next": {
   "name": "LL-Sprint 26-26",
@@ -465,7 +465,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 7,
+  "day": 8,
   "days": 28,
   "closed": 69,
   "points": 177,
@@ -489,9 +489,9 @@
     "status": "Ready for Development",
     "open": 44,
     "med_age": 7.6,
-    "max_age": 47.3,
-    "worst_key": "PLANS-23014",
-    "worst_sum": "PRODUCTION - CSP Plan Transactions",
+    "max_age": 47.4,
+    "worst_key": "PLANS-23002",
+    "worst_sum": "PRODUCTION - incorrect logging in transactions",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.7,
@@ -549,7 +549,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 16.9,
-    "max_age": 24.2,
+    "max_age": 24.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -595,8 +595,8 @@
    }
   ],
   "parked": {
-   "Backlog": 153,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 153
   },
   "open_total": 159,
   "stale": 42,
