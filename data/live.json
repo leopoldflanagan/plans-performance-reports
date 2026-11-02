@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T20:04:10Z",
+ "generated": "2026-11-02T20:32:38Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 4,
-   "points": 10
+   "items": 2,
+   "points": 5
   },
   "misfiled": {
    "items": 30,
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 57,
+    "n": 59,
     "points": 88,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 90,
+   "ready": 92,
    "sprint": 42,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,8 +74,16 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 19,
+    "n": 21,
     "items": [
+     {
+      "key": "PLANS-25001",
+      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction and Failed Member Additi"
+     },
+     {
+      "key": "PLANS-25000",
+      "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
+     },
      {
       "key": "PLANS-24995",
       "summary": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitat"
@@ -99,14 +107,6 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
-     },
-     {
-      "key": "PLANS-24902",
-      "summary": "CREG/Member Id in the PDF does not match the member Id in app"
-     },
-     {
-      "key": "PLANS-24862",
-      "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
      }
     ]
    },
@@ -124,8 +124,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 64,
+    "n": 66,
     "items": [
+     {
+      "key": "PLANS-25001",
+      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction and Failed Member Additi"
+     },
+     {
+      "key": "PLANS-25000",
+      "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
+     },
      {
       "key": "PLANS-24995",
       "summary": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitat"
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-24952",
       "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
-     },
-     {
-      "key": "PLANS-24943",
-      "summary": "Member Portal \\ Cardholder name is missing from Manage Payments after adding a n"
-     },
-     {
-      "key": "PLANS-24942",
-      "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
      }
     ]
    },
@@ -265,8 +265,12 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 76,
+    "n": 77,
     "items": [
+     {
+      "key": "PLANS-25001",
+      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction and Failed Member Additi"
+     },
      {
       "key": "PLANS-24964",
       "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
@@ -294,23 +298,19 @@
      {
       "key": "PLANS-24869",
       "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Smile health and Custom Po"
-     },
-     {
-      "key": "PLANS-24631",
-      "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 118 of 126 items. This reads as a field the team does not use rather than 118 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 118,
+    "why": "missing on 120 of 128 items. This reads as a field the team does not use rather than 120 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 120,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 126 of 126 items. This reads as a field the team does not use rather than 126 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 126,
+    "why": "missing on 128 of 128 items. This reads as a field the team does not use rather than 128 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 128,
     "items": []
    },
    {
@@ -386,7 +386,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 87,
+  "items": 88,
   "items_done": 21,
   "committed": 78,
   "final": 91,
@@ -397,7 +397,7 @@
   "spill": {
    "open_items": 19,
    "open_pts": 38.0,
-   "out_items": 1,
+   "out_items": 2,
    "out_pts": 3.0,
    "done_pts": 41.0
   },
@@ -490,18 +490,6 @@
   "stale_days": 7,
   "rows": [
    {
-    "status": "Ready for Development",
-    "open": 39,
-    "med_age": 11.0,
-    "max_age": 48.2,
-    "worst_key": "PLANS-23002",
-    "worst_sum": "PRODUCTION - incorrect logging in transactions",
-    "worst_who": "unassigned",
-    "over": 20,
-    "clear_med": 0.7,
-    "clear_n": 213
-   },
-   {
     "status": "In Development",
     "open": 58,
     "med_age": 5.4,
@@ -511,7 +499,19 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 4,
     "clear_med": 0.1,
-    "clear_n": 596
+    "clear_n": 595
+   },
+   {
+    "status": "Ready for Development",
+    "open": 40,
+    "med_age": 5.6,
+    "max_age": 48.2,
+    "worst_key": "PLANS-23002",
+    "worst_sum": "PRODUCTION - incorrect logging in transactions",
+    "worst_who": "unassigned",
+    "over": 19,
+    "clear_med": 0.7,
+    "clear_n": 213
    },
    {
     "status": "PR Created",
@@ -602,8 +602,8 @@
    "Backlog": 157,
    "On Hold": 2
   },
-  "open_total": 162,
-  "stale": 47,
-  "worst": "Ready for Development"
+  "open_total": 163,
+  "stale": 46,
+  "worst": "In Development"
  }
 }
