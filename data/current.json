@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 79,
+  "closed": 80,
   "discarded": 0,
-  "resolved": 79,
+  "resolved": 80,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Bug",
-    45
+    46
    ],
    [
     "Story",
@@ -33,10 +33,10 @@
   "day": 2,
   "days": 28,
   "status": "risk",
-  "headline": "79 items closed in the first 2 days, a pace of about 1106 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "80 items closed in the first 2 days, a pace of about 1120 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 9.3d and average 17.0d, both past the healthy band"
+   "cycle time median 9.3d and average 16.7d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -78,10 +78,10 @@
    "Oct 26",
    "Nov 8",
    89,
-   21,
+   22,
    78,
    91,
-   49,
+   51,
    17,
    [
     68.0,
@@ -92,7 +92,7 @@
     47.0,
     47.0,
     47.0,
-    40.0
+    38.0
    ],
    [
     76.0,
@@ -130,12 +130,12 @@
   },
   "Plans-Sprint 25-26": {
    "done": [
-    21,
-    41
+    22,
+    43
    ],
    "open": [
-    19,
-    38
+    18,
+    36
    ],
    "out": [
     3,
@@ -273,7 +273,11 @@
     },
     "In Stage": {
      "n": 22,
-     "med": 1.22
+     "med": 1.19
+    },
+    "Ready Prod": {
+     "n": 17,
+     "med": 10.45
     },
     "In Progress": {
      "n": 24,
@@ -286,10 +290,6 @@
     "Backlog": {
      "n": 14,
      "med": 1.71
-    },
-    "Ready Prod": {
-     "n": 16,
-     "med": 10.49
     },
     "Closed": {
      "n": 6,
@@ -307,18 +307,18 @@
    "dist": {
     "To Do": 11,
     "Ready for Development": 8,
-    "In Stage": 2,
+    "Ready Prod": 17,
     "Done": 24,
     "In Progress": 10,
     "PR Created": 2,
-    "Ready Prod": 16,
     "In Development": 3,
     "In PreProd": 1,
     "Closed": 5,
     "Backlog": 6,
-    "WAITING REVIEW": 1
+    "WAITING REVIEW": 1,
+    "In Stage": 1
    },
-   "stalled": 68,
+   "stalled": 67,
    "worst": 11.38,
    "worstSt": "Done",
    "items": 89
@@ -345,25 +345,25 @@
    49.0,
    49.0,
    49.0,
-   42.0
+   40.0
   ]
  },
  "CAP": {
   "9.10": [
-   79,
-   70,
-   196,
+   80,
+   71,
+   198,
    12
   ]
  },
  "CYC": {
   "9.10": {
    "med": 9.28,
-   "avg": 16.96,
-   "n": 67,
+   "avg": 16.71,
+   "n": 68,
    "mx": 92.49,
    "nodev": 12,
-   "base": 79
+   "base": 80
   }
  },
  "complete": false,
