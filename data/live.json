@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T14:04:14Z",
+ "generated": "2026-11-03T14:33:11Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -389,16 +389,16 @@
   "items": 89,
   "items_done": 23,
   "committed": 78,
-  "final": 95,
+  "final": 96,
   "completed": 61,
-  "scope_change": 22,
+  "scope_change": 23,
   "vs_commitment": 78,
   "time_elapsed": 63,
   "spill": {
    "open_items": 16,
    "open_pts": 26.0,
    "out_items": 3,
-   "out_pts": 5.0,
+   "out_pts": 6.0,
    "done_pts": 55.0
   },
   "recv": {
@@ -410,13 +410,13 @@
   "spill_rate": null,
   "dist": {
    "To Do": 11,
-   "In Development": 3,
+   "PR Created": 3,
    "Ready Prod": 17,
    "Done": 25,
    "Ready for Development": 5,
    "In Progress": 9,
-   "PR Created": 2,
    "Closed": 7,
+   "In Development": 2,
    "In PreProd": 1,
    "Backlog": 6,
    "WAITING REVIEW": 1
@@ -430,7 +430,7 @@
    47.0,
    47.0,
    47.0,
-   32.0
+   33.0
   ],
   "scope": [
    76.0,
@@ -441,7 +441,7 @@
    89.0,
    89.0,
    89.0,
-   93.0
+   94.0
   ],
   "ghost": [
    70.0,
@@ -452,7 +452,7 @@
    49.0,
    49.0,
    49.0,
-   32.0
+   33.0
   ],
   "days": 13,
   "day": 9
@@ -491,7 +491,7 @@
    {
     "status": "Ready for Development",
     "open": 40,
-    "med_age": 13.8,
+    "med_age": 13.9,
     "max_age": 53.0,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
@@ -502,15 +502,15 @@
    },
    {
     "status": "In Development",
-    "open": 62,
+    "open": 61,
     "med_age": 6.1,
     "max_age": 20.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
-    "over": 7,
+    "over": 9,
     "clear_med": 0.1,
-    "clear_n": 644
+    "clear_n": 645
    },
    {
     "status": "In Stage",
@@ -526,9 +526,9 @@
    },
    {
     "status": "PR Created",
-    "open": 28,
-    "med_age": 4.1,
-    "max_age": 8.0,
+    "open": 29,
+    "med_age": 4.2,
+    "max_age": 8.1,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
@@ -540,7 +540,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 18.5,
-    "max_age": 25.8,
+    "max_age": 25.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -573,18 +573,6 @@
     "clear_n": 23
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -595,14 +583,26 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 60
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 111
+   "Backlog": 111,
+   "On Hold": 2
   },
   "open_total": 166,
-  "stale": 44,
+  "stale": 46,
   "worst": "Ready for Development"
  }
 }
