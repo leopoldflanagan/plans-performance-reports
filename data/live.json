@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T20:33:18Z",
+ "generated": "2026-11-03T21:03:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 2,
-   "points": 5
+   "items": 19,
+   "points": 109
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 45,
-    "points": 44,
+    "n": 62,
+    "points": 110,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,27 +55,43 @@
   "day": 9,
   "days": 13,
   "n": 21,
-  "done_now": 61,
-  "committed": 78,
-  "lo": 75,
-  "mid": 84,
-  "hi": 110,
-  "pct": 108,
+  "done_now": 63,
+  "committed": 91,
+  "lo": 78,
+  "mid": 87,
+  "hi": 113,
+  "pct": 96,
   "verdict": "on track for the commitment",
   "share_mid": 0.724
  },
  "admin": {
   "scope": {
-   "ready": 89,
-   "sprint": 43,
+   "ready": 123,
+   "sprint": 61,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 19,
+    "n": 23,
     "items": [
+     {
+      "key": "PLANS-25053",
+      "summary": "[4.7.W1] Plans - each approved subscription charge extends every dependent's ter"
+     },
+     {
+      "key": "PLANS-25052",
+      "summary": "[4.6.W4] Plans - when an Annual or 2-Year subscription's renewal retries run out"
+     },
+     {
+      "key": "PLANS-25051",
+      "summary": "[4.5.W3] Plans - Day 61: write off the unpaid charges, disable the family, recor"
+     },
+     {
+      "key": "PLANS-25050",
+      "summary": "[4.4.W2] Plans - resolve each plan line's current plan, so replaced plans never "
+     },
      {
       "key": "PLANS-25022",
       "summary": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal "
@@ -91,22 +107,6 @@
      {
       "key": "PLANS-24966",
       "summary": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Memb"
-     },
-     {
-      "key": "PLANS-24964",
-      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
-     },
-     {
-      "key": "PLANS-24942",
-      "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
-     },
-     {
-      "key": "PLANS-24902",
-      "summary": "CREG/Member Id in the PDF does not match the member Id in app"
-     },
-     {
-      "key": "PLANS-24862",
-      "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
      }
     ]
    },
@@ -124,39 +124,39 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 63,
+    "n": 80,
     "items": [
      {
-      "key": "PLANS-25022",
-      "summary": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal "
+      "key": "PLANS-25059",
+      "summary": "[6.11.W4] Plans - switching a subscription to a legacy Annual plan is a successo"
      },
      {
-      "key": "PLANS-25000",
-      "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
+      "key": "PLANS-25058",
+      "summary": "[6.10.W1] Platform DB - the CSP refund grid keys a subscription charge on the pl"
      },
      {
-      "key": "PLANS-24985",
-      "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
+      "key": "PLANS-25057",
+      "summary": "[6.9.W2] Plans and CSP - a primary change moves billing forward to the new prima"
      },
      {
-      "key": "PLANS-24966",
-      "summary": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Memb"
+      "key": "PLANS-25056",
+      "summary": "[6.8.W3] Plans and CSP - a coverage, plan or tier change on a subscription is a "
      },
      {
-      "key": "PLANS-24964",
-      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
+      "key": "PLANS-25055",
+      "summary": "[6.7.W3] Plans, CSP and Platform DB - a refund forgives the period, and DELETE P"
      },
      {
-      "key": "PLANS-24952",
-      "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
+      "key": "PLANS-25054",
+      "summary": "[6.6.W2] Plans and CSP - cancel a subscription: no more charges, covered to the "
      },
      {
-      "key": "PLANS-24943",
-      "summary": "Member Portal \\ Cardholder name is missing from Manage Payments after adding a n"
+      "key": "PLANS-25053",
+      "summary": "[4.7.W1] Plans - each approved subscription charge extends every dependent's ter"
      },
      {
-      "key": "PLANS-24942",
-      "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
+      "key": "PLANS-25052",
+      "summary": "[4.6.W4] Plans - when an Annual or 2-Year subscription's renewal retries run out"
      }
     ]
    },
@@ -213,23 +213,39 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 4,
+    "n": 48,
     "items": [
      {
-      "key": "PLANS-24884",
-      "summary": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal"
+      "key": "PLANS-25059",
+      "summary": "[6.11.W4] Plans - switching a subscription to a legacy Annual plan is a successo"
      },
      {
-      "key": "PLANS-15940",
-      "summary": "[4.1] Add GetPlanLedgerState method to PlanLedgerManager"
+      "key": "PLANS-25058",
+      "summary": "[6.10.W1] Platform DB - the CSP refund grid keys a subscription charge on the pl"
      },
      {
-      "key": "PLANS-15928",
-      "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
+      "key": "PLANS-25057",
+      "summary": "[6.9.W2] Plans and CSP - a primary change moves billing forward to the new prima"
      },
      {
-      "key": "PLANS-24788",
-      "summary": "ARD for WT-1022"
+      "key": "PLANS-25056",
+      "summary": "[6.8.W3] Plans and CSP - a coverage, plan or tier change on a subscription is a "
+     },
+     {
+      "key": "PLANS-25055",
+      "summary": "[6.7.W3] Plans, CSP and Platform DB - a refund forgives the period, and DELETE P"
+     },
+     {
+      "key": "PLANS-25054",
+      "summary": "[6.6.W2] Plans and CSP - cancel a subscription: no more charges, covered to the "
+     },
+     {
+      "key": "PLANS-25052",
+      "summary": "[4.6.W4] Plans - when an Annual or 2-Year subscription's renewal retries run out"
+     },
+     {
+      "key": "PLANS-25051",
+      "summary": "[4.5.W3] Plans - Day 61: write off the unpaid charges, disable the family, recor"
      }
     ]
    },
@@ -311,21 +327,29 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 119 of 127 items. This reads as a field the team does not use rather than 119 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 119,
+    "why": "missing on 165 of 173 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 165,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 127 of 127 items. This reads as a field the team does not use rather than 127 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 127,
+    "why": "missing on 173 of 173 items. This reads as a field the team does not use rather than 173 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 173,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 28,
+    "n": 31,
     "items": [
+     {
+      "key": "PLANS-23592",
+      "summary": "[1.5.W3] CSP and Plans - refuse a template, or a sale, whose Plan Duration is sh"
+     },
+     {
+      "key": "PLANS-23589",
+      "summary": "[1.4.W2] CSP - expose billing model on coverage levels and clear subscription fi"
+     },
      {
       "key": "PLANS-22675",
       "summary": "Unify Font's in the Plans Widget Checkout Screen"
@@ -349,14 +373,6 @@
      {
       "key": "PLANS-14582",
       "summary": "Update UI for CSP"
-     },
-     {
-      "key": "PLANS-14568",
-      "summary": "Integrating plans API into CSP (Dev Only)"
-     },
-     {
-      "key": "PLANS-14558",
-      "summary": "Handle One-Time Payment Option (Dev & QA)"
      }
     ]
    }
@@ -394,20 +410,20 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 93,
-  "items_done": 23,
-  "committed": 78,
-  "final": 96,
-  "completed": 61,
-  "scope_change": 23,
-  "vs_commitment": 78,
+  "items": 128,
+  "items_done": 24,
+  "committed": 91,
+  "final": 216,
+  "completed": 63,
+  "scope_change": 137,
+  "vs_commitment": 69,
   "time_elapsed": 65,
   "spill": {
-   "open_items": 17,
-   "open_pts": 26.0,
-   "out_items": 3,
-   "out_pts": 6.0,
-   "done_pts": 55.0
+   "open_items": 34,
+   "open_pts": 125.0,
+   "out_items": 6,
+   "out_pts": 25.0,
+   "done_pts": 57.0
   },
   "recv": {
    "items": 0,
@@ -417,54 +433,55 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 12,
+   "To Do": 26,
+   "Ready for Development": 11,
+   "In Development": 7,
    "Backlog": 7,
-   "In Progress": 11,
-   "In Stage": 2,
-   "Ready Prod": 17,
-   "Done": 25,
-   "Ready for Development": 5,
+   "In Progress": 10,
+   "Done": 26,
+   "Ready Prod": 18,
+   "In Stage": 1,
    "Closed": 7,
-   "In Development": 2,
    "In PreProd": 1,
    "PR Created": 1,
+   "PR Merged": 7,
    "WAITING REVIEW": 1
   },
   "burn": [
+   81.0,
+   79.0,
+   73.0,
    68.0,
-   66.0,
+   67.0,
    60.0,
-   55.0,
-   54.0,
-   47.0,
-   47.0,
-   47.0,
-   33.0,
-   33.0
+   60.0,
+   60.0,
+   46.0,
+   151.0
   ],
   "scope": [
-   76.0,
-   76.0,
-   80.0,
-   84.0,
-   85.0,
    89.0,
    89.0,
-   89.0,
-   94.0,
-   94.0
+   93.0,
+   97.0,
+   98.0,
+   102.0,
+   102.0,
+   102.0,
+   107.0,
+   214.0
   ],
   "ghost": [
+   83.0,
+   81.0,
+   75.0,
    70.0,
-   68.0,
+   69.0,
    62.0,
-   57.0,
-   56.0,
-   49.0,
-   49.0,
-   49.0,
-   33.0,
-   33.0
+   62.0,
+   62.0,
+   46.0,
+   151.0
   ],
   "days": 13,
   "day": 9
@@ -482,8 +499,8 @@
   "end": "2026-11-22",
   "day": 9,
   "days": 28,
-  "closed": 89,
-  "points": 226,
+  "closed": 91,
+  "points": 230,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -502,27 +519,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 60,
-    "med_age": 6.4,
-    "max_age": 20.3,
+    "open": 64,
+    "med_age": 6.0,
+    "max_age": 20.4,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
-    "clear_med": 0.1,
-    "clear_n": 581
-   },
-   {
-    "status": "Ready for Development",
-    "open": 37,
-    "med_age": 6.9,
-    "max_age": 49.2,
-    "worst_key": "PLANS-23002",
-    "worst_sum": "PRODUCTION - incorrect logging in transactions",
-    "worst_who": "unassigned",
-    "over": 18,
-    "clear_med": 0.7,
-    "clear_n": 211
+    "clear_med": 0.0,
+    "clear_n": 595
    },
    {
     "status": "PR Created",
@@ -534,19 +539,31 @@
     "worst_who": "Mykyta  Moroz",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 636
+    "clear_n": 651
    },
    {
-    "status": "PR Merged",
-    "open": 13,
-    "med_age": 4.3,
-    "max_age": 8.4,
-    "worst_key": "PLANS-24702",
-    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
+    "status": "In Stage",
+    "open": 10,
+    "med_age": 7.9,
+    "max_age": 15.6,
+    "worst_key": "PLANS-24261",
+    "worst_sum": "[2.1] Payment Term on Plan Overview - Fix charge-schedule semantics (ExtendTerm billing-da",
     "worst_who": "Denys  Kernychnyi",
-    "over": 2,
-    "clear_med": 0.0,
-    "clear_n": 606
+    "over": 5,
+    "clear_med": 2.2,
+    "clear_n": 397
+   },
+   {
+    "status": "Ready for Development",
+    "open": 71,
+    "med_age": 1.0,
+    "max_age": 49.2,
+    "worst_key": "PLANS-23014",
+    "worst_sum": "PRODUCTION - CSP Plan Transactions",
+    "worst_who": "unassigned",
+    "over": 19,
+    "clear_med": 0.7,
+    "clear_n": 214
    },
    {
     "status": "WAITING REVIEW",
@@ -563,8 +580,8 @@
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 6.5,
-    "max_age": 11.9,
+    "med_age": 6.6,
+    "max_age": 12.0,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -573,16 +590,28 @@
     "clear_n": 20
    },
    {
-    "status": "In Stage",
-    "open": 11,
-    "med_age": 0.2,
-    "max_age": 15.5,
-    "worst_key": "PLANS-24261",
-    "worst_sum": "[2.1] Payment Term on Plan Overview - Fix charge-schedule semantics (ExtendTerm billing-da",
+    "status": "PR Merged",
+    "open": 15,
+    "med_age": 0.4,
+    "max_age": 8.4,
+    "worst_key": "PLANS-24702",
+    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
-    "over": 5,
-    "clear_med": 2.2,
-    "clear_n": 391
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 618
+   },
+   {
+    "status": "In QA",
+    "open": 13,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
    },
    {
     "status": "Ready for Stage",
@@ -595,25 +624,13 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 8,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24741",
-    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 164,
+   "Backlog": 116,
    "On Hold": 2
   },
-  "open_total": 161,
+  "open_total": 205,
   "stale": 42,
   "worst": "In Development"
  }
