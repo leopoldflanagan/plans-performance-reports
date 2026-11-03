@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T23:04:12Z",
+ "generated": "2026-11-03T23:32:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -431,15 +431,15 @@
   "dist": {
    "To Do": 28,
    "Ready for Development": 9,
-   "In Development": 10,
-   "PR Created": 2,
+   "PR Merged": 15,
    "In Progress": 10,
    "Done": 26,
    "Ready Prod": 18,
    "In Stage": 1,
    "Closed": 7,
+   "In Development": 3,
    "In PreProd": 1,
-   "PR Merged": 7,
+   "PR Created": 1,
    "Backlog": 6,
    "WAITING REVIEW": 1
   },
@@ -515,35 +515,35 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 69,
-    "med_age": 5.4,
+    "open": 62,
+    "med_age": 6.5,
     "max_age": 20.5,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 589
+    "clear_n": 596
    },
    {
     "status": "PR Created",
-    "open": 27,
-    "med_age": 4.5,
+    "open": 24,
+    "med_age": 5.3,
     "max_age": 8.4,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 640
+    "clear_n": 650
    },
    {
     "status": "Ready for Development",
     "open": 67,
-    "med_age": 1.2,
+    "med_age": 1.3,
     "max_age": 49.3,
-    "worst_key": "PLANS-23002",
-    "worst_sum": "PRODUCTION - incorrect logging in transactions",
+    "worst_key": "PLANS-23014",
+    "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
     "over": 19,
     "clear_med": 0.6,
@@ -565,7 +565,7 @@
     "status": "In PreProd",
     "open": 2,
     "med_age": 6.7,
-    "max_age": 12.0,
+    "max_age": 12.1,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -575,7 +575,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 17,
+    "open": 26,
     "med_age": 0.1,
     "max_age": 8.5,
     "worst_key": "PLANS-24702",
@@ -583,7 +583,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 606
+    "clear_n": 607
    },
    {
     "status": "In QA",
@@ -599,9 +599,9 @@
    },
    {
     "status": "In Stage",
-    "open": 2,
-    "med_age": 0.2,
-    "max_age": 0.2,
+    "open": 3,
+    "med_age": 0.3,
+    "max_age": 0.3,
     "worst_key": "PLANS-24908",
     "worst_sum": "Dial Care Language Update",
     "worst_who": "Nazarii  Polinyk",
@@ -623,8 +623,8 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 115
+   "Backlog": 115,
+   "On Hold": 7
   },
   "open_total": 200,
   "stale": 37,
