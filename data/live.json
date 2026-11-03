@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T09:32:50Z",
+ "generated": "2026-11-03T10:03:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 60,
-    "points": 89,
+    "n": 58,
+    "points": 88,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 93,
+   "ready": 91,
    "sprint": 42,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 21,
+    "n": 20,
     "items": [
-     {
-      "key": "PLANS-25005",
-      "summary": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan"
-     },
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24964",
       "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
+     },
+     {
+      "key": "PLANS-24942",
+      "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
      }
     ]
    },
@@ -124,16 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 67,
+    "n": 65,
     "items": [
-     {
-      "key": "PLANS-25005",
-      "summary": "PMP-Phase3-PreProd-Add Plan click is not showing any plan for SDDG Premier Plan"
-     },
-     {
-      "key": "PLANS-25001",
-      "summary": "CSP - Plan Upgrade Completes Despite Voided Transaction "
-     },
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
@@ -157,6 +149,14 @@
      {
       "key": "PLANS-24966",
       "summary": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Memb"
+     },
+     {
+      "key": "PLANS-24964",
+      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
+     },
+     {
+      "key": "PLANS-24952",
+      "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
      }
     ]
    },
@@ -307,14 +307,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 121 of 129 items. This reads as a field the team does not use rather than 121 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 121,
+    "why": "missing on 119 of 127 items. This reads as a field the team does not use rather than 119 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 119,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 129 of 129 items. This reads as a field the team does not use rather than 129 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 129,
+    "why": "missing on 127 of 127 items. This reads as a field the team does not use rather than 127 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 127,
     "items": []
    },
    {
@@ -474,7 +474,7 @@
   "end": "2026-11-22",
   "day": 9,
   "days": 28,
-  "closed": 82,
+  "closed": 83,
   "points": 210,
   "unplanned": null,
   "unplanned_pct": null,
@@ -493,8 +493,20 @@
   "stale_days": 7,
   "rows": [
    {
+    "status": "Ready for Development",
+    "open": 43,
+    "med_age": 11.6,
+    "max_age": 52.8,
+    "worst_key": "PLANS-22848",
+    "worst_sum": "Cancelled Status - doesn't carry over member info",
+    "worst_who": "unassigned",
+    "over": 22,
+    "clear_med": 0.8,
+    "clear_n": 240
+   },
+   {
     "status": "In Development",
-    "open": 57,
+    "open": 60,
     "med_age": 5.9,
     "max_age": 19.9,
     "worst_key": "PLANS-24223",
@@ -503,18 +515,6 @@
     "over": 5,
     "clear_med": 0.1,
     "clear_n": 643
-   },
-   {
-    "status": "Ready for Development",
-    "open": 45,
-    "med_age": 6.5,
-    "max_age": 52.8,
-    "worst_key": "PLANS-22848",
-    "worst_sum": "Cancelled Status - doesn't carry over member info",
-    "worst_who": "unassigned",
-    "over": 22,
-    "clear_med": 0.8,
-    "clear_n": 238
    },
    {
     "status": "PR Created",
@@ -544,7 +544,7 @@
     "status": "PR Merged",
     "open": 14,
     "med_age": 3.8,
-    "max_age": 7.9,
+    "max_age": 8.0,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
@@ -555,8 +555,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 18.3,
-    "max_age": 25.6,
+    "med_age": 18.4,
+    "max_age": 25.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -567,7 +567,7 @@
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 6.1,
+    "med_age": 6.2,
     "max_age": 11.5,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
@@ -602,11 +602,11 @@
    }
   ],
   "parked": {
-   "Backlog": 113,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 112
   },
-  "open_total": 163,
+  "open_total": 164,
   "stale": 49,
-  "worst": "In Development"
+  "worst": "Ready for Development"
  }
 }
