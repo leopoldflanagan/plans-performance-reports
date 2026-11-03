@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T17:32:41Z",
+ "generated": "2026-11-03T18:04:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 55,
+    "n": 56,
     "points": 88,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 88,
+   "ready": 89,
    "sprint": 42,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 17,
+    "n": 18,
     "items": [
+     {
+      "key": "PLANS-25022",
+      "summary": "Preprod - Essential Smile - Plan Details PDF Displays Incorrect Plan Name, Plan "
+     },
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-24862",
       "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
-     },
-     {
-      "key": "PLANS-24475",
-      "summary": "Production - Text Messaging Improvements"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 62,
+    "n": 63,
     "items": [
+     {
+      "key": "PLANS-25022",
+      "summary": "Preprod - Essential Smile - Plan Details PDF Displays Incorrect Plan Name, Plan "
+     },
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
-     },
-     {
-      "key": "PLANS-24936",
-      "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
      }
     ]
    },
@@ -307,14 +307,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 117 of 125 items. This reads as a field the team does not use rather than 117 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 117,
+    "why": "missing on 118 of 126 items. This reads as a field the team does not use rather than 118 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 118,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 125 of 125 items. This reads as a field the team does not use rather than 125 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 125,
+    "why": "missing on 126 of 126 items. This reads as a field the team does not use rather than 126 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 126,
     "items": []
    },
    {
@@ -390,7 +390,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 89,
+  "items": 90,
   "items_done": 23,
   "committed": 78,
   "final": 96,
@@ -413,14 +413,14 @@
   },
   "spill_rate": null,
   "dist": {
+   "In Progress": 10,
    "To Do": 11,
-   "In Development": 3,
+   "In Stage": 2,
    "Ready Prod": 17,
    "Done": 25,
    "Ready for Development": 5,
-   "In Progress": 9,
-   "In Stage": 1,
    "Closed": 7,
+   "In Development": 2,
    "In PreProd": 1,
    "PR Created": 1,
    "Backlog": 6,
@@ -478,8 +478,8 @@
   "end": "2026-11-22",
   "day": 9,
   "days": 28,
-  "closed": 87,
-  "points": 223,
+  "closed": 88,
+  "points": 226,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -498,9 +498,9 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 40,
-    "med_age": 14.0,
-    "max_age": 53.1,
+    "open": 41,
+    "med_age": 13.9,
+    "max_age": 53.2,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -518,36 +518,24 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 0.1,
-    "clear_n": 642
+    "clear_n": 643
    },
    {
     "status": "PR Created",
     "open": 25,
-    "med_age": 4.8,
+    "med_age": 4.9,
     "max_age": 8.2,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 697
-   },
-   {
-    "status": "In Stage",
-    "open": 11,
-    "med_age": 6.1,
-    "max_age": 15.4,
-    "worst_key": "PLANS-24261",
-    "worst_sum": "[2.1] Payment Term on Plan Overview - Fix charge-schedule semantics (ExtendTerm billing-da",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 5,
-    "clear_med": 2.3,
-    "clear_n": 433
+    "clear_n": 698
    },
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 11.3,
+    "med_age": 11.4,
     "max_age": 26.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -558,15 +546,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 23,
-    "med_age": 1.2,
+    "open": 22,
+    "med_age": 1.3,
     "max_age": 8.3,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 653
+    "clear_n": 655
    },
    {
     "status": "In PreProd",
@@ -579,6 +567,18 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 23
+   },
+   {
+    "status": "In Stage",
+    "open": 12,
+    "med_age": 0.1,
+    "max_age": 15.4,
+    "worst_key": "PLANS-24261",
+    "worst_sum": "[2.1] Payment Term on Plan Overview - Fix charge-schedule semantics (ExtendTerm billing-da",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 5,
+    "clear_med": 2.3,
+    "clear_n": 434
    },
    {
     "status": "In QA",
@@ -606,10 +606,10 @@
    }
   ],
   "parked": {
-   "Backlog": 114,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 112
   },
-  "open_total": 164,
+  "open_total": 165,
   "stale": 46,
   "worst": "Ready for Development"
  }
