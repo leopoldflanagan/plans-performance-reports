@@ -185,7 +185,7 @@
      "med": 13.64
     },
     "In Development": {
-     "n": 49,
+     "n": 50,
      "med": 0.17
     },
     "PR Created": {
@@ -202,7 +202,7 @@
     },
     "In Stage": {
      "n": 68,
-     "med": 0.4
+     "med": 0.36
     },
     "Ready Prod": {
      "n": 46,
@@ -244,13 +244,13 @@
    "dist": {
     "To Do": 131,
     "Ready for Development": 17,
-    "In Development": 16,
+    "In Development": 17,
     "PR Created": 10,
     "In Progress": 13,
     "Ready Prod": 46,
     "Done": 72,
-    "In Stage": 2,
     "Closed": 7,
+    "In Stage": 1,
     "Backlog": 110,
     "In QA": 2,
     "In PreProd": 1,
