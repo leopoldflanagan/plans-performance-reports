@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T11:32:37Z",
+ "generated": "2026-11-03T12:06:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 57,
+    "n": 56,
     "points": 88,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 90,
+   "ready": 89,
    "sprint": 42,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,15 +74,11 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 19,
+    "n": 18,
     "items": [
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
-     },
-     {
-      "key": "PLANS-24993",
-      "summary": "PreProd-Phase3-Config Issue-Logo is missing for Listed Org in CSP Plan template "
      },
      {
       "key": "PLANS-24985",
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24902",
       "summary": "CREG/Member Id in the PDF does not match the member Id in app"
+     },
+     {
+      "key": "PLANS-24862",
+      "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
      }
     ]
    },
@@ -124,15 +124,11 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 64,
+    "n": 63,
     "items": [
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
-     },
-     {
-      "key": "PLANS-24993",
-      "summary": "PreProd-Phase3-Config Issue-Logo is missing for Listed Org in CSP Plan template "
      },
      {
       "key": "PLANS-24985",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24943",
       "summary": "Member Portal \\ Cardholder name is missing from Manage Payments after adding a n"
+     },
+     {
+      "key": "PLANS-24942",
+      "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
      }
     ]
    },
@@ -307,14 +307,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 118 of 126 items. This reads as a field the team does not use rather than 118 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 118,
+    "why": "missing on 117 of 125 items. This reads as a field the team does not use rather than 117 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 117,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 126 of 126 items. This reads as a field the team does not use rather than 126 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 126,
+    "why": "missing on 125 of 125 items. This reads as a field the team does not use rather than 125 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 125,
     "items": []
    },
    {
@@ -494,19 +494,19 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 42,
-    "med_age": 12.6,
+    "open": 41,
+    "med_age": 13.7,
     "max_age": 52.9,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.8,
-    "clear_n": 240
+    "clear_n": 241
    },
    {
     "status": "In Development",
-    "open": 60,
+    "open": 61,
     "med_age": 6.0,
     "max_age": 20.0,
     "worst_key": "PLANS-24223",
@@ -556,7 +556,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 18.4,
-    "max_age": 25.7,
+    "max_age": 25.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
