@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T07:32:46Z",
+ "generated": "2026-11-03T08:06:09Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -496,7 +496,7 @@
     "status": "Ready for Development",
     "open": 46,
     "med_age": 8.9,
-    "max_age": 52.7,
+    "max_age": 52.8,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
@@ -506,15 +506,15 @@
    },
    {
     "status": "In Development",
-    "open": 57,
-    "med_age": 5.8,
+    "open": 56,
+    "med_age": 5.9,
     "max_age": 19.8,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 5,
     "clear_med": 0.1,
-    "clear_n": 644
+    "clear_n": 645
    },
    {
     "status": "PR Created",
@@ -526,11 +526,11 @@
     "worst_who": "Ivan Yarymovych",
     "over": 12,
     "clear_med": 0.0,
-    "clear_n": 684
+    "clear_n": 685
    },
    {
     "status": "In Stage",
-    "open": 8,
+    "open": 9,
     "med_age": 15.0,
     "max_age": 15.0,
     "worst_key": "PLANS-24261",
@@ -550,12 +550,12 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 649
+    "clear_n": 650
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 18.2,
+    "med_age": 18.3,
     "max_age": 25.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -602,8 +602,8 @@
    }
   ],
   "parked": {
-   "Backlog": 112,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 112
   },
   "open_total": 163,
   "stale": 50,
