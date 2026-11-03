@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T19:04:02Z",
+ "generated": "2026-11-03T19:32:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 4,
-   "points": 10
+   "items": 2,
+   "points": 5
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 56,
-    "points": 88,
+    "n": 45,
+    "points": 44,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -44,8 +44,8 @@
    },
    {
     "rule": "Groomed work archived as Deferred",
-    "n": 1,
-    "points": 3,
+    "n": 0,
+    "points": 0,
     "why": "work that met Definition of Ready and was then parked."
    }
   ]
@@ -67,14 +67,14 @@
  "admin": {
   "scope": {
    "ready": 89,
-   "sprint": 42,
+   "sprint": 43,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 18,
+    "n": 19,
     "items": [
      {
       "key": "PLANS-25022",
@@ -174,8 +174,12 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 8,
+    "n": 9,
     "items": [
+     {
+      "key": "PLANS-25033",
+      "summary": "Stage- PMP-Primary Contact Missing after adding it for Minor plan in PMP"
+     },
      {
       "key": "PLANS-24936",
       "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
@@ -203,10 +207,6 @@
      {
       "key": "PLANS-19701",
       "summary": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong la"
-     },
-     {
-      "key": "PLANS-14923",
-      "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
      }
     ]
    },
@@ -236,8 +236,12 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 6,
+    "n": 7,
     "items": [
+     {
+      "key": "PLANS-25033",
+      "summary": "Stage- PMP-Primary Contact Missing after adding it for Minor plan in PMP"
+     },
      {
       "key": "PLANS-22135",
       "summary": "Dashboard - ACH - Renewals Not Captured in Dashboard"
@@ -307,14 +311,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 118 of 126 items. This reads as a field the team does not use rather than 118 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 118,
+    "why": "missing on 119 of 127 items. This reads as a field the team does not use rather than 119 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 119,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 126 of 126 items. This reads as a field the team does not use rather than 126 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 126,
+    "why": "missing on 127 of 127 items. This reads as a field the team does not use rather than 127 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 127,
     "items": []
    },
    {
@@ -390,7 +394,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 91,
+  "items": 93,
   "items_done": 23,
   "committed": 78,
   "final": 96,
@@ -399,7 +403,7 @@
   "vs_commitment": 78,
   "time_elapsed": 65,
   "spill": {
-   "open_items": 16,
+   "open_items": 17,
    "open_pts": 26.0,
    "out_items": 3,
    "out_pts": 6.0,
@@ -413,7 +417,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 12,
+   "To Do": 13,
+   "Backlog": 7,
    "In Progress": 10,
    "In Stage": 2,
    "Ready Prod": 17,
@@ -423,7 +428,6 @@
    "In Development": 2,
    "In PreProd": 1,
    "PR Created": 1,
-   "Backlog": 6,
    "WAITING REVIEW": 1
   },
   "burn": [
@@ -478,7 +482,7 @@
   "end": "2026-11-22",
   "day": 9,
   "days": 28,
-  "closed": 88,
+  "closed": 90,
   "points": 226,
   "unplanned": null,
   "unplanned_pct": null,
@@ -497,18 +501,6 @@
   "stale_days": 7,
   "rows": [
    {
-    "status": "Ready for Development",
-    "open": 41,
-    "med_age": 13.9,
-    "max_age": 53.2,
-    "worst_key": "PLANS-22848",
-    "worst_sum": "Cancelled Status - doesn't carry over member info",
-    "worst_who": "unassigned",
-    "over": 22,
-    "clear_med": 0.8,
-    "clear_n": 239
-   },
-   {
     "status": "In Development",
     "open": 59,
     "med_age": 6.3,
@@ -518,25 +510,37 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 0.1,
-    "clear_n": 644
+    "clear_n": 577
+   },
+   {
+    "status": "Ready for Development",
+    "open": 36,
+    "med_age": 6.6,
+    "max_age": 49.1,
+    "worst_key": "PLANS-23014",
+    "worst_sum": "PRODUCTION - CSP Plan Transactions",
+    "worst_who": "unassigned",
+    "over": 17,
+    "clear_med": 0.7,
+    "clear_n": 208
    },
    {
     "status": "PR Created",
-    "open": 26,
-    "med_age": 4.7,
-    "max_age": 8.2,
+    "open": 27,
+    "med_age": 4.4,
+    "max_age": 8.3,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 698
+    "clear_n": 629
    },
    {
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 11.4,
-    "max_age": 26.0,
+    "max_age": 26.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -546,15 +550,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 22,
-    "med_age": 1.4,
-    "max_age": 8.3,
+    "open": 21,
+    "med_age": 1.5,
+    "max_age": 8.4,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 655
+    "clear_n": 591
    },
    {
     "status": "In PreProd",
@@ -565,8 +569,8 @@
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 23
+    "clear_med": 0.1,
+    "clear_n": 20
    },
    {
     "status": "In Stage",
@@ -577,20 +581,8 @@
     "worst_sum": "[2.1] Payment Term on Plan Overview - Fix charge-schedule semantics (ExtendTerm billing-da",
     "worst_who": "Denys  Kernychnyi",
     "over": 5,
-    "clear_med": 2.3,
-    "clear_n": 434
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 2.2,
+    "clear_n": 389
    },
    {
     "status": "In QA",
@@ -603,14 +595,26 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 60
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 113,
-   "On Hold": 2
+   "On Hold": 2,
+   "Backlog": 167
   },
-  "open_total": 165,
-  "stale": 46,
-  "worst": "Ready for Development"
+  "open_total": 160,
+  "stale": 41,
+  "worst": "In Development"
  }
 }

@@ -9,19 +9,19 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 88,
+  "closed": 90,
   "discarded": 0,
-  "resolved": 88,
+  "resolved": 90,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Bug",
-    52
+    53
    ],
    [
     "Story",
-    34
+    35
    ],
    [
     "TechDebt",
@@ -37,7 +37,7 @@
   "day": 3,
   "days": 28,
   "status": "risk",
-  "headline": "88 items closed in the first 3 days, a pace of about 821 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "90 items closed in the first 3 days, a pace of about 840 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 8.9d and average 16.4d, both past the healthy band"
@@ -83,7 +83,7 @@
    "Plans-Sprint 25-26",
    "Oct 26",
    "Nov 8",
-   91,
+   93,
    23,
    78,
    96,
@@ -142,7 +142,7 @@
     55
    ],
    "open": [
-    16,
+    17,
     26
    ],
    "out": [
@@ -165,7 +165,7 @@
   },
   "Plans-Sprint 25-26": {
    "react": 0,
-   "plan": 11,
+   "plan": 12,
    "pct": 0
   }
  },
@@ -256,8 +256,12 @@
   "Plans-Sprint 25-26": {
    "tis": {
     "To Do": {
-     "n": 30,
-     "med": 4.15
+     "n": 31,
+     "med": 4.19
+    },
+    "Backlog": {
+     "n": 15,
+     "med": 3.15
     },
     "In Progress": {
      "n": 26,
@@ -295,10 +299,6 @@
      "n": 27,
      "med": 10.67
     },
-    "Backlog": {
-     "n": 14,
-     "med": 1.71
-    },
     "Closed": {
      "n": 8,
      "med": 10.5
@@ -313,7 +313,8 @@
     }
    },
    "dist": {
-    "To Do": 12,
+    "To Do": 13,
+    "Backlog": 7,
     "In Progress": 10,
     "In Stage": 3,
     "Ready Prod": 17,
@@ -323,13 +324,12 @@
     "In Development": 2,
     "In PreProd": 1,
     "PR Created": 1,
-    "Backlog": 6,
     "WAITING REVIEW": 1
    },
-   "stalled": 67,
+   "stalled": 69,
    "worst": 10.67,
    "worstSt": "Done",
-   "items": 91
+   "items": 93
   }
  },
  "GHOST": {
@@ -360,7 +360,7 @@
  },
  "CAP": {
   "9.10": [
-   88,
+   90,
    78,
    226,
    12
@@ -372,8 +372,8 @@
    "avg": 16.44,
    "n": 75,
    "mx": 92.49,
-   "nodev": 13,
-   "base": 88
+   "nodev": 15,
+   "base": 90
   }
  },
  "complete": false,
