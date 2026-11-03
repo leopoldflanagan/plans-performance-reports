@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T22:03:51Z",
+ "generated": "2026-11-03T22:32:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 17,
-   "points": 101
+   "items": 16,
+   "points": 93
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 65,
-    "points": 140,
+    "n": 63,
+    "points": 132,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 120,
+   "ready": 119,
    "sprint": 62,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,7 +74,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 19,
+    "n": 18,
     "items": [
      {
       "key": "PLANS-25050",
@@ -174,12 +174,8 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 9,
+    "n": 8,
     "items": [
-     {
-      "key": "PLANS-25033",
-      "summary": "Stage- PMP-Primary Contact Missing after adding it for Minor plan in PMP"
-     },
      {
       "key": "PLANS-24936",
       "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
@@ -207,6 +203,10 @@
      {
       "key": "PLANS-19701",
       "summary": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong la"
+     },
+     {
+      "key": "PLANS-14923",
+      "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
      }
     ]
    },
@@ -252,12 +252,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 7,
+    "n": 6,
     "items": [
-     {
-      "key": "PLANS-25033",
-      "summary": "Stage- PMP-Primary Contact Missing after adding it for Minor plan in PMP"
-     },
      {
       "key": "PLANS-22135",
       "summary": "Dashboard - ACH - Renewals Not Captured in Dashboard"
@@ -413,14 +409,14 @@
   "items": 132,
   "items_done": 25,
   "committed": 91,
-  "final": 224,
+  "final": 226,
   "completed": 66,
-  "scope_change": 146,
+  "scope_change": 148,
   "vs_commitment": 73,
   "time_elapsed": 66,
   "spill": {
    "open_items": 35,
-   "open_pts": 125.0,
+   "open_pts": 127.0,
    "out_items": 7,
    "out_pts": 33.0,
    "done_pts": 57.0
@@ -434,17 +430,17 @@
   "spill_rate": null,
   "dist": {
    "To Do": 28,
-   "Ready for Development": 10,
-   "In Development": 9,
-   "Backlog": 7,
+   "Ready for Development": 9,
+   "In Development": 10,
+   "PR Created": 2,
    "In Progress": 10,
    "Done": 26,
    "Ready Prod": 18,
    "In Stage": 1,
    "Closed": 7,
    "In PreProd": 1,
-   "PR Created": 1,
    "PR Merged": 7,
+   "Backlog": 6,
    "WAITING REVIEW": 1
   },
   "burn": [
@@ -457,7 +453,7 @@
    60.0,
    60.0,
    46.0,
-   156.0
+   158.0
   ],
   "scope": [
    89.0,
@@ -469,7 +465,7 @@
    102.0,
    102.0,
    107.0,
-   222.0
+   224.0
   ],
   "ghost": [
    83.0,
@@ -481,7 +477,7 @@
    62.0,
    62.0,
    46.0,
-   156.0
+   158.0
   ],
   "days": 13,
   "day": 9
@@ -519,7 +515,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 66,
+    "open": 68,
     "med_age": 5.5,
     "max_age": 20.4,
     "worst_key": "PLANS-24223",
@@ -527,36 +523,24 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 0.0,
-    "clear_n": 596
+    "clear_n": 591
    },
    {
     "status": "PR Created",
-    "open": 24,
-    "med_age": 5.2,
+    "open": 26,
+    "med_age": 4.8,
     "max_age": 8.4,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 654
-   },
-   {
-    "status": "In Stage",
-    "open": 8,
-    "med_age": 15.6,
-    "max_age": 15.6,
-    "worst_key": "PLANS-24261",
-    "worst_sum": "[2.1] Payment Term on Plan Overview - Fix charge-schedule semantics (ExtendTerm billing-da",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 5,
-    "clear_med": 2.1,
-    "clear_n": 399
+    "clear_n": 647
    },
    {
     "status": "Ready for Development",
-    "open": 68,
-    "med_age": 1.1,
+    "open": 67,
+    "med_age": 1.2,
     "max_age": 49.3,
     "worst_key": "PLANS-23002",
     "worst_sum": "PRODUCTION - incorrect logging in transactions",
@@ -568,7 +552,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 11.5,
+    "med_age": 11.6,
     "max_age": 26.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -591,7 +575,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 18,
+    "open": 17,
     "med_age": 0.1,
     "max_age": 8.5,
     "worst_key": "PLANS-24702",
@@ -599,7 +583,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 618
+    "clear_n": 613
    },
    {
     "status": "In QA",
@@ -612,6 +596,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "In Stage",
+    "open": 3,
+    "med_age": 0.2,
+    "max_age": 0.2,
+    "worst_key": "PLANS-24995",
+    "worst_sum": "Pre-PROD - Click here for details - missing the Additional Person Rate & Limitations",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 0,
+    "clear_med": 2.2,
+    "clear_n": 400
    },
    {
     "status": "Ready for Stage",
@@ -627,11 +623,11 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
+   "On Hold": 7,
    "Backlog": 115
   },
-  "open_total": 202,
-  "stale": 42,
+  "open_total": 199,
+  "stale": 37,
   "worst": "In Development"
  }
 }
