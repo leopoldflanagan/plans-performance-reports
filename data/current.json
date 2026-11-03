@@ -84,9 +84,9 @@
    89,
    23,
    78,
-   93,
+   95,
    61,
-   19,
+   22,
    [
     68.0,
     66.0,
@@ -96,7 +96,7 @@
     47.0,
     47.0,
     47.0,
-    30.0
+    32.0
    ],
    [
     76.0,
@@ -107,7 +107,7 @@
     89.0,
     89.0,
     89.0,
-    91.0
+    93.0
    ]
   ]
  ],
@@ -139,7 +139,7 @@
    ],
    "open": [
     16,
-    24
+    26
    ],
    "out": [
     3,
@@ -257,15 +257,15 @@
     },
     "Ready for Development": {
      "n": 14,
-     "med": 4.09
+     "med": 2.51
+    },
+    "In Development": {
+     "n": 17,
+     "med": 0.97
     },
     "WAITING REVIEW": {
      "n": 2,
      "med": 6.3
-    },
-    "In Development": {
-     "n": 16,
-     "med": 0.81
     },
     "PR Created": {
      "n": 14,
@@ -310,13 +310,13 @@
    },
    "dist": {
     "To Do": 11,
-    "Ready for Development": 7,
+    "In Development": 4,
     "Ready Prod": 17,
     "Done": 25,
+    "Ready for Development": 6,
     "In Progress": 9,
     "PR Created": 2,
     "Closed": 7,
-    "In Development": 3,
     "In PreProd": 1,
     "Backlog": 6,
     "WAITING REVIEW": 1
@@ -348,7 +348,7 @@
    49.0,
    49.0,
    49.0,
-   30.0
+   32.0
   ]
  },
  "CAP": {

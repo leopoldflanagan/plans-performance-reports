@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T13:04:21Z",
+ "generated": "2026-11-03T13:32:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 56,
+    "n": 55,
     "points": 88,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 89,
+   "ready": 88,
    "sprint": 42,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,7 +74,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 18,
+    "n": 17,
     "items": [
      {
       "key": "PLANS-25000",
@@ -83,10 +83,6 @@
      {
       "key": "PLANS-24985",
       "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
-     },
-     {
-      "key": "PLANS-24972",
-      "summary": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan"
      },
      {
       "key": "PLANS-24966",
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24862",
       "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
+     },
+     {
+      "key": "PLANS-24475",
+      "summary": "Production - Text Messaging Improvements"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 63,
+    "n": 62,
     "items": [
      {
       "key": "PLANS-25000",
@@ -133,10 +133,6 @@
      {
       "key": "PLANS-24985",
       "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
-     },
-     {
-      "key": "PLANS-24972",
-      "summary": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan"
      },
      {
       "key": "PLANS-24966",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
+     },
+     {
+      "key": "PLANS-24936",
+      "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
      }
     ]
    },
@@ -174,12 +174,8 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 8,
+    "n": 7,
     "items": [
-     {
-      "key": "PLANS-24972",
-      "summary": "PMP & MP - Auto-Renewal Setting Turned Off After upgrading Minor Plan"
-     },
      {
       "key": "PLANS-24936",
       "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
@@ -393,14 +389,14 @@
   "items": 89,
   "items_done": 23,
   "committed": 78,
-  "final": 93,
+  "final": 95,
   "completed": 61,
-  "scope_change": 19,
+  "scope_change": 22,
   "vs_commitment": 78,
   "time_elapsed": 63,
   "spill": {
    "open_items": 16,
-   "open_pts": 24.0,
+   "open_pts": 26.0,
    "out_items": 3,
    "out_pts": 5.0,
    "done_pts": 55.0
@@ -414,13 +410,13 @@
   "spill_rate": null,
   "dist": {
    "To Do": 11,
-   "Ready for Development": 6,
+   "In Development": 3,
    "Ready Prod": 17,
    "Done": 25,
+   "Ready for Development": 5,
    "In Progress": 9,
    "PR Created": 2,
    "Closed": 7,
-   "In Development": 2,
    "In PreProd": 1,
    "Backlog": 6,
    "WAITING REVIEW": 1
@@ -434,7 +430,7 @@
    47.0,
    47.0,
    47.0,
-   30.0
+   32.0
   ],
   "scope": [
    76.0,
@@ -445,7 +441,7 @@
    89.0,
    89.0,
    89.0,
-   91.0
+   93.0
   ],
   "ghost": [
    70.0,
@@ -456,7 +452,7 @@
    49.0,
    49.0,
    49.0,
-   30.0
+   32.0
   ],
   "days": 13,
   "day": 9
@@ -494,25 +490,25 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 41,
-    "med_age": 13.7,
+    "open": 40,
+    "med_age": 13.8,
     "max_age": 53.0,
     "worst_key": "PLANS-22848",
     "worst_sum": "Cancelled Status - doesn't carry over member info",
     "worst_who": "unassigned",
     "over": 22,
     "clear_med": 0.8,
-    "clear_n": 241
+    "clear_n": 242
    },
    {
     "status": "In Development",
-    "open": 61,
-    "med_age": 6.1,
-    "max_age": 20.0,
+    "open": 62,
+    "med_age": 6.0,
+    "max_age": 20.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
-    "over": 5,
+    "over": 7,
     "clear_med": 0.1,
     "clear_n": 644
    },
@@ -530,15 +526,15 @@
    },
    {
     "status": "PR Created",
-    "open": 27,
-    "med_age": 4.1,
+    "open": 26,
+    "med_age": 4.4,
     "max_age": 8.0,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 690
+    "clear_n": 691
    },
    {
     "status": "WAITING REVIEW",
@@ -554,7 +550,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 24,
+    "open": 25,
     "med_age": 1.0,
     "max_age": 8.1,
     "worst_key": "PLANS-24702",
@@ -602,11 +598,11 @@
    }
   ],
   "parked": {
-   "On Hold": 2,
-   "Backlog": 111
+   "Backlog": 111,
+   "On Hold": 2
   },
   "open_total": 166,
-  "stale": 42,
+  "stale": 44,
   "worst": "Ready for Development"
  }
 }
