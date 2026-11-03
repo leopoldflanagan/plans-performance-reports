@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T19:32:59Z",
+ "generated": "2026-11-03T20:04:14Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -78,7 +78,7 @@
     "items": [
      {
       "key": "PLANS-25022",
-      "summary": "Preprod - Essential Smile - Plan Details PDF Displays Incorrect Plan Name, Plan "
+      "summary": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal "
      },
      {
       "key": "PLANS-25000",
@@ -128,7 +128,7 @@
     "items": [
      {
       "key": "PLANS-25022",
-      "summary": "Preprod - Essential Smile - Plan Details PDF Displays Incorrect Plan Name, Plan "
+      "summary": "Preprod - Essential Smile - Plan Details PDF no logo and incorrect auto renewal "
      },
      {
       "key": "PLANS-25000",
@@ -482,12 +482,12 @@
   "end": "2026-11-22",
   "day": 9,
   "days": 28,
-  "closed": 90,
+  "closed": 91,
   "points": 226,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 12,
+  "people_active": 13,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -503,14 +503,14 @@
    {
     "status": "In Development",
     "open": 59,
-    "med_age": 6.3,
+    "med_age": 6.4,
     "max_age": 20.3,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 0.1,
-    "clear_n": 577
+    "clear_n": 578
    },
    {
     "status": "Ready for Development",
@@ -522,7 +522,7 @@
     "worst_who": "unassigned",
     "over": 17,
     "clear_med": 0.7,
-    "clear_n": 208
+    "clear_n": 210
    },
    {
     "status": "PR Created",
@@ -585,18 +585,6 @@
     "clear_n": 389
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 60
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -607,11 +595,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 60
    }
   ],
   "parked": {
    "On Hold": 2,
-   "Backlog": 167
+   "Backlog": 164
   },
   "open_total": 160,
   "stale": 41,

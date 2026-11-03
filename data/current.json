@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 90,
+  "closed": 91,
   "discarded": 0,
-  "resolved": 90,
+  "resolved": 91,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Story",
-    35
+    36
    ],
    [
     "TechDebt",
@@ -37,7 +37,7 @@
   "day": 3,
   "days": 28,
   "status": "risk",
-  "headline": "90 items closed in the first 3 days, a pace of about 840 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "91 items closed in the first 3 days, a pace of about 849 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 8.9d and average 16.4d, both past the healthy band"
@@ -360,10 +360,10 @@
  },
  "CAP": {
   "9.10": [
-   90,
+   91,
    78,
    226,
-   12
+   13
   ]
  },
  "CYC": {
@@ -372,8 +372,8 @@
    "avg": 16.44,
    "n": 75,
    "mx": 92.49,
-   "nodev": 15,
-   "base": 90
+   "nodev": 16,
+   "base": 91
   }
  },
  "complete": false,
