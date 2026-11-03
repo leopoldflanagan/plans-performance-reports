@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T01:33:53Z",
+ "generated": "2026-11-03T02:06:28Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -519,8 +519,8 @@
    {
     "status": "PR Created",
     "open": 34,
-    "med_age": 5.1,
-    "max_age": 13.3,
+    "med_age": 5.2,
+    "max_age": 13.4,
     "worst_key": "PLANS-24433",
     "worst_sum": "PLANS-24433: Unify Purchase Into NPM Package: Story 8.3: SGDP Portal - Per-portal renderin",
     "worst_who": "Ivan Yarymovych",
@@ -531,8 +531,8 @@
    {
     "status": "In Stage",
     "open": 8,
-    "med_age": 14.7,
-    "max_age": 14.7,
+    "med_age": 14.8,
+    "max_age": 14.8,
     "worst_key": "PLANS-24261",
     "worst_sum": "[2.1] Payment Term on Plan Overview - Fix charge-schedule semantics (ExtendTerm billing-da",
     "worst_who": "Denys  Kernychnyi",
@@ -568,25 +568,13 @@
     "status": "In PreProd",
     "open": 2,
     "med_age": 5.8,
-    "max_age": 11.1,
+    "max_age": 11.2,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 23
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -599,6 +587,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 60
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
