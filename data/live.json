@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T23:32:43Z",
+ "generated": "2026-11-04T00:10:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 62,
-    "points": 129,
+    "n": 63,
+    "points": 132,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 9,
+  "day": 10,
   "days": 13,
   "n": 21,
   "done_now": 66,
   "committed": 91,
-  "lo": 82,
-  "mid": 91,
-  "hi": 119,
-  "pct": 100,
-  "verdict": "on track for the commitment",
-  "share_mid": 0.724
+  "lo": 73,
+  "mid": 83,
+  "hi": 99,
+  "pct": 91,
+  "verdict": "a little short of the commitment",
+  "share_mid": 0.8
  },
  "admin": {
   "scope": {
@@ -431,7 +431,8 @@
   "dist": {
    "To Do": 28,
    "Ready for Development": 9,
-   "PR Merged": 15,
+   "PR Merged": 14,
+   "PR Created": 2,
    "In Progress": 10,
    "Done": 26,
    "Ready Prod": 18,
@@ -439,7 +440,6 @@
    "Closed": 7,
    "In Development": 3,
    "In PreProd": 1,
-   "PR Created": 1,
    "Backlog": 6,
    "WAITING REVIEW": 1
   },
@@ -480,7 +480,7 @@
    158.0
   ],
   "days": 13,
-  "day": 9
+  "day": 10
  },
  "next": {
   "name": "LL-Sprint 26-26",
@@ -493,10 +493,10 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 9,
+  "day": 10,
   "days": 28,
-  "closed": 95,
-  "points": 236,
+  "closed": 97,
+  "points": 237,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -515,7 +515,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 62,
+    "open": 63,
     "med_age": 6.5,
     "max_age": 20.5,
     "worst_key": "PLANS-24223",
@@ -527,9 +527,9 @@
    },
    {
     "status": "PR Created",
-    "open": 24,
-    "med_age": 5.3,
-    "max_age": 8.4,
+    "open": 25,
+    "med_age": 5.1,
+    "max_age": 8.5,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
@@ -539,13 +539,13 @@
    },
    {
     "status": "Ready for Development",
-    "open": 67,
-    "med_age": 1.3,
+    "open": 66,
+    "med_age": 1.2,
     "max_age": 49.3,
     "worst_key": "PLANS-23014",
     "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
-    "over": 19,
+    "over": 18,
     "clear_med": 0.6,
     "clear_n": 216
    },
@@ -553,7 +553,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 11.6,
-    "max_age": 26.2,
+    "max_age": 26.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -574,8 +574,20 @@
     "clear_n": 20
    },
    {
+    "status": "In QA",
+    "open": 13,
+    "med_age": 0.2,
+    "max_age": 0.2,
+    "worst_key": "PLANS-24741",
+    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
+   },
+   {
     "status": "PR Merged",
-    "open": 26,
+    "open": 24,
     "med_age": 0.1,
     "max_age": 8.5,
     "worst_key": "PLANS-24702",
@@ -583,31 +595,19 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 607
-   },
-   {
-    "status": "In QA",
-    "open": 13,
-    "med_age": 0.1,
-    "max_age": 0.1,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
+    "clear_n": 609
    },
    {
     "status": "In Stage",
-    "open": 3,
+    "open": 2,
     "med_age": 0.3,
     "max_age": 0.3,
     "worst_key": "PLANS-24908",
     "worst_sum": "Dial Care Language Update",
     "worst_who": "Nazarii  Polinyk",
     "over": 0,
-    "clear_med": 2.2,
-    "clear_n": 400
+    "clear_med": 2.1,
+    "clear_n": 402
    },
    {
     "status": "Ready for Stage",
@@ -623,11 +623,11 @@
    }
   ],
   "parked": {
-   "Backlog": 115,
-   "On Hold": 7
+   "On Hold": 7,
+   "Backlog": 115
   },
-  "open_total": 200,
-  "stale": 37,
+  "open_total": 198,
+  "stale": 36,
   "worst": "In Development"
  }
 }
