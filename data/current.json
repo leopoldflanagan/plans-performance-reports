@@ -177,8 +177,8 @@
      "med": 13.64
     },
     "Ready for Development": {
-     "n": 37,
-     "med": 2.79
+     "n": 38,
+     "med": 2.8
     },
     "Backlog": {
      "n": 125,
@@ -243,8 +243,8 @@
    },
    "dist": {
     "To Do": 131,
-    "Ready for Development": 17,
-    "In Development": 17,
+    "Ready for Development": 18,
+    "In Development": 16,
     "PR Merged": 2,
     "In Progress": 13,
     "Ready Prod": 47,

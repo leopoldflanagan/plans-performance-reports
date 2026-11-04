@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T06:06:43Z",
+ "generated": "2026-11-04T06:37:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 63,
-    "points": 132,
+    "n": 64,
+    "points": 134,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 119,
+   "ready": 120,
    "sprint": 62,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 79,
+    "n": 80,
     "items": [
      {
       "key": "PLANS-25059",
@@ -323,14 +323,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 164 of 172 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 164,
+    "why": "missing on 165 of 173 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 165,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 172 of 172 items. This reads as a field the team does not use rather than 172 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 172,
+    "why": "missing on 173 of 173 items. This reads as a field the team does not use rather than 173 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 173,
     "items": []
    },
    {
@@ -515,15 +515,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 62,
+    "open": 61,
     "med_age": 6.8,
-    "max_age": 20.7,
+    "max_age": 20.8,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 0.1,
-    "clear_n": 597
+    "clear_n": 598
    },
    {
     "status": "PR Created",
@@ -539,7 +539,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 66,
+    "open": 67,
     "med_age": 1.5,
     "max_age": 49.5,
     "worst_key": "PLANS-23014",
@@ -565,7 +565,7 @@
     "status": "In PreProd",
     "open": 2,
     "med_age": 7.0,
-    "max_age": 12.3,
+    "max_age": 12.4,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -600,8 +600,8 @@
    {
     "status": "In Stage",
     "open": 4,
-    "med_age": 0.3,
-    "max_age": 0.5,
+    "med_age": 0.4,
+    "max_age": 0.6,
     "worst_key": "PLANS-24908",
     "worst_sum": "Dial Care Language Update",
     "worst_who": "Nazarii  Polinyk",
@@ -623,8 +623,8 @@
    }
   ],
   "parked": {
-   "Backlog": 115,
-   "On Hold": 7
+   "On Hold": 7,
+   "Backlog": 115
   },
   "open_total": 198,
   "stale": 36,
