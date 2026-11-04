@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T00:43:36Z",
+ "generated": "2026-11-04T01:04:13Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -528,7 +528,7 @@
    {
     "status": "PR Created",
     "open": 24,
-    "med_age": 5.4,
+    "med_age": 5.5,
     "max_age": 8.5,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
@@ -552,7 +552,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 11.6,
+    "med_age": 11.7,
     "max_age": 26.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -623,8 +623,8 @@
    }
   ],
   "parked": {
-   "Backlog": 115,
-   "On Hold": 7
+   "On Hold": 7,
+   "Backlog": 115
   },
   "open_total": 198,
   "stale": 36,
