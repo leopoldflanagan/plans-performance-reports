@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T14:05:08Z",
+ "generated": "2026-11-04T14:32:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -515,21 +515,21 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 65,
-    "med_age": 6.1,
+    "open": 60,
+    "med_age": 7.1,
     "max_age": 21.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 614
+    "clear_n": 619
    },
    {
     "status": "PR Created",
-    "open": 27,
-    "med_age": 5.1,
-    "max_age": 9.0,
+    "open": 32,
+    "med_age": 5.0,
+    "max_age": 9.1,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
@@ -553,7 +553,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 12.2,
-    "max_age": 26.8,
+    "max_age": 26.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -588,11 +588,11 @@
    {
     "status": "In QA",
     "open": 13,
-    "med_age": 0.7,
-    "max_age": 0.7,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "med_age": 0.8,
+    "max_age": 0.8,
+    "worst_key": "PLANS-24741",
+    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
