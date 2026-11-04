@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T01:33:56Z",
+ "generated": "2026-11-04T02:06:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -516,7 +516,7 @@
    {
     "status": "In Development",
     "open": 63,
-    "med_age": 6.5,
+    "med_age": 6.6,
     "max_age": 20.6,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -541,7 +541,7 @@
     "status": "Ready for Development",
     "open": 66,
     "med_age": 1.4,
-    "max_age": 49.3,
+    "max_age": 49.4,
     "worst_key": "PLANS-23014",
     "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
@@ -565,7 +565,7 @@
     "status": "In PreProd",
     "open": 2,
     "med_age": 6.8,
-    "max_age": 12.1,
+    "max_age": 12.2,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -600,8 +600,8 @@
    {
     "status": "In Stage",
     "open": 3,
-    "med_age": 0.3,
-    "max_age": 0.3,
+    "med_age": 0.4,
+    "max_age": 0.4,
     "worst_key": "PLANS-24908",
     "worst_sum": "Dial Care Language Update",
     "worst_who": "Nazarii  Polinyk",
@@ -623,8 +623,8 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 115
+   "Backlog": 115,
+   "On Hold": 7
   },
   "open_total": 198,
   "stale": 36,
