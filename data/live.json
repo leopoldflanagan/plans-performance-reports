@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T18:32:48Z",
+ "generated": "2026-11-04T19:03:42Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 12,
-   "points": 64
+   "items": 9,
+   "points": 51
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 63,
-    "points": 137,
+    "n": 66,
+    "points": 147,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,19 +55,19 @@
   "day": 10,
   "days": 13,
   "n": 21,
-  "done_now": 67,
+  "done_now": 69,
   "committed": 91,
-  "lo": 75,
-  "mid": 84,
-  "hi": 100,
-  "pct": 92,
-  "verdict": "a little short of the commitment",
+  "lo": 77,
+  "mid": 86,
+  "hi": 104,
+  "pct": 95,
+  "verdict": "on track for the commitment",
   "share_mid": 0.8
  },
  "admin": {
   "scope": {
-   "ready": 109,
-   "sprint": 66,
+   "ready": 106,
+   "sprint": 68,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
@@ -406,20 +406,20 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 138,
-  "items_done": 26,
+  "items": 140,
+  "items_done": 27,
   "committed": 91,
-  "final": 244,
-  "completed": 67,
-  "scope_change": 168,
-  "vs_commitment": 74,
-  "time_elapsed": 72,
+  "final": 249,
+  "completed": 69,
+  "scope_change": 174,
+  "vs_commitment": 76,
+  "time_elapsed": 73,
   "spill": {
-   "open_items": 37,
-   "open_pts": 150.0,
-   "out_items": 7,
-   "out_pts": 27.0,
-   "done_pts": 58.0
+   "open_items": 38,
+   "open_pts": 156.0,
+   "out_items": 6,
+   "out_pts": 24.0,
+   "done_pts": 60.0
   },
   "recv": {
    "items": 0,
@@ -429,15 +429,15 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 29,
-   "Ready for Development": 7,
-   "In Development": 7,
+   "Done": 31,
+   "In Development": 10,
+   "Ready for Development": 6,
    "PR Merged": 14,
-   "In Stage": 2,
-   "Done": 30,
+   "Closed": 8,
    "In Progress": 8,
+   "To Do": 29,
    "Ready Prod": 19,
-   "Closed": 7,
+   "In Stage": 1,
    "WAITING REVIEW": 2,
    "In PreProd": 1,
    "Backlog": 7
@@ -453,7 +453,7 @@
    60.0,
    46.0,
    158.0,
-   175.0
+   178.0
   ],
   "scope": [
    89.0,
@@ -466,7 +466,7 @@
    102.0,
    107.0,
    224.0,
-   242.0
+   247.0
   ],
   "ghost": [
    83.0,
@@ -479,7 +479,7 @@
    62.0,
    46.0,
    158.0,
-   175.0
+   178.0
   ],
   "days": 13,
   "day": 10
@@ -497,8 +497,8 @@
   "end": "2026-11-22",
   "day": 10,
   "days": 28,
-  "closed": 106,
-  "points": 250,
+  "closed": 109,
+  "points": 256,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -517,7 +517,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 66,
+    "open": 68,
     "med_age": 6.3,
     "max_age": 21.3,
     "worst_key": "PLANS-24223",
@@ -525,12 +525,24 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 628
+    "clear_n": 629
+   },
+   {
+    "status": "Ready for Development",
+    "open": 52,
+    "med_age": 4.9,
+    "max_age": 40.2,
+    "worst_key": "PLANS-23527",
+    "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
+    "worst_who": "unassigned",
+    "over": 18,
+    "clear_med": 0.7,
+    "clear_n": 229
    },
    {
     "status": "PR Created",
     "open": 28,
-    "med_age": 5.2,
+    "med_age": 5.3,
     "max_age": 9.2,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
@@ -538,18 +550,6 @@
     "over": 6,
     "clear_med": 0.0,
     "clear_n": 682
-   },
-   {
-    "status": "Ready for Development",
-    "open": 55,
-    "med_age": 2.1,
-    "max_age": 40.2,
-    "worst_key": "PLANS-23527",
-    "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
-    "worst_who": "unassigned",
-    "over": 18,
-    "clear_med": 0.6,
-    "clear_n": 226
    },
    {
     "status": "WAITING REVIEW",
@@ -579,7 +579,7 @@
     "status": "In PreProd",
     "open": 2,
     "med_age": 7.5,
-    "max_age": 12.8,
+    "max_age": 12.9,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -601,15 +601,15 @@
    },
    {
     "status": "In Stage",
-    "open": 4,
-    "med_age": 0.9,
+    "open": 2,
+    "med_age": 1.1,
     "max_age": 1.1,
     "worst_key": "PLANS-24908",
     "worst_sum": "Dial Care Language Update",
     "worst_who": "Nazarii  Polinyk",
     "over": 0,
-    "clear_med": 2.0,
-    "clear_n": 409
+    "clear_med": 1.9,
+    "clear_n": 411
    },
    {
     "status": "Ready for Stage",
@@ -628,7 +628,7 @@
    "Backlog": 108,
    "On Hold": 7
   },
-  "open_total": 196,
+  "open_total": 193,
   "stale": 58,
   "worst": "In Development"
  }
