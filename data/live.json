@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T04:04:46Z",
+ "generated": "2026-11-04T04:33:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -541,7 +541,7 @@
     "status": "Ready for Development",
     "open": 66,
     "med_age": 1.4,
-    "max_age": 49.4,
+    "max_age": 49.5,
     "worst_key": "PLANS-23014",
     "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
@@ -564,8 +564,8 @@
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 6.8,
-    "max_age": 12.2,
+    "med_age": 6.9,
+    "max_age": 12.3,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -623,8 +623,8 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 115
+   "Backlog": 115,
+   "On Hold": 7
   },
   "open_total": 198,
   "stale": 36,
