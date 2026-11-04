@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T16:32:36Z",
+ "generated": "2026-11-04T17:04:15Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 14,
-   "points": 77
+   "items": 12,
+   "points": 64
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 62,
-    "points": 129,
+    "n": 61,
+    "points": 125,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,15 +66,15 @@
  },
  "admin": {
   "scope": {
-   "ready": 112,
-   "sprint": 64,
+   "ready": 110,
+   "sprint": 65,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 18,
+    "n": 17,
     "items": [
      {
       "key": "PLANS-25000",
@@ -93,10 +93,6 @@
       "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
      },
      {
-      "key": "PLANS-24949",
-      "summary": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP "
-     },
-     {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
      },
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24862",
       "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
+     },
+     {
+      "key": "PLANS-24475",
+      "summary": "Production - Text Messaging Improvements"
      }
     ]
    },
@@ -406,17 +406,17 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 134,
+  "items": 136,
   "items_done": 26,
   "committed": 91,
-  "final": 234,
+  "final": 239,
   "completed": 67,
-  "scope_change": 157,
+  "scope_change": 163,
   "vs_commitment": 74,
   "time_elapsed": 72,
   "spill": {
-   "open_items": 35,
-   "open_pts": 140.0,
+   "open_items": 36,
+   "open_pts": 145.0,
    "out_items": 7,
    "out_pts": 27.0,
    "done_pts": 58.0
@@ -429,9 +429,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 27,
-   "Ready for Development": 7,
-   "In Development": 5,
+   "To Do": 28,
+   "Ready for Development": 6,
+   "In Development": 7,
    "PR Merged": 14,
    "In Stage": 2,
    "In Progress": 10,
@@ -453,7 +453,7 @@
    60.0,
    46.0,
    158.0,
-   165.0
+   170.0
   ],
   "scope": [
    89.0,
@@ -466,7 +466,7 @@
    102.0,
    107.0,
    224.0,
-   232.0
+   237.0
   ],
   "ghost": [
    83.0,
@@ -479,7 +479,7 @@
    62.0,
    46.0,
    158.0,
-   165.0
+   170.0
   ],
   "days": 13,
   "day": 10
@@ -517,7 +517,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 65,
+    "open": 67,
     "med_age": 6.2,
     "max_age": 21.2,
     "worst_key": "PLANS-24223",
@@ -530,8 +530,8 @@
    {
     "status": "PR Created",
     "open": 26,
-    "med_age": 5.2,
-    "max_age": 9.1,
+    "med_age": 5.3,
+    "max_age": 9.2,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
@@ -541,21 +541,21 @@
    },
    {
     "status": "Ready for Development",
-    "open": 58,
+    "open": 56,
     "med_age": 2.0,
     "max_age": 40.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 17,
-    "clear_med": 0.6,
-    "clear_n": 223
+    "clear_med": 0.7,
+    "clear_n": 225
    },
    {
     "status": "WAITING REVIEW",
     "open": 4,
     "med_age": 6.7,
-    "max_age": 26.9,
+    "max_age": 27.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -590,8 +590,8 @@
    {
     "status": "In QA",
     "open": 13,
-    "med_age": 0.8,
-    "max_age": 0.8,
+    "med_age": 0.9,
+    "max_age": 0.9,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
     "worst_who": "Denys  Kernychnyi",
