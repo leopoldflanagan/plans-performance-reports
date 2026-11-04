@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T09:04:43Z",
+ "generated": "2026-11-04T09:32:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 64,
-    "points": 134,
+    "n": 63,
+    "points": 131,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -523,12 +523,12 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
     "clear_med": 0.1,
-    "clear_n": 598
+    "clear_n": 600
    },
    {
     "status": "PR Created",
-    "open": 22,
-    "med_age": 6.2,
+    "open": 25,
+    "med_age": 5.5,
     "max_age": 8.8,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
@@ -575,7 +575,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 26,
+    "open": 25,
     "med_age": 0.5,
     "max_age": 8.9,
     "worst_key": "PLANS-24702",
@@ -583,7 +583,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 611
+    "clear_n": 612
    },
    {
     "status": "In QA",
@@ -624,9 +624,9 @@
   ],
   "parked": {
    "On Hold": 7,
-   "Backlog": 115
+   "Backlog": 113
   },
-  "open_total": 198,
+  "open_total": 200,
   "stale": 36,
   "worst": "In Development"
  }
