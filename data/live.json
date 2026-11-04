@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T17:04:15Z",
+ "generated": "2026-11-04T17:33:06Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 61,
-    "points": 125,
+    "n": 62,
+    "points": 134,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,8 +66,8 @@
  },
  "admin": {
   "scope": {
-   "ready": 110,
-   "sprint": 65,
+   "ready": 109,
+   "sprint": 66,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 74,
+    "n": 73,
     "items": [
      {
       "key": "PLANS-25059",
@@ -285,7 +285,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 76,
+    "n": 75,
     "items": [
      {
       "key": "PLANS-24964",
@@ -294,10 +294,6 @@
      {
       "key": "PLANS-24952",
       "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
-     },
-     {
-      "key": "PLANS-24949",
-      "summary": "Phase 3 - STAGE ONLY - Legacy West Dental offices not visible in PMP "
      },
      {
       "key": "PLANS-24943",
@@ -318,19 +314,23 @@
      {
       "key": "PLANS-24869",
       "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Smile health and Custom Po"
+     },
+     {
+      "key": "PLANS-24631",
+      "summary": "Plan Details - When Admin fee is $0, the PDF still displays the disclaimer \"\u2020\u2020In"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 161 of 169 items. This reads as a field the team does not use rather than 161 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 161,
+    "why": "missing on 160 of 168 items. This reads as a field the team does not use rather than 160 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 160,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 169 of 169 items. This reads as a field the team does not use rather than 169 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 169,
+    "why": "missing on 168 of 168 items. This reads as a field the team does not use rather than 168 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 168,
     "items": []
    },
    {
@@ -406,17 +406,17 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 136,
+  "items": 138,
   "items_done": 26,
   "committed": 91,
-  "final": 239,
+  "final": 244,
   "completed": 67,
-  "scope_change": 163,
+  "scope_change": 168,
   "vs_commitment": 74,
   "time_elapsed": 72,
   "spill": {
-   "open_items": 36,
-   "open_pts": 145.0,
+   "open_items": 37,
+   "open_pts": 150.0,
    "out_items": 7,
    "out_pts": 27.0,
    "done_pts": 58.0
@@ -429,8 +429,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 28,
-   "Ready for Development": 6,
+   "To Do": 29,
+   "Ready for Development": 7,
    "In Development": 7,
    "PR Merged": 14,
    "In Stage": 2,
@@ -453,7 +453,7 @@
    60.0,
    46.0,
    158.0,
-   170.0
+   175.0
   ],
   "scope": [
    89.0,
@@ -466,7 +466,7 @@
    102.0,
    107.0,
    224.0,
-   237.0
+   242.0
   ],
   "ghost": [
    83.0,
@@ -479,7 +479,7 @@
    62.0,
    46.0,
    158.0,
-   170.0
+   175.0
   ],
   "days": 13,
   "day": 10
@@ -497,8 +497,8 @@
   "end": "2026-11-22",
   "day": 10,
   "days": 28,
-  "closed": 102,
-  "points": 246,
+  "closed": 104,
+  "points": 248,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -517,7 +517,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 67,
+    "open": 66,
     "med_age": 6.2,
     "max_age": 21.2,
     "worst_key": "PLANS-24223",
@@ -525,11 +525,11 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 624
+    "clear_n": 627
    },
    {
     "status": "PR Created",
-    "open": 26,
+    "open": 27,
     "med_age": 5.3,
     "max_age": 9.2,
     "worst_key": "PLANS-24744",
@@ -537,19 +537,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 680
+    "clear_n": 682
    },
    {
     "status": "Ready for Development",
-    "open": 56,
-    "med_age": 2.0,
-    "max_age": 40.1,
+    "open": 55,
+    "med_age": 2.1,
+    "max_age": 40.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 17,
-    "clear_med": 0.7,
-    "clear_n": 225
+    "over": 18,
+    "clear_med": 0.6,
+    "clear_n": 226
    },
    {
     "status": "WAITING REVIEW",
@@ -566,19 +566,19 @@
    {
     "status": "PR Merged",
     "open": 24,
-    "med_age": 0.8,
-    "max_age": 9.2,
+    "med_age": 0.9,
+    "max_age": 9.3,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 626
+    "clear_n": 628
    },
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 7.4,
+    "med_age": 7.5,
     "max_age": 12.8,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
@@ -609,7 +609,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 0,
     "clear_med": 2.1,
-    "clear_n": 406
+    "clear_n": 408
    },
    {
     "status": "Ready for Stage",
@@ -625,11 +625,11 @@
    }
   ],
   "parked": {
-   "Backlog": 109,
+   "Backlog": 108,
    "On Hold": 7
   },
-  "open_total": 198,
-  "stale": 57,
+  "open_total": 197,
+  "stale": 58,
   "worst": "In Development"
  }
 }
