@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 97,
+  "closed": 99,
   "discarded": 4,
-  "resolved": 101,
+  "resolved": 103,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Bug",
-    61
+    63
    ],
    [
     "Story",
@@ -37,10 +37,10 @@
   "day": 4,
   "days": 28,
   "status": "risk",
-  "headline": "97 items closed in the first 4 days, a pace of about 679 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "99 items closed in the first 4 days, a pace of about 693 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 7.4d and average 15.3d, both past the healthy band"
+   "cycle time median 7.3d and average 15.1d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -49,10 +49,10 @@
    "Oct 26",
    "Nov 9",
    436,
-   54,
+   55,
    213,
    382,
-   157,
+   160,
    79,
    [
     203.0,
@@ -64,7 +64,7 @@
     135.0,
     135.0,
     137.0,
-    225.0
+    222.0
    ],
    [
     203.0,
@@ -118,12 +118,12 @@
  "SPILL": {
   "LL-Sprint 25-26": {
    "done": [
-    54,
-    156
+    55,
+    157
    ],
    "open": [
     162,
-    223
+    222
    ],
    "out": [
     2,
@@ -181,19 +181,19 @@
      "med": 2.59
     },
     "In Development": {
-     "n": 63,
-     "med": 0.43
+     "n": 65,
+     "med": 0.42
     },
     "Backlog": {
      "n": 125,
      "med": 13.64
     },
     "PR Created": {
-     "n": 68,
+     "n": 70,
      "med": 0.03
     },
     "PR Merged": {
-     "n": 55,
+     "n": 57,
      "med": 0.0
     },
     "In Progress": {
@@ -201,12 +201,12 @@
      "med": 0.26
     },
     "In Stage": {
-     "n": 72,
+     "n": 74,
      "med": 0.36
     },
     "Ready Prod": {
-     "n": 47,
-     "med": 11.3
+     "n": 49,
+     "med": 11.29
     },
     "Done": {
      "n": 72,
@@ -354,7 +354,7 @@
    135.0,
    135.0,
    137.0,
-   225.0
+   222.0
   ],
   "Plans-Sprint 25-26": [
    83.0,
@@ -371,20 +371,20 @@
  },
  "CAP": {
   "9.10": [
-   97,
-   84,
-   238,
+   99,
+   85,
+   241,
    12
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 7.39,
-   "avg": 15.27,
-   "n": 81,
+   "med": 7.28,
+   "avg": 15.11,
+   "n": 82,
    "mx": 92.49,
-   "nodev": 16,
-   "base": 97
+   "nodev": 17,
+   "base": 99
   }
  },
  "complete": false,
