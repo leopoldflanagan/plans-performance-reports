@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T06:37:03Z",
+ "generated": "2026-11-04T07:04:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -413,7 +413,7 @@
   "completed": 66,
   "scope_change": 148,
   "vs_commitment": 73,
-  "time_elapsed": 68,
+  "time_elapsed": 69,
   "spill": {
    "open_items": 35,
    "open_pts": 127.0,
@@ -528,7 +528,7 @@
    {
     "status": "PR Created",
     "open": 22,
-    "med_age": 6.1,
+    "med_age": 6.2,
     "max_age": 8.7,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
@@ -541,7 +541,7 @@
     "status": "Ready for Development",
     "open": 67,
     "med_age": 1.5,
-    "max_age": 49.5,
+    "max_age": 49.6,
     "worst_key": "PLANS-23014",
     "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
@@ -623,8 +623,8 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 115
+   "Backlog": 115,
+   "On Hold": 7
   },
   "open_total": 198,
   "stale": 36,
