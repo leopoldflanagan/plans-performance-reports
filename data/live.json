@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T19:33:19Z",
+ "generated": "2026-11-04T20:04:23Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 9,
-   "points": 51
+   "items": 8,
+   "points": 46
   },
   "misfiled": {
    "items": 30,
@@ -66,20 +66,16 @@
  },
  "admin": {
   "scope": {
-   "ready": 106,
-   "sprint": 68,
+   "ready": 105,
+   "sprint": 69,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 17,
+    "n": 16,
     "items": [
-     {
-      "key": "PLANS-25000",
-      "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
-     },
      {
       "key": "PLANS-24985",
       "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
+     },
+     {
+      "key": "PLANS-14760",
+      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
      }
     ]
    },
@@ -406,17 +406,17 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 140,
+  "items": 142,
   "items_done": 27,
   "committed": 91,
-  "final": 249,
+  "final": 254,
   "completed": 69,
-  "scope_change": 174,
+  "scope_change": 179,
   "vs_commitment": 76,
   "time_elapsed": 73,
   "spill": {
-   "open_items": 38,
-   "open_pts": 156.0,
+   "open_items": 39,
+   "open_pts": 161.0,
    "out_items": 6,
    "out_pts": 24.0,
    "done_pts": 60.0
@@ -430,12 +430,12 @@
   "spill_rate": null,
   "dist": {
    "Done": 32,
-   "In Development": 10,
+   "In Development": 11,
    "Ready for Development": 6,
    "PR Merged": 14,
    "Closed": 8,
    "In Progress": 7,
-   "To Do": 29,
+   "To Do": 30,
    "Ready Prod": 19,
    "In Stage": 1,
    "WAITING REVIEW": 2,
@@ -453,7 +453,7 @@
    60.0,
    46.0,
    158.0,
-   178.0
+   183.0
   ],
   "scope": [
    89.0,
@@ -466,7 +466,7 @@
    102.0,
    107.0,
    224.0,
-   247.0
+   252.0
   ],
   "ghost": [
    83.0,
@@ -479,7 +479,7 @@
    62.0,
    46.0,
    158.0,
-   178.0
+   183.0
   ],
   "days": 13,
   "day": 10
@@ -498,7 +498,7 @@
   "day": 10,
   "days": 28,
   "closed": 109,
-  "points": 256,
+  "points": 257,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -517,7 +517,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 68,
+    "open": 69,
     "med_age": 6.3,
     "max_age": 21.3,
     "worst_key": "PLANS-24223",
@@ -529,15 +529,15 @@
    },
    {
     "status": "Ready for Development",
-    "open": 52,
-    "med_age": 4.9,
-    "max_age": 40.2,
+    "open": 51,
+    "med_age": 5.1,
+    "max_age": 40.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 18,
     "clear_med": 0.7,
-    "clear_n": 229
+    "clear_n": 230
    },
    {
     "status": "PR Created",
@@ -578,7 +578,7 @@
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 7.5,
+    "med_age": 7.6,
     "max_age": 12.9,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
@@ -625,8 +625,8 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 108
+   "Backlog": 108,
+   "On Hold": 7
   },
   "open_total": 193,
   "stale": 58,
