@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T10:04:44Z",
+ "generated": "2026-11-04T10:33:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -33,7 +33,7 @@
    {
     "rule": "Idea/Draft sitting in Ready for Development",
     "n": 63,
-    "points": 131,
+    "points": 129,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 120,
+   "ready": 116,
    "sprint": 62,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 18,
+    "n": 17,
     "items": [
-     {
-      "key": "PLANS-25050",
-      "summary": "[4.4.W2] Plans - resolve each plan line's current plan, so replaced plans never "
-     },
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24862",
       "summary": "Ensure all tables have EntityCreated and EntityUpdated columns"
+     },
+     {
+      "key": "PLANS-24475",
+      "summary": "Production - Text Messaging Improvements"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 80,
+    "n": 76,
     "items": [
      {
       "key": "PLANS-25059",
@@ -213,7 +213,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 48,
+    "n": 44,
     "items": [
      {
       "key": "PLANS-25059",
@@ -323,14 +323,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 165 of 173 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 165,
+    "why": "missing on 161 of 169 items. This reads as a field the team does not use rather than 161 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 161,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 173 of 173 items. This reads as a field the team does not use rather than 173 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 173,
+    "why": "missing on 169 of 169 items. This reads as a field the team does not use rather than 169 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 169,
     "items": []
    },
    {
@@ -515,44 +515,44 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 61,
-    "med_age": 6.9,
+    "open": 59,
+    "med_age": 7.0,
     "max_age": 20.9,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
-    "over": 9,
+    "over": 31,
     "clear_med": 0.1,
-    "clear_n": 600
+    "clear_n": 606
    },
    {
     "status": "PR Created",
-    "open": 25,
-    "med_age": 5.5,
+    "open": 26,
+    "med_age": 5.2,
     "max_age": 8.9,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
-    "over": 5,
+    "over": 6,
     "clear_med": 0.0,
-    "clear_n": 654
+    "clear_n": 655
    },
    {
     "status": "Ready for Development",
-    "open": 67,
-    "med_age": 1.6,
+    "open": 63,
+    "med_age": 1.7,
     "max_age": 49.7,
     "worst_key": "PLANS-23014",
     "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
     "over": 18,
     "clear_med": 0.6,
-    "clear_n": 216
+    "clear_n": 220
    },
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 12.0,
+    "med_age": 12.1,
     "max_age": 26.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -571,7 +571,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 612
+    "clear_n": 613
    },
    {
     "status": "In PreProd",
@@ -599,8 +599,8 @@
    },
    {
     "status": "In Stage",
-    "open": 4,
-    "med_age": 0.6,
+    "open": 5,
+    "med_age": 0.4,
     "max_age": 0.7,
     "worst_key": "PLANS-24908",
     "worst_sum": "Dial Care Language Update",
@@ -623,11 +623,11 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 113
+   "Backlog": 113,
+   "On Hold": 7
   },
-  "open_total": 200,
-  "stale": 36,
+  "open_total": 196,
+  "stale": 59,
   "worst": "In Development"
  }
 }

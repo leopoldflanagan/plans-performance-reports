@@ -10,8 +10,8 @@
   "prev": "",
   "prev_closed": 388,
   "closed": 97,
-  "discarded": 0,
-  "resolved": 97,
+  "discarded": 4,
+  "resolved": 101,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -51,9 +51,9 @@
    436,
    54,
    213,
-   379,
+   382,
    157,
-   78,
+   79,
    [
     203.0,
     162.0,
@@ -64,7 +64,7 @@
     135.0,
     135.0,
     137.0,
-    222.0
+    225.0
    ],
    [
     203.0,
@@ -76,7 +76,7 @@
     257.0,
     257.0,
     270.0,
-    379.0
+    382.0
    ]
   ],
   [
@@ -123,7 +123,7 @@
    ],
    "open": [
     162,
-    220
+    223
    ],
    "out": [
     2,
@@ -178,31 +178,31 @@
     },
     "Ready for Development": {
      "n": 38,
-     "med": 2.8
+     "med": 2.64
+    },
+    "In Development": {
+     "n": 55,
+     "med": 0.21
     },
     "Backlog": {
      "n": 125,
      "med": 13.64
     },
-    "In Development": {
-     "n": 51,
-     "med": 0.17
-    },
     "PR Created": {
-     "n": 56,
-     "med": 0.06
+     "n": 57,
+     "med": 0.05
     },
     "PR Merged": {
-     "n": 50,
-     "med": 0.01
+     "n": 51,
+     "med": 0.0
     },
     "In Progress": {
      "n": 58,
      "med": 0.26
     },
     "In Stage": {
-     "n": 71,
-     "med": 0.33
+     "n": 72,
+     "med": 0.36
     },
     "Ready Prod": {
      "n": 47,
@@ -243,15 +243,15 @@
    },
    "dist": {
     "To Do": 131,
-    "Ready for Development": 18,
-    "In Development": 15,
+    "In Development": 18,
+    "Ready for Development": 14,
     "PR Merged": 2,
     "In Progress": 13,
     "Ready Prod": 47,
     "Done": 72,
+    "In Stage": 3,
     "Closed": 7,
     "PR Created": 8,
-    "In Stage": 2,
     "Backlog": 110,
     "In QA": 2,
     "In PreProd": 1,
@@ -354,7 +354,7 @@
    135.0,
    135.0,
    137.0,
-   222.0
+   225.0
   ],
   "Plans-Sprint 25-26": [
    83.0,
