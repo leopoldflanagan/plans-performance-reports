@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:32:54Z",
+ "generated": "2026-11-04T22:03:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -217,27 +217,27 @@
     "items": [
      {
       "key": "PLANS-25059",
-      "summary": "[6.11.W4] Plans - switching a subscription to a legacy Annual plan is a successo"
+      "summary": "[6.11] Plans - switching a subscription to a legacy Annual plan is a successor l"
      },
      {
       "key": "PLANS-25058",
-      "summary": "[6.10.W1] Platform DB - the CSP refund grid keys a subscription charge on the pl"
+      "summary": "[6.10] Platform DB - the CSP refund grid keys a subscription charge on the plan'"
      },
      {
       "key": "PLANS-25057",
-      "summary": "[6.9.W2] Plans and CSP - a primary change moves billing forward to the new prima"
+      "summary": "[6.9] Plans and CSP - a primary change moves billing forward to the new primary'"
      },
      {
       "key": "PLANS-25056",
-      "summary": "[6.8.W3] Plans and CSP - a coverage, plan or tier change on a subscription is a "
+      "summary": "[6.8] Plans and CSP - a coverage, plan or tier change on a subscription is a new"
      },
      {
       "key": "PLANS-25055",
-      "summary": "[6.7.W3] Plans, CSP and Platform DB - a refund forgives the period, and DELETE P"
+      "summary": "[6.7] Plans, CSP and Platform DB - a refund forgives the period, and DELETE PLAN"
      },
      {
       "key": "PLANS-25054",
-      "summary": "[6.6.W2] Plans and CSP - cancel a subscription: no more charges, covered to the "
+      "summary": "[6.6] Plans and CSP - cancel a subscription: no more charges, covered to the pai"
      },
      {
       "key": "PLANS-25052",
@@ -417,7 +417,7 @@
   "completed": 71,
   "scope_change": 190,
   "vs_commitment": 78,
-  "time_elapsed": 73,
+  "time_elapsed": 74,
   "spill": {
    "open_items": 40,
    "open_pts": 161.0,
@@ -534,7 +534,7 @@
     "status": "PR Created",
     "open": 28,
     "med_age": 5.5,
-    "max_age": 9.3,
+    "max_age": 9.4,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
@@ -545,8 +545,8 @@
    {
     "status": "Ready for Development",
     "open": 65,
-    "med_age": 1.0,
-    "max_age": 40.3,
+    "med_age": 1.1,
+    "max_age": 40.4,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -558,7 +558,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 12.5,
-    "max_age": 27.1,
+    "max_age": 27.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -569,8 +569,8 @@
    {
     "status": "PR Merged",
     "open": 24,
-    "med_age": 1.0,
-    "max_age": 9.4,
+    "med_age": 1.1,
+    "max_age": 9.5,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
@@ -581,7 +581,7 @@
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 7.6,
+    "med_age": 7.7,
     "max_age": 13.0,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
@@ -593,8 +593,8 @@
    {
     "status": "In QA",
     "open": 13,
-    "med_age": 1.0,
-    "max_age": 1.0,
+    "med_age": 1.1,
+    "max_age": 1.1,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
     "worst_who": "Denys  Kernychnyi",
