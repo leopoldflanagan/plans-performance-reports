@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T15:04:30Z",
+ "generated": "2026-11-04T15:32:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 61,
-    "points": 122,
+    "n": 58,
+    "points": 116,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 115,
+   "ready": 113,
    "sprint": 62,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 75,
+    "n": 73,
     "items": [
      {
       "key": "PLANS-25059",
@@ -174,12 +174,8 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 8,
+    "n": 7,
     "items": [
-     {
-      "key": "PLANS-24936",
-      "summary": "Phase 3 - Preprod /STAGE - Euler Premium Plan - Missing Logos - Membership card "
-     },
      {
       "key": "PLANS-24924",
       "summary": "CSP \\ Duplicate \"Plan Renewed\" records at Account History after renewing an expi"
@@ -415,10 +411,10 @@
   "vs_commitment": 73,
   "time_elapsed": 71,
   "spill": {
-   "open_items": 35,
-   "open_pts": 127.0,
-   "out_items": 7,
-   "out_pts": 33.0,
+   "open_items": 34,
+   "open_pts": 126.0,
+   "out_items": 8,
+   "out_pts": 34.0,
    "done_pts": 57.0
   },
   "recv": {
@@ -430,18 +426,18 @@
   "spill_rate": null,
   "dist": {
    "To Do": 27,
-   "Ready for Development": 9,
+   "Ready for Development": 7,
    "PR Merged": 14,
    "In Stage": 2,
    "In Progress": 11,
    "Done": 26,
    "Ready Prod": 18,
+   "WAITING REVIEW": 2,
+   "In Development": 4,
    "Closed": 7,
-   "In Development": 3,
    "In PreProd": 1,
    "PR Created": 1,
-   "Backlog": 6,
-   "WAITING REVIEW": 1
+   "Backlog": 6
   },
   "burn": [
    81.0,
@@ -453,6 +449,7 @@
    60.0,
    60.0,
    46.0,
+   158.0,
    158.0
   ],
   "scope": [
@@ -465,6 +462,7 @@
    102.0,
    102.0,
    107.0,
+   224.0,
    224.0
   ],
   "ghost": [
@@ -477,6 +475,7 @@
    62.0,
    62.0,
    46.0,
+   158.0,
    158.0
   ],
   "days": 13,
@@ -523,11 +522,11 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 619
+    "clear_n": 620
    },
    {
     "status": "PR Created",
-    "open": 27,
+    "open": 28,
     "med_age": 5.2,
     "max_age": 9.1,
     "worst_key": "PLANS-24744",
@@ -539,20 +538,20 @@
    },
    {
     "status": "Ready for Development",
-    "open": 62,
+    "open": 59,
     "med_age": 1.9,
-    "max_age": 49.9,
-    "worst_key": "PLANS-23014",
-    "worst_sum": "PRODUCTION - CSP Plan Transactions",
+    "max_age": 40.1,
+    "worst_key": "PLANS-23527",
+    "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 19,
+    "over": 17,
     "clear_med": 0.6,
-    "clear_n": 219
+    "clear_n": 221
    },
    {
     "status": "WAITING REVIEW",
-    "open": 3,
-    "med_age": 12.2,
+    "open": 4,
+    "med_age": 6.7,
     "max_age": 26.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -563,7 +562,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 24,
+    "open": 23,
     "med_age": 0.8,
     "max_age": 9.2,
     "worst_key": "PLANS-24702",
@@ -571,7 +570,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 621
+    "clear_n": 622
    },
    {
     "status": "In PreProd",
@@ -599,8 +598,8 @@
    },
    {
     "status": "In Stage",
-    "open": 5,
-    "med_age": 0.6,
+    "open": 6,
+    "med_age": 0.4,
     "max_age": 0.9,
     "worst_key": "PLANS-24908",
     "worst_sum": "Dial Care Language Update",
@@ -624,10 +623,10 @@
   ],
   "parked": {
    "On Hold": 7,
-   "Backlog": 109
+   "Backlog": 110
   },
-  "open_total": 201,
-  "stale": 60,
+  "open_total": 200,
+  "stale": 58,
   "worst": "In Development"
  }
 }
