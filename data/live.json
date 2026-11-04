@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T20:32:42Z",
+ "generated": "2026-11-04T21:04:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 11,
-   "points": 59
+   "items": 35,
+   "points": 200
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 76,
-    "points": 213,
+    "n": 52,
+    "points": 85,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,24 +66,16 @@
  },
  "admin": {
   "scope": {
-   "ready": 116,
-   "sprint": 69,
+   "ready": 119,
+   "sprint": 71,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 15,
+    "n": 13,
     "items": [
-     {
-      "key": "PLANS-24985",
-      "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
-     },
-     {
-      "key": "PLANS-24966",
-      "summary": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Memb"
-     },
      {
       "key": "PLANS-24964",
       "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
@@ -107,6 +99,14 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
+     },
+     {
+      "key": "PLANS-14538",
+      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
+     },
+     {
+      "key": "PLANS-11253",
+      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,39 +124,39 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 83,
+    "n": 60,
     "items": [
      {
-      "key": "PLANS-25059",
-      "summary": "[6.11.W4] Plans - switching a subscription to a legacy Annual plan is a successo"
+      "key": "PLANS-25000",
+      "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
      },
      {
-      "key": "PLANS-25058",
-      "summary": "[6.10.W1] Platform DB - the CSP refund grid keys a subscription charge on the pl"
+      "key": "PLANS-24985",
+      "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
      },
      {
-      "key": "PLANS-25057",
-      "summary": "[6.9.W2] Plans and CSP - a primary change moves billing forward to the new prima"
+      "key": "PLANS-24966",
+      "summary": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Memb"
      },
      {
-      "key": "PLANS-25056",
-      "summary": "[6.8.W3] Plans and CSP - a coverage, plan or tier change on a subscription is a "
+      "key": "PLANS-24964",
+      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
      },
      {
-      "key": "PLANS-25055",
-      "summary": "[6.7.W3] Plans, CSP and Platform DB - a refund forgives the period, and DELETE P"
+      "key": "PLANS-24952",
+      "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
      },
      {
-      "key": "PLANS-25054",
-      "summary": "[6.6.W2] Plans and CSP - cancel a subscription: no more charges, covered to the "
+      "key": "PLANS-24943",
+      "summary": "Member Portal \\ Cardholder name is missing from Manage Payments after adding a n"
      },
      {
-      "key": "PLANS-25053",
-      "summary": "[4.7.W1] Plans - each approved subscription charge extends every dependent's ter"
+      "key": "PLANS-24942",
+      "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
      },
      {
-      "key": "PLANS-25052",
-      "summary": "[4.6.W4] Plans - when an Annual or 2-Year subscription's renewal retries run out"
+      "key": "PLANS-24929",
+      "summary": "Member Portal \\ Payment method is missing from Transactions section after plan r"
      }
     ]
    },
@@ -174,8 +174,16 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 7,
+    "n": 9,
     "items": [
+     {
+      "key": "PLANS-24985",
+      "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
+     },
+     {
+      "key": "PLANS-24966",
+      "summary": "PMP - Primary Contact Email Not Visible in Patient Search Results for Minor Memb"
+     },
      {
       "key": "PLANS-24924",
       "summary": "CSP \\ Duplicate \"Plan Renewed\" records at Account History after renewing an expi"
@@ -199,10 +207,6 @@
      {
       "key": "PLANS-19701",
       "summary": "Plan Confirmation Receipt \\ Plan purchased via Provider Portal contains wrong la"
-     },
-     {
-      "key": "PLANS-14923",
-      "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
      }
     ]
    },
@@ -237,11 +241,11 @@
      },
      {
       "key": "PLANS-25052",
-      "summary": "[4.6.W4] Plans - when an Annual or 2-Year subscription's renewal retries run out"
+      "summary": "[4.6] Plans - when an Annual or 2-Year subscription's renewal retries run out, r"
      },
      {
       "key": "PLANS-25051",
-      "summary": "[4.5.W3] Plans - Day 61: write off the unpaid charges, disable the family, recor"
+      "summary": "[4.5] Plans - Day 61: write off the unpaid charges, disable the family, record f"
      }
     ]
    },
@@ -285,7 +289,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 77,
+    "n": 75,
     "items": [
      {
       "key": "PLANS-24964",
@@ -323,14 +327,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 171 of 179 items. This reads as a field the team does not use rather than 171 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 171,
+    "why": "missing on 174 of 182 items. This reads as a field the team does not use rather than 174 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 174,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 179 of 179 items. This reads as a field the team does not use rather than 179 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 179,
+    "why": "missing on 182 of 182 items. This reads as a field the team does not use rather than 182 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 182,
     "items": []
    },
    {
@@ -406,18 +410,18 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 143,
+  "items": 148,
   "items_done": 27,
   "committed": 91,
-  "final": 262,
+  "final": 264,
   "completed": 69,
-  "scope_change": 188,
+  "scope_change": 190,
   "vs_commitment": 76,
   "time_elapsed": 73,
   "spill": {
-   "open_items": 39,
-   "open_pts": 161.0,
-   "out_items": 7,
+   "open_items": 41,
+   "open_pts": 163.0,
+   "out_items": 6,
    "out_pts": 32.0,
    "done_pts": 60.0
   },
@@ -431,11 +435,11 @@
   "dist": {
    "Done": 32,
    "In Development": 11,
-   "Ready for Development": 6,
+   "Ready for Development": 8,
    "PR Merged": 14,
    "Closed": 8,
    "In Progress": 7,
-   "To Do": 30,
+   "To Do": 34,
    "Ready Prod": 19,
    "In Stage": 1,
    "WAITING REVIEW": 2,
@@ -451,9 +455,9 @@
    60.0,
    60.0,
    60.0,
-   46.0,
-   158.0,
-   191.0
+   47.0,
+   159.0,
+   193.0
   ],
   "scope": [
    89.0,
@@ -464,9 +468,9 @@
    102.0,
    102.0,
    102.0,
-   107.0,
-   224.0,
-   260.0
+   108.0,
+   225.0,
+   262.0
   ],
   "ghost": [
    83.0,
@@ -477,9 +481,9 @@
    62.0,
    62.0,
    62.0,
-   46.0,
-   158.0,
-   191.0
+   47.0,
+   159.0,
+   193.0
   ],
   "days": 13,
   "day": 10
@@ -497,12 +501,12 @@
   "end": "2026-11-22",
   "day": 10,
   "days": 28,
-  "closed": 112,
-  "points": 259,
+  "closed": 109,
+  "points": 260,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 13,
+  "people_active": 12,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -518,8 +522,8 @@
    {
     "status": "In Development",
     "open": 69,
-    "med_age": 6.3,
-    "max_age": 21.3,
+    "med_age": 6.4,
+    "max_age": 21.4,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -535,26 +539,26 @@
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
-    "over": 7,
+    "over": 9,
     "clear_med": 0.0,
     "clear_n": 681
    },
    {
     "status": "Ready for Development",
-    "open": 62,
-    "med_age": 2.0,
+    "open": 65,
+    "med_age": 1.0,
     "max_age": 40.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 18,
     "clear_med": 0.7,
-    "clear_n": 231
+    "clear_n": 230
    },
    {
     "status": "WAITING REVIEW",
-    "open": 4,
-    "med_age": 6.8,
+    "open": 3,
+    "med_age": 12.5,
     "max_age": 27.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -579,7 +583,7 @@
     "status": "In PreProd",
     "open": 2,
     "med_age": 7.6,
-    "max_age": 12.9,
+    "max_age": 13.0,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -602,8 +606,8 @@
    {
     "status": "In Stage",
     "open": 1,
-    "med_age": 1.1,
-    "max_age": 1.1,
+    "med_age": 1.2,
+    "max_age": 1.2,
     "worst_key": "PLANS-24879",
     "worst_sum": "Stage/PMP/Primary member email is populated for the minor",
     "worst_who": "Conor Kamperman",
@@ -626,10 +630,10 @@
   ],
   "parked": {
    "On Hold": 7,
-   "Backlog": 96
+   "Backlog": 97
   },
-  "open_total": 203,
-  "stale": 59,
+  "open_total": 205,
+  "stale": 61,
   "worst": "In Development"
  }
 }
