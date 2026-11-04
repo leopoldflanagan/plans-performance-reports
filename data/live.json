@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T14:32:46Z",
+ "generated": "2026-11-04T15:04:30Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -515,8 +515,8 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 60,
-    "med_age": 7.1,
+    "open": 65,
+    "med_age": 6.1,
     "max_age": 21.1,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
@@ -527,15 +527,15 @@
    },
    {
     "status": "PR Created",
-    "open": 32,
-    "med_age": 5.0,
+    "open": 27,
+    "med_age": 5.2,
     "max_age": 9.1,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 669
+    "clear_n": 674
    },
    {
     "status": "Ready for Development",
@@ -545,7 +545,7 @@
     "worst_key": "PLANS-23014",
     "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
-    "over": 18,
+    "over": 19,
     "clear_med": 0.6,
     "clear_n": 219
    },
@@ -564,8 +564,8 @@
    {
     "status": "PR Merged",
     "open": 24,
-    "med_age": 0.7,
-    "max_age": 9.1,
+    "med_age": 0.8,
+    "max_age": 9.2,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
@@ -590,9 +590,9 @@
     "open": 13,
     "med_age": 0.8,
     "max_age": 0.8,
-    "worst_key": "PLANS-24741",
-    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
-    "worst_who": "Ivan Yarymovych",
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
@@ -627,7 +627,7 @@
    "Backlog": 109
   },
   "open_total": 201,
-  "stale": 59,
+  "stale": 60,
   "worst": "In Development"
  }
 }

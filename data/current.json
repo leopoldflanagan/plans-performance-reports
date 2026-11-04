@@ -64,6 +64,7 @@
     135.0,
     135.0,
     137.0,
+    222.0,
     222.0
    ],
    [
@@ -76,6 +77,7 @@
     257.0,
     257.0,
     270.0,
+    382.0,
     382.0
    ]
   ],
@@ -181,8 +183,8 @@
      "med": 2.59
     },
     "In Development": {
-     "n": 65,
-     "med": 0.17
+     "n": 70,
+     "med": 0.3
     },
     "Backlog": {
      "n": 125,
@@ -190,7 +192,7 @@
     },
     "PR Created": {
      "n": 75,
-     "med": 0.04
+     "med": 0.02
     },
     "PR Merged": {
      "n": 57,
@@ -243,7 +245,7 @@
    },
    "dist": {
     "To Do": 131,
-    "In Development": 14,
+    "In Development": 19,
     "Ready for Development": 13,
     "PR Merged": 2,
     "In Progress": 13,
@@ -251,7 +253,7 @@
     "Done": 72,
     "In Stage": 3,
     "Closed": 7,
-    "PR Created": 13,
+    "PR Created": 8,
     "Backlog": 110,
     "In QA": 2,
     "In PreProd": 1,
@@ -354,6 +356,7 @@
    135.0,
    135.0,
    137.0,
+   222.0,
    222.0
   ],
   "Plans-Sprint 25-26": [
