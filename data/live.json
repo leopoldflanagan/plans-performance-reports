@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T02:06:07Z",
+ "generated": "2026-11-04T02:33:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -496,7 +496,7 @@
   "day": 10,
   "days": 28,
   "closed": 97,
-  "points": 237,
+  "points": 238,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -515,27 +515,27 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 63,
+    "open": 62,
     "med_age": 6.6,
     "max_age": 20.6,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
     "over": 9,
-    "clear_med": 0.0,
-    "clear_n": 596
+    "clear_med": 0.1,
+    "clear_n": 597
    },
    {
     "status": "PR Created",
     "open": 24,
     "med_age": 5.5,
-    "max_age": 8.5,
+    "max_age": 8.6,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 651
+    "clear_n": 652
    },
    {
     "status": "Ready for Development",
@@ -553,7 +553,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 11.7,
-    "max_age": 26.3,
+    "max_age": 26.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -583,24 +583,24 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 610
+    "clear_n": 611
    },
    {
     "status": "In QA",
     "open": 13,
-    "med_age": 0.2,
-    "max_age": 0.2,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "med_age": 0.3,
+    "max_age": 0.3,
+    "worst_key": "PLANS-24741",
+    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
    },
    {
     "status": "In Stage",
-    "open": 3,
-    "med_age": 0.4,
+    "open": 4,
+    "med_age": 0.2,
     "max_age": 0.4,
     "worst_key": "PLANS-24908",
     "worst_sum": "Dial Care Language Update",
@@ -623,8 +623,8 @@
    }
   ],
   "parked": {
-   "Backlog": 115,
-   "On Hold": 7
+   "On Hold": 7,
+   "Backlog": 115
   },
   "open_total": 198,
   "stale": 36,
