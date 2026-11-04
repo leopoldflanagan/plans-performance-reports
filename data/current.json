@@ -193,8 +193,8 @@
      "med": 0.05
     },
     "PR Merged": {
-     "n": 49,
-     "med": 0.0
+     "n": 50,
+     "med": 0.01
     },
     "In Progress": {
      "n": 58,
@@ -245,7 +245,7 @@
     "To Do": 131,
     "Ready for Development": 17,
     "In Development": 17,
-    "PR Created": 8,
+    "PR Merged": 2,
     "In Progress": 13,
     "Ready Prod": 47,
     "Done": 72,
@@ -256,7 +256,7 @@
     "In PreProd": 1,
     "On Hold": 7,
     "Blocked": 1,
-    "PR Merged": 1
+    "PR Created": 7
    },
    "stalled": 382,
    "worst": 13.64,

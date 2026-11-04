@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T04:33:03Z",
+ "generated": "2026-11-04T05:04:30Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -527,15 +527,15 @@
    },
    {
     "status": "PR Created",
-    "open": 23,
-    "med_age": 5.8,
-    "max_age": 8.6,
+    "open": 22,
+    "med_age": 6.0,
+    "max_age": 8.7,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 653
+    "clear_n": 654
    },
    {
     "status": "Ready for Development",
@@ -553,7 +553,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 11.8,
-    "max_age": 26.4,
+    "max_age": 26.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -575,7 +575,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 25,
+    "open": 26,
     "med_age": 0.3,
     "max_age": 8.7,
     "worst_key": "PLANS-24702",
@@ -588,8 +588,8 @@
    {
     "status": "In QA",
     "open": 13,
-    "med_age": 0.3,
-    "max_age": 0.3,
+    "med_age": 0.4,
+    "max_age": 0.4,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
     "worst_who": "Denys  Kernychnyi",
@@ -623,8 +623,8 @@
    }
   ],
   "parked": {
-   "Backlog": 115,
-   "On Hold": 7
+   "On Hold": 7,
+   "Backlog": 115
   },
   "open_total": 198,
   "stale": 36,
