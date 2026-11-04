@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T10:33:05Z",
+ "generated": "2026-11-04T11:32:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -515,20 +515,20 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 59,
+    "open": 60,
     "med_age": 7.0,
-    "max_age": 20.9,
+    "max_age": 21.0,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
-    "over": 31,
+    "over": 32,
     "clear_med": 0.1,
-    "clear_n": 606
+    "clear_n": 610
    },
    {
     "status": "PR Created",
-    "open": 26,
-    "med_age": 5.2,
+    "open": 31,
+    "med_age": 4.9,
     "max_age": 8.9,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
@@ -540,8 +540,8 @@
    {
     "status": "Ready for Development",
     "open": 63,
-    "med_age": 1.7,
-    "max_age": 49.7,
+    "med_age": 1.8,
+    "max_age": 49.8,
     "worst_key": "PLANS-23014",
     "worst_sum": "PRODUCTION - CSP Plan Transactions",
     "worst_who": "unassigned",
@@ -562,8 +562,20 @@
     "clear_n": 22
    },
    {
+    "status": "In PreProd",
+    "open": 2,
+    "med_age": 7.2,
+    "max_age": 12.6,
+    "worst_key": "PLANS-24683",
+    "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
+    "worst_who": "Carlos Parra",
+    "over": 1,
+    "clear_med": 0.1,
+    "clear_n": 20
+   },
+   {
     "status": "PR Merged",
-    "open": 25,
+    "open": 24,
     "med_age": 0.6,
     "max_age": 9.0,
     "worst_key": "PLANS-24702",
@@ -571,19 +583,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 613
-   },
-   {
-    "status": "In PreProd",
-    "open": 2,
-    "med_age": 7.2,
-    "max_age": 12.5,
-    "worst_key": "PLANS-24683",
-    "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
-    "worst_who": "Carlos Parra",
-    "over": 1,
-    "clear_med": 0.1,
-    "clear_n": 20
+    "clear_n": 614
    },
    {
     "status": "In QA",
@@ -600,8 +600,8 @@
    {
     "status": "In Stage",
     "open": 5,
-    "med_age": 0.4,
-    "max_age": 0.7,
+    "med_age": 0.5,
+    "max_age": 0.8,
     "worst_key": "PLANS-24908",
     "worst_sum": "Dial Care Language Update",
     "worst_who": "Nazarii  Polinyk",
@@ -623,11 +623,11 @@
    }
   ],
   "parked": {
-   "Backlog": 113,
+   "Backlog": 108,
    "On Hold": 7
   },
-  "open_total": 196,
-  "stale": 59,
+  "open_total": 201,
+  "stale": 60,
   "worst": "In Development"
  }
 }
