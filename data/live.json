@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T20:33:32Z",
+ "generated": "2026-11-05T21:03:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 26,
-   "points": 117
+   "items": 25,
+   "points": 114
   },
   "misfiled": {
    "items": 30,
@@ -66,8 +66,8 @@
  },
  "admin": {
   "scope": {
-   "ready": 108,
-   "sprint": 79,
+   "ready": 107,
+   "sprint": 80,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
@@ -410,17 +410,17 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 164,
+  "items": 166,
   "items_done": 29,
   "committed": 91,
-  "final": 278,
+  "final": 281,
   "completed": 74,
-  "scope_change": 205,
+  "scope_change": 209,
   "vs_commitment": 81,
   "time_elapsed": 81,
   "spill": {
-   "open_items": 48,
-   "open_pts": 180.0,
+   "open_items": 49,
+   "open_pts": 183.0,
    "out_items": 5,
    "out_pts": 24.0,
    "done_pts": 65.0
@@ -434,7 +434,7 @@
   "spill_rate": 76,
   "dist": {
    "In Progress": 9,
-   "To Do": 39,
+   "To Do": 40,
    "In Stage": 24,
    "In Development": 7,
    "Done": 33,
@@ -443,7 +443,8 @@
    "Ready for Development": 5,
    "Ready Prod": 20,
    "WAITING REVIEW": 2,
-   "Backlog": 7
+   "Backlog": 7,
+   "PR Merged": 1
   },
   "burn": [
    81.0,
@@ -457,7 +458,7 @@
    47.0,
    151.0,
    178.0,
-   202.0
+   205.0
   ],
   "scope": [
    89.0,
@@ -471,7 +472,7 @@
    108.0,
    217.0,
    249.0,
-   276.0
+   279.0
   ],
   "ghost": [
    83.0,
@@ -485,7 +486,7 @@
    47.0,
    151.0,
    178.0,
-   202.0
+   205.0
   ],
   "days": 13,
   "day": 11
@@ -503,8 +504,8 @@
   "end": "2026-11-22",
   "day": 11,
   "days": 28,
-  "closed": 159,
-  "points": 285,
+  "closed": 160,
+  "points": 286,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -524,19 +525,19 @@
    {
     "status": "In Development",
     "open": 55,
-    "med_age": 7.3,
-    "max_age": 9.2,
+    "med_age": 7.4,
+    "max_age": 9.3,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
     "worst_who": "Sailaja Yanamandra",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 658
+    "clear_n": 660
    },
    {
     "status": "Ready for Development",
-    "open": 53,
-    "med_age": 5.9,
+    "open": 52,
+    "med_age": 6.0,
     "max_age": 41.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -544,6 +545,18 @@
     "over": 19,
     "clear_med": 0.7,
     "clear_n": 241
+   },
+   {
+    "status": "PR Created",
+    "open": 41,
+    "med_age": 1.0,
+    "max_age": 10.3,
+    "worst_key": "PLANS-24744",
+    "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
+    "worst_who": "Mykyta  Moroz",
+    "over": 7,
+    "clear_med": 0.0,
+    "clear_n": 703
    },
    {
     "status": "WAITING REVIEW",
@@ -558,55 +571,43 @@
     "clear_n": 23
    },
    {
-    "status": "PR Created",
-    "open": 41,
-    "med_age": 0.9,
-    "max_age": 10.3,
-    "worst_key": "PLANS-24744",
-    "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
-    "worst_who": "Mykyta  Moroz",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 701
-   },
-   {
-    "status": "In PreProd",
-    "open": 1,
-    "med_age": 13.9,
-    "max_age": 13.9,
-    "worst_key": "PLANS-24683",
-    "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
-    "worst_who": "Carlos Parra",
-    "over": 1,
-    "clear_med": 0.1,
-    "clear_n": 20
-   },
-   {
     "status": "In Stage",
     "open": 56,
     "med_age": 0.1,
     "max_age": 0.2,
-    "worst_key": "PLANS-24996",
-    "worst_sum": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Pri",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 402
    },
    {
     "status": "PR Merged",
-    "open": 2,
-    "med_age": 0.2,
+    "open": 3,
+    "med_age": 0.1,
     "max_age": 0.2,
     "worst_key": "PLANS-24824",
     "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
     "worst_who": "Dima Shtympel",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 665
+    "clear_n": 666
    },
    {
     "status": "In QA",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25131",
+    "worst_sum": "Tracking PDS UAT for CREG Enrollment feed feature",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 74
+   },
+   {
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -614,8 +615,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
+    "clear_med": 0.1,
+    "clear_n": 20
    },
    {
     "status": "Ready for Stage",
@@ -632,10 +633,10 @@
   ],
   "parked": {
    "On Hold": 8,
-   "Backlog": 95
+   "Backlog": 96
   },
   "open_total": 211,
-  "stale": 59,
+  "stale": 58,
   "worst": "In Development"
  }
 }
