@@ -126,7 +126,7 @@
     171
    ],
    "open": [
-    169,
+    166,
     300
    ],
    "out": [
@@ -178,7 +178,19 @@
    "tis": {
     "Ready for Development": {
      "n": 51,
-     "med": 4.29
+     "med": 2.69
+    },
+    "In Development": {
+     "n": 82,
+     "med": 0.18
+    },
+    "PR Created": {
+     "n": 94,
+     "med": 0.02
+    },
+    "PR Merged": {
+     "n": 81,
+     "med": 0.02
     },
     "To Do": {
      "n": 183,
@@ -188,14 +200,6 @@
      "n": 77,
      "med": 12.67
     },
-    "In Development": {
-     "n": 78,
-     "med": 0.3
-    },
-    "PR Created": {
-     "n": 90,
-     "med": 0.02
-    },
     "Backlog": {
      "n": 126,
      "med": 13.64
@@ -203,10 +207,6 @@
     "In Progress": {
      "n": 60,
      "med": 0.22
-    },
-    "PR Merged": {
-     "n": 77,
-     "med": 0.01
     },
     "In Stage": {
      "n": 79,
@@ -243,10 +243,15 @@
     "Blocked": {
      "n": 1,
      "med": 5.33
+    },
+    "Will Not Implement": {
+     "n": 3,
+     "med": 3.67
     }
    },
    "dist": {
-    "Ready for Development": 25,
+    "Ready for Development": 21,
+    "PR Merged": 16,
     "Done": 77,
     "To Do": 131,
     "PR Created": 6,
@@ -254,14 +259,14 @@
     "In Development": 11,
     "In Progress": 13,
     "Closed": 14,
-    "PR Merged": 12,
-    "Backlog": 105,
+    "Backlog": 102,
     "In PreProd": 1,
     "In QA": 4,
     "On Hold": 7,
-    "Blocked": 1
+    "Blocked": 1,
+    "Will Not Implement": 3
    },
-   "stalled": 393,
+   "stalled": 390,
    "worst": 13.64,
    "worstSt": "To Do",
    "items": 460
@@ -289,16 +294,16 @@
      "med": 0.0
     },
     "In Development": {
-     "n": 48,
-     "med": 0.12
+     "n": 50,
+     "med": 0.1
     },
     "PR Created": {
-     "n": 49,
+     "n": 51,
      "med": 0.0
     },
     "PR Merged": {
-     "n": 46,
-     "med": 0.42
+     "n": 48,
+     "med": 0.78
     },
     "In Stage": {
      "n": 28,
@@ -327,19 +332,19 @@
    },
    "dist": {
     "Done": 33,
-    "PR Merged": 21,
+    "PR Merged": 23,
     "In Development": 5,
     "PR Created": 2,
     "Closed": 8,
     "To Do": 34,
-    "Ready for Development": 8,
+    "Ready for Development": 6,
     "Ready Prod": 21,
     "In Progress": 6,
     "WAITING REVIEW": 2,
     "In PreProd": 1,
     "Backlog": 7
    },
-   "stalled": 119,
+   "stalled": 117,
    "worst": 12.6,
    "worstSt": "To Do",
    "items": 148
