@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T12:35:02Z",
+ "generated": "2026-11-05T13:04:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -417,7 +417,7 @@
   "completed": 71,
   "scope_change": 190,
   "vs_commitment": 78,
-  "time_elapsed": 78,
+  "time_elapsed": 79,
   "spill": {
    "open_items": 40,
    "open_pts": 161.0,
@@ -553,12 +553,12 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 617
+    "clear_n": 618
    },
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 13.1,
+    "med_age": 13.2,
     "max_age": 27.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -577,7 +577,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 8,
     "clear_med": 0.0,
-    "clear_n": 689
+    "clear_n": 690
    },
    {
     "status": "In QA",
@@ -629,8 +629,8 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 99
+   "Backlog": 99,
+   "On Hold": 7
   },
   "open_total": 212,
   "stale": 61,
