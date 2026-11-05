@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T06:06:50Z",
+ "generated": "2026-11-05T06:38:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -522,8 +522,8 @@
    {
     "status": "In Development",
     "open": 60,
-    "med_age": 7.2,
-    "max_age": 21.7,
+    "med_age": 7.3,
+    "max_age": 21.8,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -595,7 +595,7 @@
     "status": "In PreProd",
     "open": 2,
     "med_age": 8.0,
-    "max_age": 13.3,
+    "max_age": 13.4,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -629,8 +629,8 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 96
+   "Backlog": 96,
+   "On Hold": 7
   },
   "open_total": 208,
   "stale": 63,
