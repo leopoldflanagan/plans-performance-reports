@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 116,
+  "closed": 117,
   "discarded": 4,
-  "resolved": 120,
+  "resolved": 121,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Bug",
-    76
+    77
    ],
    [
     "Story",
@@ -37,7 +37,7 @@
   "day": 5,
   "days": 28,
   "status": "risk",
-  "headline": "116 items closed in the first 5 days, a pace of about 650 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "117 items closed in the first 5 days, a pace of about 655 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 6.9d and average 13.7d, both past the healthy band"
@@ -104,6 +104,7 @@
     60.0,
     47.0,
     159.0,
+    191.0,
     191.0
    ],
    [
@@ -117,6 +118,7 @@
     102.0,
     108.0,
     225.0,
+    262.0,
     262.0
    ]
   ]
@@ -300,7 +302,7 @@
      "med": 0.1
     },
     "PR Created": {
-     "n": 51,
+     "n": 53,
      "med": 0.0
     },
     "PR Merged": {
@@ -335,8 +337,8 @@
    "dist": {
     "Done": 33,
     "PR Merged": 23,
-    "In Development": 5,
-    "PR Created": 2,
+    "In Development": 3,
+    "PR Created": 4,
     "Closed": 8,
     "To Do": 34,
     "Ready for Development": 6,
@@ -346,7 +348,7 @@
     "In PreProd": 1,
     "Backlog": 7
    },
-   "stalled": 117,
+   "stalled": 115,
    "worst": 12.6,
    "worstSt": "To Do",
    "items": 148
@@ -378,14 +380,15 @@
    62.0,
    47.0,
    159.0,
+   191.0,
    191.0
   ]
  },
  "CAP": {
   "9.10": [
-   116,
-   98,
-   263,
+   117,
+   99,
+   265,
    13
   ]
  },
@@ -395,8 +398,8 @@
    "avg": 13.65,
    "n": 93,
    "mx": 92.49,
-   "nodev": 23,
-   "base": 116
+   "nodev": 24,
+   "base": 117
   }
  },
  "complete": false,
