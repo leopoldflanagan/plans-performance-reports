@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 114,
+  "closed": 116,
   "discarded": 4,
-  "resolved": 118,
+  "resolved": 120,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Story",
-    36
+    38
    ],
    [
     "TechDebt",
@@ -37,7 +37,7 @@
   "day": 5,
   "days": 28,
   "status": "risk",
-  "headline": "114 items closed in the first 5 days, a pace of about 638 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "116 items closed in the first 5 days, a pace of about 650 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 6.9d and average 13.7d, both past the healthy band"
@@ -49,7 +49,7 @@
    "Oct 26",
    "Nov 9",
    460,
-   65,
+   67,
    213,
    474,
    173,
@@ -122,11 +122,11 @@
  "SPILL": {
   "LL-Sprint 25-26": {
    "done": [
-    65,
+    67,
     171
    ],
    "open": [
-    171,
+    169,
     300
    ],
    "out": [
@@ -217,8 +217,8 @@
      "med": 10.62
     },
     "Closed": {
-     "n": 13,
-     "med": 5.36
+     "n": 15,
+     "med": 4.53
     },
     "WAITING REVIEW": {
      "n": 3,
@@ -253,15 +253,15 @@
     "Ready Prod": 53,
     "In Development": 13,
     "In Progress": 13,
-    "Closed": 12,
+    "Closed": 14,
     "PR Merged": 3,
     "In QA": 6,
-    "Backlog": 107,
+    "Backlog": 105,
     "In PreProd": 1,
     "On Hold": 7,
     "Blocked": 1
    },
-   "stalled": 395,
+   "stalled": 393,
    "worst": 13.64,
    "worstSt": "To Do",
    "items": 460
@@ -289,11 +289,11 @@
      "med": 0.0
     },
     "In Development": {
-     "n": 45,
-     "med": 0.1
+     "n": 48,
+     "med": 0.12
     },
     "PR Created": {
-     "n": 47,
+     "n": 49,
      "med": 0.0
     },
     "PR Merged": {
@@ -328,10 +328,11 @@
    "dist": {
     "Done": 33,
     "PR Merged": 21,
-    "Ready for Development": 11,
-    "In Development": 4,
+    "In Development": 5,
+    "PR Created": 2,
     "Closed": 8,
     "To Do": 34,
+    "Ready for Development": 8,
     "Ready Prod": 21,
     "In Progress": 6,
     "WAITING REVIEW": 2,
@@ -374,7 +375,7 @@
  },
  "CAP": {
   "9.10": [
-   114,
+   116,
    98,
    263,
    13
@@ -386,8 +387,8 @@
    "avg": 13.65,
    "n": 93,
    "mx": 92.49,
-   "nodev": 21,
-   "base": 114
+   "nodev": 23,
+   "base": 116
   }
  },
  "complete": false,
