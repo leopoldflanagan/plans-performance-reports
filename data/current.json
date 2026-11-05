@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 123,
+  "closed": 125,
   "discarded": 4,
-  "resolved": 127,
+  "resolved": 129,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -26,6 +26,10 @@
    [
     "TechDebt",
     2
+   ],
+   [
+    "Spike",
+    2
    ]
   ],
   "sprints": [
@@ -37,7 +41,7 @@
   "day": 5,
   "days": 28,
   "status": "risk",
-  "headline": "123 items closed in the first 5 days, a pace of about 689 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "125 items closed in the first 5 days, a pace of about 700 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 7.0d and average 13.8d, both past the healthy band"
@@ -127,11 +131,11 @@
   "LL-Sprint 25-26": {
    "done": [
     71,
-    182
+    185
    ],
    "open": [
-    165,
-    276
+    162,
+    273
    ],
    "out": [
     2,
@@ -217,8 +221,8 @@
      "med": 5.33
     },
     "Done": {
-     "n": 77,
-     "med": 12.67
+     "n": 79,
+     "med": 12.49
     },
     "Backlog": {
      "n": 126,
@@ -229,8 +233,8 @@
      "med": 10.54
     },
     "WAITING REVIEW": {
-     "n": 3,
-     "med": 0.03
+     "n": 4,
+     "med": 0.02
     },
     "In QA": {
      "n": 7,
@@ -249,7 +253,7 @@
      "med": 5.33
     },
     "Will Not Implement": {
-     "n": 3,
+     "n": 4,
      "med": 3.67
     }
    },
@@ -260,17 +264,17 @@
     "In Stage": 17,
     "Closed": 15,
     "On Hold": 8,
-    "Done": 77,
+    "Done": 79,
     "PR Created": 7,
     "Ready Prod": 55,
     "PR Merged": 1,
     "In Development": 11,
-    "Backlog": 102,
+    "Backlog": 99,
     "In PreProd": 1,
     "Blocked": 1,
-    "Will Not Implement": 3
+    "Will Not Implement": 4
    },
-   "stalled": 392,
+   "stalled": 391,
    "worst": 13.64,
    "worstSt": "To Do",
    "items": 465
@@ -391,9 +395,9 @@
  },
  "CAP": {
   "9.10": [
-   123,
-   104,
-   279,
+   125,
+   106,
+   282,
    14
   ]
  },
@@ -403,8 +407,8 @@
    "avg": 13.78,
    "n": 96,
    "mx": 92.49,
-   "nodev": 27,
-   "base": 123
+   "nodev": 29,
+   "base": 125
   }
  },
  "complete": false,
