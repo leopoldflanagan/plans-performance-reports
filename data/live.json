@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T03:32:47Z",
+ "generated": "2026-11-05T04:04:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -417,7 +417,7 @@
   "completed": 71,
   "scope_change": 190,
   "vs_commitment": 78,
-  "time_elapsed": 75,
+  "time_elapsed": 76,
   "spill": {
    "open_items": 40,
    "open_pts": 161.0,
@@ -522,7 +522,7 @@
     "status": "In Development",
     "open": 58,
     "med_age": 7.7,
-    "max_age": 21.6,
+    "max_age": 21.7,
     "worst_key": "PLANS-24223",
     "worst_sum": "PLANS-24223: Epic 1: Story 1.1 - Verify S1 practice search and S3 vanity lookup on Plans A",
     "worst_who": "Nazarii  Polinyk",
@@ -628,8 +628,8 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 97
+   "Backlog": 97,
+   "On Hold": 7
   },
   "open_total": 207,
   "stale": 63,
