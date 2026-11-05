@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T11:04:06Z",
+ "generated": "2026-11-05T11:32:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -521,15 +521,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 54,
-    "med_age": 6.9,
-    "max_age": 9.2,
-    "worst_key": "PLANS-23779",
-    "worst_sum": "[1.4b.W3] Remove a payment method with impact disclosure and no forced replacement (FE)",
-    "worst_who": "Valentyna Tenus",
-    "over": 25,
+    "open": 51,
+    "med_age": 7.0,
+    "max_age": 8.9,
+    "worst_key": "PLANS-24789",
+    "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 30,
     "clear_med": 0.1,
-    "clear_n": 641
+    "clear_n": 644
    },
    {
     "status": "Ready for Development",
@@ -544,28 +544,16 @@
     "clear_n": 230
    },
    {
-    "status": "PR Created",
-    "open": 39,
-    "med_age": 1.5,
-    "max_age": 9.9,
-    "worst_key": "PLANS-24744",
-    "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
-    "worst_who": "Mykyta  Moroz",
-    "over": 11,
-    "clear_med": 0.0,
-    "clear_n": 682
-   },
-   {
     "status": "PR Merged",
-    "open": 35,
-    "med_age": 1.5,
+    "open": 44,
+    "med_age": 1.1,
     "max_age": 10.0,
     "worst_key": "PLANS-24702",
     "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
     "worst_who": "Denys  Kernychnyi",
-    "over": 1,
+    "over": 2,
     "clear_med": 0.0,
-    "clear_n": 617
+    "clear_n": 618
    },
    {
     "status": "WAITING REVIEW",
@@ -580,22 +568,34 @@
     "clear_n": 23
    },
    {
+    "status": "PR Created",
+    "open": 35,
+    "med_age": 0.8,
+    "max_age": 9.9,
+    "worst_key": "PLANS-24744",
+    "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
+    "worst_who": "Mykyta  Moroz",
+    "over": 8,
+    "clear_med": 0.0,
+    "clear_n": 690
+   },
+   {
     "status": "In QA",
-    "open": 13,
+    "open": 11,
     "med_age": 1.6,
     "max_age": 1.6,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-24741",
+    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 1.0,
-    "clear_n": 60
+    "clear_n": 62
    },
    {
     "status": "In PreProd",
     "open": 2,
     "med_age": 8.2,
-    "max_age": 13.5,
+    "max_age": 13.6,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
@@ -629,11 +629,11 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 100
+   "Backlog": 100,
+   "On Hold": 7
   },
   "open_total": 210,
-  "stale": 58,
+  "stale": 61,
   "worst": "In Development"
  }
 }
