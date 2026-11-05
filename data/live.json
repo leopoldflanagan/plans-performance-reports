@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T14:04:39Z",
+ "generated": "2026-11-05T14:33:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 43,
-    "points": 51,
+    "n": 42,
+    "points": 48,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -521,7 +521,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 52,
+    "open": 54,
     "med_age": 7.1,
     "max_age": 9.0,
     "worst_key": "PLANS-24789",
@@ -529,7 +529,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 648
+    "clear_n": 647
    },
    {
     "status": "Ready for Development",
@@ -547,7 +547,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 13.2,
-    "max_age": 27.8,
+    "max_age": 27.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -559,7 +559,7 @@
     "status": "PR Created",
     "open": 36,
     "med_age": 0.9,
-    "max_age": 10.0,
+    "max_age": 10.1,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
@@ -569,7 +569,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 48,
+    "open": 47,
     "med_age": 0.6,
     "max_age": 10.1,
     "worst_key": "PLANS-24702",
@@ -582,8 +582,8 @@
    {
     "status": "In QA",
     "open": 11,
-    "med_age": 1.7,
-    "max_age": 1.7,
+    "med_age": 1.8,
+    "max_age": 1.8,
     "worst_key": "PLANS-24741",
     "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
     "worst_who": "Ivan Yarymovych",
@@ -613,7 +613,7 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 1.9,
-    "clear_n": 402
+    "clear_n": 401
    },
    {
     "status": "Ready for Stage",
@@ -629,10 +629,10 @@
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 99
+   "Backlog": 99,
+   "On Hold": 7
   },
-  "open_total": 212,
+  "open_total": 213,
   "stale": 61,
   "worst": "In Development"
  }
