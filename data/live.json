@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T07:32:47Z",
+ "generated": "2026-11-05T08:06:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -535,7 +535,7 @@
     "status": "Ready for Development",
     "open": 64,
     "med_age": 1.5,
-    "max_age": 40.7,
+    "max_age": 40.8,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -551,7 +551,7 @@
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
-    "over": 11,
+    "over": 12,
     "clear_med": 0.0,
     "clear_n": 679
    },
@@ -570,7 +570,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 12.9,
+    "med_age": 13.0,
     "max_age": 27.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -594,7 +594,7 @@
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 8.0,
+    "med_age": 8.1,
     "max_age": 13.4,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
@@ -633,7 +633,7 @@
    "On Hold": 7
   },
   "open_total": 209,
-  "stale": 63,
+  "stale": 64,
   "worst": "In Development"
  }
 }
