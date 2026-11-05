@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T16:32:46Z",
+ "generated": "2026-11-05T17:04:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 110,
-   "sprint": 73,
+   "sprint": 74,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
@@ -327,14 +327,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 170 of 178 items. This reads as a field the team does not use rather than 170 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 170,
+    "why": "missing on 171 of 179 items. This reads as a field the team does not use rather than 171 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 171,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 178 of 178 items. This reads as a field the team does not use rather than 178 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 178,
+    "why": "missing on 179 of 179 items. This reads as a field the team does not use rather than 179 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 179,
     "items": []
    },
    {
@@ -410,17 +410,17 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 150,
+  "items": 154,
   "items_done": 28,
   "committed": 91,
-  "final": 262,
+  "final": 264,
   "completed": 71,
-  "scope_change": 188,
+  "scope_change": 190,
   "vs_commitment": 78,
   "time_elapsed": 80,
   "spill": {
-   "open_items": 42,
-   "open_pts": 164.0,
+   "open_items": 43,
+   "open_pts": 166.0,
    "out_items": 6,
    "out_pts": 27.0,
    "done_pts": 62.0
@@ -431,17 +431,18 @@
    "pct": 0,
    "from": "LL-Sprint 25-26"
   },
-  "spill_rate": 75,
+  "spill_rate": 76,
   "dist": {
+   "In Progress": 7,
+   "To Do": 36,
+   "In Stage": 1,
    "In Development": 4,
    "Done": 33,
    "PR Merged": 21,
    "PR Created": 5,
    "Closed": 8,
-   "To Do": 34,
    "Ready for Development": 5,
    "Ready Prod": 20,
-   "In Progress": 6,
    "WAITING REVIEW": 2,
    "In PreProd": 1,
    "Backlog": 7
@@ -458,7 +459,7 @@
    47.0,
    151.0,
    178.0,
-   189.0
+   191.0
   ],
   "scope": [
    89.0,
@@ -472,7 +473,7 @@
    108.0,
    217.0,
    249.0,
-   260.0
+   262.0
   ],
   "ghost": [
    83.0,
@@ -486,7 +487,7 @@
    47.0,
    151.0,
    178.0,
-   189.0
+   191.0
   ],
   "days": 13,
   "day": 11
@@ -524,7 +525,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 53,
+    "open": 52,
     "med_age": 7.2,
     "max_age": 9.1,
     "worst_key": "PLANS-24789",
@@ -532,7 +533,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 651
+    "clear_n": 654
    },
    {
     "status": "Ready for Development",
@@ -547,10 +548,22 @@
     "clear_n": 237
    },
    {
+    "status": "PR Merged",
+    "open": 35,
+    "med_age": 1.7,
+    "max_age": 10.2,
+    "worst_key": "PLANS-24702",
+    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 2,
+    "clear_med": 0.0,
+    "clear_n": 631
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 13.3,
-    "max_age": 27.9,
+    "max_age": 28.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -559,28 +572,16 @@
     "clear_n": 23
    },
    {
-    "status": "PR Merged",
-    "open": 45,
-    "med_age": 0.7,
-    "max_age": 10.2,
-    "worst_key": "PLANS-24702",
-    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 2,
-    "clear_med": 0.0,
-    "clear_n": 620
-   },
-   {
     "status": "PR Created",
-    "open": 39,
+    "open": 40,
     "med_age": 0.8,
-    "max_age": 10.1,
+    "max_age": 10.2,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 696
+    "clear_n": 698
    },
    {
     "status": "In PreProd",
@@ -597,8 +598,8 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 1.8,
-    "max_age": 1.8,
+    "med_age": 1.9,
+    "max_age": 1.9,
     "worst_key": "PLANS-24704",
     "worst_sum": "[1.4.W3] Payment Status column on the Member Portal Transactions tab (member-portal-v3)",
     "worst_who": "Valentyna Tenus",
@@ -620,12 +621,12 @@
    },
    {
     "status": "In Stage",
-    "open": 13,
+    "open": 24,
     "med_age": 0.0,
     "max_age": 0.0,
-    "worst_key": "PLANS-24996",
-    "worst_sum": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Pri",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.9,
     "clear_n": 399
@@ -633,9 +634,9 @@
   ],
   "parked": {
    "On Hold": 8,
-   "Backlog": 99
+   "Backlog": 98
   },
-  "open_total": 212,
+  "open_total": 213,
   "stale": 61,
   "worst": "In Development"
  }
