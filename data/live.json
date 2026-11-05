@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T22:04:41Z",
+ "generated": "2026-11-05T22:32:42Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -436,15 +436,15 @@
    "In Progress": 8,
    "To Do": 40,
    "In Stage": 23,
-   "In Development": 7,
+   "PR Merged": 6,
    "Done": 34,
    "PR Created": 5,
    "Closed": 29,
    "Ready Prod": 1,
    "Ready for Development": 5,
+   "In Development": 2,
    "WAITING REVIEW": 2,
-   "Backlog": 7,
-   "PR Merged": 1
+   "Backlog": 7
   },
   "burn": [
    81.0,
@@ -524,7 +524,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 54,
+    "open": 49,
     "med_age": 7.4,
     "max_age": 9.3,
     "worst_key": "PLANS-24789",
@@ -532,7 +532,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 659
+    "clear_n": 664
    },
    {
     "status": "Ready for Development",
@@ -556,12 +556,12 @@
     "worst_who": "Mykyta  Moroz",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 697
+    "clear_n": 702
    },
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 13.5,
+    "med_age": 13.6,
     "max_age": 28.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -581,18 +581,6 @@
     "over": 0,
     "clear_med": 1.4,
     "clear_n": 397
-   },
-   {
-    "status": "PR Merged",
-    "open": 3,
-    "med_age": 0.2,
-    "max_age": 0.2,
-    "worst_key": "PLANS-25014",
-    "worst_sum": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After",
-    "worst_who": "Petro Yarish",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 660
    },
    {
     "status": "In QA",
@@ -629,11 +617,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "PR Merged",
+    "open": 8,
+    "med_age": 0.0,
+    "max_age": 0.3,
+    "worst_key": "PLANS-24824",
+    "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
+    "worst_who": "Dima Shtympel",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 660
    }
   ],
   "parked": {
-   "Backlog": 94,
-   "On Hold": 8
+   "On Hold": 8,
+   "Backlog": 94
   },
   "open_total": 210,
   "stale": 58,
