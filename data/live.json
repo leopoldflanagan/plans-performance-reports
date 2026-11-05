@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T17:33:03Z",
+ "generated": "2026-11-05T18:05:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 27,
-   "points": 123
+   "items": 26,
+   "points": 120
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 43,
-    "points": 55,
+    "n": 47,
+    "points": 71,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,8 +66,8 @@
  },
  "admin": {
   "scope": {
-   "ready": 111,
-   "sprint": 76,
+   "ready": 110,
+   "sprint": 77,
    "sprint_name": "Plans-Sprint 25-26"
   },
   "blocking": [
@@ -240,12 +240,12 @@
       "summary": "[6.6] Plans and CSP - cancel a subscription: no more charges, covered to the pai"
      },
      {
-      "key": "PLANS-25052",
-      "summary": "[4.6] Plans - when an Annual or 2-Year subscription's renewal retries run out, r"
-     },
-     {
       "key": "PLANS-25048",
       "summary": "[7.8] Plans - go-live checks before the subscription flag goes on in any environ"
+     },
+     {
+      "key": "PLANS-25047",
+      "summary": "[7.7] Portals, CSP, messaging and documents - show a subscription's paid-through"
      }
     ]
    },
@@ -410,17 +410,17 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 159,
+  "items": 160,
   "items_done": 28,
   "committed": 91,
-  "final": 267,
+  "final": 270,
   "completed": 71,
-  "scope_change": 193,
+  "scope_change": 197,
   "vs_commitment": 78,
   "time_elapsed": 80,
   "spill": {
-   "open_items": 45,
-   "open_pts": 169.0,
+   "open_items": 46,
+   "open_pts": 172.0,
    "out_items": 6,
    "out_pts": 27.0,
    "done_pts": 62.0
@@ -433,12 +433,11 @@
   },
   "spill_rate": 76,
   "dist": {
-   "In Progress": 8,
-   "To Do": 38,
-   "In Stage": 3,
-   "In Development": 4,
+   "In Progress": 9,
+   "To Do": 37,
+   "In Stage": 24,
+   "In Development": 5,
    "Done": 33,
-   "PR Merged": 21,
    "PR Created": 5,
    "Closed": 8,
    "Ready for Development": 5,
@@ -459,7 +458,7 @@
    47.0,
    151.0,
    178.0,
-   194.0
+   197.0
   ],
   "scope": [
    89.0,
@@ -473,7 +472,7 @@
    108.0,
    217.0,
    249.0,
-   265.0
+   268.0
   ],
   "ghost": [
    83.0,
@@ -487,7 +486,7 @@
    47.0,
    151.0,
    178.0,
-   194.0
+   197.0
   ],
   "days": 13,
   "day": 11
@@ -505,12 +504,12 @@
   "end": "2026-11-22",
   "day": 11,
   "days": 28,
-  "closed": 118,
-  "points": 269,
+  "closed": 123,
+  "points": 279,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 13,
+  "people_active": 14,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -525,7 +524,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 52,
+    "open": 53,
     "med_age": 7.2,
     "max_age": 9.1,
     "worst_key": "PLANS-24789",
@@ -533,36 +532,24 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 657
+    "clear_n": 658
    },
    {
     "status": "Ready for Development",
-    "open": 56,
-    "med_age": 3.0,
+    "open": 55,
+    "med_age": 3.1,
     "max_age": 41.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 19,
     "clear_med": 0.7,
-    "clear_n": 237
-   },
-   {
-    "status": "PR Merged",
-    "open": 35,
-    "med_age": 1.8,
-    "max_age": 10.3,
-    "worst_key": "PLANS-24702",
-    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 2,
-    "clear_med": 0.0,
-    "clear_n": 631
+    "clear_n": 239
    },
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 13.3,
+    "med_age": 13.4,
     "max_age": 28.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -573,7 +560,7 @@
    },
    {
     "status": "PR Created",
-    "open": 41,
+    "open": 42,
     "med_age": 0.8,
     "max_age": 10.2,
     "worst_key": "PLANS-24744",
@@ -596,28 +583,16 @@
     "clear_n": 19
    },
    {
-    "status": "In Stage",
-    "open": 24,
+    "status": "PR Merged",
+    "open": 1,
     "med_age": 0.1,
     "max_age": 0.1,
-    "worst_key": "PLANS-24996",
-    "worst_sum": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Pri",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-24824",
+    "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
+    "worst_who": "Dima Shtympel",
     "over": 0,
-    "clear_med": 1.9,
-    "clear_n": 399
-   },
-   {
-    "status": "In QA",
-    "open": 1,
-    "med_age": 1.9,
-    "max_age": 1.9,
-    "worst_key": "PLANS-24704",
-    "worst_sum": "[1.4.W3] Payment Status column on the Member Portal Transactions tab (member-portal-v3)",
-    "worst_who": "Valentyna Tenus",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 72
+    "clear_med": 0.0,
+    "clear_n": 665
    },
    {
     "status": "Ready for Stage",
@@ -630,14 +605,38 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In Stage",
+    "open": 56,
+    "med_age": 0.0,
+    "max_age": 0.1,
+    "worst_key": "PLANS-24996",
+    "worst_sum": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Pri",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 402
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    }
   ],
   "parked": {
-   "On Hold": 8,
-   "Backlog": 97
+   "Backlog": 95,
+   "On Hold": 8
   },
-  "open_total": 214,
-  "stale": 61,
+  "open_total": 212,
+  "stale": 59,
   "worst": "In Development"
  }
 }
