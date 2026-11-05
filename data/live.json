@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T23:32:20Z",
+ "generated": "2026-11-05T00:11:15Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 10,
+  "day": 11,
   "days": 13,
   "n": 21,
   "done_now": 71,
   "committed": 91,
-  "lo": 79,
-  "mid": 89,
-  "hi": 106,
-  "pct": 98,
-  "verdict": "on track for the commitment",
-  "share_mid": 0.8
+  "lo": 77,
+  "mid": 81,
+  "hi": 103,
+  "pct": 89,
+  "verdict": "a little short of the commitment",
+  "share_mid": 0.879
  },
  "admin": {
   "scope": {
@@ -485,7 +485,7 @@
    191.0
   ],
   "days": 13,
-  "day": 10
+  "day": 11
  },
  "next": {
   "name": "LL-Sprint 26-26",
@@ -498,7 +498,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 10,
+  "day": 11,
   "days": 28,
   "closed": 112,
   "points": 263,
@@ -533,8 +533,8 @@
    {
     "status": "PR Created",
     "open": 32,
-    "med_age": 3.8,
-    "max_age": 9.4,
+    "med_age": 3.9,
+    "max_age": 9.5,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
@@ -558,7 +558,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 12.6,
-    "max_age": 27.2,
+    "max_age": 27.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -579,6 +579,18 @@
     "clear_n": 619
    },
    {
+    "status": "In QA",
+    "open": 13,
+    "med_age": 1.2,
+    "max_age": 1.2,
+    "worst_key": "PLANS-24741",
+    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 1.0,
+    "clear_n": 61
+   },
+   {
     "status": "In PreProd",
     "open": 2,
     "med_age": 7.7,
@@ -591,16 +603,16 @@
     "clear_n": 19
    },
    {
-    "status": "In QA",
-    "open": 13,
-    "med_age": 1.1,
-    "max_age": 1.1,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 1.0,
-    "clear_n": 61
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In Stage",
@@ -613,18 +625,6 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 408
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    }
   ],
   "parked": {
