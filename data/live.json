@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T14:33:33Z",
+ "generated": "2026-11-05T15:04:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 42,
-    "points": 48,
+    "n": 41,
+    "points": 43,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -521,7 +521,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 54,
+    "open": 51,
     "med_age": 7.1,
     "max_age": 9.0,
     "worst_key": "PLANS-24789",
@@ -529,19 +529,19 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 647
+    "clear_n": 649
    },
    {
     "status": "Ready for Development",
     "open": 60,
     "med_age": 2.8,
-    "max_age": 41.0,
+    "max_age": 41.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 18,
     "clear_med": 0.7,
-    "clear_n": 234
+    "clear_n": 233
    },
    {
     "status": "WAITING REVIEW",
@@ -556,28 +556,28 @@
     "clear_n": 23
    },
    {
+    "status": "PR Merged",
+    "open": 47,
+    "med_age": 0.7,
+    "max_age": 10.2,
+    "worst_key": "PLANS-24702",
+    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 2,
+    "clear_med": 0.0,
+    "clear_n": 617
+   },
+   {
     "status": "PR Created",
-    "open": 36,
-    "med_age": 0.9,
+    "open": 39,
+    "med_age": 0.7,
     "max_age": 10.1,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
     "over": 8,
     "clear_med": 0.0,
-    "clear_n": 694
-   },
-   {
-    "status": "PR Merged",
-    "open": 47,
-    "med_age": 0.6,
-    "max_age": 10.1,
-    "worst_key": "PLANS-24702",
-    "worst_sum": "[1.3.W2] Live ACH payment status on Member Portal transactions (member-bff)",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 2,
-    "clear_med": 0.0,
-    "clear_n": 618
+    "clear_n": 693
    },
    {
     "status": "In QA",
@@ -613,7 +613,7 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 1.9,
-    "clear_n": 401
+    "clear_n": 400
    },
    {
     "status": "Ready for Stage",
@@ -629,7 +629,7 @@
    }
   ],
   "parked": {
-   "Backlog": 99,
+   "Backlog": 100,
    "On Hold": 7
   },
   "open_total": 213,

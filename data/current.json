@@ -65,6 +65,7 @@
     135.0,
     137.0,
     222.0,
+    301.0,
     301.0
    ],
    [
@@ -78,6 +79,7 @@
     257.0,
     270.0,
     382.0,
+    474.0,
     474.0
    ]
   ],
@@ -182,10 +184,10 @@
     },
     "In Development": {
      "n": 83,
-     "med": 0.19
+     "med": 0.18
     },
     "PR Created": {
-     "n": 94,
+     "n": 96,
      "med": 0.02
     },
     "PR Merged": {
@@ -254,9 +256,9 @@
     "PR Merged": 16,
     "Done": 77,
     "To Do": 131,
-    "PR Created": 5,
+    "PR Created": 7,
     "Ready Prod": 53,
-    "In Development": 12,
+    "In Development": 10,
     "In Progress": 13,
     "Closed": 14,
     "Backlog": 102,
@@ -362,6 +364,7 @@
    135.0,
    137.0,
    222.0,
+   301.0,
    301.0
   ],
   "Plans-Sprint 25-26": [
