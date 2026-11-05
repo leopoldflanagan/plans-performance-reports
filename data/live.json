@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T21:03:58Z",
+ "generated": "2026-11-05T21:32:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -439,10 +439,10 @@
    "In Development": 7,
    "Done": 33,
    "PR Created": 5,
-   "Closed": 9,
+   "Closed": 26,
    "Ready for Development": 5,
-   "Ready Prod": 20,
    "WAITING REVIEW": 2,
+   "Ready Prod": 3,
    "Backlog": 7,
    "PR Merged": 1
   },
@@ -504,12 +504,12 @@
   "end": "2026-11-22",
   "day": 11,
   "days": 28,
-  "closed": 160,
-  "points": 286,
+  "closed": 171,
+  "points": 329,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 19,
+  "people_active": 21,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -524,7 +524,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 55,
+    "open": 54,
     "med_age": 7.4,
     "max_age": 9.3,
     "worst_key": "PLANS-24789",
@@ -532,7 +532,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 660
+    "clear_n": 659
    },
    {
     "status": "Ready for Development",
@@ -543,12 +543,12 @@
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 19,
-    "clear_med": 0.7,
-    "clear_n": 241
+    "clear_med": 0.8,
+    "clear_n": 245
    },
    {
     "status": "PR Created",
-    "open": 41,
+    "open": 42,
     "med_age": 1.0,
     "max_age": 10.3,
     "worst_key": "PLANS-24744",
@@ -556,7 +556,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 703
+    "clear_n": 697
    },
    {
     "status": "WAITING REVIEW",
@@ -568,19 +568,19 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 2,
     "clear_med": 0.1,
-    "clear_n": 23
+    "clear_n": 24
    },
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 0.1,
+    "med_age": 0.2,
     "max_age": 0.2,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
     "worst_who": "David Jones",
     "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 402
+    "clear_med": 1.5,
+    "clear_n": 396
    },
    {
     "status": "PR Merged",
@@ -592,7 +592,7 @@
     "worst_who": "Dima Shtympel",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 666
+    "clear_n": 660
    },
    {
     "status": "In QA",
@@ -604,19 +604,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.8,
-    "clear_n": 74
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 20
+    "clear_n": 73
    },
    {
     "status": "Ready for Stage",
@@ -629,11 +617,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
    "On Hold": 8,
-   "Backlog": 96
+   "Backlog": 94
   },
   "open_total": 211,
   "stale": 58,

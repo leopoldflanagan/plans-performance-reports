@@ -688,7 +688,7 @@
   <div class="cmpgrid">
    <div class="chartbox" style="height:280px"><canvas id="cSpill"></canvas></div>
    <div class="readout">
-    <div class="line" style="border-color:var(--risk)"><span class="vs-tag">53% of everything committed</span><br><b>3480 of 6551 points</b> across the series did not finish in the sprint they were in. That is a third of the work, every sprint, and it is invisible in the burndown.</div>
+    <div class="line" style="border-color:var(--risk)"><span class="vs-tag">53% of everything committed</span><br><b>3480 of 6554 points</b> across the series did not finish in the sprint they were in. That is a third of the work, every sprint, and it is invisible in the burndown.</div>
     <div class="line" style="border-color:var(--warning)"><span class="vs-tag">19% of it is removed, not carried</span><br>PLANS takes work <i>out</i> of the sprint before closing it rather than letting it show as incomplete. That is why every sprint reads 100% complete — the sprint empties before it closes.</div>
     <div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">Read it against the commitment, not the burndown</span><br>A sprint that commits to 45 points, grows to 117, closes 69 and drops 48 has not delivered 100% of anything. The honest pair is day-1 commitment and spillover rate, side by side.</div>
    </div>
@@ -774,7 +774,7 @@ const thrRef={id:'thrRef',afterDraw(c){const{ctx,chartArea:{left,right},scales:{
   ctx.fillStyle=r.col;ctx.font='600 10px DM Sans';ctx.textAlign='right';ctx.fillText(r.t,right-4,yp-4);ctx.restore();});}};
 new Chart(document.getElementById('cThru'),{type:'bar',
  data:{labels:["R9.00", "R9.01", "R9.02", "R9.03", "R9.04", "R9.05", "R9.09", "R9.10"],datasets:[{label:'Closed',
-  data:[54.5, 48.5, 30.0, 69.0, 57.8, 63.0, 129.5, 53.3],backgroundColor:["#65B2D5", "#007CBC", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5"],borderRadius:6}]},
+  data:[54.5, 48.5, 30.0, 69.0, 57.8, 63.0, 129.5, 59.0],backgroundColor:["#65B2D5", "#007CBC", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5", "#65B2D5"],borderRadius:6}]},
  options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:162,grid:{color:gridc},title:{display:true,text:'Items closed per sprint'}},x:{grid:{display:false}}}},
  plugins:[thrRef]});
 new Chart(document.getElementById('cCyc'),{type:'bar',
@@ -826,7 +826,7 @@ const spillRef={id:'spillRef',afterDraw(c){const{ctx,chartArea:{left,right},scal
  ctx.fillStyle='var(--wf-muted)';ctx.font='600 10px DM Sans';ctx.textAlign='right';
  ctx.fillText('series average 53%',right-4,yp-4);ctx.restore();}};
 new Chart(document.getElementById('cSpill'),{type:'bar',
- data:{labels:["Plans-R9.00 S1", "Plans-R9.00 S2", "S6-26", "S7-26", "S8-26", "S8-26", "S9-26", "S9-26", "S10-26", "S10-26", "S11-26", "S11-26", "S12-26", "S12 - 26", "S13 - 26", "S13-26", "S14-26", "S14-26", "S15-26", "S15-26", "S23-26", "S23-26", "S24-26", "S24-26", "S25-26", "S25-26"],datasets:[{label:'Spillover rate',data:[28.0, 24.4, 23.1, 44.4, 48.8, 100.0, 100.0, 65.1, 100.0, 45.8, 69.8, 55.4, 50.0, 70.2, 62.8, 48.0, 84.6, 80.4, 70.2, 61.1, 30.5, 44.0, 44.4, 28.7, 59.6, 76.1],backgroundColor:["#65B2D5", "#65B2D5", "#65B2D5", "#ED7D31", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#d64550", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#65B2D5", "#ED7D31", "#ED7D31", "#65B2D5", "#d64550", "#d64550"],borderRadius:5}]},
+ data:{labels:["Plans-R9.00 S1", "Plans-R9.00 S2", "S6-26", "S7-26", "S8-26", "S8-26", "S9-26", "S9-26", "S10-26", "S10-26", "S11-26", "S11-26", "S12-26", "S12 - 26", "S13 - 26", "S13-26", "S14-26", "S14-26", "S15-26", "S15-26", "S23-26", "S23-26", "S24-26", "S24-26", "S25-26", "S25-26"],datasets:[{label:'Spillover rate',data:[28.0, 24.4, 23.1, 44.4, 48.8, 100.0, 100.0, 65.1, 100.0, 45.8, 69.8, 55.4, 50.0, 70.2, 62.8, 48.0, 84.6, 80.4, 70.2, 61.1, 30.5, 44.0, 44.4, 28.7, 59.4, 75.5],backgroundColor:["#65B2D5", "#65B2D5", "#65B2D5", "#ED7D31", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#d64550", "#ED7D31", "#d64550", "#d64550", "#d64550", "#d64550", "#65B2D5", "#ED7D31", "#ED7D31", "#65B2D5", "#d64550", "#d64550"],borderRadius:5}]},
  options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:100,grid:{color:gridc},ticks:{callback:v=>v+'%'},title:{display:true,text:'% of points that left the sprint'}},x:{grid:{display:false}}}},
  plugins:[spillRef]});
 new Chart(document.getElementById('cRecv'),{type:'bar',
