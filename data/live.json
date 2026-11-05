@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T19:03:42Z",
+ "generated": "2026-11-05T19:32:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -550,7 +550,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 13.4,
-    "max_age": 28.0,
+    "max_age": 28.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -562,7 +562,7 @@
     "status": "PR Created",
     "open": 41,
     "med_age": 0.9,
-    "max_age": 10.2,
+    "max_age": 10.3,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
@@ -583,13 +583,25 @@
     "clear_n": 19
    },
    {
+    "status": "In Stage",
+    "open": 56,
+    "med_age": 0.1,
+    "max_age": 0.2,
+    "worst_key": "PLANS-24741",
+    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
+    "worst_who": "Ivan Yarymovych",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 402
+   },
+   {
     "status": "PR Merged",
     "open": 2,
     "med_age": 0.1,
     "max_age": 0.1,
-    "worst_key": "PLANS-24824",
-    "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
-    "worst_who": "Dima Shtympel",
+    "worst_key": "PLANS-25014",
+    "worst_sum": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 665
@@ -605,18 +617,6 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In Stage",
-    "open": 56,
-    "med_age": 0.0,
-    "max_age": 0.1,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 402
    },
    {
     "status": "In QA",

@@ -52,7 +52,7 @@
    "LL-Sprint 25-26",
    "Oct 26",
    "Nov 9",
-   465,
+   466,
    71,
    213,
    461,
@@ -185,12 +185,16 @@
   "LL-Sprint 25-26": {
    "tis": {
     "To Do": {
-     "n": 186,
+     "n": 187,
      "med": 13.64
     },
     "In Progress": {
      "n": 61,
      "med": 0.22
+    },
+    "Done": {
+     "n": 88,
+     "med": 12.3
     },
     "Ready for Development": {
      "n": 53,
@@ -219,10 +223,6 @@
     "On Hold": {
      "n": 10,
      "med": 5.33
-    },
-    "Done": {
-     "n": 79,
-     "med": 12.49
     },
     "Backlog": {
      "n": 126,
@@ -258,26 +258,26 @@
     }
    },
    "dist": {
-    "In Progress": 14,
-    "To Do": 133,
+    "To Do": 128,
+    "Done": 88,
     "Ready for Development": 20,
     "In Stage": 17,
     "Closed": 15,
     "On Hold": 8,
-    "Done": 79,
     "PR Created": 7,
     "Ready Prod": 55,
     "PR Merged": 1,
+    "In Progress": 11,
     "In Development": 11,
     "Backlog": 99,
     "In PreProd": 1,
     "Blocked": 1,
     "Will Not Implement": 4
    },
-   "stalled": 391,
+   "stalled": 392,
    "worst": 13.64,
    "worstSt": "To Do",
-   "items": 465
+   "items": 466
   },
   "Plans-Sprint 25-26": {
    "tis": {
