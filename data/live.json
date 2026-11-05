@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T04:04:54Z",
+ "generated": "2026-11-05T04:32:49Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -500,12 +500,12 @@
   "end": "2026-11-22",
   "day": 11,
   "days": 28,
-  "closed": 112,
+  "closed": 114,
   "points": 263,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 12,
+  "people_active": 13,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -520,7 +520,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 58,
+    "open": 59,
     "med_age": 7.7,
     "max_age": 21.7,
     "worst_key": "PLANS-24223",
@@ -533,7 +533,7 @@
    {
     "status": "PR Created",
     "open": 32,
-    "med_age": 4.0,
+    "med_age": 4.1,
     "max_age": 9.6,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
@@ -593,26 +593,14 @@
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 7.8,
-    "max_age": 13.2,
+    "med_age": 7.9,
+    "max_age": 13.3,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 19
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In Stage",
@@ -625,13 +613,25 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 408
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 97,
+   "Backlog": 96,
    "On Hold": 7
   },
-  "open_total": 207,
+  "open_total": 208,
   "stale": 63,
   "worst": "In Development"
  }
