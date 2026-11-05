@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T09:05:05Z",
+ "generated": "2026-11-05T09:33:09Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -521,15 +521,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 53,
-    "med_age": 6.9,
+    "open": 49,
+    "med_age": 7.9,
     "max_age": 9.1,
     "worst_key": "PLANS-23779",
     "worst_sum": "[1.4b.W3] Remove a payment method with impact disclosure and no forced replacement (FE)",
     "worst_who": "Valentyna Tenus",
     "over": 25,
     "clear_med": 0.1,
-    "clear_n": 642
+    "clear_n": 646
    },
    {
     "status": "Ready for Development",
@@ -544,20 +544,8 @@
     "clear_n": 231
    },
    {
-    "status": "PR Created",
-    "open": 41,
-    "med_age": 1.4,
-    "max_age": 9.8,
-    "worst_key": "PLANS-24744",
-    "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
-    "worst_who": "Mykyta  Moroz",
-    "over": 12,
-    "clear_med": 0.0,
-    "clear_n": 679
-   },
-   {
     "status": "PR Merged",
-    "open": 33,
+    "open": 39,
     "med_age": 1.4,
     "max_age": 9.9,
     "worst_key": "PLANS-24702",
@@ -565,7 +553,19 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 616
+    "clear_n": 617
+   },
+   {
+    "status": "PR Created",
+    "open": 39,
+    "med_age": 1.4,
+    "max_age": 9.8,
+    "worst_key": "PLANS-24744",
+    "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
+    "worst_who": "Mykyta  Moroz",
+    "over": 11,
+    "clear_med": 0.0,
+    "clear_n": 686
    },
    {
     "status": "WAITING REVIEW",
@@ -604,18 +604,6 @@
     "clear_n": 19
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In Stage",
     "open": 0,
     "med_age": 0,
@@ -626,14 +614,26 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 406
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 7,
-   "Backlog": 96
+   "Backlog": 96,
+   "On Hold": 7
   },
   "open_total": 209,
-  "stale": 59,
+  "stale": 58,
   "worst": "In Development"
  }
 }
