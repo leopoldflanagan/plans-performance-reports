@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T00:44:06Z",
+ "generated": "2026-11-05T01:04:50Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -417,7 +417,7 @@
   "completed": 71,
   "scope_change": 190,
   "vs_commitment": 78,
-  "time_elapsed": 74,
+  "time_elapsed": 75,
   "spill": {
    "open_items": 40,
    "open_pts": 161.0,
@@ -557,7 +557,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 12.6,
+    "med_age": 12.7,
     "max_age": 27.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -579,18 +579,6 @@
     "clear_n": 619
    },
    {
-    "status": "In PreProd",
-    "open": 2,
-    "med_age": 7.8,
-    "max_age": 13.1,
-    "worst_key": "PLANS-24683",
-    "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
-    "worst_who": "Carlos Parra",
-    "over": 1,
-    "clear_med": 0.0,
-    "clear_n": 19
-   },
-   {
     "status": "In QA",
     "open": 13,
     "med_age": 1.2,
@@ -601,6 +589,18 @@
     "over": 0,
     "clear_med": 1.0,
     "clear_n": 61
+   },
+   {
+    "status": "In PreProd",
+    "open": 2,
+    "med_age": 7.8,
+    "max_age": 13.1,
+    "worst_key": "PLANS-24683",
+    "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
+    "worst_who": "Carlos Parra",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 19
    },
    {
     "status": "In Stage",
@@ -628,8 +628,8 @@
    }
   ],
   "parked": {
-   "Backlog": 97,
-   "On Hold": 7
+   "On Hold": 7,
+   "Backlog": 97
   },
   "open_total": 207,
   "stale": 63,
