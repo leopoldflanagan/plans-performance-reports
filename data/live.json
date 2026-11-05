@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T19:32:45Z",
+ "generated": "2026-11-05T20:04:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 24,
-   "points": 112
+   "items": 26,
+   "points": 117
   },
   "misfiled": {
    "items": 30,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 47,
-    "points": 71,
+    "n": 53,
+    "points": 94,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -44,8 +44,8 @@
    },
    {
     "rule": "Groomed work archived as Deferred",
-    "n": 0,
-    "points": 0,
+    "n": 1,
+    "points": 3,
     "why": "work that met Definition of Ready and was then parked."
    }
   ]
@@ -504,12 +504,12 @@
   "end": "2026-11-22",
   "day": 11,
   "days": 28,
-  "closed": 125,
+  "closed": 158,
   "points": 282,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 14,
+  "people_active": 18,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -537,8 +537,8 @@
    {
     "status": "Ready for Development",
     "open": 53,
-    "med_age": 5.8,
-    "max_age": 41.2,
+    "med_age": 5.9,
+    "max_age": 41.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -573,7 +573,7 @@
    {
     "status": "In PreProd",
     "open": 2,
-    "med_age": 8.5,
+    "med_age": 8.6,
     "max_age": 13.9,
     "worst_key": "PLANS-24683",
     "worst_sum": "PreProd - No Plans that were transferred from Prod are showing in WFPay",
@@ -587,9 +587,9 @@
     "open": 56,
     "med_age": 0.1,
     "max_age": 0.2,
-    "worst_key": "PLANS-24741",
-    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
-    "worst_who": "Ivan Yarymovych",
+    "worst_key": "PLANS-24996",
+    "worst_sum": "Auto Renewal Retry \\ Turning off Auto-Renewal for a dependent also disables it for the Pri",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 402
@@ -597,11 +597,11 @@
    {
     "status": "PR Merged",
     "open": 2,
-    "med_age": 0.1,
-    "max_age": 0.1,
-    "worst_key": "PLANS-25014",
-    "worst_sum": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After",
-    "worst_who": "Petro Yarish",
+    "med_age": 0.2,
+    "max_age": 0.2,
+    "worst_key": "PLANS-24824",
+    "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
+    "worst_who": "Dima Shtympel",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 665
@@ -632,8 +632,8 @@
    }
   ],
   "parked": {
-   "Backlog": 95,
-   "On Hold": 8
+   "On Hold": 8,
+   "Backlog": 95
   },
   "open_total": 212,
   "stale": 59,
