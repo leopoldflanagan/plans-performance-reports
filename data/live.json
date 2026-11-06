@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T04:04:49Z",
+ "generated": "2026-11-06T04:32:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -417,7 +417,7 @@
   "completed": 76,
   "scope_change": 209,
   "vs_commitment": 84,
-  "time_elapsed": 83,
+  "time_elapsed": 84,
   "spill": {
    "open_items": 48,
    "open_pts": 181.0,
@@ -549,7 +549,7 @@
    {
     "status": "PR Created",
     "open": 42,
-    "med_age": 1.2,
+    "med_age": 1.3,
     "max_age": 10.6,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
@@ -585,7 +585,7 @@
    {
     "status": "PR Merged",
     "open": 8,
-    "med_age": 0.2,
+    "med_age": 0.3,
     "max_age": 0.5,
     "worst_key": "PLANS-24824",
     "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
