@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T17:04:05Z",
+ "generated": "2026-11-06T17:32:16Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 53,
-    "points": 94,
+    "n": 57,
+    "points": 98,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 107,
+   "ready": 111,
    "sprint": 81,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 60,
+    "n": 64,
     "items": [
      {
       "key": "PLANS-25000",
@@ -285,7 +285,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 75,
+    "n": 78,
     "items": [
      {
       "key": "PLANS-24964",
@@ -323,14 +323,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 175 of 183 items. This reads as a field the team does not use rather than 175 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 175,
+    "why": "missing on 179 of 187 items. This reads as a field the team does not use rather than 179 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 179,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 183 of 183 items. This reads as a field the team does not use rather than 183 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 183,
+    "why": "missing on 187 of 187 items. This reads as a field the team does not use rather than 187 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 187,
     "items": []
    },
    {
@@ -406,7 +406,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 167,
+  "items": 168,
   "items_done": 31,
   "committed": 91,
   "final": 284,
@@ -429,8 +429,8 @@
   },
   "spill_rate": 74,
   "dist": {
+   "In Progress": 9,
    "In Stage": 24,
-   "In Progress": 8,
    "To Do": 40,
    "PR Merged": 6,
    "Done": 34,
@@ -524,7 +524,7 @@
    {
     "status": "In Development",
     "open": 41,
-    "med_age": 9.2,
+    "med_age": 9.3,
     "max_age": 10.1,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
@@ -537,7 +537,7 @@
     "status": "Ready for Development",
     "open": 52,
     "med_age": 6.8,
-    "max_age": 42.1,
+    "max_age": 42.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -549,10 +549,10 @@
     "status": "In Stage",
     "open": 73,
     "med_age": 1.0,
-    "max_age": 1.0,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "max_age": 1.1,
+    "worst_key": "PLANS-24902",
+    "worst_sum": "CREG/Member Id in the PDF does not match the member Id in app",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.2,
     "clear_n": 390
@@ -560,7 +560,7 @@
    {
     "status": "PR Created",
     "open": 35,
-    "med_age": 1.3,
+    "med_age": 1.4,
     "max_age": 8.8,
     "worst_key": "PLANS-24828",
     "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
@@ -585,10 +585,10 @@
     "status": "PR Merged",
     "open": 9,
     "med_age": 0.8,
-    "max_age": 1.0,
-    "worst_key": "PLANS-25014",
-    "worst_sum": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After",
-    "worst_who": "Petro Yarish",
+    "max_age": 1.1,
+    "worst_key": "PLANS-24824",
+    "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
+    "worst_who": "Dima Shtympel",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 675
@@ -596,26 +596,14 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 0.8,
-    "max_age": 0.8,
+    "med_age": 0.9,
+    "max_age": 0.9,
     "worst_key": "PLANS-25131",
     "worst_sum": "Tracking PDS UAT for CREG Enrollment feed feature",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 73
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -628,11 +616,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 10,
-   "Backlog": 96
+   "Backlog": 96,
+   "On Hold": 10
   },
   "open_total": 214,
   "stale": 64,
