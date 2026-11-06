@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T04:32:55Z",
+ "generated": "2026-11-06T05:04:31Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -550,7 +550,7 @@
     "status": "PR Created",
     "open": 42,
     "med_age": 1.3,
-    "max_age": 10.6,
+    "max_age": 10.7,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
     "worst_who": "Mykyta  Moroz",
@@ -562,7 +562,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 13.8,
-    "max_age": 28.4,
+    "max_age": 28.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -573,7 +573,7 @@
    {
     "status": "In Stage",
     "open": 55,
-    "med_age": 0.4,
+    "med_age": 0.5,
     "max_age": 0.5,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
@@ -587,9 +587,9 @@
     "open": 8,
     "med_age": 0.3,
     "max_age": 0.5,
-    "worst_key": "PLANS-24824",
-    "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
-    "worst_who": "Dima Shtympel",
+    "worst_key": "PLANS-25014",
+    "worst_sum": "CSP - Primary Contact Removed from Dependent Minor in PMP but Still Displayed in CSP After",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 660
@@ -632,8 +632,8 @@
    }
   ],
   "parked": {
-   "Backlog": 94,
-   "On Hold": 8
+   "On Hold": 8,
+   "Backlog": 94
   },
   "open_total": 210,
   "stale": 60,
