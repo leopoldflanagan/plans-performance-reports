@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T20:04:17Z",
+ "generated": "2026-11-06T20:32:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,13 +55,13 @@
   "day": 12,
   "days": 13,
   "n": 21,
-  "done_now": 78,
+  "done_now": 126,
   "committed": 91,
-  "lo": 83,
-  "mid": 84,
-  "hi": 94,
-  "pct": 92,
-  "verdict": "a little short of the commitment",
+  "lo": 134,
+  "mid": 136,
+  "hi": 152,
+  "pct": 149,
+  "verdict": "on track for the commitment",
   "share_mid": 0.928
  },
  "admin": {
@@ -213,7 +213,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 51,
+    "n": 48,
     "items": [
      {
       "key": "PLANS-25059",
@@ -407,19 +407,19 @@
   "end": "2026-11-08",
   "goal": "",
   "items": 168,
-  "items_done": 31,
+  "items_done": 40,
   "committed": 91,
   "final": 284,
-  "completed": 78,
+  "completed": 126,
   "scope_change": 212,
-  "vs_commitment": 86,
+  "vs_commitment": 138,
   "time_elapsed": 89,
   "spill": {
-   "open_items": 48,
-   "open_pts": 182.0,
+   "open_items": 39,
+   "open_pts": 134.0,
    "out_items": 5,
    "out_pts": 24.0,
-   "done_pts": 71.0
+   "done_pts": 119.0
   },
   "recv": {
    "items": 0,
@@ -427,15 +427,15 @@
    "pct": 0,
    "from": "LL-Sprint 25-26"
   },
-  "spill_rate": 74,
+  "spill_rate": 57,
   "dist": {
    "In Progress": 9,
-   "In Stage": 30,
+   "In Stage": 21,
    "To Do": 40,
    "Done": 34,
    "PR Created": 5,
    "Closed": 30,
-   "Ready Prod": 1,
+   "Ready Prod": 10,
    "Ready for Development": 5,
    "In Development": 2,
    "WAITING REVIEW": 2,
@@ -454,7 +454,7 @@
    151.0,
    178.0,
    203.0,
-   204.0
+   156.0
   ],
   "scope": [
    89.0,
@@ -484,7 +484,7 @@
    151.0,
    178.0,
    203.0,
-   204.0
+   156.0
   ],
   "days": 13,
   "day": 12
@@ -502,8 +502,8 @@
   "end": "2026-11-22",
   "day": 12,
   "days": 28,
-  "closed": 179,
-  "points": 347,
+  "closed": 188,
+  "points": 395,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -547,23 +547,23 @@
    },
    {
     "status": "In Stage",
-    "open": 82,
+    "open": 73,
     "med_age": 1.1,
     "max_age": 1.2,
     "worst_key": "PLANS-24902",
     "worst_sum": "CREG/Member Id in the PDF does not match the member Id in app",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
-    "clear_med": 1.2,
-    "clear_n": 386
+    "clear_med": 1.1,
+    "clear_n": 395
    },
    {
     "status": "PR Created",
     "open": 35,
     "med_age": 1.5,
-    "max_age": 8.9,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 9.0,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -572,7 +572,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 14.4,
+    "med_age": 14.5,
     "max_age": 29.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -584,8 +584,8 @@
    {
     "status": "PR Merged",
     "open": 1,
-    "med_age": 0.1,
-    "max_age": 0.1,
+    "med_age": 0.2,
+    "max_age": 0.2,
     "worst_key": "PLANS-25135",
     "worst_sum": "[B.6.W1] PORTAL_URL_PASSTHROUGH as a registry rule with a context-driven source",
     "worst_who": "Mykyta  Moroz",
@@ -631,10 +631,10 @@
    }
   ],
   "parked": {
-   "Backlog": 100,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 100
   },
-  "open_total": 214,
+  "open_total": 205,
   "stale": 64,
   "worst": "In Development"
  }
