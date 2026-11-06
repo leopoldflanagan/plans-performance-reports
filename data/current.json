@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 203,
+  "closed": 219,
   "discarded": 4,
-  "resolved": 207,
+  "resolved": 223,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    115
+    131
    ],
    [
     "Bug",
@@ -41,7 +41,7 @@
   "day": 6,
   "days": 28,
   "status": "risk",
-  "headline": "203 items closed in the first 6 days, a pace of about 947 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "219 items closed in the first 6 days, a pace of about 1022 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 7.0d and average 13.0d, both past the healthy band"
@@ -197,8 +197,8 @@
      "med": 0.26
     },
     "Done": {
-     "n": 102,
-     "med": 11.27
+     "n": 123,
+     "med": 7.73
     },
     "Ready for Development": {
      "n": 53,
@@ -262,8 +262,8 @@
     }
    },
    "dist": {
-    "To Do": 128,
-    "Done": 95,
+    "To Do": 107,
+    "Done": 116,
     "Ready for Development": 20,
     "In Stage": 17,
     "On Hold": 10,
@@ -276,7 +276,7 @@
     "Blocked": 1,
     "Will Not Implement": 11
    },
-   "stalled": 376,
+   "stalled": 355,
    "worst": 13.64,
    "worstSt": "To Do",
    "items": 480
@@ -320,8 +320,8 @@
      "med": 2.02
     },
     "Done": {
-     "n": 46,
-     "med": 5.37
+     "n": 49,
+     "med": 4.38
     },
     "Closed": {
      "n": 35,
@@ -347,9 +347,9 @@
    "dist": {
     "In Progress": 9,
     "In Stage": 15,
-    "To Do": 40,
+    "To Do": 37,
     "Ready Prod": 18,
-    "Done": 34,
+    "Done": 37,
     "PR Created": 5,
     "Closed": 31,
     "Ready for Development": 5,
@@ -358,7 +358,7 @@
     "Backlog": 6,
     "On Hold": 1
    },
-   "stalled": 86,
+   "stalled": 83,
    "worst": 12.6,
    "worstSt": "To Do",
    "items": 168
@@ -398,7 +398,7 @@
  },
  "CAP": {
   "9.10": [
-   203,
+   219,
    146,
    473,
    21
@@ -410,8 +410,8 @@
    "avg": 12.98,
    "n": 130,
    "mx": 92.49,
-   "nodev": 73,
-   "base": 203
+   "nodev": 89,
+   "base": 219
   }
  },
  "complete": false,
