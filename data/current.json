@@ -93,12 +93,12 @@
    "Plans-Sprint 25-26",
    "Oct 26",
    "Nov 8",
-   166,
+   167,
    31,
    91,
-   281,
+   284,
    78,
-   209,
+   212,
    [
     81.0,
     79.0,
@@ -112,7 +112,7 @@
     151.0,
     178.0,
     203.0,
-    201.0
+    204.0
    ],
    [
     89.0,
@@ -127,7 +127,7 @@
     217.0,
     249.0,
     279.0,
-    279.0
+    282.0
    ]
   ]
  ],
@@ -158,8 +158,8 @@
     71
    ],
    "open": [
-    47,
-    179
+    48,
+    182
    ],
    "out": [
     5,
@@ -181,7 +181,7 @@
   },
   "Plans-Sprint 25-26": {
    "react": 0,
-   "plan": 49,
+   "plan": 50,
    "pct": 0
   }
  },
@@ -284,32 +284,32 @@
   },
   "Plans-Sprint 25-26": {
    "tis": {
+    "Backlog": {
+     "n": 37,
+     "med": 0.0
+    },
+    "In Development": {
+     "n": 59,
+     "med": 0.1
+    },
+    "PR Created": {
+     "n": 63,
+     "med": 0.0
+    },
+    "PR Merged": {
+     "n": 56,
+     "med": 0.77
+    },
+    "In Stage": {
+     "n": 55,
+     "med": 2.5
+    },
     "To Do": {
      "n": 65,
      "med": 12.6
     },
     "In Progress": {
      "n": 32,
-     "med": 2.5
-    },
-    "Backlog": {
-     "n": 36,
-     "med": 0.0
-    },
-    "In Development": {
-     "n": 58,
-     "med": 0.11
-    },
-    "PR Created": {
-     "n": 62,
-     "med": 0.0
-    },
-    "PR Merged": {
-     "n": 55,
-     "med": 0.78
-    },
-    "In Stage": {
-     "n": 54,
      "med": 2.5
     },
     "Ready for Development": {
@@ -346,9 +346,9 @@
     }
    },
    "dist": {
+    "In Stage": 26,
     "In Progress": 8,
     "To Do": 40,
-    "In Stage": 25,
     "PR Merged": 6,
     "Done": 34,
     "PR Created": 5,
@@ -363,7 +363,7 @@
    "stalled": 86,
    "worst": 12.6,
    "worstSt": "To Do",
-   "items": 166
+   "items": 167
   }
  },
  "GHOST": {
@@ -395,7 +395,7 @@
    151.0,
    178.0,
    203.0,
-   201.0
+   204.0
   ]
  },
  "CAP": {
