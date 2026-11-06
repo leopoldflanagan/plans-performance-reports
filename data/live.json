@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T14:32:56Z",
+ "generated": "2026-11-06T15:04:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -525,7 +525,7 @@
    {
     "status": "In Development",
     "open": 41,
-    "med_age": 9.1,
+    "med_age": 9.2,
     "max_age": 10.0,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
@@ -537,8 +537,8 @@
    {
     "status": "Ready for Development",
     "open": 52,
-    "med_age": 6.7,
-    "max_age": 42.0,
+    "med_age": 6.8,
+    "max_age": 42.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -547,21 +547,9 @@
     "clear_n": 245
    },
    {
-    "status": "In Stage",
-    "open": 55,
-    "med_age": 0.9,
-    "max_age": 0.9,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
-    "over": 0,
-    "clear_med": 1.2,
-    "clear_n": 395
-   },
-   {
     "status": "PR Created",
     "open": 39,
-    "med_age": 1.2,
+    "med_age": 1.3,
     "max_age": 11.1,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
@@ -569,6 +557,18 @@
     "over": 7,
     "clear_med": 0.0,
     "clear_n": 717
+   },
+   {
+    "status": "In Stage",
+    "open": 55,
+    "med_age": 0.9,
+    "max_age": 1.0,
+    "worst_key": "PLANS-24902",
+    "worst_sum": "CREG/Member Id in the PDF does not match the member Id in app",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
+    "clear_med": 1.2,
+    "clear_n": 395
    },
    {
     "status": "WAITING REVIEW",
@@ -586,7 +586,7 @@
     "status": "PR Merged",
     "open": 21,
     "med_age": 0.1,
-    "max_age": 0.9,
+    "max_age": 1.0,
     "worst_key": "PLANS-24824",
     "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
     "worst_who": "Dima Shtympel",
@@ -597,26 +597,14 @@
    {
     "status": "In QA",
     "open": 1,
-    "med_age": 0.7,
-    "max_age": 0.7,
+    "med_age": 0.8,
+    "max_age": 0.8,
     "worst_key": "PLANS-25131",
     "worst_sum": "Tracking PDS UAT for CREG Enrollment feed feature",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 73
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
    },
    {
     "status": "Ready for Stage",
@@ -629,6 +617,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
