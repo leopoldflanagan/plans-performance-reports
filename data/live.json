@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T01:33:52Z",
+ "generated": "2026-11-06T02:06:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -525,7 +525,7 @@
    {
     "status": "In Development",
     "open": 49,
-    "med_age": 7.5,
+    "med_age": 7.6,
     "max_age": 9.5,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
@@ -549,7 +549,7 @@
    {
     "status": "PR Created",
     "open": 42,
-    "med_age": 1.1,
+    "med_age": 1.2,
     "max_age": 10.5,
     "worst_key": "PLANS-24744",
     "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
