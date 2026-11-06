@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 196,
+  "closed": 203,
   "discarded": 4,
-  "resolved": 200,
+  "resolved": 207,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    108
+    115
    ],
    [
     "Bug",
@@ -41,10 +41,10 @@
   "day": 6,
   "days": 28,
   "status": "risk",
-  "headline": "196 items closed in the first 6 days, a pace of about 915 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "203 items closed in the first 6 days, a pace of about 947 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 6.7d and average 13.1d, both past the healthy band"
+   "cycle time median 7.0d and average 13.0d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -52,12 +52,12 @@
    "LL-Sprint 25-26",
    "Oct 26",
    "Nov 9",
-   473,
-   84,
+   480,
+   85,
    213,
-   469,
-   209,
-   120,
+   487,
+   211,
+   129,
    [
     203.0,
     162.0,
@@ -71,7 +71,7 @@
     222.0,
     285.0,
     274.0,
-    260.0
+    276.0
    ],
    [
     203.0,
@@ -86,7 +86,7 @@
     382.0,
     458.0,
     461.0,
-    469.0
+    487.0
    ]
   ],
   [
@@ -94,10 +94,10 @@
    "Oct 26",
    "Nov 8",
    168,
-   46,
+   48,
    91,
    284,
-   166,
+   177,
    212,
    [
     81.0,
@@ -112,7 +112,7 @@
     151.0,
     178.0,
     203.0,
-    116.0
+    105.0
    ],
    [
     89.0,
@@ -134,12 +134,12 @@
  "SPILL": {
   "LL-Sprint 25-26": {
    "done": [
-    84,
-    206
+    85,
+    208
    ],
    "open": [
-    144,
-    262
+    145,
+    278
    ],
    "out": [
     2,
@@ -154,12 +154,12 @@
   },
   "Plans-Sprint 25-26": {
    "done": [
-    46,
-    143
+    48,
+    154
    ],
    "open": [
-    35,
-    110
+    33,
+    99
    ],
    "out": [
     5,
@@ -176,7 +176,7 @@
  "SPLIT": {
   "LL-Sprint 25-26": {
    "react": 0,
-   "plan": 77,
+   "plan": 79,
    "pct": 0
   },
   "Plans-Sprint 25-26": {
@@ -189,7 +189,7 @@
   "LL-Sprint 25-26": {
    "tis": {
     "To Do": {
-     "n": 192,
+     "n": 197,
      "med": 13.64
     },
     "In Progress": {
@@ -217,8 +217,8 @@
      "med": 0.02
     },
     "In Stage": {
-     "n": 102,
-     "med": 0.55
+     "n": 104,
+     "med": 0.68
     },
     "Closed": {
      "n": 78,
@@ -233,8 +233,8 @@
      "med": 13.64
     },
     "Ready Prod": {
-     "n": 62,
-     "med": 7.08
+     "n": 63,
+     "med": 7.06
     },
     "WAITING REVIEW": {
      "n": 4,
@@ -262,24 +262,24 @@
     }
    },
    "dist": {
-    "To Do": 123,
+    "To Do": 128,
     "Done": 95,
     "Ready for Development": 20,
-    "In Stage": 16,
+    "In Stage": 17,
     "On Hold": 10,
     "In Progress": 16,
     "PR Created": 7,
     "Closed": 74,
     "In Development": 10,
-    "Ready Prod": 8,
+    "Ready Prod": 9,
     "Backlog": 82,
     "Blocked": 1,
     "Will Not Implement": 11
    },
-   "stalled": 372,
+   "stalled": 376,
    "worst": 13.64,
    "worstSt": "To Do",
-   "items": 473
+   "items": 480
   },
   "Plans-Sprint 25-26": {
    "tis": {
@@ -309,19 +309,19 @@
     },
     "In Stage": {
      "n": 61,
-     "med": 1.14
+     "med": 1.13
     },
     "Ready for Development": {
      "n": 40,
      "med": 0.84
     },
+    "Ready Prod": {
+     "n": 39,
+     "med": 2.02
+    },
     "Done": {
      "n": 46,
      "med": 5.37
-    },
-    "Ready Prod": {
-     "n": 37,
-     "med": 2.02
     },
     "Closed": {
      "n": 35,
@@ -346,11 +346,11 @@
    },
    "dist": {
     "In Progress": 9,
-    "In Stage": 17,
+    "In Stage": 15,
     "To Do": 40,
+    "Ready Prod": 18,
     "Done": 34,
     "PR Created": 5,
-    "Ready Prod": 16,
     "Closed": 31,
     "Ready for Development": 5,
     "In Development": 2,
@@ -378,7 +378,7 @@
    222.0,
    285.0,
    274.0,
-   260.0
+   276.0
   ],
   "Plans-Sprint 25-26": [
    83.0,
@@ -393,25 +393,25 @@
    151.0,
    178.0,
    203.0,
-   116.0
+   105.0
   ]
  },
  "CAP": {
   "9.10": [
-   196,
-   139,
-   441,
+   203,
+   146,
+   473,
    21
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 6.65,
-   "avg": 13.13,
-   "n": 123,
+   "med": 6.95,
+   "avg": 12.98,
+   "n": 130,
    "mx": 92.49,
    "nodev": 73,
-   "base": 196
+   "base": 203
   }
  },
  "complete": false,

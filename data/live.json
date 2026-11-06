@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T21:03:42Z",
+ "generated": "2026-11-06T21:32:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 12,
   "days": 13,
   "n": 21,
-  "done_now": 161,
+  "done_now": 177,
   "committed": 91,
-  "lo": 171,
-  "mid": 174,
-  "hi": 194,
-  "pct": 191,
+  "lo": 188,
+  "mid": 191,
+  "hi": 213,
+  "pct": 210,
   "verdict": "on track for the commitment",
   "share_mid": 0.928
  },
@@ -407,19 +407,19 @@
   "end": "2026-11-08",
   "goal": "",
   "items": 168,
-  "items_done": 45,
+  "items_done": 48,
   "committed": 91,
   "final": 284,
-  "completed": 161,
+  "completed": 177,
   "scope_change": 212,
-  "vs_commitment": 177,
+  "vs_commitment": 195,
   "time_elapsed": 89,
   "spill": {
-   "open_items": 36,
-   "open_pts": 115.0,
+   "open_items": 33,
+   "open_pts": 99.0,
    "out_items": 5,
    "out_pts": 24.0,
-   "done_pts": 138.0
+   "done_pts": 154.0
   },
   "recv": {
    "items": 0,
@@ -427,14 +427,14 @@
    "pct": 0,
    "from": "LL-Sprint 25-26"
   },
-  "spill_rate": 50,
+  "spill_rate": 44,
   "dist": {
    "In Progress": 9,
-   "In Stage": 18,
+   "In Stage": 15,
    "To Do": 40,
+   "Ready Prod": 16,
    "Done": 34,
    "PR Created": 5,
-   "Ready Prod": 13,
    "Closed": 30,
    "Ready for Development": 5,
    "In Development": 2,
@@ -454,7 +454,7 @@
    151.0,
    178.0,
    203.0,
-   121.0
+   105.0
   ],
   "scope": [
    89.0,
@@ -484,7 +484,7 @@
    151.0,
    178.0,
    203.0,
-   121.0
+   105.0
   ],
   "days": 13,
   "day": 12
@@ -502,8 +502,8 @@
   "end": "2026-11-22",
   "day": 12,
   "days": 28,
-  "closed": 195,
-  "points": 436,
+  "closed": 203,
+  "points": 473,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -547,15 +547,15 @@
    },
    {
     "status": "In Stage",
-    "open": 65,
-    "med_age": 1.1,
+    "open": 58,
+    "med_age": 1.2,
     "max_age": 1.2,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 403
+    "clear_n": 410
    },
    {
     "status": "PR Created",
@@ -594,18 +594,6 @@
     "clear_n": 679
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -616,6 +604,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 74
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "Ready for Stage",
@@ -634,7 +634,7 @@
    "Backlog": 100,
    "On Hold": 10
   },
-  "open_total": 197,
+  "open_total": 190,
   "stale": 64,
   "worst": "In Development"
  }
