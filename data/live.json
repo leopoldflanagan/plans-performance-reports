@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T23:03:31Z",
+ "generated": "2026-11-06T23:32:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -531,7 +531,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 666
+    "clear_n": 663
    },
    {
     "status": "Ready for Development",
@@ -555,19 +555,19 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 409
+    "clear_n": 407
    },
    {
     "status": "PR Created",
     "open": 35,
     "med_age": 1.6,
     "max_age": 9.1,
-    "worst_key": "PLANS-24822",
-    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 713
+    "clear_n": 708
    },
    {
     "status": "WAITING REVIEW",
@@ -591,19 +591,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 678
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 74
+    "clear_n": 674
    },
    {
     "status": "In PreProd",
@@ -616,6 +604,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 74
    },
    {
     "status": "Ready for Stage",
@@ -631,7 +631,7 @@
    }
   ],
   "parked": {
-   "Backlog": 99,
+   "Backlog": 100,
    "On Hold": 10
   },
   "open_total": 190,
