@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T14:04:59Z",
+ "generated": "2026-11-06T14:32:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -524,7 +524,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 43,
+    "open": 41,
     "med_age": 9.1,
     "max_age": 10.0,
     "worst_key": "PLANS-24789",
@@ -532,7 +532,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 672
+    "clear_n": 674
    },
    {
     "status": "Ready for Development",
@@ -547,21 +547,9 @@
     "clear_n": 245
    },
    {
-    "status": "PR Created",
-    "open": 38,
-    "med_age": 1.2,
-    "max_age": 11.0,
-    "worst_key": "PLANS-24744",
-    "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
-    "worst_who": "Mykyta  Moroz",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 716
-   },
-   {
     "status": "In Stage",
     "open": 55,
-    "med_age": 0.8,
+    "med_age": 0.9,
     "max_age": 0.9,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
@@ -571,16 +559,40 @@
     "clear_n": 395
    },
    {
+    "status": "PR Created",
+    "open": 39,
+    "med_age": 1.2,
+    "max_age": 11.1,
+    "worst_key": "PLANS-24744",
+    "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
+    "worst_who": "Mykyta  Moroz",
+    "over": 7,
+    "clear_med": 0.0,
+    "clear_n": 717
+   },
+   {
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 14.2,
-    "max_age": 28.8,
+    "max_age": 28.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 23
+   },
+   {
+    "status": "PR Merged",
+    "open": 21,
+    "med_age": 0.1,
+    "max_age": 0.9,
+    "worst_key": "PLANS-24824",
+    "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
+    "worst_who": "Dima Shtympel",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 662
    },
    {
     "status": "In QA",
@@ -607,18 +619,6 @@
     "clear_n": 21
    },
    {
-    "status": "PR Merged",
-    "open": 20,
-    "med_age": 0.0,
-    "max_age": 0.9,
-    "worst_key": "PLANS-24824",
-    "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
-    "worst_who": "Dima Shtympel",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 662
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -632,8 +632,8 @@
    }
   ],
   "parked": {
-   "Backlog": 93,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 93
   },
   "open_total": 212,
   "stale": 61,
