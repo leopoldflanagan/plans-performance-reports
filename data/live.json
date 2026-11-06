@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T15:04:29Z",
+ "generated": "2026-11-06T15:32:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -458,6 +458,7 @@
    47.0,
    151.0,
    178.0,
+   203.0,
    203.0
   ],
   "scope": [
@@ -472,6 +473,7 @@
    108.0,
    217.0,
    249.0,
+   279.0,
    279.0
   ],
   "ghost": [
@@ -486,6 +488,7 @@
    47.0,
    151.0,
    178.0,
+   203.0,
    203.0
   ],
   "days": 13,
@@ -547,18 +550,6 @@
     "clear_n": 245
    },
    {
-    "status": "PR Created",
-    "open": 39,
-    "med_age": 1.3,
-    "max_age": 11.1,
-    "worst_key": "PLANS-24744",
-    "worst_sum": "[B.2.W1] BFF forwards promoCode on npm/get-template-plan-options and carries UpdateKind.Pr",
-    "worst_who": "Mykyta  Moroz",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 717
-   },
-   {
     "status": "In Stage",
     "open": 55,
     "med_age": 0.9,
@@ -568,12 +559,24 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.2,
-    "clear_n": 395
+    "clear_n": 394
+   },
+   {
+    "status": "PR Created",
+    "open": 36,
+    "med_age": 1.3,
+    "max_age": 8.8,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_who": "Dima Shtympel",
+    "over": 5,
+    "clear_med": 0.0,
+    "clear_n": 720
    },
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 14.2,
+    "med_age": 14.3,
     "max_age": 28.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -584,7 +587,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 21,
+    "open": 25,
     "med_age": 0.1,
     "max_age": 1.0,
     "worst_key": "PLANS-24824",
@@ -592,7 +595,7 @@
     "worst_who": "Dima Shtympel",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 662
+    "clear_n": 661
    },
    {
     "status": "In QA",
@@ -635,8 +638,8 @@
    "On Hold": 10,
    "Backlog": 93
   },
-  "open_total": 212,
-  "stale": 61,
+  "open_total": 213,
+  "stale": 59,
   "worst": "In Development"
  }
 }
