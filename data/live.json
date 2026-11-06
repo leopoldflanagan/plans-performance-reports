@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T03:05:09Z",
+ "generated": "2026-11-06T03:33:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -537,7 +537,7 @@
    {
     "status": "Ready for Development",
     "open": 52,
-    "med_age": 6.2,
+    "med_age": 6.3,
     "max_age": 41.6,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -561,7 +561,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 13.7,
+    "med_age": 13.8,
     "max_age": 28.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -632,8 +632,8 @@
    }
   ],
   "parked": {
-   "Backlog": 94,
-   "On Hold": 8
+   "On Hold": 8,
+   "Backlog": 94
   },
   "open_total": 210,
   "stale": 60,
