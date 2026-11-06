@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 388,
-  "closed": 178,
+  "closed": 177,
   "discarded": 4,
-  "resolved": 182,
+  "resolved": 181,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    92
+    91
    ],
    [
     "Bug",
@@ -41,7 +41,7 @@
   "day": 6,
   "days": 28,
   "status": "risk",
-  "headline": "178 items closed in the first 6 days, a pace of about 831 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "177 items closed in the first 6 days, a pace of about 826 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 7.2d and average 14.1d, both past the healthy band"
@@ -131,11 +131,11 @@
   "LL-Sprint 25-26": {
    "done": [
     80,
-    187
+    184
    ],
    "open": [
-    147,
-    273
+    148,
+    276
    ],
    "out": [
     2,
@@ -221,7 +221,7 @@
      "med": 3.35
     },
     "On Hold": {
-     "n": 10,
+     "n": 12,
      "med": 5.33
     },
     "Backlog": {
@@ -262,18 +262,18 @@
     "To Do": 122,
     "Ready for Development": 20,
     "In Stage": 17,
-    "Closed": 75,
-    "On Hold": 8,
+    "On Hold": 10,
     "In Progress": 15,
     "PR Created": 7,
+    "Closed": 74,
     "PR Merged": 1,
-    "In Development": 11,
+    "In Development": 10,
     "Ready Prod": 4,
     "Backlog": 84,
     "Blocked": 1,
     "Will Not Implement": 10
    },
-   "stalled": 379,
+   "stalled": 378,
    "worst": 13.64,
    "worstSt": "To Do",
    "items": 469
@@ -394,9 +394,9 @@
  },
  "CAP": {
   "9.10": [
-   178,
-   122,
-   348,
+   177,
+   121,
+   345,
    21
   ]
  },
@@ -406,8 +406,8 @@
    "avg": 14.06,
    "n": 105,
    "mx": 92.49,
-   "nodev": 73,
-   "base": 178
+   "nodev": 72,
+   "base": 177
   }
  },
  "complete": false,
