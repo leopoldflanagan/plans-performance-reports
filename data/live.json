@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T12:33:42Z",
+ "generated": "2026-11-06T13:04:19Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -525,12 +525,12 @@
    {
     "status": "In Development",
     "open": 45,
-    "med_age": 9.0,
+    "med_age": 9.1,
     "max_age": 9.9,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
     "worst_who": "Sailaja Yanamandra",
-    "over": 30,
+    "over": 31,
     "clear_med": 0.1,
     "clear_n": 670
    },
@@ -548,7 +548,7 @@
    },
    {
     "status": "PR Created",
-    "open": 48,
+    "open": 41,
     "med_age": 1.2,
     "max_age": 11.0,
     "worst_key": "PLANS-24744",
@@ -556,7 +556,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 702
+    "clear_n": 709
    },
    {
     "status": "In Stage",
@@ -573,7 +573,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 14.1,
+    "med_age": 14.2,
     "max_age": 28.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -584,7 +584,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 8,
+    "open": 15,
     "med_age": 0.6,
     "max_age": 0.9,
     "worst_key": "PLANS-24824",
@@ -636,7 +636,7 @@
    "Backlog": 93
   },
   "open_total": 212,
-  "stale": 60,
+  "stale": 61,
   "worst": "In Development"
  }
 }
