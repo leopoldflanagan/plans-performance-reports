@@ -4,11 +4,11 @@
   "slug": "2026-r910",
   "label": "Release 9.10",
   "short": "9.10",
-  "n_sprints": 3,
+  "n_sprints": 4,
   "start": "2026-10-26",
   "end": "2026-11-22",
   "prev": "",
-  "prev_closed": 388,
+  "prev_closed": 518,
   "closed": 179,
   "discarded": 4,
   "resolved": 183,
@@ -41,7 +41,7 @@
   "day": 6,
   "days": 28,
   "status": "risk",
-  "headline": "179 items closed in the first 6 days, a pace of about 835 for the month against 388 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "179 items closed in the first 6 days, a pace of about 835 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 7.3d and average 14.5d, both past the healthy band"
@@ -193,8 +193,8 @@
      "med": 13.64
     },
     "In Progress": {
-     "n": 69,
-     "med": 0.22
+     "n": 70,
+     "med": 0.26
     },
     "Done": {
      "n": 102,
@@ -217,8 +217,8 @@
      "med": 0.02
     },
     "In Stage": {
-     "n": 99,
-     "med": 0.46
+     "n": 100,
+     "med": 0.47
     },
     "Closed": {
      "n": 78,
@@ -263,21 +263,20 @@
    },
    "dist": {
     "Done": 95,
-    "To Do": 122,
+    "To Do": 121,
     "Ready for Development": 20,
-    "In Stage": 17,
+    "In Stage": 18,
     "On Hold": 10,
-    "In Progress": 15,
+    "In Progress": 16,
     "PR Created": 7,
     "Closed": 74,
-    "PR Merged": 1,
     "In Development": 10,
     "Ready Prod": 4,
     "Backlog": 82,
     "Blocked": 1,
     "Will Not Implement": 11
    },
-   "stalled": 376,
+   "stalled": 374,
    "worst": 13.64,
    "worstSt": "To Do",
    "items": 469
@@ -309,7 +308,7 @@
      "med": 0.77
     },
     "In Stage": {
-     "n": 55,
+     "n": 61,
      "med": 2.5
     },
     "Ready for Development": {
@@ -347,9 +346,8 @@
    },
    "dist": {
     "In Progress": 9,
-    "In Stage": 26,
+    "In Stage": 32,
     "To Do": 40,
-    "PR Merged": 6,
     "Done": 34,
     "PR Created": 5,
     "Closed": 31,
@@ -418,5 +416,5 @@
  },
  "complete": false,
  "kind": "release",
- "n_sprints": 3
+ "n_sprints": 4
 }

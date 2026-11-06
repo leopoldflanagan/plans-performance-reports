@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T17:32:16Z",
+ "generated": "2026-11-06T18:06:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -430,9 +430,8 @@
   "spill_rate": 74,
   "dist": {
    "In Progress": 9,
-   "In Stage": 24,
+   "In Stage": 30,
    "To Do": 40,
-   "PR Merged": 6,
    "Done": 34,
    "PR Created": 5,
    "Closed": 30,
@@ -491,7 +490,7 @@
   "day": 12
  },
  "next": {
-  "name": "LL-Sprint 26-26",
+  "name": "Plans-Sprint 26-26",
   "start": "2026-11-09",
   "state": "not started"
  },
@@ -512,9 +511,10 @@
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
-   "LL-Sprint 26-26"
+   "LL-Sprint 26-26",
+   "Plans-Sprint 26-26"
   ],
-  "n_sprints": 3,
+  "n_sprints": 4,
   "sprints_done": 0
  },
  "aging": {
@@ -536,7 +536,7 @@
    {
     "status": "Ready for Development",
     "open": 52,
-    "med_age": 6.8,
+    "med_age": 6.9,
     "max_age": 42.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -547,7 +547,7 @@
    },
    {
     "status": "In Stage",
-    "open": 73,
+    "open": 82,
     "med_age": 1.0,
     "max_age": 1.1,
     "worst_key": "PLANS-24902",
@@ -561,9 +561,9 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 1.4,
-    "max_age": 8.8,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 8.9,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -572,7 +572,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 14.3,
+    "med_age": 14.4,
     "max_age": 29.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -583,30 +583,18 @@
    },
    {
     "status": "PR Merged",
-    "open": 9,
-    "med_age": 0.8,
-    "max_age": 1.1,
-    "worst_key": "PLANS-24824",
-    "worst_sum": "[1.4] Legal Language Additions - common-domain and CSP API: map LegalTextVariant for templ",
-    "worst_who": "Dima Shtympel",
+    "open": 1,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-25135",
+    "worst_sum": "[B.6.W1] PORTAL_URL_PASSTHROUGH as a registry rule with a context-driven source",
+    "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 675
+    "clear_n": 683
    },
    {
     "status": "In QA",
-    "open": 1,
-    "med_age": 0.9,
-    "max_age": 0.9,
-    "worst_key": "PLANS-25131",
-    "worst_sum": "Tracking PDS UAT for CREG Enrollment feed feature",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
-   },
-   {
-    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -614,8 +602,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_med": 1.8,
+    "clear_n": 74
    },
    {
     "status": "Ready for Stage",
@@ -628,6 +616,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {

@@ -4117,12 +4117,13 @@
    "sprints": [
     "LL-Sprint 25-26",
     "Plans-Sprint 25-26",
-    "LL-Sprint 26-26"
+    "LL-Sprint 26-26",
+    "Plans-Sprint 26-26"
    ],
    "weeks": 4,
    "closed": null,
    "per_sprint": null,
-   "n_sprints": 3
+   "n_sprints": 4
   }
  },
  "SP_BY_RELEASE": {
