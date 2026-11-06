@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T19:03:09Z",
+ "generated": "2026-11-06T19:32:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -413,7 +413,7 @@
   "completed": 78,
   "scope_change": 212,
   "vs_commitment": 86,
-  "time_elapsed": 88,
+  "time_elapsed": 89,
   "spill": {
    "open_items": 48,
    "open_pts": 182.0,
@@ -548,11 +548,11 @@
    {
     "status": "In Stage",
     "open": 82,
-    "med_age": 1.0,
-    "max_age": 1.1,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "med_age": 1.1,
+    "max_age": 1.2,
+    "worst_key": "PLANS-24741",
+    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 1.2,
     "clear_n": 390
@@ -573,7 +573,7 @@
     "status": "WAITING REVIEW",
     "open": 3,
     "med_age": 14.4,
-    "max_age": 29.0,
+    "max_age": 29.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -594,18 +594,6 @@
     "clear_n": 683
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -616,6 +604,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "In QA",
@@ -631,8 +631,8 @@
    }
   ],
   "parked": {
-   "Backlog": 96,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 96
   },
   "open_total": 214,
   "stale": 64,
