@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T07:32:43Z",
+ "generated": "2026-11-07T08:05:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -524,7 +524,7 @@
    {
     "status": "In Development",
     "open": 41,
-    "med_age": 9.8,
+    "med_age": 9.9,
     "max_age": 10.7,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
@@ -536,8 +536,8 @@
    {
     "status": "Ready for Development",
     "open": 52,
-    "med_age": 7.4,
-    "max_age": 42.7,
+    "med_age": 7.5,
+    "max_age": 42.8,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -550,9 +550,9 @@
     "open": 58,
     "med_age": 1.6,
     "max_age": 1.7,
-    "worst_key": "PLANS-24741",
-    "worst_sum": "PLANS-24741: Unify Purchase Into NPM Package: Story 8.11: Roll out the new wf-plans-widget",
-    "worst_who": "Ivan Yarymovych",
+    "worst_key": "PLANS-24902",
+    "worst_sum": "CREG/Member Id in the PDF does not match the member Id in app",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 407
@@ -560,7 +560,7 @@
    {
     "status": "PR Created",
     "open": 35,
-    "med_age": 1.9,
+    "med_age": 2.0,
     "max_age": 9.4,
     "worst_key": "PLANS-24828",
     "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
@@ -594,7 +594,7 @@
     "clear_n": 674
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -602,8 +602,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -618,7 +618,7 @@
     "clear_n": 74
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -626,13 +626,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 100,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 100
   },
   "open_total": 189,
   "stale": 65,
