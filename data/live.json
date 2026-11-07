@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T12:32:50Z",
+ "generated": "2026-11-07T13:03:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -524,7 +524,7 @@
    {
     "status": "In Development",
     "open": 41,
-    "med_age": 10.0,
+    "med_age": 10.1,
     "max_age": 10.9,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
@@ -572,7 +572,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 22.4,
+    "med_age": 22.5,
     "max_age": 29.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -594,7 +594,7 @@
     "clear_n": 674
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -602,8 +602,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -618,7 +618,7 @@
     "clear_n": 74
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -626,13 +626,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "On Hold": 10,
-   "Backlog": 100
+   "Backlog": 100,
+   "On Hold": 10
   },
   "open_total": 189,
   "stale": 65,
