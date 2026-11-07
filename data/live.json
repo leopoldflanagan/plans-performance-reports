@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T22:03:44Z",
+ "generated": "2026-11-07T22:32:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -413,7 +413,7 @@
   "completed": 179,
   "scope_change": 212,
   "vs_commitment": 197,
-  "time_elapsed": 97,
+  "time_elapsed": 98,
   "spill": {
    "open_items": 33,
    "open_pts": 99.0,
@@ -527,7 +527,7 @@
    {
     "status": "In Development",
     "open": 41,
-    "med_age": 10.4,
+    "med_age": 10.5,
     "max_age": 11.3,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
@@ -597,6 +597,18 @@
     "clear_n": 674
    },
    {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
+   },
+   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -619,18 +631,6 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 74
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    }
   ],
   "parked": {
