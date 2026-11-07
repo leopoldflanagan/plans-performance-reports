@@ -93,7 +93,7 @@
    "Plans-Sprint 25-26",
    "Oct 26",
    "Nov 8",
-   168,
+   169,
    48,
    91,
    284,
@@ -284,12 +284,12 @@
   "Plans-Sprint 25-26": {
    "tis": {
     "To Do": {
-     "n": 66,
+     "n": 67,
      "med": 12.6
     },
     "In Progress": {
-     "n": 33,
-     "med": 2.46
+     "n": 34,
+     "med": 2.15
     },
     "Backlog": {
      "n": 37,
@@ -345,7 +345,7 @@
     }
    },
    "dist": {
-    "In Progress": 9,
+    "In Progress": 10,
     "In Stage": 15,
     "To Do": 37,
     "Ready Prod": 18,
@@ -361,7 +361,7 @@
    "stalled": 83,
    "worst": 12.6,
    "worstSt": "To Do",
-   "items": 168
+   "items": 169
   }
  },
  "GHOST": {
