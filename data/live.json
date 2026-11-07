@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T00:43:06Z",
+ "generated": "2026-11-07T01:04:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -561,9 +561,9 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 1.7,
-    "max_age": 9.1,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 9.2,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -572,7 +572,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 3,
-    "med_age": 14.6,
+    "med_age": 14.7,
     "max_age": 29.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
