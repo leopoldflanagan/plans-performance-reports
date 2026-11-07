@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T01:04:07Z",
+ "generated": "2026-11-07T01:33:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 13,
   "days": 13,
   "n": 21,
-  "done_now": 177,
+  "done_now": 179,
   "committed": 91,
-  "lo": 177,
-  "mid": 177,
-  "hi": 177,
-  "pct": 195,
+  "lo": 179,
+  "mid": 179,
+  "hi": 179,
+  "pct": 197,
   "verdict": "on track for the commitment",
   "share_mid": 1.0
  },
@@ -407,19 +407,19 @@
   "end": "2026-11-08",
   "goal": "",
   "items": 169,
-  "items_done": 48,
+  "items_done": 49,
   "committed": 91,
   "final": 284,
-  "completed": 177,
+  "completed": 179,
   "scope_change": 212,
-  "vs_commitment": 195,
-  "time_elapsed": 90,
+  "vs_commitment": 197,
+  "time_elapsed": 91,
   "spill": {
    "open_items": 33,
    "open_pts": 99.0,
-   "out_items": 5,
-   "out_pts": 24.0,
-   "done_pts": 154.0
+   "out_items": 4,
+   "out_pts": 22.0,
+   "done_pts": 156.0
   },
   "recv": {
    "items": 0,
@@ -429,17 +429,17 @@
   },
   "spill_rate": 44,
   "dist": {
-   "In Progress": 10,
+   "In Progress": 9,
    "In Stage": 15,
    "To Do": 37,
    "Ready Prod": 16,
-   "Done": 37,
+   "Done": 38,
    "PR Created": 5,
-   "Closed": 30,
+   "Closed": 31,
    "Ready for Development": 5,
    "In Development": 2,
-   "WAITING REVIEW": 2,
-   "Backlog": 6
+   "Backlog": 6,
+   "WAITING REVIEW": 1
   },
   "burn": [
    81.0,
@@ -454,7 +454,7 @@
    151.0,
    178.0,
    203.0,
-   105.0
+   103.0
   ],
   "scope": [
    89.0,
@@ -484,7 +484,7 @@
    151.0,
    178.0,
    203.0,
-   105.0
+   103.0
   ],
   "days": 13,
   "day": 13
@@ -502,8 +502,8 @@
   "end": "2026-11-22",
   "day": 13,
   "days": 28,
-  "closed": 219,
-  "points": 473,
+  "closed": 220,
+  "points": 475,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -525,7 +525,7 @@
     "status": "In Development",
     "open": 41,
     "med_age": 9.6,
-    "max_age": 10.4,
+    "max_age": 10.5,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
     "worst_who": "Sailaja Yanamandra",
@@ -550,9 +550,9 @@
     "open": 58,
     "med_age": 1.3,
     "max_age": 1.4,
-    "worst_key": "PLANS-24902",
-    "worst_sum": "CREG/Member Id in the PDF does not match the member Id in app",
-    "worst_who": "Sailaja Yanamandra",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 407
@@ -562,8 +562,8 @@
     "open": 35,
     "med_age": 1.7,
     "max_age": 9.2,
-    "worst_key": "PLANS-24822",
-    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -571,21 +571,21 @@
    },
    {
     "status": "WAITING REVIEW",
-    "open": 3,
-    "med_age": 14.7,
+    "open": 2,
+    "med_age": 22.0,
     "max_age": 29.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
     "over": 2,
     "clear_med": 0.1,
-    "clear_n": 23
+    "clear_n": 24
    },
    {
     "status": "PR Merged",
     "open": 1,
-    "med_age": 0.3,
-    "max_age": 0.3,
+    "med_age": 0.4,
+    "max_age": 0.4,
     "worst_key": "PLANS-25135",
     "worst_sum": "[B.6.W1] PORTAL_URL_PASSTHROUGH as a registry rule with a context-driven source",
     "worst_who": "Mykyta  Moroz",
@@ -594,7 +594,7 @@
     "clear_n": 674
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -602,8 +602,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "In QA",
@@ -618,7 +618,7 @@
     "clear_n": 74
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -626,15 +626,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
    "On Hold": 10,
    "Backlog": 100
   },
-  "open_total": 190,
+  "open_total": 189,
   "stale": 65,
   "worst": "In Development"
  }
