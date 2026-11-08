@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T12:32:47Z",
+ "generated": "2026-11-08T13:03:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -525,6 +525,18 @@
   "stale_days": 7,
   "rows": [
    {
+    "status": "In Development",
+    "open": 41,
+    "med_age": 11.1,
+    "max_age": 11.9,
+    "worst_key": "PLANS-24789",
+    "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 31,
+    "clear_med": 0.1,
+    "clear_n": 663
+   },
+   {
     "status": "Ready for Development",
     "open": 52,
     "med_age": 8.7,
@@ -535,18 +547,6 @@
     "over": 27,
     "clear_med": 0.8,
     "clear_n": 244
-   },
-   {
-    "status": "In Development",
-    "open": 41,
-    "med_age": 11.0,
-    "max_age": 11.9,
-    "worst_key": "PLANS-24789",
-    "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 31,
-    "clear_med": 0.1,
-    "clear_n": 663
    },
    {
     "status": "In Stage",
@@ -609,18 +609,6 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -631,14 +619,26 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 74
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 100,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 100
   },
   "open_total": 189,
   "stale": 65,
-  "worst": "Ready for Development"
+  "worst": "In Development"
  }
 }
