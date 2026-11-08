@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T22:03:53Z",
+ "generated": "2026-11-08T22:32:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -539,7 +539,7 @@
    {
     "status": "In Development",
     "open": 41,
-    "med_age": 11.4,
+    "med_age": 11.5,
     "max_age": 12.3,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
@@ -634,8 +634,8 @@
    }
   ],
   "parked": {
-   "On Hold": 10,
-   "Backlog": 100
+   "Backlog": 100,
+   "On Hold": 10
   },
   "open_total": 189,
   "stale": 65,
