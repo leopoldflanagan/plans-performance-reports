@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T10:04:04Z",
+ "generated": "2026-11-08T10:32:19Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -525,6 +525,18 @@
   "stale_days": 7,
   "rows": [
    {
+    "status": "In Development",
+    "open": 41,
+    "med_age": 11.0,
+    "max_age": 11.8,
+    "worst_key": "PLANS-24789",
+    "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 31,
+    "clear_med": 0.1,
+    "clear_n": 663
+   },
+   {
     "status": "Ready for Development",
     "open": 52,
     "med_age": 8.6,
@@ -535,18 +547,6 @@
     "over": 27,
     "clear_med": 0.8,
     "clear_n": 244
-   },
-   {
-    "status": "In Development",
-    "open": 41,
-    "med_age": 10.9,
-    "max_age": 11.8,
-    "worst_key": "PLANS-24789",
-    "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 31,
-    "clear_med": 0.1,
-    "clear_n": 663
    },
    {
     "status": "In Stage",
@@ -639,6 +639,6 @@
   },
   "open_total": 189,
   "stale": 65,
-  "worst": "Ready for Development"
+  "worst": "In Development"
  }
 }
