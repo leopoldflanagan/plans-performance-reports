@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T12:05:44Z",
+ "generated": "2026-11-08T12:32:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -525,6 +525,18 @@
   "stale_days": 7,
   "rows": [
    {
+    "status": "Ready for Development",
+    "open": 52,
+    "med_age": 8.7,
+    "max_age": 44.0,
+    "worst_key": "PLANS-23527",
+    "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
+    "worst_who": "unassigned",
+    "over": 27,
+    "clear_med": 0.8,
+    "clear_n": 244
+   },
+   {
     "status": "In Development",
     "open": 41,
     "med_age": 11.0,
@@ -537,25 +549,13 @@
     "clear_n": 663
    },
    {
-    "status": "Ready for Development",
-    "open": 52,
-    "med_age": 8.6,
-    "max_age": 43.9,
-    "worst_key": "PLANS-23527",
-    "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
-    "worst_who": "unassigned",
-    "over": 27,
-    "clear_med": 0.8,
-    "clear_n": 244
-   },
-   {
     "status": "In Stage",
     "open": 58,
     "med_age": 2.8,
-    "max_age": 2.8,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "max_age": 2.9,
+    "worst_key": "PLANS-24902",
+    "worst_sum": "CREG/Member Id in the PDF does not match the member Id in app",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 407
@@ -563,7 +563,7 @@
    {
     "status": "PR Created",
     "open": 35,
-    "med_age": 3.1,
+    "med_age": 3.2,
     "max_age": 10.6,
     "worst_key": "PLANS-24828",
     "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
@@ -597,18 +597,6 @@
     "clear_n": 674
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -619,6 +607,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "In QA",
@@ -639,6 +639,6 @@
   },
   "open_total": 189,
   "stale": 65,
-  "worst": "In Development"
+  "worst": "Ready for Development"
  }
 }
