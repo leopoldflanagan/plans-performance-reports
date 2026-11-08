@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T15:03:29Z",
+ "generated": "2026-11-08T15:32:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -564,9 +564,9 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 3.3,
-    "max_age": 10.7,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 10.8,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -575,7 +575,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 23.5,
+    "med_age": 23.6,
     "max_age": 30.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -609,18 +609,6 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -631,11 +619,23 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 74
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "On Hold": 10,
-   "Backlog": 100
+   "Backlog": 100,
+   "On Hold": 10
   },
   "open_total": 189,
   "stale": 65,
