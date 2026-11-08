@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T08:05:03Z",
+ "generated": "2026-11-08T08:32:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -564,9 +564,9 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 3.0,
-    "max_age": 10.4,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 10.5,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -575,7 +575,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 23.2,
+    "med_age": 23.3,
     "max_age": 30.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -587,14 +587,26 @@
    {
     "status": "PR Merged",
     "open": 1,
-    "med_age": 1.6,
-    "max_age": 1.6,
+    "med_age": 1.7,
+    "max_age": 1.7,
     "worst_key": "PLANS-25135",
     "worst_sum": "[B.6.W1] PORTAL_URL_PASSTHROUGH as a registry rule with a context-driven source",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 674
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 74
    },
    {
     "status": "In PreProd",
@@ -619,18 +631,6 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 74
    }
   ],
   "parked": {
