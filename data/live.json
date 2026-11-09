@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:04:05Z",
+ "generated": "2026-11-09T11:32:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -534,7 +534,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 658
+    "clear_n": 659
    },
    {
     "status": "Ready for Development",
@@ -562,11 +562,11 @@
    },
    {
     "status": "PR Created",
-    "open": 35,
+    "open": 36,
     "med_age": 4.1,
     "max_age": 11.6,
-    "worst_key": "PLANS-24822",
-    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -634,10 +634,10 @@
    }
   ],
   "parked": {
-   "On Hold": 10,
-   "Backlog": 96
+   "Backlog": 95,
+   "On Hold": 10
   },
-  "open_total": 198,
+  "open_total": 199,
   "stale": 65,
   "worst": "In Development"
  }
