@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T03:05:53Z",
+ "generated": "2026-11-09T03:33:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -525,6 +525,18 @@
   "stale_days": 7,
   "rows": [
    {
+    "status": "Ready for Development",
+    "open": 52,
+    "med_age": 9.3,
+    "max_age": 44.6,
+    "worst_key": "PLANS-23527",
+    "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
+    "worst_who": "unassigned",
+    "over": 27,
+    "clear_med": 0.8,
+    "clear_n": 244
+   },
+   {
     "status": "In Development",
     "open": 41,
     "med_age": 11.7,
@@ -535,18 +547,6 @@
     "over": 31,
     "clear_med": 0.1,
     "clear_n": 663
-   },
-   {
-    "status": "Ready for Development",
-    "open": 52,
-    "med_age": 9.2,
-    "max_age": 44.6,
-    "worst_key": "PLANS-23527",
-    "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
-    "worst_who": "unassigned",
-    "over": 27,
-    "clear_med": 0.8,
-    "clear_n": 244
    },
    {
     "status": "In Stage",
@@ -564,9 +564,9 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 3.8,
-    "max_age": 11.2,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 11.3,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -575,7 +575,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 24.0,
+    "med_age": 24.1,
     "max_age": 31.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -597,18 +597,6 @@
     "clear_n": 674
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 74
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -619,6 +607,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 74
    },
    {
     "status": "Ready for Stage",
@@ -639,6 +639,6 @@
   },
   "open_total": 189,
   "stale": 65,
-  "worst": "In Development"
+  "worst": "Ready for Development"
  }
 }
