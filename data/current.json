@@ -272,7 +272,8 @@
     "Done": 116,
     "Ready for Development": 20,
     "In Stage": 17,
-    "On Hold": 10,
+    "On Hold": 9,
+    "PR Merged": 1,
     "In Progress": 16,
     "PR Created": 7,
     "Closed": 74,
@@ -362,7 +363,7 @@
     "In Development": 2,
     "Backlog": 6,
     "WAITING REVIEW": 1,
-    "On Hold": 1
+    "PR Merged": 1
    },
    "stalled": 81,
    "worst": 12.6,
