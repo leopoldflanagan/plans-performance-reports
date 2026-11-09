@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T00:47:56Z",
+ "generated": "2026-11-09T01:05:00Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -564,9 +564,9 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 3.7,
-    "max_age": 11.1,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 11.2,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -634,8 +634,8 @@
    }
   ],
   "parked": {
-   "Backlog": 100,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 100
   },
   "open_total": 189,
   "stale": 65,
