@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T18:06:22Z",
+ "generated": "2026-11-09T18:32:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 36,
-   "points": 136
+   "items": 41,
+   "points": 140
   },
   "misfiled": {
    "items": 31,
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 125,
+   "ready": 130,
    "sprint": 81,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -217,15 +217,15 @@
      },
      {
       "key": "PLANS-25059",
-      "summary": "[6.11] Plans - switching a subscription to a legacy Annual plan is a successor l"
+      "summary": "[6.11] Plans ms - switching a subscription to a legacy Annual plan is a successo"
      },
      {
       "key": "PLANS-25057",
-      "summary": "[6.9] Plans and CSP - a primary change moves billing forward to the new primary'"
+      "summary": "[6.9] Plans ms - a primary change moves billing forward to the new primary's pla"
      },
      {
       "key": "PLANS-25056",
-      "summary": "[6.8] Plans and CSP - a coverage, plan or tier change on a subscription is a new"
+      "summary": "[6.8] Plans-ms - a coverage, plan or tier change on a subscription is a new sale"
      },
      {
       "key": "PLANS-25048",
@@ -291,14 +291,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 194 of 202 items. This reads as a field the team does not use rather than 194 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 194,
+    "why": "missing on 199 of 207 items. This reads as a field the team does not use rather than 199 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 199,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 202 of 202 items. This reads as a field the team does not use rather than 202 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 202,
+    "why": "missing on 207 of 207 items. This reads as a field the team does not use rather than 207 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 207,
     "items": []
    },
    {
@@ -374,7 +374,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 172,
+  "items": 177,
   "items_done": 49,
   "committed": 91,
   "final": 272,
@@ -383,11 +383,11 @@
   "vs_commitment": 195,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 15,
-   "open_pts": 22.0,
+   "open_items": 14,
+   "open_pts": 21.0,
    "out_items": 4,
    "out_pts": 22.0,
-   "done_pts": 221.0
+   "done_pts": 222.0
   },
   "recv": {
    "items": 0,
@@ -395,13 +395,13 @@
    "pct": 0,
    "from": "LL-Sprint 25-26"
   },
-  "spill_rate": 17,
+  "spill_rate": 16,
   "dist": {
-   "Done": 66,
+   "To Do": 18,
+   "Done": 67,
    "In Progress": 7,
-   "In Stage": 7,
-   "To Do": 14,
-   "Ready Prod": 33,
+   "In Stage": 6,
+   "Ready Prod": 34,
    "Closed": 32,
    "Ready for Development": 4,
    "In Development": 2,
@@ -472,8 +472,8 @@
   "end": "2026-11-22",
   "day": 15,
   "days": 28,
-  "closed": 226,
-  "points": 505,
+  "closed": 227,
+  "points": 506,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -501,12 +501,12 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 659
+    "clear_n": 652
    },
    {
     "status": "Ready for Development",
-    "open": 66,
-    "med_age": 5.9,
+    "open": 71,
+    "med_age": 4.9,
     "max_age": 45.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -516,28 +516,28 @@
     "clear_n": 229
    },
    {
-    "status": "In Stage",
-    "open": 42,
-    "med_age": 3.1,
-    "max_age": 4.1,
-    "worst_key": "PLANS-24902",
-    "worst_sum": "CREG/Member Id in the PDF does not match the member Id in app",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 0,
-    "clear_med": 1.1,
-    "clear_n": 414
-   },
-   {
     "status": "PR Created",
-    "open": 29,
+    "open": 31,
     "med_age": 4.4,
     "max_age": 11.9,
-    "worst_key": "PLANS-24822",
-    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 711
+    "clear_n": 701
+   },
+   {
+    "status": "In Stage",
+    "open": 41,
+    "med_age": 3.1,
+    "max_age": 4.1,
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
+    "over": 0,
+    "clear_med": 1.1,
+    "clear_n": 408
    },
    {
     "status": "WAITING REVIEW",
@@ -550,6 +550,30 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "PR Merged",
+    "open": 6,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-25168",
+    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
+    "worst_who": "Petro Yarish",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 662
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -574,37 +598,13 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
-    "status": "PR Merged",
-    "open": 7,
-    "med_age": 0.0,
-    "max_age": 0.1,
-    "worst_key": "PLANS-25168",
-    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
-    "worst_who": "Petro Yarish",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 670
    }
   ],
   "parked": {
    "Backlog": 94,
    "On Hold": 9
   },
-  "open_total": 189,
+  "open_total": 194,
   "stale": 66,
   "worst": "In Development"
  }
