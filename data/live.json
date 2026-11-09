@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T17:04:18Z",
+ "generated": "2026-11-09T17:33:16Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -197,7 +197,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 39,
+    "n": 36,
     "items": [
      {
       "key": "PLANS-25152",
@@ -228,8 +228,8 @@
       "summary": "[6.8] Plans and CSP - a coverage, plan or tier change on a subscription is a new"
      },
      {
-      "key": "PLANS-25055",
-      "summary": "[6.7] Plans, CSP and Platform DB - a refund forgives the period, and DELETE PLAN"
+      "key": "PLANS-25054",
+      "summary": "[6.6] Plans and CSP - cancel a subscription: no more charges, covered to the pai"
      }
     ]
    },
@@ -374,7 +374,7 @@
   "start": "2026-10-26",
   "end": "2026-11-08",
   "goal": "",
-  "items": 171,
+  "items": 172,
   "items_done": 49,
   "committed": 91,
   "final": 276,
@@ -383,11 +383,11 @@
   "vs_commitment": 195,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 20,
-   "open_pts": 44.0,
+   "open_items": 15,
+   "open_pts": 22.0,
    "out_items": 4,
    "out_pts": 22.0,
-   "done_pts": 203.0
+   "done_pts": 225.0
   },
   "recv": {
    "items": 0,
@@ -395,13 +395,13 @@
    "pct": 0,
    "from": "LL-Sprint 25-26"
   },
-  "spill_rate": 25,
+  "spill_rate": 16,
   "dist": {
-   "In Progress": 7,
-   "Done": 62,
-   "In Stage": 12,
-   "To Do": 17,
-   "Ready Prod": 28,
+   "In Progress": 8,
+   "Done": 65,
+   "In Stage": 7,
+   "To Do": 14,
+   "Ready Prod": 33,
    "Closed": 32,
    "Ready for Development": 5,
    "In Development": 1,
@@ -472,8 +472,8 @@
   "end": "2026-11-22",
   "day": 15,
   "days": 28,
-  "closed": 223,
-  "points": 482,
+  "closed": 226,
+  "points": 505,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -493,9 +493,9 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 44,
-    "med_age": 11.7,
-    "max_age": 12.2,
+    "open": 43,
+    "med_age": 12.3,
+    "max_age": 12.3,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -507,30 +507,18 @@
     "status": "Ready for Development",
     "open": 58,
     "med_age": 7.0,
-    "max_age": 45.1,
+    "max_age": 45.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 29,
+    "over": 30,
     "clear_med": 0.7,
-    "clear_n": 234
-   },
-   {
-    "status": "In Stage",
-    "open": 50,
-    "med_age": 3.0,
-    "max_age": 4.0,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
-    "over": 0,
-    "clear_med": 1.1,
-    "clear_n": 419
+    "clear_n": 228
    },
    {
     "status": "PR Created",
     "open": 30,
-    "med_age": 4.3,
+    "med_age": 4.4,
     "max_age": 11.8,
     "worst_key": "PLANS-24828",
     "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
@@ -538,6 +526,18 @@
     "over": 5,
     "clear_med": 0.0,
     "clear_n": 719
+   },
+   {
+    "status": "In Stage",
+    "open": 42,
+    "med_age": 3.0,
+    "max_age": 4.1,
+    "worst_key": "PLANS-24902",
+    "worst_sum": "CREG/Member Id in the PDF does not match the member Id in app",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
+    "clear_med": 1.2,
+    "clear_n": 425
    },
    {
     "status": "WAITING REVIEW",
@@ -552,28 +552,16 @@
     "clear_n": 24
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "PR Merged",
+    "open": 4,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-25168",
+    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
+    "worst_who": "Petro Yarish",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.0,
+    "clear_n": 681
    },
    {
     "status": "In QA",
@@ -588,24 +576,36 @@
     "clear_n": 73
    },
    {
-    "status": "PR Merged",
-    "open": 3,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25168",
-    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
-    "worst_who": "Petro Yarish",
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 682
+    "clear_med": 3.3,
+    "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 91,
+   "Backlog": 93,
    "On Hold": 9
   },
-  "open_total": 187,
-  "stale": 66,
+  "open_total": 179,
+  "stale": 67,
   "worst": "In Development"
  }
 }
