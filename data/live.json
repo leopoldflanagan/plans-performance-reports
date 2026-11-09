@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:32:37Z",
+ "generated": "2026-11-09T21:03:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -372,7 +372,7 @@
   "completed": 3,
   "scope_change": 0,
   "vs_commitment": 1,
-  "time_elapsed": 0,
+  "time_elapsed": 1,
   "spill": {
    "open_items": 52,
    "open_pts": 201.0,
@@ -446,14 +446,14 @@
    {
     "status": "In Development",
     "open": 45,
-    "med_age": 11.3,
+    "med_age": 11.4,
     "max_age": 12.4,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 653
+    "clear_n": 652
    },
    {
     "status": "Ready for Development",
@@ -472,24 +472,24 @@
     "open": 34,
     "med_age": 4.5,
     "max_age": 12.0,
-    "worst_key": "PLANS-24822",
-    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 698
+    "clear_n": 697
    },
    {
     "status": "In Stage",
     "open": 42,
     "med_age": 3.2,
     "max_age": 4.2,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 405
+    "clear_n": 404
    },
    {
     "status": "WAITING REVIEW",
@@ -508,24 +508,12 @@
     "open": 6,
     "med_age": 0.2,
     "max_age": 0.2,
-    "worst_key": "PLANS-25168",
-    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25175",
+    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 658
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
+    "clear_n": 657
    },
    {
     "status": "Ready for Stage",
@@ -550,10 +538,22 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    }
   ],
   "parked": {
-   "Backlog": 94,
+   "Backlog": 95,
    "On Hold": 9
   },
   "open_total": 199,
