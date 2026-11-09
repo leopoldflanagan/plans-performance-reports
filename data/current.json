@@ -38,10 +38,10 @@
   ],
   "unp_items": [],
   "open": true,
-  "day": 8,
+  "day": 9,
   "days": 28,
   "status": "risk",
-  "headline": "220 items closed in the first 8 days, a pace of about 770 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "220 items closed in the first 9 days, a pace of about 684 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 7.0d and average 13.0d, both past the healthy band"
