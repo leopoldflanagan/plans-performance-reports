@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:06:18Z",
+ "generated": "2026-11-09T09:32:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -551,7 +551,7 @@
    {
     "status": "In Stage",
     "open": 58,
-    "med_age": 3.6,
+    "med_age": 3.7,
     "max_age": 3.7,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
@@ -597,18 +597,6 @@
     "clear_n": 668
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 74
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -631,11 +619,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 74
    }
   ],
   "parked": {
-   "Backlog": 96,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 96
   },
   "open_total": 198,
   "stale": 65,
