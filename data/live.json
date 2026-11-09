@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T19:32:53Z",
+ "generated": "2026-11-09T20:04:16Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 40,
-   "points": 144
+   "items": 42,
+   "points": 145
   },
   "misfiled": {
    "items": 31,
@@ -52,29 +52,29 @@
  },
  "projection": {
   "too_early": false,
-  "day": 14,
+  "day": 1,
   "days": 14,
   "n": 21,
-  "done_now": 211,
-  "committed": 213,
-  "lo": 211,
-  "mid": 211,
-  "hi": 211,
-  "pct": 99,
-  "verdict": "on track for the commitment",
-  "share_mid": 1.0
+  "done_now": 3,
+  "committed": 206,
+  "lo": 13,
+  "mid": 23,
+  "hi": 37,
+  "pct": 11,
+  "verdict": "well short of the commitment",
+  "share_mid": 0.131
  },
  "admin": {
   "scope": {
-   "ready": 129,
-   "sprint": 238,
-   "sprint_name": "LL-Sprint 25-26"
+   "ready": 131,
+   "sprint": 55,
+   "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 95,
+    "n": 12,
     "items": [
      {
       "key": "PLANS-24964",
@@ -161,87 +161,20 @@
     ]
    },
    {
-    "rule": "AdHoc without the unplanned label",
-    "why": "the guide does not allow it. Unlabelled reactive work is why the reactive share cannot be measured.",
-    "n": 19,
-    "items": [
-     {
-      "key": "PLANS-14727",
-      "summary": "Investigate how we will store the data to be dynamically generated"
-     },
-     {
-      "key": "PLANS-14725",
-      "summary": "Investigate the types of admin fees we will support (Dev Only)"
-     },
-     {
-      "key": "PLANS-14721",
-      "summary": "PM Hours Tracking  Treatment Summaries and Non-Integrated Practices"
-     },
-     {
-      "key": "PLANS-14719",
-      "summary": "Investigate as to how we can have Plan Details more of a dynamic build"
-     },
-     {
-      "key": "PLANS-14713",
-      "summary": "Investigate back end changes required for quarterly, semi-annual & 2 year plans"
-     },
-     {
-      "key": "PLANS-14706",
-      "summary": "PM Hours Tracking  Promo Code Creation & Ability to Use"
-     },
-     {
-      "key": "PLANS-14702",
-      "summary": "PM Hours Tracking  CSP - Plan Management - Sales Details"
-     },
-     {
-      "key": "PLANS-14698",
-      "summary": "PM Hours Tracking  Generate a Plan Purchase Site for Customer"
-     }
-    ]
-   },
-   {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 76,
+    "n": 1,
     "items": [
      {
-      "key": "PLANS-24903",
-      "summary": "Plan Details PDF - Phase 3  - Essential Smile/ Legacy West Dental - Incorrect Au"
-     },
-     {
-      "key": "PLANS-24848",
-      "summary": "BLOCKER - Payment Term -  Payment Term is not displayed in Plan Overview and Mem"
-     },
-     {
-      "key": "PLANS-24442",
-      "summary": "PMP  - When a plan is renewed and then refunded/disabled, the plan status is inc"
-     },
-     {
-      "key": "PLANS-24275",
-      "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
-     },
-     {
-      "key": "PLANS-24273",
-      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
-     },
-     {
-      "key": "PLANS-21605",
-      "summary": "ACH/Transaction Receipt/Bank number is masked in transaction details and PDF rec"
-     },
-     {
-      "key": "PLANS-14882",
-      "summary": "Plan Details PDF Dynamically Pulls Legal Language"
-     },
-     {
-      "key": "PLANS-14858",
-      "summary": "Member Portal - Conditional Practice Selection Prior to New Plan Purchase"
+      "key": "PLANS-14923",
+      "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
      }
     ]
    },
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 45,
+    "n": 31,
     "items": [
      {
       "key": "PLANS-25152",
@@ -280,39 +213,35 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 80,
+    "n": 7,
     "items": [
      {
-      "key": "PLANS-24848",
-      "summary": "BLOCKER - Payment Term -  Payment Term is not displayed in Plan Overview and Mem"
+      "key": "PLANS-25169",
+      "summary": "PLANS-25169: Epic 4: Story 4.3 - wf-plans-widget: split the HTTP layer into enti"
      },
      {
-      "key": "PLANS-24442",
-      "summary": "PMP  - When a plan is renewed and then refunded/disabled, the plan status is inc"
+      "key": "PLANS-24259",
+      "summary": "PLANS-24259: Epic 5: Story 5.4 - Smile Health portal: close the coverage gap and"
      },
      {
-      "key": "PLANS-24275",
-      "summary": "Prod / Stage - Intermittent - CSP Practices Page Gets Stuck and Displays Blank S"
+      "key": "PLANS-24257",
+      "summary": "PLANS-24257: Epic 5: Story 5.3 - Smile Health portal: consume the plan selection"
      },
      {
-      "key": "PLANS-23852",
-      "summary": "PLANS-23852: Member Portal: Find A Dentist: Accessibility Screen Reader does not"
+      "key": "PLANS-24255",
+      "summary": "PLANS-24255: Epic 5: Story 5.2 - Smile Health portal: remove the residual treatm"
      },
      {
-      "key": "PLANS-21645",
-      "summary": "ACH Refund / CC Refund - Transactions Not Visible in Member Portal > Transaction"
+      "key": "PLANS-24253",
+      "summary": "PLANS-24253: Epic 5: Story 5.1 - Smile Health portal: visible failure state and "
      },
      {
-      "key": "PLANS-14945",
-      "summary": "PM Hours Tracking  KOS Dental Dreams Custom Website"
+      "key": "PLANS-23835",
+      "summary": "Duplicate External ID for a member"
      },
      {
-      "key": "PLANS-14924",
-      "summary": "PM Hours Tracking  Post MVP Bugs"
-     },
-     {
-      "key": "PLANS-14896",
-      "summary": "PM Hours Tracking  Member Portal Plans Item Tracking"
+      "key": "PLANS-14923",
+      "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
      }
     ]
    }
@@ -321,7 +250,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 179,
+    "n": 79,
     "items": [
      {
       "key": "PLANS-24964",
@@ -359,21 +288,33 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 340 of 347 items. This reads as a field the team does not use rather than 340 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 340,
+    "why": "missing on 167 of 170 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 167,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 344 of 347 items. This reads as a field the team does not use rather than 344 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 344,
+    "why": "missing on 170 of 170 items. This reads as a field the team does not use rather than 170 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 170,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 127,
+    "n": 30,
     "items": [
+     {
+      "key": "PLANS-24273",
+      "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
+     },
+     {
+      "key": "PLANS-23644",
+      "summary": "[5.3] Plans - subscription refund and chargeback statistic rows name the charge "
+     },
+     {
+      "key": "PLANS-23640",
+      "summary": "[5.1] Plans - subscription statistic rows record the account's payment method an"
+     },
      {
       "key": "PLANS-22675",
       "summary": "Unify Font's in the Plans Widget Checkout Screen"
@@ -393,29 +334,11 @@
      {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
-     },
-     {
-      "key": "PLANS-14758",
-      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14582",
-      "summary": "Update UI for CSP"
-     },
-     {
-      "key": "PLANS-14568",
-      "summary": "Integrating plans API into CSP (Dev Only)"
      }
     ]
    }
   ],
   "setup": [
-   {
-    "rule": "The active sprint has no goal",
-    "why": "neither Jira nor the capacity page records one, so delivery can only be measured in points.",
-    "n": 1,
-    "items": []
-   },
    {
     "rule": "Release 9.06 has two different windows on the schedule",
     "why": "the feature-freeze column gives 2026-06-22 to 2026-07-26 and the dev-window column gives 2026-06-22 to 2026-08-02. The calendar keeps what it already had; the page needs one of the two corrected.",
@@ -437,108 +360,62 @@
   ]
  },
  "sprint": {
-  "name": "LL-Sprint 25-26",
+  "name": "Plans Pod 1-Sprint 26-26",
   "state": "active",
-  "start": "2026-10-26",
-  "end": "2026-11-09",
-  "goal": "",
-  "items": 471,
-  "items_done": 85,
-  "committed": 213,
-  "final": 487,
-  "completed": 211,
-  "scope_change": 129,
-  "vs_commitment": 99,
-  "time_elapsed": 100,
+  "start": "2026-11-09",
+  "end": "2026-11-23",
+  "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
+  "items": 90,
+  "items_done": 1,
+  "committed": 206,
+  "final": 206,
+  "completed": 3,
+  "scope_change": 0,
+  "vs_commitment": 1,
+  "time_elapsed": 0,
   "spill": {
-   "open_items": 136,
-   "open_pts": 235.0,
-   "out_items": 5,
-   "out_pts": 8.0,
-   "done_pts": 244.0
+   "open_items": 52,
+   "open_pts": 201.0,
+   "out_items": 0,
+   "out_pts": 0,
+   "done_pts": 0
   },
   "recv": {
-   "items": 2,
-   "pts": 1,
-   "pct": 0,
-   "from": "Plans-Sprint 24-26"
+   "items": 15,
+   "pts": 22,
+   "pct": 11,
+   "from": "Plans-Sprint 25-26"
   },
-  "spill_rate": 50,
+  "spill_rate": null,
   "dist": {
-   "To Do": 97,
-   "Done": 119,
-   "Ready for Development": 20,
-   "Ready Prod": 15,
-   "On Hold": 8,
-   "In Progress": 14,
-   "PR Created": 7,
-   "Closed": 73,
-   "In Development": 8,
-   "In Stage": 11,
-   "Backlog": 81,
+   "To Do": 19,
+   "Done": 10,
+   "In Progress": 6,
+   "Backlog": 7,
    "PR Merged": 1,
-   "Blocked": 1,
-   "Will Not Implement": 11
+   "Ready for Development": 16,
+   "In Stage": 7,
+   "In Development": 6,
+   "Ready Prod": 1,
+   "WAITING REVIEW": 2,
+   "PR Created": 15
   },
   "burn": [
    203.0,
-   162.0,
-   146.0,
-   122.0,
-   118.0,
-   135.0,
-   135.0,
-   135.0,
-   137.0,
-   222.0,
-   285.0,
-   274.0,
-   276.0,
-   276.0,
-   276.0
+   203.0
   ],
   "scope": [
-   203.0,
-   213.0,
-   218.0,
-   223.0,
-   237.0,
-   257.0,
-   257.0,
-   257.0,
-   270.0,
-   382.0,
-   458.0,
-   461.0,
-   487.0,
-   487.0,
-   487.0
+   206.0,
+   206.0
   ],
   "ghost": [
    203.0,
-   162.0,
-   146.0,
-   122.0,
-   118.0,
-   135.0,
-   135.0,
-   135.0,
-   137.0,
-   222.0,
-   285.0,
-   274.0,
-   276.0,
-   276.0,
-   276.0
+   203.0
   ],
   "days": 14,
-  "day": 14
+  "day": 1
  },
- "next": {
-  "name": "LL-Sprint 26-26",
-  "start": "2026-11-09",
-  "state": "not started"
- },
+ "next": null,
  "month": {
   "month": "9.10",
   "label": "Release 9.10",
@@ -556,11 +433,11 @@
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
-   "LL-Sprint 26-26",
-   "Plans Pod 1-Sprint 26-26"
+   "Plans Pod 1-Sprint 26-26",
+   "Plans Pod 2-Sprint 26-26"
   ],
   "n_sprints": 4,
-  "sprints_done": 1
+  "sprints_done": 2
  },
  "aging": {
   "window_days": 90,
@@ -569,8 +446,8 @@
    {
     "status": "In Development",
     "open": 44,
-    "med_age": 11.8,
-    "max_age": 12.3,
+    "med_age": 11.9,
+    "max_age": 12.4,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -580,9 +457,9 @@
    },
    {
     "status": "Ready for Development",
-    "open": 70,
+    "open": 72,
     "med_age": 5.0,
-    "max_age": 45.2,
+    "max_age": 45.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -593,26 +470,26 @@
    {
     "status": "PR Created",
     "open": 31,
-    "med_age": 4.4,
+    "med_age": 4.5,
     "max_age": 11.9,
     "worst_key": "PLANS-24828",
     "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 701
+    "clear_n": 700
    },
    {
     "status": "In Stage",
-    "open": 40,
-    "med_age": 3.1,
-    "max_age": 4.1,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "open": 42,
+    "med_age": 3.2,
+    "max_age": 4.2,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 409
+    "clear_n": 406
    },
    {
     "status": "WAITING REVIEW",
@@ -629,14 +506,14 @@
    {
     "status": "PR Merged",
     "open": 6,
-    "med_age": 0.1,
-    "max_age": 0.1,
-    "worst_key": "PLANS-25175",
-    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
-    "worst_who": "Valentyna Tenus",
+    "med_age": 0.2,
+    "max_age": 0.2,
+    "worst_key": "PLANS-25168",
+    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 662
+    "clear_n": 660
    },
    {
     "status": "Ready for Stage",
@@ -676,10 +553,10 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 94
+   "Backlog": 94,
+   "On Hold": 9
   },
-  "open_total": 193,
+  "open_total": 197,
   "stale": 67,
   "worst": "In Development"
  }
