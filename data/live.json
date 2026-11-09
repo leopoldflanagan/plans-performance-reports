@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:32:57Z",
+ "generated": "2026-11-09T12:06:38Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -526,7 +526,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 42,
+    "open": 41,
     "med_age": 12.0,
     "max_age": 12.9,
     "worst_key": "PLANS-24789",
@@ -534,7 +534,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 659
+    "clear_n": 660
    },
    {
     "status": "Ready for Development",
@@ -551,7 +551,7 @@
    {
     "status": "In Stage",
     "open": 58,
-    "med_age": 3.7,
+    "med_age": 3.8,
     "max_age": 3.8,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
@@ -562,7 +562,7 @@
    },
    {
     "status": "PR Created",
-    "open": 36,
+    "open": 37,
     "med_age": 4.1,
     "max_age": 11.6,
     "worst_key": "PLANS-24828",
@@ -575,8 +575,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 24.4,
-    "max_age": 31.7,
+    "med_age": 24.5,
+    "max_age": 31.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -595,18 +595,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 668
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -631,11 +619,23 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 74
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 95,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 95
   },
   "open_total": 199,
   "stale": 65,
