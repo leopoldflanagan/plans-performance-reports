@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T18:32:47Z",
+ "generated": "2026-11-09T19:03:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -398,8 +398,8 @@
   "spill_rate": 16,
   "dist": {
    "To Do": 18,
-   "Done": 67,
-   "In Progress": 7,
+   "Done": 68,
+   "In Progress": 6,
    "In Stage": 6,
    "Ready Prod": 34,
    "Closed": 32,
@@ -472,8 +472,8 @@
   "end": "2026-11-22",
   "day": 15,
   "days": 28,
-  "closed": 227,
-  "points": 506,
+  "closed": 228,
+  "points": 509,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -506,7 +506,7 @@
    {
     "status": "Ready for Development",
     "open": 71,
-    "med_age": 4.9,
+    "med_age": 5.0,
     "max_age": 45.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -529,7 +529,7 @@
    },
    {
     "status": "In Stage",
-    "open": 41,
+    "open": 40,
     "med_age": 3.1,
     "max_age": 4.1,
     "worst_key": "PLANS-25117",
@@ -537,7 +537,7 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 408
+    "clear_n": 409
    },
    {
     "status": "WAITING REVIEW",
@@ -556,9 +556,9 @@
     "open": 6,
     "med_age": 0.1,
     "max_age": 0.1,
-    "worst_key": "PLANS-25168",
-    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25175",
+    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 662
@@ -576,18 +576,6 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -598,13 +586,25 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    }
   ],
   "parked": {
    "Backlog": 94,
    "On Hold": 9
   },
-  "open_total": 194,
+  "open_total": 193,
   "stale": 66,
   "worst": "In Development"
  }
