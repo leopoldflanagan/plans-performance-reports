@@ -100,9 +100,9 @@
    172,
    49,
    91,
-   276,
+   272,
    177,
-   203,
+   199,
    [
     81.0,
     79.0,
@@ -115,9 +115,9 @@
     47.0,
     149.0,
     170.0,
-    195.0,
-    97.0,
-    97.0
+    191.0,
+    93.0,
+    93.0
    ],
    [
     89.0,
@@ -131,9 +131,9 @@
     108.0,
     215.0,
     241.0,
-    271.0,
-    274.0,
-    274.0
+    267.0,
+    270.0,
+    270.0
    ]
   ]
  ],
@@ -161,7 +161,7 @@
   "Plans-Sprint 25-26": {
    "done": [
     49,
-    225
+    221
    ],
    "open": [
     15,
@@ -277,8 +277,9 @@
     "PR Created": 7,
     "Closed": 74,
     "In Stage": 12,
-    "In Development": 10,
+    "In Development": 9,
     "Backlog": 82,
+    "PR Merged": 1,
     "Blocked": 1,
     "Will Not Implement": 11
    },
@@ -351,14 +352,14 @@
     }
    },
    "dist": {
-    "In Progress": 8,
-    "Done": 65,
+    "Done": 66,
+    "In Progress": 7,
     "In Stage": 7,
     "To Do": 14,
     "Ready Prod": 36,
     "Closed": 33,
-    "Ready for Development": 5,
-    "In Development": 1,
+    "Ready for Development": 4,
+    "In Development": 2,
     "Backlog": 2,
     "WAITING REVIEW": 1
    },
@@ -398,9 +399,9 @@
    47.0,
    149.0,
    170.0,
-   195.0,
-   97.0,
-   97.0
+   191.0,
+   93.0,
+   93.0
   ]
  },
  "CAP": {
