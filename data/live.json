@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T04:05:43Z",
+ "generated": "2026-11-09T04:32:39Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 25,
-   "points": 114
+   "items": 29,
+   "points": 122
   },
   "misfiled": {
    "items": 30,
@@ -55,18 +55,18 @@
   "day": 13,
   "days": 13,
   "n": 21,
-  "done_now": 179,
+  "done_now": 177,
   "committed": 91,
-  "lo": 179,
-  "mid": 179,
-  "hi": 179,
-  "pct": 197,
+  "lo": 177,
+  "mid": 177,
+  "hi": 177,
+  "pct": 195,
   "verdict": "on track for the commitment",
   "share_mid": 1.0
  },
  "admin": {
   "scope": {
-   "ready": 115,
+   "ready": 119,
    "sprint": 81,
    "sprint_name": "Plans-Sprint 25-26"
   },
@@ -323,14 +323,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 183 of 191 items. This reads as a field the team does not use rather than 183 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 183,
+    "why": "missing on 187 of 195 items. This reads as a field the team does not use rather than 187 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 187,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 191 of 191 items. This reads as a field the team does not use rather than 191 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 191,
+    "why": "missing on 195 of 195 items. This reads as a field the team does not use rather than 195 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 195,
     "items": []
    },
    {
@@ -409,17 +409,17 @@
   "items": 169,
   "items_done": 49,
   "committed": 91,
-  "final": 284,
-  "completed": 179,
-  "scope_change": 212,
-  "vs_commitment": 197,
+  "final": 276,
+  "completed": 177,
+  "scope_change": 203,
+  "vs_commitment": 195,
   "time_elapsed": 100,
   "spill": {
    "open_items": 33,
-   "open_pts": 99.0,
+   "open_pts": 93.0,
    "out_items": 4,
    "out_pts": 22.0,
-   "done_pts": 156.0
+   "done_pts": 154.0
   },
   "recv": {
    "items": 0,
@@ -427,7 +427,7 @@
    "pct": 0,
    "from": "LL-Sprint 25-26"
   },
-  "spill_rate": 44,
+  "spill_rate": 43,
   "dist": {
    "In Progress": 9,
    "In Stage": 15,
@@ -451,11 +451,11 @@
    60.0,
    60.0,
    47.0,
-   151.0,
-   178.0,
-   203.0,
-   103.0,
-   103.0
+   149.0,
+   170.0,
+   195.0,
+   97.0,
+   97.0
   ],
   "scope": [
    89.0,
@@ -467,11 +467,11 @@
    102.0,
    102.0,
    108.0,
-   217.0,
-   249.0,
-   279.0,
-   282.0,
-   282.0
+   215.0,
+   241.0,
+   271.0,
+   274.0,
+   274.0
   ],
   "ghost": [
    83.0,
@@ -483,11 +483,11 @@
    62.0,
    62.0,
    47.0,
-   151.0,
-   178.0,
-   203.0,
-   103.0,
-   103.0
+   149.0,
+   170.0,
+   195.0,
+   97.0,
+   97.0
   ],
   "days": 13,
   "day": 13
@@ -506,7 +506,7 @@
   "day": 15,
   "days": 28,
   "closed": 220,
-  "points": 475,
+  "points": 473,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -534,12 +534,12 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 663
+    "clear_n": 660
    },
    {
     "status": "Ready for Development",
-    "open": 56,
-    "med_age": 6.5,
+    "open": 60,
+    "med_age": 6.3,
     "max_age": 44.6,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -558,7 +558,7 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 407
+    "clear_n": 403
    },
    {
     "status": "PR Created",
@@ -570,7 +570,7 @@
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 708
+    "clear_n": 704
    },
    {
     "status": "WAITING REVIEW",
@@ -594,10 +594,10 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 674
+    "clear_n": 670
    },
    {
-    "status": "In QA",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -605,8 +605,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 74
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -621,7 +621,7 @@
     "clear_n": 21
    },
    {
-    "status": "Ready for Stage",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -629,15 +629,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 1.8,
+    "clear_n": 74
    }
   ],
   "parked": {
-   "On Hold": 10,
-   "Backlog": 96
+   "Backlog": 96,
+   "On Hold": 10
   },
-  "open_total": 193,
+  "open_total": 197,
   "stale": 65,
   "worst": "In Development"
  }
