@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:04:16Z",
+ "generated": "2026-11-09T20:32:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 42,
-   "points": 145
+   "items": 40,
+   "points": 139
   },
   "misfiled": {
    "items": 31,
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 131,
+   "ready": 129,
    "sprint": 55,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -288,14 +288,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 167 of 170 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 167,
+    "why": "missing on 169 of 172 items. This reads as a field the team does not use rather than 169 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 169,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 170 of 170 items. This reads as a field the team does not use rather than 170 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 170,
+    "why": "missing on 172 of 172 items. This reads as a field the team does not use rather than 172 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 172,
     "items": []
    },
    {
@@ -393,12 +393,12 @@
    "In Progress": 6,
    "Backlog": 7,
    "PR Merged": 1,
-   "Ready for Development": 16,
+   "PR Created": 18,
+   "In Development": 7,
+   "Ready for Development": 12,
    "In Stage": 7,
-   "In Development": 6,
    "Ready Prod": 1,
-   "WAITING REVIEW": 2,
-   "PR Created": 15
+   "WAITING REVIEW": 2
   },
   "burn": [
    203.0,
@@ -445,19 +445,19 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 44,
-    "med_age": 11.9,
+    "open": 45,
+    "med_age": 11.3,
     "max_age": 12.4,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 652
+    "clear_n": 653
    },
    {
     "status": "Ready for Development",
-    "open": 72,
+    "open": 70,
     "med_age": 5.0,
     "max_age": 45.3,
     "worst_key": "PLANS-23527",
@@ -465,19 +465,19 @@
     "worst_who": "unassigned",
     "over": 30,
     "clear_med": 0.7,
-    "clear_n": 230
+    "clear_n": 234
    },
    {
     "status": "PR Created",
-    "open": 31,
+    "open": 34,
     "med_age": 4.5,
-    "max_age": 11.9,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 12.0,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 700
+    "clear_n": 698
    },
    {
     "status": "In Stage",
@@ -489,7 +489,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 406
+    "clear_n": 405
    },
    {
     "status": "WAITING REVIEW",
@@ -513,19 +513,7 @@
     "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 660
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 658
    },
    {
     "status": "In QA",
@@ -538,6 +526,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 73
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -556,7 +556,7 @@
    "Backlog": 94,
    "On Hold": 9
   },
-  "open_total": 197,
+  "open_total": 199,
   "stale": 67,
   "worst": "In Development"
  }
