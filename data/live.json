@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T15:04:26Z",
+ "generated": "2026-11-09T15:32:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -415,11 +415,11 @@
   "vs_commitment": 195,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 33,
-   "open_pts": 93.0,
+   "open_items": 32,
+   "open_pts": 90.0,
    "out_items": 4,
    "out_pts": 22.0,
-   "done_pts": 154.0
+   "done_pts": 157.0
   },
   "recv": {
    "items": 0,
@@ -427,17 +427,17 @@
    "pct": 0,
    "from": "LL-Sprint 25-26"
   },
-  "spill_rate": 43,
+  "spill_rate": 42,
   "dist": {
-   "In Progress": 10,
-   "Done": 39,
+   "In Progress": 8,
+   "Done": 41,
    "In Stage": 15,
    "To Do": 37,
    "Ready Prod": 16,
    "PR Created": 5,
-   "Closed": 31,
+   "Closed": 32,
    "Ready for Development": 5,
-   "In Development": 2,
+   "In Development": 1,
    "Backlog": 6,
    "WAITING REVIEW": 1
   },
@@ -505,8 +505,8 @@
   "end": "2026-11-22",
   "day": 15,
   "days": 28,
-  "closed": 221,
-  "points": 475,
+  "closed": 222,
+  "points": 478,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -528,13 +528,13 @@
     "status": "In Development",
     "open": 42,
     "med_age": 12.2,
-    "max_age": 13.0,
-    "worst_key": "PLANS-24789",
-    "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 31,
+    "max_age": 12.2,
+    "worst_key": "PLANS-24785",
+    "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
+    "worst_who": "Mykyta  Moroz",
+    "over": 30,
     "clear_med": 0.1,
-    "clear_n": 661
+    "clear_n": 665
    },
    {
     "status": "Ready for Development",
@@ -558,24 +558,24 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 400
+    "clear_n": 403
    },
    {
     "status": "PR Created",
     "open": 37,
     "med_age": 4.3,
-    "max_age": 11.7,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 11.8,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 702
+    "clear_n": 706
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 24.5,
+    "med_age": 24.6,
     "max_age": 31.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -594,19 +594,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 667
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_n": 671
    },
    {
     "status": "Ready for Stage",
@@ -631,14 +619,26 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 74
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 95,
+   "Backlog": 92,
    "On Hold": 9
   },
   "open_total": 200,
-  "stale": 66,
+  "stale": 65,
   "worst": "In Development"
  }
 }
