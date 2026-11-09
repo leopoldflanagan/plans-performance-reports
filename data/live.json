@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T21:03:34Z",
+ "generated": "2026-11-09T21:33:17Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 40,
-   "points": 139
+   "items": 32,
+   "points": 103
   },
   "misfiled": {
    "items": 31,
@@ -56,18 +56,18 @@
   "days": 14,
   "n": 21,
   "done_now": 3,
-  "committed": 206,
+  "committed": 228,
   "lo": 13,
   "mid": 23,
   "hi": 37,
-  "pct": 11,
+  "pct": 10,
   "verdict": "well short of the commitment",
   "share_mid": 0.131
  },
  "admin": {
   "scope": {
-   "ready": 129,
-   "sprint": 55,
+   "ready": 121,
+   "sprint": 62,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
@@ -174,7 +174,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 31,
+    "n": 29,
     "items": [
      {
       "key": "PLANS-25152",
@@ -201,12 +201,12 @@
       "summary": "[6.9] Plans ms - a primary change moves billing forward to the new primary's pla"
      },
      {
-      "key": "PLANS-25056",
-      "summary": "[6.8] Plans-ms - a coverage, plan or tier change on a subscription is a new sale"
-     },
-     {
       "key": "PLANS-25048",
       "summary": "[7.8] Plans - go-live checks before the subscription flag goes on in any environ"
+     },
+     {
+      "key": "PLANS-25045",
+      "summary": "[7.5] Platform DB - reports, partner feeds and EDW views use the status function"
      }
     ]
    },
@@ -288,32 +288,24 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 169 of 172 items. This reads as a field the team does not use rather than 169 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 169,
+    "why": "missing on 165 of 168 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 165,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 172 of 172 items. This reads as a field the team does not use rather than 172 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 172,
+    "why": "missing on 168 of 168 items. This reads as a field the team does not use rather than 168 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 168,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 30,
+    "n": 28,
     "items": [
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
-     },
-     {
-      "key": "PLANS-23644",
-      "summary": "[5.3] Plans - subscription refund and chargeback statistic rows name the charge "
-     },
-     {
-      "key": "PLANS-23640",
-      "summary": "[5.1] Plans - subscription statistic rows record the account's payment method an"
      },
      {
       "key": "PLANS-22675",
@@ -334,6 +326,14 @@
      {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
+     },
+     {
+      "key": "PLANS-14758",
+      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
+     },
+     {
+      "key": "PLANS-14582",
+      "summary": "Update UI for CSP"
      }
     ]
    }
@@ -365,17 +365,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 90,
+  "items": 97,
   "items_done": 1,
-  "committed": 206,
-  "final": 206,
+  "committed": 228,
+  "final": 228,
   "completed": 3,
   "scope_change": 0,
   "vs_commitment": 1,
   "time_elapsed": 1,
   "spill": {
-   "open_items": 52,
-   "open_pts": 201.0,
+   "open_items": 59,
+   "open_pts": 223.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 0
@@ -383,34 +383,34 @@
   "recv": {
    "items": 15,
    "pts": 22,
-   "pct": 11,
+   "pct": 10,
    "from": "Plans-Sprint 25-26"
   },
   "spill_rate": null,
   "dist": {
    "To Do": 19,
+   "Ready for Development": 15,
    "Done": 10,
    "In Progress": 6,
    "Backlog": 7,
    "PR Merged": 1,
-   "PR Created": 18,
-   "In Development": 7,
-   "Ready for Development": 12,
-   "In Stage": 7,
+   "In Stage": 12,
+   "In Development": 8,
+   "PR Created": 16,
    "Ready Prod": 1,
    "WAITING REVIEW": 2
   },
   "burn": [
    203.0,
-   203.0
+   225.0
   ],
   "scope": [
    206.0,
-   206.0
+   228.0
   ],
   "ghost": [
    203.0,
-   203.0
+   225.0
   ],
   "days": 14,
   "day": 1
@@ -445,7 +445,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 45,
+    "open": 50,
     "med_age": 11.4,
     "max_age": 12.4,
     "worst_key": "PLANS-24785",
@@ -453,35 +453,23 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 652
+    "clear_n": 655
    },
    {
     "status": "Ready for Development",
-    "open": 70,
-    "med_age": 5.0,
+    "open": 62,
+    "med_age": 6.0,
     "max_age": 45.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 30,
-    "clear_med": 0.7,
-    "clear_n": 234
-   },
-   {
-    "status": "PR Created",
-    "open": 34,
-    "med_age": 4.5,
-    "max_age": 12.0,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
-    "worst_who": "Dima Shtympel",
-    "over": 5,
-    "clear_med": 0.0,
-    "clear_n": 697
+    "clear_med": 0.8,
+    "clear_n": 242
    },
    {
     "status": "In Stage",
-    "open": 42,
+    "open": 47,
     "med_age": 3.2,
     "max_age": 4.2,
     "worst_key": "PLANS-25117",
@@ -490,6 +478,18 @@
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 404
+   },
+   {
+    "status": "PR Created",
+    "open": 32,
+    "med_age": 4.5,
+    "max_age": 12.0,
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "worst_who": "Dima Shtympel",
+    "over": 5,
+    "clear_med": 0.0,
+    "clear_n": 702
    },
    {
     "status": "WAITING REVIEW",
@@ -513,19 +513,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 657
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 662
    },
    {
     "status": "In PreProd",
@@ -550,6 +538,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 73
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
