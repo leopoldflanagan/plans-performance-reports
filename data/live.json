@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T08:06:37Z",
+ "generated": "2026-11-09T08:33:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -564,9 +564,9 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 4.0,
-    "max_age": 11.4,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 11.5,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
@@ -587,26 +587,14 @@
    {
     "status": "PR Merged",
     "open": 1,
-    "med_age": 2.6,
-    "max_age": 2.6,
+    "med_age": 2.7,
+    "max_age": 2.7,
     "worst_key": "PLANS-25135",
     "worst_sum": "[B.6.W1] PORTAL_URL_PASSTHROUGH as a registry rule with a context-driven source",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 668
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
    },
    {
     "status": "Ready for Stage",
@@ -619,6 +607,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "In QA",
