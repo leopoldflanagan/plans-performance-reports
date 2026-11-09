@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:04:26Z",
+ "generated": "2026-11-09T13:32:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -526,15 +526,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 41,
+    "open": 42,
     "med_age": 12.1,
-    "max_age": 12.9,
+    "max_age": 13.0,
     "worst_key": "PLANS-24789",
     "worst_sum": "Tech debt to cover CREG Eligibility, Denticon work and CREG enrollment Claims additional w",
     "worst_who": "Sailaja Yanamandra",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 661
+    "clear_n": 662
    },
    {
     "status": "Ready for Development",
@@ -553,9 +553,9 @@
     "open": 58,
     "med_age": 3.8,
     "max_age": 3.9,
-    "worst_key": "PLANS-24902",
-    "worst_sum": "CREG/Member Id in the PDF does not match the member Id in app",
-    "worst_who": "Sailaja Yanamandra",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 401
@@ -565,12 +565,12 @@
     "open": 37,
     "med_age": 4.2,
     "max_age": 11.7,
-    "worst_key": "PLANS-24822",
-    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 703
+    "clear_n": 704
    },
    {
     "status": "WAITING REVIEW",
@@ -587,17 +587,17 @@
    {
     "status": "PR Merged",
     "open": 2,
-    "med_age": 1.4,
-    "max_age": 2.8,
+    "med_age": 1.5,
+    "max_age": 2.9,
     "worst_key": "PLANS-25135",
     "worst_sum": "[B.6.W1] PORTAL_URL_PASSTHROUGH as a registry rule with a context-driven source",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 668
+    "clear_n": 669
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -605,8 +605,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "In QA",
@@ -621,7 +621,7 @@
     "clear_n": 74
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -629,15 +629,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
    "On Hold": 9,
-   "Backlog": 95
+   "Backlog": 94
   },
-  "open_total": 200,
+  "open_total": 201,
   "stale": 65,
   "worst": "In Development"
  }
