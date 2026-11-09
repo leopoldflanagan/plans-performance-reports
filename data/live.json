@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T23:03:58Z",
+ "generated": "2026-11-09T23:32:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -446,7 +446,7 @@
    {
     "status": "In Development",
     "open": 50,
-    "med_age": 11.4,
+    "med_age": 11.5,
     "max_age": 12.5,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -481,15 +481,15 @@
    },
    {
     "status": "PR Created",
-    "open": 29,
+    "open": 28,
     "med_age": 4.6,
     "max_age": 12.1,
-    "worst_key": "PLANS-24822",
-    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 708
+    "clear_n": 709
    },
    {
     "status": "WAITING REVIEW",
@@ -505,12 +505,12 @@
    },
    {
     "status": "PR Merged",
-    "open": 9,
+    "open": 10,
     "med_age": 0.2,
     "max_age": 0.3,
-    "worst_key": "PLANS-25168",
-    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25175",
+    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 665
@@ -553,8 +553,8 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 93
+   "Backlog": 93,
+   "On Hold": 9
   },
   "open_total": 199,
   "stale": 68,
