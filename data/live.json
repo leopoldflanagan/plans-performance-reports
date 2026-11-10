@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T14:32:40Z",
+ "generated": "2026-11-10T15:03:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 17,
-   "points": 50
+   "items": 12,
+   "points": 40
   },
   "misfiled": {
    "items": 31,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 58,
-    "points": 111,
+    "n": 57,
+    "points": 106,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 104,
+   "ready": 98,
    "sprint": 65,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 65,
+    "n": 64,
     "items": [
      {
       "key": "PLANS-25152",
@@ -137,10 +137,6 @@
      {
       "key": "PLANS-25150",
       "summary": "[1.2] Add gated reveal endpoint for full account and routing numbers"
-     },
-     {
-      "key": "PLANS-25149",
-      "summary": "[1.1] Mask account and routing numbers on CSP Plan Design read endpoints"
      },
      {
       "key": "PLANS-25000",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-24943",
       "summary": "Member Portal \\ Cardholder name is missing from Manage Payments after adding a n"
+     },
+     {
+      "key": "PLANS-24942",
+      "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
      }
     ]
    },
@@ -189,10 +189,6 @@
       "summary": "[1.2] Add gated reveal endpoint for full account and routing numbers"
      },
      {
-      "key": "PLANS-25149",
-      "summary": "[1.1] Mask account and routing numbers on CSP Plan Design read endpoints"
-     },
-     {
       "key": "PLANS-25059",
       "summary": "[6.11] Plans ms - switching a subscription to a legacy Annual plan is a successo"
      },
@@ -207,6 +203,10 @@
      {
       "key": "PLANS-24884",
       "summary": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal"
+     },
+     {
+      "key": "PLANS-15940",
+      "summary": "[4.1] Add GetPlanLedgerState method to PlanLedgerManager"
      }
     ]
    },
@@ -284,14 +284,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 153 of 156 items. This reads as a field the team does not use rather than 153 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 153,
+    "why": "missing on 148 of 151 items. This reads as a field the team does not use rather than 148 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 148,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 156 of 156 items. This reads as a field the team does not use rather than 156 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 156,
+    "why": "missing on 151 of 151 items. This reads as a field the team does not use rather than 151 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 151,
     "items": []
    },
    {
@@ -384,10 +384,10 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 8,
+   "In Development": 9,
    "PR Created": 21,
    "To Do": 19,
-   "Ready for Development": 13,
+   "Ready for Development": 12,
    "Done": 10,
    "In Progress": 6,
    "PR Merged": 1,
@@ -420,8 +420,8 @@
   "end": "2026-11-22",
   "day": 16,
   "days": 28,
-  "closed": 234,
-  "points": 523,
+  "closed": 236,
+  "points": 527,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -441,39 +441,39 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 40,
-    "med_age": 13.1,
-    "max_age": 13.1,
+    "open": 45,
+    "med_age": 12.1,
+    "max_age": 13.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 680
+    "clear_n": 682
    },
    {
     "status": "Ready for Development",
-    "open": 45,
-    "med_age": 10.9,
-    "max_age": 46.0,
+    "open": 39,
+    "med_age": 11.6,
+    "max_age": 46.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 28,
     "clear_med": 0.8,
-    "clear_n": 257
+    "clear_n": 263
    },
    {
     "status": "In Stage",
-    "open": 48,
+    "open": 47,
     "med_age": 3.9,
-    "max_age": 4.9,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "max_age": 5.0,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 402
+    "clear_n": 403
    },
    {
     "status": "WAITING REVIEW",
@@ -489,7 +489,7 @@
    },
    {
     "status": "PR Created",
-    "open": 48,
+    "open": 49,
     "med_age": 0.2,
     "max_age": 7.6,
     "worst_key": "PLANS-24113",
@@ -503,13 +503,25 @@
     "status": "PR Merged",
     "open": 15,
     "med_age": 0.1,
-    "max_age": 0.9,
+    "max_age": 1.0,
     "worst_key": "PLANS-25162",
     "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 691
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "Ready for Stage",
@@ -534,25 +546,13 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 73
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 93
+   "Backlog": 92,
+   "On Hold": 9
   },
-  "open_total": 198,
+  "open_total": 197,
   "stale": 62,
   "worst": "In Development"
  }

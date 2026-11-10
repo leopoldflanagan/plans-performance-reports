@@ -9,19 +9,19 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 234,
+  "closed": 236,
   "discarded": 4,
-  "resolved": 238,
+  "resolved": 240,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    142
+    143
    ],
    [
     "Bug",
-    84
+    85
    ],
    [
     "TechDebt",
@@ -43,10 +43,10 @@
   "day": 10,
   "days": 28,
   "status": "risk",
-  "headline": "234 items closed in the first 10 days, a pace of about 655 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "236 items closed in the first 10 days, a pace of about 661 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 7.0d and average 12.8d, both past the healthy band"
+   "cycle time median 7.0d and average 12.7d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -168,14 +168,14 @@
    "Nov 9",
    "Nov 23",
    272,
-   5,
+   6,
    274,
    274,
-   25,
+   27,
    0,
    [
     246.0,
-    249.0
+    247.0
    ],
    [
     271.0,
@@ -246,12 +246,12 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "done": [
-    5,
-    3
+    6,
+    5
    ],
    "open": [
-    141,
-    266
+    140,
+    264
    ],
    "out": [
     1,
@@ -356,19 +356,19 @@
     }
    },
    "dist": {
-    "To Do": 97,
-    "Done": 123,
-    "Ready for Development": 12,
-    "Ready Prod": 14,
+    "To Do": 96,
+    "Done": 124,
+    "In Development": 3,
+    "Ready Prod": 15,
     "Closed": 75,
     "PR Created": 21,
     "In Progress": 10,
+    "Ready for Development": 11,
     "PR Merged": 1,
     "On Hold": 8,
-    "In Stage": 14,
+    "In Stage": 13,
     "Backlog": 82,
     "Blocked": 1,
-    "In Development": 2,
     "Will Not Implement": 11
    },
    "stalled": 332,
@@ -464,8 +464,8 @@
      "med": 13.45
     },
     "In Development": {
-     "n": 17,
-     "med": 0.56
+     "n": 18,
+     "med": 6.6
     },
     "PR Created": {
      "n": 25,
@@ -505,10 +505,10 @@
     }
    },
    "dist": {
-    "In Development": 8,
+    "In Development": 9,
     "PR Created": 21,
     "To Do": 19,
-    "Ready for Development": 13,
+    "Ready for Development": 12,
     "Done": 10,
     "In Progress": 6,
     "PR Merged": 1,
@@ -529,16 +529,20 @@
      "med": 13.43
     },
     "Ready Prod": {
-     "n": 1,
-     "med": 13.43
+     "n": 2,
+     "med": 13.03
     },
     "Done": {
-     "n": 17,
+     "n": 18,
      "med": 13.43
     },
     "Ready for Development": {
      "n": 20,
      "med": 13.43
+    },
+    "In Development": {
+     "n": 19,
+     "med": 0.22
     },
     "On Hold": {
      "n": 9,
@@ -547,10 +551,6 @@
     "Closed": {
      "n": 1,
      "med": 12.75
-    },
-    "In Development": {
-     "n": 18,
-     "med": 0.21
     },
     "PR Created": {
      "n": 44,
@@ -561,7 +561,7 @@
      "med": 0.07
     },
     "In Progress": {
-     "n": 10,
+     "n": 11,
      "med": 13.43
     },
     "In Stage": {
@@ -578,21 +578,21 @@
     }
    },
    "dist": {
-    "To Do": 100,
-    "Ready Prod": 1,
-    "Done": 17,
-    "Ready for Development": 12,
+    "To Do": 99,
+    "Ready Prod": 2,
+    "Done": 18,
+    "In Development": 2,
     "Closed": 1,
     "PR Created": 22,
     "In Progress": 10,
+    "Ready for Development": 11,
     "PR Merged": 1,
     "On Hold": 8,
-    "In Stage": 17,
+    "In Stage": 16,
     "Backlog": 81,
-    "Blocked": 1,
-    "In Development": 1
+    "Blocked": 1
    },
-   "stalled": 270,
+   "stalled": 269,
    "worst": 13.43,
    "worstSt": "To Do",
    "items": 272
@@ -641,25 +641,25 @@
   ],
   "Plans Pod 2-Sprint 26-26": [
    246.0,
-   249.0
+   247.0
   ]
  },
  "CAP": {
   "9.10": [
-   234,
-   161,
-   523,
+   236,
+   163,
+   527,
    21
   ]
  },
  "CYC": {
   "9.10": {
    "med": 7.01,
-   "avg": 12.76,
-   "n": 139,
+   "avg": 12.68,
+   "n": 141,
    "mx": 92.49,
    "nodev": 95,
-   "base": 234
+   "base": 236
   }
  },
  "complete": false,
