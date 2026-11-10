@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T23:32:57Z",
+ "generated": "2026-11-10T00:09:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 1,
+  "day": 2,
   "days": 14,
   "n": 21,
   "done_now": 3,
   "committed": 228,
-  "lo": 13,
-  "mid": 23,
-  "hi": 37,
-  "pct": 10,
+  "lo": 11,
+  "mid": 12,
+  "hi": 20,
+  "pct": 5,
   "verdict": "well short of the commitment",
-  "share_mid": 0.131
+  "share_mid": 0.255
  },
  "admin": {
   "scope": {
@@ -372,7 +372,7 @@
   "completed": 3,
   "scope_change": 0,
   "vs_commitment": 1,
-  "time_elapsed": 1,
+  "time_elapsed": 2,
   "spill": {
    "open_items": 59,
    "open_pts": 223.0,
@@ -413,7 +413,7 @@
    225.0
   ],
   "days": 14,
-  "day": 1
+  "day": 2
  },
  "next": null,
  "month": {
@@ -422,7 +422,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 15,
+  "day": 16,
   "days": 28,
   "closed": 228,
   "points": 509,
@@ -445,7 +445,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 50,
+    "open": 48,
     "med_age": 11.5,
     "max_age": 12.5,
     "worst_key": "PLANS-24785",
@@ -453,7 +453,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 657
+    "clear_n": 659
    },
    {
     "status": "Ready for Development",
@@ -489,13 +489,13 @@
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 709
+    "clear_n": 711
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 24.9,
-    "max_age": 32.2,
+    "max_age": 32.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -505,7 +505,7 @@
    },
    {
     "status": "PR Merged",
-    "open": 10,
+    "open": 12,
     "med_age": 0.2,
     "max_age": 0.3,
     "worst_key": "PLANS-25175",
@@ -514,18 +514,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 665
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
    },
    {
     "status": "Ready for Stage",
@@ -550,11 +538,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    }
   ],
   "parked": {
-   "Backlog": 93,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 93
   },
   "open_total": 199,
   "stale": 68,
