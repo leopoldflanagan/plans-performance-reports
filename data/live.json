@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T15:03:57Z",
+ "generated": "2026-11-10T15:32:49Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 57,
-    "points": 106,
+    "n": 56,
+    "points": 105,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -56,7 +56,7 @@
   "days": 14,
   "n": 21,
   "done_now": 3,
-  "committed": 241,
+  "committed": 243,
   "lo": 11,
   "mid": 12,
   "hi": 20,
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 98,
+   "ready": 97,
    "sprint": 65,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 64,
+    "n": 63,
     "items": [
      {
       "key": "PLANS-25152",
@@ -363,31 +363,31 @@
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 100,
   "items_done": 1,
-  "committed": 241,
-  "final": 241,
+  "committed": 243,
+  "final": 243,
   "completed": 3,
   "scope_change": 0,
   "vs_commitment": 1,
   "time_elapsed": 6,
   "spill": {
    "open_items": 62,
-   "open_pts": 236.0,
+   "open_pts": 238.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 0
   },
   "recv": {
    "items": 15,
-   "pts": 24,
-   "pct": 10,
+   "pts": 26,
+   "pct": 11,
    "from": "Plans-Sprint 25-26"
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 9,
+   "In Development": 10,
    "PR Created": 21,
    "To Do": 19,
-   "Ready for Development": 12,
+   "Ready for Development": 11,
    "Done": 10,
    "In Progress": 6,
    "PR Merged": 1,
@@ -397,16 +397,16 @@
    "Backlog": 6
   },
   "burn": [
-   205.0,
-   238.0
+   207.0,
+   240.0
   ],
   "scope": [
-   208.0,
-   241.0
+   210.0,
+   243.0
   ],
   "ghost": [
-   205.0,
-   238.0
+   207.0,
+   240.0
   ],
   "days": 14,
   "day": 2
@@ -441,7 +441,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 45,
+    "open": 46,
     "med_age": 12.1,
     "max_age": 13.2,
     "worst_key": "PLANS-24785",
@@ -453,20 +453,20 @@
    },
    {
     "status": "Ready for Development",
-    "open": 39,
-    "med_age": 11.6,
+    "open": 38,
+    "med_age": 11.8,
     "max_age": 46.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 28,
+    "over": 27,
     "clear_med": 0.8,
-    "clear_n": 263
+    "clear_n": 264
    },
    {
     "status": "In Stage",
     "open": 47,
-    "med_age": 3.9,
+    "med_age": 4.0,
     "max_age": 5.0,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
@@ -478,7 +478,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 25.5,
+    "med_age": 25.6,
     "max_age": 32.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -491,7 +491,7 @@
     "status": "PR Created",
     "open": 49,
     "med_age": 0.2,
-    "max_age": 7.6,
+    "max_age": 7.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -510,18 +510,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 691
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
    },
    {
     "status": "Ready for Stage",
@@ -546,6 +534,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 73
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
@@ -553,7 +553,7 @@
    "On Hold": 9
   },
   "open_total": 197,
-  "stale": 62,
+  "stale": 61,
   "worst": "In Development"
  }
 }
