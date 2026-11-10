@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T18:04:24Z",
+ "generated": "2026-11-10T18:33:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 58,
+    "n": 60,
     "points": 105,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 92,
+   "ready": 94,
    "sprint": 65,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,8 +74,16 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 14,
+    "n": 16,
     "items": [
+     {
+      "key": "PLANS-25223",
+      "summary": "Configuration Settings not saving"
+     },
+     {
+      "key": "PLANS-25222",
+      "summary": "Settings are reverting after release"
+     },
      {
       "key": "PLANS-25133",
       "summary": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as"
@@ -99,14 +107,6 @@
      {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
-     },
-     {
-      "key": "PLANS-14758",
-      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14538",
-      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
      }
     ]
    },
@@ -124,8 +124,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 65,
+    "n": 67,
     "items": [
+     {
+      "key": "PLANS-25223",
+      "summary": "Configuration Settings not saving"
+     },
+     {
+      "key": "PLANS-25222",
+      "summary": "Settings are reverting after release"
+     },
      {
       "key": "PLANS-25152",
       "summary": "[1.4] Mask the Account Information panel with role-gated Show and Change"
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
-     },
-     {
-      "key": "PLANS-24964",
-      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
-     },
-     {
-      "key": "PLANS-24952",
-      "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
      }
     ]
    },
@@ -284,14 +284,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 150 of 153 items. This reads as a field the team does not use rather than 150 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 150,
+    "why": "missing on 152 of 155 items. This reads as a field the team does not use rather than 152 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 152,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 153 of 153 items. This reads as a field the team does not use rather than 153 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 153,
+    "why": "missing on 155 of 155 items. This reads as a field the team does not use rather than 155 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 155,
     "items": []
    },
    {
@@ -421,8 +421,8 @@
   "end": "2026-11-22",
   "day": 16,
   "days": 28,
-  "closed": 243,
-  "points": 566,
+  "closed": 244,
+  "points": 569,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -443,38 +443,38 @@
    {
     "status": "In Development",
     "open": 45,
-    "med_age": 12.2,
+    "med_age": 12.3,
     "max_age": 13.3,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 692
+    "clear_n": 689
    },
    {
     "status": "Ready for Development",
-    "open": 33,
-    "med_age": 13.8,
+    "open": 35,
+    "med_age": 13.0,
     "max_age": 46.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 273
+    "clear_n": 270
    },
    {
     "status": "In Stage",
     "open": 63,
     "med_age": 4.1,
     "max_age": 5.1,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 405
+    "clear_n": 402
    },
    {
     "status": "WAITING REVIEW",
@@ -490,27 +490,39 @@
    },
    {
     "status": "PR Created",
-    "open": 44,
-    "med_age": 0.4,
+    "open": 40,
+    "med_age": 0.6,
     "max_age": 7.8,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 760
+    "clear_n": 761
    },
    {
     "status": "PR Merged",
-    "open": 8,
+    "open": 11,
     "med_age": 0.1,
     "max_age": 0.1,
-    "worst_key": "PLANS-24831",
-    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
-    "worst_who": "Rostyslav  Masniuk",
+    "worst_key": "PLANS-24985",
+    "worst_sum": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 719
+    "clear_n": 716
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "In QA",
@@ -535,25 +547,13 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 87,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 88
   },
-  "open_total": 195,
+  "open_total": 196,
   "stale": 61,
   "worst": "In Development"
  }

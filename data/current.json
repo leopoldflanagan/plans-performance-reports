@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 243,
+  "closed": 244,
   "discarded": 4,
-  "resolved": 247,
+  "resolved": 248,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    88
+    89
    ],
    [
     "TechDebt",
@@ -43,10 +43,10 @@
   "day": 10,
   "days": 28,
   "status": "risk",
-  "headline": "243 items closed in the first 10 days, a pace of about 680 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "244 items closed in the first 10 days, a pace of about 683 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 6.5d and average 12.3d, both past the healthy band"
+   "cycle time median 6.3d and average 12.2d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -361,9 +361,9 @@
     "In Development": 3,
     "Ready Prod": 15,
     "Closed": 75,
-    "PR Created": 19,
+    "PR Created": 16,
     "In Progress": 10,
-    "PR Merged": 2,
+    "PR Merged": 5,
     "Ready for Development": 11,
     "In Stage": 14,
     "On Hold": 8,
@@ -546,6 +546,10 @@
      "n": 2,
      "med": 12.63
     },
+    "In Progress": {
+     "n": 12,
+     "med": 13.43
+    },
     "Ready Prod": {
      "n": 2,
      "med": 13.03
@@ -564,15 +568,11 @@
     },
     "PR Created": {
      "n": 51,
-     "med": 0.15
+     "med": 0.13
     },
     "PR Merged": {
-     "n": 32,
-     "med": 0.03
-    },
-    "In Progress": {
-     "n": 11,
-     "med": 13.43
+     "n": 35,
+     "med": 0.05
     },
     "In Stage": {
      "n": 18,
@@ -584,15 +584,15 @@
     }
    },
    "dist": {
-    "To Do": 101,
+    "To Do": 100,
     "Closed": 2,
+    "In Progress": 11,
     "Ready Prod": 2,
     "Ready for Development": 12,
     "Done": 18,
     "In Development": 2,
-    "PR Created": 20,
-    "In Progress": 10,
-    "PR Merged": 2,
+    "PR Created": 17,
+    "PR Merged": 5,
     "In Stage": 17,
     "On Hold": 8,
     "Backlog": 81,
@@ -652,20 +652,20 @@
  },
  "CAP": {
   "9.10": [
-   243,
-   182,
-   566,
+   244,
+   183,
+   569,
    22
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 6.5,
-   "avg": 12.28,
-   "n": 146,
+   "med": 6.35,
+   "avg": 12.2,
+   "n": 147,
    "mx": 92.49,
    "nodev": 97,
-   "base": 243
+   "base": 244
   }
  },
  "complete": false,
