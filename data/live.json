@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T04:04:16Z",
+ "generated": "2026-11-10T04:32:42Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -453,7 +453,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 661
+    "clear_n": 660
    },
    {
     "status": "Ready for Development",
@@ -477,19 +477,19 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 406
+    "clear_n": 405
    },
    {
     "status": "PR Created",
     "open": 30,
-    "med_age": 4.6,
+    "med_age": 4.7,
     "max_age": 12.3,
     "worst_key": "PLANS-24828",
     "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 714
+    "clear_n": 712
    },
    {
     "status": "WAITING REVIEW",
@@ -508,15 +508,15 @@
     "open": 12,
     "med_age": 0.3,
     "max_age": 0.5,
-    "worst_key": "PLANS-25168",
-    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25175",
+    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 668
+    "clear_n": 666
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -524,8 +524,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "In QA",
@@ -540,7 +540,7 @@
     "clear_n": 73
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -548,13 +548,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 93
+   "Backlog": 94,
+   "On Hold": 9
   },
   "open_total": 199,
   "stale": 68,
