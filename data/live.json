@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T08:32:46Z",
+ "generated": "2026-11-10T09:04:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -394,8 +394,8 @@
    "In Progress": 6,
    "Backlog": 7,
    "PR Merged": 1,
-   "In Stage": 12,
-   "In Development": 8,
+   "In Stage": 13,
+   "In Development": 7,
    "PR Created": 16,
    "Ready Prod": 1,
    "WAITING REVIEW": 2
@@ -446,14 +446,14 @@
    {
     "status": "In Development",
     "open": 48,
-    "med_age": 11.8,
+    "med_age": 11.9,
     "max_age": 12.9,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 661
+    "clear_n": 662
    },
    {
     "status": "Ready for Development",
@@ -469,12 +469,12 @@
    },
    {
     "status": "In Stage",
-    "open": 47,
+    "open": 48,
     "med_age": 3.7,
     "max_age": 4.7,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 404
@@ -484,12 +484,12 @@
     "open": 32,
     "med_age": 4.3,
     "max_age": 12.5,
-    "worst_key": "PLANS-24822",
-    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 716
+    "clear_n": 717
    },
    {
     "status": "WAITING REVIEW",
@@ -508,12 +508,12 @@
     "open": 11,
     "med_age": 0.4,
     "max_age": 0.7,
-    "worst_key": "PLANS-25162",
-    "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25175",
+    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 671
+    "clear_n": 672
    },
    {
     "status": "In PreProd",
@@ -553,10 +553,10 @@
    }
   ],
   "parked": {
-   "Backlog": 95,
+   "Backlog": 94,
    "On Hold": 9
   },
-  "open_total": 199,
+  "open_total": 200,
   "stale": 69,
   "worst": "In Development"
  }
