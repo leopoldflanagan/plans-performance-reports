@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T08:05:40Z",
+ "generated": "2026-11-10T08:32:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -451,7 +451,7 @@
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
-    "over": 30,
+    "over": 31,
     "clear_med": 0.1,
     "clear_n": 661
    },
@@ -483,9 +483,9 @@
     "status": "PR Created",
     "open": 32,
     "med_age": 4.3,
-    "max_age": 12.4,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 12.5,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
@@ -494,7 +494,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 25.2,
+    "med_age": 25.3,
     "max_age": 32.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -553,11 +553,11 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 95
+   "Backlog": 95,
+   "On Hold": 9
   },
   "open_total": 199,
-  "stale": 68,
+  "stale": 69,
   "worst": "In Development"
  }
 }
