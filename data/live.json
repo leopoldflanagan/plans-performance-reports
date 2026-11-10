@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T09:04:33Z",
+ "generated": "2026-11-10T09:33:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 29,
-   "points": 82
+   "items": 28,
+   "points": 77
   },
   "misfiled": {
    "items": 31,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 60,
-    "points": 113,
+    "n": 59,
+    "points": 112,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 118,
+   "ready": 116,
    "sprint": 62,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 67,
+    "n": 66,
     "items": [
      {
       "key": "PLANS-25152",
@@ -147,16 +147,16 @@
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
      },
      {
-      "key": "PLANS-24985",
-      "summary": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Re"
-     },
-     {
       "key": "PLANS-24964",
       "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
      },
      {
       "key": "PLANS-24952",
       "summary": "PMP - Membership Card, Additional Benefit Cards, and Benefit Summary Remain Visi"
+     },
+     {
+      "key": "PLANS-24943",
+      "summary": "Member Portal \\ Cardholder name is missing from Manage Payments after adding a n"
      }
     ]
    },
@@ -174,7 +174,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 26,
+    "n": 25,
     "items": [
      {
       "key": "PLANS-25152",
@@ -201,12 +201,12 @@
       "summary": "[6.9] Plans ms - a primary change moves billing forward to the new primary's pla"
      },
      {
-      "key": "PLANS-25048",
-      "summary": "[7.8] Plans - go-live checks before the subscription flag goes on in any environ"
-     },
-     {
       "key": "PLANS-25043",
       "summary": "[7.3] member-ms, Marketplace API, CSP and plans-ms - service-side coverage and r"
+     },
+     {
+      "key": "PLANS-24884",
+      "summary": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal"
      }
     ]
    },
@@ -288,14 +288,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 162 of 165 items. This reads as a field the team does not use rather than 162 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 162,
+    "why": "missing on 161 of 164 items. This reads as a field the team does not use rather than 161 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 161,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 165 of 165 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 165,
+    "why": "missing on 164 of 164 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 164,
     "items": []
    },
    {
@@ -389,13 +389,13 @@
   "spill_rate": null,
   "dist": {
    "To Do": 19,
-   "Ready for Development": 15,
+   "Ready for Development": 14,
    "Done": 10,
    "In Progress": 6,
    "Backlog": 7,
    "PR Merged": 1,
    "In Stage": 13,
-   "In Development": 7,
+   "In Development": 8,
    "PR Created": 16,
    "Ready Prod": 1,
    "WAITING REVIEW": 2
@@ -445,7 +445,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 48,
+    "open": 49,
     "med_age": 11.9,
     "max_age": 12.9,
     "worst_key": "PLANS-24785",
@@ -453,19 +453,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 662
+    "clear_n": 663
    },
    {
     "status": "Ready for Development",
-    "open": 59,
+    "open": 57,
     "med_age": 7.5,
     "max_age": 45.8,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 30,
+    "over": 29,
     "clear_med": 0.8,
-    "clear_n": 245
+    "clear_n": 247
    },
    {
     "status": "In Stage",
@@ -482,14 +482,14 @@
    {
     "status": "PR Created",
     "open": 32,
-    "med_age": 4.3,
+    "med_age": 4.4,
     "max_age": 12.5,
     "worst_key": "PLANS-24828",
     "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 717
+    "clear_n": 720
    },
    {
     "status": "WAITING REVIEW",
@@ -505,18 +505,18 @@
    },
    {
     "status": "PR Merged",
-    "open": 11,
+    "open": 12,
     "med_age": 0.4,
     "max_age": 0.7,
-    "worst_key": "PLANS-25175",
-    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
-    "worst_who": "Valentyna Tenus",
+    "worst_key": "PLANS-25162",
+    "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 672
+    "clear_n": 674
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -524,8 +524,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -540,7 +540,7 @@
     "clear_n": 73
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -548,16 +548,16 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 94,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 94
   },
   "open_total": 200,
-  "stale": 69,
+  "stale": 68,
   "worst": "In Development"
  }
 }
