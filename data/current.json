@@ -151,18 +151,18 @@
    99,
    7,
    242,
-   242,
+   244,
    29,
-   0,
+   1,
    [
     206.0,
     214.0,
-    213.0
+    215.0
    ],
    [
     209.0,
     242.0,
-    242.0
+    244.0
    ]
   ],
   [
@@ -235,7 +235,7 @@
    ],
    "open": [
     56,
-    211
+    213
    ],
    "out": [
     0,
@@ -472,6 +472,10 @@
      "n": 10,
      "med": 13.45
     },
+    "Ready for Development": {
+     "n": 21,
+     "med": 0.76
+    },
     "To Do": {
      "n": 18,
      "med": 13.45
@@ -493,12 +497,8 @@
      "med": 13.43
     },
     "PR Merged": {
-     "n": 8,
-     "med": 0.02
-    },
-    "Ready for Development": {
-     "n": 20,
-     "med": 0.76
+     "n": 9,
+     "med": 0.04
     },
     "In Stage": {
      "n": 14,
@@ -518,18 +518,18 @@
     }
    },
    "dist": {
-    "Backlog": 7,
+    "Ready for Development": 5,
     "Done": 16,
-    "PR Created": 23,
+    "PR Created": 22,
+    "PR Merged": 2,
     "In Progress": 6,
     "In Development": 9,
     "In Stage": 12,
-    "Ready for Development": 4,
     "To Do": 12,
     "Closed": 4,
     "Ready Prod": 3,
-    "PR Merged": 1,
-    "WAITING REVIEW": 2
+    "WAITING REVIEW": 2,
+    "Backlog": 6
    },
    "stalled": 92,
    "worst": 13.45,
@@ -575,7 +575,7 @@
      "med": 0.11
     },
     "PR Merged": {
-     "n": 39,
+     "n": 40,
      "med": 0.07
     },
     "On Hold": {
@@ -598,8 +598,8 @@
     "Ready Prod": 3,
     "Ready for Development": 12,
     "Done": 18,
-    "PR Merged": 9,
-    "PR Created": 14,
+    "PR Merged": 10,
+    "PR Created": 13,
     "In Stage": 16,
     "On Hold": 8,
     "Backlog": 81,
@@ -652,7 +652,7 @@
   "Plans Pod 1-Sprint 26-26": [
    206.0,
    214.0,
-   213.0
+   215.0
   ],
   "Plans Pod 2-Sprint 26-26": [
    246.0,
