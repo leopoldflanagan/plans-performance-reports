@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T14:04:26Z",
+ "generated": "2026-11-10T14:32:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -384,8 +384,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 10,
-   "PR Created": 19,
+   "In Development": 8,
+   "PR Created": 21,
    "To Do": 19,
    "Ready for Development": 13,
    "Done": 10,
@@ -441,7 +441,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 43,
+    "open": 40,
     "med_age": 13.1,
     "max_age": 13.1,
     "worst_key": "PLANS-24785",
@@ -449,19 +449,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 678
+    "clear_n": 680
    },
    {
     "status": "Ready for Development",
     "open": 45,
-    "med_age": 10.8,
+    "med_age": 10.9,
     "max_age": 46.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 28,
     "clear_med": 0.8,
-    "clear_n": 258
+    "clear_n": 257
    },
    {
     "status": "In Stage",
@@ -473,13 +473,13 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 403
+    "clear_n": 402
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 25.5,
-    "max_age": 32.8,
+    "max_age": 32.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -489,39 +489,27 @@
    },
    {
     "status": "PR Created",
-    "open": 43,
-    "med_age": 0.4,
+    "open": 48,
+    "med_age": 0.2,
     "max_age": 7.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 740
+    "clear_n": 739
    },
    {
     "status": "PR Merged",
-    "open": 17,
-    "med_age": 0.0,
+    "open": 15,
+    "med_age": 0.1,
     "max_age": 0.9,
     "worst_key": "PLANS-25162",
     "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 690
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_n": 691
    },
    {
     "status": "Ready for Stage",
@@ -546,11 +534,23 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 73
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 92,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 93
   },
   "open_total": 198,
   "stale": 62,
