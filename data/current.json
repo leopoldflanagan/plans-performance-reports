@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 250,
+  "closed": 251,
   "discarded": 4,
-  "resolved": 254,
+  "resolved": 255,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    92
+    93
    ],
    [
     "TechDebt",
@@ -43,10 +43,10 @@
   "day": 10,
   "days": 28,
   "status": "risk",
-  "headline": "250 items closed in the first 10 days, a pace of about 700 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "251 items closed in the first 10 days, a pace of about 703 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 6.5d and average 12.7d, both past the healthy band"
+   "cycle time median 6.7d and average 12.8d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -170,15 +170,15 @@
    "Nov 9",
    "Nov 23",
    279,
-   8,
+   9,
    275,
    275,
-   31,
+   34,
    0,
    [
     246.0,
     244.0,
-    244.0
+    241.0
    ],
    [
     271.0,
@@ -250,12 +250,12 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "done": [
-    8,
-    11
+    9,
+    14
    ],
    "open": [
-    139,
-    259
+    138,
+    256
    ],
    "out": [
     1,
@@ -369,15 +369,15 @@
     "Done": 124,
     "PR Merged": 10,
     "Ready Prod": 17,
-    "Closed": 75,
+    "Closed": 76,
     "PR Created": 12,
     "Ready for Development": 11,
     "On Hold": 8,
     "In Stage": 12,
     "Backlog": 82,
     "Blocked": 1,
-    "In Development": 2,
-    "Will Not Implement": 11
+    "Will Not Implement": 11,
+    "In Development": 1
    },
    "stalled": 334,
    "worst": 14.21,
@@ -551,8 +551,8 @@
      "med": 12.97
     },
     "Closed": {
-     "n": 2,
-     "med": 12.63
+     "n": 3,
+     "med": 12.51
     },
     "In Progress": {
      "n": 16,
@@ -593,7 +593,7 @@
    },
    "dist": {
     "To Do": 99,
-    "Closed": 2,
+    "Closed": 3,
     "In Progress": 15,
     "Ready Prod": 4,
     "Ready for Development": 12,
@@ -603,10 +603,9 @@
     "On Hold": 8,
     "In Stage": 15,
     "Backlog": 81,
-    "Blocked": 1,
-    "In Development": 1
+    "Blocked": 1
    },
-   "stalled": 273,
+   "stalled": 272,
    "worst": 13.43,
    "worstSt": "To Do",
    "items": 279
@@ -657,25 +656,25 @@
   "Plans Pod 2-Sprint 26-26": [
    246.0,
    244.0,
-   244.0
+   241.0
   ]
  },
  "CAP": {
   "9.10": [
-   250,
-   188,
-   577,
+   251,
+   189,
+   580,
    22
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 6.5,
-   "avg": 12.72,
-   "n": 152,
+   "med": 6.65,
+   "avg": 12.77,
+   "n": 153,
    "mx": 92.49,
    "nodev": 98,
-   "base": 250
+   "base": 251
   }
  },
  "complete": false,
