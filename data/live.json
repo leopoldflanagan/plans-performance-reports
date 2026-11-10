@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T19:04:06Z",
+ "generated": "2026-11-10T19:32:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -368,7 +368,7 @@
   "completed": 28,
   "scope_change": 0,
   "vs_commitment": 12,
-  "time_elapsed": 7,
+  "time_elapsed": 8,
   "spill": {
    "open_items": 56,
    "open_pts": 212.0,
@@ -384,9 +384,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "Done": 14,
+   "Done": 15,
    "PR Created": 23,
-   "In Progress": 8,
+   "In Progress": 7,
    "In Development": 9,
    "In Stage": 13,
    "Ready for Development": 4,
@@ -399,14 +399,17 @@
   },
   "burn": [
    206.0,
+   214.0,
    214.0
   ],
   "scope": [
    209.0,
+   242.0,
    242.0
   ],
   "ghost": [
    206.0,
+   214.0,
    214.0
   ],
   "days": 14,
@@ -479,8 +482,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 25.7,
-    "max_age": 33.0,
+    "med_age": 25.8,
+    "max_age": 33.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -499,6 +502,18 @@
     "over": 1,
     "clear_med": 0.0,
     "clear_n": 771
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    },
    {
     "status": "PR Merged",
@@ -525,18 +540,6 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -550,8 +553,8 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 88
+   "Backlog": 88,
+   "On Hold": 9
   },
   "open_total": 194,
   "stale": 61,
