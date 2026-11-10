@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T13:39:47Z",
+ "generated": "2026-11-10T14:04:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -56,7 +56,7 @@
   "days": 14,
   "n": 21,
   "done_now": 3,
-  "committed": 246,
+  "committed": 241,
   "lo": 11,
   "mid": 12,
   "hi": 20,
@@ -213,16 +213,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 8,
+    "n": 6,
     "items": [
-     {
-      "key": "PLANS-25216",
-      "summary": "PLANS-25216: Epic 4: Story 4.5 - wf-plans-widget: move the suite onto Vitest, ma"
-     },
-     {
-      "key": "PLANS-25213",
-      "summary": "PLANS-25213: Epic 4: Story 4.4 - wf-plans-widget: restructure the library onto t"
-     },
      {
       "key": "PLANS-24259",
       "summary": "PLANS-24259: Epic 5: Story 5.4 - Smile Health portal: close the coverage gap and"
@@ -254,7 +246,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 79,
+    "n": 78,
     "items": [
      {
       "key": "PLANS-24964",
@@ -371,15 +363,15 @@
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 100,
   "items_done": 1,
-  "committed": 246,
-  "final": 246,
+  "committed": 241,
+  "final": 241,
   "completed": 3,
   "scope_change": 0,
   "vs_commitment": 1,
   "time_elapsed": 6,
   "spill": {
    "open_items": 62,
-   "open_pts": 241.0,
+   "open_pts": 236.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 0
@@ -392,29 +384,29 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 8,
    "In Development": 10,
+   "PR Created": 19,
    "To Do": 19,
    "Ready for Development": 13,
    "Done": 10,
    "In Progress": 6,
-   "PR Created": 17,
    "PR Merged": 1,
    "In Stage": 13,
    "Ready Prod": 1,
-   "WAITING REVIEW": 2
+   "WAITING REVIEW": 2,
+   "Backlog": 6
   },
   "burn": [
    205.0,
-   243.0
+   238.0
   ],
   "scope": [
    208.0,
-   246.0
+   241.0
   ],
   "ghost": [
    205.0,
-   243.0
+   238.0
   ],
   "days": 14,
   "day": 2
@@ -457,7 +449,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 676
+    "clear_n": 678
    },
    {
     "status": "Ready for Development",
@@ -497,39 +489,27 @@
    },
    {
     "status": "PR Created",
-    "open": 42,
-    "med_age": 0.6,
+    "open": 43,
+    "med_age": 0.4,
     "max_age": 7.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 735
+    "clear_n": 740
    },
    {
     "status": "PR Merged",
-    "open": 16,
-    "med_age": 0.1,
+    "open": 17,
+    "med_age": 0.0,
     "max_age": 0.9,
     "worst_key": "PLANS-25162",
     "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 686
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
+    "clear_n": 690
    },
    {
     "status": "In PreProd",
@@ -554,13 +534,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    }
   ],
   "parked": {
-   "Backlog": 94,
+   "Backlog": 92,
    "On Hold": 9
   },
-  "open_total": 196,
+  "open_total": 198,
   "stale": 62,
   "worst": "In Development"
  }

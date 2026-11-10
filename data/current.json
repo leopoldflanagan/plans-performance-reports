@@ -150,17 +150,17 @@
    "Nov 23",
    100,
    1,
-   246,
-   246,
+   241,
+   241,
    3,
    0,
    [
     205.0,
-    243.0
+    238.0
    ],
    [
     208.0,
-    246.0
+    241.0
    ]
   ],
   [
@@ -231,7 +231,7 @@
    ],
    "open": [
     62,
-    241
+    236
    ],
    "out": [
     0,
@@ -361,10 +361,10 @@
     "Ready for Development": 12,
     "Ready Prod": 14,
     "Closed": 75,
-    "PR Created": 16,
+    "PR Merged": 3,
     "In Progress": 10,
+    "PR Created": 18,
     "In Development": 3,
-    "PR Merged": 5,
     "On Hold": 8,
     "In Stage": 14,
     "Backlog": 82,
@@ -463,8 +463,12 @@
      "med": 13.45
     },
     "In Development": {
-     "n": 15,
-     "med": 12.86
+     "n": 17,
+     "med": 12.8
+    },
+    "PR Created": {
+     "n": 23,
+     "med": 13.45
     },
     "To Do": {
      "n": 19,
@@ -480,10 +484,6 @@
     },
     "In Progress": {
      "n": 6,
-     "med": 13.45
-    },
-    "PR Created": {
-     "n": 21,
      "med": 13.45
     },
     "PR Merged": {
@@ -504,21 +504,21 @@
     }
    },
    "dist": {
-    "Backlog": 8,
     "In Development": 10,
+    "PR Created": 19,
     "To Do": 19,
     "Ready for Development": 13,
     "Done": 10,
     "In Progress": 6,
-    "PR Created": 17,
     "PR Merged": 1,
     "In Stage": 13,
     "Ready Prod": 1,
-    "WAITING REVIEW": 2
+    "WAITING REVIEW": 2,
+    "Backlog": 6
    },
    "stalled": 99,
    "worst": 13.45,
-   "worstSt": "To Do",
+   "worstSt": "PR Created",
    "items": 100
   },
   "Plans Pod 2-Sprint 26-26": {
@@ -549,15 +549,15 @@
     },
     "In Development": {
      "n": 18,
-     "med": 0.59
+     "med": 0.4
     },
     "PR Created": {
-     "n": 36,
-     "med": 0.14
+     "n": 41,
+     "med": 0.15
     },
     "PR Merged": {
-     "n": 21,
-     "med": 0.5
+     "n": 23,
+     "med": 0.07
     },
     "In Progress": {
      "n": 10,
@@ -582,10 +582,10 @@
     "Done": 17,
     "Ready for Development": 12,
     "Closed": 1,
-    "PR Created": 16,
+    "PR Merged": 3,
     "In Progress": 10,
-    "In Development": 3,
-    "PR Merged": 5,
+    "PR Created": 19,
+    "In Development": 2,
     "On Hold": 8,
     "In Stage": 17,
     "Backlog": 81,
@@ -636,7 +636,7 @@
   ],
   "Plans Pod 1-Sprint 26-26": [
    205.0,
-   243.0
+   238.0
   ],
   "Plans Pod 2-Sprint 26-26": [
    246.0,
