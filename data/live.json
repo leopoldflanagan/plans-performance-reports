@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T07:32:42Z",
+ "generated": "2026-11-10T08:05:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -447,7 +447,7 @@
     "status": "In Development",
     "open": 48,
     "med_age": 11.8,
-    "max_age": 12.8,
+    "max_age": 12.9,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -459,7 +459,7 @@
     "status": "Ready for Development",
     "open": 59,
     "med_age": 7.5,
-    "max_age": 45.7,
+    "max_age": 45.8,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -470,11 +470,11 @@
    {
     "status": "In Stage",
     "open": 47,
-    "med_age": 3.6,
-    "max_age": 4.6,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "med_age": 3.7,
+    "max_age": 4.7,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 404
@@ -507,13 +507,25 @@
     "status": "PR Merged",
     "open": 11,
     "med_age": 0.4,
-    "max_age": 0.6,
-    "worst_key": "PLANS-25175",
-    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 0.7,
+    "worst_key": "PLANS-25162",
+    "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 671
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "In QA",
@@ -538,23 +550,11 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 95,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 95
   },
   "open_total": 199,
   "stale": 68,
