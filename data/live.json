@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T00:09:55Z",
+ "generated": "2026-11-10T00:43:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 32,
-   "points": 103
+   "items": 31,
+   "points": 98
   },
   "misfiled": {
    "items": 31,
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 121,
+   "ready": 120,
    "sprint": 62,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -174,7 +174,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 29,
+    "n": 28,
     "items": [
      {
       "key": "PLANS-25152",
@@ -288,14 +288,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 165 of 168 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 165,
+    "why": "missing on 164 of 167 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 164,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 168 of 168 items. This reads as a field the team does not use rather than 168 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 168,
+    "why": "missing on 167 of 167 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 167,
     "items": []
    },
    {
@@ -445,9 +445,9 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 48,
+    "open": 49,
     "med_age": 11.5,
-    "max_age": 12.5,
+    "max_age": 12.6,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -457,24 +457,24 @@
    },
    {
     "status": "Ready for Development",
-    "open": 62,
-    "med_age": 6.1,
-    "max_age": 45.4,
+    "open": 61,
+    "med_age": 6.2,
+    "max_age": 45.5,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 30,
     "clear_med": 0.8,
-    "clear_n": 242
+    "clear_n": 243
    },
    {
     "status": "In Stage",
     "open": 47,
     "med_age": 3.3,
-    "max_age": 4.3,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "max_age": 4.4,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 406
@@ -482,14 +482,14 @@
    {
     "status": "PR Created",
     "open": 28,
-    "med_age": 4.6,
+    "med_age": 4.7,
     "max_age": 12.1,
     "worst_key": "PLANS-24828",
     "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 711
+    "clear_n": 712
    },
    {
     "status": "WAITING REVIEW",
@@ -507,13 +507,25 @@
     "status": "PR Merged",
     "open": 12,
     "med_age": 0.2,
-    "max_age": 0.3,
-    "worst_key": "PLANS-25175",
-    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 0.4,
+    "worst_key": "PLANS-25168",
+    "worst_sum": "Switched-off plan does not cover visits before its DisabledOn date, Denticon and Epic clai",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 665
+    "clear_n": 666
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    },
    {
     "status": "Ready for Stage",
@@ -538,18 +550,6 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
    }
   ],
   "parked": {
