@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T10:04:20Z",
+ "generated": "2026-11-10T10:32:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -446,8 +446,8 @@
    {
     "status": "In Development",
     "open": 43,
-    "med_age": 12.9,
-    "max_age": 12.9,
+    "med_age": 13.0,
+    "max_age": 13.0,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -470,7 +470,7 @@
    {
     "status": "In Stage",
     "open": 48,
-    "med_age": 3.7,
+    "med_age": 3.8,
     "max_age": 4.8,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
@@ -507,25 +507,13 @@
     "status": "PR Merged",
     "open": 11,
     "med_age": 0.5,
-    "max_age": 0.7,
+    "max_age": 0.8,
     "worst_key": "PLANS-25162",
     "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 674
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -550,11 +538,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 94,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 94
   },
   "open_total": 201,
   "stale": 68,
