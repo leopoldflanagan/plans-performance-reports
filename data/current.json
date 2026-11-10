@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 240,
+  "closed": 241,
   "discarded": 4,
-  "resolved": 244,
+  "resolved": 245,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    85
+    86
    ],
    [
     "TechDebt",
@@ -43,10 +43,10 @@
   "day": 10,
   "days": 28,
   "status": "risk",
-  "headline": "240 items closed in the first 10 days, a pace of about 672 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "241 items closed in the first 10 days, a pace of about 675 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 6.7d and average 12.4d, both past the healthy band"
+   "cycle time median 6.5d and average 12.3d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -104,44 +104,44 @@
    178,
    68,
    94,
-   276,
+   278,
    245,
-   194,
+   196,
    [
     84.0,
     82.0,
     76.0,
     71.0,
-    70.0,
-    65.0,
-    65.0,
-    65.0,
-    48.0,
-    153.0,
-    174.0,
-    195.0,
-    97.0,
-    97.0,
-    94.0,
-    26.0
+    72.0,
+    67.0,
+    67.0,
+    67.0,
+    50.0,
+    155.0,
+    176.0,
+    197.0,
+    99.0,
+    99.0,
+    96.0,
+    28.0
    ],
    [
     92.0,
     92.0,
     96.0,
     100.0,
-    101.0,
-    107.0,
-    107.0,
-    107.0,
+    103.0,
     109.0,
-    216.0,
-    242.0,
-    268.0,
-    271.0,
-    271.0,
-    271.0,
-    271.0
+    109.0,
+    109.0,
+    111.0,
+    218.0,
+    244.0,
+    270.0,
+    273.0,
+    273.0,
+    273.0,
+    273.0
    ]
   ],
   [
@@ -149,18 +149,18 @@
    "Nov 9",
    "Nov 23",
    101,
-   5,
-   243,
-   243,
-   27,
+   6,
+   245,
+   245,
+   28,
    0,
    [
-    207.0,
-    216.0
+    209.0,
+    217.0
    ],
    [
-    210.0,
-    243.0
+    212.0,
+    245.0
    ]
   ],
   [
@@ -226,12 +226,12 @@
   },
   "Plans Pod 1-Sprint 26-26": {
    "done": [
-    5,
-    24
+    6,
+    25
    ],
    "open": [
-    58,
-    214
+    57,
+    215
    ],
    "out": [
     0,
@@ -239,7 +239,7 @@
    ],
    "in": [
     15,
-    26
+    28
    ],
    "in_pct": 11,
    "in_from": "Plans-Sprint 25-26"
@@ -440,13 +440,14 @@
     }
    },
    "dist": {
-    "In Progress": 5,
-    "To Do": 16,
-    "Done": 72,
-    "In Stage": 7,
-    "Ready Prod": 37,
+    "Done": 74,
+    "In Progress": 6,
+    "To Do": 13,
+    "In Stage": 6,
+    "Ready Prod": 38,
     "Closed": 33,
-    "PR Created": 2,
+    "PR Merged": 1,
+    "PR Created": 1,
     "In Development": 2,
     "Ready for Development": 1,
     "Backlog": 2,
@@ -464,7 +465,11 @@
      "med": 13.45
     },
     "In Progress": {
-     "n": 7,
+     "n": 10,
+     "med": 12.99
+    },
+    "Done": {
+     "n": 12,
      "med": 13.45
     },
     "Backlog": {
@@ -480,28 +485,24 @@
      "med": 13.43
     },
     "PR Merged": {
-     "n": 7,
-     "med": 0.01
+     "n": 8,
+     "med": 0.02
     },
     "Ready for Development": {
      "n": 21,
      "med": 0.76
     },
-    "Done": {
-     "n": 10,
-     "med": 13.45
-    },
     "In Stage": {
      "n": 14,
-     "med": 13.4
+     "med": 13.35
     },
     "Closed": {
      "n": 4,
      "med": 12.58
     },
     "Ready Prod": {
-     "n": 1,
-     "med": 13.45
+     "n": 2,
+     "med": 12.99
     },
     "WAITING REVIEW": {
      "n": 2,
@@ -509,19 +510,20 @@
     }
    },
    "dist": {
-    "In Progress": 7,
-    "PR Created": 24,
-    "To Do": 19,
+    "Done": 12,
+    "PR Created": 23,
+    "In Progress": 8,
+    "To Do": 16,
     "In Development": 10,
-    "Done": 10,
-    "In Stage": 14,
+    "In Stage": 13,
     "Ready for Development": 4,
     "Closed": 4,
-    "Ready Prod": 1,
+    "Ready Prod": 2,
+    "PR Merged": 1,
     "WAITING REVIEW": 2,
     "Backlog": 6
    },
-   "stalled": 96,
+   "stalled": 95,
    "worst": 13.45,
    "worstSt": "To Do",
    "items": 101
@@ -626,22 +628,22 @@
    84.0,
    78.0,
    73.0,
-   72.0,
-   67.0,
-   67.0,
-   67.0,
-   51.0,
-   153.0,
-   174.0,
-   195.0,
-   97.0,
-   97.0,
-   94.0,
-   26.0
+   74.0,
+   69.0,
+   69.0,
+   69.0,
+   53.0,
+   155.0,
+   176.0,
+   197.0,
+   99.0,
+   99.0,
+   96.0,
+   28.0
   ],
   "Plans Pod 1-Sprint 26-26": [
-   207.0,
-   216.0
+   209.0,
+   217.0
   ],
   "Plans Pod 2-Sprint 26-26": [
    246.0,
@@ -650,20 +652,20 @@
  },
  "CAP": {
   "9.10": [
-   240,
-   180,
-   564,
-   21
+   241,
+   181,
+   565,
+   22
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 6.65,
-   "avg": 12.36,
-   "n": 145,
+   "med": 6.5,
+   "avg": 12.28,
+   "n": 146,
    "mx": 92.49,
    "nodev": 95,
-   "base": 240
+   "base": 241
   }
  },
  "complete": false,

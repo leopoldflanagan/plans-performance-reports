@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T17:04:07Z",
+ "generated": "2026-11-10T17:32:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 2,
   "days": 14,
   "n": 21,
-  "done_now": 27,
-  "committed": 243,
-  "lo": 97,
-  "mid": 106,
-  "hi": 179,
-  "pct": 44,
+  "done_now": 28,
+  "committed": 245,
+  "lo": 100,
+  "mid": 110,
+  "hi": 185,
+  "pct": 45,
   "verdict": "well short of the commitment",
   "share_mid": 0.255
  },
@@ -362,51 +362,52 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 101,
-  "items_done": 5,
-  "committed": 243,
-  "final": 243,
-  "completed": 27,
+  "items_done": 6,
+  "committed": 245,
+  "final": 245,
+  "completed": 28,
   "scope_change": 0,
   "vs_commitment": 11,
   "time_elapsed": 7,
   "spill": {
-   "open_items": 58,
-   "open_pts": 214.0,
+   "open_items": 57,
+   "open_pts": 215.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 24.0
+   "done_pts": 25.0
   },
   "recv": {
    "items": 15,
-   "pts": 26,
+   "pts": 28,
    "pct": 11,
    "from": "Plans-Sprint 25-26"
   },
   "spill_rate": null,
   "dist": {
-   "In Progress": 7,
-   "PR Created": 24,
-   "To Do": 19,
+   "Done": 12,
+   "PR Created": 23,
+   "In Progress": 8,
+   "To Do": 16,
    "In Development": 10,
-   "Done": 10,
-   "In Stage": 14,
+   "In Stage": 13,
    "Ready for Development": 4,
    "Closed": 4,
-   "Ready Prod": 1,
+   "Ready Prod": 2,
+   "PR Merged": 1,
    "WAITING REVIEW": 2,
    "Backlog": 6
   },
   "burn": [
-   207.0,
-   216.0
+   209.0,
+   217.0
   ],
   "scope": [
-   210.0,
-   243.0
+   212.0,
+   245.0
   ],
   "ghost": [
-   207.0,
-   216.0
+   209.0,
+   217.0
   ],
   "days": 14,
   "day": 2
@@ -420,12 +421,12 @@
   "end": "2026-11-22",
   "day": 16,
   "days": 28,
-  "closed": 240,
-  "points": 564,
+  "closed": 241,
+  "points": 565,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 21,
+  "people_active": 22,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -443,7 +444,7 @@
     "status": "In Development",
     "open": 46,
     "med_age": 12.2,
-    "max_age": 13.2,
+    "max_age": 13.3,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -455,7 +456,7 @@
     "status": "Ready for Development",
     "open": 32,
     "med_age": 16.4,
-    "max_age": 46.1,
+    "max_age": 46.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -467,10 +468,10 @@
     "status": "In Stage",
     "open": 62,
     "med_age": 4.0,
-    "max_age": 5.0,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "max_age": 5.1,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 404
@@ -489,15 +490,27 @@
    },
    {
     "status": "PR Created",
-    "open": 46,
-    "med_age": 0.2,
+    "open": 45,
+    "med_age": 0.3,
     "max_age": 7.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 755
+    "clear_n": 756
+   },
+   {
+    "status": "PR Merged",
+    "open": 7,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-24831",
+    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
+    "worst_who": "Rostyslav  Masniuk",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 716
    },
    {
     "status": "In PreProd",
@@ -534,23 +547,11 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 73
-   },
-   {
-    "status": "PR Merged",
-    "open": 6,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-24831",
-    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
-    "worst_who": "Rostyslav  Masniuk",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 716
    }
   ],
   "parked": {
-   "Backlog": 91,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 91
   },
   "open_total": 194,
   "stale": 61,
