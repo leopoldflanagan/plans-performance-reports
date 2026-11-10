@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 247,
+  "closed": 248,
   "discarded": 4,
-  "resolved": 251,
+  "resolved": 252,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    90
+    91
    ],
    [
     "TechDebt",
@@ -43,10 +43,10 @@
   "day": 10,
   "days": 28,
   "status": "risk",
-  "headline": "247 items closed in the first 10 days, a pace of about 692 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "248 items closed in the first 10 days, a pace of about 694 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 6.3d and average 12.2d, both past the healthy band"
+   "cycle time median 6.5d and average 12.5d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -444,8 +444,8 @@
     }
    },
    "dist": {
-    "Done": 77,
-    "In Progress": 5,
+    "Done": 78,
+    "In Progress": 4,
     "In Stage": 5,
     "To Do": 9,
     "Ready Prod": 39,
@@ -473,7 +473,7 @@
      "med": 12.99
     },
     "Done": {
-     "n": 15,
+     "n": 16,
      "med": 13.45
     },
     "Backlog": {
@@ -514,9 +514,9 @@
     }
    },
    "dist": {
-    "Done": 15,
+    "Done": 16,
     "PR Created": 23,
-    "In Progress": 7,
+    "In Progress": 6,
     "In Development": 9,
     "In Stage": 12,
     "Ready for Development": 4,
@@ -658,20 +658,20 @@
  },
  "CAP": {
   "9.10": [
-   247,
-   185,
-   573,
+   248,
+   186,
+   574,
    22
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 6.35,
-   "avg": 12.15,
-   "n": 149,
+   "med": 6.5,
+   "avg": 12.48,
+   "n": 150,
    "mx": 92.49,
    "nodev": 98,
-   "base": 247
+   "base": 248
   }
  },
  "complete": false,

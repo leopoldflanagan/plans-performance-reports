@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T20:03:55Z",
+ "generated": "2026-11-10T20:32:28Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,7 +16,7 @@
    "points": 18
   },
   "misfiled": {
-   "items": 30,
+   "items": 31,
    "points": 126
   },
   "runway": null,
@@ -26,14 +26,14 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 30,
+    "n": 31,
     "points": 126,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 60,
-    "points": 105,
+    "n": 59,
+    "points": 104,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 94,
+   "ready": 93,
    "sprint": 64,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 67,
+    "n": 66,
     "items": [
      {
       "key": "PLANS-25223",
@@ -246,7 +246,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 79,
+    "n": 78,
     "items": [
      {
       "key": "PLANS-25063",
@@ -284,20 +284,20 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 151 of 154 items. This reads as a field the team does not use rather than 151 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 151,
+    "why": "missing on 150 of 153 items. This reads as a field the team does not use rather than 150 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 150,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 154 of 154 items. This reads as a field the team does not use rather than 154 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 154,
+    "why": "missing on 153 of 153 items. This reads as a field the team does not use rather than 153 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 153,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 28,
+    "n": 27,
     "items": [
      {
       "key": "PLANS-24273",
@@ -306,10 +306,6 @@
      {
       "key": "PLANS-22675",
       "summary": "Unify Font's in the Plans Widget Checkout Screen"
-     },
-     {
-      "key": "PLANS-22023",
-      "summary": "Dashboard - 'Core plan'/ 'Plan sold' Count increased when Refund a plan"
      },
      {
       "key": "PLANS-21609",
@@ -330,6 +326,10 @@
      {
       "key": "PLANS-14582",
       "summary": "Update UI for CSP"
+     },
+     {
+      "key": "PLANS-14568",
+      "summary": "Integrating plans API into CSP (Dev Only)"
      }
     ]
    }
@@ -384,9 +384,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "Done": 15,
+   "Done": 16,
    "PR Created": 23,
-   "In Progress": 7,
+   "In Progress": 6,
    "In Development": 9,
    "In Stage": 12,
    "Ready for Development": 4,
@@ -424,8 +424,8 @@
   "end": "2026-11-22",
   "day": 16,
   "days": 28,
-  "closed": 247,
-  "points": 573,
+  "closed": 248,
+  "points": 574,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -453,7 +453,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 694
+    "clear_n": 693
    },
    {
     "status": "Ready for Development",
@@ -465,19 +465,19 @@
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 269
+    "clear_n": 268
    },
    {
     "status": "In Stage",
     "open": 62,
-    "med_age": 4.1,
+    "med_age": 4.2,
     "max_age": 5.2,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 403
+    "clear_n": 402
    },
    {
     "status": "WAITING REVIEW",
@@ -494,14 +494,14 @@
    {
     "status": "PR Created",
     "open": 37,
-    "med_age": 0.7,
-    "max_age": 7.8,
+    "med_age": 0.8,
+    "max_age": 7.9,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 770
+    "clear_n": 769
    },
    {
     "status": "PR Merged",
@@ -513,19 +513,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 717
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 716
    },
    {
     "status": "In QA",
@@ -550,11 +538,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 89
+   "Backlog": 90,
+   "On Hold": 9
   },
   "open_total": 194,
   "stale": 61,
