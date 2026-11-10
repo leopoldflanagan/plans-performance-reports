@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T12:05:57Z",
+ "generated": "2026-11-10T12:33:24Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -217,7 +217,7 @@
     "items": [
      {
       "key": "PLANS-25213",
-      "summary": "Epic 4: Story 4.4 - wf-plans-widget: restructure the library onto the standard l"
+      "summary": "PLANS-25213: Epic 4: Story 4.4 - wf-plans-widget: restructure the library onto t"
      },
      {
       "key": "PLANS-24259",
@@ -453,13 +453,13 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 669
+    "clear_n": 670
    },
    {
     "status": "Ready for Development",
     "open": 56,
     "med_age": 7.2,
-    "max_age": 45.9,
+    "max_age": 46.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -471,25 +471,13 @@
     "status": "In Stage",
     "open": 48,
     "med_age": 3.8,
-    "max_age": 4.8,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "max_age": 4.9,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 403
-   },
-   {
-    "status": "PR Created",
-    "open": 40,
-    "med_age": 4.2,
-    "max_age": 12.6,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
-    "worst_who": "Dima Shtympel",
-    "over": 6,
-    "clear_med": 0.0,
-    "clear_n": 718
    },
    {
     "status": "WAITING REVIEW",
@@ -504,16 +492,40 @@
     "clear_n": 23
    },
    {
+    "status": "PR Created",
+    "open": 42,
+    "med_age": 0.8,
+    "max_age": 7.5,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 1,
+    "clear_med": 0.0,
+    "clear_n": 727
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
+   },
+   {
     "status": "PR Merged",
-    "open": 11,
-    "med_age": 0.5,
+    "open": 10,
+    "med_age": 0.0,
     "max_age": 0.8,
     "worst_key": "PLANS-25162",
     "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 674
+    "clear_n": 684
    },
    {
     "status": "In PreProd",
@@ -538,26 +550,14 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
    }
   ],
   "parked": {
-   "Backlog": 94,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 93
   },
-  "open_total": 200,
-  "stale": 67,
+  "open_total": 201,
+  "stale": 62,
   "worst": "In Development"
  }
 }
