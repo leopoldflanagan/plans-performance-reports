@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T10:32:45Z",
+ "generated": "2026-11-10T11:03:48Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 59,
-    "points": 112,
+    "n": 58,
+    "points": 111,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 116,
+   "ready": 115,
    "sprint": 63,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 66,
+    "n": 65,
     "items": [
      {
       "key": "PLANS-25152",
@@ -390,13 +390,13 @@
   "dist": {
    "Backlog": 7,
    "To Do": 19,
-   "Ready for Development": 14,
+   "Ready for Development": 13,
    "Done": 10,
    "In Progress": 6,
    "PR Created": 17,
    "PR Merged": 1,
    "In Stage": 13,
-   "In Development": 8,
+   "In Development": 9,
    "Ready Prod": 1,
    "WAITING REVIEW": 2
   },
@@ -453,28 +453,28 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 668
+    "clear_n": 669
    },
    {
     "status": "Ready for Development",
-    "open": 57,
-    "med_age": 7.6,
+    "open": 56,
+    "med_age": 7.1,
     "max_age": 45.9,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 29,
+    "over": 28,
     "clear_med": 0.8,
-    "clear_n": 246
+    "clear_n": 247
    },
    {
     "status": "In Stage",
     "open": 48,
     "med_age": 3.8,
     "max_age": 4.8,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 403
@@ -483,9 +483,9 @@
     "status": "PR Created",
     "open": 40,
     "med_age": 4.1,
-    "max_age": 12.5,
-    "worst_key": "PLANS-24828",
-    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
+    "max_age": 12.6,
+    "worst_key": "PLANS-24822",
+    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
@@ -528,18 +528,6 @@
     "clear_n": 73
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -550,14 +538,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 94
+   "Backlog": 94,
+   "On Hold": 10
   },
-  "open_total": 201,
-  "stale": 68,
+  "open_total": 200,
+  "stale": 67,
   "worst": "In Development"
  }
 }
