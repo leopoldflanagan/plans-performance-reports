@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T11:03:48Z",
+ "generated": "2026-11-10T11:32:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -484,8 +484,8 @@
     "open": 40,
     "med_age": 4.1,
     "max_age": 12.6,
-    "worst_key": "PLANS-24822",
-    "worst_sum": "[1.2] Legal Language Additions - legal-language: seed the Not WA, Rx and Rx - Not WA texts",
+    "worst_key": "PLANS-24828",
+    "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
@@ -516,6 +516,18 @@
     "clear_n": 674
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
+   },
+   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -538,23 +550,11 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 94,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 94
   },
   "open_total": 200,
   "stale": 67,
