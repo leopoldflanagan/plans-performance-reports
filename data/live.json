@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T23:03:45Z",
+ "generated": "2026-11-10T23:32:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 2,
   "days": 14,
   "n": 21,
-  "done_now": 29,
+  "done_now": 42,
   "committed": 242,
-  "lo": 104,
-  "mid": 114,
-  "hi": 192,
-  "pct": 47,
+  "lo": 150,
+  "mid": 164,
+  "hi": 278,
+  "pct": 68,
   "verdict": "well short of the commitment",
   "share_mid": 0.255
  },
@@ -178,7 +178,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 24,
+    "n": 23,
     "items": [
      {
       "key": "PLANS-25152",
@@ -366,19 +366,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 99,
-  "items_done": 7,
+  "items_done": 10,
   "committed": 242,
   "final": 244,
-  "completed": 29,
+  "completed": 42,
   "scope_change": 1,
-  "vs_commitment": 12,
+  "vs_commitment": 17,
   "time_elapsed": 9,
   "spill": {
-   "open_items": 56,
-   "open_pts": 213.0,
+   "open_items": 53,
+   "open_pts": 200.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 26.0
+   "done_pts": 39.0
   },
   "recv": {
    "items": 14,
@@ -391,20 +391,20 @@
    "Ready for Development": 5,
    "Done": 16,
    "PR Created": 22,
-   "PR Merged": 2,
+   "In Stage": 13,
    "In Progress": 6,
-   "In Development": 9,
-   "In Stage": 12,
+   "In Development": 6,
    "To Do": 12,
-   "Closed": 4,
+   "Closed": 7,
    "Ready Prod": 3,
+   "PR Merged": 1,
    "WAITING REVIEW": 2,
    "Backlog": 6
   },
   "burn": [
    206.0,
    214.0,
-   215.0
+   202.0
   ],
   "scope": [
    209.0,
@@ -414,7 +414,7 @@
   "ghost": [
    206.0,
    214.0,
-   215.0
+   202.0
   ],
   "days": 14,
   "day": 2
@@ -428,8 +428,8 @@
   "end": "2026-11-22",
   "day": 16,
   "days": 28,
-  "closed": 251,
-  "points": 580,
+  "closed": 254,
+  "points": 593,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -449,7 +449,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 38,
+    "open": 35,
     "med_age": 13.5,
     "max_age": 13.5,
     "worst_key": "PLANS-24785",
@@ -457,7 +457,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 692
+    "clear_n": 695
    },
    {
     "status": "Ready for Development",
@@ -473,8 +473,8 @@
    },
    {
     "status": "In Stage",
-    "open": 62,
-    "med_age": 4.3,
+    "open": 70,
+    "med_age": 4.2,
     "max_age": 5.3,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
@@ -509,27 +509,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 19,
+    "open": 11,
     "med_age": 0.2,
     "max_age": 0.3,
-    "worst_key": "PLANS-24831",
-    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
-    "worst_who": "Rostyslav  Masniuk",
+    "worst_key": "PLANS-24985",
+    "worst_sum": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 716
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_n": 724
    },
    {
     "status": "In QA",
@@ -542,6 +530,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 73
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "Ready for Stage",
@@ -557,10 +557,10 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 90
+   "Backlog": 90,
+   "On Hold": 9
   },
-  "open_total": 193,
+  "open_total": 190,
   "stale": 60,
   "worst": "In Development"
  }
