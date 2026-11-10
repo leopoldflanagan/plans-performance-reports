@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T04:32:42Z",
+ "generated": "2026-11-10T05:04:20Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -453,7 +453,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 660
+    "clear_n": 659
    },
    {
     "status": "Ready for Development",
@@ -477,7 +477,7 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 405
+    "clear_n": 404
    },
    {
     "status": "PR Created",
@@ -489,13 +489,13 @@
     "worst_who": "Dima Shtympel",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 712
+    "clear_n": 711
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 25.1,
-    "max_age": 32.4,
+    "max_age": 32.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -506,14 +506,14 @@
    {
     "status": "PR Merged",
     "open": 12,
-    "med_age": 0.3,
+    "med_age": 0.4,
     "max_age": 0.5,
     "worst_key": "PLANS-25175",
     "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 666
+    "clear_n": 665
    },
    {
     "status": "In PreProd",
@@ -528,18 +528,6 @@
     "clear_n": 21
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -550,10 +538,22 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    }
   ],
   "parked": {
-   "Backlog": 94,
+   "Backlog": 95,
    "On Hold": 9
   },
   "open_total": 199,

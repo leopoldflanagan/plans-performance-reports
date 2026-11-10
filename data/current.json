@@ -167,19 +167,19 @@
    "Plans Pod 2-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   271,
+   272,
    5,
-   271,
-   271,
+   274,
+   274,
    25,
    0,
    [
     246.0,
-    246.0
+    249.0
    ],
    [
     271.0,
-    271.0
+    274.0
    ]
   ]
  ],
@@ -250,8 +250,8 @@
     0
    ],
    "open": [
-    142,
-    269
+    143,
+    272
    ],
    "out": [
     0,
@@ -523,6 +523,10 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
+    "Backlog": {
+     "n": 82,
+     "med": 13.43
+    },
     "To Do": {
      "n": 100,
      "med": 13.43
@@ -563,16 +567,13 @@
      "n": 17,
      "med": 13.43
     },
-    "Backlog": {
-     "n": 81,
-     "med": 13.43
-    },
     "Blocked": {
      "n": 1,
      "med": 13.43
     }
    },
    "dist": {
+    "Backlog": 82,
     "To Do": 100,
     "Ready Prod": 1,
     "Done": 17,
@@ -583,13 +584,12 @@
     "In Development": 10,
     "PR Created": 5,
     "In Stage": 17,
-    "Backlog": 81,
     "Blocked": 1
    },
-   "stalled": 270,
+   "stalled": 271,
    "worst": 13.43,
    "worstSt": "To Do",
-   "items": 271
+   "items": 272
   }
  },
  "GHOST": {
@@ -635,7 +635,7 @@
   ],
   "Plans Pod 2-Sprint 26-26": [
    246.0,
-   246.0
+   249.0
   ]
  },
  "CAP": {
