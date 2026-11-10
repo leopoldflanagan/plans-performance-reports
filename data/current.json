@@ -367,13 +367,13 @@
     "To Do": 94,
     "In Progress": 14,
     "Done": 124,
-    "PR Merged": 10,
+    "PR Merged": 8,
     "Ready Prod": 17,
     "Closed": 76,
     "PR Created": 12,
     "Ready for Development": 11,
     "On Hold": 8,
-    "In Stage": 12,
+    "In Stage": 14,
     "Backlog": 82,
     "Blocked": 1,
     "Will Not Implement": 11,
@@ -539,7 +539,7 @@
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
     "To Do": {
-     "n": 105,
+     "n": 109,
      "med": 13.43
     },
     "Backlog": {
@@ -555,8 +555,8 @@
      "med": 12.51
     },
     "In Progress": {
-     "n": 16,
-     "med": 13.43
+     "n": 20,
+     "med": 12.56
     },
     "Ready Prod": {
      "n": 4,
@@ -583,7 +583,7 @@
      "med": 13.43
     },
     "In Stage": {
-     "n": 18,
+     "n": 20,
      "med": 13.43
     },
     "Blocked": {
@@ -598,10 +598,10 @@
     "Ready Prod": 4,
     "Ready for Development": 12,
     "Done": 18,
-    "PR Merged": 11,
+    "PR Merged": 9,
     "PR Created": 12,
     "On Hold": 8,
-    "In Stage": 15,
+    "In Stage": 17,
     "Backlog": 81,
     "Blocked": 1
    },
