@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T06:36:53Z",
+ "generated": "2026-11-10T07:04:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -445,7 +445,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 47,
+    "open": 48,
     "med_age": 11.8,
     "max_age": 12.8,
     "worst_key": "PLANS-24785",
@@ -482,7 +482,7 @@
    {
     "status": "PR Created",
     "open": 32,
-    "med_age": 4.2,
+    "med_age": 4.3,
     "max_age": 12.4,
     "worst_key": "PLANS-24828",
     "worst_sum": "[1.8] Legal Language Additions - wellfit-resources: 14pt first line and 12pt body in the s",
@@ -505,15 +505,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 12,
+    "open": 11,
     "med_age": 0.3,
     "max_age": 0.6,
-    "worst_key": "PLANS-25162",
-    "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25175",
+    "worst_sum": "Smile Health: normalize footer value to avoid double \"off\" suffix on Fee Schedule and Comm",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 670
+    "clear_n": 671
    },
    {
     "status": "In QA",
@@ -553,8 +553,8 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 95
+   "Backlog": 95,
+   "On Hold": 9
   },
   "open_total": 199,
   "stale": 68,
