@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T16:04:29Z",
+ "generated": "2026-11-10T16:33:02Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -368,7 +368,7 @@
   "completed": 27,
   "scope_change": 0,
   "vs_commitment": 11,
-  "time_elapsed": 6,
+  "time_elapsed": 7,
   "spill": {
    "open_items": 58,
    "open_pts": 214.0,
@@ -385,7 +385,7 @@
   "spill_rate": null,
   "dist": {
    "In Progress": 7,
-   "PR Created": 24,
+   "PR Created": 23,
    "To Do": 19,
    "In Development": 8,
    "Done": 10,
@@ -393,6 +393,7 @@
    "Ready for Development": 6,
    "Closed": 4,
    "Ready Prod": 1,
+   "PR Merged": 1,
    "WAITING REVIEW": 2,
    "Backlog": 6
   },
@@ -489,27 +490,27 @@
    },
    {
     "status": "PR Created",
-    "open": 52,
-    "med_age": 0.2,
+    "open": 38,
+    "med_age": 0.6,
     "max_age": 7.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 740
+    "clear_n": 755
    },
    {
     "status": "PR Merged",
-    "open": 9,
-    "med_age": 0.1,
+    "open": 23,
+    "med_age": 0.0,
     "max_age": 0.9,
     "worst_key": "PLANS-25111",
     "worst_sum": "Plans API: mirror Treatment API FeeSchedule read-path fix on `MarketingDetailsService`",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 698
+    "clear_n": 699
    },
    {
     "status": "Ready for Stage",
