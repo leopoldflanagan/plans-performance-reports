@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T15:32:49Z",
+ "generated": "2026-11-10T16:04:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 12,
-   "points": 40
+   "items": 7,
+   "points": 23
   },
   "misfiled": {
    "items": 31,
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 56,
+    "n": 57,
     "points": 105,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -55,18 +55,18 @@
   "day": 2,
   "days": 14,
   "n": 21,
-  "done_now": 3,
+  "done_now": 27,
   "committed": 243,
-  "lo": 11,
-  "mid": 12,
-  "hi": 20,
-  "pct": 5,
+  "lo": 97,
+  "mid": 106,
+  "hi": 179,
+  "pct": 44,
   "verdict": "well short of the commitment",
   "share_mid": 0.255
  },
  "admin": {
   "scope": {
-   "ready": 97,
+   "ready": 93,
    "sprint": 65,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,8 +74,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 12,
+    "n": 13,
     "items": [
+     {
+      "key": "PLANS-25183",
+      "summary": "ACH- Broken - ACH Return Does Not Cancel Plan or Create Account History Record A"
+     },
      {
       "key": "PLANS-24964",
       "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-11253",
       "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
-     },
-     {
-      "key": "PLANS-11252",
-      "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
      }
     ]
    },
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 63,
+    "n": 64,
     "items": [
+     {
+      "key": "PLANS-25183",
+      "summary": "ACH- Broken - ACH Return Does Not Cancel Plan or Create Account History Record A"
+     },
      {
       "key": "PLANS-25152",
       "summary": "[1.4] Mask the Account Information panel with role-gated Show and Change"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24943",
       "summary": "Member Portal \\ Cardholder name is missing from Manage Payments after adding a n"
-     },
-     {
-      "key": "PLANS-24942",
-      "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
      }
     ]
    },
@@ -174,7 +174,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 25,
+    "n": 24,
     "items": [
      {
       "key": "PLANS-25152",
@@ -189,14 +189,6 @@
       "summary": "[1.2] Add gated reveal endpoint for full account and routing numbers"
      },
      {
-      "key": "PLANS-25059",
-      "summary": "[6.11] Plans ms - switching a subscription to a legacy Annual plan is a successo"
-     },
-     {
-      "key": "PLANS-25057",
-      "summary": "[6.9] Plans ms - a primary change moves billing forward to the new primary's pla"
-     },
-     {
       "key": "PLANS-25043",
       "summary": "[7.3] member-ms, Marketplace API, CSP and plans-ms - service-side coverage and r"
      },
@@ -207,6 +199,14 @@
      {
       "key": "PLANS-15940",
       "summary": "[4.1] Add GetPlanLedgerState method to PlanLedgerManager"
+     },
+     {
+      "key": "PLANS-15928",
+      "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
+     },
+     {
+      "key": "PLANS-25149",
+      "summary": "[1.1] Mask account and routing numbers on CSP Plan Design read endpoints"
      }
     ]
    },
@@ -284,14 +284,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 148 of 151 items. This reads as a field the team does not use rather than 148 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 148,
+    "why": "missing on 149 of 152 items. This reads as a field the team does not use rather than 149 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 149,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 151 of 151 items. This reads as a field the team does not use rather than 151 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 151,
+    "why": "missing on 152 of 152 items. This reads as a field the team does not use rather than 152 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 152,
     "items": []
    },
    {
@@ -361,20 +361,20 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 100,
-  "items_done": 1,
+  "items": 101,
+  "items_done": 5,
   "committed": 243,
   "final": 243,
-  "completed": 3,
+  "completed": 27,
   "scope_change": 0,
-  "vs_commitment": 1,
+  "vs_commitment": 11,
   "time_elapsed": 6,
   "spill": {
-   "open_items": 62,
-   "open_pts": 238.0,
+   "open_items": 58,
+   "open_pts": 214.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 0
+   "done_pts": 24.0
   },
   "recv": {
    "items": 15,
@@ -384,21 +384,21 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 10,
-   "PR Created": 21,
+   "In Progress": 7,
+   "PR Created": 24,
    "To Do": 19,
-   "Ready for Development": 11,
+   "In Development": 8,
    "Done": 10,
-   "In Progress": 6,
-   "PR Merged": 1,
-   "In Stage": 13,
+   "In Stage": 14,
+   "Ready for Development": 6,
+   "Closed": 4,
    "Ready Prod": 1,
    "WAITING REVIEW": 2,
    "Backlog": 6
   },
   "burn": [
    207.0,
-   240.0
+   216.0
   ],
   "scope": [
    210.0,
@@ -406,7 +406,7 @@
   ],
   "ghost": [
    207.0,
-   240.0
+   216.0
   ],
   "days": 14,
   "day": 2
@@ -420,8 +420,8 @@
   "end": "2026-11-22",
   "day": 16,
   "days": 28,
-  "closed": 236,
-  "points": 527,
+  "closed": 240,
+  "points": 551,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -441,36 +441,36 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 46,
-    "med_age": 12.1,
+    "open": 44,
+    "med_age": 12.7,
     "max_age": 13.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 682
+    "clear_n": 689
    },
    {
     "status": "Ready for Development",
-    "open": 38,
-    "med_age": 11.8,
+    "open": 34,
+    "med_age": 13.4,
     "max_age": 46.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 264
+    "clear_n": 269
    },
    {
     "status": "In Stage",
-    "open": 47,
+    "open": 53,
     "med_age": 4.0,
     "max_age": 5.0,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 403
@@ -489,7 +489,7 @@
    },
    {
     "status": "PR Created",
-    "open": 49,
+    "open": 52,
     "med_age": 0.2,
     "max_age": 7.7,
     "worst_key": "PLANS-24113",
@@ -497,19 +497,19 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 739
+    "clear_n": 740
    },
    {
     "status": "PR Merged",
-    "open": 15,
+    "open": 9,
     "med_age": 0.1,
-    "max_age": 1.0,
-    "worst_key": "PLANS-25162",
-    "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
+    "max_age": 0.9,
+    "worst_key": "PLANS-25111",
+    "worst_sum": "Plans API: mirror Treatment API FeeSchedule read-path fix on `MarketingDetailsService`",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 691
+    "clear_n": 698
    },
    {
     "status": "Ready for Stage",
@@ -549,10 +549,10 @@
    }
   ],
   "parked": {
-   "Backlog": 92,
+   "Backlog": 91,
    "On Hold": 9
   },
-  "open_total": 197,
+  "open_total": 194,
   "stale": 61,
   "worst": "In Development"
  }
