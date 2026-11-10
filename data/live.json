@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T12:33:24Z",
+ "generated": "2026-11-10T13:04:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -372,7 +372,7 @@
   "completed": 3,
   "scope_change": 0,
   "vs_commitment": 1,
-  "time_elapsed": 5,
+  "time_elapsed": 6,
   "spill": {
    "open_items": 61,
    "open_pts": 231.0,
@@ -446,8 +446,8 @@
    {
     "status": "In Development",
     "open": 43,
-    "med_age": 13.0,
-    "max_age": 13.0,
+    "med_age": 13.1,
+    "max_age": 13.1,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -470,7 +470,7 @@
    {
     "status": "In Stage",
     "open": 48,
-    "med_age": 3.8,
+    "med_age": 3.9,
     "max_age": 4.9,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
@@ -482,7 +482,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 25.4,
+    "med_age": 25.5,
     "max_age": 32.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -494,14 +494,14 @@
    {
     "status": "PR Created",
     "open": 42,
-    "med_age": 0.8,
+    "med_age": 0.6,
     "max_age": 7.5,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 727
+    "clear_n": 729
    },
    {
     "status": "In QA",
@@ -516,18 +516,6 @@
     "clear_n": 73
    },
    {
-    "status": "PR Merged",
-    "open": 10,
-    "med_age": 0.0,
-    "max_age": 0.8,
-    "worst_key": "PLANS-25162",
-    "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 684
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -538,6 +526,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "PR Merged",
+    "open": 10,
+    "med_age": 0.0,
+    "max_age": 0.9,
+    "worst_key": "PLANS-25162",
+    "worst_sum": "Treatment API: delete the IsSgdpBrand gate from GetMainPageDetailForPlan",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 686
    },
    {
     "status": "Ready for Stage",
@@ -553,8 +553,8 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 93
+   "Backlog": 93,
+   "On Hold": 9
   },
   "open_total": 201,
   "stale": 62,
