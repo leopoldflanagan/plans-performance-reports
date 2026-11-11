@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:04:04Z",
+ "generated": "2026-11-11T15:32:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 3,
   "days": 14,
   "n": 21,
-  "done_now": 42,
+  "done_now": 46,
   "committed": 237,
-  "lo": 126,
-  "mid": 154,
-  "hi": 219,
-  "pct": 65,
+  "lo": 138,
+  "mid": 169,
+  "hi": 239,
+  "pct": 71,
   "verdict": "well short of the commitment",
   "share_mid": 0.273
  },
@@ -370,19 +370,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 101,
-  "items_done": 10,
+  "items_done": 12,
   "committed": 237,
   "final": 249,
-  "completed": 42,
+  "completed": 46,
   "scope_change": 5,
-  "vs_commitment": 18,
+  "vs_commitment": 19,
   "time_elapsed": 14,
   "spill": {
-   "open_items": 55,
-   "open_pts": 205.0,
+   "open_items": 53,
+   "open_pts": 201.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 39.0
+   "done_pts": 43.0
   },
   "recv": {
    "items": 14,
@@ -394,21 +394,20 @@
   "dist": {
    "Backlog": 7,
    "Ready for Development": 5,
-   "Done": 16,
+   "Done": 17,
    "PR Created": 22,
-   "In Stage": 13,
-   "In Progress": 6,
+   "In Stage": 12,
    "In Development": 7,
+   "Ready Prod": 5,
+   "In Progress": 5,
    "To Do": 12,
    "Closed": 7,
-   "Ready Prod": 3,
-   "PR Merged": 1,
    "WAITING REVIEW": 2
   },
   "burn": [
    201.0,
    209.0,
-   207.0
+   203.0
   ],
   "scope": [
    204.0,
@@ -418,7 +417,7 @@
   "ghost": [
    201.0,
    209.0,
-   207.0
+   203.0
   ],
   "days": 14,
   "day": 3
@@ -432,8 +431,8 @@
   "end": "2026-11-22",
   "day": 17,
   "days": 28,
-  "closed": 263,
-  "points": 624,
+  "closed": 266,
+  "points": 628,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -461,7 +460,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 702
+    "clear_n": 700
    },
    {
     "status": "Ready for Development",
@@ -473,25 +472,25 @@
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 273
+    "clear_n": 272
    },
    {
     "status": "In Stage",
-    "open": 70,
-    "med_age": 1.9,
+    "open": 78,
+    "med_age": 1.8,
     "max_age": 6.0,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 412
+    "clear_n": 411
    },
    {
     "status": "PR Created",
-    "open": 37,
-    "med_age": 1.5,
-    "max_age": 8.6,
+    "open": 36,
+    "med_age": 1.7,
+    "max_age": 8.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -502,7 +501,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 26.5,
+    "med_age": 26.6,
     "max_age": 33.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -513,27 +512,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 12,
-    "med_age": 0.8,
-    "max_age": 1.0,
-    "worst_key": "PLANS-24831",
-    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
-    "worst_who": "Rostyslav  Masniuk",
+    "open": 4,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25252",
+    "worst_sum": "[7.3.2] plans-member-ms - service-side coverage and renewal-window checks read the plan st",
+    "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 723
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 731
    },
    {
     "status": "In PreProd",
@@ -558,13 +545,25 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 71
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
    "On Hold": 9,
-   "Backlog": 89
+   "Backlog": 90
   },
-  "open_total": 195,
+  "open_total": 194,
   "stale": 62,
   "worst": "In Development"
  }
