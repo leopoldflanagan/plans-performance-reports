@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T13:32:57Z",
+ "generated": "2026-11-11T14:03:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -457,7 +457,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 37,
+    "open": 38,
     "med_age": 14.1,
     "max_age": 14.1,
     "worst_key": "PLANS-24785",
@@ -481,15 +481,15 @@
    },
    {
     "status": "In Stage",
-    "open": 71,
-    "med_age": 1.7,
+    "open": 70,
+    "med_age": 1.9,
     "max_age": 5.9,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 402
+    "clear_n": 403
    },
    {
     "status": "PR Created",
@@ -520,9 +520,9 @@
     "open": 10,
     "med_age": 0.8,
     "max_age": 0.9,
-    "worst_key": "PLANS-24831",
-    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
-    "worst_who": "Rostyslav  Masniuk",
+    "worst_key": "PLANS-25050",
+    "worst_sum": "[4.4] Member Portal - Plans - resolve each plan line's current plan, so replaced plans nev",
+    "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 722
