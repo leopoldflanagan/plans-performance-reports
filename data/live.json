@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T01:04:30Z",
+ "generated": "2026-11-11T01:33:49Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -476,9 +476,9 @@
     "open": 69,
     "med_age": 4.3,
     "max_age": 5.4,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 404
@@ -499,7 +499,7 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 1.2,
-    "max_age": 8.0,
+    "max_age": 8.1,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -518,18 +518,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 724
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
    },
    {
     "status": "In PreProd",
@@ -554,6 +542,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    }
   ],
   "parked": {
