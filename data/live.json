@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T14:03:58Z",
+ "generated": "2026-11-11T14:33:21Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -217,7 +217,7 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 8,
+    "n": 7,
     "items": [
      {
       "key": "PLANS-25249",
@@ -238,10 +238,6 @@
      {
       "key": "PLANS-24255",
       "summary": "PLANS-24255: Epic 5: Story 5.2 - Smile Health portal: every backend call goes to"
-     },
-     {
-      "key": "PLANS-24253",
-      "summary": "PLANS-24253: Epic 5: Story 5.1 - Smile Health portal: group every backend call i"
      },
      {
       "key": "PLANS-23835",
@@ -396,13 +392,13 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 8,
+   "Backlog": 7,
    "Ready for Development": 5,
    "Done": 16,
    "PR Created": 22,
    "In Stage": 13,
    "In Progress": 6,
-   "In Development": 6,
+   "In Development": 7,
    "To Do": 12,
    "Closed": 7,
    "Ready Prod": 3,
@@ -436,8 +432,8 @@
   "end": "2026-11-22",
   "day": 17,
   "days": 28,
-  "closed": 258,
-  "points": 607,
+  "closed": 259,
+  "points": 609,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -463,9 +459,9 @@
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
-    "over": 30,
+    "over": 31,
     "clear_med": 0.1,
-    "clear_n": 695
+    "clear_n": 703
    },
    {
     "status": "Ready for Development",
@@ -477,23 +473,23 @@
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 270
+    "clear_n": 274
    },
    {
     "status": "In Stage",
-    "open": 70,
-    "med_age": 1.9,
+    "open": 64,
+    "med_age": 4.9,
     "max_age": 5.9,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 403
+    "clear_n": 408
    },
    {
     "status": "PR Created",
-    "open": 37,
+    "open": 38,
     "med_age": 1.5,
     "max_age": 8.6,
     "worst_key": "PLANS-24113",
@@ -501,13 +497,13 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 766
+    "clear_n": 770
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 26.5,
-    "max_age": 33.8,
+    "max_age": 33.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -517,15 +513,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 10,
-    "med_age": 0.8,
+    "open": 22,
+    "med_age": 0.0,
     "max_age": 0.9,
     "worst_key": "PLANS-25050",
     "worst_sum": "[4.4] Member Portal - Plans - resolve each plan line's current plan, so replaced plans nev",
     "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 722
+    "clear_n": 714
    },
    {
     "status": "In QA",
@@ -536,20 +532,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.7,
-    "clear_n": 72
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_med": 1.6,
+    "clear_n": 71
    },
    {
     "status": "Ready for Stage",
@@ -562,14 +546,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 25
    }
   ],
   "parked": {
    "On Hold": 9,
-   "Backlog": 92
+   "Backlog": 90
   },
-  "open_total": 191,
-  "stale": 61,
+  "open_total": 198,
+  "stale": 62,
   "worst": "In Development"
  }
 }
