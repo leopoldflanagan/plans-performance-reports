@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T21:02:24Z",
+ "generated": "2026-11-11T21:32:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -380,7 +380,7 @@
   "completed": 49,
   "scope_change": 7,
   "vs_commitment": 21,
-  "time_elapsed": 15,
+  "time_elapsed": 16,
   "spill": {
    "open_items": 55,
    "open_pts": 205.0,
@@ -469,7 +469,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 709
+    "clear_n": 703
    },
    {
     "status": "Ready for Development",
@@ -481,31 +481,31 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 273
+    "clear_n": 270
    },
    {
     "status": "PR Created",
     "open": 29,
-    "med_age": 5.5,
+    "med_age": 5.6,
     "max_age": 8.9,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 786
+    "clear_n": 780
    },
    {
     "status": "In Stage",
     "open": 69,
     "med_age": 2.0,
     "max_age": 6.2,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-24945",
+    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 422
+    "clear_n": 417
    },
    {
     "status": "WAITING REVIEW",
@@ -523,37 +523,13 @@
     "status": "PR Merged",
     "open": 17,
     "med_age": 0.1,
-    "max_age": 0.1,
-    "worst_key": "PLANS-25279",
-    "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
+    "max_age": 0.2,
+    "worst_key": "PLANS-25223",
+    "worst_sum": "Configuration Settings not saving",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 734
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 71
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_n": 728
    },
    {
     "status": "Ready for Stage",
@@ -566,11 +542,35 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 69
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 84,
-   "On Hold": 11
+   "On Hold": 11,
+   "Backlog": 94
   },
   "open_total": 193,
   "stale": 61,
