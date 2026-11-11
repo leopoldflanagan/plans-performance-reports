@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:32:33Z",
+ "generated": "2026-11-11T16:04:20Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 59,
+    "n": 60,
     "points": 106,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -55,18 +55,18 @@
   "day": 3,
   "days": 14,
   "n": 21,
-  "done_now": 46,
+  "done_now": 47,
   "committed": 237,
-  "lo": 138,
-  "mid": 169,
-  "hi": 239,
-  "pct": 71,
+  "lo": 141,
+  "mid": 172,
+  "hi": 245,
+  "pct": 73,
   "verdict": "well short of the commitment",
   "share_mid": 0.273
  },
  "admin": {
   "scope": {
-   "ready": 93,
+   "ready": 94,
    "sprint": 67,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,11 +74,15 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 15,
+    "n": 16,
     "items": [
      {
       "key": "PLANS-25251",
       "summary": "Legal Language - Not applying everywhere"
+     },
+     {
+      "key": "PLANS-25244",
+      "summary": "SGDP Purchase Portal-Stage-Autorenewal checkbox is showing for SGDP CA plan, CSP"
      },
      {
       "key": "PLANS-25133",
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
-     },
-     {
-      "key": "PLANS-14758",
-      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
      }
     ]
    },
@@ -124,11 +124,15 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 66,
+    "n": 67,
     "items": [
      {
       "key": "PLANS-25251",
       "summary": "Legal Language - Not applying everywhere"
+     },
+     {
+      "key": "PLANS-25244",
+      "summary": "SGDP Purchase Portal-Stage-Autorenewal checkbox is showing for SGDP CA plan, CSP"
      },
      {
       "key": "PLANS-25236",
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-25063",
       "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
-     },
-     {
-      "key": "PLANS-25000",
-      "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
      }
     ]
    },
@@ -292,14 +292,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 152 of 155 items. This reads as a field the team does not use rather than 152 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 152,
+    "why": "missing on 153 of 156 items. This reads as a field the team does not use rather than 153 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 153,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 155 of 155 items. This reads as a field the team does not use rather than 155 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 155,
+    "why": "missing on 156 of 156 items. This reads as a field the team does not use rather than 156 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 156,
     "items": []
    },
    {
@@ -370,19 +370,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 101,
-  "items_done": 12,
+  "items_done": 13,
   "committed": 237,
   "final": 249,
-  "completed": 46,
+  "completed": 47,
   "scope_change": 5,
-  "vs_commitment": 19,
+  "vs_commitment": 20,
   "time_elapsed": 14,
   "spill": {
-   "open_items": 53,
-   "open_pts": 201.0,
+   "open_items": 52,
+   "open_pts": 200.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 43.0
+   "done_pts": 44.0
   },
   "recv": {
    "items": 14,
@@ -394,20 +394,20 @@
   "dist": {
    "Backlog": 7,
    "Ready for Development": 5,
-   "Done": 17,
-   "PR Created": 22,
+   "Done": 19,
+   "PR Created": 21,
    "In Stage": 12,
    "In Development": 7,
-   "Ready Prod": 5,
-   "In Progress": 5,
-   "To Do": 12,
+   "Ready Prod": 6,
+   "To Do": 11,
    "Closed": 7,
-   "WAITING REVIEW": 2
+   "WAITING REVIEW": 2,
+   "In Progress": 4
   },
   "burn": [
    201.0,
    209.0,
-   203.0
+   202.0
   ],
   "scope": [
    204.0,
@@ -417,7 +417,7 @@
   "ghost": [
    201.0,
    209.0,
-   203.0
+   202.0
   ],
   "days": 14,
   "day": 3
@@ -431,8 +431,8 @@
   "end": "2026-11-22",
   "day": 17,
   "days": 28,
-  "closed": 266,
-  "points": 628,
+  "closed": 267,
+  "points": 629,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -464,8 +464,8 @@
    },
    {
     "status": "Ready for Development",
-    "open": 35,
-    "med_age": 13.9,
+    "open": 36,
+    "med_age": 13.4,
     "max_age": 47.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -476,27 +476,27 @@
    },
    {
     "status": "In Stage",
-    "open": 78,
+    "open": 79,
     "med_age": 1.8,
     "max_age": 6.0,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 411
+    "clear_n": 412
    },
    {
     "status": "PR Created",
-    "open": 36,
-    "med_age": 1.7,
+    "open": 35,
+    "med_age": 1.8,
     "max_age": 8.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 769
+    "clear_n": 770
    },
    {
     "status": "WAITING REVIEW",
@@ -509,18 +509,6 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 23
-   },
-   {
-    "status": "PR Merged",
-    "open": 4,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25252",
-    "worst_sum": "[7.3.2] plans-member-ms - service-side coverage and renewal-window checks read the plan st",
-    "worst_who": "Mykyta  Moroz",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 731
    },
    {
     "status": "In PreProd",
@@ -547,6 +535,18 @@
     "clear_n": 71
    },
    {
+    "status": "PR Merged",
+    "open": 3,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25252",
+    "worst_sum": "[7.3.2] plans-member-ms - service-side coverage and renewal-window checks read the plan st",
+    "worst_who": "Mykyta  Moroz",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 733
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -561,7 +561,7 @@
   ],
   "parked": {
    "On Hold": 9,
-   "Backlog": 90
+   "Backlog": 89
   },
   "open_total": 194,
   "stale": 62,
