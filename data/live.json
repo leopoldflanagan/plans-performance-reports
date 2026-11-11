@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T18:32:55Z",
+ "generated": "2026-11-11T19:03:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -369,7 +369,7 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 105,
+  "items": 106,
   "items_done": 14,
   "committed": 239,
   "final": 256,
@@ -392,8 +392,8 @@
   },
   "spill_rate": null,
   "dist": {
+   "To Do": 13,
    "Ready for Development": 7,
-   "To Do": 12,
    "Backlog": 7,
    "Done": 19,
    "PR Created": 21,
@@ -433,8 +433,8 @@
   "end": "2026-11-22",
   "day": 17,
   "days": 28,
-  "closed": 270,
-  "points": 637,
+  "closed": 271,
+  "points": 639,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -478,7 +478,7 @@
    },
    {
     "status": "In Stage",
-    "open": 72,
+    "open": 71,
     "med_age": 1.9,
     "max_age": 6.1,
     "worst_key": "PLANS-24890",
@@ -486,7 +486,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 419
+    "clear_n": 420
    },
    {
     "status": "PR Created",
@@ -513,6 +513,18 @@
     "clear_n": 23
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -525,6 +537,18 @@
     "clear_n": 71
    },
    {
+    "status": "PR Merged",
+    "open": 4,
+    "med_age": 0.0,
+    "max_age": 0.1,
+    "worst_key": "PLANS-24962",
+    "worst_sum": "Member Unable to Login to Member Portal",
+    "worst_who": "Petro Yarish",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 734
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -535,37 +559,13 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "PR Merged",
-    "open": 4,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25279",
-    "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
-    "worst_who": "Valentyna Tenus",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 734
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 86,
-   "On Hold": 11
+   "On Hold": 11,
+   "Backlog": 86
   },
-  "open_total": 195,
+  "open_total": 194,
   "stale": 61,
   "worst": "In Development"
  }
