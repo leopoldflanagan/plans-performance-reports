@@ -367,10 +367,10 @@
     "To Do": 94,
     "In Progress": 11,
     "Done": 127,
-    "PR Merged": 4,
+    "PR Merged": 5,
     "Ready Prod": 20,
     "Closed": 76,
-    "PR Created": 12,
+    "PR Created": 11,
     "Ready for Development": 11,
     "On Hold": 8,
     "In Stage": 15,
@@ -575,7 +575,7 @@
      "med": 0.11
     },
     "PR Merged": {
-     "n": 41,
+     "n": 42,
      "med": 0.07
     },
     "On Hold": {
@@ -598,8 +598,8 @@
     "Ready Prod": 7,
     "Ready for Development": 12,
     "Done": 21,
-    "PR Merged": 4,
-    "PR Created": 12,
+    "PR Merged": 5,
+    "PR Created": 11,
     "On Hold": 8,
     "In Stage": 19,
     "Backlog": 81,

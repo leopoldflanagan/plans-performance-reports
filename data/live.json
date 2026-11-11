@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T12:34:08Z",
+ "generated": "2026-11-11T13:04:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -450,8 +450,8 @@
    {
     "status": "In Development",
     "open": 37,
-    "med_age": 14.0,
-    "max_age": 14.0,
+    "med_age": 14.1,
+    "max_age": 14.1,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -485,20 +485,20 @@
    },
    {
     "status": "PR Created",
-    "open": 38,
-    "med_age": 1.4,
+    "open": 37,
+    "med_age": 1.5,
     "max_age": 8.5,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 766
+    "clear_n": 767
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 26.4,
+    "med_age": 26.5,
     "max_age": 33.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -509,8 +509,8 @@
    },
    {
     "status": "PR Merged",
-    "open": 9,
-    "med_age": 0.7,
+    "open": 10,
+    "med_age": 0.8,
     "max_age": 0.9,
     "worst_key": "PLANS-24831",
     "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
