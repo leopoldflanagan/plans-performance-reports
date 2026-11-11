@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T19:03:52Z",
+ "generated": "2026-11-11T19:32:30Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -409,16 +409,19 @@
   "burn": [
    203.0,
    211.0,
+   207.0,
    207.0
   ],
   "scope": [
    206.0,
    239.0,
+   256.0,
    256.0
   ],
   "ghost": [
    203.0,
    211.0,
+   207.0,
    207.0
   ],
   "days": 14,
@@ -462,7 +465,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 708
+    "clear_n": 709
    },
    {
     "status": "Ready for Development",
@@ -477,34 +480,34 @@
     "clear_n": 273
    },
    {
-    "status": "In Stage",
-    "open": 71,
-    "med_age": 1.9,
-    "max_age": 6.1,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 1.1,
-    "clear_n": 420
-   },
-   {
     "status": "PR Created",
-    "open": 41,
-    "med_age": 1.6,
+    "open": 29,
+    "med_age": 5.5,
     "max_age": 8.8,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 773
+    "clear_n": 786
+   },
+   {
+    "status": "In Stage",
+    "open": 71,
+    "med_age": 1.9,
+    "max_age": 6.1,
+    "worst_key": "PLANS-24945",
+    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+    "worst_who": "Valentyna Tenus",
+    "over": 0,
+    "clear_med": 1.1,
+    "clear_n": 420
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 26.7,
-    "max_age": 34.0,
+    "med_age": 26.8,
+    "max_age": 34.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -513,37 +516,13 @@
     "clear_n": 23
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 71
-   },
-   {
     "status": "PR Merged",
-    "open": 4,
+    "open": 17,
     "med_age": 0.0,
     "max_age": 0.1,
-    "worst_key": "PLANS-24962",
-    "worst_sum": "Member Unable to Login to Member Portal",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25223",
+    "worst_sum": "Configuration Settings not saving",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 734
@@ -559,13 +538,37 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 71
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "On Hold": 11,
-   "Backlog": 86
+   "Backlog": 85,
+   "On Hold": 11
   },
-  "open_total": 194,
+  "open_total": 195,
   "stale": 61,
   "worst": "In Development"
  }

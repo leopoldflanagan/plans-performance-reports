@@ -157,11 +157,13 @@
    [
     203.0,
     211.0,
+    207.0,
     207.0
    ],
    [
     206.0,
     239.0,
+    256.0,
     256.0
    ]
   ],
@@ -374,7 +376,8 @@
     "In Stage": 15,
     "Ready Prod": 20,
     "Closed": 77,
-    "PR Created": 16,
+    "PR Merged": 12,
+    "PR Created": 4,
     "On Hold": 8,
     "Backlog": 81,
     "Ready for Development": 10,
@@ -566,8 +569,8 @@
      "med": 0.11
     },
     "PR Merged": {
-     "n": 47,
-     "med": 0.07
+     "n": 59,
+     "med": 0.13
     },
     "In Stage": {
      "n": 46,
@@ -607,7 +610,8 @@
     "In Development": 2,
     "Closed": 4,
     "In Stage": 32,
-    "PR Created": 16,
+    "PR Merged": 12,
+    "PR Created": 4,
     "On Hold": 8,
     "Backlog": 81,
     "Blocked": 1
@@ -658,6 +662,7 @@
   "Plans Pod 1-Sprint 26-26": [
    203.0,
    211.0,
+   207.0,
    207.0
   ],
   "Plans Pod 2-Sprint 26-26": [
