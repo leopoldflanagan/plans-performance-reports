@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T16:04:20Z",
+ "generated": "2026-11-11T16:32:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 60,
+    "n": 62,
     "points": 106,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 94,
+   "ready": 96,
    "sprint": 67,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,8 +74,16 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 16,
+    "n": 18,
     "items": [
+     {
+      "key": "PLANS-25272",
+      "summary": "Plan showing for two active plans"
+     },
+     {
+      "key": "PLANS-25264",
+      "summary": "Essential Smile Plan Member ID- Incorrect Location "
+     },
      {
       "key": "PLANS-25251",
       "summary": "Legal Language - Not applying everywhere"
@@ -99,14 +107,6 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
-     },
-     {
-      "key": "PLANS-24475",
-      "summary": "Production - Text Messaging Improvements"
-     },
-     {
-      "key": "PLANS-14760",
-      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
      }
     ]
    },
@@ -124,8 +124,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 67,
+    "n": 69,
     "items": [
+     {
+      "key": "PLANS-25272",
+      "summary": "Plan showing for two active plans"
+     },
+     {
+      "key": "PLANS-25264",
+      "summary": "Essential Smile Plan Member ID- Incorrect Location "
+     },
      {
       "key": "PLANS-25251",
       "summary": "Legal Language - Not applying everywhere"
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-25150",
       "summary": "[1.2] Add gated reveal endpoint for full account and routing numbers"
-     },
-     {
-      "key": "PLANS-25133",
-      "summary": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as"
-     },
-     {
-      "key": "PLANS-25063",
-      "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
      }
     ]
    },
@@ -178,7 +178,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 23,
+    "n": 24,
     "items": [
      {
       "key": "PLANS-25152",
@@ -292,14 +292,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 153 of 156 items. This reads as a field the team does not use rather than 153 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 153,
+    "why": "missing on 154 of 158 items. This reads as a field the team does not use rather than 154 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 154,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 156 of 156 items. This reads as a field the team does not use rather than 156 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 156,
+    "why": "missing on 158 of 158 items. This reads as a field the team does not use rather than 158 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 158,
     "items": []
    },
    {
@@ -396,10 +396,11 @@
    "Ready for Development": 5,
    "Done": 19,
    "PR Created": 21,
-   "In Stage": 12,
+   "In Stage": 11,
    "In Development": 7,
    "Ready Prod": 6,
    "To Do": 11,
+   "On Hold": 1,
    "Closed": 7,
    "WAITING REVIEW": 2,
    "In Progress": 4
@@ -460,31 +461,31 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 700
+    "clear_n": 698
    },
    {
     "status": "Ready for Development",
-    "open": 36,
-    "med_age": 13.4,
+    "open": 38,
+    "med_age": 12.8,
     "max_age": 47.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 272
+    "clear_n": 271
    },
    {
     "status": "In Stage",
-    "open": 79,
+    "open": 78,
     "med_age": 1.8,
     "max_age": 6.0,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 412
+    "clear_n": 411
    },
    {
     "status": "PR Created",
@@ -496,7 +497,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 770
+    "clear_n": 767
    },
    {
     "status": "WAITING REVIEW",
@@ -511,16 +512,16 @@
     "clear_n": 23
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "PR Merged",
+    "open": 3,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-25252",
+    "worst_sum": "[7.3.2] plans-member-ms - service-side coverage and renewal-window checks read the plan st",
+    "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 25
+    "clear_n": 730
    },
    {
     "status": "In QA",
@@ -535,16 +536,16 @@
     "clear_n": 71
    },
    {
-    "status": "PR Merged",
-    "open": 3,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25252",
-    "worst_sum": "[7.3.2] plans-member-ms - service-side coverage and renewal-window checks read the plan st",
-    "worst_who": "Mykyta  Moroz",
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 733
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -560,10 +561,10 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 89
+   "Backlog": 89,
+   "On Hold": 10
   },
-  "open_total": 194,
+  "open_total": 195,
   "stale": 62,
   "worst": "In Development"
  }
