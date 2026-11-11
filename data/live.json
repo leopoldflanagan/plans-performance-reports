@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T04:04:30Z",
+ "generated": "2026-11-11T04:32:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -512,24 +512,12 @@
     "open": 11,
     "med_age": 0.4,
     "max_age": 0.5,
-    "worst_key": "PLANS-24985",
-    "worst_sum": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25050",
+    "worst_sum": "[4.4] Member Portal - Plans - resolve each plan line's current plan, so replaced plans nev",
+    "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 720
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
    },
    {
     "status": "Ready for Stage",
@@ -554,11 +542,23 @@
     "over": 0,
     "clear_med": 1.7,
     "clear_n": 72
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 92
+   "Backlog": 92,
+   "On Hold": 9
   },
   "open_total": 187,
   "stale": 60,
