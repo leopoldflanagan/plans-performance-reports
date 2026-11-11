@@ -148,21 +148,21 @@
    "Plans Pod 1-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   104,
+   105,
    14,
-   237,
-   253,
+   239,
+   256,
    49,
    7,
    [
-    201.0,
-    209.0,
-    204.0
+    203.0,
+    211.0,
+    207.0
    ],
    [
-    204.0,
-    237.0,
-    253.0
+    206.0,
+    239.0,
+    256.0
    ]
   ],
   [
@@ -234,8 +234,8 @@
     46
    ],
    "open": [
-    53,
-    202
+    54,
+    205
    ],
    "out": [
     0,
@@ -245,7 +245,7 @@
     14,
     25
    ],
-   "in_pct": 11,
+   "in_pct": 10,
    "in_from": "Plans-Sprint 25-26"
   },
   "Plans Pod 2-Sprint 26-26": {
@@ -282,7 +282,7 @@
   },
   "Plans Pod 1-Sprint 26-26": {
    "react": 0,
-   "plan": 5,
+   "plan": 6,
    "pct": 0
   },
   "Plans Pod 2-Sprint 26-26": {
@@ -470,17 +470,17 @@
   },
   "Plans Pod 1-Sprint 26-26": {
    "tis": {
+    "Backlog": {
+     "n": 13,
+     "med": 11.7
+    },
     "Ready for Development": {
-     "n": 23,
+     "n": 24,
      "med": 0.76
     },
     "To Do": {
      "n": 20,
      "med": 13.45
-    },
-    "Backlog": {
-     "n": 12,
-     "med": 11.7
     },
     "In Progress": {
      "n": 12,
@@ -492,15 +492,15 @@
     },
     "In Development": {
      "n": 28,
-     "med": 0.3
+     "med": 0.28
     },
     "PR Created": {
-     "n": 31,
-     "med": 13.41
+     "n": 32,
+     "med": 13.12
     },
     "PR Merged": {
-     "n": 10,
-     "med": 0.02
+     "n": 11,
+     "med": 0.04
     },
     "In Stage": {
      "n": 17,
@@ -524,23 +524,24 @@
     }
    },
    "dist": {
-    "Ready for Development": 6,
+    "Ready for Development": 7,
     "To Do": 12,
     "Backlog": 7,
     "Done": 19,
     "PR Created": 21,
-    "In Development": 8,
+    "In Development": 7,
     "On Hold": 2,
     "In Stage": 9,
     "Ready Prod": 6,
     "Closed": 8,
     "WAITING REVIEW": 2,
+    "PR Merged": 1,
     "In Progress": 4
    },
-   "stalled": 90,
+   "stalled": 91,
    "worst": 13.45,
    "worstSt": "To Do",
-   "items": 104
+   "items": 105
   },
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
@@ -655,9 +656,9 @@
    25.0
   ],
   "Plans Pod 1-Sprint 26-26": [
-   201.0,
-   209.0,
-   204.0
+   203.0,
+   211.0,
+   207.0
   ],
   "Plans Pod 2-Sprint 26-26": [
    240.0,
