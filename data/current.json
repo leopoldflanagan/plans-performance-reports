@@ -506,13 +506,13 @@
      "n": 17,
      "med": 11.59
     },
+    "On Hold": {
+     "n": 3,
+     "med": 11.51
+    },
     "Ready Prod": {
      "n": 6,
      "med": 12.02
-    },
-    "On Hold": {
-     "n": 1,
-     "med": 11.57
     },
     "Closed": {
      "n": 8,
@@ -528,11 +528,11 @@
     "To Do": 12,
     "Backlog": 7,
     "Done": 19,
-    "PR Created": 22,
+    "PR Created": 21,
     "In Development": 8,
+    "On Hold": 2,
     "In Stage": 9,
     "Ready Prod": 6,
-    "On Hold": 1,
     "Closed": 8,
     "WAITING REVIEW": 2,
     "In Progress": 4
