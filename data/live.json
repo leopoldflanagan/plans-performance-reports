@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T01:33:49Z",
+ "generated": "2026-11-11T02:05:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -372,7 +372,7 @@
   "completed": 42,
   "scope_change": 1,
   "vs_commitment": 17,
-  "time_elapsed": 9,
+  "time_elapsed": 10,
   "spill": {
    "open_items": 53,
    "open_pts": 200.0,
@@ -428,8 +428,8 @@
   "end": "2026-11-22",
   "day": 17,
   "days": 28,
-  "closed": 255,
-  "points": 596,
+  "closed": 256,
+  "points": 601,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -473,7 +473,7 @@
    },
    {
     "status": "In Stage",
-    "open": 69,
+    "open": 68,
     "med_age": 4.3,
     "max_age": 5.4,
     "worst_key": "PLANS-25117",
@@ -481,7 +481,7 @@
     "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 404
+    "clear_n": 405
    },
    {
     "status": "WAITING REVIEW",
@@ -512,12 +512,24 @@
     "open": 11,
     "med_age": 0.3,
     "max_age": 0.4,
-    "worst_key": "PLANS-24831",
-    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
-    "worst_who": "Rostyslav  Masniuk",
+    "worst_key": "PLANS-25050",
+    "worst_sum": "[4.4] Member Portal - Plans - resolve each plan line's current plan, so replaced plans nev",
+    "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 724
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 73
    },
    {
     "status": "In PreProd",
@@ -542,25 +554,13 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
    }
   ],
   "parked": {
    "On Hold": 9,
    "Backlog": 90
   },
-  "open_total": 189,
+  "open_total": 188,
   "stale": 60,
   "worst": "In Development"
  }
