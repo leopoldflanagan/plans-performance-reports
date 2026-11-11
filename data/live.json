@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T02:32:38Z",
+ "generated": "2026-11-11T03:04:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -450,8 +450,8 @@
    {
     "status": "In Development",
     "open": 35,
-    "med_age": 13.6,
-    "max_age": 13.6,
+    "med_age": 13.7,
+    "max_age": 13.7,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -463,7 +463,7 @@
     "status": "Ready for Development",
     "open": 37,
     "med_age": 12.4,
-    "max_age": 46.5,
+    "max_age": 46.6,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -475,10 +475,10 @@
     "status": "In Stage",
     "open": 67,
     "med_age": 4.4,
-    "max_age": 5.4,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "max_age": 5.5,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 406
@@ -510,26 +510,14 @@
    {
     "status": "PR Merged",
     "open": 11,
-    "med_age": 0.3,
-    "max_age": 0.4,
-    "worst_key": "PLANS-25050",
-    "worst_sum": "[4.4] Member Portal - Plans - resolve each plan line's current plan, so replaced plans nev",
-    "worst_who": "Mykyta  Moroz",
+    "med_age": 0.4,
+    "max_age": 0.5,
+    "worst_key": "PLANS-24831",
+    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
+    "worst_who": "Rostyslav  Masniuk",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 724
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -542,6 +530,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -557,8 +557,8 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 91
+   "Backlog": 91,
+   "On Hold": 9
   },
   "open_total": 187,
   "stale": 60,
