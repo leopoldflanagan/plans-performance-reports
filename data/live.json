@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T17:04:04Z",
+ "generated": "2026-11-11T17:33:02Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 5,
-   "points": 18
+   "items": 6,
+   "points": 14
   },
   "misfiled": {
    "items": 30,
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 61,
+    "n": 60,
     "points": 106,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -55,31 +55,27 @@
   "day": 3,
   "days": 14,
   "n": 21,
-  "done_now": 47,
+  "done_now": 49,
   "committed": 237,
-  "lo": 141,
-  "mid": 172,
-  "hi": 245,
-  "pct": 73,
+  "lo": 147,
+  "mid": 180,
+  "hi": 255,
+  "pct": 76,
   "verdict": "well short of the commitment",
   "share_mid": 0.273
  },
  "admin": {
   "scope": {
    "ready": 95,
-   "sprint": 67,
+   "sprint": 69,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 17,
+    "n": 16,
     "items": [
-     {
-      "key": "PLANS-25264",
-      "summary": "Essential Smile Plan Member ID- Incorrect Location "
-     },
      {
       "key": "PLANS-25251",
       "summary": "Legal Language - Not applying everywhere"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24475",
       "summary": "Production - Text Messaging Improvements"
+     },
+     {
+      "key": "PLANS-14760",
+      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 68,
+    "n": 67,
     "items": [
      {
       "key": "PLANS-25264",
@@ -178,7 +178,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 24,
+    "n": 22,
     "items": [
      {
       "key": "PLANS-25152",
@@ -193,14 +193,6 @@
       "summary": "[1.2] Add gated reveal endpoint for full account and routing numbers"
      },
      {
-      "key": "PLANS-25043",
-      "summary": "[7.3] member-ms, Marketplace API, CSP and plans-ms - service-side coverage and r"
-     },
-     {
-      "key": "PLANS-24884",
-      "summary": "Blocker/Stage/SGDP Purchase portal/Unable to purchase a plan in the portal"
-     },
-     {
       "key": "PLANS-15940",
       "summary": "[4.1] Add GetPlanLedgerState method to PlanLedgerManager"
      },
@@ -211,6 +203,14 @@
      {
       "key": "PLANS-25149",
       "summary": "[1.1] Mask account and routing numbers on CSP Plan Design read endpoints"
+     },
+     {
+      "key": "PLANS-25117",
+      "summary": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)"
+     },
+     {
+      "key": "PLANS-25057",
+      "summary": "[6.9] Plans ms - a primary change moves billing forward to the new primary's pla"
      }
     ]
    },
@@ -292,14 +292,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 153 of 157 items. This reads as a field the team does not use rather than 153 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 153,
+    "why": "missing on 154 of 158 items. This reads as a field the team does not use rather than 154 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 154,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 157 of 157 items. This reads as a field the team does not use rather than 157 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 157,
+    "why": "missing on 158 of 158 items. This reads as a field the team does not use rather than 158 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 158,
     "items": []
    },
    {
@@ -369,20 +369,20 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 102,
-  "items_done": 13,
+  "items": 104,
+  "items_done": 14,
   "committed": 237,
-  "final": 249,
-  "completed": 47,
-  "scope_change": 5,
-  "vs_commitment": 20,
+  "final": 253,
+  "completed": 49,
+  "scope_change": 7,
+  "vs_commitment": 21,
   "time_elapsed": 14,
   "spill": {
-   "open_items": 52,
-   "open_pts": 200.0,
+   "open_items": 53,
+   "open_pts": 202.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 44.0
+   "done_pts": 46.0
   },
   "recv": {
    "items": 14,
@@ -392,33 +392,33 @@
   },
   "spill_rate": null,
   "dist": {
+   "Ready for Development": 6,
    "To Do": 12,
    "Backlog": 7,
-   "Ready for Development": 5,
    "Done": 19,
    "PR Created": 22,
    "In Development": 8,
    "In Stage": 9,
    "Ready Prod": 6,
    "On Hold": 1,
-   "Closed": 7,
+   "Closed": 8,
    "WAITING REVIEW": 2,
    "In Progress": 4
   },
   "burn": [
    201.0,
    209.0,
-   202.0
+   204.0
   ],
   "scope": [
    204.0,
    237.0,
-   249.0
+   253.0
   ],
   "ghost": [
    201.0,
    209.0,
-   202.0
+   204.0
   ],
   "days": 14,
   "day": 3
@@ -432,8 +432,8 @@
   "end": "2026-11-22",
   "day": 17,
   "days": 28,
-  "closed": 268,
-  "points": 634,
+  "closed": 270,
+  "points": 637,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -454,38 +454,38 @@
    {
     "status": "In Development",
     "open": 39,
-    "med_age": 14.2,
-    "max_age": 14.2,
+    "med_age": 14.3,
+    "max_age": 14.3,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 705
+    "clear_n": 707
    },
    {
     "status": "Ready for Development",
     "open": 37,
     "med_age": 13.0,
-    "max_age": 47.1,
+    "max_age": 47.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 27,
+    "over": 26,
     "clear_med": 0.8,
-    "clear_n": 270
+    "clear_n": 274
    },
    {
     "status": "In Stage",
     "open": 72,
     "med_age": 1.8,
-    "max_age": 6.0,
-    "worst_key": "PLANS-24945",
-    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 6.1,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 418
+    "clear_n": 420
    },
    {
     "status": "WAITING REVIEW",
@@ -509,7 +509,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 767
+    "clear_n": 770
    },
    {
     "status": "Ready for Stage",
@@ -544,8 +544,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 0.0,
+    "clear_n": 25
    },
    {
     "status": "PR Merged",
@@ -557,15 +557,15 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 733
+    "clear_n": 736
    }
   ],
   "parked": {
-   "On Hold": 10,
-   "Backlog": 91
+   "Backlog": 87,
+   "On Hold": 10
   },
   "open_total": 194,
-  "stale": 62,
+  "stale": 61,
   "worst": "In Development"
  }
 }
