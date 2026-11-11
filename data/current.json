@@ -46,7 +46,7 @@
   "headline": "350 items closed in the first 11 days, a pace of about 891 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 6.2d and average 12.4d, both past the healthy band"
+   "cycle time median 6.1d and average 12.4d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -151,20 +151,20 @@
    107,
    14,
    239,
-   256,
+   258,
    49,
-   7,
+   8,
    [
     203.0,
     211.0,
     207.0,
-    207.0
+    209.0
    ],
    [
     206.0,
     239.0,
     256.0,
-    256.0
+    258.0
    ]
   ],
   [
@@ -239,7 +239,7 @@
    ],
    "open": [
     55,
-    205
+    207
    ],
    "out": [
     0,
@@ -477,15 +477,23 @@
    "tis": {
     "Backlog": {
      "n": 14,
-     "med": 11.54
+     "med": 6.75
+    },
+    "Ready for Development": {
+     "n": 25,
+     "med": 0.76
+    },
+    "In Development": {
+     "n": 29,
+     "med": 0.28
+    },
+    "PR Created": {
+     "n": 33,
+     "med": 12.84
     },
     "To Do": {
      "n": 21,
      "med": 13.45
-    },
-    "Ready for Development": {
-     "n": 24,
-     "med": 0.76
     },
     "In Progress": {
      "n": 12,
@@ -494,14 +502,6 @@
     "Done": {
      "n": 19,
      "med": 13.45
-    },
-    "In Development": {
-     "n": 28,
-     "med": 0.28
-    },
-    "PR Created": {
-     "n": 32,
-     "med": 13.12
     },
     "PR Merged": {
      "n": 11,
@@ -529,11 +529,11 @@
     }
    },
    "dist": {
-    "Backlog": 8,
+    "PR Created": 22,
     "To Do": 13,
     "Ready for Development": 7,
+    "Backlog": 7,
     "Done": 19,
-    "PR Created": 21,
     "In Development": 7,
     "On Hold": 2,
     "In Stage": 9,
@@ -665,7 +665,7 @@
    203.0,
    211.0,
    207.0,
-   207.0
+   209.0
   ],
   "Plans Pod 2-Sprint 26-26": [
    240.0,
@@ -684,11 +684,11 @@
  },
  "CYC": {
   "9.10": {
-   "med": 6.21,
-   "avg": 12.43,
-   "n": 170,
+   "med": 6.08,
+   "avg": 12.36,
+   "n": 171,
    "mx": 92.49,
-   "nodev": 180,
+   "nodev": 179,
    "base": 350
   }
  },

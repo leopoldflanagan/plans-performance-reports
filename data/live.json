@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T22:03:50Z",
+ "generated": "2026-11-11T22:32:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -74,7 +74,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 15,
+    "n": 14,
     "items": [
      {
       "key": "PLANS-25251",
@@ -163,12 +163,8 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 2,
+    "n": 1,
     "items": [
-     {
-      "key": "PLANS-25236",
-      "summary": "Production issue on the Auto retry for failed claims"
-     },
      {
       "key": "PLANS-14923",
       "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
@@ -217,12 +213,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 8,
+    "n": 7,
     "items": [
-     {
-      "key": "PLANS-25289",
-      "summary": "CREG enrollment feed rejects Yes/No in IsPlanTerminated"
-     },
      {
       "key": "PLANS-25249",
       "summary": "PLANS-25249: Epic 5: Story 5.6 - wf-plans-widget: verify against a local build, "
@@ -258,7 +250,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 87,
+    "n": 86,
     "items": [
      {
       "key": "PLANS-25302",
@@ -376,14 +368,14 @@
   "items": 107,
   "items_done": 14,
   "committed": 239,
-  "final": 256,
+  "final": 258,
   "completed": 49,
-  "scope_change": 7,
+  "scope_change": 8,
   "vs_commitment": 21,
   "time_elapsed": 16,
   "spill": {
    "open_items": 55,
-   "open_pts": 205.0,
+   "open_pts": 207.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 46.0
@@ -396,11 +388,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 8,
+   "PR Created": 22,
    "To Do": 13,
    "Ready for Development": 7,
+   "Backlog": 7,
    "Done": 19,
-   "PR Created": 21,
    "In Development": 7,
    "On Hold": 2,
    "In Stage": 9,
@@ -414,19 +406,19 @@
    203.0,
    211.0,
    207.0,
-   207.0
+   209.0
   ],
   "scope": [
    206.0,
    239.0,
    256.0,
-   256.0
+   258.0
   ],
   "ghost": [
    203.0,
    211.0,
    207.0,
-   207.0
+   209.0
   ],
   "days": 14,
   "day": 3
@@ -462,14 +454,14 @@
    {
     "status": "In Development",
     "open": 38,
-    "med_age": 14.4,
-    "max_age": 14.4,
+    "med_age": 14.5,
+    "max_age": 14.5,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 705
+    "clear_n": 707
    },
    {
     "status": "Ready for Development",
@@ -481,7 +473,7 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 270
+    "clear_n": 271
    },
    {
     "status": "In Stage",
@@ -497,7 +489,7 @@
    },
    {
     "status": "PR Created",
-    "open": 31,
+    "open": 32,
     "med_age": 2.2,
     "max_age": 8.9,
     "worst_key": "PLANS-24113",
@@ -505,7 +497,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 780
+    "clear_n": 781
    },
    {
     "status": "WAITING REVIEW",
@@ -524,24 +516,12 @@
     "open": 15,
     "med_age": 0.1,
     "max_age": 0.2,
-    "worst_key": "PLANS-25223",
-    "worst_sum": "Configuration Settings not saving",
+    "worst_key": "PLANS-25279",
+    "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 730
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    },
    {
     "status": "In QA",
@@ -554,6 +534,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 69
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -569,10 +561,10 @@
    }
   ],
   "parked": {
-   "Backlog": 81,
+   "Backlog": 80,
    "On Hold": 11
   },
-  "open_total": 203,
+  "open_total": 204,
   "stale": 61,
   "worst": "In Development"
  }
