@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T16:32:37Z",
+ "generated": "2026-11-11T17:04:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 62,
+    "n": 61,
     "points": 106,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 96,
+   "ready": 95,
    "sprint": 67,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 18,
+    "n": 17,
     "items": [
-     {
-      "key": "PLANS-25272",
-      "summary": "Plan showing for two active plans"
-     },
      {
       "key": "PLANS-25264",
       "summary": "Essential Smile Plan Member ID- Incorrect Location "
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
+     },
+     {
+      "key": "PLANS-24475",
+      "summary": "Production - Text Messaging Improvements"
      }
     ]
    },
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 69,
+    "n": 68,
     "items": [
-     {
-      "key": "PLANS-25272",
-      "summary": "Plan showing for two active plans"
-     },
      {
       "key": "PLANS-25264",
       "summary": "Essential Smile Plan Member ID- Incorrect Location "
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-25150",
       "summary": "[1.2] Add gated reveal endpoint for full account and routing numbers"
+     },
+     {
+      "key": "PLANS-25133",
+      "summary": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as"
      }
     ]
    },
@@ -292,14 +292,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 154 of 158 items. This reads as a field the team does not use rather than 154 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 154,
+    "why": "missing on 153 of 157 items. This reads as a field the team does not use rather than 153 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 153,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 158 of 158 items. This reads as a field the team does not use rather than 158 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 158,
+    "why": "missing on 157 of 157 items. This reads as a field the team does not use rather than 157 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 157,
     "items": []
    },
    {
@@ -369,7 +369,7 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 101,
+  "items": 102,
   "items_done": 13,
   "committed": 237,
   "final": 249,
@@ -392,14 +392,14 @@
   },
   "spill_rate": null,
   "dist": {
+   "To Do": 12,
    "Backlog": 7,
    "Ready for Development": 5,
    "Done": 19,
-   "PR Created": 21,
-   "In Stage": 11,
-   "In Development": 7,
+   "PR Created": 22,
+   "In Development": 8,
+   "In Stage": 9,
    "Ready Prod": 6,
-   "To Do": 11,
    "On Hold": 1,
    "Closed": 7,
    "WAITING REVIEW": 2,
@@ -432,8 +432,8 @@
   "end": "2026-11-22",
   "day": 17,
   "days": 28,
-  "closed": 267,
-  "points": 629,
+  "closed": 268,
+  "points": 634,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -461,36 +461,48 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 698
+    "clear_n": 705
    },
    {
     "status": "Ready for Development",
-    "open": 38,
-    "med_age": 12.8,
+    "open": 37,
+    "med_age": 13.0,
     "max_age": 47.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 271
+    "clear_n": 270
    },
    {
     "status": "In Stage",
-    "open": 78,
+    "open": 72,
     "med_age": 1.8,
     "max_age": 6.0,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-24945",
+    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 411
+    "clear_n": 418
+   },
+   {
+    "status": "WAITING REVIEW",
+    "open": 2,
+    "med_age": 26.6,
+    "max_age": 34.0,
+    "worst_key": "PLANS-24108",
+    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 2,
+    "clear_med": 0.1,
+    "clear_n": 23
    },
    {
     "status": "PR Created",
-    "open": 35,
-    "med_age": 1.8,
+    "open": 44,
+    "med_age": 1.2,
     "max_age": 8.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -500,28 +512,16 @@
     "clear_n": 767
    },
    {
-    "status": "WAITING REVIEW",
-    "open": 2,
-    "med_age": 26.6,
-    "max_age": 33.9,
-    "worst_key": "PLANS-24108",
-    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 2,
-    "clear_med": 0.1,
-    "clear_n": 23
-   },
-   {
-    "status": "PR Merged",
-    "open": 3,
-    "med_age": 0.1,
-    "max_age": 0.1,
-    "worst_key": "PLANS-25252",
-    "worst_sum": "[7.3.2] plans-member-ms - service-side coverage and renewal-window checks read the plan st",
-    "worst_who": "Mykyta  Moroz",
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 730
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -548,7 +548,7 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -556,15 +556,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.0,
+    "clear_n": 733
    }
   ],
   "parked": {
-   "Backlog": 89,
-   "On Hold": 10
+   "On Hold": 10,
+   "Backlog": 91
   },
-  "open_total": 195,
+  "open_total": 194,
   "stale": 62,
   "worst": "In Development"
  }
