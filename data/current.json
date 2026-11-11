@@ -148,21 +148,21 @@
    "Plans Pod 1-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   99,
+   101,
    10,
-   242,
-   244,
+   237,
+   249,
    42,
-   1,
+   5,
    [
-    206.0,
-    214.0,
-    202.0
+    201.0,
+    209.0,
+    207.0
    ],
    [
-    209.0,
-    242.0,
-    244.0
+    204.0,
+    237.0,
+    249.0
    ]
   ],
   [
@@ -234,8 +234,8 @@
     39
    ],
    "open": [
-    53,
-    200
+    55,
+    205
    ],
    "out": [
     0,
@@ -245,7 +245,7 @@
     14,
     25
    ],
-   "in_pct": 10,
+   "in_pct": 11,
    "in_from": "Plans-Sprint 25-26"
   },
   "Plans Pod 2-Sprint 26-26": {
@@ -282,7 +282,7 @@
   },
   "Plans Pod 1-Sprint 26-26": {
    "react": 0,
-   "plan": 1,
+   "plan": 3,
    "pct": 0
   },
   "Plans Pod 2-Sprint 26-26": null
@@ -469,8 +469,8 @@
   "Plans Pod 1-Sprint 26-26": {
    "tis": {
     "Backlog": {
-     "n": 10,
-     "med": 13.45
+     "n": 12,
+     "med": 12.58
     },
     "Ready for Development": {
      "n": 21,
@@ -518,6 +518,7 @@
     }
    },
    "dist": {
+    "Backlog": 8,
     "Ready for Development": 5,
     "Done": 16,
     "PR Created": 22,
@@ -528,13 +529,12 @@
     "Closed": 7,
     "Ready Prod": 3,
     "PR Merged": 1,
-    "WAITING REVIEW": 2,
-    "Backlog": 6
+    "WAITING REVIEW": 2
    },
-   "stalled": 89,
+   "stalled": 91,
    "worst": 13.45,
    "worstSt": "To Do",
-   "items": 99
+   "items": 101
   },
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
@@ -649,9 +649,9 @@
    25.0
   ],
   "Plans Pod 1-Sprint 26-26": [
-   206.0,
-   214.0,
-   202.0
+   201.0,
+   209.0,
+   207.0
   ],
   "Plans Pod 2-Sprint 26-26": [
    246.0,
