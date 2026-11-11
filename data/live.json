@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T08:05:57Z",
+ "generated": "2026-11-11T08:32:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -372,7 +372,7 @@
   "completed": 42,
   "scope_change": 1,
   "vs_commitment": 17,
-  "time_elapsed": 11,
+  "time_elapsed": 12,
   "spill": {
    "open_items": 53,
    "open_pts": 200.0,
@@ -449,7 +449,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 35,
+    "open": 36,
     "med_age": 13.9,
     "max_age": 13.9,
     "worst_key": "PLANS-24785",
@@ -462,7 +462,7 @@
    {
     "status": "Ready for Development",
     "open": 37,
-    "med_age": 12.6,
+    "med_age": 12.7,
     "max_age": 46.8,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -499,7 +499,7 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 1.5,
-    "max_age": 8.3,
+    "max_age": 8.4,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -520,7 +520,7 @@
     "clear_n": 720
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -528,8 +528,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
+    "clear_med": 1.7,
+    "clear_n": 72
    },
    {
     "status": "Ready for Stage",
@@ -544,7 +544,7 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -552,15 +552,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.7,
-    "clear_n": 72
+    "clear_med": 0.1,
+    "clear_n": 21
    }
   ],
   "parked": {
-   "Backlog": 92,
+   "Backlog": 91,
    "On Hold": 9
   },
-  "open_total": 187,
+  "open_total": 188,
   "stale": 60,
   "worst": "In Development"
  }
