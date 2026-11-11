@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T04:32:45Z",
+ "generated": "2026-11-11T05:04:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -474,7 +474,7 @@
    {
     "status": "In Stage",
     "open": 67,
-    "med_age": 4.4,
+    "med_age": 4.5,
     "max_age": 5.5,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
@@ -487,7 +487,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 26.1,
-    "max_age": 33.4,
+    "max_age": 33.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -498,7 +498,7 @@
    {
     "status": "PR Created",
     "open": 35,
-    "med_age": 1.3,
+    "med_age": 1.4,
     "max_age": 8.2,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -557,8 +557,8 @@
    }
   ],
   "parked": {
-   "Backlog": 92,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 92
   },
   "open_total": 187,
   "stale": 60,
