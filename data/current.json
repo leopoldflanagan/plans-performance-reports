@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 257,
+  "closed": 258,
   "discarded": 4,
-  "resolved": 261,
+  "resolved": 262,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    156
+    157
    ],
    [
     "Bug",
@@ -43,7 +43,7 @@
   "day": 11,
   "days": 28,
   "status": "risk",
-  "headline": "257 items closed in the first 11 days, a pace of about 654 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "258 items closed in the first 11 days, a pace of about 657 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 6.7d and average 12.6d, both past the healthy band"
@@ -661,9 +661,9 @@
  },
  "CAP": {
   "9.10": [
-   257,
-   195,
-   604,
+   258,
+   196,
+   607,
    22
   ]
  },
@@ -673,8 +673,8 @@
    "avg": 12.57,
    "n": 159,
    "mx": 92.49,
-   "nodev": 98,
-   "base": 257
+   "nodev": 99,
+   "base": 258
   }
  },
  "complete": false,
