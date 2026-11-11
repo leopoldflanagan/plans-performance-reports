@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T10:32:59Z",
+ "generated": "2026-11-11T11:04:00Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 59,
-    "points": 108,
+    "n": 58,
+    "points": 106,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 93,
+   "ready": 92,
    "sprint": 65,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,15 +124,11 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 66,
+    "n": 65,
     "items": [
      {
       "key": "PLANS-25236",
       "summary": "Production issue on the Auto retry for failed claims"
-     },
-     {
-      "key": "PLANS-25222",
-      "summary": "Settings are reverting after release"
      },
      {
       "key": "PLANS-25152",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
+     },
+     {
+      "key": "PLANS-24964",
+      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
      }
     ]
    },
@@ -288,14 +288,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 150 of 153 items. This reads as a field the team does not use rather than 150 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 150,
+    "why": "missing on 149 of 152 items. This reads as a field the team does not use rather than 149 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 149,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 153 of 153 items. This reads as a field the team does not use rather than 153 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 153,
+    "why": "missing on 152 of 152 items. This reads as a field the team does not use rather than 152 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 152,
     "items": []
    },
    {
@@ -449,7 +449,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 37,
+    "open": 38,
     "med_age": 14.0,
     "max_age": 14.0,
     "worst_key": "PLANS-24785",
@@ -461,24 +461,24 @@
    },
    {
     "status": "Ready for Development",
-    "open": 35,
-    "med_age": 13.7,
+    "open": 34,
+    "med_age": 14.1,
     "max_age": 46.9,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 269
+    "clear_n": 270
    },
    {
     "status": "In Stage",
     "open": 67,
     "med_age": 4.7,
     "max_age": 5.8,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 405
@@ -498,14 +498,14 @@
    {
     "status": "PR Created",
     "open": 37,
-    "med_age": 1.3,
-    "max_age": 8.4,
+    "med_age": 1.4,
+    "max_age": 8.5,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 765
+    "clear_n": 766
    },
    {
     "status": "PR Merged",
@@ -517,7 +517,7 @@
     "worst_who": "Rostyslav  Masniuk",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 720
+    "clear_n": 721
    },
    {
     "status": "In QA",
@@ -557,8 +557,8 @@
    }
   ],
   "parked": {
-   "Backlog": 91,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 91
   },
   "open_total": 189,
   "stale": 61,
