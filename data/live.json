@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T03:32:52Z",
+ "generated": "2026-11-11T04:04:30Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -457,7 +457,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 695
+    "clear_n": 693
    },
    {
     "status": "Ready for Development",
@@ -476,12 +476,12 @@
     "open": 67,
     "med_age": 4.4,
     "max_age": 5.5,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-25117",
+    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
+    "worst_who": "David Jones",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 406
+    "clear_n": 405
    },
    {
     "status": "WAITING REVIEW",
@@ -505,31 +505,19 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 1,
     "clear_med": 0.0,
-    "clear_n": 769
+    "clear_n": 765
    },
    {
     "status": "PR Merged",
     "open": 11,
     "med_age": 0.4,
     "max_age": 0.5,
-    "worst_key": "PLANS-24831",
-    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
-    "worst_who": "Rostyslav  Masniuk",
+    "worst_key": "PLANS-24985",
+    "worst_sum": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 724
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 73
+    "clear_n": 720
    },
    {
     "status": "In PreProd",
@@ -554,11 +542,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.7,
+    "clear_n": 72
    }
   ],
   "parked": {
-   "Backlog": 91,
-   "On Hold": 9
+   "On Hold": 9,
+   "Backlog": 92
   },
   "open_total": 187,
   "stale": 60,
