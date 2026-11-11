@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T22:32:33Z",
+ "generated": "2026-11-11T23:03:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 104,
+   "ready": 103,
    "sprint": 71,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -250,7 +250,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 86,
+    "n": 85,
     "items": [
      {
       "key": "PLANS-25302",
@@ -288,14 +288,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 164 of 168 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 164,
+    "why": "missing on 163 of 167 items. This reads as a field the team does not use rather than 163 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 163,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 168 of 168 items. This reads as a field the team does not use rather than 168 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 168,
+    "why": "missing on 167 of 167 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 167,
     "items": []
    },
    {
@@ -432,8 +432,8 @@
   "end": "2026-11-22",
   "day": 17,
   "days": 28,
-  "closed": 350,
-  "points": 649,
+  "closed": 352,
+  "points": 652,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -477,21 +477,21 @@
    },
    {
     "status": "In Stage",
-    "open": 69,
-    "med_age": 2.0,
+    "open": 68,
+    "med_age": 2.1,
     "max_age": 6.3,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
-    "clear_n": 417
+    "clear_n": 418
    },
    {
     "status": "PR Created",
     "open": 32,
     "med_age": 2.2,
-    "max_age": 8.9,
+    "max_age": 9.0,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -524,7 +524,7 @@
     "clear_n": 730
    },
    {
-    "status": "In QA",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -532,8 +532,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 69
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -548,7 +548,7 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -556,15 +556,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 1.8,
+    "clear_n": 69
    }
   ],
   "parked": {
-   "Backlog": 80,
-   "On Hold": 11
+   "On Hold": 11,
+   "Backlog": 80
   },
-  "open_total": 204,
+  "open_total": 203,
   "stale": 61,
   "worst": "In Development"
  }
