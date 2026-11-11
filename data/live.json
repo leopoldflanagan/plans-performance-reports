@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T07:32:49Z",
+ "generated": "2026-11-11T08:05:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -450,8 +450,8 @@
    {
     "status": "In Development",
     "open": 35,
-    "med_age": 13.8,
-    "max_age": 13.8,
+    "med_age": 13.9,
+    "max_age": 13.9,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -463,7 +463,7 @@
     "status": "Ready for Development",
     "open": 37,
     "med_age": 12.6,
-    "max_age": 46.7,
+    "max_age": 46.8,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -475,13 +475,25 @@
     "status": "In Stage",
     "open": 67,
     "med_age": 4.6,
-    "max_age": 5.6,
-    "worst_key": "PLANS-25117",
-    "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
-    "worst_who": "David Jones",
+    "max_age": 5.7,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 405
+   },
+   {
+    "status": "WAITING REVIEW",
+    "open": 2,
+    "med_age": 26.3,
+    "max_age": 33.6,
+    "worst_key": "PLANS-24108",
+    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 2,
+    "clear_med": 0.1,
+    "clear_n": 23
    },
    {
     "status": "PR Created",
@@ -496,40 +508,16 @@
     "clear_n": 765
    },
    {
-    "status": "WAITING REVIEW",
-    "open": 2,
-    "med_age": 26.2,
-    "max_age": 33.6,
-    "worst_key": "PLANS-24108",
-    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 2,
-    "clear_med": 0.1,
-    "clear_n": 23
-   },
-   {
     "status": "PR Merged",
     "open": 11,
-    "med_age": 0.5,
-    "max_age": 0.6,
-    "worst_key": "PLANS-25050",
-    "worst_sum": "[4.4] Member Portal - Plans - resolve each plan line's current plan, so replaced plans nev",
-    "worst_who": "Mykyta  Moroz",
+    "med_age": 0.6,
+    "max_age": 0.7,
+    "worst_key": "PLANS-24831",
+    "worst_sum": "[2.3] Legal Language Additions - wellfit-plans-services-widget: plan-footer 14pt/12pt rule",
+    "worst_who": "Rostyslav  Masniuk",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 720
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.7,
-    "clear_n": 72
    },
    {
     "status": "In PreProd",
@@ -554,11 +542,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.7,
+    "clear_n": 72
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 92
+   "Backlog": 92,
+   "On Hold": 9
   },
   "open_total": 187,
   "stale": 60,
