@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T09:04:30Z",
+ "generated": "2026-11-11T09:32:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -474,7 +474,7 @@
    {
     "status": "In Stage",
     "open": 67,
-    "med_age": 4.6,
+    "med_age": 4.7,
     "max_age": 5.7,
     "worst_key": "PLANS-25117",
     "worst_sum": "Preprod  - ACH and CC  Auto renewal didn't process ( Euler /Legacy West Dental)",
@@ -482,6 +482,18 @@
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 405
+   },
+   {
+    "status": "PR Created",
+    "open": 36,
+    "med_age": 1.5,
+    "max_age": 8.4,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 2,
+    "clear_med": 0.0,
+    "clear_n": 765
    },
    {
     "status": "WAITING REVIEW",
@@ -496,40 +508,16 @@
     "clear_n": 23
    },
    {
-    "status": "PR Created",
-    "open": 36,
-    "med_age": 1.4,
-    "max_age": 8.4,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 2,
-    "clear_med": 0.0,
-    "clear_n": 765
-   },
-   {
     "status": "PR Merged",
     "open": 11,
     "med_age": 0.6,
     "max_age": 0.7,
-    "worst_key": "PLANS-24985",
-    "worst_sum": "PMP - Upgrade Flow Allows Minor with different Responsible Party to Be Added, Resulting in",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25050",
+    "worst_sum": "[4.4] Member Portal - Plans - resolve each plan line's current plan, so replaced plans nev",
+    "worst_who": "Mykyta  Moroz",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 720
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 21
    },
    {
     "status": "In QA",
@@ -542,6 +530,18 @@
     "over": 0,
     "clear_med": 1.7,
     "clear_n": 72
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 21
    },
    {
     "status": "Ready for Stage",
@@ -557,8 +557,8 @@
    }
   ],
   "parked": {
-   "On Hold": 9,
-   "Backlog": 91
+   "Backlog": 91,
+   "On Hold": 9
   },
   "open_total": 189,
   "stale": 61,
