@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T23:03:43Z",
+ "generated": "2026-11-11T23:32:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -44,8 +44,8 @@
    },
    {
     "rule": "Groomed work archived as Deferred",
-    "n": 1,
-    "points": 3,
+    "n": 0,
+    "points": 0,
     "why": "work that met Definition of Ready and was then parked."
    }
   ]
@@ -466,7 +466,7 @@
    {
     "status": "Ready for Development",
     "open": 48,
-    "med_age": 10.6,
+    "med_age": 10.7,
     "max_age": 47.4,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -477,7 +477,7 @@
    },
    {
     "status": "In Stage",
-    "open": 68,
+    "open": 69,
     "med_age": 2.1,
     "max_age": 6.3,
     "worst_key": "PLANS-24890",
@@ -513,15 +513,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 15,
-    "med_age": 0.1,
+    "open": 14,
+    "med_age": 0.2,
     "max_age": 0.2,
     "worst_key": "PLANS-25279",
     "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 730
+    "clear_n": 731
    },
    {
     "status": "Ready for Stage",
@@ -536,18 +536,6 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -558,11 +546,23 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 69
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "On Hold": 11,
-   "Backlog": 80
+   "Backlog": 80,
+   "On Hold": 11
   },
   "open_total": 203,
   "stale": 61,
