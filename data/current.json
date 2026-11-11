@@ -40,10 +40,10 @@
   ],
   "unp_items": [],
   "open": true,
-  "day": 10,
+  "day": 11,
   "days": 28,
   "status": "risk",
-  "headline": "254 items closed in the first 10 days, a pace of about 711 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "254 items closed in the first 11 days, a pace of about 647 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 6.3d and average 12.5d, both past the healthy band"
