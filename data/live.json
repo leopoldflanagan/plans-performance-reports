@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T05:33:00Z",
+ "generated": "2026-11-11T06:06:42Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -462,7 +462,7 @@
    {
     "status": "Ready for Development",
     "open": 37,
-    "med_age": 12.5,
+    "med_age": 12.6,
     "max_age": 46.7,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -486,7 +486,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 26.1,
+    "med_age": 26.2,
     "max_age": 33.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -499,7 +499,7 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 1.4,
-    "max_age": 8.2,
+    "max_age": 8.3,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -532,18 +532,6 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.7,
-    "clear_n": 72
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -554,6 +542,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 21
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.7,
+    "clear_n": 72
    }
   ],
   "parked": {
