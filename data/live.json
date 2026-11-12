@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T08:05:51Z",
+ "generated": "2026-11-12T08:33:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 68,
-    "points": 140,
+    "n": 67,
+    "points": 138,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 100,
+   "ready": 99,
    "sprint": 71,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 74,
+    "n": 73,
     "items": [
      {
       "key": "PLANS-25302",
@@ -288,14 +288,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 162 of 166 items. This reads as a field the team does not use rather than 162 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 162,
+    "why": "missing on 161 of 165 items. This reads as a field the team does not use rather than 161 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 161,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 166 of 166 items. This reads as a field the team does not use rather than 166 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 166,
+    "why": "missing on 165 of 165 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 165,
     "items": []
    },
    {
@@ -453,7 +453,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 41,
+    "open": 42,
     "med_age": 14.9,
     "max_age": 14.9,
     "worst_key": "PLANS-24785",
@@ -465,7 +465,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 45,
+    "open": 44,
     "med_age": 12.6,
     "max_age": 47.8,
     "worst_key": "PLANS-23527",
@@ -473,12 +473,12 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 274
+    "clear_n": 275
    },
    {
     "status": "In Stage",
     "open": 70,
-    "med_age": 2.0,
+    "med_age": 2.1,
     "max_age": 6.7,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
@@ -491,7 +491,7 @@
     "status": "PR Created",
     "open": 32,
     "med_age": 2.7,
-    "max_age": 9.3,
+    "max_age": 9.4,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -524,18 +524,6 @@
     "clear_n": 732
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -558,6 +546,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {

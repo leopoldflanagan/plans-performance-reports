@@ -563,7 +563,11 @@
     },
     "Ready for Development": {
      "n": 26,
-     "med": 11.54
+     "med": 6.71
+    },
+    "In Development": {
+     "n": 30,
+     "med": 0.21
     },
     "PR Created": {
      "n": 63,
@@ -585,10 +589,6 @@
      "n": 85,
      "med": 13.43
     },
-    "In Development": {
-     "n": 29,
-     "med": 0.21
-    },
     "Closed": {
      "n": 5,
      "med": 12.32
@@ -604,11 +604,11 @@
    },
    "dist": {
     "Done": 27,
-    "Ready for Development": 14,
+    "Ready for Development": 13,
     "In Progress": 11,
     "To Do": 111,
+    "In Development": 4,
     "Ready Prod": 10,
-    "In Development": 3,
     "Closed": 5,
     "In Stage": 29,
     "PR Merged": 11,
