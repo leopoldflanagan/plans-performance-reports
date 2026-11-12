@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T18:05:14Z",
+ "generated": "2026-11-12T18:32:39Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,26 +55,26 @@
   "day": 4,
   "days": 14,
   "n": 21,
-  "done_now": 71,
+  "done_now": 74,
   "committed": 237,
-  "lo": 184,
-  "mid": 233,
-  "hi": 316,
-  "pct": 98,
+  "lo": 191,
+  "mid": 243,
+  "hi": 329,
+  "pct": 103,
   "verdict": "on track for the commitment",
   "share_mid": 0.304
  },
  "admin": {
   "scope": {
    "ready": 95,
-   "sprint": 71,
+   "sprint": 75,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 11,
+    "n": 13,
     "items": [
      {
       "key": "PLANS-25063",
@@ -163,8 +163,24 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 1,
+    "n": 5,
     "items": [
+     {
+      "key": "PLANS-25286",
+      "summary": "SGDPADHA-Stage-Missing details for \"More benefits for you\" on Landing page"
+     },
+     {
+      "key": "PLANS-25282",
+      "summary": "Blocker - SGDP ADHA-Stage-Landing Page missing Plans card"
+     },
+     {
+      "key": "PLANS-25274",
+      "summary": "Blocker-SGDP AHDA- Stage-Plans are missing"
+     },
+     {
+      "key": "PLANS-25273",
+      "summary": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for "
+     },
      {
       "key": "PLANS-14923",
       "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
@@ -213,8 +229,24 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 4,
+    "n": 8,
     "items": [
+     {
+      "key": "PLANS-25286",
+      "summary": "SGDPADHA-Stage-Missing details for \"More benefits for you\" on Landing page"
+     },
+     {
+      "key": "PLANS-25282",
+      "summary": "Blocker - SGDP ADHA-Stage-Landing Page missing Plans card"
+     },
+     {
+      "key": "PLANS-25274",
+      "summary": "Blocker-SGDP AHDA- Stage-Plans are missing"
+     },
+     {
+      "key": "PLANS-25273",
+      "summary": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for "
+     },
      {
       "key": "PLANS-25249",
       "summary": "PLANS-25249: Epic 5: Story 5.6 - wf-plans-widget: verify against a local build, "
@@ -276,14 +308,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 160 of 163 items. This reads as a field the team does not use rather than 160 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 160,
+    "why": "missing on 164 of 167 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 164,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 163 of 163 items. This reads as a field the team does not use rather than 163 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 163,
+    "why": "missing on 167 of 167 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 167,
     "items": []
    },
    {
@@ -353,20 +385,20 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 108,
-  "items_done": 24,
+  "items": 113,
+  "items_done": 25,
   "committed": 237,
-  "final": 256,
-  "completed": 71,
-  "scope_change": 8,
-  "vs_commitment": 30,
+  "final": 258,
+  "completed": 74,
+  "scope_change": 9,
+  "vs_commitment": 31,
   "time_elapsed": 22,
   "spill": {
-   "open_items": 46,
-   "open_pts": 188.0,
+   "open_items": 49,
+   "open_pts": 187.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 63.0
+   "done_pts": 66.0
   },
   "recv": {
    "items": 14,
@@ -376,15 +408,15 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 13,
+   "To Do": 14,
    "PR Merged": 1,
-   "Ready Prod": 15,
-   "In Progress": 5,
-   "Backlog": 4,
+   "Ready Prod": 16,
+   "Backlog": 8,
+   "In Progress": 4,
    "Ready for Development": 3,
-   "Done": 19,
+   "Done": 20,
    "PR Created": 22,
-   "In Stage": 8,
+   "In Stage": 7,
    "In Development": 6,
    "On Hold": 2,
    "Closed": 8,
@@ -394,19 +426,19 @@
    201.0,
    209.0,
    205.0,
-   185.0
+   184.0
   ],
   "scope": [
    204.0,
    237.0,
    254.0,
-   256.0
+   258.0
   ],
   "ghost": [
    201.0,
    209.0,
    205.0,
-   185.0
+   184.0
   ],
   "days": 14,
   "day": 4
@@ -420,8 +452,8 @@
   "end": "2026-11-22",
   "day": 18,
   "days": 28,
-  "closed": 384,
-  "points": 743,
+  "closed": 388,
+  "points": 750,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -465,7 +497,7 @@
    },
    {
     "status": "In Stage",
-    "open": 50,
+    "open": 48,
     "med_age": 1.8,
     "max_age": 7.1,
     "worst_key": "PLANS-24890",
@@ -473,7 +505,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 8,
     "clear_med": 1.1,
-    "clear_n": 462
+    "clear_n": 464
    },
    {
     "status": "WAITING REVIEW",
@@ -524,18 +556,6 @@
     "clear_n": 71
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -546,13 +566,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 76,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 75
   },
-  "open_total": 163,
+  "open_total": 161,
   "stale": 69,
   "worst": "In Development"
  }
