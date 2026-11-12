@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T14:33:21Z",
+ "generated": "2026-11-12T15:04:17Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -384,7 +384,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "PR Created": 16,
+   "PR Created": 15,
    "To Do": 13,
    "In Development": 9,
    "Ready for Development": 4,
@@ -395,7 +395,7 @@
    "Ready Prod": 6,
    "Closed": 8,
    "WAITING REVIEW": 2,
-   "PR Merged": 8,
+   "PR Merged": 9,
    "In Progress": 4
   },
   "burn": [
@@ -450,8 +450,8 @@
    {
     "status": "In Development",
     "open": 41,
-    "med_age": 15.1,
-    "max_age": 15.1,
+    "med_age": 15.2,
+    "max_age": 15.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -463,7 +463,7 @@
     "status": "Ready for Development",
     "open": 41,
     "med_age": 12.9,
-    "max_age": 48.0,
+    "max_age": 48.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -475,11 +475,11 @@
     "status": "In Stage",
     "open": 71,
     "med_age": 2.0,
-    "max_age": 6.9,
-    "worst_key": "PLANS-24945",
-    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
-    "worst_who": "Valentyna Tenus",
-    "over": 0,
+    "max_age": 7.0,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 2,
     "clear_med": 1.1,
     "clear_n": 418
    },
@@ -497,39 +497,27 @@
    },
    {
     "status": "PR Created",
-    "open": 28,
-    "med_age": 1.9,
+    "open": 26,
+    "med_age": 2.0,
     "max_age": 9.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 3,
+    "over": 2,
     "clear_med": 0.0,
-    "clear_n": 794
+    "clear_n": 796
    },
    {
     "status": "PR Merged",
-    "open": 21,
+    "open": 23,
     "med_age": 0.8,
-    "max_age": 0.8,
+    "max_age": 0.9,
     "worst_key": "PLANS-25279",
     "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 737
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 69
    },
    {
     "status": "Ready for Stage",
@@ -554,6 +542,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 69
    }
   ],
   "parked": {
@@ -561,7 +561,7 @@
    "On Hold": 11
   },
   "open_total": 204,
-  "stale": 62,
+  "stale": 63,
   "worst": "In Development"
  }
 }
