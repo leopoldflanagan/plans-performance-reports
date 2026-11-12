@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T09:04:32Z",
+ "generated": "2026-11-12T09:33:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 66,
+    "n": 65,
     "points": 137,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 98,
+   "ready": 97,
    "sprint": 71,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 12,
+    "n": 11,
     "items": [
-     {
-      "key": "PLANS-25244",
-      "summary": "SGDP Purchase Portal-Stage-Autorenewal checkbox is showing for SGDP CA plan, CSP"
-     },
      {
       "key": "PLANS-25063",
       "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-14538",
       "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
+     },
+     {
+      "key": "PLANS-11253",
+      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 72,
+    "n": 71,
     "items": [
      {
       "key": "PLANS-25302",
@@ -288,14 +288,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 161 of 165 items. This reads as a field the team does not use rather than 161 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 161,
+    "why": "missing on 160 of 164 items. This reads as a field the team does not use rather than 160 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 160,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 165 of 165 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 165,
+    "why": "missing on 164 of 164 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 164,
     "items": []
    },
    {
@@ -453,8 +453,8 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 43,
-    "med_age": 14.9,
+    "open": 44,
+    "med_age": 14.4,
     "max_age": 14.9,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -465,7 +465,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 43,
+    "open": 42,
     "med_age": 12.6,
     "max_age": 47.8,
     "worst_key": "PLANS-23527",
@@ -473,16 +473,16 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 276
+    "clear_n": 277
    },
    {
     "status": "In Stage",
     "open": 70,
     "med_age": 2.1,
     "max_age": 6.7,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-24945",
+    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 418

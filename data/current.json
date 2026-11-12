@@ -174,20 +174,20 @@
    316,
    16,
    272,
-   324,
+   325,
    58,
    19,
    [
     240.0,
     241.0,
-    275.0,
-    264.0
+    276.0,
+    265.0
    ],
    [
     265.0,
     272.0,
-    322.0,
-    322.0
+    323.0,
+    323.0
    ]
   ]
  ],
@@ -259,7 +259,7 @@
    ],
    "open": [
     150,
-    279
+    280
    ],
    "out": [
     2,
@@ -563,10 +563,10 @@
     },
     "Ready for Development": {
      "n": 26,
-     "med": 6.71
+     "med": 1.73
     },
     "In Development": {
-     "n": 30,
+     "n": 31,
      "med": 0.21
     },
     "PR Created": {
@@ -604,10 +604,10 @@
    },
    "dist": {
     "Done": 27,
-    "Ready for Development": 13,
+    "Ready for Development": 12,
     "In Progress": 11,
     "To Do": 111,
-    "In Development": 4,
+    "In Development": 5,
     "Ready Prod": 10,
     "Closed": 5,
     "In Stage": 29,
@@ -669,8 +669,8 @@
   "Plans Pod 2-Sprint 26-26": [
    240.0,
    241.0,
-   275.0,
-   264.0
+   276.0,
+   265.0
   ]
  },
  "CAP": {
