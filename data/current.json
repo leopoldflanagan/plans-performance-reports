@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 392,
+  "closed": 393,
   "discarded": 4,
-  "resolved": 396,
+  "resolved": 397,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    279
+    280
    ],
    [
     "Bug",
@@ -43,10 +43,10 @@
   "day": 12,
   "days": 28,
   "status": "risk",
-  "headline": "392 items closed in the first 12 days, a pace of about 915 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "393 items closed in the first 12 days, a pace of about 917 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 5.1d and average 11.3d, both past the healthy band"
+   "cycle time median 5.0d and average 11.3d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -183,12 +183,14 @@
     240.0,
     241.0,
     277.0,
+    218.0,
     218.0
    ],
    [
     265.0,
     272.0,
     324.0,
+    334.0,
     334.0
    ]
   ]
@@ -489,19 +491,19 @@
     },
     "In Development": {
      "n": 38,
-     "med": 0.24
+     "med": 0.19
     },
     "PR Created": {
-     "n": 52,
+     "n": 53,
      "med": 2.68
     },
     "PR Merged": {
-     "n": 29,
+     "n": 30,
      "med": 0.02
     },
     "In Stage": {
-     "n": 26,
-     "med": 1.86
+     "n": 27,
+     "med": 1.88
     },
     "Ready Prod": {
      "n": 17,
@@ -541,8 +543,8 @@
     "Ready for Development": 3,
     "Done": 20,
     "PR Created": 22,
-    "In Stage": 7,
-    "In Development": 6,
+    "In Stage": 8,
+    "In Development": 5,
     "On Hold": 2,
     "Closed": 8,
     "WAITING REVIEW": 2
@@ -680,25 +682,26 @@
    240.0,
    241.0,
    277.0,
+   218.0,
    218.0
   ]
  },
  "CAP": {
   "9.10": [
-   392,
-   247,
-   763,
+   393,
+   248,
+   766,
    23
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 5.1,
-   "avg": 11.31,
-   "n": 208,
+   "med": 4.99,
+   "avg": 11.27,
+   "n": 209,
    "mx": 92.49,
    "nodev": 184,
-   "base": 392
+   "base": 393
   }
  },
  "complete": false,

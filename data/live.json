@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T19:32:44Z",
+ "generated": "2026-11-12T20:04:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -392,7 +392,7 @@
   "completed": 74,
   "scope_change": 9,
   "vs_commitment": 31,
-  "time_elapsed": 22,
+  "time_elapsed": 23,
   "spill": {
    "open_items": 49,
    "open_pts": 187.0,
@@ -455,8 +455,8 @@
   "end": "2026-11-22",
   "day": 18,
   "days": 28,
-  "closed": 392,
-  "points": 763,
+  "closed": 393,
+  "points": 766,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -476,21 +476,21 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 37,
-    "med_age": 15.3,
-    "max_age": 15.3,
+    "open": 36,
+    "med_age": 15.4,
+    "max_age": 15.4,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 722
+    "clear_n": 723
    },
    {
     "status": "Ready for Development",
     "open": 40,
     "med_age": 13.1,
-    "max_age": 48.2,
+    "max_age": 48.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -502,13 +502,13 @@
     "status": "In Stage",
     "open": 44,
     "med_age": 1.9,
-    "max_age": 7.1,
-    "worst_key": "PLANS-24945",
-    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 7.2,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 5,
     "clear_med": 1.1,
-    "clear_n": 468
+    "clear_n": 469
    },
    {
     "status": "WAITING REVIEW",
@@ -532,7 +532,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 808
+    "clear_n": 809
    },
    {
     "status": "PR Merged",
@@ -544,7 +544,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 769
+    "clear_n": 770
    },
    {
     "status": "In PreProd",
@@ -584,10 +584,10 @@
    }
   ],
   "parked": {
-   "Backlog": 75,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 75
   },
-  "open_total": 157,
+  "open_total": 156,
   "stale": 66,
   "worst": "In Development"
  }
