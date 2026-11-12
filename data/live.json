@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T09:33:04Z",
+ "generated": "2026-11-12T10:04:19Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 65,
-    "points": 137,
+    "n": 64,
+    "points": 136,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 97,
+   "ready": 96,
    "sprint": 71,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 71,
+    "n": 70,
     "items": [
      {
       "key": "PLANS-25302",
@@ -213,7 +213,7 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 7,
+    "n": 6,
     "items": [
      {
       "key": "PLANS-25249",
@@ -229,11 +229,7 @@
      },
      {
       "key": "PLANS-24257",
-      "summary": "PLANS-24257: Epic 5: Story 5.3 - Smile Health portal: unit test every API servic"
-     },
-     {
-      "key": "PLANS-24255",
-      "summary": "PLANS-24255: Epic 5: Story 5.2 - Smile Health portal: every backend call goes to"
+      "summary": "PLANS-24257: Epic 5: Story 5.3 - Smile Health portal: move the suite onto Vitest"
      },
      {
       "key": "PLANS-23835",
@@ -288,14 +284,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 160 of 164 items. This reads as a field the team does not use rather than 160 oversights. Worth deciding: adopt it or stop asking for it.",
+    "why": "missing on 160 of 163 items. This reads as a field the team does not use rather than 160 oversights. Worth deciding: adopt it or stop asking for it.",
     "n": 160,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 164 of 164 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 164,
+    "why": "missing on 163 of 163 items. This reads as a field the team does not use rather than 163 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 163,
     "items": []
    },
    {
@@ -390,9 +386,9 @@
   "dist": {
    "PR Created": 22,
    "To Do": 13,
-   "In Development": 9,
+   "In Development": 10,
    "Ready for Development": 4,
-   "Backlog": 7,
+   "Backlog": 6,
    "Done": 19,
    "On Hold": 2,
    "In Stage": 10,
@@ -461,28 +457,28 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 707
+    "clear_n": 709
    },
    {
     "status": "Ready for Development",
-    "open": 42,
-    "med_age": 12.6,
-    "max_age": 47.8,
+    "open": 41,
+    "med_age": 12.7,
+    "max_age": 47.9,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 277
+    "clear_n": 278
    },
    {
     "status": "In Stage",
     "open": 70,
     "med_age": 2.1,
-    "max_age": 6.7,
-    "worst_key": "PLANS-24945",
-    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 6.8,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 418
@@ -497,13 +493,13 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 10,
     "clear_med": 0.0,
-    "clear_n": 781
+    "clear_n": 784
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 27.3,
-    "max_age": 34.6,
+    "med_age": 27.4,
+    "max_age": 34.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -513,15 +509,15 @@
    },
    {
     "status": "PR Merged",
-    "open": 13,
+    "open": 15,
     "med_age": 0.6,
-    "max_age": 0.6,
-    "worst_key": "PLANS-25279",
-    "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 0.7,
+    "worst_key": "PLANS-24253",
+    "worst_sum": "PLANS-24253: Epic 5: Story 5.1 - Smile Health portal: group every backend call into a serv",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 732
+    "clear_n": 733
    },
    {
     "status": "In QA",
@@ -562,9 +558,9 @@
   ],
   "parked": {
    "On Hold": 11,
-   "Backlog": 80
+   "Backlog": 79
   },
-  "open_total": 203,
+  "open_total": 204,
   "stale": 69,
   "worst": "In Development"
  }
