@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T06:06:58Z",
+ "generated": "2026-11-12T06:38:00Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -514,7 +514,7 @@
    {
     "status": "PR Merged",
     "open": 13,
-    "med_age": 0.4,
+    "med_age": 0.5,
     "max_age": 0.5,
     "worst_key": "PLANS-25279",
     "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
@@ -522,6 +522,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 732
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -546,23 +558,11 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 11,
-   "Backlog": 80
+   "Backlog": 80,
+   "On Hold": 11
   },
   "open_total": 203,
   "stale": 61,
