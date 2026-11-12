@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T23:03:59Z",
+ "generated": "2026-11-12T23:32:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 4,
   "days": 14,
   "n": 21,
-  "done_now": 89,
+  "done_now": 92,
   "committed": 237,
-  "lo": 230,
-  "mid": 293,
-  "hi": 396,
-  "pct": 124,
+  "lo": 238,
+  "mid": 303,
+  "hi": 409,
+  "pct": 128,
   "verdict": "on track for the commitment",
   "share_mid": 0.304
  },
@@ -386,19 +386,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 113,
-  "items_done": 29,
+  "items_done": 30,
   "committed": 237,
   "final": 258,
-  "completed": 89,
+  "completed": 92,
   "scope_change": 9,
-  "vs_commitment": 38,
+  "vs_commitment": 39,
   "time_elapsed": 24,
   "spill": {
-   "open_items": 45,
-   "open_pts": 172.0,
+   "open_items": 44,
+   "open_pts": 169.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 81.0
+   "done_pts": 84.0
   },
   "recv": {
    "items": 14,
@@ -412,22 +412,22 @@
    "In QA": 1,
    "Ready Prod": 20,
    "Backlog": 8,
-   "Done": 21,
+   "Done": 22,
    "Ready for Development": 3,
    "PR Created": 22,
    "In Development": 5,
    "On Hold": 2,
-   "Closed": 8,
-   "In Progress": 4,
-   "In Stage": 4,
-   "WAITING REVIEW": 2
+   "Closed": 9,
+   "In Stage": 3,
+   "WAITING REVIEW": 2,
+   "In Progress": 3
   },
   "burn": [
    201.0,
    209.0,
    205.0,
    184.0,
-   169.0
+   166.0
   ],
   "scope": [
    204.0,
@@ -441,7 +441,7 @@
    209.0,
    205.0,
    184.0,
-   169.0
+   166.0
   ],
   "days": 14,
   "day": 4
@@ -455,8 +455,8 @@
   "end": "2026-11-22",
   "day": 18,
   "days": 28,
-  "closed": 401,
-  "points": 788,
+  "closed": 402,
+  "points": 791,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -500,7 +500,7 @@
    },
    {
     "status": "In Stage",
-    "open": 36,
+    "open": 35,
     "med_age": 2.0,
     "max_age": 7.3,
     "worst_key": "PLANS-24804",
@@ -508,7 +508,7 @@
     "worst_who": "Denys  Kernychnyi",
     "over": 4,
     "clear_med": 1.1,
-    "clear_n": 477
+    "clear_n": 478
    },
    {
     "status": "WAITING REVIEW",
@@ -535,16 +535,16 @@
     "clear_n": 809
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "In QA",
+    "open": 2,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25289",
+    "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 1.6,
+    "clear_n": 71
    },
    {
     "status": "Ready for Stage",
@@ -559,16 +559,16 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
-    "open": 2,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25289",
-    "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
-    "worst_who": "Sailaja Yanamandra",
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 71
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "PR Merged",
@@ -584,10 +584,10 @@
    }
   ],
   "parked": {
-   "Backlog": 75,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 75
   },
-  "open_total": 148,
+  "open_total": 147,
   "stale": 65,
   "worst": "In Development"
  }
