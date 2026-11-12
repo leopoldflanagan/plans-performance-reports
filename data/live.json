@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T10:33:10Z",
+ "generated": "2026-11-12T11:04:02Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,15 +449,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 44,
-    "med_age": 14.4,
+    "open": 43,
+    "med_age": 15.0,
     "max_age": 15.0,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 709
+    "clear_n": 710
    },
    {
     "status": "Ready for Development",
@@ -474,7 +474,7 @@
    {
     "status": "In Stage",
     "open": 70,
-    "med_age": 2.1,
+    "med_age": 2.2,
     "max_age": 6.8,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
@@ -485,15 +485,15 @@
    },
    {
     "status": "PR Created",
-    "open": 33,
+    "open": 34,
     "med_age": 2.7,
-    "max_age": 9.4,
+    "max_age": 9.5,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 10,
     "clear_med": 0.0,
-    "clear_n": 784
+    "clear_n": 785
    },
    {
     "status": "WAITING REVIEW",
@@ -517,10 +517,10 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 734
+    "clear_n": 735
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -528,8 +528,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -544,7 +544,7 @@
     "clear_n": 69
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -552,13 +552,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 79,
-   "On Hold": 11
+   "On Hold": 11,
+   "Backlog": 79
   },
   "open_total": 204,
   "stale": 69,
