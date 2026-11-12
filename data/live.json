@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T15:04:17Z",
+ "generated": "2026-11-12T15:33:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 14
   },
   "misfiled": {
-   "items": 34,
-   "points": 144
+   "items": 35,
+   "points": 146
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 34,
-    "points": 144,
+    "n": 35,
+    "points": 146,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -174,7 +174,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 32,
+    "n": 30,
     "items": [
      {
       "key": "PLANS-25302",
@@ -384,18 +384,17 @@
   },
   "spill_rate": null,
   "dist": {
-   "PR Created": 15,
+   "PR Created": 23,
    "To Do": 13,
    "In Development": 9,
    "Ready for Development": 4,
    "Backlog": 6,
    "Done": 19,
    "On Hold": 2,
-   "In Stage": 10,
+   "In Stage": 11,
    "Ready Prod": 6,
    "Closed": 8,
    "WAITING REVIEW": 2,
-   "PR Merged": 9,
    "In Progress": 4
   },
   "burn": [
@@ -428,8 +427,8 @@
   "end": "2026-11-22",
   "day": 18,
   "days": 28,
-  "closed": 352,
-  "points": 652,
+  "closed": 358,
+  "points": 673,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -457,7 +456,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 712
+    "clear_n": 713
    },
    {
     "status": "Ready for Development",
@@ -473,20 +472,20 @@
    },
    {
     "status": "In Stage",
-    "open": 71,
-    "med_age": 2.0,
+    "open": 80,
+    "med_age": 1.8,
     "max_age": 7.0,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 2,
     "clear_med": 1.1,
-    "clear_n": 418
+    "clear_n": 422
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 27.5,
+    "med_age": 27.6,
     "max_age": 34.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -497,27 +496,27 @@
    },
    {
     "status": "PR Created",
-    "open": 26,
-    "med_age": 2.0,
-    "max_age": 9.6,
+    "open": 34,
+    "med_age": 1.2,
+    "max_age": 9.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 796
+    "clear_n": 797
    },
    {
     "status": "PR Merged",
-    "open": 23,
-    "med_age": 0.8,
-    "max_age": 0.9,
-    "worst_key": "PLANS-25279",
-    "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
+    "open": 2,
+    "med_age": 0.1,
+    "max_age": 0.2,
+    "worst_key": "PLANS-25251",
+    "worst_sum": "Legal Language - Not applying everywhere",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 737
+    "clear_n": 759
    },
    {
     "status": "Ready for Stage",
@@ -560,7 +559,7 @@
    "Backlog": 79,
    "On Hold": 11
   },
-  "open_total": 204,
+  "open_total": 200,
   "stale": 63,
   "worst": "In Development"
  }
