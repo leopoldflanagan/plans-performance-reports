@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T13:04:18Z",
+ "generated": "2026-11-12T13:32:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -368,7 +368,7 @@
   "completed": 49,
   "scope_change": 8,
   "vs_commitment": 21,
-  "time_elapsed": 20,
+  "time_elapsed": 21,
   "spill": {
    "open_items": 55,
    "open_pts": 207.0,
@@ -384,9 +384,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "PR Created": 15,
+   "PR Created": 16,
    "To Do": 13,
-   "In Development": 10,
+   "In Development": 9,
    "Ready for Development": 4,
    "Backlog": 6,
    "Done": 19,
@@ -449,7 +449,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 42,
+    "open": 41,
     "med_age": 15.1,
     "max_age": 15.1,
     "worst_key": "PLANS-24785",
@@ -457,7 +457,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 711
+    "clear_n": 712
    },
    {
     "status": "Ready for Development",
@@ -497,9 +497,9 @@
    },
    {
     "status": "PR Created",
-    "open": 27,
+    "open": 28,
     "med_age": 1.9,
-    "max_age": 9.5,
+    "max_age": 9.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -510,7 +510,7 @@
    {
     "status": "PR Merged",
     "open": 21,
-    "med_age": 0.7,
+    "med_age": 0.8,
     "max_age": 0.8,
     "worst_key": "PLANS-25279",
     "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",

@@ -484,10 +484,10 @@
     },
     "In Development": {
      "n": 33,
-     "med": 0.31
+     "med": 0.28
     },
     "PR Created": {
-     "n": 34,
+     "n": 35,
      "med": 2.68
     },
     "To Do": {
@@ -528,9 +528,9 @@
     }
    },
    "dist": {
-    "PR Created": 15,
+    "PR Created": 16,
     "To Do": 13,
-    "In Development": 10,
+    "In Development": 9,
     "Ready for Development": 4,
     "Backlog": 6,
     "Done": 19,
