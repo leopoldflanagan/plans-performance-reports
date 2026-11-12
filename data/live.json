@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T20:32:40Z",
+ "generated": "2026-11-12T21:03:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -547,6 +547,18 @@
     "clear_n": 770
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -569,23 +581,11 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 71
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 75
+   "Backlog": 75,
+   "On Hold": 24
   },
   "open_total": 156,
   "stale": 66,
