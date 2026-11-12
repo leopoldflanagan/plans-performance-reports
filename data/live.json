@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T11:04:02Z",
+ "generated": "2026-11-12T11:33:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -449,7 +449,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 43,
+    "open": 42,
     "med_age": 15.0,
     "max_age": 15.0,
     "worst_key": "PLANS-24785",
@@ -457,7 +457,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 710
+    "clear_n": 711
    },
    {
     "status": "Ready for Development",
@@ -473,8 +473,8 @@
    },
    {
     "status": "In Stage",
-    "open": 70,
-    "med_age": 2.2,
+    "open": 71,
+    "med_age": 1.8,
     "max_age": 6.8,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
@@ -493,7 +493,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 10,
     "clear_med": 0.0,
-    "clear_n": 785
+    "clear_n": 786
    },
    {
     "status": "WAITING REVIEW",
@@ -510,17 +510,17 @@
    {
     "status": "PR Merged",
     "open": 14,
-    "med_age": 0.6,
+    "med_age": 0.7,
     "max_age": 0.7,
     "worst_key": "PLANS-25279",
     "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 735
+    "clear_n": 736
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -528,8 +528,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "In QA",
@@ -544,7 +544,7 @@
     "clear_n": 69
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -552,13 +552,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 11,
-   "Backlog": 79
+   "Backlog": 79,
+   "On Hold": 11
   },
   "open_total": 204,
   "stale": 69,
