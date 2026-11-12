@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T08:33:07Z",
+ "generated": "2026-11-12T09:04:32Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 67,
-    "points": 138,
+    "n": 66,
+    "points": 137,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 99,
+   "ready": 98,
    "sprint": 71,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 73,
+    "n": 72,
     "items": [
      {
       "key": "PLANS-25302",
@@ -390,10 +390,10 @@
   "dist": {
    "PR Created": 22,
    "To Do": 13,
-   "Ready for Development": 5,
+   "In Development": 9,
+   "Ready for Development": 4,
    "Backlog": 7,
    "Done": 19,
-   "In Development": 8,
    "On Hold": 2,
    "In Stage": 10,
    "Ready Prod": 6,
@@ -453,7 +453,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 42,
+    "open": 43,
     "med_age": 14.9,
     "max_age": 14.9,
     "worst_key": "PLANS-24785",
@@ -465,7 +465,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 44,
+    "open": 43,
     "med_age": 12.6,
     "max_age": 47.8,
     "worst_key": "PLANS-23527",
@@ -473,7 +473,7 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 275
+    "clear_n": 276
    },
    {
     "status": "In Stage",
@@ -514,7 +514,7 @@
    {
     "status": "PR Merged",
     "open": 13,
-    "med_age": 0.5,
+    "med_age": 0.6,
     "max_age": 0.6,
     "worst_key": "PLANS-25279",
     "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
@@ -561,8 +561,8 @@
    }
   ],
   "parked": {
-   "Backlog": 80,
-   "On Hold": 11
+   "On Hold": 11,
+   "Backlog": 80
   },
   "open_total": 203,
   "stale": 69,

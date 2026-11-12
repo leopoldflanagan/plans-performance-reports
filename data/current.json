@@ -483,8 +483,8 @@
      "med": 0.76
     },
     "In Development": {
-     "n": 31,
-     "med": 0.28
+     "n": 32,
+     "med": 0.3
     },
     "PR Created": {
      "n": 34,
@@ -530,10 +530,10 @@
    "dist": {
     "PR Created": 22,
     "To Do": 13,
-    "Ready for Development": 5,
+    "In Development": 9,
+    "Ready for Development": 4,
     "Backlog": 7,
     "Done": 19,
-    "In Development": 8,
     "On Hold": 2,
     "In Stage": 10,
     "Ready Prod": 6,
