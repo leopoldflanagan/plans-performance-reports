@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T21:03:56Z",
+ "generated": "2026-11-12T21:33:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -503,9 +503,9 @@
     "open": 44,
     "med_age": 1.9,
     "max_age": 7.2,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-24945",
+    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+    "worst_who": "Valentyna Tenus",
     "over": 5,
     "clear_med": 1.1,
     "clear_n": 469
@@ -584,8 +584,8 @@
    }
   ],
   "parked": {
-   "Backlog": 75,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 75
   },
   "open_total": 156,
   "stale": 66,
