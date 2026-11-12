@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T12:06:31Z",
+ "generated": "2026-11-12T12:35:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -462,8 +462,8 @@
    {
     "status": "Ready for Development",
     "open": 41,
-    "med_age": 12.7,
-    "max_age": 47.9,
+    "med_age": 12.8,
+    "max_age": 48.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -475,10 +475,10 @@
     "status": "In Stage",
     "open": 71,
     "med_age": 1.9,
-    "max_age": 6.8,
-    "worst_key": "PLANS-24945",
-    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 6.9,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 418
@@ -511,13 +511,25 @@
     "status": "PR Merged",
     "open": 21,
     "med_age": 0.7,
-    "max_age": 0.7,
+    "max_age": 0.8,
     "worst_key": "PLANS-25279",
     "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 736
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "In QA",
@@ -542,18 +554,6 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
