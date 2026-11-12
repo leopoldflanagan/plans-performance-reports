@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T00:45:55Z",
+ "generated": "2026-11-12T01:33:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -466,7 +466,7 @@
    {
     "status": "Ready for Development",
     "open": 48,
-    "med_age": 10.7,
+    "med_age": 10.8,
     "max_age": 47.5,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -491,7 +491,7 @@
     "status": "PR Created",
     "open": 32,
     "med_age": 2.3,
-    "max_age": 9.0,
+    "max_age": 9.1,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -502,7 +502,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 26.9,
+    "med_age": 27.0,
     "max_age": 34.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -514,7 +514,7 @@
    {
     "status": "PR Merged",
     "open": 13,
-    "med_age": 0.2,
+    "med_age": 0.3,
     "max_age": 0.3,
     "worst_key": "PLANS-25279",
     "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
@@ -522,18 +522,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 732
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 69
    },
    {
     "status": "In PreProd",
@@ -546,6 +534,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 69
    },
    {
     "status": "Ready for Stage",
