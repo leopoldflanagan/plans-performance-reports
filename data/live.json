@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T02:05:57Z",
+ "generated": "2026-11-12T02:32:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -478,11 +478,11 @@
    {
     "status": "In Stage",
     "open": 70,
-    "med_age": 1.8,
+    "med_age": 1.9,
     "max_age": 6.4,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-24945",
+    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 418
@@ -503,7 +503,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 27.0,
-    "max_age": 34.3,
+    "max_age": 34.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -536,18 +536,6 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 69
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -558,11 +546,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 69
    }
   ],
   "parked": {
-   "Backlog": 80,
-   "On Hold": 11
+   "On Hold": 11,
+   "Backlog": 80
   },
   "open_total": 203,
   "stale": 61,
