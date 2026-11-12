@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T10:04:19Z",
+ "generated": "2026-11-12T10:33:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -368,7 +368,7 @@
   "completed": 49,
   "scope_change": 8,
   "vs_commitment": 21,
-  "time_elapsed": 19,
+  "time_elapsed": 20,
   "spill": {
    "open_items": 55,
    "open_pts": 207.0,
@@ -451,7 +451,7 @@
     "status": "In Development",
     "open": 44,
     "med_age": 14.4,
-    "max_age": 14.9,
+    "max_age": 15.0,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -485,7 +485,7 @@
    },
    {
     "status": "PR Created",
-    "open": 32,
+    "open": 33,
     "med_age": 2.7,
     "max_age": 9.4,
     "worst_key": "PLANS-24113",
@@ -509,15 +509,27 @@
    },
    {
     "status": "PR Merged",
-    "open": 15,
+    "open": 14,
     "med_age": 0.6,
     "max_age": 0.7,
-    "worst_key": "PLANS-24253",
-    "worst_sum": "PLANS-24253: Epic 5: Story 5.1 - Smile Health portal: group every backend call into a serv",
-    "worst_who": "Ivan Yarymovych",
+    "worst_key": "PLANS-25279",
+    "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 733
+    "clear_n": 734
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "In QA",
@@ -542,23 +554,11 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
-   "On Hold": 11,
-   "Backlog": 79
+   "Backlog": 79,
+   "On Hold": 11
   },
   "open_total": 204,
   "stale": 69,
