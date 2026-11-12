@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T13:32:34Z",
+ "generated": "2026-11-12T14:04:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -505,7 +505,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 793
+    "clear_n": 794
    },
    {
     "status": "PR Merged",
@@ -517,19 +517,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 736
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 69
+    "clear_n": 737
    },
    {
     "status": "In PreProd",
@@ -542,6 +530,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 69
    },
    {
     "status": "Ready for Stage",
