@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T05:32:46Z",
+ "generated": "2026-11-12T06:06:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -466,7 +466,7 @@
    {
     "status": "Ready for Development",
     "open": 46,
-    "med_age": 12.3,
+    "med_age": 12.4,
     "max_age": 47.7,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -478,7 +478,7 @@
    {
     "status": "In Stage",
     "open": 70,
-    "med_age": 1.9,
+    "med_age": 2.0,
     "max_age": 6.6,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
@@ -491,7 +491,7 @@
     "status": "PR Created",
     "open": 32,
     "med_age": 2.5,
-    "max_age": 9.2,
+    "max_age": 9.3,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -502,7 +502,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 27.1,
+    "med_age": 27.2,
     "max_age": 34.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -522,18 +522,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 732
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -558,11 +546,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 80,
-   "On Hold": 11
+   "On Hold": 11,
+   "Backlog": 80
   },
   "open_total": 203,
   "stale": 61,
