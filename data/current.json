@@ -173,21 +173,21 @@
    "Nov 23",
    316,
    16,
-   269,
-   319,
+   272,
+   322,
    58,
-   19,
+   18,
    [
     240.0,
-    238.0,
-    270.0,
-    259.0
+    241.0,
+    273.0,
+    262.0
    ],
    [
     265.0,
-    269.0,
-    317.0,
-    317.0
+    272.0,
+    320.0,
+    320.0
    ]
   ]
  ],
@@ -259,7 +259,7 @@
    ],
    "open": [
     150,
-    274
+    277
    ],
    "out": [
     2,
@@ -375,7 +375,7 @@
     "In Progress": 8,
     "To Do": 93,
     "Done": 132,
-    "In Stage": 12,
+    "In Stage": 13,
     "Ready Prod": 22,
     "Closed": 78,
     "PR Merged": 11,
@@ -384,8 +384,7 @@
     "Backlog": 81,
     "Ready for Development": 10,
     "Blocked": 1,
-    "Will Not Implement": 11,
-    "In Development": 1
+    "Will Not Implement": 11
    },
    "stalled": 334,
    "worst": 14.21,
@@ -488,8 +487,8 @@
      "med": 0.28
     },
     "PR Created": {
-     "n": 33,
-     "med": 12.84
+     "n": 34,
+     "med": 12.76
     },
     "To Do": {
      "n": 21,
@@ -504,12 +503,12 @@
      "med": 13.45
     },
     "PR Merged": {
-     "n": 11,
-     "med": 0.04
+     "n": 12,
+     "med": 0.02
     },
     "In Stage": {
-     "n": 17,
-     "med": 11.59
+     "n": 18,
+     "med": 11.27
     },
     "On Hold": {
      "n": 3,
@@ -534,9 +533,9 @@
     "Ready for Development": 5,
     "Backlog": 7,
     "Done": 19,
-    "In Development": 9,
+    "In Development": 8,
     "On Hold": 2,
-    "In Stage": 9,
+    "In Stage": 10,
     "Ready Prod": 6,
     "Closed": 8,
     "WAITING REVIEW": 2,
@@ -564,7 +563,7 @@
     },
     "Ready for Development": {
      "n": 26,
-     "med": 11.58
+     "med": 11.54
     },
     "PR Created": {
      "n": 63,
@@ -587,7 +586,7 @@
      "med": 13.43
     },
     "In Development": {
-     "n": 28,
+     "n": 29,
      "med": 0.21
     },
     "Closed": {
@@ -605,11 +604,11 @@
    },
    "dist": {
     "Done": 27,
-    "Ready for Development": 15,
+    "Ready for Development": 14,
     "In Progress": 11,
     "To Do": 111,
     "Ready Prod": 10,
-    "In Development": 2,
+    "In Development": 3,
     "Closed": 5,
     "In Stage": 29,
     "PR Merged": 11,
@@ -669,9 +668,9 @@
   ],
   "Plans Pod 2-Sprint 26-26": [
    240.0,
-   238.0,
-   270.0,
-   259.0
+   241.0,
+   273.0,
+   262.0
   ]
  },
  "CAP": {
