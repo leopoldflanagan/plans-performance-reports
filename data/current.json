@@ -488,7 +488,7 @@
     },
     "PR Created": {
      "n": 34,
-     "med": 12.76
+     "med": 2.68
     },
     "To Do": {
      "n": 21,
@@ -503,8 +503,8 @@
      "med": 13.45
     },
     "PR Merged": {
-     "n": 12,
-     "med": 0.02
+     "n": 19,
+     "med": 0.44
     },
     "In Stage": {
      "n": 18,
@@ -528,7 +528,7 @@
     }
    },
    "dist": {
-    "PR Created": 22,
+    "PR Created": 15,
     "To Do": 13,
     "In Development": 10,
     "Ready for Development": 4,
@@ -539,7 +539,7 @@
     "Ready Prod": 6,
     "Closed": 8,
     "WAITING REVIEW": 2,
-    "PR Merged": 1,
+    "PR Merged": 8,
     "In Progress": 4
    },
    "stalled": 93,

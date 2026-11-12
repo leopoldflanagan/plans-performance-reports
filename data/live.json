@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T11:33:03Z",
+ "generated": "2026-11-12T12:06:31Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -384,7 +384,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "PR Created": 22,
+   "PR Created": 15,
    "To Do": 13,
    "In Development": 10,
    "Ready for Development": 4,
@@ -395,7 +395,7 @@
    "Ready Prod": 6,
    "Closed": 8,
    "WAITING REVIEW": 2,
-   "PR Merged": 1,
+   "PR Merged": 8,
    "In Progress": 4
   },
   "burn": [
@@ -474,32 +474,20 @@
    {
     "status": "In Stage",
     "open": 71,
-    "med_age": 1.8,
+    "med_age": 1.9,
     "max_age": 6.8,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-24945",
+    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+    "worst_who": "Valentyna Tenus",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 418
    },
    {
-    "status": "PR Created",
-    "open": 34,
-    "med_age": 2.7,
-    "max_age": 9.5,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 10,
-    "clear_med": 0.0,
-    "clear_n": 786
-   },
-   {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 27.4,
-    "max_age": 34.7,
+    "max_age": 34.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -508,8 +496,20 @@
     "clear_n": 23
    },
    {
+    "status": "PR Created",
+    "open": 27,
+    "med_age": 1.9,
+    "max_age": 9.5,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 3,
+    "clear_med": 0.0,
+    "clear_n": 793
+   },
+   {
     "status": "PR Merged",
-    "open": 14,
+    "open": 21,
     "med_age": 0.7,
     "max_age": 0.7,
     "worst_key": "PLANS-25279",
@@ -518,18 +518,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 736
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    },
    {
     "status": "In QA",
@@ -554,14 +542,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 79,
-   "On Hold": 11
+   "On Hold": 11,
+   "Backlog": 79
   },
   "open_total": 204,
-  "stale": 69,
+  "stale": 62,
   "worst": "In Development"
  }
 }
