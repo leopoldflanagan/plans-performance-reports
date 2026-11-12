@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T17:32:42Z",
+ "generated": "2026-11-12T18:05:14Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 9,
-   "points": 20
+   "items": 10,
+   "points": 22
   },
   "misfiled": {
    "items": 35,
@@ -55,13 +55,13 @@
   "day": 4,
   "days": 14,
   "n": 21,
-  "done_now": 62,
+  "done_now": 71,
   "committed": 237,
-  "lo": 160,
-  "mid": 204,
-  "hi": 276,
-  "pct": 86,
-  "verdict": "a little short of the commitment",
+  "lo": 184,
+  "mid": 233,
+  "hi": 316,
+  "pct": 98,
+  "verdict": "on track for the commitment",
   "share_mid": 0.304
  },
  "admin": {
@@ -354,19 +354,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 108,
-  "items_done": 19,
+  "items_done": 24,
   "committed": 237,
   "final": 256,
-  "completed": 62,
+  "completed": 71,
   "scope_change": 8,
-  "vs_commitment": 26,
+  "vs_commitment": 30,
   "time_elapsed": 22,
   "spill": {
-   "open_items": 51,
-   "open_pts": 197.0,
+   "open_items": 46,
+   "open_pts": 188.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 54.0
+   "done_pts": 63.0
   },
   "recv": {
    "items": 14,
@@ -378,13 +378,13 @@
   "dist": {
    "To Do": 13,
    "PR Merged": 1,
-   "In Stage": 13,
-   "Ready Prod": 10,
+   "Ready Prod": 15,
    "In Progress": 5,
    "Backlog": 4,
    "Ready for Development": 3,
    "Done": 19,
    "PR Created": 22,
+   "In Stage": 8,
    "In Development": 6,
    "On Hold": 2,
    "Closed": 8,
@@ -394,7 +394,7 @@
    201.0,
    209.0,
    205.0,
-   194.0
+   185.0
   ],
   "scope": [
    204.0,
@@ -406,7 +406,7 @@
    201.0,
    209.0,
    205.0,
-   194.0
+   185.0
   ],
   "days": 14,
   "day": 4
@@ -420,8 +420,8 @@
   "end": "2026-11-22",
   "day": 18,
   "days": 28,
-  "closed": 373,
-  "points": 719,
+  "closed": 384,
+  "points": 743,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -465,20 +465,20 @@
    },
    {
     "status": "In Stage",
-    "open": 63,
-    "med_age": 1.2,
+    "open": 50,
+    "med_age": 1.8,
     "max_age": 7.1,
     "worst_key": "PLANS-24890",
     "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
     "worst_who": "Denys  Kernychnyi",
     "over": 8,
     "clear_med": 1.1,
-    "clear_n": 449
+    "clear_n": 462
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 27.6,
+    "med_age": 27.7,
     "max_age": 35.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -490,8 +490,8 @@
    {
     "status": "PR Created",
     "open": 33,
-    "med_age": 0.8,
-    "max_age": 9.7,
+    "med_age": 0.9,
+    "max_age": 9.8,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -510,6 +510,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 769
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 71
    },
    {
     "status": "In PreProd",
@@ -534,25 +546,13 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 71
    }
   ],
   "parked": {
    "Backlog": 76,
    "On Hold": 24
   },
-  "open_total": 176,
+  "open_total": 163,
   "stale": 69,
   "worst": "In Development"
  }
