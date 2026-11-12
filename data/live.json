@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T22:03:54Z",
+ "generated": "2026-11-12T22:32:28Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -409,7 +409,7 @@
   "spill_rate": null,
   "dist": {
    "To Do": 13,
-   "PR Merged": 1,
+   "In QA": 1,
    "Ready Prod": 20,
    "Backlog": 8,
    "Done": 21,
@@ -455,8 +455,8 @@
   "end": "2026-11-22",
   "day": 18,
   "days": 28,
-  "closed": 400,
-  "points": 786,
+  "closed": 401,
+  "points": 788,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -477,8 +477,8 @@
    {
     "status": "In Development",
     "open": 36,
-    "med_age": 15.4,
-    "max_age": 15.4,
+    "med_age": 15.5,
+    "max_age": 15.5,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -500,7 +500,7 @@
    },
    {
     "status": "In Stage",
-    "open": 37,
+    "open": 36,
     "med_age": 2.0,
     "max_age": 7.2,
     "worst_key": "PLANS-24945",
@@ -508,7 +508,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 4,
     "clear_med": 1.1,
-    "clear_n": 476
+    "clear_n": 477
    },
    {
     "status": "WAITING REVIEW",
@@ -536,36 +536,24 @@
    },
    {
     "status": "PR Merged",
-    "open": 2,
-    "med_age": 0.2,
-    "max_age": 0.3,
-    "worst_key": "PLANS-25289",
-    "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
-    "worst_who": "Sailaja Yanamandra",
+    "open": 1,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-25133",
+    "worst_sum": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as one sourc",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 770
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_n": 771
    },
    {
     "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25289",
+    "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 71
@@ -581,13 +569,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
    "On Hold": 24,
    "Backlog": 75
   },
-  "open_total": 149,
+  "open_total": 148,
   "stale": 65,
   "worst": "In Development"
  }
