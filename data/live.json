@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T16:32:51Z",
+ "generated": "2026-11-12T17:04:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -56,11 +56,11 @@
   "days": 14,
   "n": 21,
   "done_now": 58,
-  "committed": 239,
+  "committed": 237,
   "lo": 150,
   "mid": 191,
   "hi": 258,
-  "pct": 80,
+  "pct": 81,
   "verdict": "a little short of the commitment",
   "share_mid": 0.304
  },
@@ -353,17 +353,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 107,
+  "items": 108,
   "items_done": 17,
-  "committed": 239,
-  "final": 258,
+  "committed": 237,
+  "final": 256,
   "completed": 58,
   "scope_change": 8,
   "vs_commitment": 24,
-  "time_elapsed": 21,
+  "time_elapsed": 22,
   "spill": {
    "open_items": 53,
-   "open_pts": 203.0,
+   "open_pts": 201.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 50.0
@@ -371,42 +371,42 @@
   "recv": {
    "items": 14,
    "pts": 25,
-   "pct": 10,
+   "pct": 11,
    "from": "Plans-Sprint 25-26"
   },
   "spill_rate": null,
   "dist": {
+   "To Do": 14,
    "PR Merged": 1,
-   "To Do": 13,
-   "In Development": 8,
+   "In Stage": 15,
    "Ready Prod": 8,
    "Backlog": 4,
    "Ready for Development": 3,
    "Done": 19,
-   "PR Created": 21,
-   "In Stage": 14,
+   "PR Created": 22,
+   "In Development": 6,
    "On Hold": 2,
    "Closed": 8,
    "WAITING REVIEW": 2,
    "In Progress": 4
   },
   "burn": [
-   203.0,
-   211.0,
-   207.0,
-   200.0
+   201.0,
+   209.0,
+   205.0,
+   198.0
   ],
   "scope": [
-   206.0,
-   239.0,
-   256.0,
-   258.0
+   204.0,
+   237.0,
+   254.0,
+   256.0
   ],
   "ghost": [
-   203.0,
-   211.0,
-   207.0,
-   200.0
+   201.0,
+   209.0,
+   205.0,
+   198.0
   ],
   "days": 14,
   "day": 4
@@ -420,7 +420,7 @@
   "end": "2026-11-22",
   "day": 18,
   "days": 28,
-  "closed": 366,
+  "closed": 367,
   "points": 703,
   "unplanned": null,
   "unplanned_pct": null,
@@ -441,7 +441,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 39,
+    "open": 37,
     "med_age": 15.2,
     "max_age": 15.2,
     "worst_key": "PLANS-24785",
@@ -449,12 +449,12 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 720
+    "clear_n": 722
    },
    {
     "status": "Ready for Development",
     "open": 40,
-    "med_age": 12.9,
+    "med_age": 13.0,
     "max_age": 48.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -465,13 +465,13 @@
    },
    {
     "status": "In Stage",
-    "open": 81,
+    "open": 82,
     "med_age": 1.7,
     "max_age": 7.0,
-    "worst_key": "PLANS-24890",
-    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 2,
+    "worst_key": "PLANS-24945",
+    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+    "worst_who": "Valentyna Tenus",
+    "over": 8,
     "clear_med": 1.1,
     "clear_n": 430
    },
@@ -479,7 +479,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 27.6,
-    "max_age": 34.9,
+    "max_age": 35.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -489,27 +489,27 @@
    },
    {
     "status": "PR Created",
-    "open": 32,
-    "med_age": 0.9,
+    "open": 33,
+    "med_age": 0.8,
     "max_age": 9.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 806
+    "clear_n": 807
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "PR Merged",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25289",
+    "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
+    "worst_who": "Sailaja Yanamandra",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 0.0,
+    "clear_n": 769
    },
    {
     "status": "Ready for Stage",
@@ -524,18 +524,6 @@
     "clear_n": 2
    },
    {
-    "status": "PR Merged",
-    "open": 1,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25289",
-    "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 768
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -546,14 +534,26 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 71
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 77,
-   "On Hold": 11
+   "On Hold": 11,
+   "Backlog": 76
   },
   "open_total": 195,
-  "stale": 63,
+  "stale": 69,
   "worst": "In Development"
  }
 }
