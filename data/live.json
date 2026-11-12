@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T22:32:28Z",
+ "generated": "2026-11-12T23:03:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -392,7 +392,7 @@
   "completed": 89,
   "scope_change": 9,
   "vs_commitment": 38,
-  "time_elapsed": 23,
+  "time_elapsed": 24,
   "spill": {
    "open_items": 45,
    "open_pts": 172.0,
@@ -502,10 +502,10 @@
     "status": "In Stage",
     "open": 36,
     "med_age": 2.0,
-    "max_age": 7.2,
-    "worst_key": "PLANS-24945",
-    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 7.3,
+    "worst_key": "PLANS-24804",
+    "worst_sum": "[1.4a.W1] Remove a payment method \u2014 server-side cascade (BE)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 4,
     "clear_med": 1.1,
     "clear_n": 477
@@ -520,13 +520,13 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 2,
     "clear_med": 0.1,
-    "clear_n": 23
+    "clear_n": 22
    },
    {
     "status": "PR Created",
     "open": 32,
-    "med_age": 1.1,
-    "max_age": 9.9,
+    "med_age": 1.2,
+    "max_age": 10.0,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -535,28 +535,16 @@
     "clear_n": 809
    },
    {
-    "status": "PR Merged",
-    "open": 1,
-    "med_age": 0.1,
-    "max_age": 0.1,
-    "worst_key": "PLANS-25133",
-    "worst_sum": "PLANS-25133: Plans Purchase: The card wallet rate limit may count every buyer as one sourc",
-    "worst_who": "Petro Yarish",
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 771
-   },
-   {
-    "status": "In QA",
-    "open": 1,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25289",
-    "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 71
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -571,7 +559,19 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
+    "open": 2,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25289",
+    "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
+    "worst_who": "Sailaja Yanamandra",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 71
+   },
+   {
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -579,13 +579,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 0.0,
+    "clear_n": 772
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 75
+   "Backlog": 75,
+   "On Hold": 24
   },
   "open_total": 148,
   "stale": 65,
