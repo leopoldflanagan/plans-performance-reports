@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T05:04:21Z",
+ "generated": "2026-11-12T05:32:46Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 71,
-    "points": 144,
+    "n": 69,
+    "points": 138,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 103,
+   "ready": 101,
    "sprint": 71,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 77,
+    "n": 75,
     "items": [
      {
       "key": "PLANS-25302",
@@ -390,10 +390,10 @@
   "dist": {
    "PR Created": 22,
    "To Do": 13,
-   "Ready for Development": 7,
+   "Ready for Development": 5,
    "Backlog": 7,
    "Done": 19,
-   "In Development": 7,
+   "In Development": 9,
    "On Hold": 2,
    "In Stage": 9,
    "Ready Prod": 6,
@@ -453,9 +453,9 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 38,
-    "med_age": 14.7,
-    "max_age": 14.7,
+    "open": 40,
+    "med_age": 14.8,
+    "max_age": 14.8,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -465,24 +465,24 @@
    },
    {
     "status": "Ready for Development",
-    "open": 48,
-    "med_age": 10.8,
-    "max_age": 47.6,
+    "open": 46,
+    "med_age": 12.3,
+    "max_age": 47.7,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 271
+    "clear_n": 273
    },
    {
     "status": "In Stage",
     "open": 70,
     "med_age": 1.9,
-    "max_age": 6.5,
-    "worst_key": "PLANS-24945",
-    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
-    "worst_who": "Valentyna Tenus",
+    "max_age": 6.6,
+    "worst_key": "PLANS-24890",
+    "worst_sum": "[1.10.W1] Wallet hasAutoRenewPlan flag on the modern rail (plans-member-ms + member-bff)",
+    "worst_who": "Denys  Kernychnyi",
     "over": 0,
     "clear_med": 1.1,
     "clear_n": 418
@@ -515,7 +515,7 @@
     "status": "PR Merged",
     "open": 13,
     "med_age": 0.4,
-    "max_age": 0.4,
+    "max_age": 0.5,
     "worst_key": "PLANS-25279",
     "worst_sum": "Member portal| \"Confirm\" button remains enabled when re selecting the original payment met",
     "worst_who": "Valentyna Tenus",
@@ -561,8 +561,8 @@
    }
   ],
   "parked": {
-   "On Hold": 11,
-   "Backlog": 80
+   "Backlog": 80,
+   "On Hold": 11
   },
   "open_total": 203,
   "stale": 61,
