@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T21:03:35Z",
+ "generated": "2026-11-13T21:32:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 62,
-    "points": 124,
+    "n": 65,
+    "points": 127,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 93,
+   "ready": 95,
    "sprint": 81,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,8 +74,16 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 12,
+    "n": 14,
     "items": [
+     {
+      "key": "PLANS-25345",
+      "summary": "Member Portal \\ Savings contributions are not displayed when accessing the porta"
+     },
+     {
+      "key": "PLANS-25325",
+      "summary": "Member Portal \u2013 Printed Membership Card Displays Incorrect \"Administered By\" Val"
+     },
      {
       "key": "PLANS-25063",
       "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
@@ -99,14 +107,6 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14538",
-      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
-     },
-     {
-      "key": "PLANS-11253",
-      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,8 +124,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 68,
+    "n": 70,
     "items": [
+     {
+      "key": "PLANS-25345",
+      "summary": "Member Portal \\ Savings contributions are not displayed when accessing the porta"
+     },
+     {
+      "key": "PLANS-25325",
+      "summary": "Member Portal \u2013 Printed Membership Card Displays Incorrect \"Administered By\" Val"
+     },
      {
       "key": "PLANS-25302",
       "summary": "[2.3.W2] Release readiness checks and release notes for the organization-level i"
@@ -149,14 +157,6 @@
      {
       "key": "PLANS-25297",
       "summary": "[1.5.W4] CSP office integration override can be set to Integrated or Non-Integra"
-     },
-     {
-      "key": "PLANS-25296",
-      "summary": "[1.4.W3] CSP organization save and load carry the organization integration value"
-     },
-     {
-      "key": "PLANS-25273",
-      "summary": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for "
      }
     ]
    },
@@ -250,8 +250,16 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 75,
+    "n": 77,
     "items": [
+     {
+      "key": "PLANS-25345",
+      "summary": "Member Portal \\ Savings contributions are not displayed when accessing the porta"
+     },
+     {
+      "key": "PLANS-25325",
+      "summary": "Member Portal \u2013 Printed Membership Card Displays Incorrect \"Administered By\" Val"
+     },
      {
       "key": "PLANS-25063",
       "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
@@ -275,27 +283,19 @@
      {
       "key": "PLANS-24929",
       "summary": "Member Portal \\ Payment method is missing from Transactions section after plan r"
-     },
-     {
-      "key": "PLANS-24892",
-      "summary": "Plan confirmation Receipt - Fee Charged amount displayed with one decimal place "
-     },
-     {
-      "key": "PLANS-24869",
-      "summary": "Plan Transactions - Source Displayed as \"Unknown\" for Smile health and Custom Po"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 167 of 171 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 167,
+    "why": "missing on 169 of 173 items. This reads as a field the team does not use rather than 169 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 169,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 171 of 171 items. This reads as a field the team does not use rather than 171 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 171,
+    "why": "missing on 173 of 173 items. This reads as a field the team does not use rather than 173 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 173,
     "items": []
    },
    {
@@ -470,8 +470,8 @@
    },
    {
     "status": "Ready for Development",
-    "open": 38,
-    "med_age": 14.6,
+    "open": 40,
+    "med_age": 14.1,
     "max_age": 49.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -484,7 +484,7 @@
     "status": "In Stage",
     "open": 41,
     "med_age": 2.9,
-    "max_age": 8.1,
+    "max_age": 8.2,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -517,18 +517,6 @@
     "clear_n": 22
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -539,6 +527,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "PR Merged",
@@ -553,7 +553,7 @@
     "clear_n": 756
    },
    {
-    "status": "Ready for Stage",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -561,15 +561,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 1.6,
+    "clear_n": 69
    }
   ],
   "parked": {
    "On Hold": 24,
-   "Backlog": 80
+   "Backlog": 77
   },
-  "open_total": 155,
+  "open_total": 157,
   "stale": 72,
   "worst": "In Development"
  }

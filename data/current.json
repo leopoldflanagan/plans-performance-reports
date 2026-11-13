@@ -175,19 +175,19 @@
    "Plans Pod 2-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   335,
+   356,
    36,
    272,
-   341,
+   366,
    129,
-   25,
+   35,
    [
     240.0,
     241.0,
     277.0,
     219.0,
     210.0,
-    210.0
+    235.0
    ],
    [
     265.0,
@@ -195,7 +195,7 @@
     324.0,
     335.0,
     339.0,
-    339.0
+    364.0
    ]
   ]
  ],
@@ -266,8 +266,8 @@
     126
    ],
    "open": [
-    137,
-    208
+    144,
+    233
    ],
    "out": [
     5,
@@ -299,7 +299,7 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "react": 0,
-   "plan": 31,
+   "plan": 38,
    "pct": 0
   }
  },
@@ -559,7 +559,7 @@
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
     "To Do": {
-     "n": 136,
+     "n": 150,
      "med": 13.43
     },
     "In Progress": {
@@ -583,8 +583,8 @@
      "med": 13.43
     },
     "In Stage": {
-     "n": 68,
-     "med": 2.87
+     "n": 75,
+     "med": 2.97
     },
     "Ready Prod": {
      "n": 31,
@@ -620,24 +620,24 @@
     }
    },
    "dist": {
+    "To Do": 119,
     "Done": 43,
     "In Progress": 9,
     "In Development": 1,
     "Ready for Development": 13,
     "Ready Prod": 30,
-    "To Do": 105,
     "PR Created": 5,
     "Closed": 7,
-    "In Stage": 29,
+    "In Stage": 36,
     "On Hold": 8,
     "Backlog": 83,
     "Blocked": 1,
     "In Testing": 1
    },
-   "stalled": 298,
+   "stalled": 319,
    "worst": 13.43,
    "worstSt": "To Do",
-   "items": 335
+   "items": 356
   }
  },
  "GHOST": {
@@ -691,7 +691,7 @@
    277.0,
    219.0,
    210.0,
-   210.0
+   235.0
   ]
  },
  "CAP": {
