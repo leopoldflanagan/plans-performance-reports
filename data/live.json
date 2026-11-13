@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T04:04:55Z",
+ "generated": "2026-11-13T04:32:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -484,7 +484,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 723
+    "clear_n": 722
    },
    {
     "status": "Ready for Development",
@@ -496,7 +496,7 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 279
+    "clear_n": 278
    },
    {
     "status": "In Stage",
@@ -532,19 +532,31 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 809
+    "clear_n": 808
    },
    {
     "status": "In QA",
     "open": 2,
     "med_age": 0.2,
-    "max_age": 0.2,
+    "max_age": 0.3,
     "worst_key": "PLANS-25289",
     "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 71
+    "clear_med": 1.7,
+    "clear_n": 70
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 771
    },
    {
     "status": "In PreProd",
@@ -569,22 +581,10 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 772
    }
   ],
   "parked": {
-   "Backlog": 76,
+   "Backlog": 77,
    "On Hold": 24
   },
   "open_total": 145,
