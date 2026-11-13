@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T18:32:52Z",
+ "generated": "2026-11-13T19:03:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 5,
   "days": 14,
   "n": 21,
-  "done_now": 93,
+  "done_now": 107,
   "committed": 237,
-  "lo": 234,
-  "mid": 284,
-  "hi": 393,
-  "pct": 120,
+  "lo": 269,
+  "mid": 327,
+  "hi": 452,
+  "pct": 138,
   "verdict": "on track for the commitment",
   "share_mid": 0.328
  },
@@ -182,7 +182,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 24,
+    "n": 22,
     "items": [
      {
       "key": "PLANS-25302",
@@ -366,19 +366,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 113,
-  "items_done": 31,
+  "items_done": 36,
   "committed": 237,
   "final": 259,
-  "completed": 93,
+  "completed": 107,
   "scope_change": 9,
-  "vs_commitment": 39,
+  "vs_commitment": 45,
   "time_elapsed": 30,
   "spill": {
-   "open_items": 43,
-   "open_pts": 169.0,
+   "open_items": 38,
+   "open_pts": 155.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 85.0
+   "done_pts": 99.0
   },
   "recv": {
    "items": 14,
@@ -389,17 +389,16 @@
   "spill_rate": null,
   "dist": {
    "To Do": 11,
-   "In Stage": 3,
-   "In Progress": 5,
-   "Ready Prod": 21,
+   "In Stage": 2,
+   "In Progress": 4,
+   "Ready Prod": 22,
    "Backlog": 5,
-   "Done": 22,
+   "Done": 23,
    "Ready for Development": 3,
    "PR Created": 24,
-   "In Development": 3,
+   "In Development": 2,
    "On Hold": 2,
-   "PR Merged": 3,
-   "Closed": 9,
+   "Closed": 13,
    "WAITING REVIEW": 2
   },
   "burn": [
@@ -407,7 +406,7 @@
    209.0,
    205.0,
    185.0,
-   166.0
+   152.0
   ],
   "scope": [
    204.0,
@@ -421,7 +420,7 @@
    209.0,
    205.0,
    185.0,
-   166.0
+   152.0
   ],
   "days": 14,
   "day": 5
@@ -435,8 +434,8 @@
   "end": "2026-11-22",
   "day": 19,
   "days": 28,
-  "closed": 406,
-  "points": 797,
+  "closed": 411,
+  "points": 811,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -462,9 +461,9 @@
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
-    "over": 31,
+    "over": 30,
     "clear_med": 0.1,
-    "clear_n": 711
+    "clear_n": 710
    },
    {
     "status": "Ready for Development",
@@ -476,7 +475,7 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 279
+    "clear_n": 277
    },
    {
     "status": "In Stage",
@@ -488,7 +487,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 7,
     "clear_med": 1.1,
-    "clear_n": 470
+    "clear_n": 468
    },
    {
     "status": "PR Created",
@@ -500,7 +499,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 790
+    "clear_n": 788
    },
    {
     "status": "WAITING REVIEW",
@@ -515,19 +514,7 @@
     "clear_n": 22
    },
    {
-    "status": "PR Merged",
-    "open": 3,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25151",
-    "worst_sum": "[1.3] Protect stored bank values on save and mask the update response",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 750
-   },
-   {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -535,8 +522,20 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 1.6,
+    "clear_n": 69
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 751
    },
    {
     "status": "Ready for Stage",
@@ -551,7 +550,7 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -559,16 +558,16 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 84
+   "Backlog": 85,
+   "On Hold": 24
   },
-  "open_total": 153,
-  "stale": 73,
+  "open_total": 150,
+  "stale": 72,
   "worst": "In Development"
  }
 }
