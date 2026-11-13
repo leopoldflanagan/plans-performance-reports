@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T15:04:04Z",
+ "generated": "2026-11-13T15:32:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -33,7 +33,7 @@
    {
     "rule": "Idea/Draft sitting in Ready for Development",
     "n": 64,
-    "points": 130,
+    "points": 131,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,12 +55,12 @@
   "day": 5,
   "days": 14,
   "n": 21,
-  "done_now": 92,
+  "done_now": 93,
   "committed": 237,
-  "lo": 231,
-  "mid": 281,
-  "hi": 389,
-  "pct": 119,
+  "lo": 234,
+  "mid": 284,
+  "hi": 393,
+  "pct": 120,
   "verdict": "on track for the commitment",
   "share_mid": 0.328
  },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 14,
+    "n": 13,
     "items": [
-     {
-      "key": "PLANS-25290",
-      "summary": "Essential Smile Plan- Wellfit Member Error "
-     },
      {
       "key": "PLANS-25273",
       "summary": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for "
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
+     },
+     {
+      "key": "PLANS-14538",
+      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
      }
     ]
    },
@@ -374,19 +374,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 113,
-  "items_done": 30,
+  "items_done": 31,
   "committed": 237,
   "final": 258,
-  "completed": 92,
+  "completed": 93,
   "scope_change": 9,
   "vs_commitment": 39,
-  "time_elapsed": 28,
+  "time_elapsed": 29,
   "spill": {
-   "open_items": 44,
-   "open_pts": 169.0,
+   "open_items": 43,
+   "open_pts": 168.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 84.0
+   "done_pts": 85.0
   },
   "recv": {
    "items": 14,
@@ -396,9 +396,10 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 12,
+   "To Do": 11,
    "In QA": 1,
-   "Ready Prod": 20,
+   "In Progress": 5,
+   "Ready Prod": 21,
    "Backlog": 5,
    "Done": 22,
    "Ready for Development": 4,
@@ -406,8 +407,7 @@
    "PR Created": 23,
    "On Hold": 2,
    "Closed": 9,
-   "In Progress": 4,
-   "In Stage": 3,
+   "In Stage": 2,
    "WAITING REVIEW": 2
   },
   "burn": [
@@ -415,7 +415,7 @@
    209.0,
    205.0,
    184.0,
-   166.0
+   165.0
   ],
   "scope": [
    204.0,
@@ -429,7 +429,7 @@
    209.0,
    205.0,
    184.0,
-   166.0
+   165.0
   ],
   "days": 14,
   "day": 5
@@ -443,8 +443,8 @@
   "end": "2026-11-22",
   "day": 19,
   "days": 28,
-  "closed": 404,
-  "points": 796,
+  "closed": 405,
+  "points": 797,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -494,7 +494,7 @@
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 3,
+    "over": 6,
     "clear_med": 1.1,
     "clear_n": 480
    },
@@ -502,7 +502,7 @@
     "status": "PR Created",
     "open": 34,
     "med_age": 1.7,
-    "max_age": 10.6,
+    "max_age": 10.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -513,7 +513,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 28.5,
+    "med_age": 28.6,
     "max_age": 35.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -535,18 +535,6 @@
     "clear_n": 68
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -557,6 +545,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "PR Merged",
@@ -572,11 +572,11 @@
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 73
+   "Backlog": 73,
+   "On Hold": 24
   },
   "open_total": 152,
-  "stale": 69,
+  "stale": 72,
   "worst": "In Development"
  }
 }
