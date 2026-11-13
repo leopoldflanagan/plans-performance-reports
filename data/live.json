@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T05:04:10Z",
+ "generated": "2026-11-13T05:32:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -392,7 +392,7 @@
   "completed": 92,
   "scope_change": 9,
   "vs_commitment": 39,
-  "time_elapsed": 25,
+  "time_elapsed": 26,
   "spill": {
    "open_items": 44,
    "open_pts": 169.0,
@@ -477,8 +477,8 @@
    {
     "status": "In Development",
     "open": 36,
-    "med_age": 15.7,
-    "max_age": 15.7,
+    "med_age": 15.8,
+    "max_age": 15.8,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -490,7 +490,7 @@
     "status": "Ready for Development",
     "open": 40,
     "med_age": 13.5,
-    "max_age": 48.6,
+    "max_age": 48.7,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -501,7 +501,7 @@
    {
     "status": "In Stage",
     "open": 33,
-    "med_age": 2.2,
+    "med_age": 2.3,
     "max_age": 7.5,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -547,7 +547,7 @@
     "clear_n": 70
    },
    {
-    "status": "PR Merged",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -555,8 +555,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 771
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -571,7 +571,7 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -579,13 +579,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 0.0,
+    "clear_n": 771
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 78
+   "Backlog": 78,
+   "On Hold": 24
   },
   "open_total": 145,
   "stale": 64,
