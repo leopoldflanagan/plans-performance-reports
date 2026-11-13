@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T06:37:53Z",
+ "generated": "2026-11-13T07:04:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -530,33 +530,21 @@
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 2,
+    "over": 7,
     "clear_med": 0.0,
     "clear_n": 808
    },
    {
     "status": "In QA",
     "open": 2,
-    "med_age": 0.3,
-    "max_age": 0.3,
+    "med_age": 0.4,
+    "max_age": 0.4,
     "worst_key": "PLANS-25289",
     "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.7,
     "clear_n": 70
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 771
    },
    {
     "status": "In PreProd",
@@ -581,14 +569,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 771
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 78
+   "Backlog": 78,
+   "On Hold": 24
   },
   "open_total": 145,
-  "stale": 64,
+  "stale": 69,
   "worst": "In Development"
  }
 }
