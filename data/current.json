@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 402,
+  "closed": 403,
   "discarded": 4,
-  "resolved": 406,
+  "resolved": 407,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    106
+    107
    ],
    [
     "TechDebt",
@@ -43,7 +43,7 @@
   "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "402 items closed in the first 13 days, a pace of about 866 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "403 items closed in the first 13 days, a pace of about 868 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 4.9d and average 10.9d, both past the healthy band"
@@ -174,17 +174,17 @@
    "Nov 9",
    "Nov 23",
    333,
-   34,
+   35,
    272,
    338,
-   124,
+   126,
    24,
    [
     240.0,
     241.0,
     277.0,
     218.0,
-    212.0
+    210.0
    ],
    [
     265.0,
@@ -258,12 +258,12 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "done": [
-    34,
-    121
+    35,
+    123
    ],
    "open": [
-    137,
-    211
+    136,
+    209
    ],
    "out": [
     5,
@@ -562,10 +562,10 @@
     },
     "In Progress": {
      "n": 38,
-     "med": 1.22
+     "med": 1.11
     },
     "Done": {
-     "n": 43,
+     "n": 44,
      "med": 11.53
     },
     "Ready for Development": {
@@ -578,10 +578,10 @@
     },
     "In Stage": {
      "n": 67,
-     "med": 2.96
+     "med": 2.91
     },
     "Ready Prod": {
-     "n": 29,
+     "n": 30,
      "med": 10.53
     },
     "In Development": {
@@ -618,21 +618,21 @@
     }
    },
    "dist": {
-    "Done": 41,
-    "In Progress": 11,
+    "Done": 42,
+    "In Progress": 10,
     "Ready for Development": 11,
-    "Ready Prod": 28,
+    "Ready Prod": 29,
     "To Do": 105,
     "PR Created": 5,
     "Closed": 7,
-    "In Stage": 30,
+    "In Stage": 29,
     "In QA": 1,
     "On Hold": 8,
     "Backlog": 84,
     "Blocked": 1,
     "In Testing": 1
    },
-   "stalled": 298,
+   "stalled": 297,
    "worst": 13.43,
    "worstSt": "To Do",
    "items": 333
@@ -687,25 +687,25 @@
    241.0,
    277.0,
    218.0,
-   212.0
+   210.0
   ]
  },
  "CAP": {
   "9.10": [
-   402,
-   257,
-   791,
+   403,
+   258,
+   793,
    23
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 4.89,
-   "avg": 10.95,
-   "n": 218,
+   "med": 4.88,
+   "avg": 10.91,
+   "n": 219,
    "mx": 92.49,
    "nodev": 184,
-   "base": 402
+   "base": 403
   }
  },
  "complete": false,

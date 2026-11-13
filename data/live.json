@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T00:10:41Z",
+ "generated": "2026-11-13T00:45:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -455,8 +455,8 @@
   "end": "2026-11-22",
   "day": 19,
   "days": 28,
-  "closed": 402,
-  "points": 791,
+  "closed": 403,
+  "points": 793,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -477,8 +477,8 @@
    {
     "status": "In Development",
     "open": 36,
-    "med_age": 15.5,
-    "max_age": 15.5,
+    "med_age": 15.6,
+    "max_age": 15.6,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -490,7 +490,7 @@
     "status": "Ready for Development",
     "open": 40,
     "med_age": 13.3,
-    "max_age": 48.4,
+    "max_age": 48.5,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -500,15 +500,15 @@
    },
    {
     "status": "In Stage",
-    "open": 35,
-    "med_age": 2.0,
+    "open": 34,
+    "med_age": 2.1,
     "max_age": 7.3,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 4,
     "clear_med": 1.1,
-    "clear_n": 478
+    "clear_n": 479
    },
    {
     "status": "WAITING REVIEW",
@@ -584,10 +584,10 @@
    }
   ],
   "parked": {
-   "Backlog": 76,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 76
   },
-  "open_total": 147,
+  "open_total": 146,
   "stale": 65,
   "worst": "In Development"
  }
