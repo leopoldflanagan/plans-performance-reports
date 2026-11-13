@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 405,
+  "closed": 407,
   "discarded": 4,
-  "resolved": 409,
+  "resolved": 411,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,11 +21,11 @@
    ],
    [
     "Bug",
-    108
+    109
    ],
    [
     "TechDebt",
-    5
+    6
    ],
    [
     "Spike",
@@ -43,7 +43,7 @@
   "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "405 items closed in the first 13 days, a pace of about 872 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "407 items closed in the first 13 days, a pace of about 877 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 4.9d and average 10.9d, both past the healthy band"
@@ -490,16 +490,16 @@
      "med": 0.76
     },
     "In Development": {
-     "n": 40,
+     "n": 41,
      "med": 0.17
     },
     "PR Created": {
      "n": 58,
-     "med": 2.75
+     "med": 2.68
     },
     "PR Merged": {
-     "n": 30,
-     "med": 0.02
+     "n": 33,
+     "med": 0.04
     },
     "In QA": {
      "n": 3,
@@ -541,10 +541,11 @@
     "Ready Prod": 21,
     "Backlog": 5,
     "Done": 22,
-    "Ready for Development": 4,
-    "PR Created": 27,
-    "In Development": 2,
+    "Ready for Development": 3,
+    "PR Created": 24,
+    "In Development": 3,
     "On Hold": 2,
+    "PR Merged": 3,
     "Closed": 9,
     "WAITING REVIEW": 2
    },
@@ -691,20 +692,20 @@
  },
  "CAP": {
   "9.10": [
-   405,
-   260,
-   797,
+   407,
+   261,
+   799,
    23
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 4.88,
-   "avg": 10.91,
-   "n": 221,
+   "med": 4.89,
+   "avg": 10.9,
+   "n": 222,
    "mx": 92.49,
-   "nodev": 184,
-   "base": 405
+   "nodev": 185,
+   "base": 407
   }
  },
  "complete": false,
