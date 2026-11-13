@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 411,
+  "closed": 412,
   "discarded": 4,
-  "resolved": 415,
+  "resolved": 416,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -21,7 +21,7 @@
    ],
    [
     "Bug",
-    110
+    111
    ],
    [
     "TechDebt",
@@ -43,7 +43,7 @@
   "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "411 items closed in the first 13 days, a pace of about 885 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "412 items closed in the first 13 days, a pace of about 887 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 4.8d and average 11.1d, both past the healthy band"
@@ -148,19 +148,19 @@
    "Plans Pod 1-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   117,
+   121,
    36,
    237,
-   270,
+   277,
    107,
-   14,
+   17,
    [
     201.0,
     209.0,
     205.0,
     185.0,
     152.0,
-    163.0
+    170.0
    ],
    [
     204.0,
@@ -168,7 +168,7 @@
     254.0,
     259.0,
     259.0,
-    270.0
+    277.0
    ]
   ],
   [
@@ -246,8 +246,8 @@
     99
    ],
    "open": [
-    42,
-    166
+    44,
+    173
    ],
    "out": [
     0,
@@ -294,7 +294,7 @@
   },
   "Plans Pod 1-Sprint 26-26": {
    "react": 0,
-   "plan": 15,
+   "plan": 17,
    "pct": 0
   },
   "Plans Pod 2-Sprint 26-26": {
@@ -481,28 +481,28 @@
   "Plans Pod 1-Sprint 26-26": {
    "tis": {
     "Backlog": {
-     "n": 21,
-     "med": 1.8
+     "n": 22,
+     "med": 1.33
     },
     "In Development": {
-     "n": 44,
+     "n": 45,
      "med": 0.16
     },
     "PR Created": {
-     "n": 61,
+     "n": 62,
      "med": 2.68
     },
     "PR Merged": {
-     "n": 36,
+     "n": 37,
      "med": 0.01
     },
     "In Stage": {
-     "n": 32,
-     "med": 1.67
+     "n": 33,
+     "med": 1.84
     },
     "To Do": {
-     "n": 23,
-     "med": 3.83
+     "n": 24,
+     "med": 8.64
     },
     "Ready for Development": {
      "n": 26,
@@ -521,12 +521,12 @@
      "med": 10.51
     },
     "Done": {
-     "n": 23,
+     "n": 24,
      "med": 12.52
     },
     "On Hold": {
-     "n": 3,
-     "med": 11.51
+     "n": 4,
+     "med": 10.44
     },
     "Closed": {
      "n": 13,
@@ -538,23 +538,23 @@
     }
    },
    "dist": {
-    "In Stage": 6,
-    "To Do": 11,
+    "In Stage": 7,
+    "To Do": 12,
     "In Progress": 4,
     "Ready Prod": 22,
     "Backlog": 5,
-    "Done": 23,
+    "Done": 24,
     "Ready for Development": 3,
     "PR Created": 24,
     "In Development": 2,
-    "On Hold": 2,
+    "On Hold": 3,
     "Closed": 13,
     "WAITING REVIEW": 2
    },
-   "stalled": 82,
+   "stalled": 86,
    "worst": 13.45,
    "worstSt": "WAITING REVIEW",
-   "items": 117
+   "items": 121
   },
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
@@ -683,7 +683,7 @@
    205.0,
    185.0,
    152.0,
-   163.0
+   170.0
   ],
   "Plans Pod 2-Sprint 26-26": [
    240.0,
@@ -696,7 +696,7 @@
  },
  "CAP": {
   "9.10": [
-   411,
+   412,
    265,
    811,
    23
@@ -708,8 +708,8 @@
    "avg": 11.08,
    "n": 226,
    "mx": 92.49,
-   "nodev": 185,
-   "base": 411
+   "nodev": 186,
+   "base": 412
   }
  },
  "complete": false,

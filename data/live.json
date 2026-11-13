@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T20:32:57Z",
+ "generated": "2026-11-13T21:03:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 93,
-   "sprint": 79,
+   "sprint": 81,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
@@ -182,7 +182,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 26,
+    "n": 27,
     "items": [
      {
       "key": "PLANS-25302",
@@ -288,20 +288,20 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 165 of 169 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 165,
+    "why": "missing on 167 of 171 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 167,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 169 of 169 items. This reads as a field the team does not use rather than 169 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 169,
+    "why": "missing on 171 of 171 items. This reads as a field the team does not use rather than 171 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 171,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 27,
+    "n": 28,
     "items": [
      {
       "key": "PLANS-24273",
@@ -365,17 +365,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 117,
+  "items": 121,
   "items_done": 36,
   "committed": 237,
-  "final": 270,
+  "final": 277,
   "completed": 107,
-  "scope_change": 14,
+  "scope_change": 17,
   "vs_commitment": 45,
   "time_elapsed": 30,
   "spill": {
-   "open_items": 42,
-   "open_pts": 166.0,
+   "open_items": 44,
+   "open_pts": 173.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 99.0
@@ -388,16 +388,16 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Stage": 6,
-   "To Do": 11,
+   "In Stage": 7,
+   "To Do": 12,
    "In Progress": 4,
    "Ready Prod": 22,
    "Backlog": 5,
-   "Done": 23,
+   "Done": 24,
    "Ready for Development": 3,
    "PR Created": 24,
    "In Development": 2,
-   "On Hold": 2,
+   "On Hold": 3,
    "Closed": 13,
    "WAITING REVIEW": 2
   },
@@ -407,7 +407,7 @@
    205.0,
    185.0,
    152.0,
-   163.0
+   170.0
   ],
   "scope": [
    204.0,
@@ -415,7 +415,7 @@
    254.0,
    259.0,
    259.0,
-   270.0
+   277.0
   ],
   "ghost": [
    201.0,
@@ -423,7 +423,7 @@
    205.0,
    185.0,
    152.0,
-   163.0
+   170.0
   ],
   "days": 14,
   "day": 5
@@ -437,7 +437,7 @@
   "end": "2026-11-22",
   "day": 19,
   "days": 28,
-  "closed": 411,
+  "closed": 412,
   "points": 811,
   "unplanned": null,
   "unplanned_pct": null,
@@ -466,7 +466,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 714
+    "clear_n": 715
    },
    {
     "status": "Ready for Development",
@@ -482,7 +482,7 @@
    },
    {
     "status": "In Stage",
-    "open": 40,
+    "open": 41,
     "med_age": 2.9,
     "max_age": 8.1,
     "worst_key": "PLANS-24945",
@@ -502,7 +502,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 792
+    "clear_n": 793
    },
    {
     "status": "WAITING REVIEW",
@@ -517,18 +517,6 @@
     "clear_n": 22
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -541,6 +529,18 @@
     "clear_n": 69
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -550,7 +550,7 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 755
+    "clear_n": 756
    },
    {
     "status": "Ready for Stage",
@@ -566,10 +566,10 @@
    }
   ],
   "parked": {
-   "Backlog": 82,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 80
   },
-  "open_total": 154,
+  "open_total": 155,
   "stale": 72,
   "worst": "In Development"
  }
