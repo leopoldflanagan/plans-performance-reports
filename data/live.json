@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T12:05:56Z",
+ "generated": "2026-11-13T12:34:28Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 64,
-    "points": 134,
+    "n": 62,
+    "points": 130,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 95,
+   "ready": 93,
    "sprint": 75,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 69,
+    "n": 67,
     "items": [
      {
       "key": "PLANS-25302",
@@ -190,7 +190,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 27,
+    "n": 25,
     "items": [
      {
       "key": "PLANS-25302",
@@ -304,14 +304,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 164 of 167 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 164,
+    "why": "missing on 162 of 165 items. This reads as a field the team does not use rather than 162 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 162,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 167 of 167 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 167,
+    "why": "missing on 165 of 165 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 165,
     "items": []
    },
    {
@@ -472,7 +472,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 38,
+    "open": 40,
     "med_age": 16.0,
     "max_age": 16.0,
     "worst_key": "PLANS-24785",
@@ -484,20 +484,20 @@
    },
    {
     "status": "Ready for Development",
-    "open": 40,
-    "med_age": 13.7,
-    "max_age": 48.9,
+    "open": 38,
+    "med_age": 14.3,
+    "max_age": 49.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 277
+    "clear_n": 279
    },
    {
     "status": "In Stage",
     "open": 34,
-    "med_age": 2.5,
+    "med_age": 2.6,
     "max_age": 7.8,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -543,6 +543,18 @@
     "clear_n": 69
    },
    {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 771
+   },
+   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -565,18 +577,6 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 771
    }
   ],
   "parked": {
