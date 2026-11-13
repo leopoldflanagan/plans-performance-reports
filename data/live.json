@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T14:32:43Z",
+ "generated": "2026-11-13T15:04:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 62,
+    "n": 64,
     "points": 130,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 93,
+   "ready": 95,
    "sprint": 75,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,8 +74,16 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 13,
+    "n": 14,
     "items": [
+     {
+      "key": "PLANS-25290",
+      "summary": "Essential Smile Plan- Wellfit Member Error "
+     },
+     {
+      "key": "PLANS-25273",
+      "summary": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for "
+     },
      {
       "key": "PLANS-25063",
       "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
@@ -99,14 +107,6 @@
      {
       "key": "PLANS-14758",
       "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14538",
-      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
-     },
-     {
-      "key": "PLANS-11253",
-      "summary": "Blocked DYN 280 >SGDP > 3+ Individuals > Dependent turning 18 in 30 days"
      }
     ]
    },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 67,
+    "n": 69,
     "items": [
      {
       "key": "PLANS-25302",
@@ -229,7 +229,7 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 6,
+    "n": 5,
     "items": [
      {
       "key": "PLANS-25286",
@@ -242,10 +242,6 @@
      {
       "key": "PLANS-25274",
       "summary": "Blocker-SGDP AHDA- Stage-Plans are missing"
-     },
-     {
-      "key": "PLANS-25273",
-      "summary": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for "
      },
      {
       "key": "PLANS-23835",
@@ -300,14 +296,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 162 of 165 items. This reads as a field the team does not use rather than 162 oversights. Worth deciding: adopt it or stop asking for it.",
+    "why": "missing on 162 of 166 items. This reads as a field the team does not use rather than 162 oversights. Worth deciding: adopt it or stop asking for it.",
     "n": 162,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 165 of 165 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 165,
+    "why": "missing on 166 of 166 items. This reads as a field the team does not use rather than 166 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 166,
     "items": []
    },
    {
@@ -400,19 +396,19 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 13,
+   "To Do": 12,
    "In QA": 1,
    "Ready Prod": 20,
-   "Backlog": 6,
+   "Backlog": 5,
    "Done": 22,
-   "In Development": 7,
-   "Ready for Development": 3,
-   "PR Created": 22,
+   "Ready for Development": 4,
+   "In Development": 6,
+   "PR Created": 23,
    "On Hold": 2,
    "Closed": 9,
+   "In Progress": 4,
    "In Stage": 3,
-   "WAITING REVIEW": 2,
-   "In Progress": 3
+   "WAITING REVIEW": 2
   },
   "burn": [
    201.0,
@@ -468,39 +464,51 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 41,
-    "med_age": 16.1,
-    "max_age": 16.1,
+    "open": 40,
+    "med_age": 16.2,
+    "max_age": 16.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 721
+    "clear_n": 723
    },
    {
     "status": "Ready for Development",
-    "open": 38,
-    "med_age": 14.4,
-    "max_age": 49.0,
+    "open": 40,
+    "med_age": 13.9,
+    "max_age": 49.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 277
+    "clear_n": 278
    },
    {
     "status": "In Stage",
     "open": 34,
-    "med_age": 2.6,
+    "med_age": 2.7,
     "max_age": 7.9,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 3,
     "clear_med": 1.1,
-    "clear_n": 479
+    "clear_n": 480
+   },
+   {
+    "status": "PR Created",
+    "open": 34,
+    "med_age": 1.7,
+    "max_age": 10.6,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 7,
+    "clear_med": 0.0,
+    "clear_n": 807
    },
    {
     "status": "WAITING REVIEW",
@@ -515,18 +523,6 @@
     "clear_n": 22
    },
    {
-    "status": "PR Created",
-    "open": 33,
-    "med_age": 1.7,
-    "max_age": 10.6,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 806
-   },
-   {
     "status": "In QA",
     "open": 2,
     "med_age": 0.7,
@@ -536,7 +532,7 @@
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.8,
-    "clear_n": 67
+    "clear_n": 68
    },
    {
     "status": "Ready for Stage",
@@ -572,14 +568,14 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 769
+    "clear_n": 770
    }
   ],
   "parked": {
    "On Hold": 24,
-   "Backlog": 76
+   "Backlog": 73
   },
-  "open_total": 150,
+  "open_total": 152,
   "stale": 69,
   "worst": "In Development"
  }

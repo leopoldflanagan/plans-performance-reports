@@ -458,14 +458,14 @@
     }
    },
    "dist": {
-    "To Do": 8,
+    "To Do": 7,
     "Done": 82,
     "Ready Prod": 42,
     "On Hold": 1,
     "Closed": 34,
+    "In Progress": 3,
     "In Stage": 2,
     "In Development": 1,
-    "In Progress": 2,
     "Ready for Development": 1,
     "Backlog": 2,
     "WAITING REVIEW": 1
@@ -483,18 +483,18 @@
     },
     "Backlog": {
      "n": 18,
-     "med": 2.33
+     "med": 1.99
     },
     "Ready for Development": {
-     "n": 25,
+     "n": 26,
      "med": 0.76
     },
     "In Development": {
      "n": 40,
-     "med": 0.24
+     "med": 0.19
     },
     "PR Created": {
-     "n": 53,
+     "n": 54,
      "med": 2.68
     },
     "PR Merged": {
@@ -514,8 +514,8 @@
      "med": 10.52
     },
     "In Progress": {
-     "n": 14,
-     "med": 0.92
+     "n": 15,
+     "med": 0.93
     },
     "Done": {
      "n": 22,
@@ -535,19 +535,19 @@
     }
    },
    "dist": {
-    "To Do": 13,
+    "To Do": 12,
     "In QA": 1,
     "Ready Prod": 20,
-    "Backlog": 6,
+    "Backlog": 5,
     "Done": 22,
-    "In Development": 7,
-    "Ready for Development": 3,
-    "PR Created": 22,
+    "Ready for Development": 4,
+    "In Development": 6,
+    "PR Created": 23,
     "On Hold": 2,
     "Closed": 9,
+    "In Progress": 4,
     "In Stage": 3,
-    "WAITING REVIEW": 2,
-    "In Progress": 3
+    "WAITING REVIEW": 2
    },
    "stalled": 84,
    "worst": 13.45,
@@ -569,8 +569,8 @@
      "med": 11.53
     },
     "Ready for Development": {
-     "n": 26,
-     "med": 1.17
+     "n": 27,
+     "med": 1.56
     },
     "Backlog": {
      "n": 90,
@@ -620,7 +620,7 @@
    "dist": {
     "Done": 43,
     "In Progress": 9,
-    "Ready for Development": 11,
+    "Ready for Development": 12,
     "Ready Prod": 30,
     "To Do": 105,
     "PR Created": 5,
@@ -628,7 +628,7 @@
     "In Stage": 28,
     "In QA": 1,
     "On Hold": 8,
-    "Backlog": 84,
+    "Backlog": 83,
     "Blocked": 1,
     "In Testing": 1
    },
