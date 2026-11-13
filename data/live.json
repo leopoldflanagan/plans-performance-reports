@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T17:32:42Z",
+ "generated": "2026-11-13T18:05:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 64,
-    "points": 128,
+    "n": 63,
+    "points": 127,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 95,
+   "ready": 94,
    "sprint": 75,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 69,
+    "n": 68,
     "items": [
      {
       "key": "PLANS-25302",
@@ -155,8 +155,8 @@
       "summary": "[1.4.W3] CSP organization save and load carry the organization integration value"
      },
      {
-      "key": "PLANS-25290",
-      "summary": "Essential Smile Plan- Wellfit Member Error "
+      "key": "PLANS-25273",
+      "summary": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for "
      }
     ]
    },
@@ -288,14 +288,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 161 of 166 items. This reads as a field the team does not use rather than 161 oversights. Worth deciding: adopt it or stop asking for it.",
+    "why": "missing on 161 of 165 items. This reads as a field the team does not use rather than 161 oversights. Worth deciding: adopt it or stop asking for it.",
     "n": 161,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 166 of 166 items. This reads as a field the team does not use rather than 166 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 166,
+    "why": "missing on 165 of 165 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 165,
     "items": []
    },
    {
@@ -395,8 +395,8 @@
    "Backlog": 5,
    "Done": 22,
    "Ready for Development": 4,
-   "PR Created": 24,
-   "In Development": 5,
+   "PR Created": 27,
+   "In Development": 2,
    "On Hold": 2,
    "Closed": 9,
    "WAITING REVIEW": 2
@@ -455,7 +455,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 40,
+    "open": 38,
     "med_age": 16.3,
     "max_age": 16.3,
     "worst_key": "PLANS-24785",
@@ -463,11 +463,11 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 720
+    "clear_n": 722
    },
    {
     "status": "Ready for Development",
-    "open": 40,
+    "open": 39,
     "med_age": 14.0,
     "max_age": 49.2,
     "worst_key": "PLANS-23527",
@@ -475,7 +475,7 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 278
+    "clear_n": 279
    },
    {
     "status": "In Stage",
@@ -487,24 +487,12 @@
     "worst_who": "Valentyna Tenus",
     "over": 7,
     "clear_med": 1.1,
-    "clear_n": 477
-   },
-   {
-    "status": "PR Created",
-    "open": 35,
-    "med_age": 1.8,
-    "max_age": 10.7,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 7,
-    "clear_med": 0.0,
-    "clear_n": 801
+    "clear_n": 476
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 28.6,
+    "med_age": 28.7,
     "max_age": 36.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -514,16 +502,16 @@
     "clear_n": 22
    },
    {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
+    "status": "PR Created",
+    "open": 38,
+    "med_age": 1.2,
+    "max_age": 10.8,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 7,
     "clear_med": 0.0,
-    "clear_n": 764
+    "clear_n": 800
    },
    {
     "status": "In QA",
@@ -536,6 +524,18 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 69
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 763
    },
    {
     "status": "Ready for Stage",
@@ -564,7 +564,7 @@
   ],
   "parked": {
    "On Hold": 24,
-   "Backlog": 75
+   "Backlog": 76
   },
   "open_total": 153,
   "stale": 73,
