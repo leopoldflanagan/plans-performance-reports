@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T14:04:23Z",
+ "generated": "2026-11-13T14:32:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -229,7 +229,7 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 7,
+    "n": 6,
     "items": [
      {
       "key": "PLANS-25286",
@@ -246,10 +246,6 @@
      {
       "key": "PLANS-25273",
       "summary": "SGDP ADHA-Stage-Landing page missing tables for benefit discount and saving for "
-     },
-     {
-      "key": "PLANS-25249",
-      "summary": "PLANS-25249: Epic 5: Story 5.6 - wf-plans-widget: verify against a local build, "
      },
      {
       "key": "PLANS-23835",
@@ -407,9 +403,9 @@
    "To Do": 13,
    "In QA": 1,
    "Ready Prod": 20,
-   "Backlog": 7,
+   "Backlog": 6,
    "Done": 22,
-   "In Development": 6,
+   "In Development": 7,
    "Ready for Development": 3,
    "PR Created": 22,
    "On Hold": 2,
@@ -472,7 +468,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 40,
+    "open": 41,
     "med_age": 16.1,
     "max_age": 16.1,
     "worst_key": "PLANS-24785",
@@ -480,7 +476,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 720
+    "clear_n": 721
    },
    {
     "status": "Ready for Development",
@@ -498,7 +494,7 @@
     "status": "In Stage",
     "open": 34,
     "med_age": 2.6,
-    "max_age": 7.8,
+    "max_age": 7.9,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -507,9 +503,21 @@
     "clear_n": 479
    },
    {
+    "status": "WAITING REVIEW",
+    "open": 2,
+    "med_age": 28.5,
+    "max_age": 35.9,
+    "worst_key": "PLANS-24108",
+    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 2,
+    "clear_med": 0.1,
+    "clear_n": 22
+   },
+   {
     "status": "PR Created",
-    "open": 32,
-    "med_age": 1.8,
+    "open": 33,
+    "med_age": 1.7,
     "max_age": 10.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -519,21 +527,9 @@
     "clear_n": 806
    },
    {
-    "status": "WAITING REVIEW",
-    "open": 2,
-    "med_age": 28.5,
-    "max_age": 35.8,
-    "worst_key": "PLANS-24108",
-    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 2,
-    "clear_med": 0.1,
-    "clear_n": 22
-   },
-   {
     "status": "In QA",
     "open": 2,
-    "med_age": 0.6,
+    "med_age": 0.7,
     "max_age": 0.7,
     "worst_key": "PLANS-25289",
     "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
@@ -581,9 +577,9 @@
   ],
   "parked": {
    "On Hold": 24,
-   "Backlog": 78
+   "Backlog": 76
   },
-  "open_total": 148,
+  "open_total": 150,
   "stale": 69,
   "worst": "In Development"
  }

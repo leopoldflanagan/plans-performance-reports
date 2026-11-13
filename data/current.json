@@ -483,15 +483,15 @@
     },
     "Backlog": {
      "n": 18,
-     "med": 2.74
+     "med": 2.33
     },
     "Ready for Development": {
      "n": 25,
      "med": 0.76
     },
     "In Development": {
-     "n": 39,
-     "med": 0.21
+     "n": 40,
+     "med": 0.24
     },
     "PR Created": {
      "n": 53,
@@ -538,9 +538,9 @@
     "To Do": 13,
     "In QA": 1,
     "Ready Prod": 20,
-    "Backlog": 7,
+    "Backlog": 6,
     "Done": 22,
-    "In Development": 6,
+    "In Development": 7,
     "Ready for Development": 3,
     "PR Created": 22,
     "On Hold": 2,
