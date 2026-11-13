@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T21:32:52Z",
+ "generated": "2026-11-13T22:03:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -372,7 +372,7 @@
   "completed": 107,
   "scope_change": 17,
   "vs_commitment": 45,
-  "time_elapsed": 30,
+  "time_elapsed": 31,
   "spill": {
    "open_items": 44,
    "open_pts": 173.0,
@@ -471,8 +471,8 @@
    {
     "status": "Ready for Development",
     "open": 40,
-    "med_age": 14.1,
-    "max_age": 49.3,
+    "med_age": 14.2,
+    "max_age": 49.4,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -483,7 +483,7 @@
    {
     "status": "In Stage",
     "open": 41,
-    "med_age": 2.9,
+    "med_age": 3.0,
     "max_age": 8.2,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -507,14 +507,26 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 28.8,
-    "max_age": 36.1,
+    "med_age": 28.9,
+    "max_age": 36.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 69
    },
    {
     "status": "In PreProd",
@@ -551,23 +563,11 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 756
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 77
+   "Backlog": 78,
+   "On Hold": 24
   },
   "open_total": 157,
   "stale": 72,
