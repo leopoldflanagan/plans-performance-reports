@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T16:32:43Z",
+ "generated": "2026-11-13T17:04:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -163,19 +163,11 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 5,
+    "n": 3,
     "items": [
      {
       "key": "PLANS-25286",
       "summary": "SGDPADHA-Stage-Missing details for \"More benefits for you\" on Landing page"
-     },
-     {
-      "key": "PLANS-25282",
-      "summary": "Blocker - SGDP ADHA-Stage-Landing Page missing Plans card"
-     },
-     {
-      "key": "PLANS-25274",
-      "summary": "Blocker-SGDP AHDA- Stage-Plans are missing"
      },
      {
       "key": "PLANS-25273",
@@ -397,7 +389,7 @@
   "spill_rate": null,
   "dist": {
    "To Do": 11,
-   "In QA": 1,
+   "In Stage": 3,
    "In Progress": 5,
    "Ready Prod": 21,
    "Backlog": 5,
@@ -407,7 +399,6 @@
    "In Development": 5,
    "On Hold": 2,
    "Closed": 9,
-   "In Stage": 2,
    "WAITING REVIEW": 2
   },
   "burn": [
@@ -472,12 +463,12 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 722
+    "clear_n": 720
    },
    {
     "status": "Ready for Development",
     "open": 39,
-    "med_age": 13.9,
+    "med_age": 14.0,
     "max_age": 49.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -488,15 +479,15 @@
    },
    {
     "status": "In Stage",
-    "open": 34,
+    "open": 36,
     "med_age": 2.7,
-    "max_age": 7.9,
+    "max_age": 8.0,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 6,
+    "over": 7,
     "clear_med": 1.1,
-    "clear_n": 478
+    "clear_n": 477
    },
    {
     "status": "PR Created",
@@ -508,31 +499,19 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 805
+    "clear_n": 801
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 28.6,
-    "max_age": 35.9,
+    "max_age": 36.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
-   },
-   {
-    "status": "In QA",
-    "open": 2,
-    "med_age": 0.8,
-    "max_age": 0.8,
-    "worst_key": "PLANS-25289",
-    "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
-    "worst_who": "Sailaja Yanamandra",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 67
    },
    {
     "status": "Ready for Stage",
@@ -545,6 +524,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 69
    },
    {
     "status": "In PreProd",
@@ -568,15 +559,15 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 768
+    "clear_n": 764
    }
   ],
   "parked": {
-   "Backlog": 75,
+   "Backlog": 76,
    "On Hold": 24
   },
   "open_total": 152,
-  "stale": 72,
+  "stale": 73,
   "worst": "In Development"
  }
 }
