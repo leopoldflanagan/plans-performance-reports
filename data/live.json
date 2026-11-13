@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T08:32:36Z",
+ "generated": "2026-11-13T09:04:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -392,7 +392,7 @@
   "completed": 92,
   "scope_change": 9,
   "vs_commitment": 39,
-  "time_elapsed": 26,
+  "time_elapsed": 27,
   "spill": {
    "open_items": 44,
    "open_pts": 169.0,
@@ -484,7 +484,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 31,
     "clear_med": 0.1,
-    "clear_n": 722
+    "clear_n": 723
    },
    {
     "status": "Ready for Development",
@@ -500,7 +500,7 @@
    },
    {
     "status": "In Stage",
-    "open": 33,
+    "open": 34,
     "med_age": 2.4,
     "max_age": 7.6,
     "worst_key": "PLANS-24945",
@@ -532,7 +532,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 808
+    "clear_n": 809
    },
    {
     "status": "In QA",
@@ -547,6 +547,18 @@
     "clear_n": 70
    },
    {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 772
+   },
+   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -557,18 +569,6 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 771
    },
    {
     "status": "Ready for Stage",
@@ -585,9 +585,9 @@
   ],
   "parked": {
    "On Hold": 24,
-   "Backlog": 78
+   "Backlog": 77
   },
-  "open_total": 145,
+  "open_total": 146,
   "stale": 69,
   "worst": "In Development"
  }
