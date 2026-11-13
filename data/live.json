@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T09:04:41Z",
+ "generated": "2026-11-13T09:33:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -502,7 +502,7 @@
     "status": "In Stage",
     "open": 34,
     "med_age": 2.4,
-    "max_age": 7.6,
+    "max_age": 7.7,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -537,8 +537,8 @@
    {
     "status": "In QA",
     "open": 2,
-    "med_age": 0.4,
-    "max_age": 0.4,
+    "med_age": 0.5,
+    "max_age": 0.5,
     "worst_key": "PLANS-25289",
     "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
     "worst_who": "Sailaja Yanamandra",
@@ -547,7 +547,7 @@
     "clear_n": 70
    },
    {
-    "status": "PR Merged",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -555,8 +555,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 772
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -571,7 +571,7 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -579,13 +579,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.0,
+    "clear_n": 772
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 77
+   "Backlog": 77,
+   "On Hold": 24
   },
   "open_total": 146,
   "stale": 69,
