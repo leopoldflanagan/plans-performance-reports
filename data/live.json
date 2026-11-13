@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T10:04:04Z",
+ "generated": "2026-11-13T10:32:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -477,8 +477,8 @@
    {
     "status": "In Development",
     "open": 36,
-    "med_age": 15.9,
-    "max_age": 15.9,
+    "med_age": 16.0,
+    "max_age": 16.0,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -547,6 +547,18 @@
     "clear_n": 70
    },
    {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
+   },
+   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -569,23 +581,11 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 77,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 77
   },
   "open_total": 146,
   "stale": 69,
