@@ -40,10 +40,10 @@
   ],
   "unp_items": [],
   "open": true,
-  "day": 12,
+  "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "402 items closed in the first 12 days, a pace of about 938 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "402 items closed in the first 13 days, a pace of about 866 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
    "cycle time median 4.9d and average 10.9d, both past the healthy band"
@@ -561,8 +561,8 @@
      "med": 13.43
     },
     "In Progress": {
-     "n": 37,
-     "med": 1.2
+     "n": 38,
+     "med": 1.22
     },
     "Done": {
      "n": 43,
@@ -619,10 +619,10 @@
    },
    "dist": {
     "Done": 41,
-    "In Progress": 10,
+    "In Progress": 11,
     "Ready for Development": 11,
     "Ready Prod": 28,
-    "To Do": 106,
+    "To Do": 105,
     "PR Created": 5,
     "Closed": 7,
     "In Stage": 30,

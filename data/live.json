@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T23:32:54Z",
+ "generated": "2026-11-13T00:10:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 4,
+  "day": 5,
   "days": 14,
   "n": 21,
   "done_now": 92,
   "committed": 237,
-  "lo": 238,
-  "mid": 303,
-  "hi": 409,
-  "pct": 128,
+  "lo": 231,
+  "mid": 281,
+  "hi": 389,
+  "pct": 119,
   "verdict": "on track for the commitment",
-  "share_mid": 0.304
+  "share_mid": 0.328
  },
  "admin": {
   "scope": {
@@ -444,7 +444,7 @@
    166.0
   ],
   "days": 14,
-  "day": 4
+  "day": 5
  },
  "next": null,
  "month": {
@@ -453,7 +453,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 18,
+  "day": 19,
   "days": 28,
   "closed": 402,
   "points": 791,
@@ -489,7 +489,7 @@
    {
     "status": "Ready for Development",
     "open": 40,
-    "med_age": 13.2,
+    "med_age": 13.3,
     "max_age": 48.4,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -503,9 +503,9 @@
     "open": 35,
     "med_age": 2.0,
     "max_age": 7.3,
-    "worst_key": "PLANS-24804",
-    "worst_sum": "[1.4a.W1] Remove a payment method \u2014 server-side cascade (BE)",
-    "worst_who": "Denys  Kernychnyi",
+    "worst_key": "PLANS-24945",
+    "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
+    "worst_who": "Valentyna Tenus",
     "over": 4,
     "clear_med": 1.1,
     "clear_n": 478
@@ -514,7 +514,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 27.9,
-    "max_age": 35.2,
+    "max_age": 35.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -537,26 +537,14 @@
    {
     "status": "In QA",
     "open": 2,
-    "med_age": 0.0,
-    "max_age": 0.0,
+    "med_age": 0.1,
+    "max_age": 0.1,
     "worst_key": "PLANS-25289",
     "worst_sum": "CREG enrollment feed rejects Yes/No in IsPlanTerminated",
     "worst_who": "Sailaja Yanamandra",
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 71
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -569,6 +557,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "PR Merged",
@@ -584,8 +584,8 @@
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 75
+   "Backlog": 76,
+   "On Hold": 24
   },
   "open_total": 147,
   "stale": 65,
