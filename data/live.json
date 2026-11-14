@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T17:03:36Z",
+ "generated": "2026-11-14T17:32:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -459,8 +459,8 @@
    {
     "status": "In Development",
     "open": 39,
-    "med_age": 17.2,
-    "max_age": 17.2,
+    "med_age": 17.3,
+    "max_age": 17.3,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -472,7 +472,7 @@
     "status": "Ready for Development",
     "open": 40,
     "med_age": 15.0,
-    "max_age": 50.1,
+    "max_age": 50.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -566,8 +566,8 @@
    }
   ],
   "parked": {
-   "Backlog": 74,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 74
   },
   "open_total": 160,
   "stale": 72,
