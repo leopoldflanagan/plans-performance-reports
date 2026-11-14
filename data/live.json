@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T12:05:42Z",
+ "generated": "2026-11-14T12:32:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -471,8 +471,8 @@
    {
     "status": "Ready for Development",
     "open": 40,
-    "med_age": 14.7,
-    "max_age": 49.9,
+    "med_age": 14.8,
+    "max_age": 50.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -483,7 +483,7 @@
    {
     "status": "In Stage",
     "open": 44,
-    "med_age": 3.2,
+    "med_age": 3.3,
     "max_age": 8.8,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -517,7 +517,7 @@
     "clear_n": 22
    },
    {
-    "status": "PR Merged",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -525,8 +525,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 759
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -553,7 +553,7 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -561,8 +561,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.0,
+    "clear_n": 759
    }
   ],
   "parked": {
