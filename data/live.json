@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T07:04:07Z",
+ "generated": "2026-11-14T07:32:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -372,7 +372,7 @@
   "completed": 107,
   "scope_change": 20,
   "vs_commitment": 45,
-  "time_elapsed": 33,
+  "time_elapsed": 34,
   "spill": {
    "open_items": 47,
    "open_pts": 180.0,
@@ -471,7 +471,7 @@
    {
     "status": "Ready for Development",
     "open": 40,
-    "med_age": 14.5,
+    "med_age": 14.6,
     "max_age": 49.7,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -483,8 +483,8 @@
    {
     "status": "In Stage",
     "open": 44,
-    "med_age": 3.0,
-    "max_age": 8.5,
+    "med_age": 3.1,
+    "max_age": 8.6,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -508,7 +508,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 29.2,
-    "max_age": 36.5,
+    "max_age": 36.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -517,7 +517,7 @@
     "clear_n": 22
    },
    {
-    "status": "In QA",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -525,8 +525,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "PR Merged",
@@ -541,6 +541,18 @@
     "clear_n": 759
    },
    {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 69
+   },
+   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -551,23 +563,11 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 74,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 74
   },
   "open_total": 160,
   "stale": 72,
