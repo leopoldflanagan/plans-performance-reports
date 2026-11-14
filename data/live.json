@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T00:10:21Z",
+ "generated": "2026-11-14T00:42:24Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -459,8 +459,8 @@
    {
     "status": "In Development",
     "open": 39,
-    "med_age": 16.5,
-    "max_age": 16.5,
+    "med_age": 16.6,
+    "max_age": 16.6,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -472,7 +472,7 @@
     "status": "Ready for Development",
     "open": 40,
     "med_age": 14.3,
-    "max_age": 49.4,
+    "max_age": 49.5,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -517,7 +517,7 @@
     "clear_n": 22
    },
    {
-    "status": "PR Merged",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -525,20 +525,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 759
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 1.6,
+    "clear_n": 69
    },
    {
     "status": "In PreProd",
@@ -553,7 +541,7 @@
     "clear_n": 24
    },
    {
-    "status": "In QA",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -561,8 +549,20 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
+    "clear_med": 3.3,
+    "clear_n": 2
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 759
    }
   ],
   "parked": {
