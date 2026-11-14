@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T09:03:46Z",
+ "generated": "2026-11-14T09:32:35Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -484,7 +484,7 @@
     "status": "In Stage",
     "open": 44,
     "med_age": 3.1,
-    "max_age": 8.6,
+    "max_age": 8.7,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -517,18 +517,6 @@
     "clear_n": 22
    },
    {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 759
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -539,6 +527,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 759
    },
    {
     "status": "Ready for Stage",
@@ -566,8 +566,8 @@
    }
   ],
   "parked": {
-   "Backlog": 74,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 74
   },
   "open_total": 160,
   "stale": 72,
