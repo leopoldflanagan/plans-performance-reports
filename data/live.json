@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T03:05:26Z",
+ "generated": "2026-11-15T03:32:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -486,7 +486,7 @@
    {
     "status": "In Stage",
     "open": 44,
-    "med_age": 3.9,
+    "med_age": 4.0,
     "max_age": 9.4,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -499,7 +499,7 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 3.2,
-    "max_age": 12.1,
+    "max_age": 12.2,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -510,7 +510,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 30.0,
+    "med_age": 30.1,
     "max_age": 37.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -518,18 +518,6 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 759
    },
    {
     "status": "Ready for Stage",
@@ -544,7 +532,7 @@
     "clear_n": 2
    },
    {
-    "status": "In QA",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -552,8 +540,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
+    "clear_med": 0.0,
+    "clear_n": 759
    },
    {
     "status": "In PreProd",
@@ -566,11 +554,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 69
    }
   ],
   "parked": {
-   "Backlog": 74,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 74
   },
   "open_total": 160,
   "stale": 72,
