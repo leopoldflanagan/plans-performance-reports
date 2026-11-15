@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T14:32:41Z",
+ "generated": "2026-11-15T15:03:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -462,8 +462,8 @@
    {
     "status": "In Development",
     "open": 39,
-    "med_age": 18.1,
-    "max_age": 18.1,
+    "med_age": 18.2,
+    "max_age": 18.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -475,7 +475,7 @@
     "status": "Ready for Development",
     "open": 40,
     "med_age": 15.9,
-    "max_age": 51.0,
+    "max_age": 51.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -486,7 +486,7 @@
    {
     "status": "In Stage",
     "open": 44,
-    "med_age": 4.3,
+    "med_age": 4.4,
     "max_age": 9.9,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -520,30 +520,6 @@
     "clear_n": 22
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -566,6 +542,30 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 69
    }
   ],
   "parked": {
