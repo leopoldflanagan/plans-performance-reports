@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T02:32:30Z",
+ "generated": "2026-11-15T03:05:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -372,7 +372,7 @@
   "completed": 107,
   "scope_change": 20,
   "vs_commitment": 45,
-  "time_elapsed": 39,
+  "time_elapsed": 40,
   "spill": {
    "open_items": 47,
    "open_pts": 180.0,
@@ -462,8 +462,8 @@
    {
     "status": "In Development",
     "open": 39,
-    "med_age": 17.6,
-    "max_age": 17.6,
+    "med_age": 17.7,
+    "max_age": 17.7,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -475,7 +475,7 @@
     "status": "Ready for Development",
     "open": 40,
     "med_age": 15.4,
-    "max_age": 50.5,
+    "max_age": 50.6,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -486,7 +486,7 @@
    {
     "status": "In Stage",
     "open": 44,
-    "med_age": 3.8,
+    "med_age": 3.9,
     "max_age": 9.4,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
