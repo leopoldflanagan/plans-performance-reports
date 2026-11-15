@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T15:32:27Z",
+ "generated": "2026-11-15T16:04:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -372,7 +372,7 @@
   "completed": 107,
   "scope_change": 20,
   "vs_commitment": 45,
-  "time_elapsed": 43,
+  "time_elapsed": 44,
   "spill": {
    "open_items": 47,
    "open_pts": 180.0,
@@ -498,7 +498,7 @@
    {
     "status": "PR Created",
     "open": 35,
-    "med_age": 3.7,
+    "med_age": 3.8,
     "max_age": 12.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -520,18 +520,6 @@
     "clear_n": 22
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -542,6 +530,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 69
    },
    {
     "status": "PR Merged",
@@ -569,8 +569,8 @@
    }
   ],
   "parked": {
-   "Backlog": 74,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 74
   },
   "open_total": 160,
   "stale": 72,
