@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T22:32:48Z",
+ "generated": "2026-11-15T23:04:24Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -489,7 +489,7 @@
    {
     "status": "In Stage",
     "open": 44,
-    "med_age": 4.7,
+    "med_age": 4.8,
     "max_age": 10.2,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -501,8 +501,8 @@
    {
     "status": "PR Created",
     "open": 35,
-    "med_age": 4.0,
-    "max_age": 12.9,
+    "med_age": 4.1,
+    "max_age": 13.0,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -523,18 +523,6 @@
     "clear_n": 22
    },
    {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 759
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -547,7 +535,7 @@
     "clear_n": 69
    },
    {
-    "status": "In PreProd",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -555,8 +543,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 0.0,
+    "clear_n": 759
    },
    {
     "status": "Ready for Stage",
@@ -569,11 +557,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 74
+   "Backlog": 74,
+   "On Hold": 24
   },
   "open_total": 160,
   "stale": 72,
