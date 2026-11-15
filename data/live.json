@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T08:32:43Z",
+ "generated": "2026-11-15T09:04:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -520,7 +520,7 @@
     "clear_n": 22
    },
    {
-    "status": "Ready for Stage",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -528,20 +528,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 0.0,
+    "clear_n": 759
    },
    {
     "status": "In QA",
@@ -556,7 +544,7 @@
     "clear_n": 69
    },
    {
-    "status": "PR Merged",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -564,13 +552,25 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 759
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 74
+   "Backlog": 74,
+   "On Hold": 24
   },
   "open_total": 160,
   "stale": 72,
