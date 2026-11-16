@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T07:45:53Z",
+ "generated": "2026-11-16T08:13:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -471,8 +471,8 @@
    {
     "status": "In Development",
     "open": 39,
-    "med_age": 18.8,
-    "max_age": 18.8,
+    "med_age": 18.9,
+    "max_age": 18.9,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -519,7 +519,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 31.2,
+    "med_age": 31.3,
     "max_age": 38.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -527,30 +527,6 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 759
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -575,6 +551,30 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 69
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 759
    }
   ],
   "parked": {
