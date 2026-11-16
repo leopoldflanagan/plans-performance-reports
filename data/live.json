@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T14:45:17Z",
+ "generated": "2026-11-16T15:04:19Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -376,11 +376,11 @@
   "dist": {
    "In Stage": 10,
    "To Do": 12,
-   "In Development": 8,
+   "In Development": 7,
    "In Progress": 4,
    "Ready Prod": 22,
    "Done": 24,
-   "PR Created": 24,
+   "PR Created": 25,
    "Ready for Development": 2,
    "On Hold": 3,
    "Closed": 13,
@@ -450,21 +450,21 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 46,
+    "open": 45,
     "med_age": 18.1,
-    "max_age": 19.1,
+    "max_age": 19.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 721
+    "clear_n": 722
    },
    {
     "status": "Ready for Development",
     "open": 35,
-    "med_age": 18.8,
-    "max_age": 52.0,
+    "med_age": 18.9,
+    "max_age": 52.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -486,13 +486,13 @@
    },
    {
     "status": "PR Created",
-    "open": 36,
-    "med_age": 4.5,
+    "open": 37,
+    "med_age": 4.2,
     "max_age": 13.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 7,
+    "over": 8,
     "clear_med": 0.0,
     "clear_n": 798
    },
@@ -507,30 +507,6 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 761
    },
    {
     "status": "In PreProd",
@@ -555,14 +531,38 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 761
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 69
    }
   ],
   "parked": {
-   "Backlog": 69,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 69
   },
   "open_total": 165,
-  "stale": 72,
+  "stale": 73,
   "worst": "In Development"
  }
 }
