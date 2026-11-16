@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T21:03:56Z",
+ "generated": "2026-11-16T21:32:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 35,
-   "points": 146
+   "items": 37,
+   "points": 154
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 35,
-    "points": 146,
+    "n": 37,
+    "points": 154,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -55,12 +55,12 @@
   "day": 8,
   "days": 14,
   "n": 21,
-  "done_now": 192,
+  "done_now": 193,
   "committed": 237,
-  "lo": 289,
-  "mid": 343,
-  "hi": 538,
-  "pct": 145,
+  "lo": 291,
+  "mid": 345,
+  "hi": 540,
+  "pct": 146,
   "verdict": "on track for the commitment",
   "share_mid": 0.56
  },
@@ -346,19 +346,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 152,
-  "items_done": 54,
+  "items_done": 55,
   "committed": 237,
   "final": 294,
-  "completed": 192,
+  "completed": 193,
   "scope_change": 24,
   "vs_commitment": 81,
   "time_elapsed": 53,
   "spill": {
    "open_items": 30,
    "open_pts": 97.0,
-   "out_items": 1,
-   "out_pts": 1.0,
-   "done_pts": 191.0
+   "out_items": 0,
+   "out_pts": 0,
+   "done_pts": 192.0
   },
   "recv": {
    "items": 14,
@@ -369,16 +369,15 @@
   "spill_rate": null,
   "dist": {
    "To Do": 34,
-   "In Progress": 6,
+   "Done": 25,
+   "In Progress": 5,
    "Ready for Development": 3,
    "In Stage": 20,
    "In Development": 2,
-   "Ready Prod": 41,
-   "Done": 24,
+   "Ready Prod": 42,
    "On Hold": 2,
    "Closed": 13,
    "PR Created": 1,
-   "In PreProd": 1,
    "WAITING REVIEW": 2,
    "Backlog": 2,
    "Will Not Implement": 1
@@ -392,7 +391,7 @@
    180.0,
    180.0,
    187.0,
-   102.0
+   101.0
   ],
   "scope": [
    204.0,
@@ -414,7 +413,7 @@
    180.0,
    180.0,
    187.0,
-   102.0
+   101.0
   ],
   "days": 14,
   "day": 8
@@ -432,8 +431,8 @@
   "end": "2026-11-22",
   "day": 22,
   "days": 28,
-  "closed": 439,
-  "points": 925,
+  "closed": 441,
+  "points": 930,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -461,7 +460,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 727
+    "clear_n": 726
    },
    {
     "status": "Ready for Development",
@@ -473,19 +472,19 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 282
+    "clear_n": 281
    },
    {
     "status": "In Stage",
-    "open": 50,
-    "med_age": 3.9,
-    "max_age": 11.1,
+    "open": 48,
+    "med_age": 4.3,
+    "max_age": 11.2,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 5,
     "clear_med": 1.1,
-    "clear_n": 495
+    "clear_n": 496
    },
    {
     "status": "WAITING REVIEW",
@@ -509,7 +508,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 829
+    "clear_n": 828
    },
    {
     "status": "In QA",
@@ -524,6 +523,18 @@
     "clear_n": 69
    },
    {
+    "status": "In PreProd",
+    "open": 1,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25241",
+    "worst_sum": "PMP - Plan Type Correction",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -536,18 +547,6 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 2,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25241",
-    "worst_sum": "PMP - Plan Type Correction",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -557,14 +556,14 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 792
+    "clear_n": 791
    }
   ],
   "parked": {
-   "On Hold": 23,
-   "Backlog": 72
+   "Backlog": 73,
+   "On Hold": 23
   },
-  "open_total": 140,
+  "open_total": 137,
   "stale": 65,
   "worst": "In Development"
  }
