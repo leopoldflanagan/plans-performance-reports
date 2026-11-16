@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T20:32:37Z",
+ "generated": "2026-11-16T21:03:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -345,14 +345,14 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 149,
+  "items": 152,
   "items_done": 54,
   "committed": 237,
   "final": 294,
   "completed": 192,
   "scope_change": 24,
   "vs_commitment": 81,
-  "time_elapsed": 52,
+  "time_elapsed": 53,
   "spill": {
    "open_items": 30,
    "open_pts": 97.0,
@@ -368,7 +368,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 31,
+   "To Do": 34,
    "In Progress": 6,
    "Ready for Development": 3,
    "In Stage": 20,
@@ -512,30 +512,6 @@
     "clear_n": 829
    },
    {
-    "status": "In PreProd",
-    "open": 2,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25241",
-    "worst_sum": "PMP - Plan Type Correction",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 792
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -558,11 +534,35 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 2,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25241",
+    "worst_sum": "PMP - Plan Type Correction",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 792
    }
   ],
   "parked": {
-   "Backlog": 72,
-   "On Hold": 23
+   "On Hold": 23,
+   "Backlog": 72
   },
   "open_total": 140,
   "stale": 65,

@@ -148,7 +148,7 @@
    "Plans Pod 1-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   149,
+   152,
    54,
    237,
    294,
@@ -181,12 +181,12 @@
    "Plans Pod 2-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   359,
+   363,
    45,
    272,
-   375,
+   377,
    158,
-   38,
+   39,
    [
     240.0,
     241.0,
@@ -196,7 +196,7 @@
     239.0,
     239.0,
     215.0,
-    215.0
+    217.0
    ],
    [
     265.0,
@@ -207,7 +207,7 @@
     368.0,
     368.0,
     373.0,
-    373.0
+    375.0
    ]
   ]
  ],
@@ -278,8 +278,8 @@
     155
    ],
    "open": [
-    133,
-    203
+    135,
+    205
    ],
    "out": [
     9,
@@ -311,7 +311,7 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "react": 0,
-   "plan": 40,
+   "plan": 42,
    "pct": 0
   }
  },
@@ -494,7 +494,7 @@
   "Plans Pod 1-Sprint 26-26": {
    "tis": {
     "To Do": {
-     "n": 45,
+     "n": 48,
      "med": 13.45
     },
     "In Progress": {
@@ -559,7 +559,7 @@
     }
    },
    "dist": {
-    "To Do": 31,
+    "To Do": 34,
     "In Progress": 6,
     "Ready for Development": 3,
     "In Stage": 20,
@@ -574,20 +574,24 @@
     "Backlog": 2,
     "Will Not Implement": 1
    },
-   "stalled": 94,
+   "stalled": 97,
    "worst": 13.45,
    "worstSt": "To Do",
-   "items": 149
+   "items": 152
   },
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
     "To Do": {
-     "n": 151,
+     "n": 153,
      "med": 13.43
     },
     "In Progress": {
-     "n": 41,
-     "med": 1.01
+     "n": 42,
+     "med": 1.11
+    },
+    "In Stage": {
+     "n": 83,
+     "med": 4.03
     },
     "Done": {
      "n": 51,
@@ -600,10 +604,6 @@
     "Backlog": {
      "n": 91,
      "med": 13.43
-    },
-    "In Stage": {
-     "n": 81,
-     "med": 3.09
     },
     "Ready Prod": {
      "n": 40,
@@ -651,25 +651,25 @@
     }
    },
    "dist": {
-    "To Do": 113,
+    "In Progress": 11,
+    "To Do": 114,
+    "In Stage": 33,
     "Done": 49,
-    "In Progress": 10,
     "Ready for Development": 11,
     "Ready Prod": 39,
     "PR Created": 5,
     "Closed": 7,
     "In PreProd": 2,
-    "In Stage": 31,
     "On Hold": 7,
     "Backlog": 81,
     "In Development": 2,
     "Blocked": 1,
     "In Testing": 1
    },
-   "stalled": 313,
+   "stalled": 317,
    "worst": 13.43,
    "worstSt": "To Do",
-   "items": 359
+   "items": 363
   }
  },
  "GHOST": {
@@ -729,7 +729,7 @@
    239.0,
    239.0,
    215.0,
-   215.0
+   217.0
   ]
  },
  "CAP": {
