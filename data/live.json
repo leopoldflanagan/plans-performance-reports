@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T23:03:58Z",
+ "generated": "2026-11-16T23:33:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 37,
-   "points": 154
+   "items": 38,
+   "points": 157
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 37,
-    "points": 154,
+    "n": 38,
+    "points": 157,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -431,12 +431,12 @@
   "end": "2026-11-22",
   "day": 22,
   "days": 28,
-  "closed": 442,
+  "closed": 444,
   "points": 933,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
-  "people_active": 23,
+  "people_active": 24,
   "sprints": [
    "LL-Sprint 25-26",
    "Plans-Sprint 25-26",
@@ -560,8 +560,8 @@
    }
   ],
   "parked": {
-   "Backlog": 73,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 71
   },
   "open_total": 136,
   "stale": 65,
