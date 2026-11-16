@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T15:38:48Z",
+ "generated": "2026-11-16T16:04:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -360,11 +360,11 @@
   "vs_commitment": 45,
   "time_elapsed": 51,
   "spill": {
-   "open_items": 49,
-   "open_pts": 185.0,
+   "open_items": 48,
+   "open_pts": 183.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 99.0
+   "done_pts": 101.0
   },
   "recv": {
    "items": 14,
@@ -374,18 +374,19 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Stage": 10,
+   "In Stage": 11,
    "To Do": 12,
-   "In Development": 7,
+   "In Development": 6,
    "In Progress": 4,
    "Ready Prod": 22,
    "Done": 24,
    "PR Created": 25,
    "Ready for Development": 2,
-   "On Hold": 3,
+   "On Hold": 2,
    "Closed": 13,
    "WAITING REVIEW": 2,
-   "Backlog": 2
+   "Backlog": 2,
+   "Will Not Implement": 1
   },
   "burn": [
    201.0,
@@ -450,15 +451,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 45,
-    "med_age": 18.1,
+    "open": 44,
+    "med_age": 18.7,
     "max_age": 19.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 722
+    "clear_n": 723
    },
    {
     "status": "Ready for Development",
@@ -474,7 +475,7 @@
    },
    {
     "status": "In Stage",
-    "open": 46,
+    "open": 47,
     "med_age": 5.2,
     "max_age": 10.9,
     "worst_key": "PLANS-24945",
@@ -494,7 +495,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 8,
     "clear_med": 0.0,
-    "clear_n": 798
+    "clear_n": 799
    },
    {
     "status": "WAITING REVIEW",
@@ -554,12 +555,12 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 761
+    "clear_n": 762
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 69
+   "Backlog": 69,
+   "On Hold": 24
   },
   "open_total": 165,
   "stale": 73,
