@@ -498,8 +498,8 @@
      "med": 13.45
     },
     "In Progress": {
-     "n": 18,
-     "med": 1.11
+     "n": 22,
+     "med": 2.41
     },
     "Done": {
      "n": 25,
@@ -559,9 +559,9 @@
     }
    },
    "dist": {
-    "To Do": 34,
+    "To Do": 30,
+    "In Progress": 9,
     "Done": 25,
-    "In Progress": 5,
     "Ready for Development": 3,
     "In Stage": 20,
     "In Development": 2,
