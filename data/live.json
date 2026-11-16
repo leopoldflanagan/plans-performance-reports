@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T12:43:34Z",
+ "generated": "2026-11-16T13:13:30Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -475,7 +475,7 @@
    {
     "status": "In Stage",
     "open": 46,
-    "med_age": 5.0,
+    "med_age": 5.1,
     "max_age": 10.8,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -488,7 +488,7 @@
     "status": "PR Created",
     "open": 36,
     "med_age": 4.3,
-    "max_age": 13.5,
+    "max_age": 13.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -499,7 +499,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 31.4,
+    "med_age": 31.5,
     "max_age": 38.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -507,30 +507,6 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    },
    {
     "status": "In QA",
@@ -555,6 +531,30 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 761
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
