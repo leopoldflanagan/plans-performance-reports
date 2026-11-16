@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T20:04:12Z",
+ "generated": "2026-11-16T20:32:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 11,
-   "points": 19
+   "items": 12,
+   "points": 22
   },
   "misfiled": {
    "items": 35,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 60,
-    "points": 116,
+    "n": 59,
+    "points": 114,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -55,18 +55,18 @@
   "day": 8,
   "days": 14,
   "n": 21,
-  "done_now": 144,
+  "done_now": 192,
   "committed": 237,
-  "lo": 217,
-  "mid": 257,
-  "hi": 403,
-  "pct": 108,
+  "lo": 289,
+  "mid": 343,
+  "hi": 538,
+  "pct": 145,
   "verdict": "on track for the commitment",
   "share_mid": 0.56
  },
  "admin": {
   "scope": {
-   "ready": 90,
+   "ready": 89,
    "sprint": 88,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 65,
+    "n": 64,
     "items": [
      {
       "key": "PLANS-25365",
@@ -174,7 +174,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 24,
+    "n": 20,
     "items": [
      {
       "key": "PLANS-25302",
@@ -230,7 +230,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 76,
+    "n": 75,
     "items": [
      {
       "key": "PLANS-25345",
@@ -268,20 +268,20 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 168 of 175 items. This reads as a field the team does not use rather than 168 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 168,
+    "why": "missing on 167 of 174 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 167,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 175 of 175 items. This reads as a field the team does not use rather than 175 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 175,
+    "why": "missing on 174 of 174 items. This reads as a field the team does not use rather than 174 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 174,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 27,
+    "n": 26,
     "items": [
      {
       "key": "PLANS-24273",
@@ -290,10 +290,6 @@
      {
       "key": "PLANS-22675",
       "summary": "Unify Font's in the Plans Widget Checkout Screen"
-     },
-     {
-      "key": "PLANS-21609",
-      "summary": "PMP/transaction details/Partially Refunded plan is displayed as Refunded in PMP"
      },
      {
       "key": "PLANS-14760",
@@ -314,6 +310,10 @@
      {
       "key": "PLANS-14558",
       "summary": "Handle One-Time Payment Option (Dev & QA)"
+     },
+     {
+      "key": "PLANS-14538",
+      "summary": "PM Hours Tracking  Marketplace - MVP - Monthly Payments inside Widget"
      }
     ]
    }
@@ -346,19 +346,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 149,
-  "items_done": 42,
+  "items_done": 54,
   "committed": 237,
   "final": 294,
-  "completed": 144,
+  "completed": 192,
   "scope_change": 24,
-  "vs_commitment": 61,
+  "vs_commitment": 81,
   "time_elapsed": 52,
   "spill": {
-   "open_items": 44,
-   "open_pts": 151.0,
-   "out_items": 0,
-   "out_pts": 0,
-   "done_pts": 138.0
+   "open_items": 30,
+   "open_pts": 97.0,
+   "out_items": 1,
+   "out_pts": 1.0,
+   "done_pts": 191.0
   },
   "recv": {
    "items": 14,
@@ -371,13 +371,14 @@
    "To Do": 31,
    "In Progress": 6,
    "Ready for Development": 3,
-   "In Stage": 33,
+   "In Stage": 20,
    "In Development": 2,
-   "Ready Prod": 28,
+   "Ready Prod": 41,
    "Done": 24,
    "On Hold": 2,
    "Closed": 13,
-   "PR Created": 2,
+   "PR Created": 1,
+   "In PreProd": 1,
    "WAITING REVIEW": 2,
    "Backlog": 2,
    "Will Not Implement": 1
@@ -391,7 +392,7 @@
    180.0,
    180.0,
    187.0,
-   150.0
+   102.0
   ],
   "scope": [
    204.0,
@@ -413,7 +414,7 @@
    180.0,
    180.0,
    187.0,
-   150.0
+   102.0
   ],
   "days": 14,
   "day": 8
@@ -431,8 +432,8 @@
   "end": "2026-11-22",
   "day": 22,
   "days": 28,
-  "closed": 427,
-  "points": 877,
+  "closed": 439,
+  "points": 925,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -476,15 +477,15 @@
    },
    {
     "status": "In Stage",
-    "open": 63,
-    "med_age": 3.0,
+    "open": 50,
+    "med_age": 3.9,
     "max_age": 11.1,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 5,
     "clear_med": 1.1,
-    "clear_n": 480
+    "clear_n": 495
    },
    {
     "status": "WAITING REVIEW",
@@ -500,15 +501,27 @@
    },
    {
     "status": "PR Created",
-    "open": 12,
-    "med_age": 5.0,
-    "max_age": 13.8,
+    "open": 10,
+    "med_age": 5.1,
+    "max_age": 13.9,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 827
+    "clear_n": 829
+   },
+   {
+    "status": "In PreProd",
+    "open": 2,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25241",
+    "worst_sum": "PMP - Plan Type Correction",
+    "worst_who": "Denys  Kernychnyi",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "PR Merged",
@@ -520,19 +533,7 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 790
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_n": 792
    },
    {
     "status": "In QA",
@@ -560,10 +561,10 @@
    }
   ],
   "parked": {
-   "On Hold": 23,
-   "Backlog": 72
+   "Backlog": 72,
+   "On Hold": 23
   },
-  "open_total": 153,
+  "open_total": 140,
   "stale": 65,
   "worst": "In Development"
  }
