@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T19:03:36Z",
+ "generated": "2026-11-16T19:32:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -368,11 +368,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 15,
+   "In Progress": 6,
+   "To Do": 13,
    "Ready for Development": 3,
    "In Stage": 39,
    "In Development": 2,
-   "In Progress": 4,
    "Ready Prod": 22,
    "Done": 24,
    "On Hold": 2,
@@ -390,6 +390,7 @@
    155.0,
    180.0,
    180.0,
+   187.0,
    187.0
   ],
   "scope": [
@@ -400,6 +401,7 @@
    262.0,
    287.0,
    287.0,
+   294.0,
    294.0
   ],
   "ghost": [
@@ -410,6 +412,7 @@
    155.0,
    180.0,
    180.0,
+   187.0,
    187.0
   ],
   "days": 14,
@@ -428,8 +431,8 @@
   "end": "2026-11-22",
   "day": 22,
   "days": 28,
-  "closed": 418,
-  "points": 830,
+  "closed": 421,
+  "points": 840,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -473,21 +476,21 @@
    },
    {
     "status": "In Stage",
-    "open": 72,
+    "open": 69,
     "med_age": 2.9,
-    "max_age": 11.0,
+    "max_age": 11.1,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 6,
+    "over": 5,
     "clear_med": 1.1,
-    "clear_n": 471
+    "clear_n": 474
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 31.7,
-    "max_age": 39.0,
+    "med_age": 31.8,
+    "max_age": 39.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -506,6 +509,30 @@
     "over": 2,
     "clear_med": 0.0,
     "clear_n": 827
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -530,38 +557,14 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 790
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 71,
+   "Backlog": 72,
    "On Hold": 23
   },
-  "open_total": 162,
-  "stale": 66,
+  "open_total": 159,
+  "stale": 65,
   "worst": "In Development"
  }
 }
