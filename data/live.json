@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T11:04:48Z",
+ "generated": "2026-11-16T11:35:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -74,7 +74,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 13,
+    "n": 12,
     "items": [
      {
       "key": "PLANS-25345",
@@ -213,15 +213,11 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 4,
+    "n": 3,
     "items": [
      {
       "key": "PLANS-25286",
       "summary": "SGDPADHA-Stage-Missing details for \"More benefits for you\" on Landing page"
-     },
-     {
-      "key": "PLANS-25274",
-      "summary": "Blocker-SGDP AHDA- Stage-Plans are missing"
      },
      {
       "key": "PLANS-23835",
@@ -362,14 +358,14 @@
   "items": 124,
   "items_done": 36,
   "committed": 237,
-  "final": 285,
+  "final": 287,
   "completed": 107,
-  "scope_change": 20,
+  "scope_change": 21,
   "vs_commitment": 45,
   "time_elapsed": 50,
   "spill": {
    "open_items": 47,
-   "open_pts": 181.0,
+   "open_pts": 183.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 99.0
@@ -386,8 +382,8 @@
    "To Do": 12,
    "In Progress": 4,
    "Ready Prod": 22,
-   "Backlog": 4,
-   "In Development": 3,
+   "Backlog": 3,
+   "In Development": 4,
    "Done": 24,
    "Ready for Development": 3,
    "PR Created": 24,
@@ -399,31 +395,31 @@
    201.0,
    209.0,
    205.0,
-   186.0,
-   153.0,
-   178.0,
-   178.0,
-   178.0
+   188.0,
+   155.0,
+   180.0,
+   180.0,
+   180.0
   ],
   "scope": [
    204.0,
    237.0,
    254.0,
-   260.0,
-   260.0,
-   285.0,
-   285.0,
-   285.0
+   262.0,
+   262.0,
+   287.0,
+   287.0,
+   287.0
   ],
   "ghost": [
    201.0,
    209.0,
    205.0,
-   186.0,
-   153.0,
-   178.0,
-   178.0,
-   178.0
+   188.0,
+   155.0,
+   180.0,
+   180.0,
+   180.0
   ],
   "days": 14,
   "day": 8
@@ -458,8 +454,8 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 43,
-    "med_age": 19.0,
+    "open": 44,
+    "med_age": 18.5,
     "max_age": 19.0,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -517,6 +513,18 @@
     "clear_n": 22
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -541,18 +549,6 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -566,10 +562,10 @@
    }
   ],
   "parked": {
-   "Backlog": 71,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 70
   },
-  "open_total": 163,
+  "open_total": 164,
   "stale": 72,
   "worst": "In Development"
  }
