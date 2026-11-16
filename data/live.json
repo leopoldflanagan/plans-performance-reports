@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T15:04:19Z",
+ "generated": "2026-11-16T15:38:48Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -475,7 +475,7 @@
    {
     "status": "In Stage",
     "open": 46,
-    "med_age": 5.1,
+    "med_age": 5.2,
     "max_age": 10.9,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -488,7 +488,7 @@
     "status": "PR Created",
     "open": 37,
     "med_age": 4.2,
-    "max_age": 13.6,
+    "max_age": 13.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -499,7 +499,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 31.5,
+    "med_age": 31.6,
     "max_age": 38.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -507,6 +507,18 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 69
    },
    {
     "status": "In PreProd",
@@ -543,18 +555,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 761
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
    }
   ],
   "parked": {
