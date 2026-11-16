@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T08:44:22Z",
+ "generated": "2026-11-16T09:06:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 66,
-    "points": 129,
+    "n": 65,
+    "points": 127,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 96,
+   "ready": 95,
    "sprint": 84,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,15 +124,11 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 71,
+    "n": 70,
     "items": [
      {
       "key": "PLANS-25345",
       "summary": "Member Portal \\ Savings contributions are not displayed when accessing the porta"
-     },
-     {
-      "key": "PLANS-25328",
-      "summary": "ADHA - Footer legal text does not match with configured CSP legal footer text (A"
      },
      {
       "key": "PLANS-25325",
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-25298",
       "summary": "[1.6.W3] CSP office list returns each office's override, effective integration v"
+     },
+     {
+      "key": "PLANS-25297",
+      "summary": "[1.5.W4] CSP office integration override can be set to Integrated or Non-Integra"
      }
     ]
    },
@@ -238,15 +238,11 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 78,
+    "n": 77,
     "items": [
      {
       "key": "PLANS-25345",
       "summary": "Member Portal \\ Savings contributions are not displayed when accessing the porta"
-     },
-     {
-      "key": "PLANS-25328",
-      "summary": "ADHA - Footer legal text does not match with configured CSP legal footer text (A"
      },
      {
       "key": "PLANS-25325",
@@ -271,19 +267,23 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
+     },
+     {
+      "key": "PLANS-24929",
+      "summary": "Member Portal \\ Payment method is missing from Transactions section after plan r"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 173 of 177 items. This reads as a field the team does not use rather than 173 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 173,
+    "why": "missing on 172 of 176 items. This reads as a field the team does not use rather than 172 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 172,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 177 of 177 items. This reads as a field the team does not use rather than 177 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 177,
+    "why": "missing on 176 of 176 items. This reads as a field the team does not use rather than 176 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 176,
     "items": []
    },
    {
@@ -458,7 +458,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 40,
+    "open": 41,
     "med_age": 18.9,
     "max_age": 18.9,
     "worst_key": "PLANS-24785",
@@ -470,7 +470,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 41,
+    "open": 40,
     "med_age": 16.6,
     "max_age": 51.8,
     "worst_key": "PLANS-23527",
@@ -478,7 +478,7 @@
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 277
+    "clear_n": 278
    },
    {
     "status": "In Stage",
@@ -517,18 +517,6 @@
     "clear_n": 22
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -563,11 +551,23 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 72,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 72
   },
   "open_total": 162,
   "stale": 72,
