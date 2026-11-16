@@ -179,12 +179,12 @@
    "Plans Pod 2-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   357,
+   358,
    38,
    272,
-   373,
+   375,
    136,
-   37,
+   38,
    [
     240.0,
     241.0,
@@ -193,7 +193,7 @@
     214.0,
     239.0,
     239.0,
-    235.0
+    237.0
    ],
    [
     265.0,
@@ -203,7 +203,7 @@
     343.0,
     368.0,
     368.0,
-    371.0
+    373.0
    ]
   ]
  ],
@@ -274,8 +274,8 @@
     133
    ],
    "open": [
-    141,
-    228
+    142,
+    230
    ],
    "out": [
     7,
@@ -307,7 +307,7 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "react": 0,
-   "plan": 39,
+   "plan": 40,
    "pct": 0
   }
  },
@@ -502,12 +502,12 @@
      "med": 2.0
     },
     "PR Merged": {
-     "n": 45,
+     "n": 69,
      "med": 0.0
     },
     "In Stage": {
-     "n": 41,
-     "med": 2.83
+     "n": 65,
+     "med": 6.51
     },
     "To Do": {
      "n": 24,
@@ -551,16 +551,16 @@
     }
    },
    "dist": {
-    "In Stage": 15,
+    "In Stage": 39,
     "To Do": 12,
     "In Development": 2,
     "In Progress": 4,
     "Ready Prod": 22,
     "Done": 24,
-    "PR Created": 25,
     "Ready for Development": 2,
     "On Hold": 2,
     "Closed": 13,
+    "PR Created": 1,
     "WAITING REVIEW": 2,
     "Backlog": 2,
     "Will Not Implement": 1
@@ -572,6 +572,10 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
+    "Ready for Development": {
+     "n": 30,
+     "med": 1.73
+    },
     "To Do": {
      "n": 150,
      "med": 13.43
@@ -583,10 +587,6 @@
     "Done": {
      "n": 46,
      "med": 11.5
-    },
-    "Ready for Development": {
-     "n": 29,
-     "med": 1.56
     },
     "Backlog": {
      "n": 91,
@@ -634,10 +634,10 @@
     }
    },
    "dist": {
+    "Ready for Development": 12,
     "To Do": 117,
     "Done": 44,
     "In Progress": 10,
-    "Ready for Development": 11,
     "Ready Prod": 32,
     "PR Created": 7,
     "Closed": 7,
@@ -648,10 +648,10 @@
     "Blocked": 1,
     "In Testing": 1
    },
-   "stalled": 318,
+   "stalled": 319,
    "worst": 13.43,
    "worstSt": "To Do",
-   "items": 357
+   "items": 358
   }
  },
  "GHOST": {
@@ -709,7 +709,7 @@
    214.0,
    239.0,
    239.0,
-   235.0
+   237.0
   ]
  },
  "CAP": {
