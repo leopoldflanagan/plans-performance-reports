@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T18:05:36Z",
+ "generated": "2026-11-16T18:33:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 9,
-   "points": 17
+   "items": 10,
+   "points": 18
   },
   "misfiled": {
    "items": 35,
@@ -428,8 +428,8 @@
   "end": "2026-11-22",
   "day": 22,
   "days": 28,
-  "closed": 414,
-  "points": 818,
+  "closed": 416,
+  "points": 824,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -473,15 +473,15 @@
    },
    {
     "status": "In Stage",
-    "open": 76,
+    "open": 74,
     "med_age": 2.9,
     "max_age": 11.0,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 7,
+    "over": 6,
     "clear_med": 1.1,
-    "clear_n": 468
+    "clear_n": 470
    },
    {
     "status": "WAITING REVIEW",
@@ -508,6 +508,18 @@
     "clear_n": 828
    },
    {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
+   },
+   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -518,18 +530,6 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 69
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    },
    {
     "status": "PR Merged",
@@ -544,7 +544,7 @@
     "clear_n": 791
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -552,16 +552,16 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
    "Backlog": 70,
    "On Hold": 23
   },
-  "open_total": 166,
-  "stale": 67,
+  "open_total": 164,
+  "stale": 66,
   "worst": "In Development"
  }
 }
