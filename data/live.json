@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T03:05:32Z",
+ "generated": "2026-11-16T03:37:13Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 65,
+    "n": 66,
     "points": 127,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 95,
+   "ready": 96,
    "sprint": 84,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,11 +74,15 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 14,
+    "n": 15,
     "items": [
      {
       "key": "PLANS-25345",
       "summary": "Member Portal \\ Savings contributions are not displayed when accessing the porta"
+     },
+     {
+      "key": "PLANS-25328",
+      "summary": "ADHA - Footer legal text does not match with configured CSP legal footer text (A"
      },
      {
       "key": "PLANS-25325",
@@ -103,10 +107,6 @@
      {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
-     },
-     {
-      "key": "PLANS-14758",
-      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
      }
     ]
    },
@@ -124,11 +124,15 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 70,
+    "n": 71,
     "items": [
      {
       "key": "PLANS-25345",
       "summary": "Member Portal \\ Savings contributions are not displayed when accessing the porta"
+     },
+     {
+      "key": "PLANS-25328",
+      "summary": "ADHA - Footer legal text does not match with configured CSP legal footer text (A"
      },
      {
       "key": "PLANS-25325",
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-25298",
       "summary": "[1.6.W3] CSP office list returns each office's override, effective integration v"
-     },
-     {
-      "key": "PLANS-25297",
-      "summary": "[1.5.W4] CSP office integration override can be set to Integrated or Non-Integra"
      }
     ]
    },
@@ -250,11 +250,15 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 77,
+    "n": 78,
     "items": [
      {
       "key": "PLANS-25345",
       "summary": "Member Portal \\ Savings contributions are not displayed when accessing the porta"
+     },
+     {
+      "key": "PLANS-25328",
+      "summary": "ADHA - Footer legal text does not match with configured CSP legal footer text (A"
      },
      {
       "key": "PLANS-25325",
@@ -279,23 +283,19 @@
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
-     },
-     {
-      "key": "PLANS-24929",
-      "summary": "Member Portal \\ Payment method is missing from Transactions section after plan r"
      }
     ]
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 172 of 176 items. This reads as a field the team does not use rather than 172 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 172,
+    "why": "missing on 173 of 177 items. This reads as a field the team does not use rather than 173 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 173,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 176 of 176 items. This reads as a field the team does not use rather than 176 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 176,
+    "why": "missing on 177 of 177 items. This reads as a field the team does not use rather than 177 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 177,
     "items": []
    },
    {
@@ -482,7 +482,7 @@
    },
    {
     "status": "Ready for Development",
-    "open": 40,
+    "open": 41,
     "med_age": 16.4,
     "max_age": 51.6,
     "worst_key": "PLANS-23527",
@@ -495,7 +495,7 @@
    {
     "status": "In Stage",
     "open": 44,
-    "med_age": 4.9,
+    "med_age": 5.0,
     "max_age": 10.4,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -508,7 +508,7 @@
     "status": "PR Created",
     "open": 35,
     "med_age": 4.2,
-    "max_age": 13.1,
+    "max_age": 13.2,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -519,7 +519,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 31.0,
+    "med_age": 31.1,
     "max_age": 38.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -527,6 +527,18 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "PR Merged",
@@ -541,18 +553,6 @@
     "clear_n": 759
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -565,7 +565,7 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -573,15 +573,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 1.6,
+    "clear_n": 69
    }
   ],
   "parked": {
    "On Hold": 24,
-   "Backlog": 74
+   "Backlog": 73
   },
-  "open_total": 160,
+  "open_total": 161,
   "stale": 72,
   "worst": "In Development"
  }
