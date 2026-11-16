@@ -148,10 +148,10 @@
    "Plans Pod 1-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   125,
+   126,
    36,
    237,
-   288,
+   289,
    107,
    22,
    [
@@ -162,7 +162,7 @@
     155.0,
     180.0,
     180.0,
-    181.0
+    182.0
    ],
    [
     204.0,
@@ -172,7 +172,7 @@
     262.0,
     287.0,
     287.0,
-    288.0
+    289.0
    ]
   ],
   [
@@ -254,8 +254,8 @@
     99
    ],
    "open": [
-    48,
-    184
+    49,
+    185
    ],
    "out": [
     0,
@@ -274,12 +274,12 @@
     126
    ],
    "open": [
-    144,
-    236
+    143,
+    235
    ],
    "out": [
-    6,
-    11
+    7,
+    12
    ],
    "in": [
     2,
@@ -302,7 +302,7 @@
   },
   "Plans Pod 1-Sprint 26-26": {
    "react": 0,
-   "plan": 21,
+   "plan": 22,
    "pct": 0
   },
   "Plans Pod 2-Sprint 26-26": {
@@ -493,8 +493,8 @@
      "med": 0.61
     },
     "In Development": {
-     "n": 53,
-     "med": 0.16
+     "n": 54,
+     "med": 0.17
     },
     "PR Created": {
      "n": 65,
@@ -548,9 +548,9 @@
    "dist": {
     "In Stage": 10,
     "To Do": 12,
+    "In Development": 8,
     "In Progress": 4,
     "Ready Prod": 22,
-    "In Development": 7,
     "Done": 24,
     "PR Created": 24,
     "Ready for Development": 2,
@@ -559,10 +559,10 @@
     "WAITING REVIEW": 2,
     "Backlog": 2
    },
-   "stalled": 90,
+   "stalled": 91,
    "worst": 13.45,
    "worstSt": "WAITING REVIEW",
-   "items": 125
+   "items": 126
   },
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
@@ -582,10 +582,6 @@
      "n": 29,
      "med": 1.56
     },
-    "In Development": {
-     "n": 39,
-     "med": 0.21
-    },
     "Backlog": {
      "n": 91,
      "med": 13.43
@@ -597,6 +593,10 @@
     "Ready Prod": {
      "n": 31,
      "med": 10.52
+    },
+    "In Development": {
+     "n": 39,
+     "med": 0.21
     },
     "PR Created": {
      "n": 75,
@@ -631,7 +631,6 @@
     "To Do": 118,
     "Done": 43,
     "In Progress": 10,
-    "In Development": 5,
     "Ready for Development": 11,
     "Ready Prod": 30,
     "PR Created": 6,
@@ -640,7 +639,8 @@
     "On Hold": 8,
     "Backlog": 81,
     "Blocked": 1,
-    "In Testing": 1
+    "In Testing": 1,
+    "In Development": 5
    },
    "stalled": 320,
    "worst": 13.43,
@@ -693,7 +693,7 @@
    155.0,
    180.0,
    180.0,
-   181.0
+   182.0
   ],
   "Plans Pod 2-Sprint 26-26": [
    240.0,
