@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T12:08:08Z",
+ "generated": "2026-11-16T12:43:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -213,12 +213,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 3,
+    "n": 2,
     "items": [
-     {
-      "key": "PLANS-25286",
-      "summary": "SGDPADHA-Stage-Missing details for \"More benefits for you\" on Landing page"
-     },
      {
       "key": "PLANS-23835",
       "summary": "Duplicate External ID for a member"
@@ -382,14 +378,14 @@
    "To Do": 12,
    "In Progress": 4,
    "Ready Prod": 22,
-   "Backlog": 3,
-   "In Development": 5,
+   "In Development": 6,
    "Done": 24,
    "PR Created": 24,
    "Ready for Development": 2,
    "On Hold": 3,
    "Closed": 13,
-   "WAITING REVIEW": 2
+   "WAITING REVIEW": 2,
+   "Backlog": 2
   },
   "burn": [
    201.0,
@@ -454,9 +450,9 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 45,
+    "open": 46,
     "med_age": 18.0,
-    "max_age": 19.0,
+    "max_age": 19.1,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -467,8 +463,8 @@
    {
     "status": "Ready for Development",
     "open": 35,
-    "med_age": 18.7,
-    "max_age": 51.9,
+    "med_age": 18.8,
+    "max_age": 52.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -513,6 +509,18 @@
     "clear_n": 22
    },
    {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
+   },
+   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -523,18 +531,6 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 761
    },
    {
     "status": "In QA",
@@ -549,7 +545,7 @@
     "clear_n": 69
    },
    {
-    "status": "Ready for Stage",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -557,15 +553,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.0,
+    "clear_n": 761
    }
   ],
   "parked": {
-   "Backlog": 70,
+   "Backlog": 69,
    "On Hold": 24
   },
-  "open_total": 164,
+  "open_total": 165,
   "stale": 72,
   "worst": "In Development"
  }
