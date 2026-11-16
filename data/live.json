@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T23:32:34Z",
+ "generated": "2026-11-16T00:12:34Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 7,
+  "day": 8,
   "days": 14,
   "n": 21,
   "done_now": 107,
   "committed": 237,
-  "lo": 180,
-  "mid": 241,
-  "hi": 386,
-  "pct": 102,
-  "verdict": "on track for the commitment",
-  "share_mid": 0.443
+  "lo": 161,
+  "mid": 191,
+  "hi": 300,
+  "pct": 81,
+  "verdict": "a little short of the commitment",
+  "share_mid": 0.56
  },
  "admin": {
   "scope": {
@@ -340,6 +340,12 @@
   ],
   "setup": [
    {
+    "rule": "The next sprint has not been created",
+    "why": "Plans Pod 1-Sprint 26-26 ends in 7 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "n": 1,
+    "items": []
+   },
+   {
     "rule": "Release 9.06 has two different windows on the schedule",
     "why": "the feature-freeze column gives 2026-06-22 to 2026-07-26 and the dev-window column gives 2026-06-22 to 2026-08-02. The calendar keeps what it already had; the page needs one of the two corrected.",
     "n": 1,
@@ -432,7 +438,7 @@
    177.0
   ],
   "days": 14,
-  "day": 7
+  "day": 8
  },
  "next": null,
  "month": {
@@ -441,7 +447,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 21,
+  "day": 22,
   "days": 28,
   "closed": 412,
   "points": 811,
@@ -477,7 +483,7 @@
    {
     "status": "Ready for Development",
     "open": 40,
-    "med_age": 16.2,
+    "med_age": 16.3,
     "max_age": 51.4,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -490,7 +496,7 @@
     "status": "In Stage",
     "open": 44,
     "med_age": 4.8,
-    "max_age": 10.2,
+    "max_age": 10.3,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -514,37 +520,13 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 30.9,
-    "max_age": 38.2,
+    "max_age": 38.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 759
    },
    {
     "status": "In QA",
@@ -569,6 +551,30 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 759
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
