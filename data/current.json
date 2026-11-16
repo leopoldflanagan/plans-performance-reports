@@ -395,8 +395,9 @@
     "In Progress": 6,
     "In Stage": 12,
     "PR Created": 3,
-    "On Hold": 8,
+    "On Hold": 7,
     "Backlog": 81,
+    "In Development": 1,
     "Ready for Development": 10,
     "Blocked": 1,
     "Will Not Implement": 11
@@ -600,7 +601,7 @@
      "med": 10.52
     },
     "In Development": {
-     "n": 39,
+     "n": 40,
      "med": 0.21
     },
     "PR Created": {
@@ -641,11 +642,11 @@
     "PR Created": 7,
     "Closed": 7,
     "In Stage": 36,
-    "On Hold": 8,
+    "On Hold": 7,
     "Backlog": 81,
+    "In Development": 5,
     "Blocked": 1,
-    "In Testing": 1,
-    "In Development": 4
+    "In Testing": 1
    },
    "stalled": 320,
    "worst": 13.43,
