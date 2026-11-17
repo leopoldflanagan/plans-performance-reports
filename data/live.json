@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T04:05:00Z",
+ "generated": "2026-11-17T04:33:03Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 40,
-   "points": 164
+   "items": 39,
+   "points": 159
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 40,
-    "points": 164,
+    "n": 39,
+    "points": 159,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -511,7 +511,7 @@
     "clear_n": 827
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -519,20 +519,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "PR Merged",
@@ -547,7 +535,7 @@
     "clear_n": 790
    },
    {
-    "status": "Ready for Stage",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -555,13 +543,25 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 1.6,
+    "clear_n": 69
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 68,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 69
   },
   "open_total": 137,
   "stale": 65,
