@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T19:32:57Z",
+ "generated": "2026-11-17T20:03:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -361,7 +361,7 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 160,
+  "items": 161,
   "items_done": 57,
   "committed": 237,
   "final": 304,
@@ -384,6 +384,7 @@
   },
   "spill_rate": null,
   "dist": {
+   "Ready for Development": 3,
    "Backlog": 6,
    "PR Merged": 2,
    "To Do": 23,
@@ -392,7 +393,6 @@
    "PR Created": 2,
    "In Stage": 19,
    "Ready Prod": 44,
-   "Ready for Development": 2,
    "On Hold": 2,
    "In Development": 1,
    "Closed": 13,
@@ -473,8 +473,8 @@
    {
     "status": "In Development",
     "open": 44,
-    "med_age": 19.8,
-    "max_age": 20.3,
+    "med_age": 19.9,
+    "max_age": 20.4,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -486,11 +486,11 @@
     "status": "Ready for Development",
     "open": 33,
     "med_age": 20.9,
-    "max_age": 53.2,
+    "max_age": 53.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 26,
+    "over": 27,
     "clear_med": 0.8,
     "clear_n": 292
    },
@@ -543,7 +543,7 @@
     "clear_n": 786
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -551,8 +551,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 60
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -567,7 +567,7 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -575,8 +575,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 1.8,
+    "clear_n": 60
    }
   ],
   "parked": {
@@ -584,7 +584,7 @@
    "On Hold": 27
   },
   "open_total": 136,
-  "stale": 72,
+  "stale": 73,
   "worst": "In Development"
  }
 }
