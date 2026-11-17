@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T00:10:30Z",
+ "generated": "2026-11-17T00:46:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 37,
-   "points": 154
+   "items": 38,
+   "points": 157
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 37,
-    "points": 154,
+    "n": 38,
+    "points": 157,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -431,8 +431,8 @@
   "end": "2026-11-22",
   "day": 23,
   "days": 28,
-  "closed": 444,
-  "points": 933,
+  "closed": 445,
+  "points": 934,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -453,26 +453,26 @@
    {
     "status": "In Development",
     "open": 40,
-    "med_age": 19.5,
-    "max_age": 19.5,
+    "med_age": 19.6,
+    "max_age": 19.6,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 726
+    "clear_n": 725
    },
    {
     "status": "Ready for Development",
     "open": 37,
     "med_age": 18.3,
-    "max_age": 52.4,
+    "max_age": 52.5,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 281
+    "clear_n": 280
    },
    {
     "status": "In Stage",
@@ -484,7 +484,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 5,
     "clear_med": 1.1,
-    "clear_n": 497
+    "clear_n": 496
    },
    {
     "status": "WAITING REVIEW",
@@ -508,19 +508,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 828
-   },
-   {
-    "status": "In PreProd",
-    "open": 1,
-    "med_age": 0.2,
-    "max_age": 0.2,
-    "worst_key": "PLANS-25241",
-    "worst_sum": "PMP - Plan Type Correction",
-    "worst_who": "Denys  Kernychnyi",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_n": 827
    },
    {
     "status": "Ready for Stage",
@@ -535,6 +523,30 @@
     "clear_n": 2
    },
    {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 790
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -545,25 +557,13 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 69
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 791
    }
   ],
   "parked": {
-   "Backlog": 72,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 71
   },
-  "open_total": 137,
+  "open_total": 136,
   "stale": 65,
   "worst": "In Development"
  }
