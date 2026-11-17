@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T18:05:40Z",
+ "generated": "2026-11-17T18:32:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 36,
-   "points": 151
+   "items": 37,
+   "points": 154
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 36,
-    "points": 151,
+    "n": 37,
+    "points": 154,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -448,8 +448,8 @@
   "end": "2026-11-22",
   "day": 23,
   "days": 28,
-  "closed": 453,
-  "points": 953,
+  "closed": 454,
+  "points": 954,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -493,15 +493,15 @@
    },
    {
     "status": "In Stage",
-    "open": 45,
-    "med_age": 4.1,
+    "open": 44,
+    "med_age": 4.6,
     "max_age": 12.0,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 11,
     "clear_med": 1.1,
-    "clear_n": 496
+    "clear_n": 497
    },
    {
     "status": "PR Created",
@@ -528,6 +528,18 @@
     "clear_n": 22
    },
    {
+    "status": "PR Merged",
+    "open": 2,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-24552",
+    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
+    "worst_who": "Petro Yarish",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 788
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -538,18 +550,6 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    },
    {
     "status": "In QA",
@@ -564,23 +564,23 @@
     "clear_n": 62
    },
    {
-    "status": "PR Merged",
-    "open": 2,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25408",
-    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
-    "worst_who": "Ivan Yarymovych",
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 788
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "On Hold": 27,
-   "Backlog": 71
+   "Backlog": 71,
+   "On Hold": 27
   },
-  "open_total": 136,
+  "open_total": 135,
   "stale": 72,
   "worst": "In Development"
  }
