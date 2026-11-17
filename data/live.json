@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T09:04:36Z",
+ "generated": "2026-11-17T09:32:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 60,
-    "points": 116,
+    "n": 59,
+    "points": 114,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 90,
+   "ready": 89,
    "sprint": 89,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 65,
+    "n": 64,
     "items": [
      {
       "key": "PLANS-25402",
@@ -268,14 +268,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 169 of 176 items. This reads as a field the team does not use rather than 169 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 169,
+    "why": "missing on 168 of 175 items. This reads as a field the team does not use rather than 168 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 168,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 176 of 176 items. This reads as a field the team does not use rather than 176 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 176,
+    "why": "missing on 175 of 175 items. This reads as a field the team does not use rather than 175 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 175,
     "items": []
    },
    {
@@ -477,8 +477,8 @@
    {
     "status": "In Stage",
     "open": 46,
-    "med_age": 4.3,
-    "max_age": 11.6,
+    "med_age": 4.4,
+    "max_age": 11.7,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -523,6 +523,18 @@
     "clear_n": 2
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -545,18 +557,6 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 69
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
