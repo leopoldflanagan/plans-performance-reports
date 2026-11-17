@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T21:04:00Z",
+ "generated": "2026-11-17T21:32:49Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -387,8 +387,8 @@
    "Ready for Development": 3,
    "Backlog": 6,
    "PR Merged": 2,
-   "To Do": 23,
-   "In Progress": 11,
+   "To Do": 20,
+   "In Progress": 14,
    "Done": 30,
    "PR Created": 2,
    "In Stage": 19,
@@ -498,7 +498,7 @@
     "status": "In Stage",
     "open": 43,
     "med_age": 4.2,
-    "max_age": 12.1,
+    "max_age": 12.2,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -535,9 +535,9 @@
     "open": 2,
     "med_age": 0.2,
     "max_age": 0.2,
-    "worst_key": "PLANS-24552",
-    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25408",
+    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 786
@@ -555,18 +555,6 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -577,11 +565,23 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 60
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "On Hold": 27,
-   "Backlog": 71
+   "Backlog": 71,
+   "On Hold": 27
   },
   "open_total": 136,
   "stale": 73,
