@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T22:32:44Z",
+ "generated": "2026-11-17T23:04:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -388,8 +388,8 @@
    "Backlog": 6,
    "PR Merged": 2,
    "To Do": 20,
-   "In Progress": 14,
-   "Done": 30,
+   "In Progress": 13,
+   "Done": 31,
    "PR Created": 2,
    "In Stage": 19,
    "Ready Prod": 44,
@@ -485,7 +485,7 @@
    {
     "status": "Ready for Development",
     "open": 33,
-    "med_age": 21.0,
+    "med_age": 21.1,
     "max_age": 53.4,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -497,7 +497,7 @@
    {
     "status": "In Stage",
     "open": 43,
-    "med_age": 4.2,
+    "med_age": 4.3,
     "max_age": 12.2,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -509,8 +509,8 @@
    {
     "status": "PR Created",
     "open": 12,
-    "med_age": 6.0,
-    "max_age": 14.9,
+    "med_age": 6.1,
+    "max_age": 15.0,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
