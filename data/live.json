@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T12:35:06Z",
+ "generated": "2026-11-17T13:04:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 38,
-   "points": 157
+   "items": 37,
+   "points": 154
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 38,
-    "points": 157,
+    "n": 37,
+    "points": 154,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -352,7 +352,7 @@
   "completed": 198,
   "scope_change": 26,
   "vs_commitment": 84,
-  "time_elapsed": 57,
+  "time_elapsed": 58,
   "spill": {
    "open_items": 31,
    "open_pts": 97.0,
@@ -454,13 +454,13 @@
     "status": "In Development",
     "open": 47,
     "med_age": 19.0,
-    "max_age": 20.0,
+    "max_age": 20.1,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 725
+    "clear_n": 723
    },
    {
     "status": "Ready for Development",
@@ -484,7 +484,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 5,
     "clear_med": 1.1,
-    "clear_n": 497
+    "clear_n": 495
    },
    {
     "status": "WAITING REVIEW",
@@ -508,10 +508,10 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 828
+    "clear_n": 826
    },
    {
-    "status": "In QA",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -519,8 +519,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.7,
-    "clear_n": 68
+    "clear_med": 0.0,
+    "clear_n": 789
    },
    {
     "status": "Ready for Stage",
@@ -535,18 +535,6 @@
     "clear_n": 2
    },
    {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 791
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -557,11 +545,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 66
    }
   ],
   "parked": {
-   "On Hold": 24,
-   "Backlog": 67
+   "Backlog": 69,
+   "On Hold": 24
   },
   "open_total": 140,
   "stale": 65,
