@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T14:32:29Z",
+ "generated": "2026-11-17T15:04:43Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 55,
-    "points": 109,
+    "n": 54,
+    "points": 107,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,15 +66,15 @@
  },
  "admin": {
   "scope": {
-   "ready": 85,
-   "sprint": 90,
+   "ready": 84,
+   "sprint": 93,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 9,
+    "n": 11,
     "items": [
      {
       "key": "PLANS-24942",
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 60,
+    "n": 59,
     "items": [
      {
       "key": "PLANS-25365",
@@ -174,7 +174,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 20,
+    "n": 22,
     "items": [
      {
       "key": "PLANS-25302",
@@ -201,20 +201,28 @@
       "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
      },
      {
-      "key": "PLANS-25408",
-      "summary": "Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" afte"
+      "key": "PLANS-25412",
+      "summary": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, be"
      },
      {
-      "key": "PLANS-25338",
-      "summary": "[2.5] QA: Production go-live check and first agent-org onboarding"
+      "key": "PLANS-25409",
+      "summary": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Featur"
      }
     ]
    },
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 2,
+    "n": 4,
     "items": [
+     {
+      "key": "PLANS-25412",
+      "summary": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, be"
+     },
+     {
+      "key": "PLANS-25409",
+      "summary": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Featur"
+     },
      {
       "key": "PLANS-23835",
       "summary": "Duplicate External ID for a member"
@@ -230,7 +238,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 72,
+    "n": 73,
     "items": [
      {
       "key": "PLANS-25345",
@@ -268,52 +276,52 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 165 of 172 items. This reads as a field the team does not use rather than 165 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 165,
+    "why": "missing on 167 of 174 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 167,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 172 of 172 items. This reads as a field the team does not use rather than 172 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 172,
+    "why": "missing on 174 of 174 items. This reads as a field the team does not use rather than 174 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 174,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 28,
+    "n": 34,
     "items": [
+     {
+      "key": "PLANS-24478",
+      "summary": "Production - Healthy Smiles Lakeway - Incorrect Add'tl Member Price - CONFIG ISS"
+     },
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
+     },
+     {
+      "key": "PLANS-23564",
+      "summary": "ACH Refund - Refund Receipt Opens Blank Page for ~20 Seconds Before Loading in m"
+     },
+     {
+      "key": "PLANS-23527",
+      "summary": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error"
      },
      {
       "key": "PLANS-22891",
       "summary": "One smile / Essential Smile / Smile Health -Broken - UI - ZIP Code field alignme"
      },
      {
+      "key": "PLANS-21044",
+      "summary": "PMP -Restriction affecting the remaining Smile WA plan even though the restricti"
+     },
+     {
       "key": "PLANS-21015",
       "summary": "Retest/Member Portal/Benefit Status for used benefits is not displayed in Benefi"
      },
      {
-      "key": "PLANS-20838",
-      "summary": "CSP - Renewal Restriction Banner Not Visible and Restriction Value Lost When Con"
-     },
-     {
-      "key": "PLANS-14760",
-      "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
-     },
-     {
-      "key": "PLANS-14758",
-      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
-     },
-     {
-      "key": "PLANS-14582",
-      "summary": "Update UI for CSP"
-     },
-     {
-      "key": "PLANS-14568",
-      "summary": "Integrating plans API into CSP (Dev Only)"
+      "key": "PLANS-20970",
+      "summary": "Member portal - Restricion reason is not visible in Resriction dialog box"
      }
     ]
    }
@@ -345,17 +353,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 154,
+  "items": 157,
   "items_done": 56,
   "committed": 237,
-  "final": 299,
+  "final": 302,
   "completed": 198,
-  "scope_change": 26,
+  "scope_change": 27,
   "vs_commitment": 84,
   "time_elapsed": 58,
   "spill": {
-   "open_items": 31,
-   "open_pts": 97.0,
+   "open_items": 34,
+   "open_pts": 100.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 197.0
@@ -368,7 +376,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 3,
+   "Backlog": 4,
+   "In Development": 4,
    "To Do": 24,
    "In Progress": 11,
    "Done": 29,
@@ -379,7 +388,6 @@
    "Closed": 13,
    "PR Created": 1,
    "WAITING REVIEW": 2,
-   "Backlog": 2,
    "Will Not Implement": 1
   },
   "burn": [
@@ -391,7 +399,7 @@
    180.0,
    180.0,
    187.0,
-   101.0
+   104.0
   ],
   "scope": [
    204.0,
@@ -402,7 +410,7 @@
    287.0,
    287.0,
    294.0,
-   299.0
+   302.0
   ],
   "ghost": [
    201.0,
@@ -413,7 +421,7 @@
    180.0,
    180.0,
    187.0,
-   101.0
+   104.0
   ],
   "days": 14,
   "day": 9
@@ -452,27 +460,27 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 47,
+    "open": 46,
     "med_age": 19.1,
-    "max_age": 20.1,
+    "max_age": 20.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 721
+    "clear_n": 722
    },
    {
     "status": "Ready for Development",
-    "open": 35,
-    "med_age": 19.8,
-    "max_age": 53.0,
+    "open": 34,
+    "med_age": 20.3,
+    "max_age": 53.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 26,
+    "over": 25,
     "clear_med": 0.8,
-    "clear_n": 284
+    "clear_n": 285
    },
    {
     "status": "In Stage",
@@ -482,7 +490,7 @@
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 7,
+    "over": 8,
     "clear_med": 1.1,
     "clear_n": 492
    },
@@ -511,18 +519,6 @@
     "clear_n": 824
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 63
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -535,18 +531,6 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -557,13 +541,37 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 787
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 63
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 71,
-   "On Hold": 24
+   "On Hold": 27,
+   "Backlog": 70
   },
-  "open_total": 143,
+  "open_total": 141,
   "stale": 68,
   "worst": "In Development"
  }
