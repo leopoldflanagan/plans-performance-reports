@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T13:04:33Z",
+ "generated": "2026-11-17T13:32:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 37,
-   "points": 154
+   "items": 35,
+   "points": 146
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 37,
-    "points": 154,
+    "n": 35,
+    "points": 146,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -452,7 +452,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 47,
+    "open": 46,
     "med_age": 19.0,
     "max_age": 20.1,
     "worst_key": "PLANS-24785",
@@ -460,7 +460,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 723
+    "clear_n": 721
    },
    {
     "status": "Ready for Development",
@@ -484,7 +484,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 5,
     "clear_med": 1.1,
-    "clear_n": 495
+    "clear_n": 493
    },
    {
     "status": "WAITING REVIEW",
@@ -500,15 +500,27 @@
    },
    {
     "status": "PR Created",
-    "open": 9,
+    "open": 10,
     "med_age": 5.8,
-    "max_age": 14.5,
+    "max_age": 14.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 2,
+    "over": 3,
     "clear_med": 0.0,
-    "clear_n": 826
+    "clear_n": 824
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 65
    },
    {
     "status": "PR Merged",
@@ -520,19 +532,7 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 789
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 787
    },
    {
     "status": "In PreProd",
@@ -547,7 +547,7 @@
     "clear_n": 24
    },
    {
-    "status": "In QA",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -555,16 +555,16 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 66
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 69,
+   "Backlog": 72,
    "On Hold": 24
   },
   "open_total": 140,
-  "stale": 65,
+  "stale": 66,
   "worst": "In Development"
  }
 }
