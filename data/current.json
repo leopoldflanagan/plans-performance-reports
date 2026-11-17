@@ -597,8 +597,8 @@
      "med": 0.21
     },
     "In Stage": {
-     "n": 87,
-     "med": 4.11
+     "n": 88,
+     "med": 4.33
     },
     "Ready Prod": {
      "n": 45,
@@ -654,16 +654,16 @@
     "In Development": 5,
     "To Do": 118,
     "Ready Prod": 44,
-    "In Stage": 34,
+    "In Stage": 35,
     "Done": 51,
     "Ready for Development": 9,
-    "PR Merged": 5,
     "Closed": 7,
     "PR Created": 6,
     "On Hold": 9,
     "Backlog": 81,
     "Blocked": 1,
-    "In Testing": 1
+    "In Testing": 1,
+    "PR Merged": 4
    },
    "stalled": 333,
    "worst": 13.43,
