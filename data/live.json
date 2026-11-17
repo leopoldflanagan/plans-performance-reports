@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T03:32:34Z",
+ "generated": "2026-11-17T04:05:00Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -501,7 +501,7 @@
    {
     "status": "PR Created",
     "open": 10,
-    "med_age": 5.3,
+    "med_age": 5.4,
     "max_age": 14.2,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -509,18 +509,6 @@
     "over": 2,
     "clear_med": 0.0,
     "clear_n": 827
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 790
    },
    {
     "status": "In PreProd",
@@ -545,6 +533,18 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 69
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 790
    },
    {
     "status": "Ready for Stage",
