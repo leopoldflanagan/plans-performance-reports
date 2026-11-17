@@ -617,8 +617,8 @@
      "med": 0.11
     },
     "PR Merged": {
-     "n": 76,
-     "med": 0.06
+     "n": 77,
+     "med": 0.07
     },
     "Closed": {
      "n": 7,
@@ -656,8 +656,9 @@
     "Done": 50,
     "Ready for Development": 11,
     "Ready Prod": 43,
-    "PR Created": 7,
+    "PR Created": 6,
     "Closed": 7,
+    "PR Merged": 1,
     "On Hold": 8,
     "Backlog": 81,
     "In Development": 4,

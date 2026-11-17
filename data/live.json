@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T09:32:55Z",
+ "generated": "2026-11-17T10:04:24Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,7 +32,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 59,
+    "n": 58,
     "points": 114,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 89,
+   "ready": 88,
    "sprint": 89,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -74,12 +74,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 10,
+    "n": 9,
     "items": [
-     {
-      "key": "PLANS-25402",
-      "summary": "PDS Team Plan Claim - Processed Odd"
-     },
      {
       "key": "PLANS-24942",
       "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
@@ -107,6 +103,10 @@
      {
       "key": "PLANS-11252",
       "summary": "blocked DYN 280 >PATERSON > Crosby Discount 3+ Individuals > Dependent turning 1"
+     },
+     {
+      "key": "PLANS-11249",
+      "summary": "Blocked DYN 265 > WFPLNS > Discount Plan 2 Individuals> CRM email child turning "
      }
     ]
    },
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 64,
+    "n": 63,
     "items": [
-     {
-      "key": "PLANS-25402",
-      "summary": "PDS Team Plan Claim - Processed Odd"
-     },
      {
       "key": "PLANS-25365",
       "summary": "Member Portal \\ Find a Provider shows practices from other organizations"
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-25236",
       "summary": "Production issue on the Auto retry for failed claims"
+     },
+     {
+      "key": "PLANS-25063",
+      "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
      }
     ]
    },
@@ -268,14 +268,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 168 of 175 items. This reads as a field the team does not use rather than 168 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 168,
+    "why": "missing on 167 of 174 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 167,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 175 of 175 items. This reads as a field the team does not use rather than 175 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 175,
+    "why": "missing on 174 of 174 items. This reads as a field the team does not use rather than 174 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 174,
     "items": []
    },
    {
@@ -352,7 +352,7 @@
   "completed": 198,
   "scope_change": 25,
   "vs_commitment": 84,
-  "time_elapsed": 56,
+  "time_elapsed": 57,
   "spill": {
    "open_items": 30,
    "open_pts": 95.0,
@@ -452,8 +452,8 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 43,
-    "med_age": 19.9,
+    "open": 44,
+    "med_age": 19.4,
     "max_age": 19.9,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -464,15 +464,15 @@
    },
    {
     "status": "Ready for Development",
-    "open": 36,
-    "med_age": 19.1,
-    "max_age": 52.8,
+    "open": 35,
+    "med_age": 19.7,
+    "max_age": 52.9,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 282
+    "clear_n": 283
    },
    {
     "status": "In Stage",
@@ -489,8 +489,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 32.3,
-    "max_age": 39.6,
+    "med_age": 32.4,
+    "max_age": 39.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -509,6 +509,18 @@
     "over": 2,
     "clear_med": 0.0,
     "clear_n": 828
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.6,
+    "clear_n": 69
    },
    {
     "status": "Ready for Stage",
@@ -545,18 +557,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 791
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
    }
   ],
   "parked": {
