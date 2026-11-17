@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T10:32:59Z",
+ "generated": "2026-11-17T11:03:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 40,
-   "points": 164
+   "items": 39,
+   "points": 159
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,14 +26,14 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 40,
-    "points": 164,
+    "n": 39,
+    "points": 159,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 58,
-    "points": 114,
+    "n": 55,
+    "points": 109,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 88,
+   "ready": 85,
    "sprint": 89,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 63,
+    "n": 60,
     "items": [
      {
       "key": "PLANS-25365",
@@ -230,7 +230,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 74,
+    "n": 72,
     "items": [
      {
       "key": "PLANS-25345",
@@ -268,40 +268,28 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 167 of 174 items. This reads as a field the team does not use rather than 167 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 167,
+    "why": "missing on 164 of 171 items. This reads as a field the team does not use rather than 164 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 164,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 174 of 174 items. This reads as a field the team does not use rather than 174 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 174,
+    "why": "missing on 171 of 171 items. This reads as a field the team does not use rather than 171 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 171,
     "items": []
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 31,
+    "n": 28,
     "items": [
      {
       "key": "PLANS-24273",
       "summary": "Prod/Plan Details PDF/Provider Link is not clickable"
      },
      {
-      "key": "PLANS-22904",
-      "summary": "Smile Health  - \"Total Due\" Amount Displayed Within Card Information Section"
-     },
-     {
-      "key": "PLANS-22892",
-      "summary": "Smile Health/ all custom portals -  Inconsistent Font Sizes/Styles/ link colors "
-     },
-     {
       "key": "PLANS-22891",
       "summary": "One smile / Essential Smile / Smile Health -Broken - UI - ZIP Code field alignme"
-     },
-     {
-      "key": "PLANS-22675",
-      "summary": "Unify Font's in the Plans Widget Checkout Screen"
      },
      {
       "key": "PLANS-21015",
@@ -314,6 +302,18 @@
      {
       "key": "PLANS-14760",
       "summary": "[Frontend] [Custom Websites] Premierone: Match parity, standardize data & integr"
+     },
+     {
+      "key": "PLANS-14758",
+      "summary": "[Frontend] [Custom Websites] Essential Smile: Match parity, standardize data & i"
+     },
+     {
+      "key": "PLANS-14582",
+      "summary": "Update UI for CSP"
+     },
+     {
+      "key": "PLANS-14568",
+      "summary": "Integrating plans API into CSP (Dev Only)"
      }
     ]
    }
@@ -452,15 +452,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 44,
-    "med_age": 19.4,
+    "open": 45,
+    "med_age": 18.9,
     "max_age": 20.0,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 726
+    "clear_n": 725
    },
    {
     "status": "Ready for Development",
@@ -484,7 +484,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 5,
     "clear_med": 1.1,
-    "clear_n": 498
+    "clear_n": 497
    },
    {
     "status": "WAITING REVIEW",
@@ -501,17 +501,17 @@
    {
     "status": "PR Created",
     "open": 9,
-    "med_age": 5.7,
-    "max_age": 14.4,
+    "med_age": 5.8,
+    "max_age": 14.5,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 829
+    "clear_n": 828
    },
    {
-    "status": "Ready for Stage",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -519,8 +519,20 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 1.7,
+    "clear_n": 68
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 791
    },
    {
     "status": "In PreProd",
@@ -535,7 +547,7 @@
     "clear_n": 24
    },
    {
-    "status": "PR Merged",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -543,27 +555,15 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 792
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.6,
-    "clear_n": 69
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 68,
-   "On Hold": 24
+   "On Hold": 24,
+   "Backlog": 68
   },
-  "open_total": 137,
+  "open_total": 138,
   "stale": 65,
   "worst": "In Development"
  }
