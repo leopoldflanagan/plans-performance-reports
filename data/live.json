@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T08:32:34Z",
+ "generated": "2026-11-17T09:04:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -460,24 +460,24 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 725
+    "clear_n": 726
    },
    {
     "status": "Ready for Development",
-    "open": 37,
-    "med_age": 18.7,
+    "open": 36,
+    "med_age": 19.1,
     "max_age": 52.8,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 26,
     "clear_med": 0.8,
-    "clear_n": 281
+    "clear_n": 282
    },
    {
     "status": "In Stage",
-    "open": 45,
-    "med_age": 4.7,
+    "open": 46,
+    "med_age": 4.3,
     "max_age": 11.6,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -508,7 +508,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 2,
     "clear_med": 0.0,
-    "clear_n": 827
+    "clear_n": 828
    },
    {
     "status": "Ready for Stage",
@@ -523,7 +523,7 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -531,8 +531,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 0.0,
+    "clear_n": 791
    },
    {
     "status": "In QA",
@@ -547,7 +547,7 @@
     "clear_n": 69
    },
    {
-    "status": "PR Merged",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -555,8 +555,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 790
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
