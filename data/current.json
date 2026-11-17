@@ -495,14 +495,14 @@
    "tis": {
     "To Do": {
      "n": 48,
-     "med": 13.45
+     "med": 10.36
     },
     "In Progress": {
-     "n": 25,
-     "med": 2.96
+     "n": 28,
+     "med": 1.57
     },
     "Done": {
-     "n": 26,
+     "n": 29,
      "med": 12.52
     },
     "Ready for Development": {
@@ -559,9 +559,9 @@
     }
    },
    "dist": {
-    "To Do": 27,
+    "To Do": 24,
     "In Progress": 11,
-    "Done": 26,
+    "Done": 29,
     "Ready for Development": 3,
     "In Stage": 20,
     "In Development": 2,
@@ -575,7 +575,7 @@
    },
    "stalled": 96,
    "worst": 13.45,
-   "worstSt": "To Do",
+   "worstSt": "WAITING REVIEW",
    "items": 153
   },
   "Plans Pod 2-Sprint 26-26": {
