@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T06:38:52Z",
+ "generated": "2026-11-17T07:04:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -477,7 +477,7 @@
    {
     "status": "In Stage",
     "open": 45,
-    "med_age": 4.6,
+    "med_age": 4.7,
     "max_age": 11.5,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -511,18 +511,6 @@
     "clear_n": 827
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -533,6 +521,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
