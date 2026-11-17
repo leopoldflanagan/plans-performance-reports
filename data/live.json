@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T04:33:03Z",
+ "generated": "2026-11-17T05:04:11Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 39,
-   "points": 159
+   "items": 40,
+   "points": 164
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 39,
-    "points": 159,
+    "n": 40,
+    "points": 164,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -431,8 +431,8 @@
   "end": "2026-11-22",
   "day": 23,
   "days": 28,
-  "closed": 447,
-  "points": 940,
+  "closed": 448,
+  "points": 945,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -465,7 +465,7 @@
    {
     "status": "Ready for Development",
     "open": 38,
-    "med_age": 17.9,
+    "med_age": 18.0,
     "max_age": 52.6,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -476,21 +476,21 @@
    },
    {
     "status": "In Stage",
-    "open": 46,
-    "med_age": 4.5,
-    "max_age": 11.4,
+    "open": 45,
+    "med_age": 4.6,
+    "max_age": 11.5,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 5,
     "clear_med": 1.1,
-    "clear_n": 497
+    "clear_n": 498
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 32.1,
-    "max_age": 39.4,
+    "max_age": 39.5,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -511,7 +511,7 @@
     "clear_n": 827
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -519,8 +519,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "PR Merged",
@@ -535,6 +535,18 @@
     "clear_n": 790
    },
    {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
+   },
+   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -545,25 +557,13 @@
     "over": 0,
     "clear_med": 1.6,
     "clear_n": 69
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
    "On Hold": 24,
    "Backlog": 69
   },
-  "open_total": 137,
+  "open_total": 136,
   "stale": 65,
   "worst": "In Development"
  }

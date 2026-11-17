@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 447,
+  "closed": 448,
   "discarded": 4,
-  "resolved": 451,
+  "resolved": 452,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    319
+    320
    ],
    [
     "Bug",
@@ -43,10 +43,10 @@
   "day": 17,
   "days": 28,
   "status": "risk",
-  "headline": "447 items closed in the first 17 days, a pace of about 736 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "448 items closed in the first 17 days, a pace of about 738 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 5.3d and average 11.1d, both past the healthy band"
+   "cycle time median 5.4d and average 11.1d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -182,10 +182,10 @@
    "Nov 9",
    "Nov 23",
    373,
-   48,
+   49,
    272,
    389,
-   165,
+   170,
    43,
    [
     240.0,
@@ -196,7 +196,7 @@
     239.0,
     239.0,
     215.0,
-    221.0
+    216.0
    ],
    [
     265.0,
@@ -274,12 +274,12 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "done": [
-    48,
-    161
+    49,
+    166
    ],
    "open": [
-    139,
-    210
+    138,
+    205
    ],
    "out": [
     10,
@@ -394,10 +394,10 @@
    "dist": {
     "Done": 141,
     "To Do": 85,
-    "Ready Prod": 38,
+    "Ready Prod": 39,
     "Closed": 79,
     "In Progress": 7,
-    "In Stage": 10,
+    "In Stage": 9,
     "PR Created": 3,
     "On Hold": 8,
     "In Development": 1,
@@ -605,8 +605,8 @@
      "med": 13.43
     },
     "Ready Prod": {
-     "n": 43,
-     "med": 10.47
+     "n": 44,
+     "med": 10.46
     },
     "In Development": {
      "n": 43,
@@ -652,10 +652,10 @@
    "dist": {
     "In Progress": 12,
     "To Do": 115,
-    "In Stage": 34,
+    "In Stage": 33,
     "Done": 50,
     "Ready for Development": 12,
-    "Ready Prod": 42,
+    "Ready Prod": 43,
     "PR Created": 7,
     "Closed": 7,
     "On Hold": 8,
@@ -664,7 +664,7 @@
     "Blocked": 1,
     "In Testing": 1
    },
-   "stalled": 324,
+   "stalled": 323,
    "worst": 13.43,
    "worstSt": "To Do",
    "items": 373
@@ -727,25 +727,25 @@
    239.0,
    239.0,
    215.0,
-   222.0
+   217.0
   ]
  },
  "CAP": {
   "9.10": [
-   447,
-   298,
-   940,
+   448,
+   299,
+   945,
    24
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 5.32,
-   "avg": 11.07,
-   "n": 257,
+   "med": 5.38,
+   "avg": 11.05,
+   "n": 258,
    "mx": 92.49,
    "nodev": 190,
-   "base": 447
+   "base": 448
   }
  },
  "complete": false,
