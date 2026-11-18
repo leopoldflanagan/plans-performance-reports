@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T20:04:20Z",
+ "generated": "2026-11-18T20:32:36Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 38,
-   "points": 156
+   "items": 37,
+   "points": 153
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 38,
-    "points": 156,
+    "n": 37,
+    "points": 153,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -479,7 +479,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 728
+    "clear_n": 727
    },
    {
     "status": "Ready for Development",
@@ -491,7 +491,7 @@
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 292
+    "clear_n": 291
    },
    {
     "status": "In Stage",
@@ -520,38 +520,26 @@
    {
     "status": "PR Created",
     "open": 16,
-    "med_age": 3.2,
-    "max_age": 15.8,
+    "med_age": 3.3,
+    "max_age": 15.9,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 5,
+    "over": 7,
     "clear_med": 0.0,
-    "clear_n": 824
+    "clear_n": 823
    },
    {
     "status": "PR Merged",
     "open": 2,
     "med_age": 0.2,
     "max_age": 0.2,
-    "worst_key": "PLANS-25410",
-    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
+    "worst_key": "PLANS-25411",
+    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 784
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 57
+    "clear_n": 783
    },
    {
     "status": "Ready for Stage",
@@ -564,6 +552,18 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 57
    },
    {
     "status": "In PreProd",
@@ -579,11 +579,11 @@
    }
   ],
   "parked": {
-   "Backlog": 72,
+   "Backlog": 73,
    "On Hold": 28
   },
   "open_total": 135,
-  "stale": 81,
+  "stale": 83,
   "worst": "In Development"
  }
 }
