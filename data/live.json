@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T09:04:29Z",
+ "generated": "2026-11-18T09:33:07Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -498,7 +498,7 @@
     "status": "In Stage",
     "open": 38,
     "med_age": 6.1,
-    "max_age": 12.6,
+    "max_age": 12.7,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -533,11 +533,11 @@
    {
     "status": "PR Merged",
     "open": 2,
-    "med_age": 0.6,
+    "med_age": 0.7,
     "max_age": 0.7,
-    "worst_key": "PLANS-24552",
-    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25408",
+    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 785
@@ -580,8 +580,8 @@
    }
   ],
   "parked": {
-   "On Hold": 27,
-   "Backlog": 72
+   "Backlog": 72,
+   "On Hold": 27
   },
   "open_total": 131,
   "stale": 78,
