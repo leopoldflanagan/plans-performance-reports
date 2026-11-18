@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T03:33:02Z",
+ "generated": "2026-11-18T04:04:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 36,
-   "points": 151
+   "items": 39,
+   "points": 159
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 36,
-    "points": 151,
+    "n": 39,
+    "points": 159,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -55,12 +55,12 @@
   "day": 10,
   "days": 14,
   "n": 21,
-  "done_now": 209,
+  "done_now": 215,
   "committed": 237,
-  "lo": 246,
-  "mid": 285,
-  "hi": 356,
-  "pct": 120,
+  "lo": 253,
+  "mid": 294,
+  "hi": 366,
+  "pct": 124,
   "verdict": "on track for the commitment",
   "share_mid": 0.732
  },
@@ -362,19 +362,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 161,
-  "items_done": 58,
+  "items_done": 62,
   "committed": 237,
   "final": 304,
-  "completed": 209,
+  "completed": 215,
   "scope_change": 28,
-  "vs_commitment": 88,
+  "vs_commitment": 91,
   "time_elapsed": 62,
   "spill": {
-   "open_items": 34,
-   "open_pts": 90.0,
+   "open_items": 30,
+   "open_pts": 84.0,
    "out_items": 2,
    "out_pts": 1.0,
-   "done_pts": 208.0
+   "done_pts": 214.0
   },
   "recv": {
    "items": 14,
@@ -387,15 +387,15 @@
    "Ready for Development": 3,
    "Backlog": 6,
    "PR Merged": 2,
-   "To Do": 18,
-   "Done": 38,
+   "Done": 42,
+   "To Do": 14,
    "In Progress": 8,
    "PR Created": 2,
-   "In Stage": 18,
+   "In Stage": 14,
    "Ready Prod": 45,
+   "Closed": 17,
    "On Hold": 2,
    "In Development": 1,
-   "Closed": 13,
    "WAITING REVIEW": 2,
    "Will Not Implement": 1
   },
@@ -409,7 +409,7 @@
    180.0,
    186.0,
    106.0,
-   95.0
+   89.0
   ],
   "scope": [
    204.0,
@@ -433,7 +433,7 @@
    180.0,
    186.0,
    106.0,
-   95.0
+   89.0
   ],
   "days": 14,
   "day": 10
@@ -451,8 +451,8 @@
   "end": "2026-11-22",
   "day": 24,
   "days": 28,
-  "closed": 456,
-  "points": 965,
+  "closed": 460,
+  "points": 971,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -473,7 +473,7 @@
    {
     "status": "In Development",
     "open": 44,
-    "med_age": 20.1,
+    "med_age": 20.2,
     "max_age": 20.7,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -485,7 +485,7 @@
    {
     "status": "Ready for Development",
     "open": 33,
-    "med_age": 21.2,
+    "med_age": 21.3,
     "max_age": 53.6,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -496,20 +496,20 @@
    },
    {
     "status": "In Stage",
-    "open": 42,
-    "med_age": 5.0,
+    "open": 38,
+    "med_age": 5.8,
     "max_age": 12.4,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 15,
     "clear_med": 1.1,
-    "clear_n": 496
+    "clear_n": 500
    },
    {
     "status": "PR Created",
     "open": 12,
-    "med_age": 6.2,
+    "med_age": 6.3,
     "max_age": 15.2,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -533,14 +533,26 @@
    {
     "status": "PR Merged",
     "open": 2,
-    "med_age": 0.4,
-    "max_age": 0.4,
-    "worst_key": "PLANS-25408",
-    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
-    "worst_who": "Ivan Yarymovych",
+    "med_age": 0.5,
+    "max_age": 0.5,
+    "worst_key": "PLANS-24552",
+    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 785
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 60
    },
    {
     "status": "Ready for Stage",
@@ -565,25 +577,13 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 60
    }
   ],
   "parked": {
    "On Hold": 27,
    "Backlog": 72
   },
-  "open_total": 135,
+  "open_total": 131,
   "stale": 77,
   "worst": "In Development"
  }
