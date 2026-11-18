@@ -509,8 +509,8 @@
      "med": 0.14
     },
     "PR Created": {
-     "n": 75,
-     "med": 0.75
+     "n": 76,
+     "med": 0.9
     },
     "PR Merged": {
      "n": 73,
@@ -563,7 +563,7 @@
    },
    "dist": {
     "Ready for Development": 3,
-    "In Development": 2,
+    "PR Created": 2,
     "Backlog": 7,
     "PR Merged": 3,
     "Done": 42,
@@ -573,7 +573,7 @@
     "Ready Prod": 45,
     "Closed": 17,
     "On Hold": 2,
-    "PR Created": 1,
+    "In Development": 1,
     "WAITING REVIEW": 2,
     "Will Not Implement": 1
    },

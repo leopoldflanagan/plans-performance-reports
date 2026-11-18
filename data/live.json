@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T13:03:56Z",
+ "generated": "2026-11-18T13:32:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -381,7 +381,7 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 3,
-   "In Development": 2,
+   "PR Created": 2,
    "Backlog": 5,
    "PR Merged": 3,
    "Done": 42,
@@ -391,7 +391,7 @@
    "Ready Prod": 45,
    "Closed": 17,
    "On Hold": 2,
-   "PR Created": 1,
+   "In Development": 1,
    "WAITING REVIEW": 2,
    "Will Not Implement": 1
   },
@@ -468,7 +468,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 43,
+    "open": 42,
     "med_age": 21.1,
     "max_age": 21.1,
     "worst_key": "PLANS-24785",
@@ -476,12 +476,12 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 725
+    "clear_n": 726
    },
    {
     "status": "Ready for Development",
     "open": 33,
-    "med_age": 21.6,
+    "med_age": 21.7,
     "max_age": 54.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -504,9 +504,9 @@
    },
    {
     "status": "PR Created",
-    "open": 12,
-    "med_age": 6.6,
-    "max_age": 15.5,
+    "open": 13,
+    "med_age": 6.7,
+    "max_age": 15.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -530,13 +530,25 @@
     "status": "PR Merged",
     "open": 4,
     "med_age": 0.5,
-    "max_age": 0.8,
-    "worst_key": "PLANS-25408",
-    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
-    "worst_who": "Ivan Yarymovych",
+    "max_age": 0.9,
+    "worst_key": "PLANS-24552",
+    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 784
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -561,18 +573,6 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 59
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
