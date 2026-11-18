@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T08:05:58Z",
+ "generated": "2026-11-18T08:32:28Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -368,7 +368,7 @@
   "completed": 215,
   "scope_change": 28,
   "vs_commitment": 91,
-  "time_elapsed": 63,
+  "time_elapsed": 64,
   "spill": {
    "open_items": 30,
    "open_pts": 84.0,
@@ -509,8 +509,8 @@
    {
     "status": "PR Created",
     "open": 12,
-    "med_age": 6.4,
-    "max_age": 15.3,
+    "med_age": 6.5,
+    "max_age": 15.4,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -580,8 +580,8 @@
    }
   ],
   "parked": {
-   "Backlog": 72,
-   "On Hold": 27
+   "On Hold": 27,
+   "Backlog": 72
   },
   "open_total": 131,
   "stale": 78,
