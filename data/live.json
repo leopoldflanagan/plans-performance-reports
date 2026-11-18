@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T01:04:33Z",
+ "generated": "2026-11-18T01:33:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 10,
   "days": 14,
   "n": 21,
-  "done_now": 201,
+  "done_now": 209,
   "committed": 237,
-  "lo": 236,
-  "mid": 275,
-  "hi": 342,
-  "pct": 116,
+  "lo": 246,
+  "mid": 285,
+  "hi": 356,
+  "pct": 120,
   "verdict": "on track for the commitment",
   "share_mid": 0.732
  },
@@ -174,7 +174,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 23,
+    "n": 24,
     "items": [
      {
       "key": "PLANS-25302",
@@ -362,19 +362,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 161,
-  "items_done": 57,
+  "items_done": 58,
   "committed": 237,
   "final": 304,
-  "completed": 201,
+  "completed": 209,
   "scope_change": 28,
-  "vs_commitment": 85,
+  "vs_commitment": 88,
   "time_elapsed": 61,
   "spill": {
-   "open_items": 35,
-   "open_pts": 98.0,
+   "open_items": 34,
+   "open_pts": 90.0,
    "out_items": 2,
    "out_pts": 1.0,
-   "done_pts": 200.0
+   "done_pts": 208.0
   },
   "recv": {
    "items": 14,
@@ -388,11 +388,11 @@
    "Backlog": 6,
    "PR Merged": 2,
    "To Do": 18,
-   "In Progress": 12,
-   "Done": 34,
+   "Done": 38,
+   "In Progress": 8,
    "PR Created": 2,
-   "In Stage": 19,
-   "Ready Prod": 44,
+   "In Stage": 18,
+   "Ready Prod": 45,
    "On Hold": 2,
    "In Development": 1,
    "Closed": 13,
@@ -409,7 +409,7 @@
    180.0,
    186.0,
    106.0,
-   103.0
+   95.0
   ],
   "scope": [
    204.0,
@@ -433,7 +433,7 @@
    180.0,
    186.0,
    106.0,
-   103.0
+   95.0
   ],
   "days": 14,
   "day": 10
@@ -451,8 +451,8 @@
   "end": "2026-11-22",
   "day": 24,
   "days": 28,
-  "closed": 455,
-  "points": 957,
+  "closed": 456,
+  "points": 965,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -480,12 +480,12 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 725
+    "clear_n": 724
    },
    {
     "status": "Ready for Development",
     "open": 33,
-    "med_age": 21.1,
+    "med_age": 21.2,
     "max_age": 53.5,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -496,8 +496,8 @@
    },
    {
     "status": "In Stage",
-    "open": 43,
-    "med_age": 4.4,
+    "open": 42,
+    "med_age": 4.9,
     "max_age": 12.3,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -509,14 +509,14 @@
    {
     "status": "PR Created",
     "open": 12,
-    "med_age": 6.1,
-    "max_age": 15.0,
+    "med_age": 6.2,
+    "max_age": 15.1,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 3,
     "clear_med": 0.0,
-    "clear_n": 825
+    "clear_n": 824
    },
    {
     "status": "WAITING REVIEW",
@@ -534,13 +534,13 @@
     "status": "PR Merged",
     "open": 2,
     "med_age": 0.3,
-    "max_age": 0.3,
-    "worst_key": "PLANS-25408",
-    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
-    "worst_who": "Ivan Yarymovych",
+    "max_age": 0.4,
+    "worst_key": "PLANS-24552",
+    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 786
+    "clear_n": 785
    },
    {
     "status": "In QA",
@@ -581,9 +581,9 @@
   ],
   "parked": {
    "On Hold": 27,
-   "Backlog": 71
+   "Backlog": 72
   },
-  "open_total": 136,
+  "open_total": 135,
   "stale": 77,
   "worst": "In Development"
  }
