@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T06:06:48Z",
+ "generated": "2026-11-18T06:38:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -473,7 +473,7 @@
    {
     "status": "In Development",
     "open": 44,
-    "med_age": 20.2,
+    "med_age": 20.3,
     "max_age": 20.8,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -485,7 +485,7 @@
    {
     "status": "Ready for Development",
     "open": 33,
-    "med_age": 21.3,
+    "med_age": 21.4,
     "max_age": 53.7,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -533,17 +533,17 @@
    {
     "status": "PR Merged",
     "open": 2,
-    "med_age": 0.5,
-    "max_age": 0.5,
-    "worst_key": "PLANS-25408",
-    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
-    "worst_who": "Ivan Yarymovych",
+    "med_age": 0.6,
+    "max_age": 0.6,
+    "worst_key": "PLANS-24552",
+    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 785
    },
    {
-    "status": "In QA",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -551,8 +551,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 60
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -567,7 +567,7 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -575,8 +575,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 1.8,
+    "clear_n": 60
    }
   ],
   "parked": {
