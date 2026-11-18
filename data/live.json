@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T16:33:14Z",
+ "generated": "2026-11-18T17:04:17Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -379,11 +379,11 @@
    "To Do": 15,
    "Backlog": 4,
    "In Development": 3,
-   "PR Created": 3,
+   "PR Created": 2,
    "PR Merged": 2,
+   "In Stage": 16,
    "Done": 42,
    "In Progress": 8,
-   "In Stage": 15,
    "Ready Prod": 46,
    "Closed": 17,
    "On Hold": 2,
@@ -477,7 +477,7 @@
    {
     "status": "Ready for Development",
     "open": 29,
-    "med_age": 28.8,
+    "med_age": 28.9,
     "max_age": 54.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -488,9 +488,9 @@
    },
    {
     "status": "In Stage",
-    "open": 40,
-    "med_age": 6.0,
-    "max_age": 12.9,
+    "open": 41,
+    "med_age": 6.1,
+    "max_age": 13.0,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -499,40 +499,28 @@
     "clear_n": 498
    },
    {
-    "status": "WAITING REVIEW",
-    "open": 2,
-    "med_age": 33.6,
-    "max_age": 40.9,
-    "worst_key": "PLANS-24108",
-    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 2,
-    "clear_med": 0.1,
-    "clear_n": 22
-   },
-   {
     "status": "PR Created",
-    "open": 16,
-    "med_age": 3.1,
+    "open": 15,
+    "med_age": 5.1,
     "max_age": 15.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 825
+    "clear_n": 826
    },
    {
-    "status": "PR Merged",
+    "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 0.5,
-    "max_age": 1.0,
-    "worst_key": "PLANS-25408",
-    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 785
+    "med_age": 33.6,
+    "max_age": 41.0,
+    "worst_key": "PLANS-24108",
+    "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 2,
+    "clear_med": 0.1,
+    "clear_n": 22
    },
    {
     "status": "In QA",
@@ -547,6 +535,18 @@
     "clear_n": 58
    },
    {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
+   },
+   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -559,21 +559,21 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "PR Merged",
+    "open": 2,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25411",
+    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.0,
+    "clear_n": 786
    }
   ],
   "parked": {
-   "Backlog": 71,
-   "On Hold": 27
+   "On Hold": 27,
+   "Backlog": 71
   },
   "open_total": 135,
   "stale": 82,
