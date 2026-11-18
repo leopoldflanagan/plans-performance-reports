@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T11:32:56Z",
+ "generated": "2026-11-18T12:06:10Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -468,15 +468,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 44,
-    "med_age": 20.5,
+    "open": 43,
+    "med_age": 21.0,
     "max_age": 21.0,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 725
+    "clear_n": 726
    },
    {
     "status": "Ready for Development",
@@ -494,17 +494,17 @@
     "status": "In Stage",
     "open": 38,
     "med_age": 6.2,
-    "max_age": 12.7,
+    "max_age": 12.8,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 15,
+    "over": 16,
     "clear_med": 1.1,
     "clear_n": 500
    },
    {
     "status": "PR Created",
-    "open": 11,
+    "open": 12,
     "med_age": 6.6,
     "max_age": 15.5,
     "worst_key": "PLANS-24113",
@@ -517,8 +517,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 33.4,
-    "max_age": 40.7,
+    "med_age": 33.5,
+    "max_age": 40.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -529,14 +529,26 @@
    {
     "status": "PR Merged",
     "open": 4,
-    "med_age": 0.4,
+    "med_age": 0.5,
     "max_age": 0.8,
-    "worst_key": "PLANS-24552",
-    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25408",
+    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 785
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 60
    },
    {
     "status": "Ready for Stage",
@@ -561,26 +573,14 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 60
    }
   ],
   "parked": {
-   "Backlog": 71,
-   "On Hold": 27
+   "On Hold": 27,
+   "Backlog": 71
   },
   "open_total": 132,
-  "stale": 78,
+  "stale": 79,
   "worst": "In Development"
  }
 }
