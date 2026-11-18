@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T18:32:42Z",
+ "generated": "2026-11-18T19:03:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 36,
-   "points": 151
+   "items": 37,
+   "points": 153
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 36,
-    "points": 151,
+    "n": 37,
+    "points": 153,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -174,12 +174,8 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 22,
+    "n": 18,
     "items": [
-     {
-      "key": "PLANS-25409",
-      "summary": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Featur"
-     },
      {
       "key": "PLANS-25302",
       "summary": "[2.3.W2] Release readiness checks and release notes for the organization-level i"
@@ -193,20 +189,24 @@
       "summary": "[2.1] Implement SubscriptionTransactionMapper static class"
      },
      {
-      "key": "PLANS-25412",
-      "summary": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, be"
-     },
-     {
       "key": "PLANS-25411",
       "summary": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a"
      },
      {
-      "key": "PLANS-25410",
-      "summary": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary"
+      "key": "PLANS-25338",
+      "summary": "[2.5] QA: Production go-live check and first agent-org onboarding"
      },
      {
-      "key": "PLANS-25408",
-      "summary": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and "
+      "key": "PLANS-25337",
+      "summary": "[2.4] QA: Each office's PMP report shows only its own members"
+     },
+     {
+      "key": "PLANS-25336",
+      "summary": "[2.3] QA: Members stay walled off between sibling offices"
+     },
+     {
+      "key": "PLANS-25335",
+      "summary": "[2.2] QA: Every office sells the identical core plan on Smile Health, PMP, and M"
      }
     ]
    },
@@ -381,14 +381,14 @@
   "spill_rate": null,
   "dist": {
    "Backlog": 5,
-   "To Do": 15,
+   "In Progress": 9,
    "In Development": 2,
    "PR Created": 3,
    "PR Merged": 2,
    "Ready for Development": 2,
    "In Stage": 16,
    "Done": 42,
-   "In Progress": 8,
+   "To Do": 14,
    "Ready Prod": 46,
    "Closed": 17,
    "On Hold": 2,
@@ -447,8 +447,8 @@
   "end": "2026-11-22",
   "day": 24,
   "days": 28,
-  "closed": 461,
-  "points": 973,
+  "closed": 462,
+  "points": 976,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -476,7 +476,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 729
+    "clear_n": 728
    },
    {
     "status": "Ready for Development",
@@ -488,17 +488,17 @@
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 293
+    "clear_n": 292
    },
    {
     "status": "In Stage",
-    "open": 41,
-    "med_age": 6.1,
+    "open": 40,
+    "med_age": 5.7,
     "max_age": 13.0,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 18,
+    "over": 17,
     "clear_med": 1.1,
     "clear_n": 497
    },
@@ -524,7 +524,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 825
+    "clear_n": 824
    },
    {
     "status": "PR Merged",
@@ -536,19 +536,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 785
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 57
+    "clear_n": 784
    },
    {
     "status": "Ready for Stage",
@@ -573,14 +561,26 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 57
    }
   ],
   "parked": {
-   "Backlog": 72,
-   "On Hold": 27
+   "On Hold": 28,
+   "Backlog": 72
   },
-  "open_total": 136,
-  "stale": 82,
+  "open_total": 135,
+  "stale": 81,
   "worst": "In Development"
  }
 }

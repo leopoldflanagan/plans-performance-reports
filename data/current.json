@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 461,
+  "closed": 462,
   "discarded": 4,
-  "resolved": 465,
+  "resolved": 466,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    322
+    323
    ],
    [
     "Bug",
@@ -43,10 +43,10 @@
   "day": 18,
   "days": 28,
   "status": "warning",
-  "headline": "461 items closed in the first 18 days, a pace of about 717 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "462 items closed in the first 18 days, a pace of about 719 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time average 10.8d against a 5.0d median - a long tail"
+   "cycle time average 10.8d against a 5.1d median - a long tail"
   ]
  },
  "SPRINTS": [
@@ -184,10 +184,10 @@
    "Nov 9",
    "Nov 23",
    383,
-   56,
+   57,
    272,
    397,
-   182,
+   185,
    46,
    [
     240.0,
@@ -199,7 +199,7 @@
     238.0,
     214.0,
     217.0,
-    212.0
+    209.0
    ],
    [
     265.0,
@@ -278,12 +278,12 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "done": [
-    56,
-    173
+    57,
+    176
    ],
    "open": [
-    138,
-    204
+    136,
+    201
    ],
    "out": [
     10,
@@ -396,12 +396,12 @@
     }
    },
    "dist": {
-    "Done": 141,
-    "To Do": 85,
-    "Ready Prod": 40,
+    "Done": 142,
+    "To Do": 84,
+    "Ready Prod": 41,
     "Closed": 79,
     "In Progress": 7,
-    "In Stage": 8,
+    "In Stage": 7,
     "PR Created": 3,
     "On Hold": 9,
     "In Development": 1,
@@ -504,6 +504,10 @@
      "n": 49,
      "med": 7.93
     },
+    "In Progress": {
+     "n": 39,
+     "med": 0.24
+    },
     "Ready for Development": {
      "n": 35,
      "med": 0.75
@@ -523,10 +527,6 @@
     "In Stage": {
      "n": 70,
      "med": 1.3
-    },
-    "In Progress": {
-     "n": 38,
-     "med": 0.23
     },
     "Done": {
      "n": 42,
@@ -563,14 +563,14 @@
    },
    "dist": {
     "Backlog": 7,
-    "To Do": 15,
+    "In Progress": 9,
     "In Development": 2,
     "PR Created": 3,
     "PR Merged": 2,
     "Ready for Development": 2,
     "In Stage": 16,
     "Done": 42,
-    "In Progress": 8,
+    "To Do": 14,
     "Ready Prod": 46,
     "Closed": 17,
     "On Hold": 2,
@@ -589,8 +589,8 @@
      "med": 13.43
     },
     "In Progress": {
-     "n": 48,
-     "med": 1.11
+     "n": 49,
+     "med": 1.2
     },
     "Ready for Development": {
      "n": 32,
@@ -605,12 +605,12 @@
      "med": 3.03
     },
     "Ready Prod": {
-     "n": 46,
-     "med": 10.46
+     "n": 47,
+     "med": 10.45
     },
     "Done": {
-     "n": 55,
-     "med": 11.34
+     "n": 56,
+     "med": 11.33
     },
     "Closed": {
      "n": 12,
@@ -642,7 +642,11 @@
     },
     "In Testing": {
      "n": 1,
-     "med": 10.55
+     "med": 6.09
+    },
+    "READY DEPLOYMENT": {
+     "n": 1,
+     "med": 4.46
     },
     "Will Not Implement": {
      "n": 1,
@@ -656,20 +660,20 @@
    "dist": {
     "In Progress": 14,
     "In Development": 3,
-    "To Do": 115,
-    "Ready Prod": 45,
-    "Done": 53,
+    "To Do": 114,
+    "Ready Prod": 46,
+    "Done": 54,
     "Closed": 12,
     "Ready for Development": 9,
-    "In Stage": 34,
+    "In Stage": 33,
     "PR Created": 5,
     "On Hold": 9,
     "Backlog": 81,
     "Blocked": 1,
-    "In Testing": 1,
+    "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 325,
+   "stalled": 324,
    "worst": 13.43,
    "worstSt": "To Do",
    "items": 383
@@ -734,25 +738,25 @@
    238.0,
    214.0,
    218.0,
-   213.0
+   210.0
   ]
  },
  "CAP": {
   "9.10": [
-   461,
-   312,
-   973,
+   462,
+   313,
+   976,
    24
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 4.99,
-   "avg": 10.77,
-   "n": 271,
+   "med": 5.1,
+   "avg": 10.8,
+   "n": 272,
    "mx": 92.49,
    "nodev": 190,
-   "base": 461
+   "base": 462
   }
  },
  "complete": false,
