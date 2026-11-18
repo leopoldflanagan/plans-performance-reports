@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T16:04:21Z",
+ "generated": "2026-11-18T16:33:14Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -378,12 +378,12 @@
   "dist": {
    "To Do": 15,
    "Backlog": 4,
-   "In Development": 4,
-   "PR Created": 2,
-   "PR Merged": 4,
+   "In Development": 3,
+   "PR Created": 3,
+   "PR Merged": 2,
    "Done": 42,
    "In Progress": 8,
-   "In Stage": 13,
+   "In Stage": 15,
    "Ready Prod": 46,
    "Closed": 17,
    "On Hold": 2,
@@ -464,7 +464,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 47,
+    "open": 46,
     "med_age": 20.2,
     "max_age": 21.2,
     "worst_key": "PLANS-24785",
@@ -472,7 +472,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 728
+    "clear_n": 729
    },
    {
     "status": "Ready for Development",
@@ -482,14 +482,14 @@
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 26,
+    "over": 27,
     "clear_med": 0.8,
     "clear_n": 295
    },
    {
     "status": "In Stage",
-    "open": 37,
-    "med_age": 6.7,
+    "open": 40,
+    "med_age": 6.0,
     "max_age": 12.9,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -497,18 +497,6 @@
     "over": 18,
     "clear_med": 1.1,
     "clear_n": 498
-   },
-   {
-    "status": "PR Created",
-    "open": 15,
-    "med_age": 5.1,
-    "max_age": 15.7,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 5,
-    "clear_med": 0.0,
-    "clear_n": 825
    },
    {
     "status": "WAITING REVIEW",
@@ -523,16 +511,28 @@
     "clear_n": 22
    },
    {
+    "status": "PR Created",
+    "open": 16,
+    "med_age": 3.1,
+    "max_age": 15.7,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 5,
+    "clear_med": 0.0,
+    "clear_n": 825
+   },
+   {
     "status": "PR Merged",
-    "open": 5,
-    "med_age": 0.3,
+    "open": 2,
+    "med_age": 0.5,
     "max_age": 1.0,
-    "worst_key": "PLANS-24552",
-    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25408",
+    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 782
+    "clear_n": 785
    },
    {
     "status": "In QA",
@@ -576,7 +576,7 @@
    "On Hold": 27
   },
   "open_total": 135,
-  "stale": 81,
+  "stale": 82,
   "worst": "In Development"
  }
 }
