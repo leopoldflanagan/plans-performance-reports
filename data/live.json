@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T21:03:55Z",
+ "generated": "2026-11-18T21:32:26Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 37,
-   "points": 153
+   "items": 36,
+   "points": 148
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 37,
-    "points": 153,
+    "n": 36,
+    "points": 148,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -364,7 +364,7 @@
   "completed": 217,
   "scope_change": 33,
   "vs_commitment": 92,
-  "time_elapsed": 67,
+  "time_elapsed": 68,
   "spill": {
    "open_items": 32,
    "open_pts": 93.0,
@@ -479,25 +479,25 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 727
+    "clear_n": 726
    },
    {
     "status": "Ready for Development",
     "open": 30,
-    "med_age": 28.0,
+    "med_age": 28.1,
     "max_age": 54.3,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 28,
     "clear_med": 0.8,
-    "clear_n": 291
+    "clear_n": 289
    },
    {
     "status": "In Stage",
     "open": 40,
-    "med_age": 5.7,
-    "max_age": 13.1,
+    "med_age": 5.8,
+    "max_age": 13.2,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -542,18 +542,6 @@
     "clear_n": 783
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -576,10 +564,22 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 57
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 73,
+   "Backlog": 74,
    "On Hold": 28
   },
   "open_total": 135,
