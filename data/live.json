@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T13:32:47Z",
+ "generated": "2026-11-18T14:04:02Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 38,
-   "points": 157
+   "items": 36,
+   "points": 151
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 38,
-    "points": 157,
+    "n": 36,
+    "points": 151,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -488,7 +488,7 @@
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 292
+    "clear_n": 291
    },
    {
     "status": "In Stage",
@@ -498,21 +498,21 @@
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 16,
+    "over": 18,
     "clear_med": 1.1,
-    "clear_n": 499
+    "clear_n": 497
    },
    {
     "status": "PR Created",
-    "open": 13,
-    "med_age": 6.7,
+    "open": 15,
+    "med_age": 5.0,
     "max_age": 15.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 825
+    "clear_n": 823
    },
    {
     "status": "WAITING REVIEW",
@@ -529,14 +529,14 @@
    {
     "status": "PR Merged",
     "open": 4,
-    "med_age": 0.5,
+    "med_age": 0.6,
     "max_age": 0.9,
-    "worst_key": "PLANS-24552",
-    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25408",
+    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 784
+    "clear_n": 782
    },
    {
     "status": "In PreProd",
@@ -551,6 +551,18 @@
     "clear_n": 24
    },
    {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 58
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -561,26 +573,14 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 59
    }
   ],
   "parked": {
-   "On Hold": 27,
-   "Backlog": 72
+   "Backlog": 73,
+   "On Hold": 27
   },
-  "open_total": 132,
-  "stale": 79,
+  "open_total": 134,
+  "stale": 81,
   "worst": "In Development"
  }
 }

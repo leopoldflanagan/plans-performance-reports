@@ -589,8 +589,8 @@
      "med": 13.43
     },
     "In Progress": {
-     "n": 47,
-     "med": 1.01
+     "n": 48,
+     "med": 1.11
     },
     "Ready for Development": {
      "n": 31,
@@ -650,9 +650,9 @@
     }
    },
    "dist": {
-    "In Progress": 13,
+    "In Progress": 14,
     "In Development": 3,
-    "To Do": 116,
+    "To Do": 115,
     "Ready Prod": 45,
     "Done": 53,
     "Closed": 12,
