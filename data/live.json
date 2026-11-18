@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T14:04:02Z",
+ "generated": "2026-11-18T14:32:50Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 36,
-   "points": 151
+   "items": 35,
+   "points": 146
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 36,
-    "points": 151,
+    "n": 35,
+    "points": 146,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -381,7 +381,7 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 3,
-   "PR Created": 2,
+   "In Development": 2,
    "Backlog": 5,
    "PR Merged": 3,
    "Done": 42,
@@ -391,7 +391,7 @@
    "Ready Prod": 45,
    "Closed": 17,
    "On Hold": 2,
-   "In Development": 1,
+   "PR Created": 1,
    "WAITING REVIEW": 2,
    "Will Not Implement": 1
   },
@@ -468,7 +468,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 42,
+    "open": 43,
     "med_age": 21.1,
     "max_age": 21.1,
     "worst_key": "PLANS-24785",
@@ -488,13 +488,13 @@
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 291
+    "clear_n": 290
    },
    {
     "status": "In Stage",
     "open": 38,
-    "med_age": 6.2,
-    "max_age": 12.8,
+    "med_age": 6.3,
+    "max_age": 12.9,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -504,21 +504,21 @@
    },
    {
     "status": "PR Created",
-    "open": 15,
-    "med_age": 5.0,
+    "open": 14,
+    "med_age": 5.8,
     "max_age": 15.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 823
+    "clear_n": 824
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 33.5,
-    "max_age": 40.8,
+    "max_age": 40.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -539,18 +539,6 @@
     "clear_n": 782
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -561,6 +549,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 58
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -576,7 +576,7 @@
    }
   ],
   "parked": {
-   "Backlog": 73,
+   "Backlog": 74,
    "On Hold": 27
   },
   "open_total": 134,
