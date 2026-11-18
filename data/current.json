@@ -148,12 +148,12 @@
    "Plans Pod 1-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   162,
+   163,
    63,
    237,
-   309,
+   312,
    217,
-   30,
+   32,
    [
     201.0,
     209.0,
@@ -163,8 +163,8 @@
     180.0,
     180.0,
     186.0,
-    108.0,
-    92.0
+    110.0,
+    95.0
    ],
    [
     204.0,
@@ -175,8 +175,8 @@
     287.0,
     287.0,
     293.0,
-    306.0,
-    309.0
+    308.0,
+    312.0
    ]
   ],
   [
@@ -263,7 +263,7 @@
    ],
    "open": [
     30,
-    87
+    90
    ],
    "out": [
     2,
@@ -496,6 +496,10 @@
   },
   "Plans Pod 1-Sprint 26-26": {
    "tis": {
+    "To Do": {
+     "n": 49,
+     "med": 7.93
+    },
     "Backlog": {
      "n": 39,
      "med": 0.61
@@ -505,20 +509,16 @@
      "med": 0.7
     },
     "In Development": {
-     "n": 63,
+     "n": 64,
      "med": 0.14
     },
     "PR Created": {
      "n": 78,
-     "med": 0.9
+     "med": 0.75
     },
     "PR Merged": {
-     "n": 73,
+     "n": 74,
      "med": 0.0
-    },
-    "To Do": {
-     "n": 48,
-     "med": 7.6
     },
     "In Progress": {
      "n": 38,
@@ -562,12 +562,12 @@
     }
    },
    "dist": {
-    "Backlog": 7,
-    "In Development": 3,
-    "PR Created": 3,
-    "PR Merged": 3,
+    "To Do": 15,
+    "Backlog": 6,
+    "In Development": 4,
+    "PR Created": 2,
+    "PR Merged": 4,
     "Done": 42,
-    "To Do": 14,
     "In Progress": 8,
     "In Stage": 13,
     "Ready Prod": 46,
@@ -577,10 +577,10 @@
     "Ready for Development": 1,
     "Will Not Implement": 1
    },
-   "stalled": 98,
+   "stalled": 99,
    "worst": 13.45,
    "worstSt": "WAITING REVIEW",
-   "items": 162
+   "items": 163
   },
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
@@ -722,8 +722,8 @@
    180.0,
    180.0,
    186.0,
-   108.0,
-   92.0
+   110.0,
+   95.0
   ],
   "Plans Pod 2-Sprint 26-26": [
    240.0,
