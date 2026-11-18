@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T11:04:12Z",
+ "generated": "2026-11-18T11:32:56Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -364,7 +364,7 @@
   "completed": 215,
   "scope_change": 29,
   "vs_commitment": 91,
-  "time_elapsed": 64,
+  "time_elapsed": 65,
   "spill": {
    "open_items": 30,
    "open_pts": 86.0,
@@ -469,7 +469,7 @@
    {
     "status": "In Development",
     "open": 44,
-    "med_age": 20.4,
+    "med_age": 20.5,
     "max_age": 21.0,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -529,17 +529,17 @@
    {
     "status": "PR Merged",
     "open": 4,
-    "med_age": 0.3,
-    "max_age": 0.7,
-    "worst_key": "PLANS-25408",
-    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
-    "worst_who": "Ivan Yarymovych",
+    "med_age": 0.4,
+    "max_age": 0.8,
+    "worst_key": "PLANS-24552",
+    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
+    "worst_who": "Petro Yarish",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 785
    },
    {
-    "status": "In QA",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -547,8 +547,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 60
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In PreProd",
@@ -563,7 +563,7 @@
     "clear_n": 24
    },
    {
-    "status": "Ready for Stage",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -571,8 +571,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 1.8,
+    "clear_n": 60
    }
   ],
   "parked": {
