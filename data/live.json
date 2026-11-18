@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T17:32:40Z",
+ "generated": "2026-11-18T18:04:27Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 37,
-   "points": 154
+   "items": 36,
+   "points": 151
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 37,
-    "points": 154,
+    "n": 36,
+    "points": 151,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 80,
-   "sprint": 97,
+   "sprint": 98,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
@@ -213,8 +213,12 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 4,
+    "n": 5,
     "items": [
+     {
+      "key": "PLANS-25440",
+      "summary": "PLANS-25440: Stage: SGDP: California: header shows \"Administered by Wellfit\" ins"
+     },
      {
       "key": "PLANS-25439",
       "summary": "PLANS-25439: Prod and Stage: SGDP: Landing page: More benefits for you: max disc"
@@ -238,7 +242,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 74,
+    "n": 75,
     "items": [
      {
       "key": "PLANS-25345",
@@ -276,14 +280,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 169 of 175 items. This reads as a field the team does not use rather than 169 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 169,
+    "why": "missing on 170 of 176 items. This reads as a field the team does not use rather than 170 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 170,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 175 of 175 items. This reads as a field the team does not use rather than 175 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 175,
+    "why": "missing on 176 of 176 items. This reads as a field the team does not use rather than 176 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 176,
     "items": []
    },
    {
@@ -353,17 +357,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 164,
+  "items": 165,
   "items_done": 63,
   "committed": 237,
-  "final": 314,
+  "final": 315,
   "completed": 217,
-  "scope_change": 32,
+  "scope_change": 33,
   "vs_commitment": 92,
-  "time_elapsed": 66,
+  "time_elapsed": 67,
   "spill": {
-   "open_items": 31,
-   "open_pts": 92.0,
+   "open_items": 32,
+   "open_pts": 93.0,
    "out_items": 2,
    "out_pts": 1.0,
    "done_pts": 216.0
@@ -376,10 +380,10 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 4,
+   "Backlog": 5,
    "To Do": 15,
-   "In Development": 3,
-   "PR Created": 2,
+   "In Development": 2,
+   "PR Created": 3,
    "PR Merged": 2,
    "Ready for Development": 2,
    "In Stage": 16,
@@ -401,7 +405,7 @@
    180.0,
    186.0,
    111.0,
-   97.0
+   98.0
   ],
   "scope": [
    204.0,
@@ -413,7 +417,7 @@
    287.0,
    293.0,
    309.0,
-   314.0
+   315.0
   ],
   "ghost": [
    201.0,
@@ -425,7 +429,7 @@
    180.0,
    186.0,
    111.0,
-   97.0
+   98.0
   ],
   "days": 14,
   "day": 10
@@ -464,7 +468,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 46,
+    "open": 45,
     "med_age": 20.2,
     "max_age": 21.3,
     "worst_key": "PLANS-24785",
@@ -484,7 +488,7 @@
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 294
+    "clear_n": 293
    },
    {
     "status": "In Stage",
@@ -496,24 +500,12 @@
     "worst_who": "Valentyna Tenus",
     "over": 18,
     "clear_med": 1.1,
-    "clear_n": 498
-   },
-   {
-    "status": "PR Created",
-    "open": 15,
-    "med_age": 5.1,
-    "max_age": 15.7,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 5,
-    "clear_med": 0.0,
-    "clear_n": 826
+    "clear_n": 497
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 33.6,
+    "med_age": 33.7,
     "max_age": 41.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -523,28 +515,28 @@
     "clear_n": 22
    },
    {
+    "status": "PR Created",
+    "open": 16,
+    "med_age": 3.2,
+    "max_age": 15.8,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 5,
+    "clear_med": 0.0,
+    "clear_n": 825
+   },
+   {
     "status": "PR Merged",
     "open": 2,
     "med_age": 0.1,
     "max_age": 0.1,
-    "worst_key": "PLANS-25410",
-    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
+    "worst_key": "PLANS-25411",
+    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 786
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 785
    },
    {
     "status": "In QA",
@@ -556,7 +548,7 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 1.8,
-    "clear_n": 58
+    "clear_n": 57
    },
    {
     "status": "In PreProd",
@@ -569,11 +561,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 27,
-   "Backlog": 71
+   "Backlog": 72,
+   "On Hold": 27
   },
   "open_total": 136,
   "stale": 82,
