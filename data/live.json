@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T20:32:36Z",
+ "generated": "2026-11-18T21:03:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -472,7 +472,7 @@
    {
     "status": "In Development",
     "open": 45,
-    "med_age": 20.3,
+    "med_age": 20.4,
     "max_age": 21.4,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -489,7 +489,7 @@
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 27,
+    "over": 28,
     "clear_med": 0.8,
     "clear_n": 291
    },
@@ -542,6 +542,18 @@
     "clear_n": 783
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -564,18 +576,6 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 57
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
@@ -583,7 +583,7 @@
    "On Hold": 28
   },
   "open_total": 135,
-  "stale": 83,
+  "stale": 84,
   "worst": "In Development"
  }
 }
