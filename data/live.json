@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T00:46:57Z",
+ "generated": "2026-11-18T01:04:33Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -497,7 +497,7 @@
    {
     "status": "In Stage",
     "open": 43,
-    "med_age": 4.3,
+    "med_age": 4.4,
     "max_age": 12.3,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -580,8 +580,8 @@
    }
   ],
   "parked": {
-   "Backlog": 71,
-   "On Hold": 27
+   "On Hold": 27,
+   "Backlog": 71
   },
   "open_total": 136,
   "stale": 77,
