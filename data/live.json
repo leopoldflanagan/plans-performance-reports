@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T14:32:50Z",
+ "generated": "2026-11-18T15:04:24Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 35,
-   "points": 146
+   "items": 37,
+   "points": 154
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,14 +26,14 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 35,
-    "points": 146,
+    "n": 37,
+    "points": 154,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 53,
-    "points": 100,
+    "n": 52,
+    "points": 98,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 83,
+   "ready": 82,
    "sprint": 95,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 58,
+    "n": 57,
     "items": [
      {
       "key": "PLANS-25428",
@@ -147,16 +147,16 @@
       "summary": "[2.1.W1] CSP reset-all action clears every office integration override in an org"
      },
      {
-      "key": "PLANS-25236",
-      "summary": "Production issue on the Auto retry for failed claims"
-     },
-     {
       "key": "PLANS-25063",
       "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
      },
      {
       "key": "PLANS-25000",
       "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
+     },
+     {
+      "key": "PLANS-24964",
+      "summary": "Healthy Smiles of Lakeway - Need to Remove the Location Search"
      }
     ]
    },
@@ -206,22 +206,18 @@
      },
      {
       "key": "PLANS-25410",
-      "summary": "Smile Health portal: plan details page shows an empty \"Plan Summary\" card after "
+      "summary": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary"
      }
     ]
    },
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 5,
+    "n": 4,
     "items": [
      {
       "key": "PLANS-25411",
       "summary": "Smile Health portal: purchase widget asks for its profile without a theme id and"
-     },
-     {
-      "key": "PLANS-25410",
-      "summary": "Smile Health portal: plan details page shows an empty \"Plan Summary\" card after "
      },
      {
       "key": "PLANS-25409",
@@ -364,7 +360,7 @@
   "completed": 215,
   "scope_change": 29,
   "vs_commitment": 91,
-  "time_elapsed": 65,
+  "time_elapsed": 66,
   "spill": {
    "open_items": 30,
    "open_pts": 86.0,
@@ -381,8 +377,8 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 3,
-   "In Development": 2,
-   "Backlog": 5,
+   "PR Created": 3,
+   "Backlog": 4,
    "PR Merged": 3,
    "Done": 42,
    "To Do": 14,
@@ -391,7 +387,7 @@
    "Ready Prod": 45,
    "Closed": 17,
    "On Hold": 2,
-   "PR Created": 1,
+   "In Development": 1,
    "WAITING REVIEW": 2,
    "Will Not Implement": 1
   },
@@ -469,26 +465,26 @@
    {
     "status": "In Development",
     "open": 43,
-    "med_age": 21.1,
-    "max_age": 21.1,
+    "med_age": 21.2,
+    "max_age": 21.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 726
+    "clear_n": 728
    },
    {
     "status": "Ready for Development",
-    "open": 33,
-    "med_age": 21.7,
-    "max_age": 54.0,
+    "open": 32,
+    "med_age": 24.2,
+    "max_age": 54.1,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
-    "over": 27,
+    "over": 26,
     "clear_med": 0.8,
-    "clear_n": 290
+    "clear_n": 293
    },
    {
     "status": "In Stage",
@@ -503,18 +499,6 @@
     "clear_n": 497
    },
    {
-    "status": "PR Created",
-    "open": 14,
-    "med_age": 5.8,
-    "max_age": 15.6,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 4,
-    "clear_med": 0.0,
-    "clear_n": 824
-   },
-   {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 33.5,
@@ -525,6 +509,18 @@
     "over": 2,
     "clear_med": 0.1,
     "clear_n": 22
+   },
+   {
+    "status": "PR Created",
+    "open": 16,
+    "med_age": 3.0,
+    "max_age": 15.6,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 4,
+    "clear_med": 0.0,
+    "clear_n": 824
    },
    {
     "status": "PR Merged",
@@ -551,18 +547,6 @@
     "clear_n": 58
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -573,14 +557,26 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 74,
-   "On Hold": 27
+   "On Hold": 27,
+   "Backlog": 71
   },
-  "open_total": 134,
-  "stale": 81,
+  "open_total": 135,
+  "stale": 80,
   "worst": "In Development"
  }
 }

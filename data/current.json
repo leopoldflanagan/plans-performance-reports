@@ -505,12 +505,12 @@
      "med": 0.38
     },
     "In Development": {
-     "n": 60,
-     "med": 0.14
+     "n": 62,
+     "med": 0.13
     },
     "PR Created": {
-     "n": 76,
-     "med": 0.75
+     "n": 78,
+     "med": 0.9
     },
     "PR Merged": {
      "n": 73,
@@ -562,9 +562,9 @@
     }
    },
    "dist": {
-    "Ready for Development": 3,
-    "In Development": 2,
-    "Backlog": 7,
+    "Ready for Development": 2,
+    "PR Created": 3,
+    "Backlog": 6,
     "PR Merged": 3,
     "Done": 42,
     "To Do": 14,
@@ -572,8 +572,8 @@
     "In Stage": 14,
     "Ready Prod": 45,
     "Closed": 17,
+    "In Development": 2,
     "On Hold": 2,
-    "PR Created": 1,
     "WAITING REVIEW": 2,
     "Will Not Implement": 1
    },
