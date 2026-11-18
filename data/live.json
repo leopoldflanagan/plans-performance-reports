@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T12:06:10Z",
+ "generated": "2026-11-18T12:34:52Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 39,
-   "points": 159
+   "items": 38,
+   "points": 157
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,8 +26,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 39,
-    "points": 159,
+    "n": 38,
+    "points": 157,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -476,13 +476,13 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 726
+    "clear_n": 725
    },
    {
     "status": "Ready for Development",
     "open": 33,
     "med_age": 21.6,
-    "max_age": 53.9,
+    "max_age": 54.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -500,7 +500,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 16,
     "clear_med": 1.1,
-    "clear_n": 500
+    "clear_n": 499
    },
    {
     "status": "PR Created",
@@ -512,7 +512,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 4,
     "clear_med": 0.0,
-    "clear_n": 826
+    "clear_n": 825
    },
    {
     "status": "WAITING REVIEW",
@@ -536,10 +536,10 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 785
+    "clear_n": 784
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -547,8 +547,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 60
+    "clear_med": 0.1,
+    "clear_n": 24
    },
    {
     "status": "Ready for Stage",
@@ -563,7 +563,7 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -571,13 +571,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 1.8,
+    "clear_n": 59
    }
   ],
   "parked": {
-   "On Hold": 27,
-   "Backlog": 71
+   "Backlog": 72,
+   "On Hold": 27
   },
   "open_total": 132,
   "stale": 79,
