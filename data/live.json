@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T04:04:58Z",
+ "generated": "2026-11-18T04:32:32Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -535,9 +535,9 @@
     "open": 2,
     "med_age": 0.5,
     "max_age": 0.5,
-    "worst_key": "PLANS-24552",
-    "worst_sum": "PBO flow charges full amount instead of Wellfit share \u2014 Crosby plans",
-    "worst_who": "Petro Yarish",
+    "worst_key": "PLANS-25408",
+    "worst_sum": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and \"X% off\" a",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 785
