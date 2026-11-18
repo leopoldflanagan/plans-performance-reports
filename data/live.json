@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T17:04:17Z",
+ "generated": "2026-11-18T17:32:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -16,8 +16,8 @@
    "points": 22
   },
   "misfiled": {
-   "items": 38,
-   "points": 157
+   "items": 37,
+   "points": 154
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -26,14 +26,14 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 38,
-    "points": 157,
+    "n": 37,
+    "points": 154,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 49,
-    "points": 90,
+    "n": 50,
+    "points": 91,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,15 +66,15 @@
  },
  "admin": {
   "scope": {
-   "ready": 79,
-   "sprint": 96,
+   "ready": 80,
+   "sprint": 97,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 10,
+    "n": 9,
     "items": [
      {
       "key": "PLANS-24942",
@@ -124,8 +124,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 54,
+    "n": 55,
     "items": [
+     {
+      "key": "PLANS-25409",
+      "summary": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Featur"
+     },
      {
       "key": "PLANS-25345",
       "summary": "Member Portal \\ Savings contributions are not displayed when accessing the porta"
@@ -153,10 +157,6 @@
      {
       "key": "PLANS-24943",
       "summary": "Member Portal \\ Cardholder name is missing from Manage Payments after adding a n"
-     },
-     {
-      "key": "PLANS-24942",
-      "summary": "Phase 3-Preprod-PMP-QR scan not working for Apple wallet"
      }
     ]
    },
@@ -176,6 +176,10 @@
     "why": "the guide: Definition of Ready means no open dependencies.",
     "n": 22,
     "items": [
+     {
+      "key": "PLANS-25409",
+      "summary": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Featur"
+     },
      {
       "key": "PLANS-25302",
       "summary": "[2.3.W2] Release readiness checks and release notes for the organization-level i"
@@ -201,10 +205,6 @@
       "summary": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary"
      },
      {
-      "key": "PLANS-25409",
-      "summary": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Featur"
-     },
-     {
       "key": "PLANS-25408",
       "summary": "PLANS-25408: Smile Health portal: Fee Schedule page shows no procedure rows and "
      }
@@ -216,12 +216,12 @@
     "n": 4,
     "items": [
      {
-      "key": "PLANS-25437",
-      "summary": "PLANS-25437: Stage: SGDP: Landing page: See what you can save today: Price table"
+      "key": "PLANS-25439",
+      "summary": "PLANS-25439: Prod and Stage: SGDP: Landing page: More benefits for you: max disc"
      },
      {
-      "key": "PLANS-25409",
-      "summary": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Featur"
+      "key": "PLANS-25437",
+      "summary": "PLANS-25437: Stage: SGDP: Landing page: See what you can save today: Price table"
      },
      {
       "key": "PLANS-23835",
@@ -238,7 +238,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 73,
+    "n": 74,
     "items": [
      {
       "key": "PLANS-25345",
@@ -276,14 +276,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 168 of 174 items. This reads as a field the team does not use rather than 168 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 168,
+    "why": "missing on 169 of 175 items. This reads as a field the team does not use rather than 169 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 169,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 174 of 174 items. This reads as a field the team does not use rather than 174 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 174,
+    "why": "missing on 175 of 175 items. This reads as a field the team does not use rather than 175 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 175,
     "items": []
    },
    {
@@ -353,17 +353,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 163,
+  "items": 164,
   "items_done": 63,
   "committed": 237,
-  "final": 312,
+  "final": 314,
   "completed": 217,
   "scope_change": 32,
   "vs_commitment": 92,
   "time_elapsed": 66,
   "spill": {
-   "open_items": 30,
-   "open_pts": 90.0,
+   "open_items": 31,
+   "open_pts": 92.0,
    "out_items": 2,
    "out_pts": 1.0,
    "done_pts": 216.0
@@ -376,11 +376,12 @@
   },
   "spill_rate": null,
   "dist": {
-   "To Do": 15,
    "Backlog": 4,
+   "To Do": 15,
    "In Development": 3,
    "PR Created": 2,
    "PR Merged": 2,
+   "Ready for Development": 2,
    "In Stage": 16,
    "Done": 42,
    "In Progress": 8,
@@ -388,7 +389,6 @@
    "Closed": 17,
    "On Hold": 2,
    "WAITING REVIEW": 2,
-   "Ready for Development": 1,
    "Will Not Implement": 1
   },
   "burn": [
@@ -400,8 +400,8 @@
    180.0,
    180.0,
    186.0,
-   110.0,
-   95.0
+   111.0,
+   97.0
   ],
   "scope": [
    204.0,
@@ -412,8 +412,8 @@
    287.0,
    287.0,
    293.0,
-   308.0,
-   312.0
+   309.0,
+   314.0
   ],
   "ghost": [
    201.0,
@@ -424,8 +424,8 @@
    180.0,
    180.0,
    186.0,
-   110.0,
-   95.0
+   111.0,
+   97.0
   ],
   "days": 14,
   "day": 10
@@ -466,7 +466,7 @@
     "status": "In Development",
     "open": 46,
     "med_age": 20.2,
-    "max_age": 21.2,
+    "max_age": 21.3,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -476,15 +476,15 @@
    },
    {
     "status": "Ready for Development",
-    "open": 29,
-    "med_age": 28.9,
-    "max_age": 54.1,
+    "open": 30,
+    "med_age": 27.9,
+    "max_age": 54.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 295
+    "clear_n": 294
    },
    {
     "status": "In Stage",
@@ -523,16 +523,16 @@
     "clear_n": 22
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "PR Merged",
+    "open": 2,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-25410",
+    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
+    "worst_who": "Ivan Yarymovych",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 58
+    "clear_med": 0.0,
+    "clear_n": 786
    },
    {
     "status": "Ready for Stage",
@@ -547,6 +547,18 @@
     "clear_n": 2
    },
    {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 58
+   },
+   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -557,25 +569,13 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "PR Merged",
-    "open": 2,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25411",
-    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 786
    }
   ],
   "parked": {
    "On Hold": 27,
    "Backlog": 71
   },
-  "open_total": 135,
+  "open_total": 136,
   "stale": 82,
   "worst": "In Development"
  }
