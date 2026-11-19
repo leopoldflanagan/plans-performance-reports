@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T19:32:41Z",
+ "generated": "2026-11-19T20:04:17Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -360,7 +360,7 @@
   "completed": 219,
   "scope_change": 36,
   "vs_commitment": 92,
-  "time_elapsed": 74,
+  "time_elapsed": 75,
   "spill": {
    "open_items": 35,
    "open_pts": 97.0,
@@ -377,11 +377,11 @@
   "spill_rate": null,
   "dist": {
    "Done": 44,
-   "In Stage": 23,
+   "In Stage": 24,
    "Backlog": 3,
    "In Progress": 8,
    "In Development": 3,
-   "PR Merged": 2,
+   "PR Merged": 1,
    "To Do": 14,
    "Closed": 18,
    "Ready Prod": 46,
@@ -472,7 +472,7 @@
     "status": "In Development",
     "open": 47,
     "med_age": 21.3,
-    "max_age": 22.3,
+    "max_age": 22.4,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -483,7 +483,7 @@
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 22.0,
+    "med_age": 22.1,
     "max_age": 48.1,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
@@ -494,7 +494,7 @@
    },
    {
     "status": "In Stage",
-    "open": 49,
+    "open": 50,
     "med_age": 3.1,
     "max_age": 14.1,
     "worst_key": "PLANS-24945",
@@ -529,16 +529,28 @@
     "clear_n": 772
    },
    {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 51
+   },
+   {
     "status": "PR Merged",
-    "open": 4,
-    "med_age": 0.1,
+    "open": 3,
+    "med_age": 0.0,
     "max_age": 0.1,
     "worst_key": "PLANS-25412",
     "worst_sum": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the ",
     "worst_who": "Nazarii  Polinyk",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 731
+    "clear_n": 732
    },
    {
     "status": "Ready for Stage",
@@ -563,18 +575,6 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 25
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 51
    }
   ],
   "parked": {
