@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T21:32:44Z",
+ "generated": "2026-11-19T22:04:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -470,12 +470,12 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 684
+    "clear_n": 683
    },
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 22.1,
+    "med_age": 22.2,
     "max_age": 48.2,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
@@ -494,13 +494,13 @@
     "worst_who": "Valentyna Tenus",
     "over": 15,
     "clear_med": 1.1,
-    "clear_n": 458
+    "clear_n": 457
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 34.8,
-    "max_age": 42.1,
+    "med_age": 34.9,
+    "max_age": 42.2,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -518,7 +518,7 @@
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 772
+    "clear_n": 771
    },
    {
     "status": "PR Merged",
@@ -530,7 +530,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 732
+    "clear_n": 731
    },
    {
     "status": "In PreProd",
@@ -570,8 +570,8 @@
    }
   ],
   "parked": {
-   "Backlog": 104,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 105
   },
   "open_total": 141,
   "stale": 78,
