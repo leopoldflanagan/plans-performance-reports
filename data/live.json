@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T07:04:41Z",
+ "generated": "2026-11-19T07:33:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -471,7 +471,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 45,
+    "open": 46,
     "med_age": 20.8,
     "max_age": 21.8,
     "worst_key": "PLANS-24785",
@@ -497,7 +497,7 @@
     "status": "In Stage",
     "open": 40,
     "med_age": 6.2,
-    "max_age": 13.5,
+    "max_age": 13.6,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -509,7 +509,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 34.2,
-    "max_age": 41.5,
+    "max_age": 41.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -520,7 +520,7 @@
    {
     "status": "PR Created",
     "open": 16,
-    "med_age": 3.7,
+    "med_age": 3.8,
     "max_age": 16.3,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -540,18 +540,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 782
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    },
    {
     "status": "In QA",
@@ -576,13 +564,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 70
+   "Backlog": 69,
+   "On Hold": 28
   },
-  "open_total": 140,
+  "open_total": 141,
   "stale": 85,
   "worst": "In Development"
  }

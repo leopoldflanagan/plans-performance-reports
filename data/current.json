@@ -517,8 +517,8 @@
      "med": 0.76
     },
     "In Development": {
-     "n": 64,
-     "med": 0.13
+     "n": 65,
+     "med": 0.14
     },
     "PR Created": {
      "n": 80,
@@ -566,9 +566,9 @@
     }
    },
    "dist": {
-    "Backlog": 6,
+    "Backlog": 5,
     "In Progress": 8,
-    "In Development": 2,
+    "In Development": 3,
     "PR Created": 3,
     "PR Merged": 2,
     "Ready for Development": 3,
