@@ -502,18 +502,18 @@
    "tis": {
     "Backlog": {
      "n": 45,
-     "med": 0.66
+     "med": 0.61
     },
     "In Development": {
-     "n": 69,
+     "n": 71,
      "med": 0.08
     },
     "PR Created": {
-     "n": 84,
-     "med": 0.27
+     "n": 85,
+     "med": 0.23
     },
     "PR Merged": {
-     "n": 79,
+     "n": 80,
      "med": 0.0
     },
     "To Do": {
@@ -566,10 +566,10 @@
     }
    },
    "dist": {
-    "PR Merged": 6,
-    "Backlog": 6,
+    "PR Merged": 7,
+    "Backlog": 4,
     "In Progress": 8,
-    "In Development": 3,
+    "In Development": 4,
     "PR Created": 3,
     "In Stage": 16,
     "Done": 43,
