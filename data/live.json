@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T08:33:06Z",
+ "generated": "2026-11-19T09:04:38Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 55,
-    "points": 96,
+    "n": 54,
+    "points": 95,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,8 +66,8 @@
  },
  "admin": {
   "scope": {
-   "ready": 85,
-   "sprint": 98,
+   "ready": 84,
+   "sprint": 100,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
@@ -124,7 +124,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 60,
+    "n": 59,
     "items": [
      {
       "key": "PLANS-25443",
@@ -143,10 +143,6 @@
       "summary": "PMP - STAGE ONLY - Plan Details PDF Fails to Load for Euler Family Dental"
      },
      {
-      "key": "PLANS-25409",
-      "summary": "Release protocol (WT-1026): turn on plans/dynamic-footer-2026 in the prod Featur"
-     },
-     {
       "key": "PLANS-25396",
       "summary": "Smile Health Portal-Stage-Logo missing for Practice-Legacy West Dental Plan"
      },
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-25302",
       "summary": "[2.3.W2] Release readiness checks and release notes for the organization-level i"
+     },
+     {
+      "key": "PLANS-25063",
+      "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
      }
     ]
    },
@@ -213,8 +213,16 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 5,
+    "n": 7,
     "items": [
+     {
+      "key": "PLANS-25451",
+      "summary": "PLANS-25451: Prod and Stage: SGDP: Footer copyright year is hardcoded to 2024 an"
+     },
+     {
+      "key": "PLANS-25450",
+      "summary": "PLANS-25450: Stage: SGDP: Tablet widths 768-991px: sub-header overlaps the heade"
+     },
      {
       "key": "PLANS-25440",
       "summary": "PLANS-25440: Stage: SGDP: California: header shows \"Administered by Wellfit\" ins"
@@ -242,7 +250,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 78,
+    "n": 80,
     "items": [
      {
       "key": "PLANS-25420",
@@ -280,14 +288,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 175 of 181 items. This reads as a field the team does not use rather than 175 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 175,
+    "why": "missing on 177 of 183 items. This reads as a field the team does not use rather than 177 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 177,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 181 of 181 items. This reads as a field the team does not use rather than 181 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 181,
+    "why": "missing on 183 of 183 items. This reads as a field the team does not use rather than 183 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 183,
     "items": []
    },
    {
@@ -357,17 +365,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 165,
+  "items": 167,
   "items_done": 63,
   "committed": 237,
-  "final": 316,
+  "final": 319,
   "completed": 217,
-  "scope_change": 33,
+  "scope_change": 35,
   "vs_commitment": 92,
   "time_elapsed": 71,
   "spill": {
-   "open_items": 32,
-   "open_pts": 93.0,
+   "open_items": 34,
+   "open_pts": 96.0,
    "out_items": 2,
    "out_pts": 2.0,
    "done_pts": 216.0
@@ -380,12 +388,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 5,
+   "Backlog": 7,
    "In Progress": 8,
-   "In Development": 2,
+   "In Development": 3,
    "PR Created": 3,
    "PR Merged": 2,
-   "Ready for Development": 2,
    "In Stage": 16,
    "Done": 43,
    "To Do": 14,
@@ -393,6 +400,7 @@
    "Closed": 17,
    "On Hold": 2,
    "WAITING REVIEW": 2,
+   "Ready for Development": 1,
    "Will Not Implement": 1
   },
   "burn": [
@@ -406,7 +414,7 @@
    186.0,
    112.0,
    99.0,
-   99.0
+   102.0
   ],
   "scope": [
    204.0,
@@ -419,7 +427,7 @@
    293.0,
    310.0,
    316.0,
-   316.0
+   319.0
   ],
   "ghost": [
    201.0,
@@ -432,7 +440,7 @@
    186.0,
    112.0,
    99.0,
-   99.0
+   102.0
   ],
   "days": 14,
   "day": 11
@@ -471,27 +479,27 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 45,
-    "med_age": 20.8,
+    "open": 46,
+    "med_age": 20.9,
     "max_age": 21.9,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 726
+    "clear_n": 723
    },
    {
     "status": "Ready for Development",
-    "open": 35,
-    "med_age": 21.6,
+    "open": 34,
+    "med_age": 22.1,
     "max_age": 54.8,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
     "over": 28,
     "clear_med": 0.8,
-    "clear_n": 288
+    "clear_n": 289
    },
    {
     "status": "In Stage",
@@ -503,7 +511,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 18,
     "clear_med": 1.1,
-    "clear_n": 496
+    "clear_n": 494
    },
    {
     "status": "WAITING REVIEW",
@@ -519,19 +527,19 @@
    },
    {
     "status": "PR Created",
-    "open": 17,
-    "med_age": 1.8,
+    "open": 16,
+    "med_age": 3.8,
     "max_age": 16.4,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 822
+    "clear_n": 819
    },
    {
     "status": "PR Merged",
-    "open": 2,
+    "open": 3,
     "med_age": 0.7,
     "max_age": 0.7,
     "worst_key": "PLANS-25411",
@@ -539,19 +547,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 782
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_n": 778
    },
    {
     "status": "In QA",
@@ -576,11 +572,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 69
+   "Backlog": 71,
+   "On Hold": 28
   },
   "open_total": 141,
   "stale": 85,
