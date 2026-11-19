@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T11:32:55Z",
+ "generated": "2026-11-19T12:06:06Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -213,12 +213,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 8,
+    "n": 7,
     "items": [
-     {
-      "key": "PLANS-25453",
-      "summary": "PLANS-25453: Prod and Stage: SGDP: Support page: remove the 2024 Membership Agre"
-     },
      {
       "key": "PLANS-25452",
       "summary": "PLANS-25452: Stage: SGDP: Plan card: price is rendered lighter than on Prod"
@@ -254,7 +250,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 81,
+    "n": 80,
     "items": [
      {
       "key": "PLANS-25420",
@@ -372,14 +368,14 @@
   "items": 169,
   "items_done": 63,
   "committed": 237,
-  "final": 321,
+  "final": 322,
   "completed": 217,
-  "scope_change": 35,
+  "scope_change": 36,
   "vs_commitment": 92,
   "time_elapsed": 72,
   "spill": {
    "open_items": 36,
-   "open_pts": 98.0,
+   "open_pts": 99.0,
    "out_items": 2,
    "out_pts": 2.0,
    "done_pts": 216.0
@@ -392,11 +388,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 8,
+   "PR Created": 4,
+   "Backlog": 7,
    "PR Merged": 3,
    "In Progress": 8,
    "In Development": 3,
-   "PR Created": 3,
    "In Stage": 16,
    "Done": 43,
    "To Do": 14,
@@ -418,7 +414,7 @@
    186.0,
    112.0,
    99.0,
-   104.0
+   105.0
   ],
   "scope": [
    204.0,
@@ -431,7 +427,7 @@
    293.0,
    310.0,
    316.0,
-   321.0
+   322.0
   ],
   "ghost": [
    201.0,
@@ -444,7 +440,7 @@
    186.0,
    112.0,
    99.0,
-   104.0
+   105.0
   ],
   "days": 14,
   "day": 11
@@ -491,7 +487,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 721
+    "clear_n": 722
    },
    {
     "status": "Ready for Development",
@@ -509,7 +505,7 @@
     "status": "In Stage",
     "open": 40,
     "med_age": 6.3,
-    "max_age": 13.7,
+    "max_age": 13.8,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -520,8 +516,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 34.4,
-    "max_age": 41.7,
+    "med_age": 34.5,
+    "max_age": 41.8,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -531,8 +527,8 @@
    },
    {
     "status": "PR Created",
-    "open": 16,
-    "med_age": 3.9,
+    "open": 17,
+    "med_age": 1.9,
     "max_age": 16.5,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -566,18 +562,6 @@
     "clear_n": 56
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -588,13 +572,25 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 71,
+   "Backlog": 70,
    "On Hold": 28
   },
-  "open_total": 143,
+  "open_total": 144,
   "stale": 85,
   "worst": "In Development"
  }
