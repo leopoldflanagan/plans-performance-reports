@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T00:46:15Z",
+ "generated": "2026-11-19T01:04:06Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -532,26 +532,14 @@
    {
     "status": "PR Merged",
     "open": 2,
-    "med_age": 0.3,
+    "med_age": 0.4,
     "max_age": 0.4,
-    "worst_key": "PLANS-25410",
-    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
+    "worst_key": "PLANS-25411",
+    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 782
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 57
    },
    {
     "status": "Ready for Stage",
@@ -576,11 +564,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 57
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 70
+   "Backlog": 70,
+   "On Hold": 28
   },
   "open_total": 140,
   "stale": 85,
