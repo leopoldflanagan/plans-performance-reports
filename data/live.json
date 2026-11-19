@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T08:05:59Z",
+ "generated": "2026-11-19T08:33:06Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -521,7 +521,7 @@
     "status": "PR Created",
     "open": 17,
     "med_age": 1.8,
-    "max_age": 16.3,
+    "max_age": 16.4,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -532,14 +532,26 @@
    {
     "status": "PR Merged",
     "open": 2,
-    "med_age": 0.6,
+    "med_age": 0.7,
     "max_age": 0.7,
-    "worst_key": "PLANS-25410",
-    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
+    "worst_key": "PLANS-25411",
+    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 782
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -564,18 +576,6 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    }
   ],
   "parked": {
