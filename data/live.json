@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T19:03:40Z",
+ "generated": "2026-11-19T19:32:41Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,12 +55,12 @@
   "day": 11,
   "days": 14,
   "n": 21,
-  "done_now": 217,
+  "done_now": 219,
   "committed": 237,
-  "lo": 237,
-  "mid": 263,
-  "hi": 323,
-  "pct": 111,
+  "lo": 239,
+  "mid": 266,
+  "hi": 326,
+  "pct": 112,
   "verdict": "on track for the commitment",
   "share_mid": 0.824
  },
@@ -163,8 +163,12 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 1,
+    "n": 2,
     "items": [
+     {
+      "key": "PLANS-25338",
+      "summary": "[2.5] QA: Production go-live check and first agent-org onboarding"
+     },
      {
       "key": "PLANS-14923",
       "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
@@ -350,19 +354,19 @@
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
   "items": 170,
-  "items_done": 63,
+  "items_done": 64,
   "committed": 237,
   "final": 322,
-  "completed": 217,
+  "completed": 219,
   "scope_change": 36,
   "vs_commitment": 92,
   "time_elapsed": 74,
   "spill": {
-   "open_items": 36,
-   "open_pts": 99.0,
+   "open_items": 35,
+   "open_pts": 97.0,
    "out_items": 2,
    "out_pts": 2.0,
-   "done_pts": 216.0
+   "done_pts": 218.0
   },
   "recv": {
    "items": 14,
@@ -373,14 +377,14 @@
   "spill_rate": null,
   "dist": {
    "Done": 44,
-   "In Stage": 24,
+   "In Stage": 23,
    "Backlog": 3,
    "In Progress": 8,
    "In Development": 3,
    "PR Merged": 2,
    "To Do": 14,
+   "Closed": 18,
    "Ready Prod": 46,
-   "Closed": 17,
    "On Hold": 2,
    "PR Created": 1,
    "WAITING REVIEW": 2,
@@ -398,7 +402,8 @@
    186.0,
    112.0,
    99.0,
-   105.0
+   103.0,
+   103.0
   ],
   "scope": [
    204.0,
@@ -411,6 +416,7 @@
    293.0,
    310.0,
    316.0,
+   322.0,
    322.0
   ],
   "ghost": [
@@ -424,7 +430,8 @@
    186.0,
    112.0,
    99.0,
-   105.0
+   103.0,
+   103.0
   ],
   "days": 14,
   "day": 11
@@ -442,8 +449,8 @@
   "end": "2026-11-22",
   "day": 25,
   "days": 28,
-  "closed": 470,
-  "points": 1005,
+  "closed": 471,
+  "points": 1007,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -487,33 +494,21 @@
    },
    {
     "status": "In Stage",
-    "open": 50,
-    "med_age": 3.2,
-    "max_age": 14.0,
+    "open": 49,
+    "med_age": 3.1,
+    "max_age": 14.1,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 15,
     "clear_med": 1.1,
-    "clear_n": 457
-   },
-   {
-    "status": "PR Created",
-    "open": 10,
-    "med_age": 7.1,
-    "max_age": 16.8,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 5,
-    "clear_med": 0.0,
-    "clear_n": 770
+    "clear_n": 458
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 34.7,
-    "max_age": 42.0,
+    "med_age": 34.8,
+    "max_age": 42.1,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -522,8 +517,20 @@
     "clear_n": 22
    },
    {
+    "status": "PR Created",
+    "open": 8,
+    "med_age": 7.9,
+    "max_age": 16.8,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 5,
+    "clear_med": 0.0,
+    "clear_n": 772
+   },
+   {
     "status": "PR Merged",
-    "open": 2,
+    "open": 4,
     "med_age": 0.1,
     "max_age": 0.1,
     "worst_key": "PLANS-25412",
@@ -571,10 +578,10 @@
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 104
+   "Backlog": 104,
+   "On Hold": 28
   },
-  "open_total": 142,
+  "open_total": 141,
   "stale": 78,
   "worst": "In Development"
  }
