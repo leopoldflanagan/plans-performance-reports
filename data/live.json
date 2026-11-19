@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T09:32:55Z",
+ "generated": "2026-11-19T10:04:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -376,7 +376,7 @@
   "completed": 217,
   "scope_change": 36,
   "vs_commitment": 92,
-  "time_elapsed": 71,
+  "time_elapsed": 72,
   "spill": {
    "open_items": 36,
    "open_pts": 99.0,
@@ -483,7 +483,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 46,
+    "open": 47,
     "med_age": 20.9,
     "max_age": 21.9,
     "worst_key": "PLANS-24785",
@@ -497,7 +497,7 @@
     "status": "Ready for Development",
     "open": 34,
     "med_age": 22.1,
-    "max_age": 54.8,
+    "max_age": 54.9,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -520,8 +520,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 34.3,
-    "max_age": 41.6,
+    "med_age": 34.4,
+    "max_age": 41.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -532,7 +532,7 @@
    {
     "status": "PR Created",
     "open": 17,
-    "med_age": 1.8,
+    "med_age": 1.9,
     "max_age": 16.4,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -545,9 +545,9 @@
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.7,
-    "max_age": 0.7,
-    "worst_key": "PLANS-25411",
-    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
+    "max_age": 0.8,
+    "worst_key": "PLANS-25410",
+    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
@@ -591,10 +591,10 @@
    }
   ],
   "parked": {
-   "Backlog": 72,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 71
   },
-  "open_total": 142,
+  "open_total": 143,
   "stale": 85,
   "worst": "In Development"
  }
