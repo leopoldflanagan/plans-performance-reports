@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:32:31Z",
+ "generated": "2026-11-19T00:10:49Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 10,
+  "day": 11,
   "days": 14,
   "n": 21,
   "done_now": 217,
   "committed": 237,
-  "lo": 255,
-  "mid": 296,
-  "hi": 369,
-  "pct": 125,
+  "lo": 237,
+  "mid": 263,
+  "hi": 323,
+  "pct": 111,
   "verdict": "on track for the commitment",
-  "share_mid": 0.732
+  "share_mid": 0.824
  },
  "admin": {
   "scope": {
@@ -435,7 +435,7 @@
    99.0
   ],
   "days": 14,
-  "day": 10
+  "day": 11
  },
  "next": {
   "name": "Plans Pod 1-Sprint 27-26",
@@ -448,7 +448,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 24,
+  "day": 25,
   "days": 28,
   "closed": 462,
   "points": 976,
@@ -497,7 +497,7 @@
     "status": "In Stage",
     "open": 40,
     "med_age": 5.8,
-    "max_age": 13.2,
+    "max_age": 13.3,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -508,8 +508,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 33.9,
-    "max_age": 41.2,
+    "med_age": 34.0,
+    "max_age": 41.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -542,6 +542,18 @@
     "clear_n": 782
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 24
+   },
+   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -564,23 +576,11 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 70,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 70
   },
   "open_total": 140,
   "stale": 85,
