@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T17:32:51Z",
+ "generated": "2026-11-19T18:05:17Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -12,8 +12,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 12,
-   "points": 22
+   "items": 8,
+   "points": 15
   },
   "misfiled": {
    "items": 36,
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 53,
-    "points": 94,
+    "n": 52,
+    "points": 91,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -471,19 +471,19 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 723
+    "clear_n": 684
    },
    {
     "status": "Ready for Development",
-    "open": 33,
-    "med_age": 22.8,
-    "max_age": 55.2,
-    "worst_key": "PLANS-23527",
-    "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
+    "open": 31,
+    "med_age": 22.0,
+    "max_age": 48.0,
+    "worst_key": "PLANS-24067",
+    "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
     "worst_who": "unassigned",
-    "over": 28,
+    "over": 26,
     "clear_med": 0.8,
-    "clear_n": 288
+    "clear_n": 277
    },
    {
     "status": "In Stage",
@@ -495,12 +495,24 @@
     "worst_who": "Valentyna Tenus",
     "over": 15,
     "clear_med": 1.1,
-    "clear_n": 491
+    "clear_n": 457
+   },
+   {
+    "status": "PR Created",
+    "open": 10,
+    "med_age": 7.1,
+    "max_age": 16.8,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 5,
+    "clear_med": 0.0,
+    "clear_n": 770
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 34.6,
+    "med_age": 34.7,
     "max_age": 42.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -510,16 +522,28 @@
     "clear_n": 22
    },
    {
-    "status": "PR Created",
-    "open": 10,
-    "med_age": 6.9,
-    "max_age": 16.7,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 5,
+    "status": "PR Merged",
+    "open": 2,
+    "med_age": 0.1,
+    "max_age": 0.1,
+    "worst_key": "PLANS-25412",
+    "worst_sum": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the ",
+    "worst_who": "Nazarii  Polinyk",
+    "over": 0,
     "clear_med": 0.0,
-    "clear_n": 822
+    "clear_n": 731
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 1
    },
    {
     "status": "In QA",
@@ -531,7 +555,7 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 1.8,
-    "clear_n": 56
+    "clear_n": 51
    },
    {
     "status": "In PreProd",
@@ -544,38 +568,14 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 25
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
-    "status": "PR Merged",
-    "open": 2,
-    "med_age": 0.0,
-    "max_age": 0.0,
-    "worst_key": "PLANS-25412",
-    "worst_sum": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the ",
-    "worst_who": "Nazarii  Polinyk",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 782
    }
   ],
   "parked": {
-   "Backlog": 68,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 104
   },
-  "open_total": 144,
-  "stale": 80,
+  "open_total": 142,
+  "stale": 78,
   "worst": "In Development"
  }
 }
