@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T14:04:29Z",
+ "generated": "2026-11-19T14:32:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -32,8 +32,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 54,
-    "points": 95,
+    "n": 53,
+    "points": 94,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -66,7 +66,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 84,
+   "ready": 83,
    "sprint": 102,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
@@ -124,12 +124,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 59,
+    "n": 58,
     "items": [
-     {
-      "key": "PLANS-25443",
-      "summary": "ACH Refund - Past Refund Window Status and Manual Refund Permission Popup Not Di"
-     },
      {
       "key": "PLANS-25424",
       "summary": "SmileHealth \\ Microsoft Clarity Tag Request Returns 400 Bad Request on Initial P"
@@ -157,6 +153,10 @@
      {
       "key": "PLANS-25063",
       "summary": "Blocker Preprod PMP \\ DCA plansManual Renew flow does not display Credit Card Pa"
+     },
+     {
+      "key": "PLANS-25000",
+      "summary": "Auto-Renewal Retry \\ Slack report does not count manually renewed held plans und"
      }
     ]
    },
@@ -276,14 +276,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 179 of 185 items. This reads as a field the team does not use rather than 179 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 179,
+    "why": "missing on 178 of 184 items. This reads as a field the team does not use rather than 178 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 178,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 185 of 185 items. This reads as a field the team does not use rather than 185 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 185,
+    "why": "missing on 184 of 184 items. This reads as a field the team does not use rather than 184 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 184,
     "items": []
    },
    {
@@ -467,7 +467,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 47,
+    "open": 49,
     "med_age": 21.1,
     "max_age": 22.1,
     "worst_key": "PLANS-24785",
@@ -475,12 +475,12 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 724
+    "clear_n": 722
    },
    {
     "status": "Ready for Development",
-    "open": 34,
-    "med_age": 22.2,
+    "open": 33,
+    "med_age": 22.7,
     "max_age": 55.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
@@ -493,19 +493,19 @@
     "status": "In Stage",
     "open": 39,
     "med_age": 5.9,
-    "max_age": 13.8,
+    "max_age": 13.9,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 17,
+    "over": 19,
     "clear_med": 1.1,
-    "clear_n": 491
+    "clear_n": 489
    },
    {
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 34.5,
-    "max_age": 41.8,
+    "max_age": 41.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -515,19 +515,19 @@
    },
    {
     "status": "PR Created",
-    "open": 17,
+    "open": 14,
     "med_age": 2.0,
     "max_age": 16.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
-    "over": 7,
+    "over": 5,
     "clear_med": 0.0,
-    "clear_n": 816
+    "clear_n": 817
    },
    {
     "status": "PR Merged",
-    "open": 7,
+    "open": 10,
     "med_age": 0.1,
     "max_age": 0.9,
     "worst_key": "PLANS-25411",
@@ -535,7 +535,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 771
+    "clear_n": 769
    },
    {
     "status": "Ready for Stage",
@@ -578,7 +578,7 @@
    "Backlog": 68,
    "On Hold": 28
   },
-  "open_total": 146,
+  "open_total": 147,
   "stale": 84,
   "worst": "In Development"
  }
