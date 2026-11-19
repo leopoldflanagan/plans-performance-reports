@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T22:32:38Z",
+ "generated": "2026-11-19T23:03:24Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -352,7 +352,7 @@
   "completed": 219,
   "scope_change": 36,
   "vs_commitment": 92,
-  "time_elapsed": 75,
+  "time_elapsed": 76,
   "spill": {
    "open_items": 35,
    "open_pts": 97.0,
@@ -511,8 +511,8 @@
    {
     "status": "PR Created",
     "open": 8,
-    "med_age": 8.0,
-    "max_age": 16.9,
+    "med_age": 8.1,
+    "max_age": 17.0,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -524,7 +524,7 @@
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.1,
-    "max_age": 0.2,
+    "max_age": 0.3,
     "worst_key": "PLANS-25412",
     "worst_sum": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the ",
     "worst_who": "Nazarii  Polinyk",
@@ -545,18 +545,6 @@
     "clear_n": 1
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -567,11 +555,23 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 51
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
    }
   ],
   "parked": {
-   "Backlog": 105,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 105
   },
   "open_total": 141,
   "stale": 78,
