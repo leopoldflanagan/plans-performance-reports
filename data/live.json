@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T02:05:52Z",
+ "generated": "2026-11-19T02:32:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -496,8 +496,8 @@
    {
     "status": "In Stage",
     "open": 40,
-    "med_age": 5.9,
-    "max_age": 13.3,
+    "med_age": 6.0,
+    "max_age": 13.4,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -509,7 +509,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 34.0,
-    "max_age": 41.3,
+    "max_age": 41.4,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -579,8 +579,8 @@
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 70
+   "Backlog": 70,
+   "On Hold": 28
   },
   "open_total": 140,
   "stale": 85,
