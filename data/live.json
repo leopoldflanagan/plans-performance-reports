@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T21:03:53Z",
+ "generated": "2026-11-19T21:32:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -163,15 +163,11 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 2,
+    "n": 1,
     "items": [
      {
       "key": "PLANS-25338",
       "summary": "[2.5] QA: Production go-live check and first agent-org onboarding"
-     },
-     {
-      "key": "PLANS-14923",
-      "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
      }
     ]
    },
@@ -217,7 +213,7 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 3,
+    "n": 2,
     "items": [
      {
       "key": "PLANS-25452",
@@ -226,10 +222,6 @@
      {
       "key": "PLANS-23835",
       "summary": "Duplicate External ID for a member"
-     },
-     {
-      "key": "PLANS-14923",
-      "summary": "[Exising issue] Member poral -no validations for  Downgrade renewals"
      }
     ]
    }
@@ -378,7 +370,7 @@
   "dist": {
    "Done": 44,
    "In Stage": 24,
-   "Backlog": 3,
+   "Backlog": 2,
    "In Progress": 8,
    "In Development": 3,
    "PR Merged": 1,
@@ -386,7 +378,7 @@
    "Closed": 18,
    "Ready Prod": 46,
    "On Hold": 2,
-   "PR Created": 1,
+   "PR Created": 2,
    "WAITING REVIEW": 2,
    "Ready for Development": 1,
    "Will Not Implement": 1
@@ -484,7 +476,7 @@
     "status": "Ready for Development",
     "open": 31,
     "med_age": 22.1,
-    "max_age": 48.1,
+    "max_age": 48.2,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
     "worst_who": "unassigned",
@@ -496,7 +488,7 @@
     "status": "In Stage",
     "open": 50,
     "med_age": 3.2,
-    "max_age": 14.1,
+    "max_age": 14.2,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
