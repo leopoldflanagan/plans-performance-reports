@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T20:33:03Z",
+ "generated": "2026-11-19T21:03:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -471,7 +471,7 @@
    {
     "status": "In Development",
     "open": 47,
-    "med_age": 21.3,
+    "med_age": 21.4,
     "max_age": 22.4,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -495,7 +495,7 @@
    {
     "status": "In Stage",
     "open": 50,
-    "med_age": 3.1,
+    "med_age": 3.2,
     "max_age": 14.1,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -531,7 +531,7 @@
    {
     "status": "PR Merged",
     "open": 3,
-    "med_age": 0.0,
+    "med_age": 0.1,
     "max_age": 0.2,
     "worst_key": "PLANS-25412",
     "worst_sum": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the ",
@@ -541,7 +541,7 @@
     "clear_n": 732
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -549,8 +549,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 1
+    "clear_med": 0.1,
+    "clear_n": 25
    },
    {
     "status": "In QA",
@@ -565,7 +565,7 @@
     "clear_n": 51
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -573,8 +573,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
+    "clear_med": 0.0,
+    "clear_n": 1
    }
   ],
   "parked": {
