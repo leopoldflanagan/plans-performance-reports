@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T16:04:27Z",
+ "generated": "2026-11-19T16:32:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -174,7 +174,7 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 17,
+    "n": 16,
     "items": [
      {
       "key": "PLANS-25302",
@@ -360,7 +360,7 @@
   "completed": 217,
   "scope_change": 36,
   "vs_commitment": 92,
-  "time_elapsed": 73,
+  "time_elapsed": 74,
   "spill": {
    "open_items": 36,
    "open_pts": 99.0,
@@ -446,8 +446,8 @@
   "end": "2026-11-22",
   "day": 25,
   "days": 28,
-  "closed": 466,
-  "points": 992,
+  "closed": 468,
+  "points": 1000,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -475,7 +475,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 721
+    "clear_n": 722
    },
    {
     "status": "Ready for Development",
@@ -487,7 +487,7 @@
     "worst_who": "unassigned",
     "over": 28,
     "clear_med": 0.8,
-    "clear_n": 288
+    "clear_n": 289
    },
    {
     "status": "In Stage",
@@ -497,9 +497,9 @@
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 17,
+    "over": 16,
     "clear_med": 1.1,
-    "clear_n": 489
+    "clear_n": 491
    },
    {
     "status": "WAITING REVIEW",
@@ -516,26 +516,26 @@
    {
     "status": "PR Created",
     "open": 13,
-    "med_age": 2.0,
+    "med_age": 2.1,
     "max_age": 16.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 817
+    "clear_n": 818
    },
    {
     "status": "PR Merged",
-    "open": 11,
-    "med_age": 0.1,
+    "open": 10,
+    "med_age": 0.2,
     "max_age": 1.0,
     "worst_key": "PLANS-25411",
     "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 768
+    "clear_n": 770
    },
    {
     "status": "Ready for Stage",
@@ -550,6 +550,18 @@
     "clear_n": 2
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
+   },
+   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -560,26 +572,14 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 56
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
    }
   ],
   "parked": {
    "On Hold": 28,
-   "Backlog": 69
+   "Backlog": 68
   },
-  "open_total": 145,
-  "stale": 82,
+  "open_total": 144,
+  "stale": 81,
   "worst": "In Development"
  }
 }
