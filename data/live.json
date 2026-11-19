@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T12:06:06Z",
+ "generated": "2026-11-19T12:35:22Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -213,7 +213,7 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 7,
+    "n": 6,
     "items": [
      {
       "key": "PLANS-25452",
@@ -222,10 +222,6 @@
      {
       "key": "PLANS-25451",
       "summary": "PLANS-25451: Prod and Stage: SGDP: Footer copyright year is hardcoded to 2024 an"
-     },
-     {
-      "key": "PLANS-25450",
-      "summary": "PLANS-25450: Stage: SGDP: Tablet widths 768-991px: sub-header overlaps the heade"
      },
      {
       "key": "PLANS-25440",
@@ -250,7 +246,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 80,
+    "n": 75,
     "items": [
      {
       "key": "PLANS-25420",
@@ -388,11 +384,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "PR Created": 4,
-   "Backlog": 7,
-   "PR Merged": 3,
+   "PR Merged": 5,
+   "Backlog": 6,
    "In Progress": 8,
    "In Development": 3,
+   "PR Created": 3,
    "In Stage": 16,
    "Done": 43,
    "To Do": 14,
@@ -479,7 +475,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 47,
+    "open": 48,
     "med_age": 21.0,
     "max_age": 22.0,
     "worst_key": "PLANS-24785",
@@ -492,8 +488,8 @@
    {
     "status": "Ready for Development",
     "open": 34,
-    "med_age": 22.1,
-    "max_age": 54.9,
+    "med_age": 22.2,
+    "max_age": 55.0,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -511,7 +507,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 18,
     "clear_med": 1.1,
-    "clear_n": 492
+    "clear_n": 491
    },
    {
     "status": "WAITING REVIEW",
@@ -527,27 +523,39 @@
    },
    {
     "status": "PR Created",
-    "open": 17,
-    "med_age": 1.9,
+    "open": 16,
+    "med_age": 4.0,
     "max_age": 16.5,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 816
+    "clear_n": 817
    },
    {
     "status": "PR Merged",
-    "open": 4,
-    "med_age": 0.5,
-    "max_age": 0.8,
-    "worst_key": "PLANS-25411",
-    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
+    "open": 6,
+    "med_age": 0.2,
+    "max_age": 0.9,
+    "worst_key": "PLANS-25410",
+    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 774
+    "clear_n": 773
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -572,25 +580,13 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 70,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 69
   },
-  "open_total": 144,
+  "open_total": 146,
   "stale": 85,
   "worst": "In Development"
  }
