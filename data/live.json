@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T09:04:38Z",
+ "generated": "2026-11-19T09:32:55Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 84,
-   "sprint": 100,
+   "sprint": 102,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
@@ -213,8 +213,16 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 7,
+    "n": 8,
     "items": [
+     {
+      "key": "PLANS-25453",
+      "summary": "PLANS-25453: Prod and Stage: SGDP: Support page: remove the 2024 Membership Agre"
+     },
+     {
+      "key": "PLANS-25452",
+      "summary": "PLANS-25452: Stage: SGDP: Plan card: price is rendered lighter than on Prod"
+     },
      {
       "key": "PLANS-25451",
       "summary": "PLANS-25451: Prod and Stage: SGDP: Footer copyright year is hardcoded to 2024 an"
@@ -226,10 +234,6 @@
      {
       "key": "PLANS-25440",
       "summary": "PLANS-25440: Stage: SGDP: California: header shows \"Administered by Wellfit\" ins"
-     },
-     {
-      "key": "PLANS-25439",
-      "summary": "PLANS-25439: Prod and Stage: SGDP: Landing page: More benefits for you: max disc"
      },
      {
       "key": "PLANS-25437",
@@ -250,7 +254,7 @@
    {
     "rule": "No fix version",
     "why": "the release a delivery belongs to cannot be traced without it.",
-    "n": 80,
+    "n": 81,
     "items": [
      {
       "key": "PLANS-25420",
@@ -288,14 +292,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 177 of 183 items. This reads as a field the team does not use rather than 177 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 177,
+    "why": "missing on 179 of 185 items. This reads as a field the team does not use rather than 179 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 179,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 183 of 183 items. This reads as a field the team does not use rather than 183 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 183,
+    "why": "missing on 185 of 185 items. This reads as a field the team does not use rather than 185 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 185,
     "items": []
    },
    {
@@ -365,17 +369,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 167,
+  "items": 169,
   "items_done": 63,
   "committed": 237,
-  "final": 319,
+  "final": 322,
   "completed": 217,
-  "scope_change": 35,
+  "scope_change": 36,
   "vs_commitment": 92,
   "time_elapsed": 71,
   "spill": {
-   "open_items": 34,
-   "open_pts": 96.0,
+   "open_items": 36,
+   "open_pts": 99.0,
    "out_items": 2,
    "out_pts": 2.0,
    "done_pts": 216.0
@@ -388,10 +392,10 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 7,
+   "Backlog": 8,
+   "PR Created": 4,
    "In Progress": 8,
    "In Development": 3,
-   "PR Created": 3,
    "PR Merged": 2,
    "In Stage": 16,
    "Done": 43,
@@ -414,7 +418,7 @@
    186.0,
    112.0,
    99.0,
-   102.0
+   105.0
   ],
   "scope": [
    204.0,
@@ -427,7 +431,7 @@
    293.0,
    310.0,
    316.0,
-   319.0
+   322.0
   ],
   "ghost": [
    201.0,
@@ -440,7 +444,7 @@
    186.0,
    112.0,
    99.0,
-   102.0
+   105.0
   ],
   "days": 14,
   "day": 11
@@ -487,7 +491,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 723
+    "clear_n": 721
    },
    {
     "status": "Ready for Development",
@@ -505,13 +509,13 @@
     "status": "In Stage",
     "open": 40,
     "med_age": 6.2,
-    "max_age": 13.6,
+    "max_age": 13.7,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 18,
     "clear_med": 1.1,
-    "clear_n": 494
+    "clear_n": 492
    },
    {
     "status": "WAITING REVIEW",
@@ -527,15 +531,15 @@
    },
    {
     "status": "PR Created",
-    "open": 16,
-    "med_age": 3.8,
+    "open": 17,
+    "med_age": 1.8,
     "max_age": 16.4,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 819
+    "clear_n": 815
    },
    {
     "status": "PR Merged",
@@ -547,19 +551,7 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 778
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 57
+    "clear_n": 774
    },
    {
     "status": "In PreProd",
@@ -584,13 +576,25 @@
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 2
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 56
    }
   ],
   "parked": {
-   "Backlog": 71,
+   "Backlog": 72,
    "On Hold": 28
   },
-  "open_total": 141,
+  "open_total": 142,
   "stale": 85,
   "worst": "In Development"
  }
