@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T17:04:02Z",
+ "generated": "2026-11-19T17:32:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -372,17 +372,17 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Stage": 22,
+   "In Stage": 24,
    "Backlog": 3,
-   "In Development": 4,
    "In Progress": 8,
+   "In Development": 3,
    "PR Merged": 2,
    "Done": 43,
    "To Do": 14,
    "Ready Prod": 46,
    "Closed": 17,
    "On Hold": 2,
-   "PR Created": 2,
+   "PR Created": 1,
    "WAITING REVIEW": 2,
    "Ready for Development": 1,
    "Will Not Implement": 1
@@ -463,21 +463,21 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 48,
+    "open": 47,
     "med_age": 21.2,
-    "max_age": 22.2,
+    "max_age": 22.3,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 722
+    "clear_n": 723
    },
    {
     "status": "Ready for Development",
     "open": 33,
     "med_age": 22.8,
-    "max_age": 55.1,
+    "max_age": 55.2,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -487,8 +487,8 @@
    },
    {
     "status": "In Stage",
-    "open": 46,
-    "med_age": 5.8,
+    "open": 50,
+    "med_age": 3.1,
     "max_age": 14.0,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -511,27 +511,15 @@
    },
    {
     "status": "PR Created",
-    "open": 11,
-    "med_age": 6.1,
+    "open": 10,
+    "med_age": 6.9,
     "max_age": 16.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 820
-   },
-   {
-    "status": "PR Merged",
-    "open": 4,
-    "med_age": 0.1,
-    "max_age": 1.0,
-    "worst_key": "PLANS-25410",
-    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
-    "worst_who": "Ivan Yarymovych",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 778
+    "clear_n": 822
    },
    {
     "status": "In QA",
@@ -546,6 +534,18 @@
     "clear_n": 56
    },
    {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
+   },
+   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -558,21 +558,21 @@
     "clear_n": 2
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "status": "PR Merged",
+    "open": 2,
+    "med_age": 0.0,
+    "max_age": 0.0,
+    "worst_key": "PLANS-25412",
+    "worst_sum": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the ",
+    "worst_who": "Nazarii  Polinyk",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
+    "clear_med": 0.0,
+    "clear_n": 782
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 68
+   "Backlog": 68,
+   "On Hold": 28
   },
   "open_total": 144,
   "stale": 80,
