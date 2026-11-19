@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T05:04:25Z",
+ "generated": "2026-11-19T05:32:54Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -473,7 +473,7 @@
     "status": "In Development",
     "open": 45,
     "med_age": 20.7,
-    "max_age": 21.7,
+    "max_age": 21.8,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -484,8 +484,8 @@
    {
     "status": "Ready for Development",
     "open": 35,
-    "med_age": 21.4,
-    "max_age": 54.6,
+    "med_age": 21.5,
+    "max_age": 54.7,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -532,10 +532,10 @@
    {
     "status": "PR Merged",
     "open": 2,
-    "med_age": 0.5,
-    "max_age": 0.5,
-    "worst_key": "PLANS-25411",
-    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
+    "med_age": 0.6,
+    "max_age": 0.6,
+    "worst_key": "PLANS-25410",
+    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
@@ -579,8 +579,8 @@
    }
   ],
   "parked": {
-   "Backlog": 70,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 70
   },
   "open_total": 140,
   "stale": 85,
