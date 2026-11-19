@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T07:33:05Z",
+ "generated": "2026-11-19T08:05:59Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -471,21 +471,21 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 46,
+    "open": 45,
     "med_age": 20.8,
-    "max_age": 21.8,
+    "max_age": 21.9,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 725
+    "clear_n": 726
    },
    {
     "status": "Ready for Development",
     "open": 35,
-    "med_age": 21.5,
-    "max_age": 54.7,
+    "med_age": 21.6,
+    "max_age": 54.8,
     "worst_key": "PLANS-23527",
     "worst_sum": "ACH - Broken - Print purchase Receipt from CSP Throws an exception error",
     "worst_who": "unassigned",
@@ -508,7 +508,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 34.2,
+    "med_age": 34.3,
     "max_age": 41.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -519,8 +519,8 @@
    },
    {
     "status": "PR Created",
-    "open": 16,
-    "med_age": 3.8,
+    "open": 17,
+    "med_age": 1.8,
     "max_age": 16.3,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -533,9 +533,9 @@
     "status": "PR Merged",
     "open": 2,
     "med_age": 0.6,
-    "max_age": 0.6,
-    "worst_key": "PLANS-25411",
-    "worst_sum": "PLANS-25411: Smile Health portal: purchase widget asks for its profile without a theme id ",
+    "max_age": 0.7,
+    "worst_key": "PLANS-25410",
+    "worst_sum": "PLANS-25410: Smile Health portal: plan details page shows an empty \"Plan Summary\" card aft",
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
@@ -554,18 +554,6 @@
     "clear_n": 57
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -576,11 +564,23 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 24
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.3,
+    "clear_n": 2
    }
   ],
   "parked": {
-   "Backlog": 69,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 69
   },
   "open_total": 141,
   "stale": 85,
