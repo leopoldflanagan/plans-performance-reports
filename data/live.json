@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T13:32:57Z",
+ "generated": "2026-11-19T14:04:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -446,8 +446,8 @@
   "end": "2026-11-22",
   "day": 25,
   "days": 28,
-  "closed": 462,
-  "points": 976,
+  "closed": 464,
+  "points": 982,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -467,15 +467,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 49,
-    "med_age": 21.0,
+    "open": 47,
+    "med_age": 21.1,
     "max_age": 22.1,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 723
+    "clear_n": 724
    },
    {
     "status": "Ready for Development",
@@ -487,17 +487,17 @@
     "worst_who": "unassigned",
     "over": 28,
     "clear_med": 0.8,
-    "clear_n": 289
+    "clear_n": 288
    },
    {
     "status": "In Stage",
-    "open": 40,
-    "med_age": 6.4,
+    "open": 39,
+    "med_age": 5.9,
     "max_age": 13.8,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 18,
+    "over": 17,
     "clear_med": 1.1,
     "clear_n": 491
    },
@@ -515,15 +515,15 @@
    },
    {
     "status": "PR Created",
-    "open": 16,
-    "med_age": 4.0,
+    "open": 17,
+    "med_age": 2.0,
     "max_age": 16.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 7,
     "clear_med": 0.0,
-    "clear_n": 818
+    "clear_n": 816
    },
    {
     "status": "PR Merged",
@@ -535,10 +535,10 @@
     "worst_who": "Ivan Yarymovych",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 773
+    "clear_n": 771
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -546,8 +546,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 24
+    "clear_med": 3.3,
+    "clear_n": 2
    },
    {
     "status": "In QA",
@@ -562,7 +562,7 @@
     "clear_n": 56
    },
    {
-    "status": "Ready for Stage",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -570,16 +570,16 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 2
+    "clear_med": 0.1,
+    "clear_n": 24
    }
   ],
   "parked": {
-   "Backlog": 67,
+   "Backlog": 68,
    "On Hold": 28
   },
-  "open_total": 148,
-  "stale": 85,
+  "open_total": 146,
+  "stale": 84,
   "worst": "In Development"
  }
 }
