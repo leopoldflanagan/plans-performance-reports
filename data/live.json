@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T13:04:20Z",
+ "generated": "2026-11-19T13:32:57Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -360,7 +360,7 @@
   "completed": 217,
   "scope_change": 36,
   "vs_commitment": 92,
-  "time_elapsed": 72,
+  "time_elapsed": 73,
   "spill": {
    "open_items": 36,
    "open_pts": 99.0,
@@ -492,7 +492,7 @@
    {
     "status": "In Stage",
     "open": 40,
-    "med_age": 6.3,
+    "med_age": 6.4,
     "max_age": 13.8,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -517,7 +517,7 @@
     "status": "PR Created",
     "open": 16,
     "med_age": 4.0,
-    "max_age": 16.5,
+    "max_age": 16.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -575,8 +575,8 @@
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 67
+   "Backlog": 67,
+   "On Hold": 28
   },
   "open_total": 148,
   "stale": 85,
