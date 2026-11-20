@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T09:32:44Z",
+ "generated": "2026-11-20T10:04:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -475,7 +475,7 @@
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 22.6,
+    "med_age": 22.7,
     "max_age": 48.7,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
@@ -511,8 +511,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 35.3,
-    "max_age": 42.6,
+    "med_age": 35.4,
+    "max_age": 42.7,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -531,18 +531,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 727
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
    },
    {
     "status": "In QA",
@@ -567,11 +555,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 1
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
    }
   ],
   "parked": {
-   "Backlog": 105,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 105
   },
   "open_total": 145,
   "stale": 78,
