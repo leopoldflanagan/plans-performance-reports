@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T14:33:08Z",
+ "generated": "2026-11-20T15:04:01Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -348,7 +348,7 @@
   "completed": 219,
   "scope_change": 43,
   "vs_commitment": 92,
-  "time_elapsed": 80,
+  "time_elapsed": 81,
   "spill": {
    "open_items": 39,
    "open_pts": 113.0,
@@ -437,8 +437,8 @@
   "end": "2026-11-22",
   "day": 26,
   "days": 28,
-  "closed": 471,
-  "points": 1007,
+  "closed": 472,
+  "points": 1012,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -460,18 +460,18 @@
     "status": "In Development",
     "open": 48,
     "med_age": 22.1,
-    "max_age": 23.1,
+    "max_age": 23.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
-    "over": 32,
+    "over": 33,
     "clear_med": 0.1,
     "clear_n": 683
    },
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 22.8,
+    "med_age": 22.9,
     "max_age": 48.9,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
@@ -507,7 +507,7 @@
    {
     "status": "PR Created",
     "open": 6,
-    "med_age": 8.9,
+    "med_age": 9.0,
     "max_age": 17.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -527,18 +527,6 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 728
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 51
    },
    {
     "status": "Ready for Stage",
@@ -563,6 +551,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 25
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 51
    }
   ],
   "parked": {
@@ -570,7 +570,7 @@
    "On Hold": 28
   },
   "open_total": 146,
-  "stale": 81,
+  "stale": 82,
   "worst": "In Development"
  }
 }

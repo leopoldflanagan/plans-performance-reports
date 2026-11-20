@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 471,
+  "closed": 472,
   "discarded": 4,
-  "resolved": 475,
+  "resolved": 476,
   "unplanned": null,
   "unp_pct": null,
   "types": [
    [
     "Story",
-    330
+    331
    ],
    [
     "Bug",
@@ -43,10 +43,10 @@
   "day": 20,
   "days": 28,
   "status": "risk",
-  "headline": "471 items closed in the first 20 days, a pace of about 659 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "472 items closed in the first 20 days, a pace of about 661 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 5.8d and average 11.0d, both past the healthy band"
+   "cycle time median 5.8d and average 11.1d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -188,10 +188,10 @@
    "Nov 9",
    "Nov 23",
    404,
-   66,
+   67,
    272,
    417,
-   213,
+   218,
    53,
    [
     240.0,
@@ -205,7 +205,7 @@
     217.0,
     209.0,
     201.0,
-    201.0
+    196.0
    ],
    [
     265.0,
@@ -286,12 +286,12 @@
   },
   "Plans Pod 2-Sprint 26-26": {
    "done": [
-    66,
-    204
+    67,
+    209
    ],
    "open": [
-    136,
-    193
+    135,
+    188
    ],
    "out": [
     10,
@@ -626,8 +626,8 @@
      "med": 5.51
     },
     "Ready Prod": {
-     "n": 53,
-     "med": 10.34
+     "n": 54,
+     "med": 10.33
     },
     "PR Created": {
      "n": 89,
@@ -671,10 +671,10 @@
     "In Progress": 15,
     "In Development": 3,
     "Ready for Development": 10,
-    "In Stage": 34,
+    "In Stage": 33,
     "Done": 63,
     "Closed": 16,
-    "Ready Prod": 51,
+    "Ready Prod": 52,
     "On Hold": 9,
     "Backlog": 81,
     "Blocked": 1,
@@ -683,7 +683,7 @@
     "Will Not Implement": 1,
     "PR Merged": 1
    },
-   "stalled": 336,
+   "stalled": 335,
    "worst": 13.43,
    "worstSt": "To Do",
    "items": 404
@@ -752,25 +752,25 @@
    218.0,
    210.0,
    202.0,
-   202.0
+   197.0
   ]
  },
  "CAP": {
   "9.10": [
-   471,
-   322,
-   1007,
+   472,
+   323,
+   1012,
    24
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 5.8,
-   "avg": 10.99,
-   "n": 281,
+   "med": 5.83,
+   "avg": 11.06,
+   "n": 282,
    "mx": 92.49,
    "nodev": 190,
-   "base": 471
+   "base": 472
   }
  },
  "complete": false,
