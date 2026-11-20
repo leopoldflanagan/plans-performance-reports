@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T20:04:01Z",
+ "generated": "2026-11-20T20:32:18Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -439,8 +439,8 @@
   "end": "2026-11-22",
   "day": 26,
   "days": 28,
-  "closed": 473,
-  "points": 1012,
+  "closed": 474,
+  "points": 1015,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -472,15 +472,15 @@
    },
    {
     "status": "In Stage",
-    "open": 60,
-    "med_age": 2.7,
+    "open": 59,
+    "med_age": 2.2,
     "max_age": 15.1,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 21,
+    "over": 20,
     "clear_med": 1.0,
-    "clear_n": 449
+    "clear_n": 450
    },
    {
     "status": "WAITING REVIEW",
@@ -498,7 +498,7 @@
     "status": "PR Created",
     "open": 6,
     "med_age": 9.2,
-    "max_age": 17.8,
+    "max_age": 17.9,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -531,18 +531,6 @@
     "clear_n": 736
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -553,6 +541,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 51
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
    },
    {
     "status": "Ready for Stage",
@@ -568,11 +568,11 @@
    }
   ],
   "parked": {
-   "Backlog": 69,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 69
   },
-  "open_total": 184,
-  "stale": 90,
+  "open_total": 183,
+  "stale": 89,
   "worst": "In Development"
  }
 }
