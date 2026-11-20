@@ -618,8 +618,8 @@
      "med": 3.53
     },
     "Done": {
-     "n": 65,
-     "med": 10.52
+     "n": 66,
+     "med": 10.51
     },
     "Closed": {
      "n": 16,
@@ -668,11 +668,11 @@
    },
    "dist": {
     "To Do": 116,
-    "In Progress": 15,
+    "In Progress": 14,
     "In Development": 3,
     "Ready for Development": 10,
     "In Stage": 34,
-    "Done": 63,
+    "Done": 64,
     "Closed": 16,
     "Ready Prod": 52,
     "On Hold": 9,
@@ -682,7 +682,7 @@
     "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 334,
+   "stalled": 333,
    "worst": 13.43,
    "worstSt": "To Do",
    "items": 404
