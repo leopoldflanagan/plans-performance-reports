@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T14:04:21Z",
+ "generated": "2026-11-20T14:33:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -364,8 +364,8 @@
   },
   "spill_rate": 35,
   "dist": {
-   "In Development": 5,
-   "PR Merged": 5,
+   "In Development": 4,
+   "PR Merged": 6,
    "Done": 44,
    "In Stage": 24,
    "In Progress": 8,
@@ -458,7 +458,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 49,
+    "open": 48,
     "med_age": 22.1,
     "max_age": 23.1,
     "worst_key": "PLANS-24785",
@@ -466,13 +466,13 @@
     "worst_who": "Mykyta  Moroz",
     "over": 32,
     "clear_med": 0.1,
-    "clear_n": 682
+    "clear_n": 683
    },
    {
     "status": "Ready for Development",
     "open": 31,
     "med_age": 22.8,
-    "max_age": 48.8,
+    "max_age": 48.9,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
     "worst_who": "unassigned",
@@ -483,8 +483,8 @@
    {
     "status": "In Stage",
     "open": 51,
-    "med_age": 3.8,
-    "max_age": 14.8,
+    "med_age": 3.9,
+    "max_age": 14.9,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -496,7 +496,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 35.5,
-    "max_age": 42.8,
+    "max_age": 42.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -506,20 +506,20 @@
    },
    {
     "status": "PR Created",
-    "open": 7,
-    "med_age": 8.7,
+    "open": 6,
+    "med_age": 8.9,
     "max_age": 17.6,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 771
+    "clear_n": 773
    },
    {
     "status": "PR Merged",
-    "open": 6,
-    "med_age": 0.5,
+    "open": 8,
+    "med_age": 0.2,
     "max_age": 0.9,
     "worst_key": "PLANS-25412",
     "worst_sum": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the ",
@@ -527,6 +527,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 728
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 51
    },
    {
     "status": "Ready for Stage",
@@ -551,23 +563,11 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 25
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 51
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 104
+   "Backlog": 104,
+   "On Hold": 28
   },
   "open_total": 146,
   "stale": 81,
