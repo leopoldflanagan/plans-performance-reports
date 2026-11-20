@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T21:03:33Z",
+ "generated": "2026-11-20T21:32:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -348,7 +348,7 @@
   "completed": 220,
   "scope_change": 43,
   "vs_commitment": 93,
-  "time_elapsed": 82,
+  "time_elapsed": 83,
   "spill": {
    "open_items": 38,
    "open_pts": 112.0,
@@ -474,11 +474,11 @@
     "status": "In Stage",
     "open": 58,
     "med_age": 2.2,
-    "max_age": 15.1,
+    "max_age": 15.2,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
-    "over": 20,
+    "over": 21,
     "clear_med": 1.0,
     "clear_n": 451
    },
@@ -510,25 +510,13 @@
     "status": "Ready for Development",
     "open": 69,
     "med_age": 0.2,
-    "max_age": 49.1,
+    "max_age": 49.2,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
     "clear_n": 276
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 1
    },
    {
     "status": "In PreProd",
@@ -555,6 +543,18 @@
     "clear_n": 51
    },
    {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 1
+   },
+   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -568,11 +568,11 @@
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 66
+   "Backlog": 66,
+   "On Hold": 28
   },
   "open_total": 181,
-  "stale": 89,
+  "stale": 90,
   "worst": "In Development"
  }
 }
