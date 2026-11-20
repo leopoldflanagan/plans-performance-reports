@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T08:05:52Z",
+ "generated": "2026-11-20T08:32:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 83,
-   "sprint": 104,
+   "sprint": 105,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
@@ -213,20 +213,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 4,
+    "n": 1,
     "items": [
-     {
-      "key": "PLANS-25519",
-      "summary": "PLANS-25519: Stage: SGDP: Purchase step 3: the embedded payment widget fields do"
-     },
-     {
-      "key": "PLANS-25518",
-      "summary": "PLANS-25518: Stage: SGDP: Purchase flow dialogs still use the default blue butto"
-     },
-     {
-      "key": "PLANS-25452",
-      "summary": "PLANS-25452: Stage: SGDP: Plan card: price is rendered lighter than on Prod"
-     },
      {
       "key": "PLANS-23835",
       "summary": "Duplicate External ID for a member"
@@ -276,14 +264,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 180 of 186 items. This reads as a field the team does not use rather than 180 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 180,
+    "why": "missing on 181 of 187 items. This reads as a field the team does not use rather than 181 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 181,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 186 of 186 items. This reads as a field the team does not use rather than 186 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 186,
+    "why": "missing on 187 of 187 items. This reads as a field the team does not use rather than 187 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 187,
     "items": []
    },
    {
@@ -353,17 +341,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 172,
+  "items": 173,
   "items_done": 64,
   "committed": 237,
-  "final": 328,
+  "final": 331,
   "completed": 219,
-  "scope_change": 38,
+  "scope_change": 40,
   "vs_commitment": 92,
   "time_elapsed": 78,
   "spill": {
-   "open_items": 37,
-   "open_pts": 103.0,
+   "open_items": 38,
+   "open_pts": 106.0,
    "out_items": 2,
    "out_pts": 2.0,
    "done_pts": 218.0
@@ -376,11 +364,10 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 4,
+   "In Development": 7,
    "Done": 44,
    "In Stage": 24,
    "In Progress": 8,
-   "In Development": 3,
    "PR Merged": 2,
    "To Do": 14,
    "Closed": 18,
@@ -389,6 +376,7 @@
    "PR Created": 1,
    "WAITING REVIEW": 2,
    "Ready for Development": 1,
+   "Backlog": 1,
    "Will Not Implement": 1
   },
   "burn": [
@@ -403,7 +391,7 @@
    112.0,
    99.0,
    103.0,
-   109.0
+   112.0
   ],
   "scope": [
    204.0,
@@ -417,7 +405,7 @@
    310.0,
    316.0,
    322.0,
-   328.0
+   331.0
   ],
   "ghost": [
    201.0,
@@ -431,7 +419,7 @@
    112.0,
    99.0,
    103.0,
-   109.0
+   112.0
   ],
   "days": 14,
   "day": 12
@@ -470,7 +458,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 47,
+    "open": 51,
     "med_age": 21.8,
     "max_age": 22.9,
     "worst_key": "PLANS-24785",
@@ -478,7 +466,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 30,
     "clear_med": 0.1,
-    "clear_n": 681
+    "clear_n": 680
    },
    {
     "status": "Ready for Development",
@@ -502,7 +490,7 @@
     "worst_who": "Valentyna Tenus",
     "over": 15,
     "clear_med": 1.0,
-    "clear_n": 455
+    "clear_n": 454
    },
    {
     "status": "WAITING REVIEW",
@@ -519,26 +507,26 @@
    {
     "status": "PR Created",
     "open": 8,
-    "med_age": 8.4,
-    "max_age": 17.3,
+    "med_age": 8.5,
+    "max_age": 17.4,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
-    "clear_n": 769
+    "clear_n": 768
    },
    {
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.5,
-    "max_age": 0.6,
+    "max_age": 0.7,
     "worst_key": "PLANS-25412",
     "worst_sum": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the ",
     "worst_who": "Nazarii  Polinyk",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 729
+    "clear_n": 728
    },
    {
     "status": "Ready for Stage",
@@ -578,10 +566,10 @@
    }
   ],
   "parked": {
-   "Backlog": 107,
+   "Backlog": 104,
    "On Hold": 28
   },
-  "open_total": 141,
+  "open_total": 145,
   "stale": 78,
   "worst": "In Development"
  }
