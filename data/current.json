@@ -287,11 +287,11 @@
   "Plans Pod 2-Sprint 26-26": {
    "done": [
     67,
-    204
+    209
    ],
    "open": [
-    136,
-    193
+    135,
+    188
    ],
    "out": [
     10,
@@ -514,11 +514,11 @@
      "med": 0.1
     },
     "PR Created": {
-     "n": 92,
+     "n": 93,
      "med": 0.06
     },
     "PR Merged": {
-     "n": 89,
+     "n": 90,
      "med": 0.0
     },
     "To Do": {
@@ -571,11 +571,11 @@
     }
    },
    "dist": {
-    "In Development": 4,
-    "PR Merged": 6,
+    "PR Merged": 7,
     "Done": 44,
     "In Stage": 25,
     "In Progress": 8,
+    "In Development": 3,
     "To Do": 14,
     "Closed": 18,
     "Ready Prod": 46,
@@ -626,8 +626,8 @@
      "med": 5.51
     },
     "Ready Prod": {
-     "n": 54,
-     "med": 10.33
+     "n": 55,
+     "med": 10.32
     },
     "PR Created": {
      "n": 90,
@@ -671,10 +671,10 @@
     "In Progress": 15,
     "In Development": 3,
     "Ready for Development": 10,
-    "In Stage": 34,
+    "In Stage": 33,
     "Done": 63,
     "Closed": 16,
-    "Ready Prod": 51,
+    "Ready Prod": 52,
     "On Hold": 9,
     "Backlog": 81,
     "Blocked": 1,

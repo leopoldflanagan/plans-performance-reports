@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T15:33:00Z",
+ "generated": "2026-11-20T16:04:20Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -364,11 +364,11 @@
   },
   "spill_rate": 35,
   "dist": {
-   "In Development": 4,
-   "PR Merged": 6,
+   "PR Merged": 7,
    "Done": 44,
    "In Stage": 24,
    "In Progress": 8,
+   "In Development": 3,
    "To Do": 14,
    "Closed": 18,
    "Ready Prod": 46,
@@ -458,15 +458,15 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 48,
-    "med_age": 22.1,
+    "open": 47,
+    "med_age": 22.2,
     "max_age": 23.2,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
     "over": 33,
     "clear_med": 0.1,
-    "clear_n": 683
+    "clear_n": 684
    },
    {
     "status": "Ready for Development",
@@ -506,39 +506,27 @@
    },
    {
     "status": "PR Created",
-    "open": 6,
-    "med_age": 9.0,
+    "open": 7,
+    "med_age": 8.8,
     "max_age": 17.7,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 6,
     "clear_med": 0.0,
-    "clear_n": 773
+    "clear_n": 774
    },
    {
     "status": "PR Merged",
     "open": 8,
     "med_age": 0.2,
-    "max_age": 0.9,
+    "max_age": 1.0,
     "worst_key": "PLANS-25412",
     "worst_sum": "Smile Health directory: PDS offices are no longer hidden from the ZIP search, because the ",
     "worst_who": "Nazarii  Polinyk",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 728
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
+    "clear_n": 729
    },
    {
     "status": "In QA",
@@ -563,11 +551,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 1
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 104
+   "Backlog": 104,
+   "On Hold": 28
   },
   "open_total": 146,
   "stale": 83,
