@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T05:04:04Z",
+ "generated": "2026-11-20T05:32:58Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -352,7 +352,7 @@
   "completed": 219,
   "scope_change": 36,
   "vs_commitment": 92,
-  "time_elapsed": 77,
+  "time_elapsed": 78,
   "spill": {
    "open_items": 35,
    "open_pts": 97.0,
@@ -464,7 +464,7 @@
     "status": "In Development",
     "open": 47,
     "med_age": 21.7,
-    "max_age": 22.7,
+    "max_age": 22.8,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -475,7 +475,7 @@
    {
     "status": "Ready for Development",
     "open": 31,
-    "med_age": 22.4,
+    "med_age": 22.5,
     "max_age": 48.5,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
@@ -570,8 +570,8 @@
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 105
+   "Backlog": 105,
+   "On Hold": 28
   },
   "open_total": 141,
   "stale": 78,
