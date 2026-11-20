@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T09:04:35Z",
+ "generated": "2026-11-20T09:32:44Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 83,
-   "sprint": 105,
+   "sprint": 106,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
@@ -213,8 +213,12 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 1,
+    "n": 2,
     "items": [
+     {
+      "key": "PLANS-25521",
+      "summary": "PLANS-25521: Stage: SGDP: Home page: the three plan cards no longer fit on one r"
+     },
      {
       "key": "PLANS-23835",
       "summary": "Duplicate External ID for a member"
@@ -264,14 +268,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 181 of 187 items. This reads as a field the team does not use rather than 181 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 181,
+    "why": "missing on 182 of 188 items. This reads as a field the team does not use rather than 182 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 182,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 187 of 187 items. This reads as a field the team does not use rather than 187 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 187,
+    "why": "missing on 188 of 188 items. This reads as a field the team does not use rather than 188 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 188,
     "items": []
    },
    {
@@ -341,17 +345,17 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 173,
+  "items": 174,
   "items_done": 64,
   "committed": 237,
-  "final": 333,
+  "final": 338,
   "completed": 219,
-  "scope_change": 41,
+  "scope_change": 43,
   "vs_commitment": 92,
   "time_elapsed": 79,
   "spill": {
-   "open_items": 38,
-   "open_pts": 108.0,
+   "open_items": 39,
+   "open_pts": 113.0,
    "out_items": 2,
    "out_pts": 2.0,
    "done_pts": 218.0
@@ -364,7 +368,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 7,
+   "Backlog": 2,
+   "PR Created": 2,
+   "In Development": 6,
    "Done": 44,
    "In Stage": 24,
    "In Progress": 8,
@@ -373,10 +379,8 @@
    "Closed": 18,
    "Ready Prod": 46,
    "On Hold": 2,
-   "PR Created": 1,
    "WAITING REVIEW": 2,
    "Ready for Development": 1,
-   "Backlog": 1,
    "Will Not Implement": 1
   },
   "burn": [
@@ -391,7 +395,7 @@
    112.0,
    99.0,
    103.0,
-   114.0
+   119.0
   ],
   "scope": [
    204.0,
@@ -405,7 +409,7 @@
    310.0,
    316.0,
    322.0,
-   333.0
+   338.0
   ],
   "ghost": [
    201.0,
@@ -419,7 +423,7 @@
    112.0,
    99.0,
    103.0,
-   114.0
+   119.0
   ],
   "days": 14,
   "day": 12
@@ -458,7 +462,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 51,
+    "open": 50,
     "med_age": 21.9,
     "max_age": 22.9,
     "worst_key": "PLANS-24785",
@@ -472,7 +476,7 @@
     "status": "Ready for Development",
     "open": 31,
     "med_age": 22.6,
-    "max_age": 48.6,
+    "max_age": 48.7,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
     "worst_who": "unassigned",
@@ -484,13 +488,25 @@
     "status": "In Stage",
     "open": 50,
     "med_age": 3.7,
-    "max_age": 14.6,
+    "max_age": 14.7,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
     "over": 15,
     "clear_med": 1.0,
-    "clear_n": 454
+    "clear_n": 453
+   },
+   {
+    "status": "PR Created",
+    "open": 9,
+    "med_age": 8.5,
+    "max_age": 17.4,
+    "worst_key": "PLANS-24113",
+    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
+    "worst_who": "Oleksandr Terletskyy",
+    "over": 5,
+    "clear_med": 0.0,
+    "clear_n": 767
    },
    {
     "status": "WAITING REVIEW",
@@ -505,18 +521,6 @@
     "clear_n": 22
    },
    {
-    "status": "PR Created",
-    "open": 8,
-    "med_age": 8.5,
-    "max_age": 17.4,
-    "worst_key": "PLANS-24113",
-    "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
-    "worst_who": "Oleksandr Terletskyy",
-    "over": 5,
-    "clear_med": 0.0,
-    "clear_n": 768
-   },
-   {
     "status": "PR Merged",
     "open": 3,
     "med_age": 0.6,
@@ -526,7 +530,7 @@
     "worst_who": "Nazarii  Polinyk",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 728
+    "clear_n": 727
    },
    {
     "status": "In PreProd",
@@ -566,8 +570,8 @@
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 104
+   "Backlog": 105,
+   "On Hold": 28
   },
   "open_total": 145,
   "stale": 78,
