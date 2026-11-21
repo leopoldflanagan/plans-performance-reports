@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T07:04:04Z",
+ "generated": "2026-11-21T07:32:24Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -348,7 +348,7 @@
   "completed": 222,
   "scope_change": 42,
   "vs_commitment": 93,
-  "time_elapsed": 85,
+  "time_elapsed": 86,
   "spill": {
    "open_items": 39,
    "open_pts": 114.0,
@@ -474,7 +474,7 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 3.1,
-    "max_age": 15.5,
+    "max_age": 15.6,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -486,7 +486,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 36.2,
-    "max_age": 43.5,
+    "max_age": 43.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -519,7 +519,7 @@
     "clear_n": 268
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -527,8 +527,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 49
+    "clear_med": 0.1,
+    "clear_n": 25
    },
    {
     "status": "Ready for Stage",
@@ -543,18 +543,6 @@
     "clear_n": 1
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
-   },
-   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -565,11 +553,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 722
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 49
    }
   ],
   "parked": {
-   "Backlog": 78,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 78
   },
   "open_total": 179,
   "stale": 89,
