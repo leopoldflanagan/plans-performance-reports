@@ -271,11 +271,11 @@
   "Plans Pod 1-Sprint 26-26": {
    "done": [
     65,
-    219
+    217
    ],
    "open": [
-    38,
-    112
+    39,
+    114
    ],
    "out": [
     2,
@@ -409,10 +409,10 @@
    },
    "dist": {
     "Done": 147,
-    "To Do": 80,
+    "To Do": 79,
     "Ready Prod": 45,
     "Closed": 79,
-    "In Progress": 6,
+    "In Progress": 7,
     "In Stage": 5,
     "On Hold": 9,
     "In Development": 1,
@@ -496,7 +496,8 @@
     "Ready Prod": 44,
     "To Do": 6,
     "On Hold": 1,
-    "Closed": 35,
+    "Closed": 34,
+    "In Development": 1,
     "Ready for Development": 1,
     "Backlog": 1,
     "WAITING REVIEW": 1,
@@ -514,8 +515,8 @@
      "med": 0.15
     },
     "In Development": {
-     "n": 78,
-     "med": 0.1
+     "n": 79,
+     "med": 0.11
     },
     "PR Created": {
      "n": 94,
@@ -578,8 +579,8 @@
     "In Stage": 32,
     "Done": 44,
     "In Progress": 10,
-    "In Development": 2,
-    "Closed": 19,
+    "In Development": 3,
+    "Closed": 18,
     "To Do": 12,
     "Ready Prod": 46,
     "On Hold": 2,
@@ -601,7 +602,7 @@
      "med": 13.43
     },
     "In Progress": {
-     "n": 57,
+     "n": 58,
      "med": 0.86
     },
     "Backlog": {
@@ -670,8 +671,8 @@
     }
    },
    "dist": {
-    "To Do": 134,
-    "In Progress": 12,
+    "To Do": 133,
+    "In Progress": 13,
     "In Development": 3,
     "In Stage": 36,
     "Ready for Development": 10,
@@ -685,7 +686,7 @@
     "READY DEPLOYMENT": 1,
     "Will Not Implement": 1
    },
-   "stalled": 347,
+   "stalled": 346,
    "worst": 13.43,
    "worstSt": "To Do",
    "items": 426

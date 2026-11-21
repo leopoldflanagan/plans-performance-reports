@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T00:10:38Z",
+ "generated": "2026-11-21T00:45:16Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -348,13 +348,13 @@
   "completed": 220,
   "scope_change": 43,
   "vs_commitment": 93,
-  "time_elapsed": 83,
+  "time_elapsed": 84,
   "spill": {
-   "open_items": 38,
-   "open_pts": 112.0,
+   "open_items": 39,
+   "open_pts": 114.0,
    "out_items": 2,
    "out_pts": 2.0,
-   "done_pts": 219.0
+   "done_pts": 217.0
   },
   "recv": {
    "items": 14,
@@ -362,13 +362,13 @@
    "pct": 11,
    "from": "Plans-Sprint 25-26"
   },
-  "spill_rate": 34,
+  "spill_rate": 35,
   "dist": {
    "In Stage": 31,
    "Done": 44,
    "In Progress": 10,
-   "In Development": 2,
-   "Closed": 19,
+   "In Development": 3,
+   "Closed": 18,
    "To Do": 12,
    "Ready Prod": 46,
    "On Hold": 2,
@@ -460,9 +460,9 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 46,
+    "open": 47,
     "med_age": 22.5,
-    "max_age": 23.5,
+    "max_age": 23.6,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -473,7 +473,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 2.8,
+    "med_age": 2.9,
     "max_age": 15.3,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -497,7 +497,7 @@
    {
     "status": "PR Created",
     "open": 5,
-    "med_age": 9.6,
+    "med_age": 9.7,
     "max_age": 18.0,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -519,7 +519,7 @@
     "clear_n": 269
    },
    {
-    "status": "Ready for Stage",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -528,7 +528,7 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 1
+    "clear_n": 722
    },
    {
     "status": "In QA",
@@ -543,7 +543,7 @@
     "clear_n": 50
    },
    {
-    "status": "PR Merged",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -552,7 +552,7 @@
     "worst_who": "",
     "over": 0,
     "clear_med": 0.0,
-    "clear_n": 722
+    "clear_n": 1
    },
    {
     "status": "In PreProd",
@@ -568,10 +568,10 @@
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 78
+   "Backlog": 78,
+   "On Hold": 28
   },
-  "open_total": 178,
+  "open_total": 179,
   "stale": 89,
   "worst": "In Development"
  }
