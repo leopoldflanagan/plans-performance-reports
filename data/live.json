@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T00:45:16Z",
+ "generated": "2026-11-21T01:04:25Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -55,11 +55,11 @@
   "day": 13,
   "days": 14,
   "n": 21,
-  "done_now": 220,
-  "committed": 237,
-  "lo": 228,
-  "mid": 237,
-  "hi": 261,
+  "done_now": 222,
+  "committed": 239,
+  "lo": 230,
+  "mid": 239,
+  "hi": 264,
   "pct": 100,
   "verdict": "on track for the commitment",
   "share_mid": 0.928
@@ -67,7 +67,7 @@
  "admin": {
   "scope": {
    "ready": 121,
-   "sprint": 106,
+   "sprint": 107,
    "sprint_name": "Plans Pod 1-Sprint 26-26"
   },
   "blocking": [
@@ -264,14 +264,14 @@
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 220 of 226 items. This reads as a field the team does not use rather than 220 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 220,
+    "why": "missing on 221 of 227 items. This reads as a field the team does not use rather than 221 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 221,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 226 of 226 items. This reads as a field the team does not use rather than 226 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 226,
+    "why": "missing on 227 of 227 items. This reads as a field the team does not use rather than 227 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 227,
     "items": []
    },
    {
@@ -341,12 +341,12 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "Complete subscription plan servicing (cancel, refund, plan/tier/primary changes) and PMP payment-date fixes, mask bank data in CSP, and close the 25-26 spillover bugs for R9.10.",
-  "items": 174,
-  "items_done": 65,
-  "committed": 237,
-  "final": 338,
-  "completed": 220,
-  "scope_change": 43,
+  "items": 175,
+  "items_done": 66,
+  "committed": 239,
+  "final": 340,
+  "completed": 222,
+  "scope_change": 42,
   "vs_commitment": 93,
   "time_elapsed": 84,
   "spill": {
@@ -354,21 +354,21 @@
    "open_pts": 114.0,
    "out_items": 2,
    "out_pts": 2.0,
-   "done_pts": 217.0
+   "done_pts": 219.0
   },
   "recv": {
    "items": 14,
    "pts": 25,
-   "pct": 11,
+   "pct": 10,
    "from": "Plans-Sprint 25-26"
   },
   "spill_rate": 35,
   "dist": {
+   "Closed": 19,
    "In Stage": 31,
    "Done": 44,
    "In Progress": 10,
    "In Development": 3,
-   "Closed": 18,
    "To Do": 12,
    "Ready Prod": 46,
    "On Hold": 2,
@@ -379,48 +379,48 @@
    "Will Not Implement": 1
   },
   "burn": [
-   201.0,
-   209.0,
-   205.0,
+   203.0,
+   211.0,
+   207.0,
+   190.0,
+   157.0,
+   182.0,
+   182.0,
    188.0,
-   155.0,
-   180.0,
-   180.0,
-   186.0,
-   112.0,
-   99.0,
-   103.0,
-   119.0,
+   114.0,
+   101.0,
+   105.0,
+   121.0,
    118.0
   ],
   "scope": [
-   204.0,
-   237.0,
-   254.0,
-   262.0,
-   262.0,
-   287.0,
-   287.0,
-   293.0,
-   310.0,
-   316.0,
-   322.0,
-   338.0,
-   338.0
+   206.0,
+   239.0,
+   256.0,
+   264.0,
+   264.0,
+   289.0,
+   289.0,
+   295.0,
+   312.0,
+   318.0,
+   324.0,
+   340.0,
+   340.0
   ],
   "ghost": [
-   201.0,
-   209.0,
-   205.0,
+   203.0,
+   211.0,
+   207.0,
+   190.0,
+   157.0,
+   182.0,
+   182.0,
    188.0,
-   155.0,
-   180.0,
-   180.0,
-   186.0,
-   112.0,
-   99.0,
-   103.0,
-   119.0,
+   114.0,
+   101.0,
+   105.0,
+   121.0,
    118.0
   ],
   "days": 14,
@@ -439,8 +439,8 @@
   "end": "2026-11-22",
   "day": 27,
   "days": 28,
-  "closed": 481,
-  "points": 1028,
+  "closed": 482,
+  "points": 1030,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -516,31 +516,7 @@
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
-    "clear_n": 269
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 722
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 50
+    "clear_n": 268
    },
    {
     "status": "Ready for Stage",
@@ -555,6 +531,18 @@
     "clear_n": 1
    },
    {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 722
+   },
+   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -565,6 +553,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 25
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 49
    }
   ],
   "parked": {

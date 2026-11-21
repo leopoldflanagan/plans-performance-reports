@@ -9,9 +9,9 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 518,
-  "closed": 481,
+  "closed": 482,
   "discarded": 4,
-  "resolved": 485,
+  "resolved": 486,
   "unplanned": null,
   "unp_pct": null,
   "types": [
@@ -25,7 +25,7 @@
    ],
    [
     "TechDebt",
-    6
+    7
    ],
    [
     "Spike",
@@ -43,10 +43,10 @@
   "day": 21,
   "days": 28,
   "status": "risk",
-  "headline": "481 items closed in the first 21 days, a pace of about 641 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "482 items closed in the first 21 days, a pace of about 643 for the month against 518 last month. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
    "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 5.8d and average 11.0d, both past the healthy band"
+   "cycle time median 5.6d and average 10.9d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -148,41 +148,41 @@
    "Plans Pod 1-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   174,
-   65,
-   237,
-   338,
-   220,
-   43,
+   175,
+   66,
+   239,
+   340,
+   222,
+   42,
    [
-    201.0,
-    209.0,
-    205.0,
+    203.0,
+    211.0,
+    207.0,
+    190.0,
+    157.0,
+    182.0,
+    182.0,
     188.0,
-    155.0,
-    180.0,
-    180.0,
-    186.0,
-    112.0,
-    99.0,
-    103.0,
-    119.0,
+    114.0,
+    101.0,
+    105.0,
+    121.0,
     118.0
    ],
    [
-    204.0,
-    237.0,
-    254.0,
-    262.0,
-    262.0,
-    287.0,
-    287.0,
-    293.0,
-    310.0,
-    316.0,
-    322.0,
-    338.0,
-    338.0
+    206.0,
+    239.0,
+    256.0,
+    264.0,
+    264.0,
+    289.0,
+    289.0,
+    295.0,
+    312.0,
+    318.0,
+    324.0,
+    340.0,
+    340.0
    ]
   ],
   [
@@ -270,8 +270,8 @@
   },
   "Plans Pod 1-Sprint 26-26": {
    "done": [
-    65,
-    217
+    66,
+    219
    ],
    "open": [
     39,
@@ -285,7 +285,7 @@
     14,
     25
    ],
-   "in_pct": 11,
+   "in_pct": 10,
    "in_from": "Plans-Sprint 25-26"
   },
   "Plans Pod 2-Sprint 26-26": {
@@ -511,24 +511,32 @@
   "Plans Pod 1-Sprint 26-26": {
    "tis": {
     "Backlog": {
-     "n": 49,
-     "med": 0.15
+     "n": 50,
+     "med": 0.16
     },
     "In Development": {
-     "n": 79,
-     "med": 0.11
+     "n": 80,
+     "med": 0.1
     },
     "PR Created": {
-     "n": 94,
+     "n": 95,
      "med": 0.06
     },
     "PR Merged": {
-     "n": 91,
+     "n": 92,
      "med": 0.0
     },
     "In Stage": {
-     "n": 87,
+     "n": 88,
      "med": 1.84
+    },
+    "Ready Prod": {
+     "n": 48,
+     "med": 6.42
+    },
+    "Closed": {
+     "n": 20,
+     "med": 9.48
     },
     "To Do": {
      "n": 50,
@@ -546,17 +554,9 @@
      "n": 36,
      "med": 0.7
     },
-    "Closed": {
-     "n": 19,
-     "med": 9.48
-    },
     "In QA": {
      "n": 3,
      "med": 0.0
-    },
-    "Ready Prod": {
-     "n": 47,
-     "med": 6.42
     },
     "On Hold": {
      "n": 4,
@@ -576,11 +576,11 @@
     }
    },
    "dist": {
+    "Closed": 19,
     "In Stage": 32,
     "Done": 44,
     "In Progress": 10,
     "In Development": 3,
-    "Closed": 18,
     "To Do": 12,
     "Ready Prod": 46,
     "On Hold": 2,
@@ -593,7 +593,7 @@
    "stalled": 99,
    "worst": 13.45,
    "worstSt": "WAITING REVIEW",
-   "items": 174
+   "items": 175
   },
   "Plans Pod 2-Sprint 26-26": {
    "tis": {
@@ -730,18 +730,18 @@
    25.0
   ],
   "Plans Pod 1-Sprint 26-26": [
-   201.0,
-   209.0,
-   205.0,
+   203.0,
+   211.0,
+   207.0,
+   190.0,
+   157.0,
+   182.0,
+   182.0,
    188.0,
-   155.0,
-   180.0,
-   180.0,
-   186.0,
-   112.0,
-   99.0,
-   103.0,
-   119.0,
+   114.0,
+   101.0,
+   105.0,
+   121.0,
    118.0
   ],
   "Plans Pod 2-Sprint 26-26": [
@@ -762,20 +762,20 @@
  },
  "CAP": {
   "9.10": [
-   481,
-   328,
-   1028,
+   482,
+   329,
+   1030,
    24
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 5.8,
-   "avg": 10.97,
-   "n": 287,
+   "med": 5.62,
+   "avg": 10.93,
+   "n": 288,
    "mx": 92.49,
    "nodev": 194,
-   "base": 481
+   "base": 482
   }
  },
  "complete": false,
