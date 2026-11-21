@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T06:36:51Z",
+ "generated": "2026-11-21T07:04:04Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -509,8 +509,8 @@
    {
     "status": "Ready for Development",
     "open": 69,
-    "med_age": 0.5,
-    "max_age": 49.5,
+    "med_age": 0.6,
+    "max_age": 49.6,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
     "worst_who": "unassigned",
@@ -543,18 +543,6 @@
     "clear_n": 1
    },
    {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 722
-   },
-   {
     "status": "In PreProd",
     "open": 0,
     "med_age": 0,
@@ -565,6 +553,18 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 25
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 722
    }
   ],
   "parked": {
