@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T14:03:59Z",
+ "generated": "2026-11-21T14:32:40Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -474,7 +474,7 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 3.4,
-    "max_age": 15.8,
+    "max_age": 15.9,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -486,7 +486,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 36.5,
-    "max_age": 43.8,
+    "max_age": 43.9,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -498,7 +498,7 @@
     "status": "Ready for Development",
     "open": 69,
     "med_age": 0.9,
-    "max_age": 49.8,
+    "max_age": 49.9,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
     "worst_who": "unassigned",
@@ -519,7 +519,7 @@
     "clear_n": 759
    },
    {
-    "status": "In PreProd",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -527,8 +527,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
+    "clear_med": 0.0,
+    "clear_n": 722
    },
    {
     "status": "Ready for Stage",
@@ -543,7 +543,7 @@
     "clear_n": 1
    },
    {
-    "status": "PR Merged",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -551,8 +551,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 722
+    "clear_med": 0.1,
+    "clear_n": 25
    },
    {
     "status": "In QA",
@@ -568,8 +568,8 @@
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 78
+   "Backlog": 78,
+   "On Hold": 28
   },
   "open_total": 179,
   "stale": 89,
