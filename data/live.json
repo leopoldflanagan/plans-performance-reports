@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T01:04:25Z",
+ "generated": "2026-11-21T01:33:47Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -460,7 +460,7 @@
   "rows": [
    {
     "status": "In Development",
-    "open": 47,
+    "open": 46,
     "med_age": 22.5,
     "max_age": 23.6,
     "worst_key": "PLANS-24785",
@@ -468,7 +468,7 @@
     "worst_who": "Mykyta  Moroz",
     "over": 34,
     "clear_med": 0.1,
-    "clear_n": 671
+    "clear_n": 672
    },
    {
     "status": "In Stage",
@@ -496,9 +496,9 @@
    },
    {
     "status": "PR Created",
-    "open": 5,
-    "med_age": 9.7,
-    "max_age": 18.0,
+    "open": 6,
+    "med_age": 9.4,
+    "max_age": 18.1,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
@@ -519,18 +519,6 @@
     "clear_n": 268
    },
    {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 1
-   },
-   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -543,7 +531,7 @@
     "clear_n": 722
    },
    {
-    "status": "In PreProd",
+    "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -551,8 +539,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
+    "clear_med": 0.0,
+    "clear_n": 1
    },
    {
     "status": "In QA",
@@ -565,6 +553,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 49
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
    }
   ],
   "parked": {
