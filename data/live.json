@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T06:06:15Z",
+ "generated": "2026-11-21T06:36:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -461,7 +461,7 @@
    {
     "status": "In Development",
     "open": 46,
-    "med_age": 22.7,
+    "med_age": 22.8,
     "max_age": 23.8,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -519,7 +519,7 @@
     "clear_n": 268
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -527,8 +527,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
+    "clear_med": 1.8,
+    "clear_n": 49
    },
    {
     "status": "Ready for Stage",
@@ -555,7 +555,7 @@
     "clear_n": 722
    },
    {
-    "status": "In QA",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -563,13 +563,13 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 49
+    "clear_med": 0.1,
+    "clear_n": 25
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 78
+   "Backlog": 78,
+   "On Hold": 28
   },
   "open_total": 179,
   "stale": 89,
