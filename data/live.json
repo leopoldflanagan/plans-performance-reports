@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T16:32:41Z",
+ "generated": "2026-11-21T17:03:29Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -348,7 +348,7 @@
   "completed": 222,
   "scope_change": 42,
   "vs_commitment": 93,
-  "time_elapsed": 88,
+  "time_elapsed": 89,
   "spill": {
    "open_items": 39,
    "open_pts": 114.0,
@@ -474,7 +474,7 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 3.5,
-    "max_age": 15.9,
+    "max_age": 16.0,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -486,7 +486,7 @@
     "status": "WAITING REVIEW",
     "open": 2,
     "med_age": 36.6,
-    "max_age": 43.9,
+    "max_age": 44.0,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -498,7 +498,7 @@
     "status": "Ready for Development",
     "open": 69,
     "med_age": 1.0,
-    "max_age": 49.9,
+    "max_age": 50.0,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
     "worst_who": "unassigned",
@@ -519,18 +519,6 @@
     "clear_n": 759
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
-   },
-   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -541,6 +529,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 722
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
    },
    {
     "status": "Ready for Stage",
@@ -568,8 +568,8 @@
    }
   ],
   "parked": {
-   "Backlog": 78,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 78
   },
   "open_total": 179,
   "stale": 89,
