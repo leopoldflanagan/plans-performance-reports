@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T02:32:21Z",
+ "generated": "2026-11-21T03:05:12Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -462,7 +462,7 @@
     "status": "In Development",
     "open": 46,
     "med_age": 22.6,
-    "max_age": 23.6,
+    "max_age": 23.7,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -473,7 +473,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 2.9,
+    "med_age": 3.0,
     "max_age": 15.4,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -497,7 +497,7 @@
    {
     "status": "PR Created",
     "open": 6,
-    "med_age": 9.4,
+    "med_age": 9.5,
     "max_age": 18.1,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
