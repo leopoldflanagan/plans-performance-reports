@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T23:32:30Z",
+ "generated": "2026-11-21T00:10:38Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -52,17 +52,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 12,
+  "day": 13,
   "days": 14,
   "n": 21,
   "done_now": 220,
   "committed": 237,
-  "lo": 234,
-  "mid": 250,
-  "hi": 318,
-  "pct": 105,
+  "lo": 228,
+  "mid": 237,
+  "hi": 261,
+  "pct": 100,
   "verdict": "on track for the commitment",
-  "share_mid": 0.879
+  "share_mid": 0.928
  },
  "admin": {
   "scope": {
@@ -424,7 +424,7 @@
    118.0
   ],
   "days": 14,
-  "day": 12
+  "day": 13
  },
  "next": {
   "name": "Plans Pod 1-Sprint 27-26",
@@ -437,7 +437,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 26,
+  "day": 27,
   "days": 28,
   "closed": 481,
   "points": 1028,
@@ -474,7 +474,7 @@
     "status": "In Stage",
     "open": 56,
     "med_age": 2.8,
-    "max_age": 15.2,
+    "max_age": 15.3,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
     "worst_who": "Valentyna Tenus",
@@ -485,8 +485,8 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 35.9,
-    "max_age": 43.2,
+    "med_age": 36.0,
+    "max_age": 43.3,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
     "worst_who": "Nazarii  Polinyk",
@@ -510,37 +510,13 @@
     "status": "Ready for Development",
     "open": 69,
     "med_age": 0.3,
-    "max_age": 49.2,
+    "max_age": 49.3,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
     "worst_who": "unassigned",
     "over": 27,
     "clear_med": 0.8,
     "clear_n": 269
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 722
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
    },
    {
     "status": "Ready for Stage",
@@ -565,6 +541,30 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 50
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 722
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
    }
   ],
   "parked": {
