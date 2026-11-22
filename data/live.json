@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T07:32:35Z",
+ "generated": "2026-11-22T08:05:08Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -465,7 +465,7 @@
     "status": "In Development",
     "open": 46,
     "med_age": 23.8,
-    "max_age": 24.8,
+    "max_age": 24.9,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
     "worst_who": "Mykyta  Moroz",
@@ -476,7 +476,7 @@
    {
     "status": "In Stage",
     "open": 56,
-    "med_age": 4.1,
+    "med_age": 4.2,
     "max_age": 16.6,
     "worst_key": "PLANS-24945",
     "worst_sum": "Phase 3- Preprod-PMP-ACH-Add Member using ACH payment is failing",
@@ -522,7 +522,7 @@
     "clear_n": 759
    },
    {
-    "status": "PR Merged",
+    "status": "In PreProd",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -530,8 +530,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 722
+    "clear_med": 0.1,
+    "clear_n": 25
    },
    {
     "status": "Ready for Stage",
@@ -546,18 +546,6 @@
     "clear_n": 1
    },
    {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
-   },
-   {
     "status": "In QA",
     "open": 0,
     "med_age": 0,
@@ -568,6 +556,18 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 49
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 722
    }
   ],
   "parked": {
