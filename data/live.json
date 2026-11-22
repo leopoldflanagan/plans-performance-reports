@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T08:05:08Z",
+ "generated": "2026-11-22T08:33:05Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -500,7 +500,7 @@
    {
     "status": "WAITING REVIEW",
     "open": 2,
-    "med_age": 37.2,
+    "med_age": 37.3,
     "max_age": 44.6,
     "worst_key": "PLANS-24108",
     "worst_sum": "Member portal - Coverage Level Ranking is not honoured when displaying plans (feature)",
@@ -512,26 +512,14 @@
    {
     "status": "PR Created",
     "open": 6,
-    "med_age": 10.7,
-    "max_age": 19.3,
+    "med_age": 10.8,
+    "max_age": 19.4,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
     "clear_n": 759
-   },
-   {
-    "status": "In PreProd",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
    },
    {
     "status": "Ready for Stage",
@@ -544,6 +532,18 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 1
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
    },
    {
     "status": "In QA",
