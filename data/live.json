@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T03:32:38Z",
+ "generated": "2026-11-22T04:04:37Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -464,7 +464,7 @@
    {
     "status": "In Development",
     "open": 46,
-    "med_age": 23.6,
+    "med_age": 23.7,
     "max_age": 24.7,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -512,7 +512,7 @@
    {
     "status": "PR Created",
     "open": 6,
-    "med_age": 10.5,
+    "med_age": 10.6,
     "max_age": 19.2,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -520,18 +520,6 @@
     "over": 5,
     "clear_med": 0.0,
     "clear_n": 759
-   },
-   {
-    "status": "Ready for Stage",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 1
    },
    {
     "status": "In PreProd",
@@ -546,18 +534,6 @@
     "clear_n": 25
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 49
-   },
-   {
     "status": "PR Merged",
     "open": 0,
     "med_age": 0,
@@ -568,6 +544,30 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 722
+   },
+   {
+    "status": "Ready for Stage",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 1
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 49
    }
   ],
   "parked": {
