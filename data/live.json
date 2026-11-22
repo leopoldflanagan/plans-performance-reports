@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T04:04:37Z",
+ "generated": "2026-11-22T04:33:11Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -488,7 +488,7 @@
    {
     "status": "Ready for Development",
     "open": 69,
-    "med_age": 1.4,
+    "med_age": 1.5,
     "max_age": 50.4,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
@@ -522,7 +522,7 @@
     "clear_n": 759
    },
    {
-    "status": "In PreProd",
+    "status": "In QA",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -530,20 +530,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.1,
-    "clear_n": 25
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 722
+    "clear_med": 1.8,
+    "clear_n": 49
    },
    {
     "status": "Ready for Stage",
@@ -558,7 +546,7 @@
     "clear_n": 1
    },
    {
-    "status": "In QA",
+    "status": "PR Merged",
     "open": 0,
     "med_age": 0,
     "max_age": 0,
@@ -566,13 +554,25 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 49
+    "clear_med": 0.0,
+    "clear_n": 722
+   },
+   {
+    "status": "In PreProd",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.1,
+    "clear_n": 25
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 78
+   "Backlog": 78,
+   "On Hold": 28
   },
   "open_total": 179,
   "stale": 89,
