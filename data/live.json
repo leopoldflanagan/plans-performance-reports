@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T22:33:01Z",
+ "generated": "2026-11-22T23:03:45Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -516,25 +516,13 @@
     "status": "PR Created",
     "open": 6,
     "med_age": 11.3,
-    "max_age": 19.9,
+    "max_age": 20.0,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
     "worst_who": "Oleksandr Terletskyy",
     "over": 5,
     "clear_med": 0.0,
     "clear_n": 759
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 722
    },
    {
     "status": "In PreProd",
@@ -571,11 +559,23 @@
     "over": 0,
     "clear_med": 1.8,
     "clear_n": 49
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 722
    }
   ],
   "parked": {
-   "On Hold": 28,
-   "Backlog": 78
+   "Backlog": 78,
+   "On Hold": 28
   },
   "open_total": 179,
   "stale": 89,
