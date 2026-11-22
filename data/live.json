@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T12:05:39Z",
+ "generated": "2026-11-22T12:32:51Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -348,7 +348,7 @@
   "completed": 222,
   "scope_change": 42,
   "vs_commitment": 93,
-  "time_elapsed": 94,
+  "time_elapsed": 95,
   "spill": {
    "open_items": 39,
    "open_pts": 114.0,
@@ -512,7 +512,7 @@
    {
     "status": "PR Created",
     "open": 6,
-    "med_age": 10.8,
+    "med_age": 10.9,
     "max_age": 19.5,
     "worst_key": "PLANS-24113",
     "worst_sum": "CSP - Rank is not retained in the CSP > Plan Template UI after saving",
@@ -520,6 +520,30 @@
     "over": 5,
     "clear_med": 0.0,
     "clear_n": 759
+   },
+   {
+    "status": "PR Merged",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.0,
+    "clear_n": 722
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 49
    },
    {
     "status": "Ready for Stage",
@@ -544,35 +568,11 @@
     "over": 0,
     "clear_med": 0.1,
     "clear_n": 25
-   },
-   {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 49
-   },
-   {
-    "status": "PR Merged",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 0.0,
-    "clear_n": 722
    }
   ],
   "parked": {
-   "Backlog": 78,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 78
   },
   "open_total": 179,
   "stale": 89,
