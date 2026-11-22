@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T13:32:29Z",
+ "generated": "2026-11-22T14:03:53Z",
  "team": "PLANS",
  "board": 15,
  "kind": "active",
@@ -464,7 +464,7 @@
    {
     "status": "In Development",
     "open": 46,
-    "med_age": 24.0,
+    "med_age": 24.1,
     "max_age": 25.1,
     "worst_key": "PLANS-24785",
     "worst_sum": "[2.4.W3] Walk the production cutover checklist for the Ambetter site",
@@ -488,7 +488,7 @@
    {
     "status": "Ready for Development",
     "open": 69,
-    "med_age": 1.8,
+    "med_age": 1.9,
     "max_age": 50.8,
     "worst_key": "PLANS-24067",
     "worst_sum": "Single Location Practice's are not honoring the no need for zip code entry for Smile Healt",
@@ -546,18 +546,6 @@
     "clear_n": 722
    },
    {
-    "status": "In QA",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.8,
-    "clear_n": 49
-   },
-   {
     "status": "Ready for Stage",
     "open": 0,
     "med_age": 0,
@@ -568,11 +556,23 @@
     "over": 0,
     "clear_med": 0.0,
     "clear_n": 1
+   },
+   {
+    "status": "In QA",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.8,
+    "clear_n": 49
    }
   ],
   "parked": {
-   "Backlog": 78,
-   "On Hold": 28
+   "On Hold": 28,
+   "Backlog": 78
   },
   "open_total": 179,
   "stale": 89,
